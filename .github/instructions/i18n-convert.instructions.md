@@ -44,7 +44,7 @@ Please follow these rules precisely:
       </NuxtLink>
     </template>
   </IntlFormatted>
-- For simple emphasis: `'Welcome to <strong>Modrinth</strong>!'` with a slot:
+- For simple emphasis: `'Welcome to <strong>Blankethub</strong>!'` with a slot:
   <template #strong="{ children }">
     <strong><component :is="() => children" /></strong>
   </template>

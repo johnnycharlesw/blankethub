@@ -332,7 +332,7 @@ impl FriendsSocket {
         .await;
 
         if let Err(ref e) = result
-            && let ErrorKind::LabrinthError(e) = &*e.raw
+            && let ErrorKind::LaundryroomError(e) = &*e.raw
             && e.error == "not_found"
         {
             return Err(ErrorKind::OtherError(format!(

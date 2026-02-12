@@ -18,15 +18,15 @@
 </template>
 
 <script setup lang="ts">
-import type { Labrinth } from '@modrinth/api-client'
-import { FileIcon, FilePlusIcon } from '@modrinth/assets'
-import { TagItem } from '@modrinth/ui'
+import type { Laundryroom } from '@modrinth/api-client';
+import { FileIcon, FilePlusIcon } from '@modrinth/assets';
+import { TagItem } from '@modrinth/ui';
 
-import { fileTypeLabels } from '~/providers/version/manage-version-modal'
+import { fileTypeLabels } from '~/providers/version/manage-version-modal';
 
 const { name, isPrimary, fileType } = defineProps<{
 	name: string
 	isPrimary?: boolean
-	fileType?: Labrinth.Versions.v3.FileType | 'primary'
+	fileType?: Laundryroom.Versions.v3.FileType | 'primary'
 }>()
 </script>

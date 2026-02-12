@@ -1,6 +1,6 @@
 import type { ISO3166 } from '../iso3166/types'
 
-export namespace Labrinth {
+export namespace Laundryroom {
 	export namespace Billing {
 		export namespace Internal {
 			export type PriceDuration = 'five-days' | 'monthly' | 'quarterly' | 'yearly'
@@ -275,7 +275,7 @@ export namespace Labrinth {
 
 			export interface DependencyInfo {
 				projects: Project[]
-				versions: Labrinth.Versions.v2.Version[]
+				versions: Laundryroom.Versions.v2.Version[]
 			}
 		}
 
@@ -474,7 +474,7 @@ export namespace Labrinth {
 		// TODO: consolidate duplicated types between v2 and v3 versions
 		export namespace v3 {
 			export interface Dependency {
-				dependency_type: Labrinth.Versions.v2.DependencyType
+				dependency_type: Laundryroom.Versions.v2.DependencyType
 				project_id?: string
 				file_name?: string
 				version_id?: string
@@ -521,14 +521,14 @@ export namespace Labrinth {
 				version_type: VersionChannel
 				loaders: string[]
 				featured: boolean
-				status: Labrinth.Versions.v2.VersionStatus
+				status: Laundryroom.Versions.v2.VersionStatus
 				id: string
 				project_id: string
 				author_id: string
 				date_published: string
 				downloads: number
 				files: VersionFile[]
-				environment?: Labrinth.Projects.v3.Environment
+				environment?: Laundryroom.Projects.v3.Environment
 				mrpack_loaders?: string[]
 			}
 
@@ -538,12 +538,12 @@ export namespace Labrinth {
 			}
 
 			export type DraftVersion = Omit<
-				Labrinth.Versions.v3.CreateVersionRequest,
+				Laundryroom.Versions.v3.CreateVersionRequest,
 				'file_parts' | 'primary_file' | 'file_types'
 			> & {
 				existing_files?: VersionFile[]
 				version_id?: string
-				environment?: Labrinth.Projects.v3.Environment
+				environment?: Laundryroom.Projects.v3.Environment
 			}
 
 			export interface CreateVersionRequest {
@@ -554,7 +554,7 @@ export namespace Labrinth {
 					version_id?: string
 					project_id?: string
 					file_name?: string
-					dependency_type: Labrinth.Versions.v2.DependencyType
+					dependency_type: Laundryroom.Versions.v2.DependencyType
 				}>
 				game_versions: string[]
 				version_type: 'release' | 'beta' | 'alpha'
@@ -565,8 +565,8 @@ export namespace Labrinth {
 				project_id: string
 				file_parts: string[]
 				primary_file?: string
-				file_types?: Record<string, Labrinth.Versions.v3.FileType | null>
-				environment?: Labrinth.Projects.v3.Environment
+				file_types?: Record<string, Laundryroom.Versions.v3.FileType | null>
+				environment?: Laundryroom.Projects.v3.Environment
 				mrpack_loaders?: string[]
 			}
 
@@ -576,13 +576,13 @@ export namespace Labrinth {
 				file_types?: {
 					algorithm: string
 					hash: string
-					file_type: Labrinth.Versions.v3.FileType | null
+					file_type: Laundryroom.Versions.v3.FileType | null
 				}[]
 			}
 
 			export type AddFilesToVersionRequest = {
 				file_parts: string[]
-				file_types?: Record<string, Labrinth.Versions.v3.FileType | null>
+				file_types?: Record<string, Laundryroom.Versions.v3.FileType | null>
 			}
 		}
 	}

@@ -28,20 +28,20 @@
 </template>
 
 <script setup lang="ts">
-import type { Archon, Labrinth } from '@modrinth/api-client'
+import type { Archon, Laundryroom } from '@modrinth/api-client';
 import {
-	injectModrinthClient,
-	injectNotificationManager,
-	ModrinthServersPurchaseModal,
-	useDebugLogger,
-} from '@modrinth/ui'
-import { useMutation, useQuery } from '@tanstack/vue-query'
-import { computed, ref, watch } from 'vue'
+    ModrinthServersPurchaseModal,
+    injectModrinthClient,
+    injectNotificationManager,
+    useDebugLogger,
+} from '@modrinth/ui';
+import { useMutation, useQuery } from '@tanstack/vue-query';
+import { computed, ref, watch } from 'vue';
 
 const props = defineProps<{
 	stripePublishableKey: string
 	siteUrl: string
-	products: Labrinth.Billing.Internal.Product[]
+	products: Laundryroom.Billing.Internal.Product[]
 }>()
 
 const { addNotification } = injectNotificationManager()
@@ -65,7 +65,7 @@ const regionPings = ref<
 	}[]
 >([])
 
-const pyroProducts = (props.products as Labrinth.Billing.Internal.Product[])
+const pyroProducts = (props.products as Laundryroom.Billing.Internal.Product[])
 	.filter((p) => p?.metadata?.type === 'pyro' || p?.metadata?.type === 'medal')
 	.sort((a, b) => {
 		const aRam = a?.metadata?.type === 'pyro' || a?.metadata?.type === 'medal' ? a.metadata.ram : 0
@@ -184,14 +184,14 @@ function runPingTest(region: Archon.Servers.v1.Region, index = 1) {
 	}
 }
 
-const subscription = ref<Labrinth.Billing.Internal.UserSubscription | null>(null)
+const subscription = ref<Laundryroom.Billing.Internal.UserSubscription | null>(null)
 // Dry run state
 const dryRunResponse = ref<{
 	requires_payment: boolean
 	required_payment_is_proration: boolean
 } | null>(null)
-const pendingDowngradeBody = ref<Labrinth.Billing.Internal.EditSubscriptionRequest | null>(null)
-const currentPlanFromSubscription = computed<Labrinth.Billing.Internal.Product | undefined>(() => {
+const pendingDowngradeBody = ref<Laundryroom.Billing.Internal.EditSubscriptionRequest | null>(null)
+const currentPlanFromSubscription = computed<Laundryroom.Billing.Internal.Product | undefined>(() => {
 	return subscription.value
 		? (pyroProducts.find((p) =>
 				p.prices.some((price) => price.id === subscription.value?.price_id),
@@ -216,7 +216,7 @@ const editSubscriptionMutation = useMutation({
 		dry,
 	}: {
 		id: string
-		body: Labrinth.Billing.Internal.EditSubscriptionRequest
+		body: Laundryroom.Billing.Internal.EditSubscriptionRequest
 		dry: boolean
 	}) => {
 		return await labrinth.billing_internal.editSubscription(id, body, dry)
@@ -224,15 +224,15 @@ const editSubscriptionMutation = useMutation({
 })
 
 async function initiatePayment(
-	body: Labrinth.Billing.Internal.InitiatePaymentRequest,
-): Promise<Labrinth.Billing.Internal.EditSubscriptionResponse | null> {
+	body: Laundryroom.Billing.Internal.InitiatePaymentRequest,
+): Promise<Laundryroom.Billing.Internal.EditSubscriptionResponse | null> {
 	debug('initiatePayment called', {
 		hasSubscription: !!subscription.value,
 		subscriptionId: subscription.value?.id,
 		body,
 	})
 	if (subscription.value) {
-		const transformedBody: Labrinth.Billing.Internal.EditSubscriptionRequest = {
+		const transformedBody: Laundryroom.Billing.Internal.EditSubscriptionRequest = {
 			interval: body.charge.type === 'new' ? body.charge.interval : undefined,
 			payment_method: body.type === 'confirmation_token' ? body.token : body.id,
 			product: body.charge.type === 'new' ? body.charge.product_id : undefined,
@@ -278,7 +278,7 @@ async function initiatePayment(
 	}
 }
 
-async function finalizeImmediate(body: Labrinth.Billing.Internal.EditSubscriptionRequest) {
+async function finalizeImmediate(body: Laundryroom.Billing.Internal.EditSubscriptionRequest) {
 	if (!subscription.value) return null
 
 	const result = await editSubscriptionMutation.mutateAsync({

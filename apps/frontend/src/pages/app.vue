@@ -1,23 +1,23 @@
 <script setup lang="ts">
 import {
-	BoxIcon,
-	DownloadIcon,
-	EditIcon,
-	FlathubIcon,
-	IssuesIcon,
-	SearchIcon,
-	SendIcon,
-	TrashIcon,
+    BoxIcon,
+    DownloadIcon,
+    EditIcon,
+    FlathubIcon,
+    IssuesIcon,
+    SearchIcon,
+    SendIcon,
+    TrashIcon,
 } from '@modrinth/assets'
 import {
-	Accordion,
-	Avatar,
-	Badge,
-	Checkbox,
-	commonMessages,
-	defineMessages,
-	IntlFormatted,
-	useVIntl,
+    Accordion,
+    Avatar,
+    Badge,
+    Checkbox,
+    IntlFormatted,
+    commonMessages,
+    defineMessages,
+    useVIntl,
 } from '@modrinth/ui'
 
 import ATLauncher from '~/assets/images/external/atlauncher.svg?component'
@@ -912,7 +912,7 @@ useSeoMeta({
 					<div class="description">
 						<IntlFormatted :message-id="messages.openSourceDescription">
 							<template #github-link="{ children }">
-								<a href="https://github.com/modrinth/code" rel="noopener" target="_blank">
+								<a href="https://github.com/johnnycharlesw/blankethub" rel="noopener" target="_blank">
 									<component :is="() => children" />
 								</a>
 							</template>
@@ -1220,7 +1220,7 @@ useSeoMeta({
 					<template #issues-link="{ children }">
 						<a
 							class="underline hover:brightness-[--hover-brightness]"
-							href="https://github.com/modrinth/code/issues/3057"
+							href="https://github.com/johnnycharlesw/blankethub/issues/3057"
 							target="_blank"
 						>
 							<component :is="() => children" />

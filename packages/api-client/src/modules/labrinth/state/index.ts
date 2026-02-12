@@ -1,7 +1,7 @@
 import { AbstractModule } from '../../../core/abstract-module'
-import type { Labrinth } from '../types'
+import type { Laundryroom } from '../types'
 
-export class LabrinthStateModule extends AbstractModule {
+export class LaundryroomStateModule extends AbstractModule {
 	public getModuleID(): string {
 		return 'labrinth_state'
 	}
@@ -17,7 +17,7 @@ export class LabrinthStateModule extends AbstractModule {
 	 * console.log(state.products) // Available billing products
 	 * ```
 	 */
-	public async build(): Promise<Labrinth.State.GeneratedState> {
+	public async build(): Promise<Laundryroom.State.GeneratedState> {
 		const errors: unknown[] = []
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		const handleError = (err: any, defaultValue: any, endpoint: string) => {
@@ -45,28 +45,28 @@ export class LabrinthStateModule extends AbstractModule {
 		] = await Promise.all([
 			// Tag endpoints
 			this.client
-				.request<Labrinth.Tags.v2.Category[]>('/tag/category', {
+				.request<Laundryroom.Tags.v2.Category[]>('/tag/category', {
 					api: 'labrinth',
 					version: 2,
 					method: 'GET',
 				})
 				.catch((err) => handleError(err, [], '/v2/tag/category')),
 			this.client
-				.request<Labrinth.Tags.v2.Loader[]>('/tag/loader', {
+				.request<Laundryroom.Tags.v2.Loader[]>('/tag/loader', {
 					api: 'labrinth',
 					version: 2,
 					method: 'GET',
 				})
 				.catch((err) => handleError(err, [], '/v2/tag/loader')),
 			this.client
-				.request<Labrinth.Tags.v2.GameVersion[]>('/tag/game_version', {
+				.request<Laundryroom.Tags.v2.GameVersion[]>('/tag/game_version', {
 					api: 'labrinth',
 					version: 2,
 					method: 'GET',
 				})
 				.catch((err) => handleError(err, [], '/v2/tag/game_version')),
 			this.client
-				.request<Labrinth.Tags.v2.DonationPlatform[]>('/tag/donation_platform', {
+				.request<Laundryroom.Tags.v2.DonationPlatform[]>('/tag/donation_platform', {
 					api: 'labrinth',
 					version: 2,
 					method: 'GET',
@@ -78,7 +78,7 @@ export class LabrinthStateModule extends AbstractModule {
 
 			// Homepage data
 			this.client
-				.request<Labrinth.Projects.v2.Project[]>('/projects_random', {
+				.request<Laundryroom.Projects.v2.Project[]>('/projects_random', {
 					api: 'labrinth',
 					version: 2,
 					method: 'GET',
@@ -86,21 +86,21 @@ export class LabrinthStateModule extends AbstractModule {
 				})
 				.catch((err) => handleError(err, [], '/v2/projects_random')),
 			this.client
-				.request<Labrinth.Search.v2.SearchResults>('/search', {
+				.request<Laundryroom.Search.v2.SearchResults>('/search', {
 					api: 'labrinth',
 					version: 2,
 					method: 'GET',
 					params: { limit: '3', query: 'leave', index: 'relevance' },
 				})
-				.catch((err) => handleError(err, {} as Labrinth.Search.v2.SearchResults, '/v2/search')),
+				.catch((err) => handleError(err, {} as Laundryroom.Search.v2.SearchResults, '/v2/search')),
 			this.client
-				.request<Labrinth.Search.v2.SearchResults>('/search', {
+				.request<Laundryroom.Search.v2.SearchResults>('/search', {
 					api: 'labrinth',
 					version: 2,
 					method: 'GET',
 					params: { limit: '3', query: '', index: 'updated' },
 				})
-				.catch((err) => handleError(err, {} as Labrinth.Search.v2.SearchResults, '/v2/search')),
+				.catch((err) => handleError(err, {} as Laundryroom.Search.v2.SearchResults, '/v2/search')),
 
 			// Internal billing/mural endpoints
 			this.client.labrinth.billing_internal
@@ -121,7 +121,7 @@ export class LabrinthStateModule extends AbstractModule {
 
 			// Payout methods for tremendous ID mapping
 			this.client
-				.request<Labrinth.State.PayoutMethodInfo[]>('/payout/methods', {
+				.request<Laundryroom.State.PayoutMethodInfo[]>('/payout/methods', {
 					api: 'labrinth',
 					version: 3,
 					method: 'GET',
@@ -139,7 +139,7 @@ export class LabrinthStateModule extends AbstractModule {
 		])
 
 		const tremendousIdMap = Object.fromEntries(
-			(payoutMethods as Labrinth.State.PayoutMethodInfo[])
+			(payoutMethods as Laundryroom.State.PayoutMethodInfo[])
 				.filter((m) => m.type === 'tremendous')
 				.map((m) => [m.id, { name: m.name, image_url: m.image_logo_url }]),
 		)

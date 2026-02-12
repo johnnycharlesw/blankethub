@@ -40,7 +40,7 @@ Key new features include:
 - **Exclusion filters** in search pages
 - Improved support for **vertical desktop displays**
 
-We know there will be some minor hiccups and disruptions of workflows, but we’d really appreciate it if you could gently let us know how a particular change has affected you on GitHub [here](https://github.com/modrinth/code/issues) (or upvote/comment on an existing issue) rather than declaring it’s the end of the world.
+We know there will be some minor hiccups and disruptions of workflows, but we’d really appreciate it if you could gently let us know how a particular change has affected you on GitHub [here](https://github.com/johnnycharlesw/blankethub/issues) (or upvote/comment on an existing issue) rather than declaring it’s the end of the world.
 
 ## New Advertising
 

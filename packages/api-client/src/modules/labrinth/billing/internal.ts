@@ -1,7 +1,7 @@
 import { AbstractModule } from '../../../core/abstract-module'
-import type { Labrinth } from '../types'
+import type { Laundryroom } from '../types'
 
-export class LabrinthBillingInternalModule extends AbstractModule {
+export class LaundryroomBillingInternalModule extends AbstractModule {
 	public getModuleID(): string {
 		return 'labrinth_billing_internal'
 	}
@@ -12,10 +12,10 @@ export class LabrinthBillingInternalModule extends AbstractModule {
 	 */
 	public async getSubscriptions(
 		userId?: string,
-	): Promise<Labrinth.Billing.Internal.UserSubscription[]> {
+	): Promise<Laundryroom.Billing.Internal.UserSubscription[]> {
 		const params = userId ? `?user_id=${userId}` : ''
 
-		return this.client.request<Labrinth.Billing.Internal.UserSubscription[]>(
+		return this.client.request<Laundryroom.Billing.Internal.UserSubscription[]>(
 			`/billing/subscriptions${params}`,
 			{
 				api: 'labrinth',
@@ -29,8 +29,8 @@ export class LabrinthBillingInternalModule extends AbstractModule {
 	 * Get available products for purchase
 	 * GET /_internal/billing/products
 	 */
-	public async getProducts(): Promise<Labrinth.Billing.Internal.Product[]> {
-		return this.client.request<Labrinth.Billing.Internal.Product[]>('/billing/products', {
+	public async getProducts(): Promise<Laundryroom.Billing.Internal.Product[]> {
+		return this.client.request<Laundryroom.Billing.Internal.Product[]>('/billing/products', {
 			api: 'labrinth',
 			version: 'internal',
 			method: 'GET',
@@ -55,12 +55,12 @@ export class LabrinthBillingInternalModule extends AbstractModule {
 	 */
 	public async editSubscription(
 		id: string,
-		edit: Labrinth.Billing.Internal.EditSubscriptionRequest,
+		edit: Laundryroom.Billing.Internal.EditSubscriptionRequest,
 		dry?: boolean,
-	): Promise<Labrinth.Billing.Internal.EditSubscriptionResponse | void> {
+	): Promise<Laundryroom.Billing.Internal.EditSubscriptionResponse | void> {
 		const params = dry ? '?dry=true' : ''
 
-		return this.client.request<Labrinth.Billing.Internal.EditSubscriptionResponse | void>(
+		return this.client.request<Laundryroom.Billing.Internal.EditSubscriptionResponse | void>(
 			`/billing/subscription/${id}${params}`,
 			{
 				api: 'labrinth',
@@ -87,8 +87,8 @@ export class LabrinthBillingInternalModule extends AbstractModule {
 	 * Initiate flow to add a new payment method
 	 * POST /_internal/billing/payment_method
 	 */
-	public async addPaymentMethodFlow(): Promise<Labrinth.Billing.Internal.AddPaymentMethodFlowResponse> {
-		return this.client.request<Labrinth.Billing.Internal.AddPaymentMethodFlowResponse>(
+	public async addPaymentMethodFlow(): Promise<Laundryroom.Billing.Internal.AddPaymentMethodFlowResponse> {
+		return this.client.request<Laundryroom.Billing.Internal.AddPaymentMethodFlowResponse>(
 			'/billing/payment_method',
 			{
 				api: 'labrinth',
@@ -104,7 +104,7 @@ export class LabrinthBillingInternalModule extends AbstractModule {
 	 */
 	public async editPaymentMethod(
 		id: string,
-		body: Labrinth.Billing.Internal.EditPaymentMethodRequest,
+		body: Laundryroom.Billing.Internal.EditPaymentMethodRequest,
 	): Promise<void> {
 		return this.client.request<void>(`/billing/payment_method/${id}`, {
 			api: 'labrinth',
@@ -130,10 +130,10 @@ export class LabrinthBillingInternalModule extends AbstractModule {
 	 * Get payment history (charges)
 	 * GET /_internal/billing/payments
 	 */
-	public async getPayments(userId?: string): Promise<Labrinth.Billing.Internal.Charge[]> {
+	public async getPayments(userId?: string): Promise<Laundryroom.Billing.Internal.Charge[]> {
 		const params = userId ? `?user_id=${userId}` : ''
 
-		return this.client.request<Labrinth.Billing.Internal.Charge[]>(`/billing/payments${params}`, {
+		return this.client.request<Laundryroom.Billing.Internal.Charge[]>(`/billing/payments${params}`, {
 			api: 'labrinth',
 			version: 'internal',
 			method: 'GET',
@@ -145,9 +145,9 @@ export class LabrinthBillingInternalModule extends AbstractModule {
 	 * POST /_internal/billing/payment
 	 */
 	public async initiatePayment(
-		request: Labrinth.Billing.Internal.InitiatePaymentRequest,
-	): Promise<Labrinth.Billing.Internal.InitiatePaymentResponse> {
-		return this.client.request<Labrinth.Billing.Internal.InitiatePaymentResponse>(
+		request: Laundryroom.Billing.Internal.InitiatePaymentRequest,
+	): Promise<Laundryroom.Billing.Internal.InitiatePaymentResponse> {
+		return this.client.request<Laundryroom.Billing.Internal.InitiatePaymentResponse>(
 			'/billing/payment',
 			{
 				api: 'labrinth',
@@ -164,7 +164,7 @@ export class LabrinthBillingInternalModule extends AbstractModule {
 	 */
 	public async refundCharge(
 		id: string,
-		refund: Labrinth.Billing.Internal.RefundChargeRequest,
+		refund: Laundryroom.Billing.Internal.RefundChargeRequest,
 	): Promise<void> {
 		return this.client.request<void>(`/billing/charge/${id}/refund`, {
 			api: 'labrinth',
@@ -178,7 +178,7 @@ export class LabrinthBillingInternalModule extends AbstractModule {
 	 * Credit subscriptions (Admin only)
 	 * POST /_internal/billing/credit
 	 */
-	public async credit(request: Labrinth.Billing.Internal.CreditRequest): Promise<void> {
+	public async credit(request: Laundryroom.Billing.Internal.CreditRequest): Promise<void> {
 		return this.client.request<void>('/billing/credit', {
 			api: 'labrinth',
 			version: 'internal',

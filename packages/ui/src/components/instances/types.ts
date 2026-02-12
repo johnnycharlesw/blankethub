@@ -1,14 +1,14 @@
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import type { RouteLocationRaw } from 'vue-router'
 
 import type { Option as OverflowMenuOption } from '../base/OverflowMenu.vue'
 
 export type ContentCardProject = Pick<
-	Labrinth.Projects.v2.Project,
+	Laundryroom.Projects.v2.Project,
 	'id' | 'slug' | 'title' | 'icon_url'
 >
 
-export type ContentCardVersion = Pick<Labrinth.Versions.v2.Version, 'id' | 'version_number'> & {
+export type ContentCardVersion = Pick<Laundryroom.Versions.v2.Version, 'id' | 'version_number'> & {
 	file_name: string
 }
 
@@ -33,15 +33,15 @@ export interface ContentCardTableItem {
 }
 
 export type ContentModpackCardProject = Pick<
-	Labrinth.Projects.v2.Project,
+	Laundryroom.Projects.v2.Project,
 	'id' | 'slug' | 'title' | 'icon_url' | 'description' | 'downloads' | 'followers'
 >
 
 export type ContentModpackCardVersion = Pick<
-	Labrinth.Versions.v2.Version,
+	Laundryroom.Versions.v2.Version,
 	'id' | 'version_number' | 'date_published'
 >
 
-export type ContentModpackCardCategory = Labrinth.Tags.v2.Category & {
+export type ContentModpackCardCategory = Laundryroom.Tags.v2.Category & {
 	action?: (event: MouseEvent) => void
 }

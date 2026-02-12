@@ -65,17 +65,17 @@
 </template>
 
 <script lang="ts" setup>
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import { SearchIcon } from '@modrinth/assets'
 import { ButtonStyled, Chips, StyledInput } from '@modrinth/ui'
 import { useMagicKeys } from '@vueuse/core'
 import { computed, nextTick, onMounted, ref } from 'vue'
 
-type GameVersion = Labrinth.Tags.v2.GameVersion
+type GameVersion = Laundryroom.Tags.v2.GameVersion
 
 const props = defineProps<{
 	modelValue: string[]
-	gameVersions: Labrinth.Tags.v2.GameVersion[]
+	gameVersions: Laundryroom.Tags.v2.GameVersion[]
 }>()
 
 const emit = defineEmits<{
@@ -213,7 +213,7 @@ function compareGroupKeys(a: string, b: string) {
 	return 0
 }
 
-function searchFilter(gameVersion: Labrinth.Tags.v2.GameVersion) {
+function searchFilter(gameVersion: Laundryroom.Tags.v2.GameVersion) {
 	return gameVersion.version.toLowerCase().includes(searchQuery.value.toLowerCase())
 }
 

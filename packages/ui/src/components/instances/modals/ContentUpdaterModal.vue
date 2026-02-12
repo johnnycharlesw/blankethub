@@ -167,15 +167,15 @@
 </template>
 
 <script setup lang="ts">
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import {
-	DownloadIcon,
-	EyeIcon,
-	EyeOffIcon,
-	FileTextIcon,
-	SearchIcon,
-	TriangleAlertIcon,
-	XIcon,
+    DownloadIcon,
+    EyeIcon,
+    EyeOffIcon,
+    FileTextIcon,
+    SearchIcon,
+    TriangleAlertIcon,
+    XIcon,
 } from '@modrinth/assets'
 import { capitalizeString, renderHighlightedString } from '@modrinth/utils'
 import { computed, ref } from 'vue'
@@ -248,7 +248,7 @@ const messages = defineMessages({
 
 const props = withDefaults(
 	defineProps<{
-		versions: Labrinth.Versions.v2.Version[]
+		versions: Laundryroom.Versions.v2.Version[]
 		currentGameVersion: string
 		currentLoader: string
 		currentVersionId: string
@@ -265,16 +265,16 @@ const props = withDefaults(
 )
 
 const emit = defineEmits<{
-	update: [version: Labrinth.Versions.v2.Version]
+	update: [version: Laundryroom.Versions.v2.Version]
 	cancel: []
 }>()
 
 const modal = ref<InstanceType<typeof NewModal>>()
 const searchQuery = ref('')
 const hideIncompatibleState = ref(true)
-const selectedVersion = ref<Labrinth.Versions.v2.Version | null>(null)
+const selectedVersion = ref<Laundryroom.Versions.v2.Version | null>(null)
 
-function isVersionCompatible(version: Labrinth.Versions.v2.Version): boolean {
+function isVersionCompatible(version: Laundryroom.Versions.v2.Version): boolean {
 	const hasGameVersion = version.game_versions.includes(props.currentGameVersion)
 	const hasLoader = version.loaders.some(
 		(loader) => loader.toLowerCase() === props.currentLoader.toLowerCase(),
@@ -310,13 +310,13 @@ const filteredVersions = computed(() => {
 	return versions
 })
 
-function getBadgeLabel(version: Labrinth.Versions.v2.Version): string {
+function getBadgeLabel(version: Laundryroom.Versions.v2.Version): string {
 	if (version.id === props.currentVersionId) return formatMessage(messages.currentBadge)
 	if (!isVersionCompatible(version)) return formatMessage(messages.incompatibleBadge)
 	return capitalizeString(version.version_type)
 }
 
-function getBadgeClasses(version: Labrinth.Versions.v2.Version): string {
+function getBadgeClasses(version: Laundryroom.Versions.v2.Version): string {
 	// Current badge
 	if (version.id === props.currentVersionId) {
 		return 'bg-surface-4 border-surface-5 text-primary'
@@ -348,7 +348,7 @@ function formatLongDate(dateString: string): string {
 	})
 }
 
-function formatLoaderGameVersion(version: Labrinth.Versions.v2.Version): string {
+function formatLoaderGameVersion(version: Laundryroom.Versions.v2.Version): string {
 	const loader = capitalizeString(version.loaders[0] || '')
 	const gameVersion = version.game_versions[0] || ''
 	return `${loader} ${gameVersion}`

@@ -1,7 +1,7 @@
 import { AbstractModule } from '../../../core/abstract-module'
-import type { Labrinth } from '../types'
+import type { Laundryroom } from '../types'
 
-export class LabrinthProjectsV2Module extends AbstractModule {
+export class LaundryroomProjectsV2Module extends AbstractModule {
 	public getModuleID(): string {
 		return 'labrinth_projects_v2'
 	}
@@ -18,8 +18,8 @@ export class LabrinthProjectsV2Module extends AbstractModule {
 	 * console.log(project.title) // "Sodium"
 	 * ```
 	 */
-	public async get(id: string): Promise<Labrinth.Projects.v2.Project> {
-		return this.client.request<Labrinth.Projects.v2.Project>(`/project/${id}`, {
+	public async get(id: string): Promise<Laundryroom.Projects.v2.Project> {
+		return this.client.request<Laundryroom.Projects.v2.Project>(`/project/${id}`, {
 			api: 'labrinth',
 			version: 2,
 			method: 'GET',
@@ -37,8 +37,8 @@ export class LabrinthProjectsV2Module extends AbstractModule {
 	 * const projects = await client.labrinth.projects_v2.getMultiple(['sodium', 'lithium', 'phosphor'])
 	 * ```
 	 */
-	public async getMultiple(ids: string[]): Promise<Labrinth.Projects.v2.Project[]> {
-		return this.client.request<Labrinth.Projects.v2.Project[]>(`/projects`, {
+	public async getMultiple(ids: string[]): Promise<Laundryroom.Projects.v2.Project[]> {
+		return this.client.request<Laundryroom.Projects.v2.Project[]>(`/projects`, {
 			api: 'labrinth',
 			version: 2,
 			method: 'GET',
@@ -62,9 +62,9 @@ export class LabrinthProjectsV2Module extends AbstractModule {
 	 * ```
 	 */
 	public async search(
-		params: Labrinth.Projects.v2.ProjectSearchParams,
-	): Promise<Labrinth.Projects.v2.SearchResult> {
-		return this.client.request<Labrinth.Projects.v2.SearchResult>(`/search`, {
+		params: Laundryroom.Projects.v2.ProjectSearchParams,
+	): Promise<Laundryroom.Projects.v2.SearchResult> {
+		return this.client.request<Laundryroom.Projects.v2.SearchResult>(`/search`, {
 			api: 'labrinth',
 			version: 2,
 			method: 'GET',
@@ -88,7 +88,7 @@ export class LabrinthProjectsV2Module extends AbstractModule {
 	 * })
 	 * ```
 	 */
-	public async edit(id: string, data: Partial<Labrinth.Projects.v2.Project>): Promise<void> {
+	public async edit(id: string, data: Partial<Laundryroom.Projects.v2.Project>): Promise<void> {
 		return this.client.request(`/project/${id}`, {
 			api: 'labrinth',
 			version: 2,
@@ -128,8 +128,8 @@ export class LabrinthProjectsV2Module extends AbstractModule {
 	 * console.log(deps.versions) // dependent versions
 	 * ```
 	 */
-	public async getDependencies(id: string): Promise<Labrinth.Projects.v2.DependencyInfo> {
-		return this.client.request<Labrinth.Projects.v2.DependencyInfo>(`/project/${id}/dependencies`, {
+	public async getDependencies(id: string): Promise<Laundryroom.Projects.v2.DependencyInfo> {
+		return this.client.request<Laundryroom.Projects.v2.DependencyInfo>(`/project/${id}/dependencies`, {
 			api: 'labrinth',
 			version: 2,
 			method: 'GET',

@@ -1,17 +1,17 @@
 <script setup lang="ts">
-import type { Archon, Labrinth } from '@modrinth/api-client'
+import type { Archon, Laundryroom } from '@modrinth/api-client'
 import {
-	CheckCircleIcon,
-	ChevronRightIcon,
-	LeftArrowIcon,
-	RightArrowIcon,
-	SpinnerIcon,
-	XIcon,
+    CheckCircleIcon,
+    ChevronRightIcon,
+    LeftArrowIcon,
+    RightArrowIcon,
+    SpinnerIcon,
+    XIcon,
 } from '@modrinth/assets'
 import type Stripe from 'stripe'
 import { computed, nextTick, ref, useTemplateRef, watch } from 'vue'
 
-import { defineMessage, type MessageDescriptor, useVIntl } from '../../composables/i18n'
+import { defineMessage, useVIntl, type MessageDescriptor } from '../../composables/i18n'
 import { useStripe } from '../../composables/stripe'
 import { commonMessages } from '../../utils'
 import { ButtonStyled } from '../index'
@@ -40,20 +40,20 @@ const props = defineProps<{
 	currency: string
 	pings: RegionPing[]
 	regions: Archon.Servers.v1.Region[]
-	availableProducts: Labrinth.Billing.Internal.Product[]
+	availableProducts: Laundryroom.Billing.Internal.Product[]
 	planStage?: boolean
-	existingPlan?: Labrinth.Billing.Internal.Product
-	existingSubscription?: Labrinth.Billing.Internal.UserSubscription
+	existingPlan?: Laundryroom.Billing.Internal.Product
+	existingSubscription?: Laundryroom.Billing.Internal.UserSubscription
 	refreshPaymentMethods: () => Promise<void>
 	fetchStock: (
 		region: Archon.Servers.v1.Region,
 		request: Archon.Servers.v0.StockRequest,
 	) => Promise<number>
 	initiatePayment: (
-		body: Labrinth.Billing.Internal.InitiatePaymentRequest,
+		body: Laundryroom.Billing.Internal.InitiatePaymentRequest,
 	) => Promise<
-		| Labrinth.Billing.Internal.InitiatePaymentResponse
-		| Labrinth.Billing.Internal.EditSubscriptionResponse
+		| Laundryroom.Billing.Internal.InitiatePaymentResponse
+		| Laundryroom.Billing.Internal.EditSubscriptionResponse
 		| null
 	>
 	onError: (err: Error) => void
@@ -62,7 +62,7 @@ const props = defineProps<{
 }>()
 
 const modal = useTemplateRef<InstanceType<typeof NewModal>>('modal')
-const selectedPlan = ref<Labrinth.Billing.Internal.Product>()
+const selectedPlan = ref<Laundryroom.Billing.Internal.Product>()
 const selectedInterval = ref<ServerBillingInterval>('quarterly')
 const loading = ref(false)
 const selectedRegion = ref<string>()
@@ -237,7 +237,7 @@ watch(selectedPlan, () => {
 	}
 })
 
-const defaultPlan = computed<Labrinth.Billing.Internal.Product | undefined>(() => {
+const defaultPlan = computed<Laundryroom.Billing.Internal.Product | undefined>(() => {
 	return (
 		props.availableProducts.find((p) => p?.metadata?.type === 'pyro' && p.metadata.ram === 6144) ??
 		props.availableProducts.find((p) => p?.metadata?.type === 'pyro') ??
@@ -247,7 +247,7 @@ const defaultPlan = computed<Labrinth.Billing.Internal.Product | undefined>(() =
 
 function begin(
 	interval: ServerBillingInterval,
-	plan?: Labrinth.Billing.Internal.Product | null,
+	plan?: Laundryroom.Billing.Internal.Product | null,
 	project?: string,
 ) {
 	loading.value = false

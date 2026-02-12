@@ -1,16 +1,16 @@
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import { ClientIcon, getCategoryIcon, getLoaderIcon, ServerIcon } from '@modrinth/assets'
 import { sortedCategories } from '@modrinth/utils'
-import { type Component, computed, readonly, type Ref, ref } from 'vue'
-import { type LocationQueryRaw, type LocationQueryValue, useRoute } from 'vue-router'
+import { computed, readonly, ref, type Component, type Ref } from 'vue'
+import { useRoute, type LocationQueryRaw, type LocationQueryValue } from 'vue-router'
 
 import { defineMessage, useVIntl } from '../composables/i18n'
 import {
-	DEFAULT_MOD_LOADERS,
-	DEFAULT_SHADER_LOADERS,
-	formatCategory,
-	formatCategoryHeader,
-	formatLoader,
+    DEFAULT_MOD_LOADERS,
+    DEFAULT_SHADER_LOADERS,
+    formatCategory,
+    formatCategoryHeader,
+    formatLoader,
 } from './tag-messages.ts'
 
 type BaseOption = {
@@ -77,9 +77,9 @@ const ALL_PROJECT_TYPES: ProjectType[] = [
 ]
 
 export interface Tags {
-	gameVersions: Labrinth.Tags.v2.GameVersion[]
-	loaders: Labrinth.Tags.v2.Loader[]
-	categories: Labrinth.Tags.v2.Category[]
+	gameVersions: Laundryroom.Tags.v2.GameVersion[]
+	loaders: Laundryroom.Tags.v2.Loader[]
+	categories: Laundryroom.Tags.v2.Category[]
 }
 
 export interface SortType {

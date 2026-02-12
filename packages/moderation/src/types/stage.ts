@@ -1,4 +1,4 @@
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import type { FunctionalComponent, SVGAttributes } from 'vue'
 
 import type { Action } from './actions'
@@ -16,8 +16,8 @@ export interface Stage {
 	 * An optional description or additional text for the stage.
 	 */
 	text?: (
-		project: Labrinth.Projects.v2.Project,
-		projectV3?: Labrinth.Projects.v3.Project,
+		project: Laundryroom.Projects.v2.Project,
+		projectV3?: Laundryroom.Projects.v3.Project,
 	) => Promise<string>
 
 	/**
@@ -53,7 +53,7 @@ export interface Stage {
 	 * By default, it returns `true`, meaning the stage is always shown.
 	 */
 	shouldShow?: (
-		project: Labrinth.Projects.v2.Project,
-		projectV3?: Labrinth.Projects.v3.Project,
+		project: Laundryroom.Projects.v2.Project,
+		projectV3?: Laundryroom.Projects.v3.Project,
 	) => boolean
 }

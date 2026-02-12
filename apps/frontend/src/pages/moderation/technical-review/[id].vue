@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import { ArrowLeftIcon, LoaderCircleIcon } from '@modrinth/assets'
 import { ButtonStyled, injectModrinthClient } from '@modrinth/ui'
 import { useQuery, useQueryClient } from '@tanstack/vue-query'
 
 import MaliciousSummaryModal, {
-	type UnsafeFile,
+    type UnsafeFile,
 } from '~/components/ui/moderation/MaliciousSummaryModal.vue'
 import ModerationTechRevCard from '~/components/ui/moderation/ModerationTechRevCard.vue'
 
@@ -188,12 +188,12 @@ const isLoading = computed(
 
 const hasError = computed(() => isReportError.value || isProjectError.value)
 
-type FlattenedFileReport = Labrinth.TechReview.Internal.FileReport & {
+type FlattenedFileReport = Laundryroom.TechReview.Internal.FileReport & {
 	id: string
 	version_id: string
 }
 
-const ownership = computed<Labrinth.TechReview.Internal.Ownership | null>(() => {
+const ownership = computed<Laundryroom.TechReview.Internal.Ownership | null>(() => {
 	if (organizationData.value) {
 		return {
 			kind: 'organization',

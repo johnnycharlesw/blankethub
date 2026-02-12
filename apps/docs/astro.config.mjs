@@ -10,10 +10,10 @@ export default defineConfig({
 			title: 'Modrinth Documentation',
 			favicon: '/favicon.ico',
 			editLink: {
-				baseUrl: 'https://github.com/modrinth/code/edit/main/apps/docs/',
+				baseUrl: 'https://github.com/johnnycharlesw/blankethub/edit/main/apps/docs/',
 			},
 			social: {
-				github: 'https://github.com/modrinth/code',
+				github: 'https://github.com/johnnycharlesw/blankethub',
 				discord: 'https://discord.modrinth.com',
 				'x.com': 'https://x.com/modrinth',
 				mastodon: 'https://floss.social/@modrinth',

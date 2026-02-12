@@ -1,5 +1,5 @@
-name: 👥 Bug with Modrinth Hosting
-description: For issues with a Modrinth Hosting product.
+name: 👥 Bug with Blankethub Hosting
+description: For issues with a Blankethub Hosting product.
 labels: [hosting]
 type: 'bug'
 body:
@@ -7,7 +7,7 @@ body:
     attributes:
       label: Please confirm the following.
       options:
-        - label: I checked the [existing issues](https://github.com/modrinth/code/issues?q=is%3Aissue) for duplicate problems
+        - label: I checked the [existing issues](https://github.com/johnnycharlesw/blankethub/issues?q=is%3Aissue) for duplicate problems
           required: true
         - label: I have tried resolving the issue using the [support portal](https://support.modrinth.com)
           required: true
@@ -16,7 +16,7 @@ body:
     attributes:
       label: Is this an issue in the control panel or with the Minecraft server itself?
       options:
-        - Control panel (on Modrinth.com)
+        - Control panel (on Blankethub.com)
         - Minecraft server
     validations:
       required: true

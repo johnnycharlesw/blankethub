@@ -219,25 +219,25 @@
 	</div>
 </template>
 <script setup lang="ts">
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import { CalendarIcon, DownloadIcon, getLoaderIcon, PlusIcon, StarIcon } from '@modrinth/assets'
 import {
-	AutoLink,
-	ButtonStyled,
-	FormattedTag,
-	Pagination,
-	TagItem,
-	VersionChannelIndicator,
-	VersionFilterControl,
+    AutoLink,
+    ButtonStyled,
+    FormattedTag,
+    Pagination,
+    TagItem,
+    VersionChannelIndicator,
+    VersionFilterControl,
 } from '@modrinth/ui'
 import {
-	formatBytes,
-	formatNumber,
-	formatVersionsForDisplay,
-	type GameVersionTag,
-	type Version,
+    formatBytes,
+    formatNumber,
+    formatVersionsForDisplay,
+    type GameVersionTag,
+    type Version,
 } from '@modrinth/utils'
-import { computed, type Ref, ref } from 'vue'
+import { computed, ref, type Ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 
 import { useRelativeTime } from '../../composables'
@@ -250,7 +250,7 @@ const formatRelativeTime = useRelativeTime()
 
 type VersionWithDisplayUrlEnding = Version & {
 	displayUrlEnding: string
-	environment?: Labrinth.Projects.v3.Environment
+	environment?: Laundryroom.Projects.v3.Environment
 }
 
 const props = withDefaults(
@@ -264,7 +264,7 @@ const props = withDefaults(
 		versions: VersionWithDisplayUrlEnding[]
 		showFiles?: boolean
 		currentMember?: boolean
-		loaders: Labrinth.Tags.v2.Loader[]
+		loaders: Laundryroom.Tags.v2.Loader[]
 		gameVersions: GameVersionTag[]
 		versionLink?: (version: Version) => string
 		openModal?: () => void

@@ -1,4 +1,4 @@
-import { GenericModrinthClient, type Labrinth } from '@modrinth/api-client'
+import { GenericModrinthClient, type Laundryroom } from '@modrinth/api-client'
 import serverSidedVue from '@vitejs/plugin-vue'
 import fs from 'fs/promises'
 import { defineNuxtConfig } from 'nuxt/config'
@@ -125,7 +125,7 @@ export default defineNuxtConfig({
 			// 30 minutes
 			const TTL = 30 * 60 * 1000
 
-			let state: Partial<Labrinth.State.GeneratedState & Record<string, any>> = {}
+			let state: Partial<Laundryroom.State.GeneratedState & Record<string, any>> = {}
 
 			try {
 				state = JSON.parse(await fs.readFile('./src/generated/state.json', 'utf8'))

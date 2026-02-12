@@ -1,4 +1,4 @@
-import type { ISO3166, Labrinth } from '@modrinth/api-client'
+import type { ISO3166, Laundryroom } from '@modrinth/api-client'
 import type { DisplayProjectType } from '@modrinth/utils'
 
 import generatedState from '~/generated/state.json'
@@ -23,7 +23,7 @@ export interface LoaderData {
 export type Country = ISO3166.Country
 export type Subdivision = ISO3166.Subdivision
 
-export interface GeneratedState extends Labrinth.State.GeneratedState {
+export interface GeneratedState extends Laundryroom.State.GeneratedState {
 	// Additional runtime-defined fields not from the API
 	projectTypes: ProjectType[]
 	loaderData: LoaderData
@@ -46,11 +46,11 @@ export interface GeneratedState extends Labrinth.State.GeneratedState {
 export const useGeneratedState = () =>
 	useState<GeneratedState>('generatedState', () => ({
 		// Cast JSON data to typed API responses
-		categories: (generatedState.categories ?? []) as Labrinth.Tags.v2.Category[],
-		loaders: (generatedState.loaders ?? []) as Labrinth.Tags.v2.Loader[],
-		gameVersions: (generatedState.gameVersions ?? []) as Labrinth.Tags.v2.GameVersion[],
+		categories: (generatedState.categories ?? []) as Laundryroom.Tags.v2.Category[],
+		loaders: (generatedState.loaders ?? []) as Laundryroom.Tags.v2.Loader[],
+		gameVersions: (generatedState.gameVersions ?? []) as Laundryroom.Tags.v2.GameVersion[],
 		donationPlatforms: (generatedState.donationPlatforms ??
-			[]) as Labrinth.Tags.v2.DonationPlatform[],
+			[]) as Laundryroom.Tags.v2.DonationPlatform[],
 		reportTypes: (generatedState.reportTypes ?? []) as string[],
 		muralBankDetails: generatedState.muralBankDetails as
 			| Record<string, { bankNames: string[] }>
@@ -117,11 +117,11 @@ export const useGeneratedState = () =>
 		staffRoles: ['moderator', 'admin'],
 
 		homePageProjects: generatedState.homePageProjects as unknown as
-			| Labrinth.Projects.v2.Project[]
+			| Laundryroom.Projects.v2.Project[]
 			| undefined,
-		homePageSearch: generatedState.homePageSearch as Labrinth.Search.v2.SearchResults | undefined,
-		homePageNotifs: generatedState.homePageNotifs as Labrinth.Search.v2.SearchResults | undefined,
-		products: generatedState.products as Labrinth.Billing.Internal.Product[] | undefined,
+		homePageSearch: generatedState.homePageSearch as Laundryroom.Search.v2.SearchResults | undefined,
+		homePageNotifs: generatedState.homePageNotifs as Laundryroom.Search.v2.SearchResults | undefined,
+		products: generatedState.products as Laundryroom.Billing.Internal.Product[] | undefined,
 		taxComplianceThresholds: (generatedState.taxComplianceThresholds ?? {}) as Record<
 			string,
 			number

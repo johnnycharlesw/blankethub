@@ -1,4 +1,4 @@
-name: Modrinth App release
+name: Blankethub App release
 on:
   workflow_dispatch:
     inputs:
@@ -8,13 +8,13 @@ on:
         required: true
       release-notes:
         description: Release notes to include in the Tauri version manifest
-        default: A new release of the Modrinth App is available!
+        default: A new release of the Blankethub App is available!
         type: string
         required: true
 
 jobs:
   release:
-    name: Release Modrinth App
+    name: Release Blankethub App
     runs-on: ubuntu-latest
 
     env:
@@ -24,7 +24,7 @@ jobs:
       LAUNCHER_FILES_BUCKET_BASE_URL: https://launcher-files.modrinth.com
 
     steps:
-      - name: 📥 Download Modrinth App artifacts
+      - name: 📥 Download Blankethub App artifacts
         uses: dawidd6/action-download-artifact@v11
         with:
           workflow: theseus-build.yml
@@ -42,10 +42,10 @@ jobs:
           jq -nc \
             --arg versionTag "${VERSION_TAG#v}" \
             --arg releaseNotes "$RELEASE_NOTES" \
-            --rawfile macOsAarch64UpdateArtifactSignature "${MACOS_UNIVERSAL_BUNDLE_ARTIFACT_NAME}/universal-apple-darwin/release/bundle/macos/Modrinth App.app.tar.gz.sig" \
-            --rawfile macOsX64UpdateArtifactSignature "${MACOS_UNIVERSAL_BUNDLE_ARTIFACT_NAME}/universal-apple-darwin/release/bundle/macos/Modrinth App.app.tar.gz.sig" \
-            --rawfile linuxX64UpdateArtifactSignature "${LINUX_X64_BUNDLE_ARTIFACT_NAME}/release/bundle/appimage/Modrinth App_${VERSION_TAG#v}_amd64.AppImage.tar.gz.sig" \
-            --rawfile windowsX64UpdateArtifactSignature "${WINDOWS_X64_BUNDLE_ARTIFACT_NAME}/release/bundle/nsis/Modrinth App_${VERSION_TAG#v}_x64-setup.nsis.zip.sig" \
+            --rawfile macOsAarch64UpdateArtifactSignature "${MACOS_UNIVERSAL_BUNDLE_ARTIFACT_NAME}/universal-apple-darwin/release/bundle/macos/Blankethub App.app.tar.gz.sig" \
+            --rawfile macOsX64UpdateArtifactSignature "${MACOS_UNIVERSAL_BUNDLE_ARTIFACT_NAME}/universal-apple-darwin/release/bundle/macos/Blankethub App.app.tar.gz.sig" \
+            --rawfile linuxX64UpdateArtifactSignature "${LINUX_X64_BUNDLE_ARTIFACT_NAME}/release/bundle/appimage/Blankethub App_${VERSION_TAG#v}_amd64.AppImage.tar.gz.sig" \
+            --rawfile windowsX64UpdateArtifactSignature "${WINDOWS_X64_BUNDLE_ARTIFACT_NAME}/release/bundle/nsis/Blankethub App_${VERSION_TAG#v}_x64-setup.nsis.zip.sig" \
           '{
             "version": $versionTag,
             "notes": $releaseNotes,
@@ -53,27 +53,27 @@ jobs:
             "platforms": {
               "darwin-aarch64": {
                 "signature": $macOsAarch64UpdateArtifactSignature,
-                "url": @uri "${{ env.LAUNCHER_FILES_BUCKET_BASE_URL }}/versions/\($versionTag)/macos/\("Modrinth App.app.tar.gz")",
-                "install_urls": [@uri "${{ env.LAUNCHER_FILES_BUCKET_BASE_URL }}/versions/\($versionTag)/macos/\("Modrinth App_" + $versionTag + "_universal.dmg")"]
+                "url": @uri "${{ env.LAUNCHER_FILES_BUCKET_BASE_URL }}/versions/\($versionTag)/macos/\("Blankethub App.app.tar.gz")",
+                "install_urls": [@uri "${{ env.LAUNCHER_FILES_BUCKET_BASE_URL }}/versions/\($versionTag)/macos/\("Blankethub App_" + $versionTag + "_universal.dmg")"]
               },
               "darwin-x86_64": {
                 "signature": $macOsX64UpdateArtifactSignature,
-                "url": @uri "${{ env.LAUNCHER_FILES_BUCKET_BASE_URL }}/versions/\($versionTag)/macos/\("Modrinth App.app.tar.gz")",
-                "install_urls": [@uri "${{ env.LAUNCHER_FILES_BUCKET_BASE_URL }}/versions/\($versionTag)/macos/\("Modrinth App_" + $versionTag + "_universal.dmg")"]
+                "url": @uri "${{ env.LAUNCHER_FILES_BUCKET_BASE_URL }}/versions/\($versionTag)/macos/\("Blankethub App.app.tar.gz")",
+                "install_urls": [@uri "${{ env.LAUNCHER_FILES_BUCKET_BASE_URL }}/versions/\($versionTag)/macos/\("Blankethub App_" + $versionTag + "_universal.dmg")"]
               },
               "linux-x86_64": {
                 "signature": $linuxX64UpdateArtifactSignature,
-                "url": @uri "${{ env.LAUNCHER_FILES_BUCKET_BASE_URL }}/versions/\($versionTag)/linux/\("Modrinth App_" + $versionTag + "_amd64.AppImage.tar.gz")",
+                "url": @uri "${{ env.LAUNCHER_FILES_BUCKET_BASE_URL }}/versions/\($versionTag)/linux/\("Blankethub App_" + $versionTag + "_amd64.AppImage.tar.gz")",
                 "install_urls": [
-                  @uri "${{ env.LAUNCHER_FILES_BUCKET_BASE_URL }}/versions/\($versionTag)/linux/\("Modrinth App_" + $versionTag + "_amd64.deb")",
-                  @uri "${{ env.LAUNCHER_FILES_BUCKET_BASE_URL }}/versions/\($versionTag)/linux/\("Modrinth App_" + $versionTag + "_amd64.AppImage")",
-                  @uri "${{ env.LAUNCHER_FILES_BUCKET_BASE_URL }}/versions/\($versionTag)/linux/\("Modrinth App-" + $versionTag + "-1.x86_64.rpm")"
+                  @uri "${{ env.LAUNCHER_FILES_BUCKET_BASE_URL }}/versions/\($versionTag)/linux/\("Blankethub App_" + $versionTag + "_amd64.deb")",
+                  @uri "${{ env.LAUNCHER_FILES_BUCKET_BASE_URL }}/versions/\($versionTag)/linux/\("Blankethub App_" + $versionTag + "_amd64.AppImage")",
+                  @uri "${{ env.LAUNCHER_FILES_BUCKET_BASE_URL }}/versions/\($versionTag)/linux/\("Blankethub App-" + $versionTag + "-1.x86_64.rpm")"
                 ]
               },
               "windows-x86_64": {
                 "signature": $windowsX64UpdateArtifactSignature,
-                "url": @uri "${{ env.LAUNCHER_FILES_BUCKET_BASE_URL }}/versions/\($versionTag)/windows/\("Modrinth App_" + $versionTag + "_x64-setup.nsis.zip")",
-                "install_urls": [@uri "${{ env.LAUNCHER_FILES_BUCKET_BASE_URL }}/versions/\($versionTag)/windows/\("Modrinth App_" + $versionTag + "_x64-setup.exe")"]
+                "url": @uri "${{ env.LAUNCHER_FILES_BUCKET_BASE_URL }}/versions/\($versionTag)/windows/\("Blankethub App_" + $versionTag + "_x64-setup.nsis.zip")",
+                "install_urls": [@uri "${{ env.LAUNCHER_FILES_BUCKET_BASE_URL }}/versions/\($versionTag)/windows/\("Blankethub App_" + $versionTag + "_x64-setup.exe")"]
               }
             }
           }' > updates.json

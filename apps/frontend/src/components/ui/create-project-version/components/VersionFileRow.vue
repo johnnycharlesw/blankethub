@@ -65,15 +65,15 @@
 </template>
 
 <script setup lang="ts">
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import { ArrowLeftRightIcon, CheckIcon, XIcon } from '@modrinth/assets'
 import { ButtonStyled, Combobox, injectProjectPageContext } from '@modrinth/ui'
 import type { ComboboxOption } from '@modrinth/ui/src/components/base/Combobox.vue'
 import { acceptFileFromProjectType } from '@modrinth/utils'
 
 import {
-	fileTypeLabels,
-	injectManageVersionContext,
+    fileTypeLabels,
+    injectManageVersionContext,
 } from '~/providers/version/manage-version-modal'
 
 const { projectV2 } = injectProjectPageContext()
@@ -81,18 +81,18 @@ const { projectType } = injectManageVersionContext()
 
 const emit = defineEmits<{
 	(e: 'setPrimaryFile', file?: File): void
-	(e: 'setFileType', type: Labrinth.Versions.v3.FileType): void
+	(e: 'setFileType', type: Laundryroom.Versions.v3.FileType): void
 }>()
 
 const { name, isPrimary, onRemove, initialFileType, editingVersion } = defineProps<{
 	name: string
 	isPrimary: boolean
 	onRemove?: () => void
-	initialFileType?: Labrinth.Versions.v3.FileType | 'primary'
+	initialFileType?: Laundryroom.Versions.v3.FileType | 'primary'
 	editingVersion: boolean
 }>()
 
-const selectedType = ref<Labrinth.Versions.v3.FileType | 'primary'>(initialFileType || 'unknown')
+const selectedType = ref<Laundryroom.Versions.v3.FileType | 'primary'>(initialFileType || 'unknown')
 const primaryFileInput = ref<HTMLInputElement>()
 
 const isDatapackProject = computed(() => projectType.value === 'datapack')
@@ -116,7 +116,7 @@ const versionTypes = computed(
 			{ class: 'text-sm', value: 'dev-jar', label: fileTypeLabels['dev-jar'] },
 			{ class: 'text-sm', value: 'javadoc-jar', label: fileTypeLabels['javadoc-jar'] },
 			{ class: 'text-sm', value: 'signature', label: fileTypeLabels.signature },
-		].filter(Boolean) as ComboboxOption<Labrinth.Versions.v3.FileType | 'primary'>[],
+		].filter(Boolean) as ComboboxOption<Laundryroom.Versions.v3.FileType | 'primary'>[],
 )
 
 function emitFileTypeChange() {

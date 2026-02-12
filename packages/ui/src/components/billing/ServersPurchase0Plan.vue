@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import { formatPrice } from '@modrinth/utils'
 import { computed, provide } from 'vue'
 
@@ -12,14 +12,14 @@ import type { ServerBillingInterval } from './ModrinthServersPurchaseModal.vue'
 const { formatMessage, locale } = useVIntl()
 
 const props = defineProps<{
-	availableProducts: Labrinth.Billing.Internal.Product[]
+	availableProducts: Laundryroom.Billing.Internal.Product[]
 	currency: string
-	existingPlan?: Labrinth.Billing.Internal.Product
+	existingPlan?: Laundryroom.Billing.Internal.Product
 }>()
 
 const availableBillingIntervals = ['monthly', 'quarterly']
 
-const selectedPlan = defineModel<Labrinth.Billing.Internal.Product>('plan')
+const selectedPlan = defineModel<Laundryroom.Billing.Internal.Product>('plan')
 const selectedInterval = defineModel<ServerBillingInterval>('interval')
 const emit = defineEmits<{
 	(e: 'choose-custom'): void
@@ -79,7 +79,7 @@ const isSameAsExistingPlan = computed(() => {
 const plansByRam = computed(() => {
 	const byName: Record<
 		'small' | 'medium' | 'large',
-		Labrinth.Billing.Internal.Product | undefined
+		Laundryroom.Billing.Internal.Product | undefined
 	> = {
 		small: undefined,
 		medium: undefined,
@@ -98,7 +98,7 @@ function handleCustomPlan() {
 	emit('choose-custom')
 }
 
-function pricePerMonth(plan?: Labrinth.Billing.Internal.Product) {
+function pricePerMonth(plan?: Laundryroom.Billing.Internal.Product) {
 	if (!plan || !selectedInterval.value) return undefined
 	const total = getPriceForInterval(plan, props.currency, selectedInterval.value)
 	if (!total) return undefined

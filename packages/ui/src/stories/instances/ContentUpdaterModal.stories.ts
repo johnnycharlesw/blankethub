@@ -1,4 +1,4 @@
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import type { Meta, StoryObj } from '@storybook/vue3-vite'
 import { fn } from 'storybook/test'
 import { ref } from 'vue'
@@ -7,7 +7,7 @@ import ButtonStyled from '../../components/base/ButtonStyled.vue'
 import ContentUpdaterModal from '../../components/instances/modals/ContentUpdaterModal.vue'
 
 // Real version data from Modrinth API - Sodium (mod)
-const sodiumVersions: Labrinth.Versions.v2.Version[] = [
+const sodiumVersions: Laundryroom.Versions.v2.Version[] = [
 	{
 		id: '59wygFUQ',
 		project_id: 'AANobbMI',
@@ -118,7 +118,7 @@ const sodiumVersions: Labrinth.Versions.v2.Version[] = [
 ]
 
 // Real version data from Modrinth API - Cobblemon modpack
-const cobblemonVersions: Labrinth.Versions.v2.Version[] = [
+const cobblemonVersions: Laundryroom.Versions.v2.Version[] = [
 	{
 		id: 'DbQNxSJ0',
 		project_id: '5FFgwNNP',
@@ -269,7 +269,7 @@ export const ModExample: Story = {
 		setup() {
 			const modalRef = ref<InstanceType<typeof ContentUpdaterModal> | null>(null)
 			const openModal = () => modalRef.value?.show()
-			const handleUpdate = (version: Labrinth.Versions.v2.Version) => {
+			const handleUpdate = (version: Laundryroom.Versions.v2.Version) => {
 				console.log('Update to version:', version)
 				alert(`Updating to ${version.name}`)
 			}
@@ -310,7 +310,7 @@ export const ModpackExample: Story = {
 		setup() {
 			const modalRef = ref<InstanceType<typeof ContentUpdaterModal> | null>(null)
 			const openModal = () => modalRef.value?.show()
-			const handleUpdate = (version: Labrinth.Versions.v2.Version) => {
+			const handleUpdate = (version: Laundryroom.Versions.v2.Version) => {
 				console.log('Update to version:', version)
 				alert(`Updating to ${version.name}`)
 			}

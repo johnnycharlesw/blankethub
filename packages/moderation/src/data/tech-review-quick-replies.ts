@@ -1,11 +1,11 @@
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 
 import type { QuickReply } from '../types/quick-reply'
 
 export interface TechReviewContext {
-	project: Labrinth.Projects.v3.Project
-	project_owner: Labrinth.TechReview.Internal.Ownership
-	reports: Labrinth.TechReview.Internal.FileReport[]
+	project: Laundryroom.Projects.v3.Project
+	project_owner: Laundryroom.TechReview.Internal.Ownership
+	reports: Laundryroom.TechReview.Internal.FileReport[]
 }
 
 export default [

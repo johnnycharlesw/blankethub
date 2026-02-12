@@ -5,7 +5,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-c78aff?style=for-the-badge)](https://www.typescriptlang.org/)
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-c78aff?style=for-the-badge)](LICENSE)
 
-A flexible, type-safe API client for Modrinth's APIs (Labrinth, Kyros & Archon). Works across Node.js, browsers, Nuxt, and Tauri with a feature system for authentication, retries, circuit breaking and other custom processing of requests and responses.
+A flexible, type-safe API client for Modrinth's APIs (Laundryroom, Kyros & Archon). Works across Node.js, browsers, Nuxt, and Tauri with a feature system for authentication, retries, circuit breaking and other custom processing of requests and responses.
 
 ## Installation
 
@@ -88,7 +88,7 @@ const project = await client.request('/project/sodium', { api: 'labrinth', versi
 
 By default, the client uses the production base URLs:
 
-- `labrinthBaseUrl`: `https://api.modrinth.com/` (Labrinth API)
+- `labrinthBaseUrl`: `https://api.modrinth.com/` (Laundryroom API)
 - `archonBaseUrl`: `https://archon.modrinth.com/` (Archon/Servers API)
 
 You can override these for staging environments or custom instances:

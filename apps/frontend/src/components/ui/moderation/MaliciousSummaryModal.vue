@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import { ClipboardCopyIcon, DownloadIcon, LoaderCircleIcon, XIcon } from '@modrinth/assets'
 import { ButtonStyled, CopyCode, NewModal, useDebugLogger } from '@modrinth/ui'
 import { ref, useTemplateRef } from 'vue'
 
 export type UnsafeFile = {
-	file: Labrinth.TechReview.Internal.FileReport & { version_id: string }
+	file: Laundryroom.TechReview.Internal.FileReport & { version_id: string }
 	projectName: string
 	projectId: string
 	userId: string

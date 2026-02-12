@@ -1,6 +1,6 @@
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 
-export function getProductDisplayName(product: Labrinth.Billing.Internal.Product): string {
+export function getProductDisplayName(product: Laundryroom.Billing.Internal.Product): string {
 	const { metadata } = product
 
 	if (metadata.type === 'pyro') {
@@ -16,7 +16,7 @@ export function getProductDisplayName(product: Labrinth.Billing.Internal.Product
 	return 'Unknown Product'
 }
 
-export function getProductDescription(product: Labrinth.Billing.Internal.Product): string {
+export function getProductDescription(product: Laundryroom.Billing.Internal.Product): string {
 	const { metadata } = product
 
 	if (metadata.type === 'pyro') {
@@ -31,9 +31,9 @@ export function getProductDescription(product: Labrinth.Billing.Internal.Product
 }
 
 export function getPriceForInterval(
-	product: Labrinth.Billing.Internal.Product,
+	product: Laundryroom.Billing.Internal.Product,
 	currency: string,
-	interval: Labrinth.Billing.Internal.PriceDuration,
+	interval: Laundryroom.Billing.Internal.PriceDuration,
 ): number | undefined {
 	const productPrice = product.prices.find((x) => x.currency_code === currency)
 	if (!productPrice) return undefined

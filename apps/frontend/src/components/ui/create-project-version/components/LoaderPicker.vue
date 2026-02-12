@@ -39,14 +39,14 @@
 </template>
 
 <script lang="ts" setup>
-import type { Labrinth } from '@modrinth/api-client'
-import { getLoaderIcon } from '@modrinth/assets'
-import { Chips, FormattedTag, TagItem } from '@modrinth/ui'
+import type { Laundryroom } from '@modrinth/api-client';
+import { getLoaderIcon } from '@modrinth/assets';
+import { Chips, FormattedTag, TagItem } from '@modrinth/ui';
 
 const selectedLoaders = defineModel<string[]>({ default: [] })
 
 const { loaders } = defineProps<{
-	loaders: Labrinth.Tags.v2.Loader[]
+	loaders: Laundryroom.Tags.v2.Loader[]
 	toggleLoader: (loader: string) => void
 }>()
 
@@ -56,8 +56,8 @@ type GroupLabels = 'mods' | 'plugins' | 'packs' | 'shaders' | 'other'
 
 const groupLabels: GroupLabels[] = ['mods', 'plugins', 'packs', 'shaders']
 
-function groupLoaders(loaders: Labrinth.Tags.v2.Loader[]) {
-	const groups: Record<GroupLabels, Labrinth.Tags.v2.Loader[]> = {
+function groupLoaders(loaders: Laundryroom.Tags.v2.Loader[]) {
+	const groups: Record<GroupLabels, Laundryroom.Tags.v2.Loader[]> = {
 		mods: [],
 		plugins: [],
 		packs: [],

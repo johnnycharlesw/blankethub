@@ -29,23 +29,23 @@ You don't need to know how to program to contribute to Modrinth. Quality assuran
 
 If you wish to contribute code to a specific project, here's the place to start. Most of Modrinth is written in the [Rust language](https://www.rust-lang.org), but some things are written in other languages/frameworks like [Nuxt.js](https://nuxtjs.org) or Java.
 
-Most of Modrinth's code is in our monorepo, which you can find [here](https://github.com/modrinth/code). Our monorepo is powered by [Turborepo](https://turborepo.org).
+Most of Modrinth's code is in our monorepo, which you can find [here](https://github.com/johnnycharlesw/blankethub). Our monorepo is powered by [Turborepo](https://turborepo.org).
 
 Follow the project-specific instructions below to get started:
 
 - [Knossos (frontend)](/contributing/knossos)
 - [Theseus (Modrinth App)](/contributing/theseus)
 - [Minotaur (Gradle plugin)](/contributing/minotaur)
-- [Labrinth (API/backend)](/contributing/labrinth)
+- [Laundryroom (API/backend)](/contributing/labrinth)
 - [Daedalus (Metadata service)](/contributing/daedalus)
 - [Docs (Developer/Contributor Documentation)](/contributing/docs)
 
 [Discord]: https://discord.modrinth.com
 [GitHub]: https://github.com/modrinth
-[knossos]: https://github.com/modrinth/code/tree/main/apps/frontend
+[knossos]: https://github.com/johnnycharlesw/blankethub/tree/main/apps/frontend
 [labrinth]: https://github.com/modrinth/labrinth
 [theseus]: https://github.com/modrinth/theseus
 [minotaur]: https://github.com/modrinth/minotaur
-[docs]: https://github.com/modrinth/code/tree/main/apps/docs
+[docs]: https://github.com/johnnycharlesw/blankethub/tree/main/apps/docs
 [Rust]: https://www.rust-lang.org/tools/install
 [pnpm]: https://pnpm.io

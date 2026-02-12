@@ -23,19 +23,19 @@
 </template>
 
 <script setup lang="ts">
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client';
 
-import { injectManageVersionContext } from '~/providers/version/manage-version-modal'
+import { injectManageVersionContext } from '~/providers/version/manage-version-modal';
 
-import SuggestedDependency from './SuggestedDependency.vue'
+import SuggestedDependency from './SuggestedDependency.vue';
 
 const { visibleSuggestedDependencies } = injectManageVersionContext()
 
 const emit = defineEmits<{
-	(e: 'onAddSuggestion', dependency: Labrinth.Versions.v3.Dependency): void
+	(e: 'onAddSuggestion', dependency: Laundryroom.Versions.v3.Dependency): void
 }>()
 
-function handleAddSuggestion(dependency: Labrinth.Versions.v3.Dependency) {
+function handleAddSuggestion(dependency: Laundryroom.Versions.v3.Dependency) {
 	emit('onAddSuggestion', dependency)
 }
 </script>

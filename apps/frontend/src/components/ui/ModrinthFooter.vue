@@ -1,14 +1,14 @@
 <script setup lang="ts">
 import { BlueskyIcon, DiscordIcon, GithubIcon, MastodonIcon, TwitterIcon } from '@modrinth/assets'
 import {
-	AutoLink,
-	ButtonStyled,
-	defineMessage,
-	defineMessages,
-	injectNotificationManager,
-	IntlFormatted,
-	type MessageDescriptor,
-	useVIntl,
+    AutoLink,
+    ButtonStyled,
+    IntlFormatted,
+    defineMessage,
+    defineMessages,
+    injectNotificationManager,
+    useVIntl,
+    type MessageDescriptor,
 } from '@modrinth/ui'
 
 import TextLogo from '~/components/brand/TextLogo.vue'
@@ -141,7 +141,7 @@ const footerLinks: {
 				}),
 			},
 			{
-				href: 'https://github.com/modrinth/code/issues',
+				href: 'https://github.com/johnnycharlesw/blankethub/issues',
 				label: defineMessage({
 					id: 'layout.footer.resources.report-issues',
 					defaultMessage: 'Report issues',
@@ -263,7 +263,7 @@ function developerModeIncrement() {
 							<IntlFormatted :message-id="messages.openSource">
 								<template #github-link="{ children }">
 									<a
-										href="https://github.com/modrinth/code"
+										href="https://github.com/johnnycharlesw/blankethub"
 										class="text-brand hover:underline"
 										target="_blank"
 										rel="noopener"

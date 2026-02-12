@@ -1,18 +1,18 @@
 <script setup lang="ts">
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import { InfoIcon } from '@modrinth/assets'
 import { formatPrice } from '@modrinth/utils'
 import { Menu } from 'floating-vue'
 import { computed, inject, type Ref } from 'vue'
 
-import { type MessageDescriptor, useVIntl } from '../../composables/i18n'
+import { useVIntl, type MessageDescriptor } from '../../composables/i18n'
 import { getPriceForInterval, monthsInInterval } from '../../utils/product-utils'
 import type { ServerBillingInterval } from './ModrinthServersPurchaseModal.vue'
 import ServersSpecs from './ServersSpecs.vue'
 
 const props = withDefaults(
 	defineProps<{
-		plan: Labrinth.Billing.Internal.Product
+		plan: Laundryroom.Billing.Internal.Product
 		title: MessageDescriptor
 		description: MessageDescriptor
 		buttonColor?: 'standard' | 'brand' | 'red' | 'orange' | 'green' | 'blue' | 'purple'
@@ -27,7 +27,7 @@ const props = withDefaults(
 )
 
 const emit = defineEmits<{
-	(e: 'select', plan: Labrinth.Billing.Internal.Product): void
+	(e: 'select', plan: Laundryroom.Billing.Internal.Product): void
 }>()
 
 const { formatMessage, locale } = useVIntl()

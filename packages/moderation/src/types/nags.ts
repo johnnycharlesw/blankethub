@@ -1,4 +1,4 @@
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import type { MessageDescriptor } from '@modrinth/ui'
 import type { FunctionalComponent, SVGAttributes } from 'vue'
 
@@ -20,15 +20,15 @@ export interface NagContext {
 	/**
 	 * The project associated with the nag.
 	 */
-	project: Labrinth.Projects.v2.Project
+	project: Laundryroom.Projects.v2.Project
 	/**
 	 * The versions associated with the project.
 	 */
-	versions: Labrinth.Versions.v2.Version[]
+	versions: Laundryroom.Versions.v2.Version[]
 	/**
 	 * The current project member viewing the nag.
 	 */
-	currentMember: Labrinth.Users.v2.User
+	currentMember: Laundryroom.Users.v2.User
 	/**
 	 * The current route in the application.
 	 */

@@ -1,9 +1,9 @@
 ---
-title: Labrinth (API)
+title: Laundryroom (API)
 description: Guide for contributing to Modrinth's backend
 ---
 
-This project is part of our [monorepo](https://github.com/modrinth/code). You can find it in the `apps/labrinth` directory. The instructions below assume that you have switched your working directory to the `apps/labrinth` subdirectory.
+This project is part of our [monorepo](https://github.com/johnnycharlesw/blankethub). You can find it in the `apps/labrinth` directory. The instructions below assume that you have switched your working directory to the `apps/labrinth` subdirectory.
 
 [labrinth] is the Rust-based backend serving Modrinth's API with the help of the [Actix](https://actix.rs) framework. To get started with a labrinth instance, install docker, docker-compose (which comes with Docker), cmake, and [Rust]. The initial startup can be done simply with the command `docker-compose up`, or with `docker compose up` (Compose V2 and later). That will deploy a PostgreSQL database on port 5432, a MeiliSearch instance on port 7700, and a [Mailpit](https://mailpit.axllent.org/) SMTP server on port 1025, with a web UI to inspect sent emails on port 8025. To run the API itself, you'll need to use the `cargo run` command, this will deploy the API on port 8000.
 
@@ -101,5 +101,5 @@ If you're prepared to contribute by submitting a pull request, ensure you have m
 
 [Discord]: https://discord.modrinth.com
 [GitHub]: https://github.com/modrinth
-[labrinth]: https://github.com/modrinth/code/tree/main/apps/labrinth
+[labrinth]: https://github.com/johnnycharlesw/blankethub/tree/main/apps/labrinth
 [Rust]: https://www.rust-lang.org/tools/install

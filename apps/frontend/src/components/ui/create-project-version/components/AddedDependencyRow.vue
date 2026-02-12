@@ -34,9 +34,9 @@
 </template>
 
 <script setup lang="ts">
-import type { Labrinth } from '@modrinth/api-client'
-import { XIcon } from '@modrinth/assets'
-import { Avatar, ButtonStyled, TagItem } from '@modrinth/ui'
+import type { Laundryroom } from '@modrinth/api-client';
+import { XIcon } from '@modrinth/assets';
+import { Avatar, ButtonStyled, TagItem } from '@modrinth/ui';
 
 const emit = defineEmits<{
 	(e: 'fileTypeChange', type: string): void
@@ -47,7 +47,7 @@ const { projectId, name, icon, dependencyType, versionName, hideRemove } = defin
 	projectId: string
 	name?: string
 	icon?: string
-	dependencyType: Labrinth.Versions.v2.DependencyType
+	dependencyType: Laundryroom.Versions.v2.DependencyType
 	versionName?: string
 	hideRemove?: boolean
 }>()

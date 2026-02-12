@@ -169,7 +169,7 @@
 </template>
 
 <script setup lang="ts">
-import { type Archon, type Labrinth, NuxtModrinthClient } from '@modrinth/api-client'
+import { NuxtModrinthClient, type Archon, type Laundryroom } from '@modrinth/api-client'
 import { HammerIcon, LoaderCircleIcon, PlusIcon, SearchIcon } from '@modrinth/assets'
 import { AutoLink, ButtonStyled, CopyCode, injectModrinthClient, StyledInput } from '@modrinth/ui'
 import type { ModrinthServersFetchError } from '@modrinth/utils'
@@ -187,7 +187,7 @@ import ServerListing from '../../../components/servers/ServerListing.vue'
 defineProps<{
 	stripePublishableKey?: string
 	siteUrl?: string
-	products?: Labrinth.Billing.Internal.Product[]
+	products?: Laundryroom.Billing.Internal.Product[]
 }>()
 
 const router = useRouter()

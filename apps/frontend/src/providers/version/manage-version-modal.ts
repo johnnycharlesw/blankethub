@@ -1,14 +1,14 @@
-import type { Labrinth, UploadProgress } from '@modrinth/api-client'
+import type { Laundryroom, UploadProgress } from '@modrinth/api-client'
 import { SaveIcon, SpinnerIcon } from '@modrinth/assets'
 import {
-	createContext,
-	injectModrinthClient,
-	injectNotificationManager,
-	injectProjectPageContext,
-	type MultiStageModal,
-	resolveCtxFn,
-	type StageButtonConfig,
-	type StageConfigInput,
+    createContext,
+    injectModrinthClient,
+    injectNotificationManager,
+    injectProjectPageContext,
+    resolveCtxFn,
+    type MultiStageModal,
+    type StageButtonConfig,
+    type StageConfigInput,
 } from '@modrinth/ui'
 import JSZip from 'jszip'
 import type { ComputedRef, Ref, ShallowRef } from 'vue'
@@ -26,11 +26,11 @@ export interface InferredVersionInfo {
 	version_type?: 'alpha' | 'beta' | 'release'
 	loaders?: string[]
 	game_versions?: string[]
-	project_type?: Labrinth.Projects.v2.ProjectType
-	environment?: Labrinth.Projects.v3.Environment
+	project_type?: Laundryroom.Projects.v2.ProjectType
+	environment?: Laundryroom.Projects.v3.Environment
 }
 
-const EMPTY_DRAFT_VERSION: Labrinth.Versions.v3.DraftVersion = {
+const EMPTY_DRAFT_VERSION: Laundryroom.Versions.v3.DraftVersion = {
 	project_id: '',
 	name: '',
 	version_number: '',
@@ -55,7 +55,7 @@ export type VersionStage =
 	| 'from-details-mc-versions'
 	| 'from-details-environment'
 
-export type SuggestedDependency = Labrinth.Versions.v3.Dependency & {
+export type SuggestedDependency = Laundryroom.Versions.v3.Dependency & {
 	name?: string
 	icon?: string
 	versionName?: string
@@ -69,13 +69,13 @@ export interface PrimaryFile {
 
 export interface ManageVersionContextValue {
 	// State
-	draftVersion: Ref<Labrinth.Versions.v3.DraftVersion>
-	filesToAdd: Ref<Labrinth.Versions.v3.DraftVersionFile[]>
-	existingFilesToDelete: Ref<Labrinth.Versions.v3.VersionFileHash['sha1'][]>
+	draftVersion: Ref<Laundryroom.Versions.v3.DraftVersion>
+	filesToAdd: Ref<Laundryroom.Versions.v3.DraftVersionFile[]>
+	existingFilesToDelete: Ref<Laundryroom.Versions.v3.VersionFileHash['sha1'][]>
 	inferredVersionData: Ref<InferredVersionInfo | undefined>
-	projectType: Ref<Labrinth.Projects.v2.ProjectType | undefined>
-	dependencyProjects: Ref<Record<string, Labrinth.Projects.v3.Project>>
-	dependencyVersions: Ref<Record<string, Labrinth.Versions.v3.Version>>
+	projectType: Ref<Laundryroom.Projects.v2.ProjectType | undefined>
+	dependencyProjects: Ref<Record<string, Laundryroom.Projects.v3.Project>>
+	dependencyVersions: Ref<Record<string, Laundryroom.Versions.v3.Version>>
 	projectsFetchLoading: Ref<boolean>
 	handlingNewFiles: Ref<boolean>
 	suggestedDependencies: Ref<SuggestedDependency[] | null>
@@ -99,12 +99,12 @@ export interface ManageVersionContextValue {
 	saveButtonConfig: () => StageButtonConfig
 
 	// Version methods
-	newDraftVersion: (projectId: string, version?: Labrinth.Versions.v3.DraftVersion | null) => void
+	newDraftVersion: (projectId: string, version?: Laundryroom.Versions.v3.DraftVersion | null) => void
 	handleNewFiles: (newFiles: File[]) => Promise<void>
 	swapPrimaryFile: (index: number) => void
 	replacePrimaryFile: (file: File) => Promise<void>
-	getProject: (projectId: string) => Promise<Labrinth.Projects.v3.Project>
-	getVersion: (versionId: string) => Promise<Labrinth.Versions.v3.Version>
+	getProject: (projectId: string) => Promise<Laundryroom.Projects.v3.Project>
+	getVersion: (versionId: string) => Promise<Laundryroom.Versions.v3.Version>
 
 	// Submission methods
 	handleCreateVersion: () => Promise<void>
@@ -146,7 +146,7 @@ const PROJECT_TYPE_LOADERS: Record<string, readonly string[]> = {
 	modpack: ['mrpack'],
 } as const
 
-export const fileTypeLabels: Record<Labrinth.Versions.v3.FileType | 'primary', string> = {
+export const fileTypeLabels: Record<Laundryroom.Versions.v3.FileType | 'primary', string> = {
 	primary: 'Primary',
 	unknown: 'Other',
 	'required-resource-pack': 'Required RP',
@@ -169,13 +169,13 @@ export function createManageVersionContext(
 	const { invalidate, projectV2 } = injectProjectPageContext()
 
 	// State
-	const draftVersion = ref<Labrinth.Versions.v3.DraftVersion>(structuredClone(EMPTY_DRAFT_VERSION))
-	const filesToAdd = ref<Labrinth.Versions.v3.DraftVersionFile[]>([])
-	const existingFilesToDelete = ref<Labrinth.Versions.v3.VersionFileHash['sha1'][]>([])
+	const draftVersion = ref<Laundryroom.Versions.v3.DraftVersion>(structuredClone(EMPTY_DRAFT_VERSION))
+	const filesToAdd = ref<Laundryroom.Versions.v3.DraftVersionFile[]>([])
+	const existingFilesToDelete = ref<Laundryroom.Versions.v3.VersionFileHash['sha1'][]>([])
 	const handlingNewFiles = ref(false)
 	const inferredVersionData = ref<InferredVersionInfo>()
-	const dependencyProjects = ref<Record<string, Labrinth.Projects.v3.Project>>({})
-	const dependencyVersions = ref<Record<string, Labrinth.Versions.v3.Version>>({})
+	const dependencyProjects = ref<Record<string, Laundryroom.Projects.v3.Project>>({})
+	const dependencyVersions = ref<Record<string, Laundryroom.Versions.v3.Version>>({})
 	const projectsFetchLoading = ref(false)
 	const suggestedDependencies = ref<SuggestedDependency[] | null>(null)
 
@@ -183,7 +183,7 @@ export function createManageVersionContext(
 	const isUploading = ref(false)
 	const uploadProgress = ref<UploadProgress>({ loaded: 0, total: 0, progress: 0 })
 
-	const projectType = computed<Labrinth.Projects.v2.ProjectType>(() => {
+	const projectType = computed<Laundryroom.Projects.v2.ProjectType>(() => {
 		const primaryFile = filesToAdd.value[0]?.file
 		if (
 			(primaryFile && primaryFile.name.toLowerCase().endsWith('.mrpack')) ||
@@ -247,7 +247,7 @@ export function createManageVersionContext(
 	// Version management methods
 	function newDraftVersion(
 		projectId: string,
-		version: Labrinth.Versions.v3.DraftVersion | null = null,
+		version: Laundryroom.Versions.v3.DraftVersion | null = null,
 	) {
 		draftVersion.value = structuredClone(version ?? EMPTY_DRAFT_VERSION)
 		draftVersion.value.project_id = projectId
@@ -382,7 +382,7 @@ export function createManageVersionContext(
 	async function inferEnvironmentFromVersions(
 		projectId: string,
 		loaders: string[],
-	): Promise<Labrinth.Projects.v3.Environment | undefined> {
+	): Promise<Laundryroom.Projects.v3.Environment | undefined> {
 		try {
 			const versions = await labrinth.versions_v3.getProjectVersions(projectId, {
 				loaders,
@@ -401,7 +401,7 @@ export function createManageVersionContext(
 
 	async function setInferredVersionData(
 		file: File,
-		project: Labrinth.Projects.v2.Project,
+		project: Laundryroom.Projects.v2.Project,
 	): Promise<InferredVersionInfo> {
 		const inferred = (await inferVersionInfo(
 			file,
@@ -503,7 +503,7 @@ export function createManageVersionContext(
 
 		try {
 			const inferredData = await setInferredVersionData(primaryFileData, projectV2.value)
-			const mappedInferredData: Partial<Labrinth.Versions.v3.DraftVersion> = {
+			const mappedInferredData: Partial<Laundryroom.Versions.v3.DraftVersion> = {
 				...inferredData,
 				name: inferredData.name || '',
 			}
@@ -691,7 +691,7 @@ export function createManageVersionContext(
 		try {
 			if (!version.version_id) throw new Error('Version ID is required to save edits.')
 
-			const data: Labrinth.Versions.v3.ModifyVersionRequest = {
+			const data: Laundryroom.Versions.v3.ModifyVersionRequest = {
 				name: version.name || version.version_number,
 				version_number: version.version_number,
 				changelog: version.changelog,

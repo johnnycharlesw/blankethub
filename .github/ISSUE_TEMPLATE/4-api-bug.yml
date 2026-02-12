@@ -1,5 +1,5 @@
-name: 🛠 Bug with Modrinth API
-description: For issues with the Modrinth API for developers.
+name: 🛠 Bug with Blankethub API
+description: For issues with the Blankethub API for developers.
 labels: [api, backend]
 type: 'bug'
 body:
@@ -7,7 +7,7 @@ body:
     attributes:
       label: Please confirm the following.
       options:
-        - label: I checked the [existing issues](https://github.com/modrinth/code/issues?q=is%3Aissue) for duplicate problems
+        - label: I checked the [existing issues](https://github.com/johnnycharlesw/blankethub/issues?q=is%3Aissue) for duplicate problems
           required: true
         - label: I have tried resolving the issue using the [support portal](https://support.modrinth.com)
           required: true

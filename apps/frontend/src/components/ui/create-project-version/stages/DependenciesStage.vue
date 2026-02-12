@@ -68,12 +68,12 @@
 </template>
 
 <script lang="ts" setup>
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import {
-	ButtonStyled,
-	Combobox,
-	injectModrinthClient,
-	injectNotificationManager,
+    ButtonStyled,
+    Combobox,
+    injectModrinthClient,
+    injectNotificationManager,
 } from '@modrinth/ui'
 import type { ComboboxOption } from '@modrinth/ui/src/components/base/Combobox.vue'
 
@@ -103,7 +103,7 @@ const errorNotification = (err: any) => {
 }
 
 const newDependencyProjectId = ref<string>()
-const newDependencyType = ref<Labrinth.Versions.v2.DependencyType>('required')
+const newDependencyType = ref<Laundryroom.Versions.v2.DependencyType>('required')
 const newDependencyVersionId = ref<string | null>(null)
 
 const newDependencyVersions = ref<ComboboxOption<string>[]>([])
@@ -149,7 +149,7 @@ const addedDependencies = computed(() =>
 		.filter(Boolean),
 )
 
-const addDependency = (dependency: Labrinth.Versions.v3.Dependency) => {
+const addDependency = (dependency: Laundryroom.Versions.v3.Dependency) => {
 	if (!draftVersion.value.dependencies) draftVersion.value.dependencies = []
 
 	const alreadyAdded = draftVersion.value.dependencies.some((existing) => {
@@ -172,7 +172,7 @@ const addDependency = (dependency: Labrinth.Versions.v3.Dependency) => {
 	newDependencyProjectId.value = undefined
 }
 
-const handleAddSuggestedDependency = (dependency: Labrinth.Versions.v3.Dependency) => {
+const handleAddSuggestedDependency = (dependency: Laundryroom.Versions.v3.Dependency) => {
 	draftVersion.value.dependencies?.push({
 		project_id: dependency.project_id,
 		version_id: dependency.version_id,

@@ -242,7 +242,7 @@ pub async fn fetch_advanced(
                 {
                     let backup_error = resp.error_for_status_ref().unwrap_err();
                     if let Ok(error) = resp.json().await {
-                        return Err(ErrorKind::LabrinthError(error).into());
+                        return Err(ErrorKind::LaundryroomError(error).into());
                     }
                     return Err(backup_error.into());
                 }

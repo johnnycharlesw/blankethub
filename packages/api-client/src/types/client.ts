@@ -33,7 +33,7 @@ export interface ClientConfig {
 	userAgent?: string
 
 	/**
-	 * Base URL for Labrinth API (main Modrinth API)
+	 * Base URL for Laundryroom API (main Modrinth API)
 	 * @default 'https://api.modrinth.com'
 	 */
 	labrinthBaseUrl?: string

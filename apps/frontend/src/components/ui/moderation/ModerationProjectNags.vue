@@ -78,19 +78,19 @@
 </template>
 
 <script setup lang="ts">
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import {
-	AsteriskIcon,
-	ChevronRightIcon,
-	DropdownIcon,
-	LightBulbIcon,
-	ScaleIcon,
-	SendIcon,
-	TriangleAlertIcon,
+    AsteriskIcon,
+    ChevronRightIcon,
+    DropdownIcon,
+    LightBulbIcon,
+    ScaleIcon,
+    SendIcon,
+    TriangleAlertIcon,
 } from '@modrinth/assets'
 import type { Nag, NagContext, NagStatus } from '@modrinth/moderation'
 import { nags } from '@modrinth/moderation'
-import { ButtonStyled, defineMessages, type MessageDescriptor, useVIntl } from '@modrinth/ui'
+import { ButtonStyled, defineMessages, useVIntl, type MessageDescriptor } from '@modrinth/ui'
 import type { Component } from 'vue'
 import { computed } from 'vue'
 
@@ -99,9 +99,9 @@ interface Tags {
 }
 
 interface Props {
-	project: Labrinth.Projects.v2.Project
-	versions?: Labrinth.Versions.v2.Version[]
-	currentMember?: Labrinth.Projects.v3.TeamMember | null
+	project: Laundryroom.Projects.v2.Project
+	versions?: Laundryroom.Versions.v2.Version[]
+	currentMember?: Laundryroom.Projects.v3.TeamMember | null
 	collapsed?: boolean
 	routeName?: string
 	tags: Tags
@@ -173,7 +173,7 @@ const emit = defineEmits<{
 const nagContext = computed<NagContext>(() => ({
 	project: props.project,
 	versions: props.versions,
-	currentMember: props.currentMember?.user as Labrinth.Users.v2.User,
+	currentMember: props.currentMember?.user as Laundryroom.Users.v2.User,
 	currentRoute: props.routeName,
 	tags: props.tags,
 	submitProject: submitForReview,

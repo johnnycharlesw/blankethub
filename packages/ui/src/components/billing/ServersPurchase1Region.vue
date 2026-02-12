@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Archon, Labrinth } from '@modrinth/api-client'
+import type { Archon, Laundryroom } from '@modrinth/api-client'
 import { InfoIcon, SpinnerIcon, XIcon } from '@modrinth/assets'
 import { computed, onMounted, ref, watch } from 'vue'
 
@@ -26,12 +26,12 @@ const props = defineProps<{
 	custom: boolean
 	currency: string
 	interval: ServerBillingInterval
-	availableProducts: Labrinth.Billing.Internal.Product[]
+	availableProducts: Laundryroom.Billing.Internal.Product[]
 }>()
 
 const loading = ref(true)
 const checkingCustomStock = ref(false)
-const selectedPlan = defineModel<Labrinth.Billing.Internal.Product>('plan')
+const selectedPlan = defineModel<Laundryroom.Billing.Internal.Product>('plan')
 const selectedRegion = defineModel<string>('region')
 
 const selectedPrice = computed(() => {
@@ -182,7 +182,7 @@ async function updateStock() {
 	currentStock.value = {}
 
 	const getStockRequest = (
-		product: Labrinth.Billing.Internal.Product,
+		product: Laundryroom.Billing.Internal.Product,
 	): Archon.Servers.v0.StockRequest => {
 		const metadata = product.metadata
 		if (metadata.type === 'pyro' || metadata.type === 'medal') {

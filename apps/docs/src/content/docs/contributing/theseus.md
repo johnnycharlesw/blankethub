@@ -3,7 +3,7 @@ title: Theseus (Modrinth App)
 description: Guide for contributing to Modrinth's desktop app
 ---
 
-This project is part of our [monorepo](https://github.com/modrinth/code). You can find it in the `apps/app` directory.
+This project is part of our [monorepo](https://github.com/johnnycharlesw/blankethub). You can find it in the `apps/app` directory.
 
 [theseus] is the Tauri-based launcher that lets users conveniently play any mod or modpack on Modrinth. It uses the Rust-based Tauri as the backend and Vue.js as the frontend. To get started, install [pnpm], [Rust], and the [Tauri prerequisites](https://v2.tauri.app/start/prerequisites/) for your system. Then, run the following commands:
 
@@ -39,6 +39,6 @@ If you're prepared to contribute by submitting a pull request, ensure you have m
 - Run `cargo clippy` to validate Rust-related code.
 - Run `cargo sqlx prepare --package theseus` if you've changed any SQL code to validate statements.
 
-[theseus]: https://github.com/modrinth/code/tree/main/apps/app
+[theseus]: https://github.com/johnnycharlesw/blankethub/tree/main/apps/app
 [Rust]: https://www.rust-lang.org/tools/install
 [pnpm]: https://pnpm.io

@@ -9,7 +9,7 @@ use tracing_error::InstrumentError;
 
 #[derive(Serialize, Deserialize, Debug, Display)]
 #[display("{description}")]
-pub struct LabrinthError {
+pub struct LaundryroomError {
     pub error: String,
     pub description: String,
 }
@@ -69,7 +69,7 @@ pub enum ErrorKind {
     ApiIsDownError,
 
     #[error("{0}")]
-    LabrinthError(LabrinthError),
+    LaundryroomError(LaundryroomError),
 
     #[error("Websocket error: {0}")]
     WSError(#[from] async_tungstenite::tungstenite::Error),

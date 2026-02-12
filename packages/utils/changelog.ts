@@ -620,20 +620,20 @@ const VERSIONS: VersionEntry[] = [
   - Updates will now be downloaded in the background to make a seamless updating experience.
   - When an update is downloaded, it will prompt you to reload the app.
   - If a metered internet connection is detected, it will ask you before downloading the update.
-- Fixed how transparency is handled on the skins page. (Contributed by [Jerozgen](https://github.com/modrinth/code/pull/4373))
+- Fixed how transparency is handled on the skins page. (Contributed by [Jerozgen](https://github.com/johnnycharlesw/blankethub/pull/4373))
 - Removed the 'Advanced' toggle in the Instance creation interface.
 - Improved version selection when installing content.
 	- Installing versions from the Discover content page will now install a version according to your filters, rather than simply the latest.
 	- Dependencies will now download with the same logic as the content being installed.
 	- Non-mod projects and dependencies will now be installed properly.
-- Fixed window dragging issues with the top bar. (Contributed by [aervxa](https://github.com/modrinth/code/pull/4218))
+- Fixed window dragging issues with the top bar. (Contributed by [aervxa](https://github.com/johnnycharlesw/blankethub/pull/4218))
 - Fixed an empty servers.dat file being created when one doesn't already exist, preventing certain mods from providing defaults.
 - Fixed long creator names overflowing on project pages.
 - Strings in Markdown descriptions that look like domain names or IP addresses will no longer automatically be converted to links, such as \`README.md\`.
 - When adding friends, unknown users will now show an error.
 - Pressing 'Enter' after typing in a friend's username will now send the friend request.
 - Improved error handling from Modrinth API.
-- Fixed the white flash when the app is opened on certain systems. (Contributed by [aervxa](https://github.com/modrinth/code/pull/4177))`,
+- Fixed the white flash when the app is opened on certain systems. (Contributed by [aervxa](https://github.com/johnnycharlesw/blankethub/pull/4177))`,
 	},
 	{
 		date: `2025-09-25T19:15:00-07:00`,
@@ -841,16 +841,16 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-08-01T21:30:00-04:00`,
 		product: 'web',
 		body: `### Improvements
-- Fixed issues with the newsletter subscription checkbox & buttons on news pages. ([#4072](https://github.com/modrinth/code/pull/4072), [#4073](https://github.com/modrinth/code/pull/4073))
-- You can now access the "Moderation" tab on project pages again even if your project is approved. ([#4067](https://github.com/modrinth/code/pull/4067))
-- Fixed issues with collection visibility. ([#4070](https://github.com/modrinth/code/pull/4070))
-- Fixed text issue on collection icon upload dropdown. ([#4069](https://github.com/modrinth/code/pull/4069))`,
+- Fixed issues with the newsletter subscription checkbox & buttons on news pages. ([#4072](https://github.com/johnnycharlesw/blankethub/pull/4072), [#4073](https://github.com/johnnycharlesw/blankethub/pull/4073))
+- You can now access the "Moderation" tab on project pages again even if your project is approved. ([#4067](https://github.com/johnnycharlesw/blankethub/pull/4067))
+- Fixed issues with collection visibility. ([#4070](https://github.com/johnnycharlesw/blankethub/pull/4070))
+- Fixed text issue on collection icon upload dropdown. ([#4069](https://github.com/johnnycharlesw/blankethub/pull/4069))`,
 	},
 	{
 		date: `2025-08-01T21:30:00-04:00`,
 		product: 'hosting',
 		body: `### Improvements
-- Server status information is now correctly displayed in the 'My Servers' page. ([#4071](https://github.com/modrinth/code/pull/4071))
+- Server status information is now correctly displayed in the 'My Servers' page. ([#4071](https://github.com/johnnycharlesw/blankethub/pull/4071))
 - Fixed an error with displaying startup settings.
 - Improved ratelimit error message.`,
 	},
@@ -1060,9 +1060,9 @@ const VERSIONS: VersionEntry[] = [
 		product: 'web',
 		body: `### Improvements
 - Creator analytics charts will now show up to 15 projects in a tooltip instead of 5.
-- Made certain scrollable containers not have a fixed height, and allow them to be smaller if they have fewer items. (Contributed by [Erb3](https://github.com/modrinth/code/pull/2898))
-- Made organizations sort consistently alphabetically. (Contributed by [WorldWidePixel](https://github.com/modrinth/code/pull/3755))
-- Clarified the 'File too large' error message when uploading an image larger than 1MiB in the text editor. (Contributed by [IThundxr](https://github.com/modrinth/code/pull/3774))`,
+- Made certain scrollable containers not have a fixed height, and allow them to be smaller if they have fewer items. (Contributed by [Erb3](https://github.com/johnnycharlesw/blankethub/pull/2898))
+- Made organizations sort consistently alphabetically. (Contributed by [WorldWidePixel](https://github.com/johnnycharlesw/blankethub/pull/3755))
+- Clarified the 'File too large' error message when uploading an image larger than 1MiB in the text editor. (Contributed by [IThundxr](https://github.com/johnnycharlesw/blankethub/pull/3774))`,
 	},
 	{
 		date: `2025-06-03T14:35:00-07:00`,
@@ -1091,12 +1091,12 @@ const VERSIONS: VersionEntry[] = [
 		product: 'web',
 		body: `### Improvements
 - Fixed game version and loader selection when editing a version only showing up to 6 selected items, making it frustrating to remove a specific version.
-- Fixed organization URLs being case sensitive. (Contributed by [IMB11](https://github.com/modrinth/code/pull/3621))
-- Fixed notifications not loading sometimes. (Contributed by [IMB11](https://github.com/modrinth/code/pull/3624))
-- Fixed marking all notifications as read. (Contributed by [IMB11](https://github.com/modrinth/code/pull/3624))
-- Fixed relative time sometimes having poor rounding, and sometimes showing future dates unexpectedly. (Contributed by [IMB11](https://github.com/modrinth/code/pull/3612))
-- Fixed localized pricing not showing in some cases for Modrinth+. (Contributed by [IMB11](https://github.com/modrinth/code/pull/3623))
-- Fixed Modrinth changelog page link back to the full changelog not being clickable sometimes. (Contributed by [ThatGravyBoat](https://github.com/modrinth/code/pull/3593))
+- Fixed organization URLs being case sensitive. (Contributed by [IMB11](https://github.com/johnnycharlesw/blankethub/pull/3621))
+- Fixed notifications not loading sometimes. (Contributed by [IMB11](https://github.com/johnnycharlesw/blankethub/pull/3624))
+- Fixed marking all notifications as read. (Contributed by [IMB11](https://github.com/johnnycharlesw/blankethub/pull/3624))
+- Fixed relative time sometimes having poor rounding, and sometimes showing future dates unexpectedly. (Contributed by [IMB11](https://github.com/johnnycharlesw/blankethub/pull/3612))
+- Fixed localized pricing not showing in some cases for Modrinth+. (Contributed by [IMB11](https://github.com/johnnycharlesw/blankethub/pull/3623))
+- Fixed Modrinth changelog page link back to the full changelog not being clickable sometimes. (Contributed by [ThatGravyBoat](https://github.com/johnnycharlesw/blankethub/pull/3593))
 - Fixed analytics 'Views' tab not having the updated display for 'Other' regions.`,
 	},
 	{
@@ -1327,16 +1327,16 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-02-21T13:30:00-08:00`,
 		product: 'web',
 		body: `### Improvements
-- Collections are now sorted by creation date. (Contributed by [worldwidepixel](https://github.com/modrinth/code/pull/3286))
-- Collections are no longer required to have summaries. (Contributed by [Erb3](https://github.com/modrinth/code/pull/3281))
+- Collections are now sorted by creation date. (Contributed by [worldwidepixel](https://github.com/johnnycharlesw/blankethub/pull/3286))
+- Collections are no longer required to have summaries. (Contributed by [Erb3](https://github.com/johnnycharlesw/blankethub/pull/3281))
 - Fixed padding issue on revenue page.
-- Fixed last modified date on Rewards Program Info page. (Contributed by [IMB11](https://github.com/modrinth/code/pull/3287))`,
+- Fixed last modified date on Rewards Program Info page. (Contributed by [IMB11](https://github.com/johnnycharlesw/blankethub/pull/3287))`,
 	},
 	{
 		date: `2025-02-20T18:15:00-08:00`,
 		product: 'web',
 		body: `### Improvements
-- Revenue page has been updated to more clearly display pending revenue and when it will be available to withdraw. (Contributed by [IMB11](https://github.com/modrinth/code/pull/3250))
+- Revenue page has been updated to more clearly display pending revenue and when it will be available to withdraw. (Contributed by [IMB11](https://github.com/johnnycharlesw/blankethub/pull/3250))
 - Footer will now be forced to the bottom of the page on short pages.
 - Styling fixes to moderation checklist proof form.`,
 	},
@@ -1417,7 +1417,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-02-10T14:00:00-08:00`,
 		product: 'web',
 		body: `### Improvements
-- The license selector in project settings has been updated to make selecting a license a clearer process. (Contributed by [Erb3](https://github.com/modrinth/code/pull/3225))`,
+- The license selector in project settings has been updated to make selecting a license a clearer process. (Contributed by [Erb3](https://github.com/johnnycharlesw/blankethub/pull/3225))`,
 	},
 	{
 		date: `2025-02-10T08:00:00-08:00`,
@@ -1468,7 +1468,7 @@ const VERSIONS: VersionEntry[] = [
   - "This month" which refers to the current calendar month (Jan 1st - Jan 28th, currently)
   - "Last month" which refers to the previous calendar month (currently, Dec 1st thru Dec 31st)
 
-Contributed by [IMB11](https://github.com/modrinth/code/pull/1301).`,
+Contributed by [IMB11](https://github.com/johnnycharlesw/blankethub/pull/1301).`,
 	},
 	{
 		date: `2025-01-10T09:00:00-08:00`,
@@ -1497,8 +1497,8 @@ Contributed by [IMB11](https://github.com/modrinth/code/pull/1301).`,
 		date: `2025-01-10T09:00:00-08:00`,
 		product: 'web',
 		body: `### Improvements
-- Tags on project pages are now clickable to view other projects with that tag (Contributed by [Neddo](https://github.com/modrinth/code/pull/3126))
-- You can now send someone a link to the download interface with a specific version and loader selected, like so: https://modrinth.com/mod/sodium?version=1.21.2&loader=quilt#download (Contributed by [AwakenedRedstone](https://github.com/modrinth/code/pull/3138))`,
+- Tags on project pages are now clickable to view other projects with that tag (Contributed by [Neddo](https://github.com/johnnycharlesw/blankethub/pull/3126))
+- You can now send someone a link to the download interface with a specific version and loader selected, like so: https://modrinth.com/mod/sodium?version=1.21.2&loader=quilt#download (Contributed by [AwakenedRedstone](https://github.com/johnnycharlesw/blankethub/pull/3138))`,
 	},
 	{
 		date: `2024-12-26T22:05:00-08:00`,

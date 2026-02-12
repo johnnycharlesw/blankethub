@@ -1,4 +1,4 @@
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 
 import { useServerModrinthClient } from '~/server/utils/api-client'
 
@@ -8,7 +8,7 @@ export default defineCachedEventHandler(
 	async (event) => {
 		const client = useServerModrinthClient({ event })
 
-		const response = await client.request<Labrinth.Tags.v2.GameVersion[]>('/tag/game_version', {
+		const response = await client.request<Laundryroom.Tags.v2.GameVersion[]>('/tag/game_version', {
 			api: 'labrinth',
 			version: 2,
 			method: 'GET',

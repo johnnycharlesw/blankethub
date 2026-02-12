@@ -1,4 +1,4 @@
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 
 export interface ModerationActions {
 	tryGoNext: () => void
@@ -44,7 +44,7 @@ export interface ModerationState {
 }
 
 export interface ModerationContext {
-	project: Labrinth.Projects.v2.Project
+	project: Laundryroom.Projects.v2.Project
 	state: ModerationState
 	actions: ModerationActions
 }

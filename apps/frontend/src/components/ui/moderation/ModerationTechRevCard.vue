@@ -1,39 +1,39 @@
 <script setup lang="ts">
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import {
-	BugIcon,
-	CheckCircleIcon,
-	CheckIcon,
-	ChevronDownIcon,
-	ClipboardCopyIcon,
-	CodeIcon,
-	CopyIcon,
-	DownloadIcon,
-	EllipsisVerticalIcon,
-	LinkIcon,
-	LoaderCircleIcon,
-	ShieldCheckIcon,
-	TimerIcon,
-	TriangleAlertIcon,
+    BugIcon,
+    CheckCircleIcon,
+    CheckIcon,
+    ChevronDownIcon,
+    ClipboardCopyIcon,
+    CodeIcon,
+    CopyIcon,
+    DownloadIcon,
+    EllipsisVerticalIcon,
+    LinkIcon,
+    LoaderCircleIcon,
+    ShieldCheckIcon,
+    TimerIcon,
+    TriangleAlertIcon,
 } from '@modrinth/assets'
-import { type TechReviewContext, techReviewQuickReplies } from '@modrinth/moderation'
+import { techReviewQuickReplies, type TechReviewContext } from '@modrinth/moderation'
 import {
-	Avatar,
-	ButtonStyled,
-	Collapsible,
-	CollapsibleRegion,
-	getProjectTypeIcon,
-	injectModrinthClient,
-	injectNotificationManager,
-	OverflowMenu,
-	type OverflowMenuOption,
+    Avatar,
+    ButtonStyled,
+    Collapsible,
+    CollapsibleRegion,
+    getProjectTypeIcon,
+    injectModrinthClient,
+    injectNotificationManager,
+    OverflowMenu,
+    type OverflowMenuOption,
 } from '@modrinth/ui'
 import {
-	capitalizeString,
-	formatProjectType,
-	highlightCodeLines,
-	type ThreadMessage,
-	type User,
+    capitalizeString,
+    formatProjectType,
+    highlightCodeLines,
+    type ThreadMessage,
+    type User,
 } from '@modrinth/utils'
 import dayjs from 'dayjs'
 import { computed, reactive, ref, watch } from 'vue'
@@ -45,7 +45,7 @@ import ThreadView from '~/components/ui/thread/ThreadView.vue'
 const auth = await useAuth()
 const featureFlags = useFeatureFlags()
 
-type FlattenedFileReport = Labrinth.TechReview.Internal.FileReport & {
+type FlattenedFileReport = Laundryroomoom.TechReview.Internal.FileReport & {
 	id: string
 	version_id: string
 }
@@ -64,9 +64,9 @@ interface FileDecisions {
 
 const props = defineProps<{
 	item: {
-		project: Labrinth.Projects.v3.Project
-		project_owner: Labrinth.TechReview.Internal.Ownership
-		thread: Labrinth.TechReview.Internal.Thread
+		project: Laundryroomoom.Projects.v3.Project
+		project_owner: Laundryroomoom.TechReview.Internal.Ownership
+		thread: Laundryroomoom.TechReview.Internal.Thread
 		reports: FlattenedFileReport[]
 	}
 	loadingIssues: Set<string>
@@ -166,11 +166,11 @@ const updatingDetails = reactive<Set<string>>(new Set())
 
 function getFileHighestSeverity(
 	file: FlattenedFileReport,
-): Labrinth.TechReview.Internal.DelphiSeverity {
+): Laundryroomoom.TechReview.Internal.DelphiSeverity {
 	const severities = file.issues
 		.flatMap((i) => i.details ?? [])
 		.map((d) => d.severity)
-		.filter((s): s is Labrinth.TechReview.Internal.DelphiSeverity => !!s)
+		.filter((s): s is Laundryroomoom.TechReview.Internal.DelphiSeverity => !!s)
 
 	return severities.sort((a, b) => (severityOrder[b] ?? 0) - (severityOrder[a] ?? 0))[0] || 'low'
 }
@@ -197,7 +197,7 @@ const highestSeverity = computed(() => {
 		.flatMap((r) => r.issues ?? [])
 		.flatMap((i) => i.details ?? [])
 		.map((d) => d.severity)
-		.filter((s): s is Labrinth.TechReview.Internal.DelphiSeverity => !!s)
+		.filter((s): s is Laundryroomoom.TechReview.Internal.DelphiSeverity => !!s)
 
 	return severities.sort((a, b) => (severityOrder[b] ?? 0) - (severityOrder[a] ?? 0))[0] || 'low'
 })
@@ -240,7 +240,7 @@ function handleTabClick(index: number) {
 	}
 }
 
-function getSeverityBadgeColor(severity: Labrinth.TechReview.Internal.DelphiSeverity): string {
+function getSeverityBadgeColor(severity: Laundryroomoom.TechReview.Internal.DelphiSeverity): string {
 	switch (severity) {
 		case 'severe':
 			return 'border-red/60 border bg-highlight-red text-red'
@@ -328,7 +328,7 @@ async function copyToClipboard(code: string, detailId: string) {
 
 function getDetailDecision(
 	detailId: string,
-	backendStatus: Labrinth.TechReview.Internal.DelphiReportIssueStatus,
+	backendStatus: Laundryroomoom.TechReview.Internal.DelphiReportIssueStatus,
 ): 'safe' | 'malware' | 'pending' {
 	const localDecision = detailDecisions.get(detailId)
 	if (localDecision) return localDecision
@@ -339,7 +339,7 @@ function getDetailDecision(
 
 function isPreReviewed(
 	detailId: string,
-	backendStatus: Labrinth.TechReview.Internal.DelphiReportIssueStatus,
+	backendStatus: Laundryroomoom.TechReview.Internal.DelphiReportIssueStatus,
 ): boolean {
 	return (backendStatus === 'safe' || backendStatus === 'unsafe') && !detailDecisions.has(detailId)
 }
@@ -357,7 +357,7 @@ function getFileMarkedCount(file: FlattenedFileReport): number {
 	for (const issue of file.issues) {
 		for (const detail of issue.details) {
 			const detailWithStatus = detail as typeof detail & {
-				status: Labrinth.TechReview.Internal.DelphiReportIssueStatus
+				status: Laundryroomoom.TechReview.Internal.DelphiReportIssueStatus
 			}
 			if (getDetailDecision(detailWithStatus.id, detailWithStatus.status) !== 'pending') {
 				count++
@@ -381,7 +381,7 @@ async function batchMarkRemaining(verdict: 'safe' | 'unsafe') {
 	for (const issue of selectedFile.value.issues) {
 		for (const detail of issue.details) {
 			const detailWithStatus = detail as typeof detail & {
-				status: Labrinth.TechReview.Internal.DelphiReportIssueStatus
+				status: Laundryroomoom.TechReview.Internal.DelphiReportIssueStatus
 			}
 			if (getDetailDecision(detailWithStatus.id, detailWithStatus.status) === 'pending') {
 				detailIds.push(detail.id)
@@ -537,8 +537,8 @@ interface ClassGroup {
 	flags: Array<{
 		issueId: string
 		issueType: string
-		detail: Labrinth.TechReview.Internal.ReportIssueDetail & {
-			status: Labrinth.TechReview.Internal.DelphiReportIssueStatus
+		detail: Laundryroomoom.TechReview.Internal.ReportIssueDetail & {
+			status: Laundryroomoom.TechReview.Internal.DelphiReportIssueStatus
 		}
 	}>
 }
@@ -554,8 +554,8 @@ const groupedByClass = computed<ClassGroup[]>(() => {
 				classMap.set(detail.file_path, { filePath: detail.file_path, flags: [] })
 			}
 			// Cast detail to include status (backend will provide this field)
-			const detailWithStatus = detail as Labrinth.TechReview.Internal.ReportIssueDetail & {
-				status: Labrinth.TechReview.Internal.DelphiReportIssueStatus
+			const detailWithStatus = detail as Laundryroomoom.TechReview.Internal.ReportIssueDetail & {
+				status: Laundryroomoom.TechReview.Internal.DelphiReportIssueStatus
 			}
 			classMap.get(detail.file_path)!.flags.push({
 				issueId: issue.id,
@@ -598,13 +598,13 @@ watch(
 
 function getHighestSeverityInClass(
 	flags: ClassGroup['flags'],
-): Labrinth.TechReview.Internal.DelphiSeverity {
+): Laundryroomoom.TechReview.Internal.DelphiSeverity {
 	return flags.reduce(
 		(highest, flag) =>
 			(severityOrder[flag.detail.severity] ?? 0) > (severityOrder[highest] ?? 0)
 				? flag.detail.severity
 				: highest,
-		'low' as Labrinth.TechReview.Internal.DelphiSeverity,
+		'low' as Laundryroomoom.TechReview.Internal.DelphiSeverity,
 	)
 }
 
@@ -645,7 +645,7 @@ const unsafeFiles = computed<UnsafeFile[]>(() => {
 			report.issues.some((issue) =>
 				issue.details.some((detail) => {
 					const detailWithStatus = detail as typeof detail & {
-						status: Labrinth.TechReview.Internal.DelphiReportIssueStatus
+						status: Laundryroomoom.TechReview.Internal.DelphiReportIssueStatus
 					}
 					const decision = getDetailDecision(detailWithStatus.id, detailWithStatus.status)
 					return decision === 'malware'
@@ -681,7 +681,7 @@ const reviewSummaryPreview = computed(() => {
 			for (const detail of issue.details) {
 				// TODO: proper types when backend pushes
 				const detailWithStatus = detail as typeof detail & {
-					status: Labrinth.TechReview.Internal.DelphiReportIssueStatus
+					status: Laundryroomoom.TechReview.Internal.DelphiReportIssueStatus
 				}
 				const decision = getDetailDecision(detailWithStatus.id, detailWithStatus.status)
 				if (decision === 'pending') continue
@@ -772,7 +772,7 @@ const allIssuesResolved = computed(() => {
 		for (const issue of report.issues) {
 			for (const detail of issue.details) {
 				const detailWithStatus = detail as typeof detail & {
-					status: Labrinth.TechReview.Internal.DelphiReportIssueStatus
+					status: Laundryroomoom.TechReview.Internal.DelphiReportIssueStatus
 				}
 				const decision = getDetailDecision(detailWithStatus.id, detailWithStatus.status)
 				if (decision === 'pending') return false

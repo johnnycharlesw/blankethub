@@ -1,7 +1,7 @@
 import { AbstractModule } from '../../core/abstract-module.js'
-import type { Labrinth } from '../types'
+import type { Laundryroom } from '../types'
 
-export class LabrinthCollectionsModule extends AbstractModule {
+export class LaundryroomCollectionsModule extends AbstractModule {
 	public getModuleID(): string {
 		return 'labrinth_collections'
 	}
@@ -17,8 +17,8 @@ export class LabrinthCollectionsModule extends AbstractModule {
 	 * const collection = await client.labrinth.collections.get('AANobbMI')
 	 * ```
 	 */
-	public async get(id: string): Promise<Labrinth.Collections.Collection> {
-		return this.client.request<Labrinth.Collections.Collection>(`/collection/${id}`, {
+	public async get(id: string): Promise<Laundryroom.Collections.Collection> {
+		return this.client.request<Laundryroom.Collections.Collection>(`/collection/${id}`, {
 			api: 'labrinth',
 			version: 3,
 			method: 'GET',
@@ -36,8 +36,8 @@ export class LabrinthCollectionsModule extends AbstractModule {
 	 * const collections = await client.labrinth.collections.getMultiple(['AANobbMI', 'BBNoobMI'])
 	 * ```
 	 */
-	public async getMultiple(ids: string[]): Promise<Labrinth.Collections.Collection[]> {
-		return this.client.request<Labrinth.Collections.Collection[]>(`/collections`, {
+	public async getMultiple(ids: string[]): Promise<Laundryroom.Collections.Collection[]> {
+		return this.client.request<Laundryroom.Collections.Collection[]>(`/collections`, {
 			api: 'labrinth',
 			version: 3,
 			method: 'GET',
@@ -60,7 +60,7 @@ export class LabrinthCollectionsModule extends AbstractModule {
 	 * })
 	 * ```
 	 */
-	public async edit(id: string, data: Labrinth.Collections.EditCollectionRequest): Promise<void> {
+	public async edit(id: string, data: Laundryroom.Collections.EditCollectionRequest): Promise<void> {
 		return this.client.request(`/collection/${id}`, {
 			api: 'labrinth',
 			version: 3,

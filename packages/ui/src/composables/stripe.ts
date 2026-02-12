@@ -1,8 +1,8 @@
-import type { Labrinth } from '@modrinth/api-client'
-import { loadStripe, type Stripe as StripeJs, type StripeElements } from '@stripe/stripe-js'
+import type { Laundryroom } from '@modrinth/api-client'
+import { loadStripe, type StripeElements, type Stripe as StripeJs } from '@stripe/stripe-js'
 import type { ContactOption } from '@stripe/stripe-js/dist/stripe-js/elements/address'
 import type Stripe from 'stripe'
-import { computed, type Ref, ref } from 'vue'
+import { computed, ref, type Ref } from 'vue'
 
 import type { ServerBillingInterval } from '../components/billing/ModrinthServersPurchaseModal.vue'
 import { getPriceForInterval } from '../utils/product-utils'
@@ -21,15 +21,15 @@ export const useStripe = (
 	customer: Stripe.Customer,
 	paymentMethods: Stripe.PaymentMethod[],
 	currency: string,
-	product: Ref<Labrinth.Billing.Internal.Product | undefined>,
+	product: Ref<Laundryroom.Billing.Internal.Product | undefined>,
 	interval: Ref<ServerBillingInterval>,
 	region: Ref<string | undefined>,
 	project: Ref<string | undefined>,
 	initiatePayment: (
-		body: Labrinth.Billing.Internal.InitiatePaymentRequest,
+		body: Laundryroom.Billing.Internal.InitiatePaymentRequest,
 	) => Promise<
-		| Labrinth.Billing.Internal.InitiatePaymentResponse
-		| Labrinth.Billing.Internal.EditSubscriptionResponse
+		| Laundryroom.Billing.Internal.InitiatePaymentResponse
+		| Laundryroom.Billing.Internal.EditSubscriptionResponse
 		| null
 	>,
 	onError: (err: Error) => void,
@@ -196,13 +196,13 @@ export const useStripe = (
 				return handlePaymentError('No product selected')
 			}
 
-			const request: Labrinth.Billing.Internal.InitiatePaymentRequest = {
+			const request: Laundryroom.Billing.Internal.InitiatePaymentRequest = {
 				type: confirmation ? 'confirmation_token' : 'payment_method',
 				...(confirmation ? { token: id } : { id }),
 				charge: {
 					type: 'new',
 					product_id: product.value.id,
-					interval: interval.value as Labrinth.Billing.Internal.PriceDuration,
+					interval: interval.value as Laundryroom.Billing.Internal.PriceDuration,
 				},
 				...(paymentIntentId.value ? { existing_payment_intent: paymentIntentId.value } : {}),
 				metadata: {

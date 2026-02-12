@@ -1,30 +1,30 @@
 <script setup lang="ts">
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import {
-	BlendIcon,
-	ListFilterIcon,
-	LoaderCircleIcon,
-	SearchIcon,
-	SortAscIcon,
-	SortDescIcon,
+    BlendIcon,
+    ListFilterIcon,
+    LoaderCircleIcon,
+    SearchIcon,
+    SortAscIcon,
+    SortDescIcon,
 } from '@modrinth/assets'
 import {
-	Combobox,
-	type ComboboxOption,
-	commonMessages,
-	FloatingPanel,
-	injectModrinthClient,
-	Pagination,
-	StyledInput,
-	Toggle,
-	useVIntl,
+    Combobox,
+    FloatingPanel,
+    Pagination,
+    StyledInput,
+    Toggle,
+    commonMessages,
+    injectModrinthClient,
+    useVIntl,
+    type ComboboxOption,
 } from '@modrinth/ui'
 import { useInfiniteQuery, useQueryClient } from '@tanstack/vue-query'
 import Fuse from 'fuse.js'
 import { nextTick, reactive } from 'vue'
 
 import MaliciousSummaryModal, {
-	type UnsafeFile,
+    type UnsafeFile,
 } from '~/components/ui/moderation/MaliciousSummaryModal.vue'
 import ModerationTechRevCard from '~/components/ui/moderation/ModerationTechRevCard.vue'
 
@@ -279,7 +279,7 @@ function goToPage(page: number, top = false) {
 	}
 }
 
-function toApiSort(label: string): Labrinth.TechReview.Internal.SearchProjectsSort {
+function toApiSort(label: string): Laundryroom.TechReview.Internal.SearchProjectsSort {
 	switch (label) {
 		case 'Oldest':
 			return 'created_asc'
@@ -311,7 +311,7 @@ const {
 		currentFilterType,
 	],
 	queryFn: async ({ pageParam = 0 }) => {
-		const filter: Labrinth.TechReview.Internal.SearchProjectsFilter = {
+		const filter: Laundryroom.TechReview.Internal.SearchProjectsFilter = {
 			project_type: [],
 			replied_to: undefined,
 			project_status: [],
@@ -367,15 +367,15 @@ const mergedSearchResponse = computed(() => {
 			ownership: { ...merged.ownership, ...page.ownership },
 		}),
 		{
-			project_reports: [] as Labrinth.TechReview.Internal.ProjectReport[],
-			projects: {} as Record<string, Labrinth.TechReview.Internal.ProjectModerationInfo>,
-			threads: {} as Record<string, Labrinth.TechReview.Internal.Thread>,
-			ownership: {} as Record<string, Labrinth.TechReview.Internal.Ownership>,
+			project_reports: [] as Laundryroom.TechReview.Internal.ProjectReport[],
+			projects: {} as Record<string, Laundryroom.TechReview.Internal.ProjectModerationInfo>,
+			threads: {} as Record<string, Laundryroom.TechReview.Internal.Thread>,
+			ownership: {} as Record<string, Laundryroom.TechReview.Internal.Ownership>,
 		},
 	)
 })
 
-type FlattenedFileReport = Labrinth.TechReview.Internal.FileReport & {
+type FlattenedFileReport = Laundryroom.TechReview.Internal.FileReport & {
 	id: string
 	version_id: string
 }
@@ -413,9 +413,9 @@ const reviewItems = computed(() => {
 			(
 				item,
 			): item is {
-				project: Labrinth.TechReview.Internal.ProjectModerationInfo
-				project_owner: Labrinth.TechReview.Internal.Ownership
-				thread: Labrinth.TechReview.Internal.Thread
+				project: Laundryroom.TechReview.Internal.ProjectModerationInfo
+				project_owner: Laundryroom.TechReview.Internal.Ownership
+				thread: Laundryroom.TechReview.Internal.Thread
 				reports: FlattenedFileReport[]
 			} => item !== null,
 		)
@@ -434,7 +434,7 @@ function handleMarkComplete(projectId: string) {
 		(
 			oldData:
 				| {
-						pages: Labrinth.TechReview.Internal.SearchResponse[]
+						pages: Laundryroom.TechReview.Internal.SearchResponse[]
 						pageParams: number[]
 				  }
 				| undefined,

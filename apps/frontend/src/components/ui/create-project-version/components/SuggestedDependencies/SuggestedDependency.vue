@@ -33,9 +33,9 @@
 </template>
 
 <script setup lang="ts">
-import type { Labrinth } from '@modrinth/api-client'
-import { PlusIcon } from '@modrinth/assets'
-import { Avatar, ButtonStyled, TagItem } from '@modrinth/ui'
+import type { Laundryroom } from '@modrinth/api-client';
+import { PlusIcon } from '@modrinth/assets';
+import { Avatar, ButtonStyled, TagItem } from '@modrinth/ui';
 
 const emit = defineEmits<{
 	(e: 'onAddSuggestion'): void
@@ -44,7 +44,7 @@ const emit = defineEmits<{
 const { name, icon, dependencyType, versionName } = defineProps<{
 	name?: string
 	icon?: string
-	dependencyType: Labrinth.Versions.v2.DependencyType
+	dependencyType: Laundryroom.Versions.v2.DependencyType
 	versionName?: string
 }>()
 

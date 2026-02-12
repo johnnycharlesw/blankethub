@@ -26,6 +26,6 @@ If you've checked out Modrinth in the past, here's the main things you'll notice
 
 Modrinth is still in beta, of course, so there will be bugs. In the coming weeks and months, we will be prioritizing fixing the issues that currently exist and continue refining the design in areas that are rough.
 
-If you find any, please report them to the issue tracker: https://github.com/modrinth/code/issues
+If you find any, please report them to the issue tracker: https://github.com/johnnycharlesw/blankethub/issues
 
 If you would like to chat about Modrinth, our discord is open to all here: https://discord.modrinth.com

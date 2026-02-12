@@ -5,10 +5,10 @@ import { ref } from 'vue'
 import ContentCardItem from '../../components/instances/ContentCardItem.vue'
 import ContentModpackCard from '../../components/instances/ContentModpackCard.vue'
 import type {
-	ContentModpackCardCategory,
-	ContentModpackCardProject,
-	ContentModpackCardVersion,
-	ContentOwner,
+    ContentModpackCardCategory,
+    ContentModpackCardProject,
+    ContentModpackCardVersion,
+    ContentOwner,
 } from '../../components/instances/types'
 import NewModal from '../../components/modal/NewModal.vue'
 
@@ -75,7 +75,7 @@ const cobblemonOwner: ContentOwner = {
 	type: 'user',
 }
 
-// Categories (using Labrinth.Tags.v2.Category structure with optional action)
+// Categories (using Laundryroom.Tags.v2.Category structure with optional action)
 const optimizationCategories: ContentModpackCardCategory[] = [
 	{ name: 'Fabric', icon: 'fabric', project_type: 'modpack', header: 'loaders' },
 	{ name: 'Lightweight', icon: 'lightweight', project_type: 'modpack', header: 'categories' },

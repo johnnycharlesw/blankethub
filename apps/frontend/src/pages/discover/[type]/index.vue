@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import {
 	BookmarkIcon,
 	CheckIcon,
@@ -20,25 +20,25 @@ import {
 	Avatar,
 	ButtonStyled,
 	Checkbox,
-	defineMessages,
 	DropdownSelect,
-	injectModrinthClient,
-	injectNotificationManager,
 	Pagination,
 	ProjectCard,
 	ProjectCardList,
 	SearchFilterControl,
 	SearchSidebarFilter,
-	type SortType,
 	StyledInput,
 	Toggle,
+	defineMessages,
+	injectModrinthClient,
+	injectNotificationManager,
 	useSearch,
 	useVIntl,
+	type SortType,
 } from '@modrinth/ui'
 import { capitalizeString, cycleValue, type Mod as InstallableMod } from '@modrinth/utils'
 import { useQueryClient } from '@tanstack/vue-query'
 import { useThrottleFn, useTimeoutFn } from '@vueuse/core'
-import { computed, type Reactive, watch } from 'vue'
+import { computed, watch, type Reactive } from 'vue'
 
 import LogoAnimated from '~/components/brand/LogoAnimated.vue'
 import AdPlaceholder from '~/components/ui/AdPlaceholder.vue'
@@ -66,7 +66,7 @@ const queryClient = useQueryClient()
 let prefetchTimeout: ReturnType<typeof useTimeoutFn> | null = null
 const HOVER_DURATION_TO_PREFETCH_MS = 500
 
-const handleProjectMouseEnter = (result: Labrinth.Search.v2.ResultSearchProject) => {
+const handleProjectMouseEnter = (result: Laundryroom.Search.v2.ResultSearchProject) => {
 	const slug = result.slug || result.project_id
 	prefetchTimeout = useTimeoutFn(
 		() => queryClient.prefetchQuery(projectQueryOptions.v2(slug, modrinthClient)),
@@ -284,7 +284,7 @@ const messages = defineMessages({
 	},
 })
 
-interface InstallableSearchResult extends Labrinth.Search.v2.ResultSearchProject {
+interface InstallableSearchResult extends Laundryroom.Search.v2.ResultSearchProject {
 	installing?: boolean
 	installed?: boolean
 }
@@ -300,7 +300,7 @@ async function serverInstall(project: InstallableSearchResult) {
 			`project/${project.project_id}/version`,
 			{},
 			true,
-		)) as Labrinth.Versions.v2.Version[]
+		)) as Laundryroom.Versions.v2.Version[]
 
 		const version =
 			versions.find(
@@ -351,7 +351,7 @@ const {
 		watch: false,
 		transform: (hits) => {
 			noLoad.value = false
-			return hits as Labrinth.Search.v2.SearchResults
+			return hits as Laundryroom.Search.v2.SearchResults
 		},
 	},
 )

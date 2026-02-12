@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import type { Archon, Labrinth } from '@modrinth/api-client'
+import type { Archon, Laundryroom } from '@modrinth/api-client'
 import {
-	EditIcon,
-	ExternalIcon,
-	RadioButtonCheckedIcon,
-	RadioButtonIcon,
-	RightArrowIcon,
-	SignalIcon,
-	SpinnerIcon,
-	XIcon,
+    EditIcon,
+    ExternalIcon,
+    RadioButtonCheckedIcon,
+    RadioButtonIcon,
+    RightArrowIcon,
+    SignalIcon,
+    SpinnerIcon,
+    XIcon,
 } from '@modrinth/assets'
 import { formatPrice, getPingLevel } from '@modrinth/utils'
 import dayjs from 'dayjs'
@@ -35,7 +35,7 @@ const emit = defineEmits<{
 }>()
 
 const props = defineProps<{
-	plan: Labrinth.Billing.Internal.Product
+	plan: Laundryroom.Billing.Internal.Product
 	region: Archon.Servers.v1.Region
 	tax?: number
 	total?: number
@@ -45,8 +45,8 @@ const props = defineProps<{
 	selectedPaymentMethod: Stripe.PaymentMethod | undefined
 	hasPaymentMethod?: boolean
 	noPaymentRequired?: boolean
-	existingPlan?: Labrinth.Billing.Internal.Product
-	existingSubscription?: Labrinth.Billing.Internal.UserSubscription
+	existingPlan?: Laundryroom.Billing.Internal.Product
+	existingSubscription?: Laundryroom.Billing.Internal.UserSubscription
 }>()
 
 const interval = defineModel<ServerBillingInterval>('interval', { required: true })

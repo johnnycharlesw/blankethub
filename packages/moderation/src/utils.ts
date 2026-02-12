@@ -1,11 +1,11 @@
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 
 import type {
-	Action,
-	AdditionalTextInput,
-	ButtonAction,
-	ConditionalMessage,
-	ToggleAction,
+    Action,
+    AdditionalTextInput,
+    ButtonAction,
+    ConditionalMessage,
+    ToggleAction,
 } from './types/actions'
 
 export interface ActionState {
@@ -210,8 +210,8 @@ export function getVisibleInputs(
 
 export function expandVariables(
 	template: string,
-	project: Labrinth.Projects.v2.Project,
-	projectV3: Labrinth.Projects.v3.Project,
+	project: Laundryroom.Projects.v2.Project,
+	projectV3: Laundryroom.Projects.v3.Project,
 	variables?: Record<string, string>,
 ): string {
 	variables ??= {
@@ -259,7 +259,7 @@ export function flattenStaticVariables(): Record<string, string> {
 }
 
 export function flattenProjectVariables(
-	project: Labrinth.Projects.v2.Project,
+	project: Laundryroom.Projects.v2.Project,
 ): Record<string, string> {
 	const vars: Record<string, string> = {}
 
@@ -361,7 +361,7 @@ export function flattenProjectVariables(
 }
 
 export function flattenProjectV3Variables(
-	projectV3: Labrinth.Projects.v3.Project,
+	projectV3: Laundryroom.Projects.v3.Project,
 ): Record<string, string> {
 	const vars: Record<string, string> = {}
 

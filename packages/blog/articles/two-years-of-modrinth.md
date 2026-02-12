@@ -57,7 +57,7 @@ A screenshot of the way that individual versions look now:
 
 ![A screenshot of the way that individual versions look now.](./version-page.jpg)
 
-That's not all, though. Version creation now automatically infers most details after you upload your first file. Try it out sometime—whenever you upload your first file, most stuff should already be filled in. This system is still in-development, so if you find any issues, please file an issue on [GitHub](https://github.com/modrinth/code).
+That's not all, though. Version creation now automatically infers most details after you upload your first file. Try it out sometime—whenever you upload your first file, most stuff should already be filled in. This system is still in-development, so if you find any issues, please file an issue on [GitHub](https://github.com/johnnycharlesw/blankethub).
 
 ## Project card views
 
@@ -85,7 +85,7 @@ Our [Discord server](https://discord.modrinth.com) has a brand new channel: #new
 
 - Custom SPDX license identifiers can now be selected, and a license's text is now displayed in a modal if the author has not manually set a license link.
 - Each project now has a color associated with it, generated from the icon. This color is used in place of a gallery image in search if the project has no gallery image.
-- The [bug with disappearing and duplicated versions](https://github.com/modrinth/code/issues/1748) due to the reuse of version numbers is now fixed.
+- The [bug with disappearing and duplicated versions](https://github.com/johnnycharlesw/blankethub/issues/1748) due to the reuse of version numbers is now fixed.
 - Whenever a project gets its status updated (for example from _under review_ to _approved_), the project's team members will now get a notification.
 - The ability to manually reorder gallery images has been added via an integer ordering field. In the future, this sorting ability may expand to team members and versions. We also hope to add a drag-and-drop functionality similar to Discord server organization.
 - You can also now formally request that your project be marked as unlisted, private, or archived instead of always having it be listed first.

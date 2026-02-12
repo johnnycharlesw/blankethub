@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import { ClientIcon, GlobeIcon, ServerIcon } from '@modrinth/assets'
 
 import { defineMessages, useVIntl } from '../../../composables'
@@ -8,8 +8,8 @@ import { TagItem } from '../../base'
 const { formatMessage } = useVIntl()
 
 export type ProjectCardEnvironmentProps = {
-	clientSide: Labrinth.Projects.v2.Environment
-	serverSide: Labrinth.Projects.v2.Environment
+	clientSide: Laundryroom.Projects.v2.Environment
+	serverSide: Laundryroom.Projects.v2.Environment
 }
 
 defineProps<ProjectCardEnvironmentProps>()

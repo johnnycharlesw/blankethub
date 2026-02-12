@@ -279,7 +279,7 @@
 </template>
 
 <script lang="ts" setup>
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import {
 	BoxIcon,
 	ClipboardCopyIcon,
@@ -298,11 +298,11 @@ import {
 import {
 	ButtonStyled,
 	ConfirmModal,
+	OverflowMenu,
+	ProjectPageVersions,
 	injectModrinthClient,
 	injectNotificationManager,
 	injectProjectPageContext,
-	OverflowMenu,
-	ProjectPageVersions,
 } from '@modrinth/ui'
 import { useTemplateRef } from 'vue'
 
@@ -357,7 +357,7 @@ const emit = defineEmits(['onDownload'])
 
 const baseDropdownId = useId()
 
-function getPrimaryFile(version: Labrinth.Versions.v3.Version) {
+function getPrimaryFile(version: Laundryroom.Versions.v3.Version) {
 	return version.files.find((x) => x.primary) || version.files[0]
 }
 

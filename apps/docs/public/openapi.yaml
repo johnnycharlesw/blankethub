@@ -2,7 +2,7 @@ openapi: '3.0.0'
 
 info:
   version: v2.7.0/366f528
-  title: Labrinth
+  title: Laundryroom
   termsOfService: https://modrinth.com/legal/terms
   contact:
     name: Modrinth Support
@@ -402,7 +402,7 @@ components:
         - algorithm
         - hash
         - file_type
-    # https://github.com/modrinth/code/blob/main/apps/labrinth/src/models/v3/projects.rs#L981-990
+    # https://github.com/johnnycharlesw/blankethub/blob/main/apps/labrinth/src/models/v3/projects.rs#L981-990
     FileTypeEnum:
       type: string
       enum:

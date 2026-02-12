@@ -1,11 +1,11 @@
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import { ClientIcon, ServerIcon, UserIcon } from '@modrinth/assets'
 import type { Component } from 'vue'
 
 import { defineMessage, type MessageDescriptor } from '../../../../composables/i18n'
 
 export const ENVIRONMENTS_COPY: Record<
-	Labrinth.Projects.v3.Environment,
+	Laundryroom.Projects.v3.Environment,
 	{
 		title: MessageDescriptor
 		description: MessageDescriptor
@@ -158,7 +158,7 @@ export const ENVIRONMENT_TAG_LABELS = {
 } as const
 
 export function getEnvironmentTags(
-	environment?: Labrinth.Projects.v3.Environment,
+	environment?: Laundryroom.Projects.v3.Environment,
 ): Array<{ icon: Component | null; label: MessageDescriptor }> {
 	switch (environment) {
 		case 'client_only':

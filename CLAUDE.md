@@ -4,7 +4,7 @@ Use TAB instead of spaces.
 
 ## Frontend
 
-There are two similar frontends in the Modrinth monorepo, the website (apps/frontend) and the app frontend (apps/app-frontend).
+There are two similar frontends in the Blankethub monorepo, the website (apps/frontend) and the app frontend (apps/app-frontend).
 
 Both use Tailwind v3, and their respective configs can be seen at `tailwind.config.ts` and `tailwind.config.js` respectively.
 
@@ -30,9 +30,9 @@ To run a development version of the app frontend, you must first copy over the r
 
 Refer to `.github/instructions/i18n-convert.instructions.md` if the user asks you to perform any i18n conversion work on a component, set of components, pages or sets of pages.
 
-## Labrinth
+## Laundryroom
 
-Labrinth is the backend API service for Modrinth.
+Laundryroom is the backend API service for Blankethub.
 
 ### Testing
 

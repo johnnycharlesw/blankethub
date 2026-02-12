@@ -1,8 +1,8 @@
 import { AbstractModule } from '../../../core/abstract-module'
 import { ModrinthApiError } from '../../../core/errors'
-import type { Labrinth } from '../types'
+import type { Laundryroom } from '../types'
 
-export class LabrinthProjectsV3Module extends AbstractModule {
+export class LaundryroomProjectsV3Module extends AbstractModule {
 	public getModuleID(): string {
 		return 'labrinth_projects_v3'
 	}
@@ -19,8 +19,8 @@ export class LabrinthProjectsV3Module extends AbstractModule {
 	 * console.log(project.project_types) // v3 field
 	 * ```
 	 */
-	public async get(id: string): Promise<Labrinth.Projects.v3.Project> {
-		return this.client.request<Labrinth.Projects.v3.Project>(`/project/${id}`, {
+	public async get(id: string): Promise<Laundryroom.Projects.v3.Project> {
+		return this.client.request<Laundryroom.Projects.v3.Project>(`/project/${id}`, {
 			api: 'labrinth',
 			version: 3,
 			method: 'GET',
@@ -38,8 +38,8 @@ export class LabrinthProjectsV3Module extends AbstractModule {
 	 * const projects = await client.labrinth.projects_v3.getMultiple(['sodium', 'lithium'])
 	 * ```
 	 */
-	public async getMultiple(ids: string[]): Promise<Labrinth.Projects.v3.Project[]> {
-		return this.client.request<Labrinth.Projects.v3.Project[]>(`/projects`, {
+	public async getMultiple(ids: string[]): Promise<Laundryroom.Projects.v3.Project[]> {
+		return this.client.request<Laundryroom.Projects.v3.Project[]>(`/projects`, {
 			api: 'labrinth',
 			version: 3,
 			method: 'GET',
@@ -60,7 +60,7 @@ export class LabrinthProjectsV3Module extends AbstractModule {
 	 * })
 	 * ```
 	 */
-	public async edit(id: string, data: Labrinth.Projects.v3.EditProjectRequest): Promise<void> {
+	public async edit(id: string, data: Laundryroom.Projects.v3.EditProjectRequest): Promise<void> {
 		return this.client.request(`/project/${id}`, {
 			api: 'labrinth',
 			version: 3,
@@ -75,9 +75,9 @@ export class LabrinthProjectsV3Module extends AbstractModule {
 	 * @param id - Project ID or slug
 	 * @returns Promise resolving to the organization data, or null if the project is not owned by an organization
 	 */
-	public async getOrganization(id: string): Promise<Labrinth.Projects.v3.Organization | null> {
+	public async getOrganization(id: string): Promise<Laundryroom.Projects.v3.Organization | null> {
 		try {
-			return await this.client.request<Labrinth.Projects.v3.Organization>(
+			return await this.client.request<Laundryroom.Projects.v3.Organization>(
 				`/project/${id}/organization`,
 				{ api: 'labrinth', version: 3, method: 'GET' },
 			)
@@ -96,8 +96,8 @@ export class LabrinthProjectsV3Module extends AbstractModule {
 	 * @param id - Project ID or slug
 	 * @returns Promise resolving to an array of team members
 	 */
-	public async getMembers(id: string): Promise<Labrinth.Projects.v3.TeamMember[]> {
-		return this.client.request<Labrinth.Projects.v3.TeamMember[]>(`/project/${id}/members`, {
+	public async getMembers(id: string): Promise<Laundryroom.Projects.v3.TeamMember[]> {
+		return this.client.request<Laundryroom.Projects.v3.TeamMember[]>(`/project/${id}/members`, {
 			api: 'labrinth',
 			version: 3,
 			method: 'GET',

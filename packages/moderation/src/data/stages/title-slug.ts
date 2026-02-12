@@ -1,9 +1,9 @@
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import { BookOpenIcon } from '@modrinth/assets'
 
 import type { Stage } from '../../types/stage'
 
-function hasCustomSlug(project: Labrinth.Projects.v2.Project): boolean {
+function hasCustomSlug(project: Laundryroom.Projects.v2.Project): boolean {
 	return (
 		project.slug !==
 		project.title

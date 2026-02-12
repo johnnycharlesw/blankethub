@@ -14,20 +14,20 @@
 </template>
 
 <script setup lang="ts">
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import {
-	DropArea,
-	injectModrinthClient,
-	injectNotificationManager,
-	injectProjectPageContext,
-	MultiStageModal,
+    DropArea,
+    injectModrinthClient,
+    injectNotificationManager,
+    injectProjectPageContext,
+    MultiStageModal,
 } from '@modrinth/ui'
 import { acceptFileFromProjectType } from '@modrinth/utils'
 import type { ComponentExposed } from 'vue-component-type-helpers'
 
 import {
-	createManageVersionContext,
-	provideManageVersionContext,
+    createManageVersionContext,
+    provideManageVersionContext,
 } from '~/providers/version/manage-version-modal'
 
 const emit = defineEmits<{
@@ -50,7 +50,7 @@ async function openEditVersionModal(versionId: string, projectId: string, stageI
 	try {
 		const versionData = await labrinth.versions_v3.getVersion(versionId)
 
-		const draftVersionData: Labrinth.Versions.v3.DraftVersion = {
+		const draftVersionData: Laundryroom.Versions.v3.DraftVersion = {
 			project_id: projectId,
 			version_id: versionId,
 			name: versionData.name ?? '',
@@ -76,7 +76,7 @@ async function openEditVersionModal(versionId: string, projectId: string, stageI
 }
 
 function openCreateVersionModal(
-	version: Labrinth.Versions.v3.DraftVersion | null = null,
+	version: Laundryroom.Versions.v3.DraftVersion | null = null,
 	stageId: string | null = null,
 ) {
 	newDraftVersion(projectV2.value.id, version)

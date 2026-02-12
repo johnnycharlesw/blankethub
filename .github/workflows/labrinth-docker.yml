@@ -42,11 +42,11 @@ jobs:
           images: ghcr.io/modrinth/labrinth
           labels: |
             org.opencontainers.image.title=labrinth
-            org.opencontainers.image.description=Modrinth API
+            org.opencontainers.image.description=Blankethub API
             org.opencontainers.image.licenses=AGPL-3.0-only
           annotations: |
             org.opencontainers.image.title=labrinth
-            org.opencontainers.image.description=Modrinth API
+            org.opencontainers.image.description=Blankethub API
             org.opencontainers.image.licenses=AGPL-3.0-only
 
       - name: 🔑 Login to GitHub Packages

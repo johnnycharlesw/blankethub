@@ -1,7 +1,7 @@
 import { AbstractModule } from '../../../core/abstract-module'
-import type { Labrinth } from '../types'
+import type { Laundryroom } from '../types'
 
-export class LabrinthTechReviewInternalModule extends AbstractModule {
+export class LaundryroomTechReviewInternalModule extends AbstractModule {
 	public getModuleID(): string {
 		return 'labrinth_tech_review_internal'
 	}
@@ -30,9 +30,9 @@ export class LabrinthTechReviewInternalModule extends AbstractModule {
 	 * ```
 	 */
 	public async searchProjects(
-		params: Labrinth.TechReview.Internal.SearchProjectsRequest,
-	): Promise<Labrinth.TechReview.Internal.SearchResponse> {
-		return this.client.request<Labrinth.TechReview.Internal.SearchResponse>(
+		params: Laundryroom.TechReview.Internal.SearchProjectsRequest,
+	): Promise<Laundryroom.TechReview.Internal.SearchResponse> {
+		return this.client.request<Laundryroom.TechReview.Internal.SearchResponse>(
 			'/moderation/tech-review/search',
 			{
 				api: 'labrinth',
@@ -55,8 +55,8 @@ export class LabrinthTechReviewInternalModule extends AbstractModule {
 	 * console.log(report.file_name, report.issues.length)
 	 * ```
 	 */
-	public async getReport(reportId: string): Promise<Labrinth.TechReview.Internal.FileReport> {
-		return this.client.request<Labrinth.TechReview.Internal.FileReport>(
+	public async getReport(reportId: string): Promise<Laundryroom.TechReview.Internal.FileReport> {
+		return this.client.request<Laundryroom.TechReview.Internal.FileReport>(
 			`/moderation/tech-review/report/${reportId}`,
 			{
 				api: 'labrinth',
@@ -78,8 +78,8 @@ export class LabrinthTechReviewInternalModule extends AbstractModule {
 	 * console.log(issue.issue_type, issue.status)
 	 * ```
 	 */
-	public async getIssue(issueId: string): Promise<Labrinth.TechReview.Internal.FileIssue> {
-		return this.client.request<Labrinth.TechReview.Internal.FileIssue>(
+	public async getIssue(issueId: string): Promise<Laundryroom.TechReview.Internal.FileIssue> {
+		return this.client.request<Laundryroom.TechReview.Internal.FileIssue>(
 			`/moderation/tech-review/issue/${issueId}`,
 			{
 				api: 'labrinth',
@@ -100,7 +100,7 @@ export class LabrinthTechReviewInternalModule extends AbstractModule {
 	 */
 	public async updateIssueDetail(
 		detailId: string,
-		data: Labrinth.TechReview.Internal.UpdateIssueRequest,
+		data: Laundryroom.TechReview.Internal.UpdateIssueRequest,
 	): Promise<void> {
 		return this.client.request<void>(`/moderation/tech-review/issue-detail/${detailId}`, {
 			api: 'labrinth',
@@ -112,7 +112,7 @@ export class LabrinthTechReviewInternalModule extends AbstractModule {
 
 	public async submitProject(
 		projectId: string,
-		data: Labrinth.TechReview.Internal.SubmitProjectRequest,
+		data: Laundryroom.TechReview.Internal.SubmitProjectRequest,
 	): Promise<void> {
 		return this.client.request<void>(`/moderation/tech-review/submit/${projectId}`, {
 			api: 'labrinth',
@@ -130,8 +130,8 @@ export class LabrinthTechReviewInternalModule extends AbstractModule {
 	 */
 	public async getProjectReport(
 		projectId: string,
-	): Promise<Labrinth.TechReview.Internal.ProjectReportResponse> {
-		return this.client.request<Labrinth.TechReview.Internal.ProjectReportResponse>(
+	): Promise<Laundryroom.TechReview.Internal.ProjectReportResponse> {
+		return this.client.request<Laundryroom.TechReview.Internal.ProjectReportResponse>(
 			`/moderation/tech-review/project/${projectId}`,
 			{
 				api: 'labrinth',

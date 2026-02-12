@@ -1,8 +1,8 @@
 import { AbstractModule } from '../../../core/abstract-module'
 import type { UploadHandle } from '../../../types/upload'
-import type { Labrinth } from '../types'
+import type { Laundryroom } from '../types'
 
-export class LabrinthVersionsV3Module extends AbstractModule {
+export class LaundryroomVersionsV3Module extends AbstractModule {
 	public getModuleID(): string {
 		return 'labrinth_versions_v3'
 	}
@@ -26,8 +26,8 @@ export class LabrinthVersionsV3Module extends AbstractModule {
 	 */
 	public async getProjectVersions(
 		id: string,
-		options?: Labrinth.Versions.v3.GetProjectVersionsParams,
-	): Promise<Labrinth.Versions.v3.Version[]> {
+		options?: Laundryroom.Versions.v3.GetProjectVersionsParams,
+	): Promise<Laundryroom.Versions.v3.Version[]> {
 		const params: Record<string, string | boolean> = {}
 		if (options?.game_versions?.length) {
 			params.game_versions = JSON.stringify(options.game_versions)
@@ -39,7 +39,7 @@ export class LabrinthVersionsV3Module extends AbstractModule {
 			params.include_changelog = options.include_changelog
 		}
 
-		return this.client.request<Labrinth.Versions.v3.Version[]>(`/project/${id}/version`, {
+		return this.client.request<Laundryroom.Versions.v3.Version[]>(`/project/${id}/version`, {
 			api: 'labrinth',
 			version: options?.apiVersion ?? 2,
 			method: 'GET',
@@ -59,8 +59,8 @@ export class LabrinthVersionsV3Module extends AbstractModule {
 	 * console.log(version.version_number)
 	 * ```
 	 */
-	public async getVersion(id: string): Promise<Labrinth.Versions.v3.Version> {
-		return this.client.request<Labrinth.Versions.v3.Version>(`/version/${id}`, {
+	public async getVersion(id: string): Promise<Laundryroom.Versions.v3.Version> {
+		return this.client.request<Laundryroom.Versions.v3.Version>(`/version/${id}`, {
 			api: 'labrinth',
 			version: 3,
 			method: 'GET',
@@ -79,8 +79,8 @@ export class LabrinthVersionsV3Module extends AbstractModule {
 	 * console.log(versions[0].version_number)
 	 * ```
 	 */
-	public async getVersions(ids: string[]): Promise<Labrinth.Versions.v3.Version[]> {
-		return this.client.request<Labrinth.Versions.v3.Version[]>(`/versions`, {
+	public async getVersions(ids: string[]): Promise<Laundryroom.Versions.v3.Version[]> {
+		return this.client.request<Laundryroom.Versions.v3.Version[]>(`/versions`, {
 			api: 'labrinth',
 			version: 3,
 			method: 'GET',
@@ -104,8 +104,8 @@ export class LabrinthVersionsV3Module extends AbstractModule {
 	public async getVersionFromIdOrNumber(
 		projectId: string,
 		versionId: string,
-	): Promise<Labrinth.Versions.v3.Version> {
-		return this.client.request<Labrinth.Versions.v3.Version>(
+	): Promise<Laundryroom.Versions.v3.Version> {
+		return this.client.request<Laundryroom.Versions.v3.Version>(
 			`/project/${projectId}/version/${versionId}`,
 			{
 				api: 'labrinth',
@@ -141,10 +141,10 @@ export class LabrinthVersionsV3Module extends AbstractModule {
 	 */
 
 	public createVersion(
-		draftVersion: Labrinth.Versions.v3.DraftVersion,
-		versionFiles: Labrinth.Versions.v3.DraftVersionFile[],
-		projectType: Labrinth.Projects.v2.ProjectType | null = null,
-	): UploadHandle<Labrinth.Versions.v3.Version> {
+		draftVersion: Laundryroom.Versions.v3.DraftVersion,
+		versionFiles: Laundryroom.Versions.v3.DraftVersionFile[],
+		projectType: Laundryroom.Projects.v2.ProjectType | null = null,
+	): UploadHandle<Laundryroom.Versions.v3.Version> {
 		const formData = new FormData()
 
 		const files = versionFiles.map((vf) => vf.file)
@@ -154,7 +154,7 @@ export class LabrinthVersionsV3Module extends AbstractModule {
 			return `${file.name}-${i === 0 ? 'primary' : i}`
 		})
 
-		const fileTypeMap = fileParts.reduce<Record<string, Labrinth.Versions.v3.FileType | null>>(
+		const fileTypeMap = fileParts.reduce<Record<string, Laundryroom.Versions.v3.FileType | null>>(
 			(acc, key, i) => {
 				acc[key] = fileTypes[i]
 				return acc
@@ -162,7 +162,7 @@ export class LabrinthVersionsV3Module extends AbstractModule {
 			{},
 		)
 
-		const data: Labrinth.Versions.v3.CreateVersionRequest = {
+		const data: Laundryroom.Versions.v3.CreateVersionRequest = {
 			project_id: draftVersion.project_id,
 			version_number: draftVersion.version_number,
 			name: draftVersion.name || draftVersion.version_number,
@@ -189,7 +189,7 @@ export class LabrinthVersionsV3Module extends AbstractModule {
 			formData.append(fileParts[i], file, file.name)
 		})
 
-		return this.client.upload<Labrinth.Versions.v3.Version>(`/version`, {
+		return this.client.upload<Laundryroom.Versions.v3.Version>(`/version`, {
 			api: 'labrinth',
 			version: 3,
 			formData,
@@ -221,9 +221,9 @@ export class LabrinthVersionsV3Module extends AbstractModule {
 
 	public async modifyVersion(
 		versionId: string,
-		data: Labrinth.Versions.v3.ModifyVersionRequest,
-	): Promise<Labrinth.Versions.v3.Version> {
-		return this.client.request<Labrinth.Versions.v3.Version>(`/version/${versionId}`, {
+		data: Laundryroom.Versions.v3.ModifyVersionRequest,
+	): Promise<Laundryroom.Versions.v3.Version> {
+		return this.client.request<Laundryroom.Versions.v3.Version>(`/version/${versionId}`, {
 			api: 'labrinth',
 			version: 3,
 			method: 'PATCH',
@@ -251,8 +251,8 @@ export class LabrinthVersionsV3Module extends AbstractModule {
 
 	public addFilesToVersion(
 		versionId: string,
-		versionFiles: Labrinth.Versions.v3.DraftVersionFile[],
-	): UploadHandle<Labrinth.Versions.v3.Version> {
+		versionFiles: Laundryroom.Versions.v3.DraftVersionFile[],
+	): UploadHandle<Laundryroom.Versions.v3.Version> {
 		const formData = new FormData()
 
 		const files = versionFiles.map((vf) => vf.file)
@@ -260,7 +260,7 @@ export class LabrinthVersionsV3Module extends AbstractModule {
 
 		const fileParts = files.map((file, i) => `${file.name}-${i}`)
 
-		const fileTypeMap = fileParts.reduce<Record<string, Labrinth.Versions.v3.FileType | null>>(
+		const fileTypeMap = fileParts.reduce<Record<string, Laundryroom.Versions.v3.FileType | null>>(
 			(acc, key, i) => {
 				acc[key] = fileTypes[i]
 				return acc
@@ -274,7 +274,7 @@ export class LabrinthVersionsV3Module extends AbstractModule {
 			formData.append(fileParts[i], file, file.name)
 		})
 
-		return this.client.upload<Labrinth.Versions.v3.Version>(`/version/${versionId}/file`, {
+		return this.client.upload<Laundryroom.Versions.v3.Version>(`/version/${versionId}/file`, {
 			api: 'labrinth',
 			version: 2,
 			formData,

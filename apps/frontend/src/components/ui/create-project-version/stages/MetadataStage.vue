@@ -188,16 +188,16 @@
 </template>
 
 <script lang="ts" setup>
-import type { Labrinth } from '@modrinth/api-client'
+import type { Laundryroom } from '@modrinth/api-client'
 import { EditIcon, getLoaderIcon, UnknownIcon } from '@modrinth/assets'
 import {
-	ButtonStyled,
-	defineMessages,
-	ENVIRONMENTS_COPY,
-	FormattedTag,
-	injectProjectPageContext,
-	TagItem,
-	useVIntl,
+    ButtonStyled,
+    defineMessages,
+    ENVIRONMENTS_COPY,
+    FormattedTag,
+    injectProjectPageContext,
+    TagItem,
+    useVIntl,
 } from '@modrinth/ui'
 
 import { useGeneratedState } from '~/composables/generated'
@@ -369,7 +369,7 @@ const environmentCopy = computed(() => {
 	}
 })
 
-const handleAddSuggestedDependency = (dependency: Labrinth.Versions.v3.Dependency) => {
+const handleAddSuggestedDependency = (dependency: Laundryroom.Versions.v3.Dependency) => {
 	if (!draftVersion.value.dependencies) draftVersion.value.dependencies = []
 	draftVersion.value.dependencies.push({
 		project_id: dependency.project_id,
