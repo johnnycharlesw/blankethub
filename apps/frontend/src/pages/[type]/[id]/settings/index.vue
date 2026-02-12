@@ -61,7 +61,7 @@
 			</label>
 			<div class="text-input-wrapper">
 				<div class="text-input-wrapper__before">
-					<span class="hidden sm:inline">https://modrinth.com</span>/{{
+					<span class="hidden sm:inline">https://blankethub.loxalhost</span>/{{
 						$getProjectTypeForUrl(project.project_type, project.loaders)
 					}}/
 				</div>
@@ -240,21 +240,21 @@
 
 <script setup>
 import {
-	CheckIcon,
-	IssuesIcon,
-	SaveIcon,
-	TrashIcon,
-	TriangleAlertIcon,
-	UploadIcon,
-	XIcon,
+    CheckIcon,
+    IssuesIcon,
+    SaveIcon,
+    TrashIcon,
+    TriangleAlertIcon,
+    UploadIcon,
+    XIcon,
 } from '@modrinth/assets'
 import { MIN_SUMMARY_CHARS } from '@modrinth/moderation'
 import {
-	Avatar,
-	ConfirmModal,
-	injectNotificationManager,
-	injectProjectPageContext,
-	StyledInput,
+    Avatar,
+    ConfirmModal,
+    StyledInput,
+    injectNotificationManager,
+    injectProjectPageContext,
 } from '@modrinth/ui'
 import { formatProjectStatus, formatProjectType } from '@modrinth/utils'
 import { Multiselect } from 'vue-multiselect'

@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import { Heading, Link as VLink, Text } from '@vue-email/components'
+import { Heading, Text, Link as VLink } from '@vue-email/components';
 
-import StyledEmail from '../shared/StyledEmail.vue'
+import StyledEmail from '../shared/StyledEmail.vue';
 </script>
 
 <template>
 	<StyledEmail
 		title="Two-factor authentication enabled"
-		:manual-links="[{ link: 'https://support.modrinth.com', label: 'Support Portal' }]"
+		:manual-links="[{ link: 'https://support.blankethub.loxalhost', label: 'Support Portal' }]"
 	>
 		<Heading as="h1" class="mb-2 text-2xl font-bold"> Two-factor authentication enabled </Heading>
 
@@ -18,7 +18,7 @@ import StyledEmail from '../shared/StyledEmail.vue'
 		</Text>
 		<Text class="text-muted text-base">
 			If you did not make this change, please contact us immediately through our
-			<VLink href="https://support.modrinth.com" class="text-green underline">Support Portal</VLink
+			<VLink href="https://support.blankethub.loxalhost" class="text-green underline">Support Portal</VLink
 			>.
 		</Text>
 	</StyledEmail>

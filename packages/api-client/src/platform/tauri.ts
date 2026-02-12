@@ -29,7 +29,7 @@ interface HttpError extends Error {
  *
  * const version = await getVersion()
  * const client = new TauriModrinthClient({
- *   userAgent: `modrinth/theseus/${version} (support@modrinth.com)`,
+ *   userAgent: `modrinth/theseus/${version} (support@blankethub.loxalhost)`,
  *   features: [
  *     new AuthFeature({ token: 'mrp_...' })
  *   ]

@@ -609,7 +609,7 @@ const VERSIONS: VersionEntry[] = [
 	- Up to 256 projects
 	- Up to 16 organizations
 	- Up to 64 collections
-	- If you need more, please contact [support](https://support.modrinth.com) and explain why, and we can increase your limits.`,
+	- If you need more, please contact [support](https://support.blankethub.loxalhost) and explain why, and we can increase your limits.`,
 	},
 	{
 		date: `2025-09-29T12:50:00-07:00`,
@@ -1223,7 +1223,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-04-01T21:15:00-07:00`,
 		product: 'web',
 		body: `### Added
-- Reverted Modrinth Pizza due to issues in pizza processing leading to users being redirected to [this page](https://modrinth.com/pizza/error).
+- Reverted Modrinth Pizza due to issues in pizza processing leading to users being redirected to [this page](https://blankethub.loxalhost/pizza/error).
 - Fixed bug causing theme color to turn orange and corners turn sharp.`,
 	},
 	{
@@ -1458,7 +1458,7 @@ const VERSIONS: VersionEntry[] = [
 		body: `### Improvements
 - The report form has been updated to walk you through the report process better and clarify some things like that the form is for Modrinth rules and terms violations, not for bug reports or DMCA takedowns.
 
-![A screenshot of the new report form on Modrinth, using Iris Shaders as an example. The title says "Report Iris Shaders to moderators". Below that, it says "Please report violations of Modrinth Rules or Terms of Use. Examples include malicious, spam, offensive, deceptive, misleading, and illegal content. This form is not for bug reports or DMCA takedowns (See our Copyright Policy)." Then, there is a form that asks "Which of Modrinth's rules is this project violating?" with many options: Spam, Reuploaded work, Inappropriate, Malicious, Name-squatting, Poor description, Invalid metadata, Other. Reuploaded work is selected. Below that, is a note in an orange box with a warning icon: "Please note that you are *not* submitting a DMCA takedown request, but rather a report of reuploaded content. If you meant to file a DMCA takedown request (which is a legal action) instead, please see our Copyright Policy." Then, it asks you to provide additional context, including links and images, with a text editor and a submit button at the bottom.](https://cdn-raw.modrinth.com/changelog/web/2025-02-02/reports.jpg)`,
+![A screenshot of the new report form on Modrinth, using Iris Shaders as an example. The title says "Report Iris Shaders to moderators". Below that, it says "Please report violations of Modrinth Rules or Terms of Use. Examples include malicious, spam, offensive, deceptive, misleading, and illegal content. This form is not for bug reports or DMCA takedowns (See our Copyright Policy)." Then, there is a form that asks "Which of Modrinth's rules is this project violating?" with many options: Spam, Reuploaded work, Inappropriate, Malicious, Name-squatting, Poor description, Invalid metadata, Other. Reuploaded work is selected. Below that, is a note in an orange box with a warning icon: "Please note that you are *not* submitting a DMCA takedown request, but rather a report of reuploaded content. If you meant to file a DMCA takedown request (which is a legal action) instead, please see our Copyright Policy." Then, it asks you to provide additional context, including links and images, with a text editor and a submit button at the bottom.](https://cdn-raw.blankethub.loxalhost/changelog/web/2025-02-02/reports.jpg)`,
 	},
 	{
 		date: `2025-01-28T19:00:00-08:00`,
@@ -1498,7 +1498,7 @@ Contributed by [IMB11](https://github.com/johnnycharlesw/blankethub/pull/1301).`
 		product: 'web',
 		body: `### Improvements
 - Tags on project pages are now clickable to view other projects with that tag (Contributed by [Neddo](https://github.com/johnnycharlesw/blankethub/pull/3126))
-- You can now send someone a link to the download interface with a specific version and loader selected, like so: https://modrinth.com/mod/sodium?version=1.21.2&loader=quilt#download (Contributed by [AwakenedRedstone](https://github.com/johnnycharlesw/blankethub/pull/3138))`,
+- You can now send someone a link to the download interface with a specific version and loader selected, like so: https://blankethub.loxalhost/mod/sodium?version=1.21.2&loader=quilt#download (Contributed by [AwakenedRedstone](https://github.com/johnnycharlesw/blankethub/pull/3138))`,
 	},
 	{
 		date: `2024-12-26T22:05:00-08:00`,

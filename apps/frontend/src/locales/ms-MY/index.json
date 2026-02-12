@@ -1461,7 +1461,7 @@
     "message": "Ralat menjana keadaan daripada API semasa membina."
   },
   "layout.banner.preview.description": {
-    "message": "Jika anda bermaksud untuk mengakses laman sesawang rasmi Modrinth, lawati <link>https://modrinth.com</link>. Pralihat pelaksanaan ini digunakan oleh kakitangan Modrinth untuk tujuan pengujian. Ia dibina menggunakan <branch-link>{owner}/{branch}</branch-link> @ {commit}."
+    "message": "Jika anda bermaksud untuk mengakses laman sesawang rasmi Modrinth, lawati <link>https://blankethub.loxalhost</link>. Pralihat pelaksanaan ini digunakan oleh kakitangan Modrinth untuk tujuan pengujian. Ia dibina menggunakan <branch-link>{owner}/{branch}</branch-link> @ {commit}."
   },
   "layout.banner.preview.title": {
     "message": "Ini ialah pengaturan pralihat laman sesawang Modrinth."
@@ -1556,9 +1556,7 @@
   "layout.footer.products.app": {
     "message": "Modrinth App"
   },
-  "layout.footer.products.plus": {
-    "message": "Modrinth+"
-  },
+
   "layout.footer.products.servers": {
     "message": "Modrinth Hosting"
   },
@@ -1654,9 +1652,6 @@
   },
   "layout.nav.search": {
     "message": "Cari"
-  },
-  "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Naik Taraf ke Modrinth+"
   },
   "moderation.moderate": {
     "message": "Sederhanakan"

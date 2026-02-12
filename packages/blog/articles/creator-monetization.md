@@ -29,9 +29,9 @@ While payouts will be small at first, we're working on improving our ads system 
 
 ## How do I earn money?
 
-When a project of yours on Modrinth gets approved, you are automatically enrolled into the program. You will start to incur a balance, which you can view from the [Monetization dashboard](https://modrinth.com/dashboard). You can claim your first payout via PayPal or Venmo as soon as you enter your credentials and have the minimum balance of 0.26 USD.
+When a project of yours on Modrinth gets approved, you are automatically enrolled into the program. You will start to incur a balance, which you can view from the [Monetization dashboard](https://blankethub.loxalhost/dashboard). You can claim your first payout via PayPal or Venmo as soon as you enter your credentials and have the minimum balance of 0.26 USD.
 
-Even though the minimum is low, you will want to wait some time to allow your balance to build up before claiming. Each payment processor has its own fees which depend upon whether you're within the United States, which are detailed on the dashboard's [revenue tab](https://modrinth.com/dashboard/revenue).
+Even though the minimum is low, you will want to wait some time to allow your balance to build up before claiming. Each payment processor has its own fees which depend upon whether you're within the United States, which are detailed on the dashboard's [revenue tab](https://blankethub.loxalhost/dashboard/revenue).
 
 Once you request a transfer, you may have to confirm the transfer via email if you don't already have a PayPal account. If you do not confirm using the link in the email within 30 days, or the transfer fails for whatever reason, the amount requested will be returned to your Modrinth balance, though the processor's fees may already have been deducted by that point.
 
@@ -57,6 +57,6 @@ The website frontend has had some "small" changes of around 12,322 lines of code
 
 ## Conclusion
 
-This is a jam-packed update, and it would be impossible to list all the changes in this post. Feel free to explore the site, claim your funds, and give us feedback on [Discord](https://discord.modrinth.com). If you suspect you've found any critical bugs or exploits, please email us immediately at [support@modrinth.com](mailto:support@modrinth.com) - otherwise, for non-critical bugs, report them [on GitHub](https://github.com/modrinth).
+This is a jam-packed update, and it would be impossible to list all the changes in this post. Feel free to explore the site, claim your funds, and give us feedback on [Discord](https://discord.blankethub.loxalhost). If you suspect you've found any critical bugs or exploits, please email us immediately at [support@blankethub.loxalhost](mailto:support@blankethub.loxalhost) - otherwise, for non-critical bugs, report them [on GitHub](https://github.com/modrinth).
 
 👑

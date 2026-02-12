@@ -44,7 +44,7 @@
 			&emsp;Suite 304 -3133<br />
 			&emsp;Wilmington, DE 19801<br />
 			&emsp;Phone: +1 (302) 281-2193<br />
-			&emsp;<a href="mailto:support@modrinth.com">support@modrinth.com</a><br />
+			&emsp;<a href="mailto:support@blankethub.loxalhost">support@blankethub.loxalhost</a><br />
 		</p>
 		<p>
 			If you fail to comply with all of the requirements of Section 512(c)(3) of the DMCA, your DMCA

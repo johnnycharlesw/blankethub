@@ -106,7 +106,7 @@
 				:ram="Math.round((pendingChange.ramGb ?? 0) * 1024)"
 				:storage="Math.round((pendingChange.storageGb ?? 0) * 1024)"
 				:cpus="pendingChange.cpuBurst"
-				bursting-link="https://docs.modrinth.com/servers/bursting"
+				bursting-link="https://docs.blankethub.loxalhost/servers/bursting"
 			/>
 		</div>
 	</div>
@@ -115,11 +115,11 @@
 <script setup lang="ts">
 import type { Archon } from '@modrinth/api-client'
 import {
-	ChevronRightIcon,
-	LoaderCircleIcon,
-	LockIcon,
-	SparklesIcon,
-	TriangleAlertIcon,
+    ChevronRightIcon,
+    LoaderCircleIcon,
+    LockIcon,
+    SparklesIcon,
+    TriangleAlertIcon,
 } from '@modrinth/assets'
 import { useQuery } from '@tanstack/vue-query'
 import dayjs from 'dayjs'

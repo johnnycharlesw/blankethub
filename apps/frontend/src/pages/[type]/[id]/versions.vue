@@ -147,7 +147,7 @@
 									id: 'copy-link',
 									action: () =>
 										copyToClipboard(
-											`https://modrinth.com/${project.project_type}/${
+											`https://blankethub.loxalhost/${project.project_type}/${
 												project.slug ? project.slug : project.id
 											}/version/${encodeURI(version.displayUrlEnding)}`,
 										),
@@ -273,30 +273,30 @@
 
 <script setup>
 import {
-	BoxIcon,
-	ClipboardCopyIcon,
-	DownloadIcon,
-	EditIcon,
-	ExternalIcon,
-	FileIcon,
-	InfoIcon,
-	LinkIcon,
-	MoreVerticalIcon,
-	ReportIcon,
-	SettingsIcon,
-	ShareIcon,
-	SpinnerIcon,
-	TrashIcon,
+    BoxIcon,
+    ClipboardCopyIcon,
+    DownloadIcon,
+    EditIcon,
+    ExternalIcon,
+    FileIcon,
+    InfoIcon,
+    LinkIcon,
+    MoreVerticalIcon,
+    ReportIcon,
+    SettingsIcon,
+    ShareIcon,
+    SpinnerIcon,
+    TrashIcon,
 } from '@modrinth/assets'
 import {
-	Admonition,
-	ButtonStyled,
-	ConfirmModal,
-	injectModrinthClient,
-	injectNotificationManager,
-	injectProjectPageContext,
-	OverflowMenu,
-	ProjectPageVersions,
+    Admonition,
+    ButtonStyled,
+    ConfirmModal,
+    OverflowMenu,
+    ProjectPageVersions,
+    injectModrinthClient,
+    injectNotificationManager,
+    injectProjectPageContext,
 } from '@modrinth/ui'
 import { useLocalStorage } from '@vueuse/core'
 import { onMounted, useTemplateRef } from 'vue'

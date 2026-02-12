@@ -9,7 +9,7 @@ body:
       options:
         - label: I checked the [existing issues](https://github.com/johnnycharlesw/blankethub/issues?q=is%3Aissue) for duplicate feature requests
           required: true
-        - label: I have checked that this feature request is not on our [roadmap](https://roadmap.modrinth.com)
+        - label: I have checked that this feature request is not on our [roadmap](https://roadmap.blankethub.loxalhost)
           required: true
   - type: dropdown
     id: projects

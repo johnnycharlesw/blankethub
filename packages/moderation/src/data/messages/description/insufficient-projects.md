@@ -5,4 +5,4 @@ Per section 2.1 of %RULES%, your project's Description should clearly inform the
 Currently, it looks like there are some missing details.
 
 What does your project add? What features does it have? Why would a user want to download it? Be specific!
-See descriptions like [Sodium](https://modrinth.com/mod/sodium) or [LambDynamicLights](https://modrinth.com/mod/lambdynamiclights) for examples of what a good description looks like.
+See descriptions like [Sodium](https://blankethub.loxalhost/mod/sodium) or [LambDynamicLights](https://blankethub.loxalhost/mod/lambdynamiclights) for examples of what a good description looks like.

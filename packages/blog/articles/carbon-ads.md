@@ -61,7 +61,7 @@ You are still able to access Modrinth using an adblocker, and Modrinth will not 
 
 When you turn off your adblocker for Modrinth, you are supporting both Modrinth and its creators in the process. 100% of the ad revenue from creator pages, including projects, versions, and users, go directly to creators. The ad revenue from other pages, including search, pay for Modrinth's upkeep costs and allow us to continue to exist.
 
-For the benefit of everyone involved, we humbly request that you turn off your adblocker for Modrinth. We have a full guide for how to turn off your adblocker located [on our docs site](https://docs.modrinth.com/docs/details/carbon/).
+For the benefit of everyone involved, we humbly request that you turn off your adblocker for Modrinth. We have a full guide for how to turn off your adblocker located [on our docs site](https://docs.blankethub.loxalhost/docs/details/carbon/).
 
 ## Conclusion
 

@@ -1461,7 +1461,7 @@
     "message": "Erreur lors de la génération de l’état à partir de l’API pendant la construction."
   },
   "layout.banner.preview.description": {
-    "message": "Si vous souhaitez accéder au site officiel de Modrinth, visitez <link>https://modrinth.com</link>. Ce déploiement d'aperçu est utilisé par le personnel de Modrinth à des fins de test. ​Il a été construit en utilisant <branch-link>{owner}/{branch}</branch-link> @ {commit}."
+    "message": "Si vous souhaitez accéder au site officiel de Modrinth, visitez <link>https://blankethub.loxalhost</link>. Ce déploiement d'aperçu est utilisé par le personnel de Modrinth à des fins de test. ​Il a été construit en utilisant <branch-link>{owner}/{branch}</branch-link> @ {commit}."
   },
   "layout.banner.preview.title": {
     "message": "Ceci est un déploiement de prévisualisation du site Modrinth."
@@ -1556,9 +1556,7 @@
   "layout.footer.products.app": {
     "message": "Modrinth App"
   },
-  "layout.footer.products.plus": {
-    "message": "Modrinth+"
-  },
+
   "layout.footer.products.servers": {
     "message": "Modrinth Hosting"
   },
@@ -1654,9 +1652,6 @@
   },
   "layout.nav.search": {
     "message": "Rechercher"
-  },
-  "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Passer à Modrinth+"
   },
   "moderation.moderate": {
     "message": "Modérer"

@@ -34,13 +34,13 @@ export interface ClientConfig {
 
 	/**
 	 * Base URL for Laundryroom API (main Modrinth API)
-	 * @default 'https://api.modrinth.com'
+	 * @default 'https://api.blankethub.loxalhost'
 	 */
 	labrinthBaseUrl?: string
 
 	/**
 	 * Base URL for Archon API (Modrinth Hosting API)
-	 * @default 'https://archon.modrinth.com'
+	 * @default 'https://archon.blankethub.loxalhost'
 	 */
 	archonBaseUrl?: string
 

@@ -5,7 +5,7 @@
 			<p class="mb-4">
 				<IntlFormatted :message-id="messages.description">
 					<template #docs-link="{ children }">
-						<a href="https://docs.modrinth.com/" target="_blank" class="text-link">
+						<a href="https://docs.blankethub.loxalhost/" target="_blank" class="text-link">
 							<component :is="() => children" />
 						</a>
 					</template>
@@ -83,17 +83,17 @@
 <script setup>
 import { TrashIcon, UndoIcon, UploadIcon, UserIcon } from '@modrinth/assets'
 import {
-	Avatar,
-	Button,
-	commonMessages,
-	defineMessages,
-	FileInput,
-	injectNotificationManager,
-	IntlFormatted,
-	StyledInput,
-	UnsavedChangesPopup,
-	useSavable,
-	useVIntl,
+    Avatar,
+    Button,
+    FileInput,
+    IntlFormatted,
+    StyledInput,
+    UnsavedChangesPopup,
+    commonMessages,
+    defineMessages,
+    injectNotificationManager,
+    useSavable,
+    useVIntl,
 } from '@modrinth/ui'
 
 const { addNotification } = injectNotificationManager()
@@ -185,7 +185,7 @@ function showPreviewImage(files) {
 
 function removePreviewImage() {
 	pendingAvatarDeletion.value = true
-	previewImage.value = 'https://cdn.modrinth.com/placeholder.png'
+	previewImage.value = 'https://cdn.blankethub.loxalhost/placeholder.png'
 }
 
 async function save() {

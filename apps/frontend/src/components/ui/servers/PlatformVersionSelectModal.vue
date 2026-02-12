@@ -202,15 +202,15 @@
 <script setup lang="ts">
 import { DropdownIcon, RightArrowIcon, ServerIcon, XIcon } from '@modrinth/assets'
 import {
-	BackupWarning,
-	ButtonStyled,
-	Combobox,
-	injectNotificationManager,
-	NewModal,
-	Toggle,
-	useVIntl,
+    BackupWarning,
+    ButtonStyled,
+    Combobox,
+    NewModal,
+    Toggle,
+    injectNotificationManager,
+    useVIntl,
 } from '@modrinth/ui'
-import { type Loaders, ModrinthServersFetchError } from '@modrinth/utils'
+import { ModrinthServersFetchError, type Loaders } from '@modrinth/utils'
 import { $fetch } from 'ofetch'
 
 import type { ModrinthServer } from '~/composables/servers/modrinth-servers.ts'
@@ -277,7 +277,7 @@ const isSnapshotSelected = computed(() => {
 
 const getLoaderVersions = async (loader: string) => {
 	return await $fetch(
-		`https://launcher-meta.modrinth.com/${loader?.toLowerCase()}/v0/manifest.json`,
+		`https://launcher-meta.blankethub.loxalhost/${loader?.toLowerCase()}/v0/manifest.json`,
 	)
 }
 
@@ -391,7 +391,7 @@ watch(
 
 const getLoaderVersion = async (loader: string, version: string) => {
 	return await $fetch(
-		`https://launcher-meta.modrinth.com/${loader?.toLowerCase()}/v0/versions/${version}.json`,
+		`https://launcher-meta.blankethub.loxalhost/${loader?.toLowerCase()}/v0/versions/${version}.json`,
 	)
 }
 

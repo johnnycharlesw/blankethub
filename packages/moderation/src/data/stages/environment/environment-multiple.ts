@@ -8,7 +8,7 @@ const environmentMultiple: Stage = {
 	id: 'environment',
 	navigate: '/settings/versions',
 	icon: GlobeIcon,
-	guidance_url: 'https://modrinth.com/legal/rules#miscellaneous',
+	guidance_url: 'https://blankethub.loxalhost/legal/rules#miscellaneous',
 	text: async () =>
 		(await import('../../messages/checklist-text/environment/environment-multiple.md?raw')).default,
 	shouldShow: (project, projectV3) => (projectV3?.environment?.length ?? 0) !== 1,

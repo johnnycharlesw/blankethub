@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import {
-	Admonition,
-	commonSettingsMessages,
-	injectI18n,
-	IntlFormatted,
-	LanguageSelector,
-	languageSelectorMessages,
-	LOCALES,
-	useVIntl,
+    Admonition,
+    commonSettingsMessages,
+    injectI18n,
+    IntlFormatted,
+    LanguageSelector,
+    languageSelectorMessages,
+    LOCALES,
+    useVIntl,
 } from '@modrinth/ui'
 
 const { formatMessage } = useVIntl()
@@ -44,7 +44,7 @@ async function onLocaleChange(newLocale: string) {
 					:values="{ platform }"
 				>
 					<template #~crowdin-link="{ children }">
-						<a href="https://translate.modrinth.com">
+						<a href="https://translate.blankethub.loxalhost">
 							<component :is="() => children" />
 						</a>
 					</template>

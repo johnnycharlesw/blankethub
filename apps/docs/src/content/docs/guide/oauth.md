@@ -9,8 +9,8 @@ If you're familiar with OAuth 2, these are the URLs you will need:
 
 | Name               | URL                                              |
 | ------------------ | ------------------------------------------------ |
-| Authorization page | `https://modrinth.com/auth/authorize`            |
-| Token exchange     | `https://api.modrinth.com/_internal/oauth/token` |
+| Authorization page | `https://blankethub.loxalhost/auth/authorize`            |
+| Token exchange     | `https://api.blankethub.loxalhost/_internal/oauth/token` |
 
 The flow will generally look like this:
 
@@ -28,7 +28,7 @@ After you've registered your application, it is important that you take note of 
 
 ## Getting authorization
 
-Once the user is ready to authorize your application, you need to construct a URL to redirect them to. The authorization URL for Modrinth is `https://api.modrinth.com/_internal/oauth/token`. Supply the following query parameters:
+Once the user is ready to authorize your application, you need to construct a URL to redirect them to. The authorization URL for Modrinth is `https://api.blankethub.loxalhost/_internal/oauth/token`. Supply the following query parameters:
 
 | Query parameter | Description                                                                               |
 | --------------- | ----------------------------------------------------------------------------------------- |
@@ -53,7 +53,7 @@ The redirect URI is the endpoint on your server that will receive the code which
 
 ## Exchanging tokens
 
-If you've followed the previous section on getting authorization, you should now have an authorization code. Before you can access the API, you need to exchange this code for an access token. This is done by sending a POST request to the exchange token endpoint, `https://api.modrinth.com/_internal/oauth/token`. This request has to be of type urlencoded form. Make sure the `Content-Type` header is set to `application/x-www-form-urlencoded`. To authenticate this request you need to place your client secret in the `Authorization` header.
+If you've followed the previous section on getting authorization, you should now have an authorization code. Before you can access the API, you need to exchange this code for an access token. This is done by sending a POST request to the exchange token endpoint, `https://api.blankethub.loxalhost/_internal/oauth/token`. This request has to be of type urlencoded form. Make sure the `Content-Type` header is set to `application/x-www-form-urlencoded`. To authenticate this request you need to place your client secret in the `Authorization` header.
 
 In the body use these fields:
 
@@ -77,11 +77,11 @@ To use this access token, you attach it to API requests in the `Authorization` h
 If you have any questions, you're welcome to ask in #api-development in the [Discord guild], or create a ticket on the [support portal].
 
 [RFC 6749]: https://datatracker.ietf.org/doc/html/rfc6749
-[register an application]: https://modrinth.com/settings/applications
+[register an application]: https://blankethub.loxalhost/settings/applications
 [principle of least privilege]: https://en.wikipedia.org/wiki/Principle_of_least_privilege
 [`apps/labrinth/src/models/v3/pats.rs`]: https://github.com/johnnycharlesw/blankethub/blob/main/apps/labrinth/src/models/v3/pats.rs
 [CSRF]: https://en.wikipedia.org/wiki/Cross-site_request_forgery
 [Clickjacking]: https://en.wikipedia.org/wiki/Clickjacking
-[`/user` endpoint]: https://docs.modrinth.com/api/operations/getuserfromauth/
-[Discord guild]: https://discord.modrinth.com
-[support portal]: https://support.modrinth.com/en/
+[`/user` endpoint]: https://docs.blankethub.loxalhost/api/operations/getuserfromauth/
+[Discord guild]: https://discord.blankethub.loxalhost
+[support portal]: https://support.blankethub.loxalhost/en/

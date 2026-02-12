@@ -14,7 +14,7 @@
 			>
 				<Avatar
 					v-if="status !== 'suspended'"
-					src="https://cdn-raw.modrinth.com/medal_icon.webp"
+					src="https://cdn-raw.blankethub.loxalhost/medal_icon.webp"
 					size="64px"
 					class="z-10"
 				/>
@@ -131,12 +131,12 @@
 import type { Archon } from '@modrinth/api-client'
 import { NuxtModrinthClient } from '@modrinth/api-client'
 import {
-	ChevronRightIcon,
-	LoaderCircleIcon,
-	LockIcon,
-	RocketIcon,
-	SparklesIcon,
-	TriangleAlertIcon,
+    ChevronRightIcon,
+    LoaderCircleIcon,
+    LockIcon,
+    RocketIcon,
+    SparklesIcon,
+    TriangleAlertIcon,
 } from '@modrinth/assets'
 import { useQuery } from '@tanstack/vue-query'
 import dayjs from 'dayjs'

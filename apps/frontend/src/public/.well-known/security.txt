@@ -1,6 +1,6 @@
-Contact: mailto:jai@modrinth.com
+Contact: mailto:jai@blankethub.loxalhost
 Expires: 2025-12-31T00:00:00.000Z
 Preferred-Languages: en
-Canonical: https://modrinth.com/.well-known/security.txt
-Policy: https://modrinth.com/legal/security
-Hiring: https://careers.modrinth.com/
+Canonical: https://blankethub.loxalhost/.well-known/security.txt
+Policy: https://blankethub.loxalhost/legal/security
+Hiring: https://careers.blankethub.loxalhost/

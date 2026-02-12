@@ -135,7 +135,7 @@
 			<div class="flex w-full min-w-0 select-none flex-col items-center gap-4 pt-4 sm:flex-row">
 				<ServerIcon
 					:image="
-						serverData.is_medal ? 'https://cdn-raw.modrinth.com/medal_icon.webp' : serverData.image
+						serverData.is_medal ? 'https://cdn-raw.blankethub.loxalhost/medal_icon.webp' : serverData.image
 					"
 					class="drop-shadow-lg sm:drop-shadow-none"
 				/>
@@ -376,36 +376,36 @@ import { Intercom, shutdown } from '@intercom/messenger-js-sdk'
 import type { Archon } from '@modrinth/api-client'
 import { clearNodeAuthState, setNodeAuthState } from '@modrinth/api-client'
 import {
-	BoxesIcon,
-	CheckIcon,
-	CopyIcon,
-	DatabaseBackupIcon,
-	FileIcon,
-	FolderOpenIcon,
-	IssuesIcon,
-	LayoutTemplateIcon,
-	LeftArrowIcon,
-	LockIcon,
-	RightArrowIcon,
-	SettingsIcon,
-	TransferIcon,
+    BoxesIcon,
+    CheckIcon,
+    CopyIcon,
+    DatabaseBackupIcon,
+    FileIcon,
+    FolderOpenIcon,
+    IssuesIcon,
+    LayoutTemplateIcon,
+    LeftArrowIcon,
+    LockIcon,
+    RightArrowIcon,
+    SettingsIcon,
+    TransferIcon,
 } from '@modrinth/assets'
 import type { MessageDescriptor } from '@modrinth/ui'
 import {
-	ButtonStyled,
-	defineMessage,
-	ErrorInformationCard,
-	injectModrinthClient,
-	injectNotificationManager,
-	provideModrinthServerContext,
-	ServerIcon,
-	ServerInfoLabels,
-	ServerNotice,
+    ButtonStyled,
+    defineMessage,
+    ErrorInformationCard,
+    injectModrinthClient,
+    injectNotificationManager,
+    provideModrinthServerContext,
+    ServerIcon,
+    ServerInfoLabels,
+    ServerNotice,
 } from '@modrinth/ui'
 import type { PowerAction, Stats } from '@modrinth/utils'
 import { useQuery, useQueryClient } from '@tanstack/vue-query'
 import DOMPurify from 'dompurify'
-import { computed, onMounted, onUnmounted, type Reactive, reactive, ref } from 'vue'
+import { computed, onMounted, onUnmounted, reactive, ref, type Reactive } from 'vue'
 
 import { reloadNuxtApp } from '#app'
 import NavTabs from '~/components/ui/NavTabs.vue'

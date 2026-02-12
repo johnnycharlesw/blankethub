@@ -8,7 +8,7 @@
 		"directory": "./.output/public/"
 	},
 	"compatibility_flags": ["nodejs_compat_v2"],
-	"routes": ["modrinth.com/*"],
+	"routes": ["blankethub.loxalhost/*"],
 	"preview_urls": true,
 	"workers_dev": true,
 	"limits": {
@@ -35,9 +35,9 @@
 	"vars": {
 		"ENVIRONMENT": "production",
 		"SENTRY_ENVIRONMENT": "production",
-		"BASE_URL": "https://api.modrinth.com/v2/",
-		"BROWSER_BASE_URL": "https://api.modrinth.com/v2/",
-		"PYRO_BASE_URL": "https://archon.modrinth.com/",
+		"BASE_URL": "https://api.blankethub.loxalhost/v2/",
+		"BROWSER_BASE_URL": "https://api.blankethub.loxalhost/v2/",
+		"PYRO_BASE_URL": "https://archon.blankethub.loxalhost/",
 		"STRIPE_PUBLISHABLE_KEY": "pk_live_51JbFxJJygY5LJFfKLVVldb10HlLt24p421OWRsTOWc5sXYFOnFUXWieSc6HD3PHo25ktx8db1WcHr36XGFvZFVUz00V9ixrCs5"
 	},
 	"env": {
@@ -46,13 +46,13 @@
 				"enabled": true,
 				"head_sampling_rate": 0.1
 			},
-			"routes": ["staging.modrinth.com/*"],
+			"routes": ["staging.blankethub.loxalhost/*"],
 			"vars": {
 				"ENVIRONMENT": "staging",
 				"SENTRY_ENVIRONMENT": "staging",
-				"BASE_URL": "https://staging-api.modrinth.com/v2/",
-				"BROWSER_BASE_URL": "https://staging-api.modrinth.com/v2/",
-				"PYRO_BASE_URL": "https://staging-archon.modrinth.com/",
+				"BASE_URL": "https://staging-api.blankethub.loxalhost/v2/",
+				"BROWSER_BASE_URL": "https://staging-api.blankethub.loxalhost/v2/",
+				"PYRO_BASE_URL": "https://staging-archon.blankethub.loxalhost/",
 				"STRIPE_PUBLISHABLE_KEY": "pk_test_51JbFxJJygY5LJFfKV50mnXzz3YLvBVe2Gd1jn7ljWAkaBlRz3VQdxN9mXcPSrFbSqxwAb0svte9yhnsmm7qHfcWn00R611Ce7b"
 			},
 			"secrets_store_secrets": [

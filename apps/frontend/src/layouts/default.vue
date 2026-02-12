@@ -48,7 +48,7 @@
 			"
 		/>
 		<PreviewBanner v-if="config.public.buildEnv === 'production' && config.public.preview" />
-		<StagingBanner v-if="config.public.apiBaseUrl.startsWith('https://staging-api.modrinth.com')" />
+		<StagingBanner v-if="config.public.apiBaseUrl.startsWith('https://staging-api.blankethub.loxalhost')" />
 		<GeneratedStateErrorsBanner
 			:errors="generatedStateErrors"
 			:api-url="config.public.apiBaseUrl"
@@ -883,10 +883,6 @@ const messages = defineMessages({
 		id: 'layout.nav.saved-projects',
 		defaultMessage: 'Saved projects',
 	},
-	upgradeToModrinthPlus: {
-		id: 'layout.nav.upgrade-to-modrinth-plus',
-		defaultMessage: 'Upgrade to Modrinth+',
-	},
 	featureFlags: {
 		id: 'layout.nav.feature-flags',
 		defaultMessage: 'Feature flags',
@@ -951,7 +947,7 @@ useSeoMeta({
 			defaultMessage: 'Discover and publish Minecraft content!',
 		}),
 	ogType: 'website',
-	ogImage: 'https://cdn.modrinth.com/modrinth-new.png',
+	ogImage: 'https://cdn.blankethub.loxalhost/modrinth-new.png',
 	ogUrl: link,
 
 	// Twitter

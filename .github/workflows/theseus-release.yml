@@ -21,7 +21,7 @@ jobs:
       LINUX_X64_BUNDLE_ARTIFACT_NAME: App bundle (x86_64-unknown-linux-gnu)
       WINDOWS_X64_BUNDLE_ARTIFACT_NAME: App bundle (x86_64-pc-windows-msvc)
       MACOS_UNIVERSAL_BUNDLE_ARTIFACT_NAME: App bundle (universal-apple-darwin)
-      LAUNCHER_FILES_BUCKET_BASE_URL: https://launcher-files.modrinth.com
+      LAUNCHER_FILES_BUCKET_BASE_URL: https://launcher-files.blankethub.loxalhost
 
     steps:
       - name: 📥 Download Blankethub App artifacts

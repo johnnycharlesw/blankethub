@@ -28,4 +28,4 @@ Modrinth is still in beta, of course, so there will be bugs. In the coming weeks
 
 If you find any, please report them to the issue tracker: https://github.com/johnnycharlesw/blankethub/issues
 
-If you would like to chat about Modrinth, our discord is open to all here: https://discord.modrinth.com
+If you would like to chat about Modrinth, our discord is open to all here: https://discord.blankethub.loxalhost

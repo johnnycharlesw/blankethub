@@ -138,5 +138,5 @@ export const getLauncherRedirectUrl = (route) => {
 
 	return usesLocalhostRedirectionScheme
 		? `http://${route.query.ipver === '4' ? '127.0.0.1' : '[::1]'}:${route.query.port}`
-		: `https://launcher-files.modrinth.com`
+		: `https://launcher-files.blankethub.loxalhost`
 }

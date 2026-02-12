@@ -245,27 +245,27 @@
 
 <script setup lang="ts">
 import {
-	BoxIcon,
-	ChartIcon,
-	CheckIcon,
-	ClipboardCopyIcon,
-	CrownIcon,
-	DownloadIcon,
-	MoreVerticalIcon,
-	OrganizationIcon,
-	SettingsIcon,
-	UsersIcon,
-	XIcon,
+    BoxIcon,
+    ChartIcon,
+    CheckIcon,
+    ClipboardCopyIcon,
+    CrownIcon,
+    DownloadIcon,
+    MoreVerticalIcon,
+    OrganizationIcon,
+    SettingsIcon,
+    UsersIcon,
+    XIcon,
 } from '@modrinth/assets'
 import {
-	Avatar,
-	ButtonStyled,
-	commonMessages,
-	ContentPageHeader,
-	OverflowMenu,
-	ProjectCard,
-	ProjectCardList,
-	useVIntl,
+    Avatar,
+    ButtonStyled,
+    commonMessages,
+    ContentPageHeader,
+    OverflowMenu,
+    ProjectCard,
+    ProjectCardList,
+    useVIntl,
 } from '@modrinth/ui'
 import type { Organization, ProjectStatus, ProjectType, ProjectV3 } from '@modrinth/utils'
 import { formatNumber } from '@modrinth/utils'
@@ -277,8 +277,8 @@ import NavStack from '~/components/ui/NavStack.vue'
 import NavTabs from '~/components/ui/NavTabs.vue'
 import { acceptTeamInvite, removeTeamMember } from '~/helpers/teams.js'
 import {
-	OrganizationContext,
-	provideOrganizationContext,
+    OrganizationContext,
+    provideOrganizationContext,
 } from '~/providers/organization-context.ts'
 import { isPermission } from '~/utils/permissions.ts'
 
@@ -430,7 +430,7 @@ useSeoMeta({
 	description,
 	ogTitle: title,
 	ogDescription: organization.value.description,
-	ogImage: organization.value.icon_url ?? 'https://cdn.modrinth.com/placeholder.png',
+	ogImage: organization.value.icon_url ?? 'https://cdn.blankethub.loxalhost/placeholder.png',
 })
 
 const navLinks = computed(() => [

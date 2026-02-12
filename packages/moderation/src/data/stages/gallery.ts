@@ -7,7 +7,7 @@ const gallery: Stage = {
 	title: "Are this project's gallery images sufficient?",
 	id: 'gallery',
 	icon: ImageIcon,
-	guidance_url: 'https://modrinth.com/legal/rules#general-expectations',
+	guidance_url: 'https://blankethub.loxalhost/legal/rules#general-expectations',
 	navigate: '/gallery',
 	actions: [
 		{

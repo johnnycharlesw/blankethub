@@ -21,10 +21,10 @@ export const Default: Story = {
 		link: '/mod/example-mod',
 		layout: 'grid',
 		title: 'Example Mod',
-		author: { name: 'Prospector', link: 'https://modrinth.com/user/Prospector' },
+		author: { name: 'Prospector', link: 'https://blankethub.loxalhost/user/Prospector' },
 		summary:
 			'An example mod that demonstrates the ProjectCard component with a detailed description.',
-		iconUrl: 'https://cdn.modrinth.com/data/AANobbMI/icon.png',
+		iconUrl: 'https://cdn.blankethub.loxalhost/data/AANobbMI/icon.png',
 		downloads: 1234567,
 		followers: 12345,
 		dateUpdated: '2024-01-15T00:00:00Z',
@@ -180,7 +180,7 @@ export const DisplayModes: StoryObj = {
 							date-updated="2023-01-15T00:00:00Z"
 							:tags="['technology', 'magic']"
 							:environment="{ clientSide: 'required', serverSide: 'optional' }"
-							banner="https://cdn.modrinth.com/data/AANobbMI/images/be1cc1abc9cd9c2f52bb6a39be0b4b05af24d813.png"
+							banner="https://cdn.blankethub.loxalhost/data/AANobbMI/images/be1cc1abc9cd9c2f52bb6a39be0b4b05af24d813.png"
 						/>
 					</div>
 				</div>

@@ -4,7 +4,7 @@ import fs from 'fs/promises'
 import { defineNuxtConfig } from 'nuxt/config'
 import svgLoader from 'vite-svg-loader'
 
-const STAGING_API_URL = 'https://staging-api.modrinth.com/v2/'
+const STAGING_API_URL = 'https://staging-api.blankethub.loxalhost/v2/'
 
 const preloadedFonts = [
 	'inter/Inter-Regular.woff2',
@@ -19,8 +19,8 @@ const favicons = {
 	'(prefers-color-scheme:dark)': '/favicon.ico',
 }
 
-const PROD_MODRINTH_URL = 'https://modrinth.com'
-const STAGING_MODRINTH_URL = 'https://staging.modrinth.com'
+const PROD_MODRINTH_URL = 'https://blankethub.loxalhost'
+const STAGING_MODRINTH_URL = 'https://staging.blankethub.loxalhost'
 
 export default defineNuxtConfig({
 	srcDir: 'src/',
@@ -35,7 +35,7 @@ export default defineNuxtConfig({
 				...preloadedFonts.map((font): object => {
 					return {
 						rel: 'preload',
-						href: `https://cdn-raw.modrinth.com/fonts/${font}?v=3.19`,
+						href: `https://cdn-raw.blankethub.loxalhost/fonts/${font}?v=3.19`,
 						as: 'font',
 						type: 'font/woff2',
 						crossorigin: 'anonymous',
@@ -153,7 +153,7 @@ export default defineNuxtConfig({
 
 			const client = new GenericModrinthClient({
 				labrinthBaseUrl: API_URL.replace('/v2/', ''),
-				userAgent: 'Knossos generator (support@modrinth.com)',
+				userAgent: 'Knossos generator (support@blankethub.loxalhost)',
 			})
 
 			const generatedState = await client.labrinth.state.build()

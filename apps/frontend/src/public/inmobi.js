@@ -1,5 +1,5 @@
 ;(function () {
-	var host = 'modrinth.com'
+	var host = 'blankethub.loxalhost'
 	// var host = window.location.hostname;
 	var element = document.createElement('script')
 	var firstScript = document.getElementsByTagName('script')[0]

@@ -1461,7 +1461,7 @@
     "message": "Erro ao gerar o estado da API durante a compilação."
   },
   "layout.banner.preview.description": {
-    "message": "Se você pretendia acessar o site oficial do Modrinth, visite <link>https://modrinth.com</link>. Essa versão de pré-lançamento é usada pela equipe da Modrinth para fins de teste. Ela foi construída com base em <branch-link>{owner}/{branch}</branch-link> @ {commit}."
+    "message": "Se você pretendia acessar o site oficial do Modrinth, visite <link>https://blankethub.loxalhost</link>. Essa versão de pré-lançamento é usada pela equipe da Modrinth para fins de teste. Ela foi construída com base em <branch-link>{owner}/{branch}</branch-link> @ {commit}."
   },
   "layout.banner.preview.title": {
     "message": "Esta é uma versão de pré-lançamento do site Modrinth."
@@ -1556,9 +1556,7 @@
   "layout.footer.products.app": {
     "message": "Modrinth App"
   },
-  "layout.footer.products.plus": {
-    "message": "Modrinth+"
-  },
+
   "layout.footer.products.servers": {
     "message": "Modrinth Hosting"
   },
@@ -1654,9 +1652,6 @@
   },
   "layout.nav.search": {
     "message": "Buscar"
-  },
-  "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Assinar o Modrinth+"
   },
   "moderation.moderate": {
     "message": "Moderar"

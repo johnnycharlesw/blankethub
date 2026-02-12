@@ -1,14 +1,14 @@
 <script setup>
 import { TrashIcon, UploadIcon } from '@modrinth/assets'
 import {
-	Avatar,
-	Button,
-	ConfirmModal,
-	FileInput,
-	injectNotificationManager,
-	StyledInput,
-	UnsavedChangesPopup,
-	useSavable,
+    Avatar,
+    Button,
+    ConfirmModal,
+    FileInput,
+    StyledInput,
+    UnsavedChangesPopup,
+    injectNotificationManager,
+    useSavable,
 } from '@modrinth/ui'
 
 import { injectOrganizationContext } from '~/providers/organization-context.ts'
@@ -199,7 +199,7 @@ const onDeleteOrganization = useClientTry(async () => {
 				<span class="label__title">URL</span>
 			</label>
 			<div class="text-input-wrapper">
-				<div class="text-input-wrapper__before">https://modrinth.com/organization/</div>
+				<div class="text-input-wrapper__before">https://blankethub.loxalhost/organization/</div>
 				<StyledInput
 					id="project-slug"
 					v-model="current.slug"

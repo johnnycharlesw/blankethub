@@ -7,7 +7,7 @@ const postApproval: Stage = {
 	title: 'Issue warnings, notices, or takedowns?',
 	id: 'post-approval',
 	icon: ScaleIcon,
-	guidance_url: 'https://modrinth.com/legal/rules',
+	guidance_url: 'https://blankethub.loxalhost/legal/rules',
 	shouldShow: (project) => project.status === 'approved',
 	actions: [
 		{

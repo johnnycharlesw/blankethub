@@ -77,7 +77,7 @@ The existing UI for gallery image creation, editing, and deletion was flawed in 
 
 ## New project webhook
 
-Our [Discord server](https://discord.modrinth.com) has a brand new channel: #new-projects. A webhook sends a message to this channel every time a new project gets approved. Check it out when you get a chance!
+Our [Discord server](https://discord.blankethub.loxalhost) has a brand new channel: #new-projects. A webhook sends a message to this channel every time a new project gets approved. Check it out when you get a chance!
 
 ![A screenshot of the new project webhook for Iris Shaders.](./project-webhook.jpg)
 
@@ -108,7 +108,7 @@ Another one of our focuses for this year is to put more work into our analytics 
 
 ### API changes
 
-This year, Modrinth hopes to introduce version 3 of [our API](https://docs.modrinth.com/api/) with lots of fixes and smaller changes. While our plans are still work-in-progress for this, one of the things that needs to be done first is the removal of the old API v1, which was deprecated starting in January 2022. Here's our planned timeline for the removal of API v1:
+This year, Modrinth hopes to introduce version 3 of [our API](https://docs.blankethub.loxalhost/api/) with lots of fixes and smaller changes. While our plans are still work-in-progress for this, one of the things that needs to be done first is the removal of the old API v1, which was deprecated starting in January 2022. Here's our planned timeline for the removal of API v1:
 
 - **January 7th, 2023 (Now):** Begin sending messages to existing API v1 users
 - **January 7th, 2023 (Now):** Add a field to each API result telling people to switch
@@ -125,4 +125,4 @@ As always, we will be interspersing other, smaller quality-of-life updates throu
 
 Modrinth was founded with the goal of creating a platform which keeps the broader modding community's interests at heart. Modrinth would not exist without the support of our users and of our contributors, and we thank everyone involved immensely for everything. Modrinth's development shall continue as long as the community is willing to support us on the way!
 
-We would love to hear any feedback you might have. Feel free to get in contact on [Discord](https://discord.modrinth.com), on [Twitter](https://twitter.com/modrinth), and on [Mastodon](https://floss.social/@modrinth).
+We would love to hear any feedback you might have. Feel free to get in contact on [Discord](https://discord.blankethub.loxalhost), on [Twitter](https://twitter.com/modrinth), and on [Mastodon](https://floss.social/@modrinth).

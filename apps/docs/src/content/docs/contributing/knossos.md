@@ -20,8 +20,8 @@ Once that's done, you'll be serving knossos on `localhost:3000` with hot reloadi
 #### Basic configuration
 
 `SITE_URL`: The URL of the site (used for auth redirects). Default: `http://localhost:3000`
-`BASE_URL`: The base URL for the API. Default: `https://staging-api.modrinth.com/v2/`
-`BROWSER_BASE_URL`: The base URL for the API used in the browser. Default: `https://staging-api.modrinth.com/v2/`
+`BASE_URL`: The base URL for the API. Default: `https://staging-api.blankethub.loxalhost/v2/`
+`BROWSER_BASE_URL`: The base URL for the API used in the browser. Default: `https://staging-api.blankethub.loxalhost/v2/`
 
 </details>
 

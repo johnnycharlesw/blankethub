@@ -1461,7 +1461,7 @@
     "message": "Terjadi kesalahan saat menghasilkan keadaan dari API saat membangun."
   },
   "layout.banner.preview.description": {
-    "message": "Bila Anda bermaksud untuk mengakses situs resmi Modrinth, kunjungi <link>https://modrinth.com</link>. Penerapan pratinjau ini digunakan oleh staf Modrinth untuk tujuan pengujian dan dibangun menggunakan <branch-link>{owner}/{branch}</branch-link> @ {commit}."
+    "message": "Bila Anda bermaksud untuk mengakses situs resmi Modrinth, kunjungi <link>https://blankethub.loxalhost</link>. Penerapan pratinjau ini digunakan oleh staf Modrinth untuk tujuan pengujian dan dibangun menggunakan <branch-link>{owner}/{branch}</branch-link> @ {commit}."
   },
   "layout.banner.preview.title": {
     "message": "Ini adalah penerapan pratinjau dari situs web Modrinth."
@@ -1556,9 +1556,7 @@
   "layout.footer.products.app": {
     "message": "Modrinth App"
   },
-  "layout.footer.products.plus": {
-    "message": "Modrinth+"
-  },
+
   "layout.footer.products.servers": {
     "message": "Modrinth Hosting"
   },
@@ -1654,9 +1652,6 @@
   },
   "layout.nav.search": {
     "message": "Cari"
-  },
-  "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Tingkatkan ke Modrinth+"
   },
   "moderation.moderate": {
     "message": "Moderasi"

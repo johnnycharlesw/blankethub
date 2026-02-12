@@ -75,7 +75,7 @@
 				class="absolute left-[55%] top-56 z-[5] hidden h-full max-h-[calc(100vh-10rem)] w-full rotate-1 xl:block"
 			>
 				<img
-					src="https://cdn.modrinth.com/servers/panel-right-dark.webp"
+					src="https://cdn.blankethub.loxalhost/servers/panel-right-dark.webp"
 					alt=""
 					aria-hidden="true"
 					class="pointer-events-none h-full w-fit select-none"
@@ -90,7 +90,7 @@
 					style="mask-image: linear-gradient(black, transparent 80%)"
 				>
 					<img
-						src="https://cdn.modrinth.com/servers/bigrinth.webp"
+						src="https://cdn.blankethub.loxalhost/servers/bigrinth.webp"
 						alt=""
 						aria-hidden="true"
 						class="pointer-events-none w-full animate-spin select-none p-4 opacity-50"
@@ -123,7 +123,7 @@
 					{{ formatMessage(messages.whyDescription) }}
 				</h2>
 				<img
-					src="https://cdn.modrinth.com/servers/excitement.webp"
+					src="https://cdn.blankethub.loxalhost/servers/excitement.webp"
 					alt=""
 					class="absolute right-14 top-0 hidden max-w-[360px] lg:block"
 				/>
@@ -163,7 +163,7 @@
 				</div>
 				<div class="relative">
 					<img
-						src="https://cdn.modrinth.com/servers/installation-dark.webp"
+						src="https://cdn.blankethub.loxalhost/servers/installation-dark.webp"
 						alt=""
 						class="hidden w-full rounded-2xl sm:block"
 					/>
@@ -251,7 +251,7 @@
 					{{ formatMessage(messages.includedDescription) }}
 				</h2>
 				<img
-					src="https://cdn.modrinth.com/servers/waving.webp"
+					src="https://cdn.blankethub.loxalhost/servers/waving.webp"
 					alt=""
 					class="absolute right-8 top-40 hidden max-w-[480px] lg:block"
 				/>
@@ -331,7 +331,7 @@
 						</h3>
 
 						<img
-							src="https://cdn.modrinth.com/servers/content-dark.webp"
+							src="https://cdn.blankethub.loxalhost/servers/content-dark.webp"
 							alt=""
 							class="absolute -bottom-12 -right-[15%] hidden max-w-2xl rounded-2xl bg-brand p-4 lg:block"
 						/>
@@ -629,22 +629,22 @@
 
 <script setup>
 import {
-	BoxIcon,
-	GameIcon,
-	RightArrowIcon,
-	ServerIcon,
-	TerminalSquareIcon,
-	TransferIcon,
-	VersionIcon,
+    BoxIcon,
+    GameIcon,
+    RightArrowIcon,
+    ServerIcon,
+    TerminalSquareIcon,
+    TransferIcon,
+    VersionIcon,
 } from '@modrinth/assets'
 import {
-	ButtonStyled,
-	commonMessages,
-	defineMessages,
-	injectNotificationManager,
-	IntlFormatted,
-	ModrinthServersPurchaseModal,
-	useVIntl,
+    ButtonStyled,
+    IntlFormatted,
+    ModrinthServersPurchaseModal,
+    commonMessages,
+    defineMessages,
+    injectNotificationManager,
+    useVIntl,
 } from '@modrinth/ui'
 import { monthsInInterval } from '@modrinth/ui/src/utils/billing.ts'
 import { formatPrice } from '@modrinth/utils'
@@ -1008,7 +1008,7 @@ const pauseTime = 2000
 const selectedCurrency = ref('USD')
 
 const loggedOut = computed(() => !auth.value.user)
-const outOfStockUrl = 'https://discord.modrinth.com'
+const outOfStockUrl = 'https://discord.blankethub.loxalhost'
 
 const { data: hasServers } = await useAsyncData('ServerListCountCheck', async () => {
 	try {

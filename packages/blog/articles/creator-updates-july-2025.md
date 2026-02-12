@@ -29,10 +29,10 @@ The team has been super hard at work at this, and I'm really glad to announce th
 
 5. **Platform Revenue Route**
 
-   Due to some unannounced breaking changes in Aditude's API, the platform revenue API was broken. It is now [working](https://api.modrinth.com/v3/payout/platform_revenue). You can also use `start` and `end` fields to filter any date range!
+   Due to some unannounced breaking changes in Aditude's API, the platform revenue API was broken. It is now [working](https://api.blankethub.loxalhost/v3/payout/platform_revenue). You can also use `start` and `end` fields to filter any date range!
 
 6. **API and Uptime**
 
    We've migrated our infrastructure for the website, app, and servers to OVH over our existing non-redundant AWS system. We've hit 99.96% uptime on our API and 99.98% on Modrinth Servers!
 
-Thank you all for your patience! If you are having any more issues or have any questions about all of this, feel free to DM @geometrically on Discord or [start a support chat](https://support.modrinth.com) and we will be happy to help!
+Thank you all for your patience! If you are having any more issues or have any questions about all of this, feel free to DM @geometrically on Discord or [start a support chat](https://support.blankethub.loxalhost) and we will be happy to help!

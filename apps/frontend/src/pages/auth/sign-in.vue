@@ -126,23 +126,23 @@
 
 <script setup>
 import {
-	DiscordColorIcon,
-	GitHubColorIcon,
-	GitLabColorIcon,
-	GoogleColorIcon,
-	KeyIcon,
-	MailIcon,
-	MicrosoftColorIcon,
-	RightArrowIcon,
-	SteamColorIcon,
+    DiscordColorIcon,
+    GitHubColorIcon,
+    GitLabColorIcon,
+    GoogleColorIcon,
+    KeyIcon,
+    MailIcon,
+    MicrosoftColorIcon,
+    RightArrowIcon,
+    SteamColorIcon,
 } from '@modrinth/assets'
 import {
-	commonMessages,
-	defineMessages,
-	injectNotificationManager,
-	IntlFormatted,
-	StyledInput,
-	useVIntl,
+    IntlFormatted,
+    StyledInput,
+    commonMessages,
+    defineMessages,
+    injectNotificationManager,
+    useVIntl,
 } from '@modrinth/ui'
 import { useQueryClient } from '@tanstack/vue-query'
 
@@ -282,7 +282,7 @@ async function finishSignIn(token) {
 
 		const redirectUrl = `${getLauncherRedirectUrl(route)}/?code=${token}`
 
-		if (redirectUrl.startsWith('https://launcher-files.modrinth.com/')) {
+		if (redirectUrl.startsWith('https://launcher-files.blankethub.loxalhost/')) {
 			await navigateTo(redirectUrl, {
 				external: true,
 			})

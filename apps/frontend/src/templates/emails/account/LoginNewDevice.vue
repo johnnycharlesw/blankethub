@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import { Column, Heading, Img, Link as VLink, Row, Section, Text } from '@vue-email/components'
+import { Column, Heading, Img, Row, Section, Text, Link as VLink } from '@vue-email/components';
 
-import StyledEmail from '../shared/StyledEmail.vue'
+import StyledEmail from '../shared/StyledEmail.vue';
 </script>
 
 <template>
 	<StyledEmail
 		title="Sign in from new device"
-		:manual-links="[{ link: 'https://support.modrinth.com', label: 'Support Portal' }]"
+		:manual-links="[{ link: 'https://support.blankethub.loxalhost', label: 'Support Portal' }]"
 	>
 		<Heading as="h1" class="mb-2 text-2xl font-bold"> Sign in from new device </Heading>
 
@@ -26,7 +26,7 @@ import StyledEmail from '../shared/StyledEmail.vue'
 								width="20"
 								height="20"
 								alt="Time icon"
-								src="https://cdn-raw.modrinth.com/email/earth.png"
+								src="https://cdn-raw.blankethub.loxalhost/email/earth.png"
 							/>
 						</Column>
 						<Column>
@@ -41,7 +41,7 @@ import StyledEmail from '../shared/StyledEmail.vue'
 								width="20"
 								height="20"
 								alt="Time icon"
-								src="https://cdn-raw.modrinth.com/email/monitor-smartphone.png"
+								src="https://cdn-raw.blankethub.loxalhost/email/monitor-smartphone.png"
 							/>
 						</Column>
 						<Column>
@@ -56,7 +56,7 @@ import StyledEmail from '../shared/StyledEmail.vue'
 								width="20"
 								height="20"
 								alt="Time icon"
-								src="https://cdn-raw.modrinth.com/email/clock.png"
+								src="https://cdn-raw.blankethub.loxalhost/email/clock.png"
 							/>
 						</Column>
 						<Column>
@@ -71,7 +71,7 @@ import StyledEmail from '../shared/StyledEmail.vue'
 		<Text class="text-muted text-base">
 			If this wasn't you, please update your password and review your account security settings. If
 			you cannot do this, contact us immediately through our
-			<VLink href="https://support.modrinth.com" class="text-green underline">Support Portal</VLink
+			<VLink href="https://support.blankethub.loxalhost" class="text-green underline">Support Portal</VLink
 			>.
 		</Text>
 	</StyledEmail>

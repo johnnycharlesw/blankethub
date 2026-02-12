@@ -593,9 +593,7 @@
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
   },
-  "layout.footer.products.plus": {
-    "message": "Modrinth+"
-  },
+
   "layout.footer.resources.api-docs": {
     "message": "API dokumentasjon"
   }

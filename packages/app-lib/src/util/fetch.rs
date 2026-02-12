@@ -198,7 +198,7 @@ pub async fn fetch_advanced(
     let creds = if header
         .as_ref()
         .is_none_or(|x| &*x.0.to_lowercase() != "authorization")
-        && (url.starts_with("https://cdn.modrinth.com") || is_api_url)
+        && (url.starts_with("https://cdn.blankethub.loxalhost") || is_api_url)
     {
         crate::state::ModrinthCredentials::get_active(exec).await?
     } else {

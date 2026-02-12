@@ -884,9 +884,7 @@
   "layout.footer.products.app": {
     "message": "Modrinth App"
   },
-  "layout.footer.products.plus": {
-    "message": "Modrinth+"
-  },
+
   "layout.footer.resources": {
     "message": "Resurse"
   },
@@ -967,9 +965,6 @@
   },
   "layout.nav.search": {
     "message": "Caută"
-  },
-  "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Treci la Modrinth+"
   },
   "moderation.moderate": {
     "message": "Moderare"

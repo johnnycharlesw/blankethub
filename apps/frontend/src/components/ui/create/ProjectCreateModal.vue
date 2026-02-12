@@ -27,7 +27,7 @@
 					</span>
 				</label>
 				<div class="text-input-wrapper">
-					<div class="text-input-wrapper__before">https://modrinth.com/project/</div>
+					<div class="text-input-wrapper__before">https://blankethub.loxalhost/project/</div>
 					<StyledInput
 						id="slug"
 						v-model="slug"
@@ -93,14 +93,14 @@
 <script setup>
 import { PlusIcon, XIcon } from '@modrinth/assets'
 import {
-	ButtonStyled,
-	Chips,
-	commonMessages,
-	defineMessages,
-	injectNotificationManager,
-	NewModal,
-	StyledInput,
-	useVIntl,
+    ButtonStyled,
+    Chips,
+    NewModal,
+    StyledInput,
+    commonMessages,
+    defineMessages,
+    injectNotificationManager,
+    useVIntl,
 } from '@modrinth/ui'
 
 import CreateLimitAlert from './CreateLimitAlert.vue'

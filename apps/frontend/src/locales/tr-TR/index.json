@@ -1461,7 +1461,7 @@
     "message": "Derleme esnasında API'den durum oluştururken hata."
   },
   "layout.banner.preview.description": {
-    "message": "Modrinth'in resmi web sitesine erişmek istediyseniz, <link>https://modrinth.com</link> adresini ziyaret edin. Bu önizleme dağıtımı, Modrinth yetkilileri tarafından test amaçlı kullanılmaktadır. <branch-link>{owner}/{branch}</branch-link> @ {commit} kullanılarak oluşturulmuştur."
+    "message": "Modrinth'in resmi web sitesine erişmek istediyseniz, <link>https://blankethub.loxalhost</link> adresini ziyaret edin. Bu önizleme dağıtımı, Modrinth yetkilileri tarafından test amaçlı kullanılmaktadır. <branch-link>{owner}/{branch}</branch-link> @ {commit} kullanılarak oluşturulmuştur."
   },
   "layout.banner.preview.title": {
     "message": "Bu, Modrinth web sitesinin önizleme dağıtımıdır."
@@ -1556,9 +1556,7 @@
   "layout.footer.products.app": {
     "message": "Modrinth App"
   },
-  "layout.footer.products.plus": {
-    "message": "Modrinth+"
-  },
+
   "layout.footer.products.servers": {
     "message": "Modrinth Hosting"
   },
@@ -1654,9 +1652,6 @@
   },
   "layout.nav.search": {
     "message": "Arama"
-  },
-  "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Modrinth+ Kullan"
   },
   "moderation.moderate": {
     "message": "Yönet"

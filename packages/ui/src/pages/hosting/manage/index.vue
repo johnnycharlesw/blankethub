@@ -53,7 +53,7 @@
 					</ul>
 				</div>
 				<ButtonStyled size="large" type="standard" color="brand">
-					<AutoLink class="mt-6 !w-full" to="https://support.modrinth.com"
+					<AutoLink class="mt-6 !w-full" to="https://support.blankethub.loxalhost"
 						>Contact Modrinth Support</AutoLink
 					>
 				</ButtonStyled>
@@ -88,7 +88,7 @@
 				class="flex h-full flex-col items-center justify-center gap-8"
 			>
 				<img
-					src="https://cdn.modrinth.com/servers/excitement.webp"
+					src="https://cdn.blankethub.loxalhost/servers/excitement.webp"
 					alt=""
 					class="max-w-[360px]"
 					style="

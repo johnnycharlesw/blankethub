@@ -27,7 +27,7 @@
 					</span>
 				</label>
 				<div class="text-input-wrapper">
-					<div class="text-input-wrapper__before">https://modrinth.com/organization/</div>
+					<div class="text-input-wrapper__before">https://blankethub.loxalhost/organization/</div>
 					<StyledInput
 						id="slug"
 						v-model="slug"
@@ -79,13 +79,13 @@
 <script setup lang="ts">
 import { PlusIcon, XIcon } from '@modrinth/assets'
 import {
-	ButtonStyled,
-	commonMessages,
-	defineMessages,
-	injectNotificationManager,
-	NewModal,
-	StyledInput,
-	useVIntl,
+    ButtonStyled,
+    NewModal,
+    StyledInput,
+    commonMessages,
+    defineMessages,
+    injectNotificationManager,
+    useVIntl,
 } from '@modrinth/ui'
 import { ref } from 'vue'
 

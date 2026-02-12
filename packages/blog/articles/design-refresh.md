@@ -73,6 +73,6 @@ Don’t have the Modrinth App? Check it out [here](/app)!
 
 ## Conclusion
 
-Want to hear more from us on a regular basis? Check us out on our social media pages; we post often on both [Mastodon](https://floss.social/@modrinth) and [X/Twitter](https://twitter.com/modrinth). You can also chat with us on [Discord](https://discord.modrinth.com) if you like that.
+Want to hear more from us on a regular basis? Check us out on our social media pages; we post often on both [Mastodon](https://floss.social/@modrinth) and [X/Twitter](https://twitter.com/modrinth). You can also chat with us on [Discord](https://discord.blankethub.loxalhost) if you like that.
 
 Thanks to [intergrav](https://github.com/intergrav) for making the banner image.

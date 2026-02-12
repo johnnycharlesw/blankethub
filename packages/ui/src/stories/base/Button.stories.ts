@@ -77,7 +77,7 @@ export const Disabled: Story = {
 
 export const AsLink: Story = {
 	args: {
-		link: 'https://modrinth.com',
+		link: 'https://blankethub.loxalhost',
 		external: true,
 	},
 }

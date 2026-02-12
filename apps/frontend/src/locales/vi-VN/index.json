@@ -1469,9 +1469,7 @@
   "layout.footer.products.app": {
     "message": "Ứng dụng Modrinth"
   },
-  "layout.footer.products.plus": {
-    "message": "Modrinth+"
-  },
+
   "layout.footer.products.servers": {
     "message": "Modrinth Hosting"
   },
@@ -1567,9 +1565,6 @@
   },
   "layout.nav.search": {
     "message": "Tìm kiếm"
-  },
-  "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Nâng cấp lên Modrinth+"
   },
   "moderation.moderate": {
     "message": "Kiểm duyệt"

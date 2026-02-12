@@ -5,13 +5,13 @@
 
 		<h2>Introduction</h2>
 		<p>
-			<a href="https://modrinth.com">Modrinth</a> is part of Rinth, Inc. ("Company", "us", "we",
+			<a href="https://blankethub.loxalhost">Modrinth</a> is part of Rinth, Inc. ("Company", "us", "we",
 			"our"). This privacy policy explains how we collect data, process it, and your rights relative
 			to your data.
 		</p>
 		<p>
 			This policy describes the types of information we may collect from you or that you may provide
-			when you use www.modrinth.com, api.modrinth.com, or the Modrinth App ("Service" or "Website"),
+			when you use www.blankethub.loxalhost, api.blankethub.loxalhost, or the Modrinth App ("Service" or "Website"),
 			and our practices for collecting, using, maintaining, protecting, and disclosing that
 			information.
 		</p>
@@ -219,7 +219,7 @@
 		</ul>
 		<p>
 			If you would like to exercise those rights, contact us at
-			<a href="mailto:gdpr@modrinth.com">gdpr@modrinth.com</a>. We may ask you to verify your
+			<a href="mailto:gdpr@blankethub.loxalhost">gdpr@blankethub.loxalhost</a>. We may ask you to verify your
 			identity before proceeding and will respond to your request within 30 days as required by law,
 			or notify you of an extended reply time.
 		</p>
@@ -262,7 +262,7 @@
 			that are California residents to request certain information regarding our disclosure of
 			personal information to third parties for their direct marketing purposes. To make such a
 			request, please send an email to
-			<a href="mailto:support@modrinth.com">support@modrinth.com</a>.
+			<a href="mailto:support@blankethub.loxalhost">support@blankethub.loxalhost</a>.
 		</p>
 
 		<h2>Changes to the Privacy Policy</h2>
@@ -277,7 +277,7 @@
 		<h2>Contact</h2>
 		<p>
 			If you have any questions about this privacy policy or how we process your data, contact us at
-			<a href="mailto:gdpr@modrinth.com">gdpr@modrinth.com</a> or write us at:
+			<a href="mailto:gdpr@blankethub.loxalhost">gdpr@blankethub.loxalhost</a> or write us at:
 		</p>
 		<p>
 			Rinth, Inc.<br />

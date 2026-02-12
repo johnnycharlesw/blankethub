@@ -42,12 +42,12 @@ const socialLinks: {
 }[] = [
 	{
 		label: defineMessage({ id: 'layout.footer.social.discord', defaultMessage: 'Discord' }),
-		href: 'https://discord.modrinth.com',
+		href: 'https://discord.blankethub.loxalhost',
 		icon: DiscordIcon,
 	},
 	{
 		label: defineMessage({ id: 'layout.footer.social.bluesky', defaultMessage: 'Bluesky' }),
-		href: 'https://bsky.app/profile/modrinth.com',
+		href: 'https://bsky.app/profile/blankethub.loxalhost',
 		icon: BlueskyIcon,
 	},
 	{
@@ -87,11 +87,11 @@ const footerLinks: {
 				label: defineMessage({ id: 'layout.footer.about.changelog', defaultMessage: 'Changelog' }),
 			},
 			{
-				href: 'https://status.modrinth.com',
+				href: 'https://status.blankethub.loxalhost',
 				label: defineMessage({ id: 'layout.footer.about.status', defaultMessage: 'Status' }),
 			},
 			{
-				href: 'https://careers.modrinth.com',
+				href: 'https://careers.blankethub.loxalhost',
 				label: defineMessage({ id: 'layout.footer.about.careers', defaultMessage: 'Careers' }),
 			},
 			{
@@ -127,14 +127,14 @@ const footerLinks: {
 		label: defineMessage({ id: 'layout.footer.resources', defaultMessage: 'Resources' }),
 		links: [
 			{
-				href: 'https://support.modrinth.com',
+				href: 'https://support.blankethub.loxalhost',
 				label: defineMessage({
 					id: 'layout.footer.resources.help-center',
 					defaultMessage: 'Help Center',
 				}),
 			},
 			{
-				href: 'https://translate.modrinth.com',
+				href: 'https://translate.blankethub.loxalhost',
 				label: defineMessage({
 					id: 'layout.footer.resources.translate',
 					defaultMessage: 'Translate',
@@ -148,7 +148,7 @@ const footerLinks: {
 				}),
 			},
 			{
-				href: 'https://docs.modrinth.com/api/',
+				href: 'https://docs.blankethub.loxalhost/api/',
 				label: defineMessage({
 					id: 'layout.footer.resources.api-docs',
 					defaultMessage: 'API documentation',

@@ -462,7 +462,7 @@ useSeoMeta({
 					<Avatar
 						:src="
 							server.general.is_medal
-								? 'https://cdn-raw.modrinth.com/medal_icon.webp'
+								? 'https://cdn-raw.blankethub.loxalhost/medal_icon.webp'
 								: server.general.image
 						"
 						size="48px"

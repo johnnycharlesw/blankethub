@@ -19,7 +19,7 @@ const fixtures = {
 			slug: 'sodium',
 			title: 'Sodium',
 			icon_url:
-				'https://cdn.modrinth.com/data/AANobbMI/295862f4724dc3f78df3447ad6072b2dcd3ef0c9_96.webp',
+				'https://cdn.blankethub.loxalhost/data/AANobbMI/295862f4724dc3f78df3447ad6072b2dcd3ef0c9_96.webp',
 		},
 		version: {
 			id: '59wygFUQ',
@@ -41,7 +41,7 @@ const fixtures = {
 			slug: 'modmenu',
 			title: 'Mod Menu',
 			icon_url:
-				'https://cdn.modrinth.com/data/mOgUt4GM/5a20ed1450a0e1e79a1fe04e61bb4e5878bf1d20.png',
+				'https://cdn.blankethub.loxalhost/data/mOgUt4GM/5a20ed1450a0e1e79a1fe04e61bb4e5878bf1d20.png',
 		},
 		version: {
 			id: 'QuU0ciaR',
@@ -57,7 +57,7 @@ const fixtures = {
 			id: 'P7dR8mSH',
 			slug: 'fabric-api',
 			title: 'Fabric API',
-			icon_url: 'https://cdn.modrinth.com/data/P7dR8mSH/icon.png',
+			icon_url: 'https://cdn.blankethub.loxalhost/data/P7dR8mSH/icon.png',
 		},
 		version: {
 			id: 'Lwa1Q6e4',
@@ -67,7 +67,7 @@ const fixtures = {
 		owner: {
 			id: 'BZoBsPo6',
 			name: 'FabricMC',
-			avatar_url: 'https://cdn.modrinth.com/data/P7dR8mSH/icon.png',
+			avatar_url: 'https://cdn.blankethub.loxalhost/data/P7dR8mSH/icon.png',
 			type: 'organization' as const,
 		},
 		enabled: false,

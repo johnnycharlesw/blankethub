@@ -3,11 +3,11 @@ openapi: '3.0.0'
 info:
   version: v2.7.0/366f528
   title: Laundryroom
-  termsOfService: https://modrinth.com/legal/terms
+  termsOfService: https://blankethub.loxalhost/legal/terms
   contact:
     name: Modrinth Support
-    url: https://support.modrinth.com
-    email: support@modrinth.com
+    url: https://support.blankethub.loxalhost
+    email: support@blankethub.loxalhost
   description: |
     This documentation doesn't provide a way to test our API. In order to facilitate testing, we recommend the following tools:
 
@@ -17,19 +17,19 @@ info:
     - [Insomnia](https://insomnia.rest/)
     - Your web browser, if you don't need to send headers or a request body
 
-    Once you have a working client, you can test that it works by making a `GET` request to `https://staging-api.modrinth.com/`:
+    Once you have a working client, you can test that it works by making a `GET` request to `https://staging-api.blankethub.loxalhost/`:
 
     ```json
     {
       "about": "Welcome traveler!",
-      "documentation": "https://docs.modrinth.com",
+      "documentation": "https://docs.blankethub.loxalhost",
       "name": "modrinth-labrinth",
       "version": "2.7.0"
     }
     ```
 
     If you got a response similar to the one above, you can use the Modrinth API!
-    When you want to go live using the production API, use `api.modrinth.com` instead of `staging-api.modrinth.com`.
+    When you want to go live using the production API, use `api.blankethub.loxalhost` instead of `staging-api.blankethub.loxalhost`.
 
     ## Authentication
     This API has two options for authentication: personal access tokens and [OAuth2](https://en.wikipedia.org/wiki/OAuth).
@@ -51,10 +51,10 @@ info:
     Please note that certain scopes and requests cannot be completed with a personal access token or using OAuth.
     For example, deleting a user account can only be done through Modrinth's frontend.
 
-    A detailed guide on OAuth has been published in [Modrinth's technical documentation](https://docs.modrinth.com/guide/oauth).
+    A detailed guide on OAuth has been published in [Modrinth's technical documentation](https://docs.blankethub.loxalhost/guide/oauth).
 
     ### Personal access tokens
-    Personal access tokens (PATs) can be generated in from [the user settings](https://modrinth.com/settings/account).
+    Personal access tokens (PATs) can be generated in from [the user settings](https://blankethub.loxalhost/settings/account).
 
     ### GitHub tokens
     For backwards compatibility purposes, some types of GitHub tokens also work for authenticating a user with Modrinth's API, granting all scopes.
@@ -82,7 +82,7 @@ info:
     - `X-Ratelimit-Reset`: the time in seconds until the ratelimit window resets
 
     Ratelimits are the same no matter whether you use a token or not.
-    The ratelimit is currently 300 requests per minute. If you have a use case requiring a higher limit, please [contact us](mailto:admin@modrinth.com).
+    The ratelimit is currently 300 requests per minute. If you have a use case requiring a higher limit, please [contact us](mailto:admin@blankethub.loxalhost).
 
     ## User Agents
     To access the Modrinth API, you **must** use provide a uniquely-identifying `User-Agent` header.
@@ -155,9 +155,9 @@ info:
 # The above snippet about User Agents was adapted from https://crates.io/policies, copyright (c) 2014 The Rust Project Developers under MIT license
 
 servers:
-  - url: https://api.modrinth.com/v2
+  - url: https://api.blankethub.loxalhost/v2
     description: Production server
-  - url: https://staging-api.modrinth.com/v2
+  - url: https://staging-api.blankethub.loxalhost/v2
     description: Staging server
 
 components:
@@ -502,7 +502,7 @@ components:
           $ref: '#/components/schemas/VersionFileHashes'
         url:
           type: string
-          example: 'https://cdn.modrinth.com/data/AABBCCDD/versions/1.0.0/my_file.jar'
+          example: 'https://cdn.blankethub.loxalhost/data/AABBCCDD/versions/1.0.0/my_file.jar'
           description: A direct link to the file
         filename:
           type: string
@@ -645,7 +645,7 @@ components:
               description: The total number of downloads of the project
             icon_url:
               type: string
-              example: https://cdn.modrinth.com/data/AABBCCDD/b46513nd83hb4792a9a0e1fn28fgi6090c1842639.png
+              example: https://cdn.blankethub.loxalhost/data/AABBCCDD/b46513nd83hb4792a9a0e1fn28fgi6090c1842639.png
               description: The URL of the project's icon
               nullable: true
             color:
@@ -713,8 +713,8 @@ components:
               description: All gallery images attached to the project
               example:
                 [
-                  'https://cdn.modrinth.com/data/AABBCCDD/images/009b7d8d6e8bf04968a29421117c59b3efe2351a.png',
-                  'https://cdn.modrinth.com/data/AABBCCDD/images/c21776867afb6046fdc3c21dbcf5cc50ae27a236.png',
+                  'https://cdn.blankethub.loxalhost/data/AABBCCDD/images/009b7d8d6e8bf04968a29421117c59b3efe2351a.png',
+                  'https://cdn.blankethub.loxalhost/data/AABBCCDD/images/c21776867afb6046fdc3c21dbcf5cc50ae27a236.png',
                 ]
               items:
                 type: string
@@ -1023,7 +1023,7 @@ components:
         url:
           type: string
           description: The URL of the gallery image
-          example: https://cdn.modrinth.com/data/AABBCCDD/images/009b7d8d6e8bf04968a29421117c59b3efe2351a.png
+          example: https://cdn.blankethub.loxalhost/data/AABBCCDD/images/009b7d8d6e8bf04968a29421117c59b3efe2351a.png
         featured:
           type: boolean
           description: Whether the image is featured in the gallery
@@ -1243,7 +1243,7 @@ components:
         payout_address:
           type: string
           description: The user's payout address
-          example: support@modrinth.com
+          example: support@blankethub.loxalhost
     User:
       allOf:
         - $ref: '#/components/schemas/EditableUser'
@@ -1819,7 +1819,7 @@ components:
         homepage:
           type: string
           description: A link to the mod page
-          example: https://modrinth.com
+          example: https://blankethub.loxalhost
         promos:
           $ref: '#/components/schemas/ForgeUpdateCheckerPromos'
     ForgeUpdateCheckerPromos:
@@ -3900,9 +3900,9 @@ paths:
           enum: [only, include]
           example: include
     servers:
-      - url: https://api.modrinth.com
+      - url: https://api.blankethub.loxalhost
         description: Production server
-      - url: https://staging-api.modrinth.com
+      - url: https://staging-api.blankethub.loxalhost
         description: Staging server
     get:
       summary: Forge Updates JSON file
@@ -3916,7 +3916,7 @@ paths:
         ```toml
         [[mods]]
         # the other stuff here - ID, version, display name, etc.
-        updateJSONURL = "https://api.modrinth.com/updates/{slug|ID}/forge_updates.json"
+        updateJSONURL = "https://api.blankethub.loxalhost/updates/{slug|ID}/forge_updates.json"
         ```
 
         Replace `{slug|id}` with the slug or ID of your project.
@@ -3933,7 +3933,7 @@ paths:
         ```toml
         [[mods]]
         # the other stuff here - ID, version, display name, etc.
-        updateJSONURL = "https://api.modrinth.com/updates/{slug|ID}/forge_updates.json?neoforge=only"
+        updateJSONURL = "https://api.blankethub.loxalhost/updates/{slug|ID}/forge_updates.json?neoforge=only"
         ```
       tags:
         - misc

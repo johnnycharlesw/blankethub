@@ -27,7 +27,7 @@ and encouraging of much needed competition and diversity in the mod hosting spac
 
 Unfortunately, in order to comply with their request, all Modrinth modpacks must now use override JARs in place of any
 links to CurseForge's CDN. Specifically, CDN links to `edge.forgecdn.net` and `media.forgecdn.net` will no longer be part
-of the `.mrpack` [specification](https://docs.modrinth.com/docs/modpacks/format_definition/#downloads), effective today.
+of the `.mrpack` [specification](https://docs.blankethub.loxalhost/docs/modpacks/format_definition/#downloads), effective today.
 Of course, modpack authors must ensure that they are properly licensed to redistribute any mods that are not hosted on
 the Modrinth platform. While this is a huge blow to modpack creators and users of our platform for now, relying on
 CurseForge CDN links has always been unreliable as a long-term solution, because they could choose to change the links

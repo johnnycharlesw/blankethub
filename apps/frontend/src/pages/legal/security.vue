@@ -13,7 +13,7 @@
 			<strong>Do not open a GitHub issue for a found vulnerability</strong>.
 		</p>
 		<p>
-			Send details to <a href="mailto:jai@modrinth.com">jai@modrinth.com</a>
+			Send details to <a href="mailto:jai@blankethub.loxalhost">jai@blankethub.loxalhost</a>
 			including:
 		</p>
 		<ul>

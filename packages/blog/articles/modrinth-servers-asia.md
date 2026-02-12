@@ -19,4 +19,4 @@ In the next few months, we hope to unveil some exciting new changes to Modrinth 
 
 <strong data-contrast-text>Host your next server with [Modrinth Servers](https://modrinth.gg) today!</strong>
 
-What region should be next? [Let us know here](https://surveys.modrinth.com/servers-region-waitlist).
+What region should be next? [Let us know here](https://surveys.blankethub.loxalhost/servers-region-waitlist).

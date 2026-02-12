@@ -31,7 +31,7 @@ pub fn launcher_user_agent() -> String {
         concat!("modrinth/theseus/", env!("CARGO_PKG_VERSION"),);
 
     format!(
-        "{} ({}; support@modrinth.com)",
+        "{} ({}; support@blankethub.loxalhost)",
         LAUNCHER_BASE_USER_AGENT,
         std::env::consts::OS
     )

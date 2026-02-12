@@ -11,7 +11,7 @@ For both those who aren't in the Discord and for those who are, this serves as a
 
 ## New and improved design
 
-The [frontend](https://github.com/modrinth/knossos) has received a considerable facelift. With designs made in part by [falseresync](https://modrinth.com/user/falseresync) (and a sprinkle of bikeshedding), we present to you, the redesign!
+The [frontend](https://github.com/modrinth/knossos) has received a considerable facelift. With designs made in part by [falseresync](https://blankethub.loxalhost/user/falseresync) (and a sprinkle of bikeshedding), we present to you, the redesign!
 
 As they say, a picture tells somewhere around nine-hundred odd words. As such, this section will be heavily focused on screenshots of the pages rather than long descriptions.
 
@@ -63,9 +63,9 @@ The notifications page is also now its own page separate from the dashboard, acc
 
 ## Backend changes and API v2
 
-There have been a number of breaking changes in this update, and as such, the API number has been bumped. The `/api/` prefix has also been removed, as it's redundant when the base API URL is `api.modrinth.com`. This means the production URL is now `api.modrinth.com/v2` instead of `api.modrinth.com/api/v1`.
+There have been a number of breaking changes in this update, and as such, the API number has been bumped. The `/api/` prefix has also been removed, as it's redundant when the base API URL is `api.blankethub.loxalhost`. This means the production URL is now `api.blankethub.loxalhost/v2` instead of `api.blankethub.loxalhost/api/v1`.
 
-The major changes include the universal rename of `mod` to `project`, as well as the move of the `mod` endpoint to `search`. While version 1 will be supported until January 2024 and won't be removed until July 2024, we still highly recommend that applications migrate as soon as possible. For full migration instructions, see the migration guide [on the docs site](https://docs.modrinth.com/docs/migrations/v1-to-v2/).
+The major changes include the universal rename of `mod` to `project`, as well as the move of the `mod` endpoint to `search`. While version 1 will be supported until January 2024 and won't be removed until July 2024, we still highly recommend that applications migrate as soon as possible. For full migration instructions, see the migration guide [on the docs site](https://docs.blankethub.loxalhost/docs/migrations/v1-to-v2/).
 
 ## Minotaur
 
@@ -123,7 +123,7 @@ Along with the major headlining features, there are also a number of smaller fea
 - Projects will only be able to have `draft` status if they contain no versions. Additionally, a new `archived` status has been added.
 - Donation URLs have been re-enabled.
 - Fix: Markdown checkboxes will no longer render strangely ([knossos#291](https://github.com/modrinth/knossos/pull/291))
-- Fix: [Maven](https://docs.modrinth.com/docs/tutorials/maven/) will no longer randomly break ([labrinth#264](https://github.com/modrinth/labrinth/pull/264) and [labrinth#252](https://github.com/modrinth/labrinth/pull/252))
+- Fix: [Maven](https://docs.blankethub.loxalhost/docs/tutorials/maven/) will no longer randomly break ([labrinth#264](https://github.com/modrinth/labrinth/pull/264) and [labrinth#252](https://github.com/modrinth/labrinth/pull/252))
 - ...and many other smaller things!
 
 ## What happened to modpacks?

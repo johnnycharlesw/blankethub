@@ -7,9 +7,9 @@
 			These terms of use are entered into by and between You and Rinth, Inc.
 			(<strong>"Company"</strong>, <strong>"we"</strong> or <strong>"us"</strong>). The following
 			terms and conditions, together with any documents they expressly incorporate by reference
-			(collectively, these "Terms of Use"), govern your access to and use of www.modrinth.com,
-			api.modrinth.com, or the Modrinth App, including any content, functionality and services
-			offered on or through www.modrinth.com, api.modrinth.com, or the Modrinth App (the "Service"),
+			(collectively, these "Terms of Use"), govern your access to and use of www.blankethub.loxalhost,
+			api.blankethub.loxalhost, or the Modrinth App, including any content, functionality and services
+			offered on or through www.blankethub.loxalhost, api.blankethub.loxalhost, or the Modrinth App (the "Service"),
 			whether as a guest or a registered user.
 		</p>
 		<p>
@@ -544,7 +544,7 @@
 		<p>
 			All other feedback, comments, requests for technical support and other communications relating
 			to the Service should be directed to:
-			<a href="mailto:support@modrinth.com">support@modrinth.com</a>.
+			<a href="mailto:support@blankethub.loxalhost">support@blankethub.loxalhost</a>.
 		</p>
 	</div>
 </template>

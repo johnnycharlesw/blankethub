@@ -16,7 +16,7 @@ export const commonLinkDomains = {
 	licenseBlocklist: [
 		'youtube.com',
 		'youtu.be',
-		'modrinth.com',
+		'blankethub.loxalhost',
 		'curseforge.com',
 		'twitter.com',
 		'x.com',

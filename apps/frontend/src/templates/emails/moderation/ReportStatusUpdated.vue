@@ -1,19 +1,19 @@
 <script setup lang="ts">
-import { Heading, Link as VLink, Text } from '@vue-email/components'
+import { Heading, Text, Link as VLink } from '@vue-email/components';
 
-import StyledEmail from '../shared/StyledEmail.vue'
+import StyledEmail from '../shared/StyledEmail.vue';
 </script>
 
 <template>
 	<StyledEmail
 		title="Report of '{report.title}' has been updated"
 		:manual-links="[
-			{ link: 'https://modrinth.com/legal/rules', label: 'Community Guidelines' },
+			{ link: 'https://blankethub.loxalhost/legal/rules', label: 'Community Guidelines' },
 			{
-				link: 'https://modrinth.com/dashboard/report/{report.id}',
+				link: 'https://blankethub.loxalhost/dashboard/report/{report.id}',
 				label: 'View report in dashboard',
 			},
-			{ link: 'https://support.modrinth.com', label: 'Support Portal' },
+			{ link: 'https://support.blankethub.loxalhost', label: 'Support Portal' },
 		]"
 	>
 		<Heading as="h1" class="mb-2 text-2xl font-bold"
@@ -29,7 +29,7 @@ import StyledEmail from '../shared/StyledEmail.vue'
 
 		<Text class="text-base">
 			You can
-			<VLink href="https://modrinth.com/dashboard/report/{report.id}" class="text-green underline"
+			<VLink href="https://blankethub.loxalhost/dashboard/report/{report.id}" class="text-green underline"
 				>view the full report thread</VLink
 			>
 			to see the update. If you have more information to add, please reply in the report thread for

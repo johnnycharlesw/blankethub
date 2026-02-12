@@ -32,4 +32,4 @@ export const JSON_PATH = repoPath('apps/frontend/src/public/news/feed/articles.j
 /**
  * The base URL of the Modrinth site, used for the RSS feed.
  */
-export const SITE_URL = 'https://modrinth.com'
+export const SITE_URL = 'https://blankethub.loxalhost'

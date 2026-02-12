@@ -857,9 +857,6 @@
   "layout.footer.products.app": {
     "message": "Získat aplikaci Modrinth"
   },
-  "layout.footer.products.plus": {
-    "message": "Modrinth+"
-  },
   "layout.footer.resources": {
     "message": "Zdroje"
   },

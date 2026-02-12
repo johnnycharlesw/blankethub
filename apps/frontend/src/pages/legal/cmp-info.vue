@@ -5,7 +5,7 @@
 		<p>
 			This page was created for transparency for how the rewards program works on Modrinth. Feel
 			free to join our Discord or email
-			<a href="mailto:support@modrinth.com">support@modrinth.com</a> if you have any questions!
+			<a href="mailto:support@blankethub.loxalhost">support@blankethub.loxalhost</a> if you have any questions!
 		</p>
 		<p>
 			This document is provided for informational purposes only and does not constitute a legal
@@ -58,7 +58,7 @@
 		</p>
 		<p>
 			You can view your page views and project downloads in your
-			<a href="https://modrinth.com/dashboard/analytics">analytics dashboard</a>.
+			<a href="https://blankethub.loxalhost/dashboard/analytics">analytics dashboard</a>.
 		</p>
 		<h2>Frequently Asked Questions</h2>
 		<p>
@@ -131,7 +131,7 @@
 			<a href="https://github.com/johnnycharlesw/blankethub/blob/main/apps/labrinth/src/queue/payouts">
 				revenue distribution system</a
 			>. We also have an
-			<a href="https://api.modrinth.com/v3/payout/platform_revenue">API route</a>
+			<a href="https://api.blankethub.loxalhost/v3/payout/platform_revenue">API route</a>
 			to query the exact daily advertising revenue for the site - so far, creators on Modrinth have
 			earned a total of <strong>{{ formatMoney(platformRevenue) }}</strong> in ad revenue.
 		</p>
@@ -156,7 +156,7 @@
 		<small
 			>Modrinth's total ad revenue in the previous 5 days, for the entire dataset, use the
 			aforementioned
-			<a href="https://api.modrinth.com/v3/payout/platform_revenue">API route</a>.</small
+			<a href="https://api.blankethub.loxalhost/v3/payout/platform_revenue">API route</a>.</small
 		>
 	</div>
 </template>

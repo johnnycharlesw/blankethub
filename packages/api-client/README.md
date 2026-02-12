@@ -77,7 +77,7 @@ import { getVersion } from '@tauri-apps/api/app'
 
 const version = await getVersion()
 const client = new TauriModrinthClient({
-	userAgent: `modrinth/theseus/${version} (support@modrinth.com)`,
+	userAgent: `modrinth/theseus/${version} (support@blankethub.loxalhost)`,
 	features: [new AuthFeature({ token: 'mrp_...' })],
 })
 
@@ -88,22 +88,22 @@ const project = await client.request('/project/sodium', { api: 'labrinth', versi
 
 By default, the client uses the production base URLs:
 
-- `labrinthBaseUrl`: `https://api.modrinth.com/` (Laundryroom API)
-- `archonBaseUrl`: `https://archon.modrinth.com/` (Archon/Servers API)
+- `labrinthBaseUrl`: `https://api.blankethub.loxalhost/` (Laundryroom API)
+- `archonBaseUrl`: `https://archon.blankethub.loxalhost/` (Archon/Servers API)
 
 You can override these for staging environments or custom instances:
 
 ```typescript
 const client = new GenericModrinthClient({
 	userAgent: 'my-app/1.0.0',
-	labrinthBaseUrl: 'https://staging-api.modrinth.com/',
-	archonBaseUrl: 'https://staging-archon.modrinth.com/',
+	labrinthBaseUrl: 'https://staging-api.blankethub.loxalhost/',
+	archonBaseUrl: 'https://staging-archon.blankethub.loxalhost/',
 	features: [new AuthFeature({ token: 'mrp_...' })],
 })
 
 // Now requests will use the staging URLs
 await client.request('/project/sodium', { api: 'labrinth', version: 2 })
-// -> https://staging-api.modrinth.com/v2/project/sodium
+// -> https://staging-api.blankethub.loxalhost/v2/project/sodium
 ```
 
 You can also use custom URLs directly in requests:
@@ -111,7 +111,7 @@ You can also use custom URLs directly in requests:
 ```typescript
 // One-off custom URL (useful for Kyros nodes or dynamic endpoints)
 await client.request('/some-endpoint', {
-	api: 'https://eu-lim16.nodes.modrinth.com/',
+	api: 'https://eu-lim16.nodes.blankethub.loxalhost/',
 	version: 0,
 })
 ```
@@ -162,7 +162,7 @@ new CircuitBreakerFeature({
 
 This package is **self-documenting** through TypeScript types and JSDoc comments. Use your IDE's IntelliSense to explore available methods, classes, and configuration options.
 
-For Modrinth API endpoints and routes, refer to the [Modrinth API Documentation](https://docs.modrinth.com).
+For Modrinth API endpoints and routes, refer to the [Modrinth API Documentation](https://docs.blankethub.loxalhost).
 
 ## Contributing
 

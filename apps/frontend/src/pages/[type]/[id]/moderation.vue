@@ -23,7 +23,7 @@
 					If your review has taken more than 48 hours, check our
 					<a
 						class="text-link"
-						href="https://support.modrinth.com/en/articles/8793355-modrinth-project-review-times"
+						href="https://support.blankethub.loxalhost/en/articles/8793355-modrinth-project-review-times"
 						target="_blank"
 					>
 						support article on review times
@@ -77,7 +77,7 @@
 				This is a private conversation thread with the Modrinth moderators. They may message you
 				with issues concerning this project. This thread is only checked when you submit your
 				project for review. For additional inquiries, please go to the
-				<a class="text-link" href="https://support.modrinth.com" target="_blank">
+				<a class="text-link" href="https://support.blankethub.loxalhost" target="_blank">
 					Modrinth Help Center
 				</a>
 				and click the green bubble to contact support.
@@ -104,12 +104,12 @@ import { Badge, injectNotificationManager, injectProjectPageContext } from '@mod
 
 import ConversationThread from '~/components/ui/thread/ConversationThread.vue'
 import {
-	getProjectLink,
-	isApproved,
-	isListed,
-	isPrivate,
-	isRejected,
-	isUnderReview,
+    getProjectLink,
+    isApproved,
+    isListed,
+    isPrivate,
+    isRejected,
+    isUnderReview,
 } from '~/helpers/projects.js'
 
 const { addNotification } = injectNotificationManager()

@@ -216,13 +216,13 @@
 						<div class="launcher-view">
 							<img
 								v-if="$theme.active === 'light'"
-								src="https://cdn.modrinth.com/landing-new/launcher-light.webp"
+								src="https://cdn.blankethub.loxalhost/landing-new/launcher-light.webp"
 								:alt="formatMessage(messages.launcherGraphicAlt)"
 								class="minecraft-screen"
 							/>
 							<img
 								v-else
-								src="https://cdn.modrinth.com/landing-new/launcher.webp"
+								src="https://cdn.blankethub.loxalhost/landing-new/launcher.webp"
 								:alt="formatMessage(messages.launcherGraphicAlt)"
 								class="minecraft-screen"
 							/>
@@ -432,23 +432,23 @@
 </template>
 <script setup>
 import {
-	CalendarIcon,
-	CompassIcon,
-	DashboardIcon,
-	LogInIcon,
-	ModrinthIcon,
-	SearchIcon,
+    CalendarIcon,
+    CompassIcon,
+    DashboardIcon,
+    LogInIcon,
+    ModrinthIcon,
+    SearchIcon,
 } from '@modrinth/assets'
 import {
-	Avatar,
-	ButtonStyled,
-	commonMessages,
-	defineMessages,
-	IntlFormatted,
-	ProjectCard,
-	StyledInput,
-	useRelativeTime,
-	useVIntl,
+    Avatar,
+    ButtonStyled,
+    IntlFormatted,
+    ProjectCard,
+    StyledInput,
+    commonMessages,
+    defineMessages,
+    useRelativeTime,
+    useVIntl,
 } from '@modrinth/ui'
 import { ref } from 'vue'
 import { Multiselect } from 'vue-multiselect'

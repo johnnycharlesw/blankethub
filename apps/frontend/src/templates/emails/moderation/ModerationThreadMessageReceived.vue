@@ -1,19 +1,19 @@
 <script setup lang="ts">
-import { Heading, Img, Link as VLink, Section, Text } from '@vue-email/components'
+import { Heading, Img, Section, Text, Link as VLink } from '@vue-email/components';
 
-import StyledEmail from '../shared/StyledEmail.vue'
+import StyledEmail from '../shared/StyledEmail.vue';
 </script>
 
 <template>
 	<StyledEmail
 		title="New moderation message"
 		:manual-links="[
-			{ link: 'https://modrinth.com/legal/rules', label: 'Community Guidelines' },
+			{ link: 'https://blankethub.loxalhost/legal/rules', label: 'Community Guidelines' },
 			{
-				link: 'https://modrinth.com/project/{project.id}/moderation',
+				link: 'https://blankethub.loxalhost/project/{project.id}/moderation',
 				label: 'Your project\'s moderation thread',
 			},
-			{ link: 'https://support.modrinth.com', label: 'Support Portal' },
+			{ link: 'https://support.blankethub.loxalhost', label: 'Support Portal' },
 		]"
 	>
 		<Section class="mb-4 mt-2">
@@ -34,7 +34,7 @@ import StyledEmail from '../shared/StyledEmail.vue'
 		<Text class="text-base">
 			Modrinth's moderation team has left a message on your project,
 			<VLink
-				href="https://modrinth.com/project/{project.id}/moderation"
+				href="https://blankethub.loxalhost/project/{project.id}/moderation"
 				class="text-green underline"
 				>{project.name}</VLink
 			>.
@@ -44,7 +44,7 @@ import StyledEmail from '../shared/StyledEmail.vue'
 			<Text class="m-0 text-base">
 				Please
 				<VLink
-					href="https://modrinth.com/project/{project.id}/moderation"
+					href="https://blankethub.loxalhost/project/{project.id}/moderation"
 					class="text-green underline"
 					>sign in to view the message</VLink
 				>

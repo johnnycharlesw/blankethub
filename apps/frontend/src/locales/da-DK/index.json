@@ -1277,9 +1277,6 @@
   "layout.footer.products.app": {
     "message": "Modrinth App"
   },
-  "layout.footer.products.plus": {
-    "message": "Modrinth+"
-  },
   "layout.footer.products.servers": {
     "message": "Modrinth Hosting"
   },

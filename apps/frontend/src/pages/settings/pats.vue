@@ -103,7 +103,7 @@
 		<p>
 			<IntlFormatted :message-id="messages.description">
 				<template #doc-link="{ children }">
-					<a class="text-link" href="https://docs.modrinth.com">
+					<a class="text-link" href="https://docs.blankethub.loxalhost">
 						<component :is="() => children" />
 					</a>
 				</template>
@@ -213,27 +213,27 @@
 <script setup>
 import { EditIcon, PlusIcon, SaveIcon, TrashIcon, XIcon } from '@modrinth/assets'
 import {
-	Checkbox,
-	commonMessages,
-	commonSettingsMessages,
-	ConfirmModal,
-	CopyCode,
-	defineMessages,
-	injectNotificationManager,
-	IntlFormatted,
-	StyledInput,
-	useRelativeTime,
-	useVIntl,
+    Checkbox,
+    ConfirmModal,
+    CopyCode,
+    IntlFormatted,
+    StyledInput,
+    commonMessages,
+    commonSettingsMessages,
+    defineMessages,
+    injectNotificationManager,
+    useRelativeTime,
+    useVIntl,
 } from '@modrinth/ui'
 
 import Modal from '~/components/ui/Modal.vue'
 import {
-	getScopeValue,
-	hasScope,
-	scopeCategoryMessages,
-	scopeList,
-	toggleScope,
-	useScopes,
+    getScopeValue,
+    hasScope,
+    scopeCategoryMessages,
+    scopeList,
+    toggleScope,
+    useScopes,
 } from '~/composables/auth/scopes.ts'
 
 const { addNotification } = injectNotificationManager()

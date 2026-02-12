@@ -228,7 +228,7 @@
 					>This editor supports
 					<a
 						class="markdown-resource-link"
-						href="https://support.modrinth.com/en/articles/8801962-advanced-markdown-formatting"
+						href="https://support.blankethub.loxalhost/en/articles/8801962-advanced-markdown-formatting"
 						target="_blank"
 						>Markdown formatting</a
 					>.</span
@@ -261,31 +261,31 @@
 import { history, historyKeymap, indentWithTab } from '@codemirror/commands'
 import { markdown } from '@codemirror/lang-markdown'
 import { Compartment, EditorState } from '@codemirror/state'
-import { EditorView, keymap, placeholder as cm_placeholder } from '@codemirror/view'
+import { EditorView, placeholder as cm_placeholder, keymap } from '@codemirror/view'
 import {
-	AlignLeftIcon,
-	BoldIcon,
-	CodeIcon,
-	Heading1Icon,
-	Heading2Icon,
-	Heading3Icon,
-	ImageIcon,
-	InfoIcon,
-	ItalicIcon,
-	LinkIcon,
-	ListBulletedIcon,
-	ListOrderedIcon,
-	PlusIcon,
-	ScanEyeIcon,
-	StrikethroughIcon,
-	TextQuoteIcon,
-	UploadIcon,
-	XIcon,
-	YouTubeIcon,
+    AlignLeftIcon,
+    BoldIcon,
+    CodeIcon,
+    Heading1Icon,
+    Heading2Icon,
+    Heading3Icon,
+    ImageIcon,
+    InfoIcon,
+    ItalicIcon,
+    LinkIcon,
+    ListBulletedIcon,
+    ListOrderedIcon,
+    PlusIcon,
+    ScanEyeIcon,
+    StrikethroughIcon,
+    TextQuoteIcon,
+    UploadIcon,
+    XIcon,
+    YouTubeIcon,
 } from '@modrinth/assets'
 import { markdownCommands, modrinthMarkdownEditorKeymap } from '@modrinth/utils/codemirror'
 import { renderHighlightedString } from '@modrinth/utils/highlightjs'
-import { type Component, computed, onBeforeUnmount, onMounted, ref, toRef, watch } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref, toRef, watch, type Component } from 'vue'
 
 import NewModal from '../modal/NewModal.vue'
 import Button from './Button.vue'

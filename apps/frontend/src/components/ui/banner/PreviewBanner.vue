@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import { XIcon } from '@modrinth/assets'
 import {
-	ButtonStyled,
-	commonMessages,
-	defineMessages,
-	IntlFormatted,
-	normalizeChildren,
-	PagewideBanner,
-	useVIntl,
+    ButtonStyled,
+    commonMessages,
+    defineMessages,
+    IntlFormatted,
+    normalizeChildren,
+    PagewideBanner,
+    useVIntl,
 } from '@modrinth/ui'
 
 const { formatMessage } = useVIntl()
@@ -21,7 +21,7 @@ const messages = defineMessages({
 	},
 	description: {
 		id: 'layout.banner.preview.description',
-		defaultMessage: `If you meant to access the official Modrinth website, visit <link>https://modrinth.com</link>. This preview deploy is used by Modrinth staff for testing purposes. It was built using <branch-link>{owner}/{branch}</branch-link> @ {commit}.`,
+		defaultMessage: `If you meant to access the official Modrinth website, visit <link>https://blankethub.loxalhost</link>. This preview deploy is used by Modrinth staff for testing purposes. It was built using <branch-link>{owner}/{branch}</branch-link> @ {commit}.`,
 	},
 })
 
@@ -46,7 +46,7 @@ function hidePreviewBanner() {
 					}"
 				>
 					<template #link="{ children }">
-						<a href="https://modrinth.com" target="_blank" rel="noopener" class="text-link">
+						<a href="https://blankethub.loxalhost" target="_blank" rel="noopener" class="text-link">
 							<component :is="() => normalizeChildren(children)" />
 						</a>
 					</template>

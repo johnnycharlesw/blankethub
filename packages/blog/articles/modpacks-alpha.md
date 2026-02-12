@@ -13,7 +13,7 @@ From this point forward, Modrinth has shifted development effort from modpacks t
 
 ## Where can I find them?
 
-Right next to mods on the site! URLs to modpacks are the same as mods, just with `mod` replaced with `modpacks`, so you can find the search at https://modrinth.com/modpacks.
+Right next to mods on the site! URLs to modpacks are the same as mods, just with `mod` replaced with `modpacks`, so you can find the search at https://blankethub.loxalhost/modpacks.
 
 Over a dozen modpacks have already been created by our early pack adopters, and those are available for download right now!
 
@@ -46,9 +46,9 @@ Next stop: creator payouts!
 [ATLauncher]: https://atlauncher.com
 [MultiMC]: https://multimc.org
 [packwiz]: https://github.com/packwiz/packwiz
-[Modrinth format]: https://docs.modrinth.com/docs/modpacks/format_definition/
-[documentation for creating modpacks]: https://docs.modrinth.com/docs/modpacks/creating_modpacks/
-[documentation for playing modpacks]: https://docs.modrinth.com/docs/modpacks/playing_modpacks/
+[Modrinth format]: https://docs.blankethub.loxalhost/docs/modpacks/format_definition/
+[documentation for creating modpacks]: https://docs.blankethub.loxalhost/docs/modpacks/creating_modpacks/
+[documentation for playing modpacks]: https://docs.blankethub.loxalhost/docs/modpacks/playing_modpacks/
 [`packwiz cf import`]: https://packwiz.infra.link/reference/commands/packwiz_curseforge_import/
 [`packwiz mr export`]: https://packwiz.infra.link/reference/commands/packwiz_modrinth_export/
 [Discord]: https://discord.gg/EUHuJHt

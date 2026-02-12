@@ -34,7 +34,7 @@
 								? previewImage
 								: project.gallery[editIndex] && project.gallery[editIndex].url
 									? project.gallery[editIndex].url
-									: 'https://cdn.modrinth.com/placeholder-banner.svg'
+									: 'https://cdn.blankethub.loxalhost/placeholder-banner.svg'
 						"
 						alt="gallery-preview"
 					/>
@@ -139,7 +139,7 @@
 					:src="
 						expandedGalleryItem.raw_url
 							? expandedGalleryItem.raw_url
-							: 'https://cdn.modrinth.com/placeholder-banner.svg'
+							: 'https://cdn.blankethub.loxalhost/placeholder-banner.svg'
 					"
 					:alt="expandedGalleryItem.title ? expandedGalleryItem.title : 'gallery-image'"
 					@click.stop
@@ -165,7 +165,7 @@
 								:href="
 									expandedGalleryItem.raw_url
 										? expandedGalleryItem.raw_url
-										: 'https://cdn.modrinth.com/placeholder-banner.svg'
+										: 'https://cdn.blankethub.loxalhost/placeholder-banner.svg'
 								"
 							>
 								<ExternalIcon aria-hidden="true" />
@@ -218,7 +218,7 @@
 			<div v-for="(item, index) in project.gallery" :key="index" class="card gallery-item">
 				<a class="gallery-thumbnail" @click="expandImage(item, index)">
 					<img
-						:src="item.url ? item.url : 'https://cdn.modrinth.com/placeholder-banner.svg'"
+						:src="item.url ? item.url : 'https://cdn.blankethub.loxalhost/placeholder-banner.svg'"
 						:alt="item.title ? item.title : 'gallery-image'"
 					/>
 				</a>
@@ -276,30 +276,30 @@
 
 <script setup>
 import {
-	CalendarIcon,
-	ContractIcon,
-	EditIcon,
-	ExpandIcon,
-	ExternalIcon,
-	ImageIcon,
-	InfoIcon,
-	LeftArrowIcon,
-	PlusIcon,
-	RightArrowIcon,
-	SaveIcon,
-	StarIcon,
-	TransferIcon,
-	TrashIcon,
-	UploadIcon,
-	XIcon,
+    CalendarIcon,
+    ContractIcon,
+    EditIcon,
+    ExpandIcon,
+    ExternalIcon,
+    ImageIcon,
+    InfoIcon,
+    LeftArrowIcon,
+    PlusIcon,
+    RightArrowIcon,
+    SaveIcon,
+    StarIcon,
+    TransferIcon,
+    TrashIcon,
+    UploadIcon,
+    XIcon,
 } from '@modrinth/assets'
 import {
-	ConfirmModal,
-	DropArea,
-	FileInput,
-	injectProjectPageContext,
-	NewModal as Modal,
-	StyledInput,
+    ConfirmModal,
+    DropArea,
+    FileInput,
+    NewModal as Modal,
+    StyledInput,
+    injectProjectPageContext,
 } from '@modrinth/ui'
 
 import { isPermission } from '~/utils/permissions.ts'

@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { Link as VLink, Section, Text } from '@vue-email/components'
+import { Section, Text, Link as VLink } from '@vue-email/components';
 
-import StyledDoc from '../shared/StyledDoc.vue'
+import StyledDoc from '../shared/StyledDoc.vue';
 </script>
 
 <template>
@@ -31,8 +31,8 @@ import StyledDoc from '../shared/StyledDoc.vue'
 					<Text class="m-0 text-sm leading-tight text-secondary">Suite 304 #3133</Text>
 					<Text class="m-0 text-sm leading-tight text-secondary">Wilmington, DE 19801</Text>
 					<Text class="m-0 mt-2 text-sm text-secondary">
-						<VLink href="mailto:support@modrinth.com" class="text-blue no-underline">
-							support@modrinth.com
+						<VLink href="mailto:support@blankethub.loxalhost" class="text-blue no-underline">
+							support@blankethub.loxalhost
 						</VLink>
 					</Text>
 				</div>

@@ -4,11 +4,11 @@
 -- Inserts 5 dummy users for testing, with slight differences
 -- 'Friend' and 'enemy' function like 'user', but we can use them to simulate 'other' users that may or may not be able to access certain things
 INSERT INTO users (id, username, email, role)
-VALUES ({{user_id::ADMIN}},     'Admin',     'admin@modrinth.com',     'admin'),
-       ({{user_id::MODERATOR}}, 'Moderator', 'moderator@modrinth.com', 'moderator'),
-       ({{user_id::USER}},      'User',      'user@modrinth.com',      'developer'),
-       ({{user_id::FRIEND}},    'Friend',    'friend@modrinth.com',    'developer'),
-       ({{user_id::ENEMY}},     'Enemy',     'enemy@modrinth.com',     'developer');
+VALUES ({{user_id::ADMIN}},     'Admin',     'admin@blankethub.loxalhost',     'admin'),
+       ({{user_id::MODERATOR}}, 'Moderator', 'moderator@blankethub.loxalhost', 'moderator'),
+       ({{user_id::USER}},      'User',      'user@blankethub.loxalhost',      'developer'),
+       ({{user_id::FRIEND}},    'Friend',    'friend@blankethub.loxalhost',    'developer'),
+       ({{user_id::ENEMY}},     'Enemy',     'enemy@blankethub.loxalhost',     'developer');
 
 -- Full PATs for each user, with different scopes
 -- These are not legal PATs, as they contain all scopes- they mimic permissions of a logged in user
@@ -122,7 +122,7 @@ VALUES (
         3
     );
 INSERT INTO oauth_client_redirect_uris (id, client_id, uri)
-VALUES (1, 1, 'https://modrinth.com/oauth_callback');
+VALUES (1, 1, 'https://blankethub.loxalhost/oauth_callback');
 
 -- Create dummy data table to mark that this file has been run
 CREATE TABLE dummy_data (

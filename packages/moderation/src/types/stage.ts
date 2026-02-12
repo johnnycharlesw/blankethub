@@ -43,7 +43,7 @@ export interface Stage {
 	/**
 	 * Optional navigation path to redirect the moderator when this stage is shown.
 	 *
-	 * This is relative to the project page. For example, `/settings#side-types` would navigate to `https://modrinth.com/project/:id/settings#side-types`.
+	 * This is relative to the project page. For example, `/settings#side-types` would navigate to `https://blankethub.loxalhost/project/:id/settings#side-types`.
 	 */
 	navigate?: string
 

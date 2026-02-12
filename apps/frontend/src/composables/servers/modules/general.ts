@@ -41,7 +41,7 @@ export class GeneralModule extends ServerModule implements ServerGeneral {
 
 		if (data.upstream?.project_id) {
 			const project = await $fetch(
-				`https://api.modrinth.com/v2/project/${data.upstream.project_id}`,
+				`https://api.blankethub.loxalhost/v2/project/${data.upstream.project_id}`,
 			)
 			data.project = project as Project
 		}

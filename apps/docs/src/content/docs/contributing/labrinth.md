@@ -99,7 +99,7 @@ If you're prepared to contribute by submitting a pull request, ensure you have m
 
 > Note: If you encounter issues with `sqlx` saying 'no queries found' after running `cargo sqlx prepare`, you may need to ensure the installed version of `sqlx-cli` matches the current version of `sqlx` used [in labrinth](https://github.com/modrinth/labrinth/blob/master/Cargo.toml).
 
-[Discord]: https://discord.modrinth.com
+[Discord]: https://discord.blankethub.loxalhost
 [GitHub]: https://github.com/modrinth
 [labrinth]: https://github.com/johnnycharlesw/blankethub/tree/main/apps/labrinth
 [Rust]: https://www.rust-lang.org/tools/install

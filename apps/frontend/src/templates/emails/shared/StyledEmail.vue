@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { Column, Container, Img, Link as VLink, Row, Section, Text } from '@vue-email/components'
+import { Column, Container, Img, Row, Section, Text, Link as VLink } from '@vue-email/components';
 
-import StyledTemplate from '../../shared/StyledTemplate.vue'
+import StyledTemplate from '../../shared/StyledTemplate.vue';
 
 defineProps<{
 	title?: string
@@ -17,39 +17,39 @@ interface SocialLink {
 
 const socialLinks = Object.freeze<readonly SocialLink[]>([
 	{
-		href: 'https://discord.modrinth.com',
+		href: 'https://discord.blankethub.loxalhost',
 		alt: 'Discord',
-		src: 'https://cdn-raw.modrinth.com/email/discord.png',
+		src: 'https://cdn-raw.blankethub.loxalhost/email/discord.png',
 	},
 	{
-		href: 'https://bsky.app/profile/modrinth.com',
+		href: 'https://bsky.app/profile/blankethub.loxalhost',
 		alt: 'Bluesky',
-		src: 'https://cdn-raw.modrinth.com/email/bluesky.png',
+		src: 'https://cdn-raw.blankethub.loxalhost/email/bluesky.png',
 	},
 	{
 		href: 'https://floss.social/@modrinth',
 		alt: 'Mastodon',
-		src: 'https://cdn-raw.modrinth.com/email/mastodon.png',
+		src: 'https://cdn-raw.blankethub.loxalhost/email/mastodon.png',
 	},
 	{
 		href: 'https://x.com/modrinth',
 		alt: 'X (Twitter)',
-		src: 'https://cdn-raw.modrinth.com/email/x.png',
+		src: 'https://cdn-raw.blankethub.loxalhost/email/x.png',
 	},
 	{
 		href: 'https://www.instagram.com/modrinth/',
 		alt: 'Instagram',
-		src: 'https://cdn-raw.modrinth.com/email/instagram.png',
+		src: 'https://cdn-raw.blankethub.loxalhost/email/instagram.png',
 	},
 	{
 		href: 'https://www.youtube.com/@modrinth',
 		alt: 'YouTube',
-		src: 'https://cdn-raw.modrinth.com/email/youtube.png',
+		src: 'https://cdn-raw.blankethub.loxalhost/email/youtube.png',
 	},
 	{
 		href: 'https://github.com/modrinth',
 		alt: 'GitHub',
-		src: 'https://cdn-raw.modrinth.com/email/github.png',
+		src: 'https://cdn-raw.blankethub.loxalhost/email/github.png',
 	},
 ])
 </script>
@@ -61,7 +61,7 @@ const socialLinks = Object.freeze<readonly SocialLink[]>([
 				<Row>
 					<Column>
 						<Img
-							src="https://cdn.modrinth.com/email/f740e2decee8764a4629bff677a284f9.png"
+							src="https://cdn.blankethub.loxalhost/email/f740e2decee8764a4629bff677a284f9.png"
 							width="29"
 							alt=""
 							class="block h-auto"
@@ -81,9 +81,9 @@ const socialLinks = Object.freeze<readonly SocialLink[]>([
 			<Container class="max-w-[600px]">
 				<Row>
 					<Column class="align-middle">
-						<VLink href="https://modrinth.com" aria-label="Modrinth">
+						<VLink href="https://blankethub.loxalhost" aria-label="Modrinth">
 							<Img
-								src="https://cdn.modrinth.com/email/bd3357dfae4b1d266250372db3a0988f.png"
+								src="https://cdn.blankethub.loxalhost/email/bd3357dfae4b1d266250372db3a0988f.png"
 								width="175"
 								alt="modrinth logo"
 								class="block h-auto"
@@ -119,7 +119,7 @@ const socialLinks = Object.freeze<readonly SocialLink[]>([
 		>
 			This email was sent to you as a registered user of Modrinth. You can customize the
 			emails you recieve in your
-			<VLink href="https://modrinth.com/settings/notifications" class="text-green underline"
+			<VLink href="https://blankethub.loxalhost/settings/notifications" class="text-green underline"
 				>notification settings</VLink
 			>. Some emails are required to keep your account secure and cannot be disabled.
 		</Text> -->
@@ -153,7 +153,7 @@ const socialLinks = Object.freeze<readonly SocialLink[]>([
 				</span>
 				<!-- <span class="block break-words">
 					<span> <b>Notification settings:</b><br /> </span>
-					https://modrinth.com/settings/notifications
+					https://blankethub.loxalhost/settings/notifications
 				</span> -->
 			</Text>
 		</Section>

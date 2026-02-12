@@ -1,16 +1,16 @@
 <script setup lang="ts">
-import { Button, Heading, Img, Link as VLink, Section, Text } from '@vue-email/components'
+import { Button, Heading, Img, Section, Text, Link as VLink } from '@vue-email/components';
 
-import StyledEmail from '../shared/StyledEmail.vue'
+import StyledEmail from '../shared/StyledEmail.vue';
 </script>
 
 <template>
 	<StyledEmail
 		title="You've been invited to an organization"
 		:manual-links="[
-			{ link: 'https://modrinth.com/organization/{organization.id}', label: 'Organization page' },
-			{ link: 'https://modrinth.com/dashboard/notifications', label: 'Notification dashboard' },
-			{ link: 'https://support.modrinth.com', label: 'Support Portal' },
+			{ link: 'https://blankethub.loxalhost/organization/{organization.id}', label: 'Organization page' },
+			{ link: 'https://blankethub.loxalhost/dashboard/notifications', label: 'Notification dashboard' },
+			{ link: 'https://support.blankethub.loxalhost', label: 'Support Portal' },
 		]"
 	>
 		<Section class="mb-4 mt-2">
@@ -32,14 +32,14 @@ import StyledEmail from '../shared/StyledEmail.vue'
 		<Text class="text-base"
 			>Modrinth user
 			<b
-				><VLink href="https://modrinth.com/user/{inviter.name}" class="text-green underline">
+				><VLink href="https://blankethub.loxalhost/user/{inviter.name}" class="text-green underline">
 					{inviter.name}
 				</VLink></b
 			>
 			has invited you to join the organization
 			<b
 				><VLink
-					href="https://modrinth.com/organization/{organization.id}"
+					href="https://blankethub.loxalhost/organization/{organization.id}"
 					class="text-green underline"
 				>
 					{organization.name}
@@ -56,7 +56,7 @@ import StyledEmail from '../shared/StyledEmail.vue'
 		</Section>
 
 		<Button
-			href="https://modrinth.com/dashboard/notifications"
+			href="https://blankethub.loxalhost/dashboard/notifications"
 			target="_blank"
 			class="text-accentContrast inline-block rounded-[12px] bg-brand pb-3 pl-4 pr-4 pt-3 text-[14px] font-bold"
 		>
@@ -66,7 +66,7 @@ import StyledEmail from '../shared/StyledEmail.vue'
 		<Text class="text-base">
 			If you were not expecting this invitation you should reject it. If you believe this was sent
 			in error or is abusive, please contact support
-			<VLink href="https://support.modrinth.com" class="text-green underline">
+			<VLink href="https://support.blankethub.loxalhost" class="text-green underline">
 				through the Support Portal</VLink
 			>.
 		</Text>

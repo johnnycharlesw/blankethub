@@ -53,7 +53,7 @@ const article = computed(() => ({
 const authorCount = computed(() => authors?.value?.length ?? 0)
 
 const articleTitle = computed(() => article.value.title)
-const articleUrl = computed(() => `https://modrinth.com/news/article/${route.params.slug}`)
+const articleUrl = computed(() => `https://blankethub.loxalhost/news/article/${route.params.slug}`)
 
 const thumbnailPath = computed(() =>
 	article.value.thumbnail
@@ -152,7 +152,7 @@ onMounted(() => {
 						to="/organization/modrinth"
 						class="inline-flex items-center gap-1 font-semibold hover:underline hover:brightness-[--hover-brightness]"
 					>
-						<Avatar src="https://cdn-raw.modrinth.com/modrinth-icon-96.webp" size="24px" />
+						<Avatar src="https://cdn-raw.blankethub.loxalhost/modrinth-icon-96.webp" size="24px" />
 						Modrinth Team
 					</nuxt-link>
 				</template>

@@ -96,7 +96,7 @@
 								id: 'copy-link',
 								action: () =>
 									copyToClipboard(
-										`https://modrinth.com/${project.project_type}/${
+										`https://blankethub.loxalhost/${project.project_type}/${
 											project.slug ? project.slug : project.id
 										}/version/${encodeURI(version.displayUrlEnding)}`,
 									),

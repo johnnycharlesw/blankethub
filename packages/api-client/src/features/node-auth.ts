@@ -6,7 +6,7 @@ import type { RequestContext } from '../types/request'
  * Node authentication credentials
  */
 export interface NodeAuth {
-	/** Node instance URL (e.g., "node-xyz.modrinth.com/modrinth/v0/fs") */
+	/** Node instance URL (e.g., "node-xyz.blankethub.loxalhost/modrinth/v0/fs") */
 	url: string
 	/** JWT token */
 	token: string

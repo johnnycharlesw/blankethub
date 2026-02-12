@@ -1461,7 +1461,7 @@
     "message": "Помилка під час створення стану з API під час побудови."
   },
   "layout.banner.preview.description": {
-    "message": "Якщо ви хотіли перейти на офіційний вебсайт Modrinth, відвідайте <link>https://modrinth.com</link>. Цей попередній перегляд розгортки використовується співробітниками Modrinth для тестування. Він був створений з <branch-link>{owner}/{branch}</branch-link> @ {commit}."
+    "message": "Якщо ви хотіли перейти на офіційний вебсайт Modrinth, відвідайте <link>https://blankethub.loxalhost</link>. Цей попередній перегляд розгортки використовується співробітниками Modrinth для тестування. Він був створений з <branch-link>{owner}/{branch}</branch-link> @ {commit}."
   },
   "layout.banner.preview.title": {
     "message": "Це попередній перегляд розгортки вебсайту Modrinth."
@@ -1556,9 +1556,7 @@
   "layout.footer.products.app": {
     "message": "Modrinth App"
   },
-  "layout.footer.products.plus": {
-    "message": "Modrinth+"
-  },
+
   "layout.footer.products.servers": {
     "message": "Modrinth Hosting"
   },
@@ -1654,9 +1652,6 @@
   },
   "layout.nav.search": {
     "message": "Пошук"
-  },
-  "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Оновитись до Modrinth+"
   },
   "moderation.moderate": {
     "message": "Проглядати"

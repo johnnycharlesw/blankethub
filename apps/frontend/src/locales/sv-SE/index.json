@@ -1217,9 +1217,7 @@
   "layout.footer.products.app": {
     "message": "Modrinth App"
   },
-  "layout.footer.products.plus": {
-    "message": "Modrinth+"
-  },
+
   "layout.footer.products.servers": {
     "message": "Modrinth Hosting"
   },
@@ -1312,9 +1310,6 @@
   },
   "layout.nav.search": {
     "message": "Sök"
-  },
-  "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Uppgradera till Modrinth+"
   },
   "moderation.moderate": {
     "message": "Moderera"

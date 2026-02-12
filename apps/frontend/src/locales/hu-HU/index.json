@@ -1205,9 +1205,7 @@
   "layout.footer.products.app": {
     "message": "Modrinth App"
   },
-  "layout.footer.products.plus": {
-    "message": "Modrinth+"
-  },
+
   "layout.footer.resources": {
     "message": "Források"
   },
@@ -1279,9 +1277,6 @@
   },
   "layout.nav.search": {
     "message": "Keresés"
-  },
-  "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Frissíts a Modrinth+-ra"
   },
   "moderation.page.projects": {
     "message": "Projektek"

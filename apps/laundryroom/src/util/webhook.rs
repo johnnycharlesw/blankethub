@@ -336,7 +336,7 @@ pub async fn send_slack_project_webhook(
                 "elements": [
                     {
                         "type": "image",
-                        "image_url": "https://cdn-raw.modrinth.com/modrinth-new.png",
+                        "image_url": "https://cdn-raw.blankethub.loxalhost/modrinth-new.png",
                         "alt_text": "Author"
                     },
                     {
@@ -474,7 +474,7 @@ pub async fn send_discord_webhook(
             footer: Some(DiscordEmbedFooter {
                 text: format!("{} on Modrinth", project.display_project_type),
                 icon_url: Some(
-                    "https://cdn-raw.modrinth.com/modrinth-new.png".to_string(),
+                    "https://cdn-raw.blankethub.loxalhost/modrinth-new.png".to_string(),
                 ),
             }),
         };
@@ -485,7 +485,7 @@ pub async fn send_discord_webhook(
             .post(&webhook_url)
             .json(&DiscordWebhook {
                 avatar_url: Some(
-                    "https://cdn.modrinth.com/Modrinth_Dark_Logo.png"
+                    "https://cdn.blankethub.loxalhost/Modrinth_Dark_Logo.png"
                         .to_string(),
                 ),
                 username: Some("Modrinth Release".to_string()),

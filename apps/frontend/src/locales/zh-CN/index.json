@@ -1461,7 +1461,7 @@
     "message": "构建期间从 API 生成状态时发生错误。"
   },
   "layout.banner.preview.description": {
-    "message": "如果你是想前往 Modrinth 的官方网站，请前往 <link>https://modrinth.com</link>。这个预览部署版本仅供 Modrinth 工作人员测试使用。它是基于 <branch-link>{owner}/{branch}</branch-link> @ {commit} 构建而成。"
+    "message": "如果你是想前往 Modrinth 的官方网站，请前往 <link>https://blankethub.loxalhost</link>。这个预览部署版本仅供 Modrinth 工作人员测试使用。它是基于 <branch-link>{owner}/{branch}</branch-link> @ {commit} 构建而成。"
   },
   "layout.banner.preview.title": {
     "message": "这是 Modrinth 网站的预览部署版本。"
@@ -1556,9 +1556,7 @@
   "layout.footer.products.app": {
     "message": "Modrinth App"
   },
-  "layout.footer.products.plus": {
-    "message": "Modrinth+"
-  },
+
   "layout.footer.products.servers": {
     "message": "Modrinth Hosting"
   },
@@ -1654,9 +1652,6 @@
   },
   "layout.nav.search": {
     "message": "搜索"
-  },
-  "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "升级至 Modrinth+"
   },
   "moderation.moderate": {
     "message": "审核"

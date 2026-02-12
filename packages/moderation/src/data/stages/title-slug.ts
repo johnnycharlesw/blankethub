@@ -25,7 +25,7 @@ const titleSlug: Stage = {
 		return text
 	},
 	icon: BookOpenIcon,
-	guidance_url: 'https://modrinth.com/legal/rules#miscellaneous',
+	guidance_url: 'https://blankethub.loxalhost/legal/rules#miscellaneous',
 	actions: [
 		{
 			id: 'title_useless_info',

@@ -1,6 +1,6 @@
 ## Description Clarity
 
-Per section 2 of [Modrinth's Content Rules](https://modrinth.com/legal/rules) It's important that your Description accurately and honestly represents the content of your project.
+Per section 2 of [Modrinth's Content Rules](https://blankethub.loxalhost/legal/rules) It's important that your Description accurately and honestly represents the content of your project.
 Currently, some elements in your Description may be confusing or misleading.
 Please edit your description to ensure it accurately represents the current functionality of your project.
 Avoid making hyperbolic claims that could misrepresent the facts of your project.

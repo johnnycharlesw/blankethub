@@ -1,16 +1,16 @@
 <script setup lang="ts">
-import { Button, Heading, Img, Link as VLink, Section, Text } from '@vue-email/components'
+import { Button, Heading, Img, Section, Text, Link as VLink } from '@vue-email/components';
 
-import StyledEmail from '../shared/StyledEmail.vue'
+import StyledEmail from '../shared/StyledEmail.vue';
 </script>
 
 <template>
 	<StyledEmail
 		title="Project ownership transferred"
 		:manual-links="[
-			{ link: 'https://modrinth.com/project/{project.id}', label: 'Project page' },
-			{ link: 'https://modrinth.com/dashboard/notifications', label: 'Notification dashboard' },
-			{ link: 'https://support.modrinth.com', label: 'Support Portal' },
+			{ link: 'https://blankethub.loxalhost/project/{project.id}', label: 'Project page' },
+			{ link: 'https://blankethub.loxalhost/dashboard/notifications', label: 'Notification dashboard' },
+			{ link: 'https://support.blankethub.loxalhost', label: 'Support Portal' },
 		]"
 	>
 		<Section class="mb-4 mt-2">
@@ -29,14 +29,14 @@ import StyledEmail from '../shared/StyledEmail.vue'
 		<Text class="text-base">
 			The ownership of
 			<b>
-				<VLink href="https://modrinth.com/project/{project.id}" class="text-green underline">
+				<VLink href="https://blankethub.loxalhost/project/{project.id}" class="text-green underline">
 					{project.name}
 				</VLink>
 			</b>
 			has been successfully transferred to the Modrinth {new_owner.type_capitalized}
 			<b
 				><VLink
-					href="https://modrinth.com/{new_owner.type}/{new_owner.name}"
+					href="https://blankethub.loxalhost/{new_owner.type}/{new_owner.name}"
 					class="text-green underline"
 					>{new_owner.name}</VLink
 				></b
@@ -44,7 +44,7 @@ import StyledEmail from '../shared/StyledEmail.vue'
 		</Text>
 
 		<Button
-			href="https://modrinth.com/project/{project.id}"
+			href="https://blankethub.loxalhost/project/{project.id}"
 			target="_blank"
 			class="text-accentContrast inline-block rounded-[12px] bg-brand pb-3 pl-4 pr-4 pt-3 text-[14px] font-bold"
 		>
@@ -53,7 +53,7 @@ import StyledEmail from '../shared/StyledEmail.vue'
 
 		<Text class="text-base">
 			If you did not initiate this transfer, please contact support immediately through the
-			<VLink href="https://support.modrinth.com" class="text-green underline">Support Portal</VLink
+			<VLink href="https://support.blankethub.loxalhost" class="text-green underline">Support Portal</VLink
 			>.
 		</Text>
 	</StyledEmail>

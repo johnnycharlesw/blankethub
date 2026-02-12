@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { MessageIcon } from '@modrinth/assets'
-import { ButtonStyled, defineMessages, PagewideBanner, useVIntl } from '@modrinth/ui'
+import { MessageIcon } from '@modrinth/assets';
+import { ButtonStyled, defineMessages, PagewideBanner, useVIntl } from '@modrinth/ui';
 
 const { formatMessage } = useVIntl()
 
@@ -32,7 +32,7 @@ const messages = defineMessages({
 		<template #actions>
 			<div class="flex w-fit flex-row">
 				<ButtonStyled color="red">
-					<nuxt-link to="https://support.modrinth.com" target="_blank" rel="noopener">
+					<nuxt-link to="https://support.blankethub.loxalhost" target="_blank" rel="noopener">
 						<MessageIcon />
 						{{ formatMessage(messages.action) }}
 					</nuxt-link>

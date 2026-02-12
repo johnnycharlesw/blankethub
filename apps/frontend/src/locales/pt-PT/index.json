@@ -1307,9 +1307,7 @@
   "layout.footer.products.app": {
     "message": "Modrinth App"
   },
-  "layout.footer.products.plus": {
-    "message": "Modrinth+"
-  },
+
   "layout.footer.products.servers": {
     "message": "Hospedagem Modrinth"
   },
@@ -1405,9 +1403,6 @@
   },
   "layout.nav.search": {
     "message": "Pesquisar"
-  },
-  "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Atualiza para o Modrinth+"
   },
   "moderation.moderate": {
     "message": "Moderar"

@@ -167,7 +167,7 @@
 		<p>
 			<IntlFormatted :message-id="messages.descriptionIntro">
 				<template #docs-link="{ children }">
-					<a class="text-link" href="https://docs.modrinth.com">
+					<a class="text-link" href="https://docs.blankethub.loxalhost">
 						<component :is="() => normalizeChildren(children)" />
 					</a>
 				</template>
@@ -245,29 +245,29 @@
 <script setup>
 import { EditIcon, PlusIcon, SaveIcon, TrashIcon, UploadIcon, XIcon } from '@modrinth/assets'
 import {
-	Avatar,
-	Button,
-	Checkbox,
-	commonSettingsMessages,
-	ConfirmModal,
-	CopyCode,
-	defineMessages,
-	FileInput,
-	injectNotificationManager,
-	IntlFormatted,
-	normalizeChildren,
-	StyledInput,
-	useVIntl,
+    Avatar,
+    Button,
+    Checkbox,
+    ConfirmModal,
+    CopyCode,
+    FileInput,
+    IntlFormatted,
+    StyledInput,
+    commonSettingsMessages,
+    defineMessages,
+    injectNotificationManager,
+    normalizeChildren,
+    useVIntl,
 } from '@modrinth/ui'
 
 import Modal from '~/components/ui/Modal.vue'
 import {
-	getScopeValue,
-	hasScope,
-	scopeCategoryMessages,
-	scopeList,
-	toggleScope,
-	useScopes,
+    getScopeValue,
+    hasScope,
+    scopeCategoryMessages,
+    scopeList,
+    toggleScope,
+    useScopes,
 } from '~/composables/auth/scopes.ts'
 
 const { addNotification } = injectNotificationManager()

@@ -102,7 +102,7 @@ export async function useServersFetch<T>(
 				: `${base}/v${version}/${path.replace(/^\//, '')}`
 
 	const headers: Record<string, string> = {
-		'User-Agent': 'Modrinth/1.0 (https://modrinth.com)',
+		'User-Agent': 'Modrinth/1.0 (https://blankethub.loxalhost)',
 		'X-Archon-Request': 'true',
 		'X-Panel-Version': String(PANEL_VERSION),
 		Vary: 'Accept, Origin',

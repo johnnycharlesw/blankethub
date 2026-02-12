@@ -21,7 +21,7 @@
 				/>
 				<img
 					v-else
-					src="https://cdn-raw.modrinth.com/landing-new/landing.webp"
+					src="https://cdn-raw.blankethub.loxalhost/landing-new/landing.webp"
 					alt=""
 					class="absolute w-full h-full inset-0 object-cover object-center placeholder-banner scale-[200%]"
 				/>
@@ -147,7 +147,7 @@ import ProjectStatusBadge from '../ProjectStatusBadge.vue'
 import ProjectCardAuthor from './ProjectCardAuthor.vue'
 import ProjectCardDate from './ProjectCardDate.vue'
 import ProjectCardEnvironment, {
-	type ProjectCardEnvironmentProps,
+    type ProjectCardEnvironmentProps,
 } from './ProjectCardEnvironment.vue'
 import ProjectCardStats from './ProjectCardStats.vue'
 import ProjectCardTags from './ProjectCardTags.vue'

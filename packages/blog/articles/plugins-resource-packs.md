@@ -15,7 +15,7 @@ With plugins, we're supporting five loaders and three proxies: Bukkit, Spigot, P
 
 Several new categories have specifically been added for plugins, though mod categories can be used for plugins and vice versa.
 
-[Go browse our plugin section!](https://modrinth.com/plugins)
+[Go browse our plugin section!](https://blankethub.loxalhost/plugins)
 
 ### Why add plugins?
 
@@ -33,7 +33,7 @@ No. Modrinth does not have the infrastructure to support this, and it's not curr
 
 ### What about mods that have plugin versions and vice versa?
 
-Modrinth is taking a unique approach to this. While the search pages are separate, in reality, the backend is the same. You can select plugin loaders when creating a mod and you can select mod loaders when creating a plugin. The split only exists on the frontend so that projects like [Chunky](https://modrinth.com/mod/chunky) can share a single page across their versions.
+Modrinth is taking a unique approach to this. While the search pages are separate, in reality, the backend is the same. You can select plugin loaders when creating a mod and you can select mod loaders when creating a plugin. The split only exists on the frontend so that projects like [Chunky](https://blankethub.loxalhost/mod/chunky) can share a single page across their versions.
 
 Plugins which also have versions for mod loaders will be displayed under the `/mod/` URL on the frontend. Plugins without mod loader versions are displayed under `/plugin/`.
 
@@ -43,7 +43,7 @@ The other thing we've added support for is resource packs!
 
 Previously we hinted at Bedrock resource packs being supported in addition to Java resource packs. We've decided not to add Bedrock resource packs until we also add support for other Bedrock resources for various technical reasons.
 
-[Go browse our resource pack section!](https://modrinth.com/resourcepacks)
+[Go browse our resource pack section!](https://blankethub.loxalhost/resourcepacks)
 
 ### Secondary categories
 
@@ -53,7 +53,7 @@ On search pages, "Features" have been split into their own header. Where categor
 
 ### What about resource packs that require a mod to function?
 
-Resource packs are able to set dependencies on other projects (even those which aren't resource packs), just like how modpacks are able to set dependencies on mods. It's worth noting that OptiFine is not on the platform, and thus you cannot set a dependency on that; however, you can set a dependency on any of the other alternative mods which _are_ available on Modrinth, including [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures), [OptiGUI](https://modrinth.com/mod/optigui), [Continuity](https://modrinth.com/mod/continuity), [CIT Resewn](https://modrinth.com/mod/cit-resewn), [Animatica](https://modrinth.com/mod/animatica), or [Custom Entity Models](https://modrinth.com/mod/cem).
+Resource packs are able to set dependencies on other projects (even those which aren't resource packs), just like how modpacks are able to set dependencies on mods. It's worth noting that OptiFine is not on the platform, and thus you cannot set a dependency on that; however, you can set a dependency on any of the other alternative mods which _are_ available on Modrinth, including [Entity Texture Features](https://blankethub.loxalhost/mod/entitytexturefeatures), [OptiGUI](https://blankethub.loxalhost/mod/optigui), [Continuity](https://blankethub.loxalhost/mod/continuity), [CIT Resewn](https://blankethub.loxalhost/mod/cit-resewn), [Animatica](https://blankethub.loxalhost/mod/animatica), or [Custom Entity Models](https://blankethub.loxalhost/mod/cem).
 
 ## Other miscellaneous changes
 
@@ -79,9 +79,9 @@ We've also deleted the `Misc` category as no one is going to want to filter by `
 
 ## Developer/API changes
 
-The changes in this update are rather minimal when it comes to API-related stuff. Two new fields have been added to the [project struct](https://docs.modrinth.com/api-spec/#tag/project_model) - `approved`, which is the timestamp of when the project was approved (null if it's not approved or unlisted), and `additional_categories`, another set of categories which are to be seen as less important than normal categories. You can read the [secondary categories](#secondary-categories) section for more info on it. If you wish to implement the headers in your API integration, the [category list](https://docs.modrinth.com/api-spec/#tag/tags/operation/categoryList) now has a `header` field.
+The changes in this update are rather minimal when it comes to API-related stuff. Two new fields have been added to the [project struct](https://docs.blankethub.loxalhost/api-spec/#tag/project_model) - `approved`, which is the timestamp of when the project was approved (null if it's not approved or unlisted), and `additional_categories`, another set of categories which are to be seen as less important than normal categories. You can read the [secondary categories](#secondary-categories) section for more info on it. If you wish to implement the headers in your API integration, the [category list](https://docs.blankethub.loxalhost/api-spec/#tag/tags/operation/categoryList) now has a `header` field.
 
-As for the [search result struct](https://docs.modrinth.com/api-spec/#tag/project_result_model), `created` now matches the `approved` date rather than the `published` project field, and `categories` now also includes secondary categories. A new field, `display_categories`, matches only primary categories.
+As for the [search result struct](https://docs.blankethub.loxalhost/api-spec/#tag/project_result_model), `created` now matches the `approved` date rather than the `published` project field, and `categories` now also includes secondary categories. A new field, `display_categories`, matches only primary categories.
 
 Differences between mod loaders and plugins will need to be hardcoded within your API integration for the time being if you wish to have them shown separately. This will be cleaned up in API v3 alongside a general cleanup of a lot of other small aspects of the API. If you have any suggestions for breaking API v3 changes, feel free to suggest them in [our Discord][Discord]. Development on API v3 is likely to begin before the end of the year.
 
@@ -91,5 +91,5 @@ We're very happy to be announcing this feature, even if it is minor in compariso
 
 As always, feel free to provide feedback on [our Discord][Discord], and please report any bugs you come across on [our GitHub](https://github.com/modrinth).
 
-[Discord]: https://discord.modrinth.com
-[Modrinth Maven]: https://support.modrinth.com/en/articles/8801191-modrinth-maven
+[Discord]: https://discord.blankethub.loxalhost
+[Modrinth Maven]: https://support.blankethub.loxalhost/en/articles/8801191-modrinth-maven

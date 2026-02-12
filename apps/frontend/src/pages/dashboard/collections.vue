@@ -27,7 +27,7 @@
 				:to="`/collection/following`"
 				class="universal-card recessed collection"
 			>
-				<Avatar src="https://cdn.modrinth.com/follow-collection.png" size="64px" />
+				<Avatar src="https://cdn.blankethub.loxalhost/follow-collection.png" size="64px" />
 				<div class="details">
 					<span class="title">{{ formatMessage(commonMessages.followedProjectsLabel) }}</span>
 					<span class="description">
@@ -98,15 +98,15 @@
 </template>
 <script setup>
 import {
-	BoxIcon,
-	GlobeIcon,
-	LinkIcon,
-	LockIcon,
-	PlusIcon,
-	SearchIcon,
-	XIcon,
+    BoxIcon,
+    GlobeIcon,
+    LinkIcon,
+    LockIcon,
+    PlusIcon,
+    SearchIcon,
+    XIcon,
 } from '@modrinth/assets'
-import { Avatar, Button, commonMessages, defineMessages, StyledInput, useVIntl } from '@modrinth/ui'
+import { Avatar, Button, StyledInput, commonMessages, defineMessages, useVIntl } from '@modrinth/ui'
 
 import CollectionCreateModal from '~/components/ui/create/CollectionCreateModal.vue'
 

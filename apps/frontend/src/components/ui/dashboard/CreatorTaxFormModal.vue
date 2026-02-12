@@ -124,7 +124,7 @@
 						<IntlFormatted :message-id="messages.confirmationSupportText">
 							<template #support-link="{ children }">
 								<nuxt-link
-									to="https://support.modrinth.com"
+									to="https://support.blankethub.loxalhost"
 									class="text-link"
 									target="_blank"
 									rel="noopener noreferrer"
@@ -154,27 +154,27 @@
 
 <script setup lang="ts">
 import {
-	BrowserWindowSuccessIllustration,
-	DownloadIcon,
-	ExternalIcon,
-	RightArrowIcon,
-	SpinnerIcon,
-	XIcon,
-} from '@modrinth/assets'
+    BrowserWindowSuccessIllustration,
+    DownloadIcon,
+    ExternalIcon,
+    RightArrowIcon,
+    SpinnerIcon,
+    XIcon,
+} from '@modrinth/assets';
 import {
-	Admonition,
-	ButtonStyled,
-	Chips,
-	commonMessages,
-	defineMessages,
-	injectNotificationManager,
-	IntlFormatted,
-	NewModal,
-	normalizeChildren,
-	useVIntl,
-} from '@modrinth/ui'
+    Admonition,
+    ButtonStyled,
+    Chips,
+    IntlFormatted,
+    NewModal,
+    commonMessages,
+    defineMessages,
+    injectNotificationManager,
+    normalizeChildren,
+    useVIntl,
+} from '@modrinth/ui';
 
-import { type FormRequestResponse, useAvalara1099 } from '@/composables/avalara1099'
+import { useAvalara1099, type FormRequestResponse } from '@/composables/avalara1099';
 
 const props = withDefaults(
 	defineProps<{

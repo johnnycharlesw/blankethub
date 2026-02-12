@@ -43,7 +43,7 @@
 				</span>
 				<span>
 					If you need to get in contact with the moderation team, please use the
-					<a class="text-link" href="https://support.modrinth.com" target="_blank">
+					<a class="text-link" href="https://support.blankethub.loxalhost" target="_blank">
 						Modrinth Help Center
 					</a>
 					and click the green bubble to contact support.
@@ -276,21 +276,21 @@
 
 <script setup>
 import {
-	CheckCircleIcon,
-	CheckIcon,
-	DropdownIcon,
-	EyeOffIcon,
-	ReplyIcon,
-	ScaleIcon,
-	SendIcon,
-	XIcon,
+    CheckCircleIcon,
+    CheckIcon,
+    DropdownIcon,
+    EyeOffIcon,
+    ReplyIcon,
+    ScaleIcon,
+    SendIcon,
+    XIcon,
 } from '@modrinth/assets'
 import {
-	Checkbox,
-	CopyCode,
-	injectNotificationManager,
-	MarkdownEditor,
-	OverflowMenu,
+    Checkbox,
+    CopyCode,
+    MarkdownEditor,
+    OverflowMenu,
+    injectNotificationManager,
 } from '@modrinth/ui'
 
 import Modal from '~/components/ui/Modal.vue'

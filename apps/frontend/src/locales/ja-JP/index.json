@@ -1379,9 +1379,7 @@
   "layout.footer.products.app": {
     "message": "Modrinth App"
   },
-  "layout.footer.products.plus": {
-    "message": "Modrinth+"
-  },
+
   "layout.footer.products.servers": {
     "message": "Modrinthホスティング"
   },
@@ -1462,9 +1460,6 @@
   },
   "layout.nav.search": {
     "message": "検索"
-  },
-  "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Modrinth+にアップグレード"
   },
   "moderation.moderate": {
     "message": "適度"

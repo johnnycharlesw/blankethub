@@ -3,7 +3,7 @@
 		<ConfirmModal
 			ref="modal_confirm"
 			title="Are you sure you want to delete your account?"
-			description="This will **immediately delete all of your user data and follows**. This will not delete your projects. Deleting your account cannot be reversed.<br><br>If you need help with your account, get support on the [Modrinth Discord](https://discord.modrinth.com)."
+			description="This will **immediately delete all of your user data and follows**. This will not delete your projects. Deleting your account cannot be reversed.<br><br>If you need help with your account, get support on the [Modrinth Discord](https://discord.blankethub.loxalhost)."
 			proceed-label="Delete this account"
 			:confirmation-text="auth.user.username"
 			:has-to-type="true"
@@ -406,20 +406,20 @@
 
 <script setup>
 import {
-	CheckIcon,
-	DownloadIcon,
-	EditIcon,
-	ExternalIcon,
-	LeftArrowIcon,
-	PlusIcon,
-	RightArrowIcon,
-	SaveIcon,
-	SettingsIcon,
-	TrashIcon,
-	UpdatedIcon,
-	XIcon,
+    CheckIcon,
+    DownloadIcon,
+    EditIcon,
+    ExternalIcon,
+    LeftArrowIcon,
+    PlusIcon,
+    RightArrowIcon,
+    SaveIcon,
+    SettingsIcon,
+    TrashIcon,
+    UpdatedIcon,
+    XIcon,
 } from '@modrinth/assets'
-import { ConfirmModal, injectNotificationManager, StyledInput } from '@modrinth/ui'
+import { ConfirmModal, StyledInput, injectNotificationManager } from '@modrinth/ui'
 import KeyIcon from 'assets/icons/auth/key.svg'
 import DiscordIcon from 'assets/icons/auth/sso-discord.svg'
 import GithubIcon from 'assets/icons/auth/sso-github.svg'

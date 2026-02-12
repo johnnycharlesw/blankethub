@@ -5,7 +5,7 @@ date: 2022-03-09
 authors: ['Dc7EYhxG']
 ---
 
-It's officially been a bit over a week since Modrinth launched out of beta. We have continued to make improvements to the user experience on [the website](https://modrinth.com).
+It's officially been a bit over a week since Modrinth launched out of beta. We have continued to make improvements to the user experience on [the website](https://blankethub.loxalhost).
 
 ## New features
 

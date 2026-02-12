@@ -63,9 +63,9 @@ const api = computed(() => {
 	if (flags.value.demoMode) return 'prod'
 
 	const apiUrl = config.public.apiBaseUrl
-	if (apiUrl.startsWith('https://api.modrinth.com')) {
+	if (apiUrl.startsWith('https://api.blankethub.loxalhost')) {
 		return 'prod'
-	} else if (apiUrl.startsWith('https://staging-api.modrinth.com')) {
+	} else if (apiUrl.startsWith('https://staging-api.blankethub.loxalhost')) {
 		return 'staging'
 	} else if (apiUrl.startsWith('localhost') || apiUrl.startsWith('127.0.0.1')) {
 		return 'localhost'

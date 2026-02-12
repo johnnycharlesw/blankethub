@@ -1461,7 +1461,7 @@
     "message": "Errore nella generazione dello stato da API durante il build."
   },
   "layout.banner.preview.description": {
-    "message": "Se volevi accedere al sito ufficiale, visita <link>https://modrinth.com</link>. Questa versione serve allo staff di Modrinth per condurre test; basata su <branch-link>{owner}/{branch}</branch-link> @ {commit}."
+    "message": "Se volevi accedere al sito ufficiale, visita <link>https://blankethub.loxalhost</link>. Questa versione serve allo staff di Modrinth per condurre test; basata su <branch-link>{owner}/{branch}</branch-link> @ {commit}."
   },
   "layout.banner.preview.title": {
     "message": "Questa versione del sito di Modrinth è un'anteprima."
@@ -1556,9 +1556,7 @@
   "layout.footer.products.app": {
     "message": "Modrinth App"
   },
-  "layout.footer.products.plus": {
-    "message": "Modrinth+"
-  },
+
   "layout.footer.products.servers": {
     "message": "Modrinth Hosting"
   },
@@ -1654,9 +1652,6 @@
   },
   "layout.nav.search": {
     "message": "Cerca"
-  },
-  "layout.nav.upgrade-to-modrinth-plus": {
-    "message": "Abbonati a Modrinth+"
   },
   "moderation.moderate": {
     "message": "Modera"
