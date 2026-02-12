@@ -1,15 +1,15 @@
 import {
-	type AbstractFeature,
-	type AuthConfig,
-	AuthFeature,
-	CircuitBreakerFeature,
-	NodeAuthFeature,
-	nodeAuthState,
-	NuxtCircuitBreakerStorage,
-	type NuxtClientConfig,
-	NuxtModrinthClient,
-	PanelVersionFeature,
-	VerboseLoggingFeature,
+    AuthFeature,
+    CircuitBreakerFeature,
+    NodeAuthFeature,
+    NuxtBlankethubClient,
+    NuxtCircuitBreakerStorage,
+    PanelVersionFeature,
+    VerboseLoggingFeature,
+    nodeAuthState,
+    type AbstractFeature,
+    type AuthConfig,
+    type NuxtClientConfig,
 } from '@modrinth/api-client'
 import type { Ref } from 'vue'
 
@@ -24,10 +24,10 @@ async function getRateLimitKeyFromSecretsStore(): Promise<string | undefined> {
 	}
 }
 
-export function createModrinthClient(
+export function createBlankethubClient(
 	auth: Ref<{ token: string | undefined }>,
 	config: { apiBaseUrl: string; archonBaseUrl: string; rateLimitKey?: string },
-): NuxtModrinthClient {
+): NuxtBlankethubClient {
 	const optionalFeatures = [
 		import.meta.dev ? (new VerboseLoggingFeature() as AbstractFeature) : undefined,
 	].filter(Boolean) as AbstractFeature[]
@@ -60,5 +60,5 @@ export function createModrinthClient(
 		],
 	}
 
-	return new NuxtModrinthClient(clientConfig)
+	return new NuxtBlankethubClient(clientConfig)
 }

@@ -211,15 +211,15 @@ import BackupItem from '../../../components/servers/backups/BackupItem.vue'
 import BackupRenameModal from '../../../components/servers/backups/BackupRenameModal.vue'
 import BackupRestoreModal from '../../../components/servers/backups/BackupRestoreModal.vue'
 import {
-	injectModrinthClient,
-	injectModrinthServerContext,
-	injectNotificationManager,
+    injectBlankethubClient,
+    injectBlankethubServerContext,
+    injectNotificationManager,
 } from '../../../providers'
 
 const { addNotification } = injectNotificationManager()
-const client = injectModrinthClient()
+const client = injectBlankethubClient()
 const queryClient = useQueryClient()
-const { server, backupsState, markBackupCancelled } = injectModrinthServerContext()
+const { server, backupsState, markBackupCancelled } = injectBlankethubServerContext()
 
 const props = defineProps<{
 	isServerRunning: boolean

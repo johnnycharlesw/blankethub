@@ -198,9 +198,9 @@ pub async fn fetch_advanced(
     let creds = if header
         .as_ref()
         .is_none_or(|x| &*x.0.to_lowercase() != "authorization")
-        && (url.starts_with("https://cdn.blankethub.loxalhost") || is_api_url)
+        && (url.starts_with("https://cdn.blankethub.localhost") || is_api_url)
     {
-        crate::state::ModrinthCredentials::get_active(exec).await?
+        crate::state::BlankethubCredentials::get_active(exec).await?
     } else {
         None
     };
@@ -354,7 +354,7 @@ where
     let mut req = REQWEST_CLIENT.post(url).json(&json_body);
 
     if let Some(creds) =
-        crate::state::ModrinthCredentials::get_active(exec).await?
+        crate::state::BlankethubCredentials::get_active(exec).await?
     {
         req = req.header("Authorization", &creds.session);
     }

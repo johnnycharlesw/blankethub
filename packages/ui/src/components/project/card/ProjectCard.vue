@@ -21,7 +21,7 @@
 				/>
 				<img
 					v-else
-					src="https://cdn-raw.blankethub.loxalhost/landing-new/landing.webp"
+					src="https://cdn-raw.blankethub.localhost/landing-new/landing.webp"
 					alt=""
 					class="absolute w-full h-full inset-0 object-cover object-center placeholder-banner scale-[200%]"
 				/>

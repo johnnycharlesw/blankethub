@@ -1,7 +1,7 @@
 <script setup lang="ts" generic="T extends string">
-import { MoonIcon, RadioButtonCheckedIcon, RadioButtonIcon, SunIcon } from '@modrinth/assets'
+import { MoonIcon, RadioButtonCheckedIcon, RadioButtonIcon, SunIcon } from '@modrinth/assets';
 
-import { defineMessages, useVIntl } from '../../composables/i18n'
+import { defineMessages, useVIntl } from '../../composables/i18n';
 const { formatMessage } = useVIntl()
 
 const { updateColorTheme, currentTheme, themeOptions, systemThemeColor } = defineProps<{
@@ -18,7 +18,7 @@ const colorTheme = defineMessages({
 	},
 	description: {
 		id: 'settings.display.theme.description',
-		defaultMessage: 'Select your preferred color theme for Modrinth on this device.',
+		defaultMessage: 'Select your preferred color theme for Blankethub on this device.',
 	},
 	system: {
 		id: 'settings.display.theme.system',

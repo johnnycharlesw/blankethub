@@ -8,11 +8,9 @@
 
 import './omorphia.scss'
 
-import _FourOhFourNotFound from './branding/404.svg?component'
 // Branding
 import _BrowserWindowSuccessIllustration from './branding/illustrations/browser-window-success.svg?component'
-import _ModrinthIcon from './branding/logo.svg?component'
-import _ModrinthPlusIcon from './branding/modrinth-plus.svg?component'
+import _BlankethubIcon from './branding/logo.svg?component'
 import _AngryRinthbot from './branding/rinthbot/angry.webp'
 import _AnnoyedRinthbot from './branding/rinthbot/annoyed.webp'
 import _ConfusedRinthbot from './branding/rinthbot/confused.webp'
@@ -68,10 +66,8 @@ import type { IconComponent } from './generated-icons'
 import { categoryIconMap, loaderIconMap } from './generated-icons'
 import _EmptyIllustration from './illustrations/empty.svg?component'
 
-export const ModrinthIcon = _ModrinthIcon
+export const BlankethubIcon = _BlankethubIcon
 export const BrowserWindowSuccessIllustration = _BrowserWindowSuccessIllustration
-export const FourOhFourNotFound = _FourOhFourNotFound
-export const ModrinthPlusIcon = _ModrinthPlusIcon
 export const AngryRinthbot = _AngryRinthbot
 export const AnnoyedRinthbot = _AnnoyedRinthbot
 export const ConfusedRinthbot = _ConfusedRinthbot

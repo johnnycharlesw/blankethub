@@ -29,8 +29,8 @@ pub struct ATLauncher {
     pub version: String, // ie: 1.6
     pub loader_version: ATLauncherLoaderVersion,
 
-    pub modrinth_project: Option<ATLauncherModrinthProject>,
-    pub modrinth_version: Option<ATLauncherModrinthVersion>,
+    pub modrinth_project: Option<ATLauncherBlankethubProject>,
+    pub modrinth_version: Option<ATLauncherBlankethubVersion>,
     pub modrinth_manifest: Option<pack::install_from::PackFormat>,
 }
 
@@ -49,7 +49,7 @@ pub struct ATLauncherLoaderVersion {
 }
 
 #[derive(Serialize, Deserialize, Debug)]
-pub struct ATLauncherModrinthProject {
+pub struct ATLauncherBlankethubProject {
     pub id: String,
     pub slug: String,
     pub project_type: String,
@@ -60,7 +60,7 @@ pub struct ATLauncherModrinthProject {
 }
 
 #[derive(Serialize, Deserialize, Debug)]
-pub struct ATLauncherModrinthVersion {
+pub struct ATLauncherBlankethubVersion {
     pub id: String,
     pub project_id: String,
     pub name: String,
@@ -69,7 +69,7 @@ pub struct ATLauncherModrinthVersion {
 
 #[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-pub struct ATLauncherModrinthVersionFile {
+pub struct ATLauncherBlankethubVersionFile {
     pub hashes: HashMap<String, String>,
     pub url: String,
     pub filename: String,
@@ -79,7 +79,7 @@ pub struct ATLauncherModrinthVersionFile {
 
 #[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
-pub struct ATLauncherModrinthVersionDependency {
+pub struct ATLauncherBlankethubVersionDependency {
     pub project_id: Option<String>,
     pub version_id: Option<String>,
 }
@@ -91,8 +91,8 @@ pub struct ATLauncherMod {
     pub version: String,
     pub file: String,
 
-    pub modrinth_project: Option<ATLauncherModrinthProject>,
-    pub modrinth_version: Option<ATLauncherModrinthVersion>,
+    pub modrinth_project: Option<ATLauncherBlankethubProject>,
+    pub modrinth_version: Option<ATLauncherBlankethubVersion>,
 }
 
 // Check if folder has a instance.json that parses

@@ -1,6 +1,6 @@
 import { $fetch, FetchError } from 'ofetch'
 
-import type { ModrinthApiError } from '../core/errors'
+import type { BlankethubApiError } from '../core/errors'
 import type { ClientConfig } from '../types/client'
 import type { RequestOptions } from '../types/request'
 import { GenericWebSocketClient } from './websocket-generic'
@@ -13,7 +13,7 @@ import { XHRUploadClient } from './xhr-upload-client'
  *
  * @example
  * ```typescript
- * const client = new GenericModrinthClient({
+ * const client = new GenericBlankethubClient({
  *   userAgent: 'my-app/1.0.0',
  *   features: [
  *     new AuthFeature({ token: 'mrp_...' }),
@@ -24,7 +24,7 @@ import { XHRUploadClient } from './xhr-upload-client'
  * const project = await client.request('/project/sodium', { api: 'labrinth', version: 2 })
  * ```
  */
-export class GenericModrinthClient extends XHRUploadClient {
+export class GenericBlankethubClient extends XHRUploadClient {
 	constructor(config: ClientConfig) {
 		super(config)
 
@@ -54,7 +54,7 @@ export class GenericModrinthClient extends XHRUploadClient {
 		}
 	}
 
-	protected normalizeError(error: unknown): ModrinthApiError {
+	protected normalizeError(error: unknown): BlankethubApiError {
 		if (error instanceof FetchError) {
 			return this.createNormalizedError(error, error.response?.status, error.data)
 		}

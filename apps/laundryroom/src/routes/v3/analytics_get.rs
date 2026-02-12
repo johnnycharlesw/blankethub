@@ -142,7 +142,7 @@ pub enum ProjectViewsField {
     ProjectId,
     /// Referrer domain which linked to this project.
     Domain,
-    /// Modrinth site path which was visited, e.g. `/mod/foo`.
+    /// Blankethub site path which was visited, e.g. `/mod/foo`.
     SitePath,
     /// Whether these views were monetized or not.
     Monetized,
@@ -164,7 +164,7 @@ pub enum ProjectDownloadsField {
     VersionId,
     /// Referrer domain which linked to this project.
     Domain,
-    /// Modrinth site path which was visited, e.g. `/mod/foo`.
+    /// Blankethub site path which was visited, e.g. `/mod/foo`.
     SitePath,
     /// What country these views came from.
     ///

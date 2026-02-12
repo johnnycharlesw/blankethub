@@ -12,14 +12,14 @@ import RSS from 'rss'
 import { parseStringPromise } from 'xml2js'
 
 import {
-	ARTICLES_GLOB,
-	COMPILED_DIR,
-	JSON_PATH,
-	PUBLIC_LOCATIONS,
-	PUBLIC_SRC,
-	ROOT_FILE,
-	RSS_PATH,
-	SITE_URL,
+    ARTICLES_GLOB,
+    COMPILED_DIR,
+    JSON_PATH,
+    PUBLIC_LOCATIONS,
+    PUBLIC_SRC,
+    ROOT_FILE,
+    RSS_PATH,
+    SITE_URL,
 } from './blog.config'
 import { copyDir, toVarName } from './utils'
 
@@ -232,8 +232,8 @@ async function generateRssFeed(articles): Promise<void> {
 	}
 
 	const feed = new RSS({
-		title: 'Modrinth News',
-		description: 'Keep up-to-date on the latest news from Modrinth.',
+		title: 'Blankethub News',
+		description: 'Keep up-to-date on the latest news from Blankethub.',
 		feed_url: `${SITE_URL}/news/feed/rss.xml`,
 		site_url: `${SITE_URL}/news/`,
 		language: 'en',

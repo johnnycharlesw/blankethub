@@ -7,12 +7,12 @@ import type { AbstractFeature } from './abstract-feature'
 import type { AbstractModule } from './abstract-module'
 import { AbstractUploadClient } from './abstract-upload-client'
 import type { AbstractWebSocketClient } from './abstract-websocket'
-import { ModrinthApiError, ModrinthServerError } from './errors'
+import { BlankethubApiError, BlankethubServerError } from './errors'
 
 /**
- * Abstract base client for Modrinth APIs
+ * Abstract base client for Blankethub APIs
  */
-export abstract class AbstractModrinthClient extends AbstractUploadClient {
+export abstract class AbstractBlankethubClient extends AbstractUploadClient {
 	protected config: ClientConfig
 	protected features: AbstractFeature[]
 
@@ -35,8 +35,8 @@ export abstract class AbstractModrinthClient extends AbstractUploadClient {
 		super()
 		this.config = {
 			timeout: 10000,
-			labrinthBaseUrl: 'https://api.blankethub.loxalhost',
-			archonBaseUrl: 'https://archon.blankethub.loxalhost',
+			labrinthBaseUrl: 'https://api.blankethub.localhost',
+			archonBaseUrl: 'https://archon.blankethub.localhost',
 			...config,
 		}
 		this.features = config.features ?? []
@@ -102,7 +102,7 @@ export abstract class AbstractModrinthClient extends AbstractUploadClient {
 	 * @param path - API path (e.g., '/project/sodium')
 	 * @param options - Request options
 	 * @returns Promise resolving to the response data
-	 * @throws {ModrinthApiError} When the request fails or features throw errors
+	 * @throws {BlankethubApiError} When the request fails or features throw errors
 	 */
 	async request<T>(path: string, options: RequestOptions): Promise<T> {
 		let baseUrl: string
@@ -339,17 +339,17 @@ export abstract class AbstractModrinthClient extends AbstractUploadClient {
 	): Promise<T>
 
 	/**
-	 * Normalize an error into a ModrinthApiError
+	 * Normalize an error into a BlankethubApiError
 	 *
 	 * Platform implementations should override this to handle platform-specific errors
 	 * (e.g., FetchError from ofetch, Tauri HTTP errors)
 	 */
-	protected normalizeError(error: unknown, context?: RequestContext): ModrinthApiError {
-		if (error instanceof ModrinthApiError) {
+	protected normalizeError(error: unknown, context?: RequestContext): BlankethubApiError {
+		if (error instanceof BlankethubApiError) {
 			return error
 		}
 
-		return ModrinthApiError.fromUnknown(error, context?.path)
+		return BlankethubApiError.fromUnknown(error, context?.path)
 	}
 
 	/**
@@ -359,12 +359,12 @@ export abstract class AbstractModrinthClient extends AbstractUploadClient {
 		error: Error,
 		statusCode: number | undefined,
 		responseData: unknown,
-	): ModrinthApiError {
+	): BlankethubApiError {
 		if (statusCode && responseData) {
-			return ModrinthServerError.fromResponse(statusCode, responseData)
+			return BlankethubServerError.fromResponse(statusCode, responseData)
 		}
 
-		return new ModrinthApiError(error.message, {
+		return new BlankethubApiError(error.message, {
 			statusCode,
 			originalError: error,
 			responseData,
@@ -378,7 +378,7 @@ export abstract class AbstractModrinthClient extends AbstractUploadClient {
 	 *
 	 * @example
 	 * ```typescript
-	 * const client = new GenericModrinthClient()
+	 * const client = new GenericBlankethubClient()
 	 * client.addFeature(new AuthFeature({ token: 'mrp_...' }))
 	 * client.addFeature(new RetryFeature({ maxAttempts: 3 }))
 	 * ```

@@ -268,32 +268,26 @@
 
 <script setup lang="ts">
 import {
-	CheckCircleIcon,
-	CheckIcon,
-	ExternalIcon,
-	IssuesIcon,
-	LeftArrowIcon,
-	RightArrowIcon,
-	ScaleIcon,
-	SendIcon,
-	SpinnerIcon,
-	VersionIcon,
-	XCircleIcon,
+    CheckCircleIcon,
+    CheckIcon,
+    ExternalIcon,
+    IssuesIcon,
+    LeftArrowIcon,
+    RightArrowIcon,
+    ScaleIcon,
+    SendIcon,
+    SpinnerIcon,
+    VersionIcon,
+    XCircleIcon,
 } from '@modrinth/assets'
-import { defineMessage } from '@modrinth/ui'
 import {
-	AutoLink,
-	Avatar,
-	ButtonStyled,
-	defineMessages,
-	injectNotificationManager,
-	IntlFormatted,
-	MarkdownEditor,
-	type MessageDescriptor,
-	RadialHeader,
-	RadioButtons,
-	StyledInput,
-	useVIntl,
+    AutoLink,
+    Avatar,
+    ButtonStyled, IntlFormatted,
+    MarkdownEditor, RadialHeader,
+    RadioButtons,
+    StyledInput, defineMessage, defineMessages,
+    injectNotificationManager, useVIntl, type MessageDescriptor
 } from '@modrinth/ui'
 import type { Project, Report, User, Version } from '@modrinth/utils'
 
@@ -581,7 +575,7 @@ const messages = defineMessages({
 	violation: {
 		id: 'report.for.violation',
 		defaultMessage:
-			'Violation of Modrinth <rules-link>Rules</rules-link> or <terms-link>Terms of Use</terms-link>',
+			'Violation of Blankethub <rules-link>Rules</rules-link> or <terms-link>Terms of Use</terms-link>',
 	},
 	violationDescription: {
 		id: 'report.for.violation.description',
@@ -616,7 +610,7 @@ const messages = defineMessages({
 	whatReportReason: {
 		id: 'report.question.report-reason',
 		defaultMessage:
-			"Which of Modrinth's rules is this {item, select, project {project} version {version} user {user} other {content}} violating?",
+			"Which of Blankethub's rules is this {item, select, project {project} version {version} user {user} other {content}} violating?",
 	},
 	checking: {
 		id: 'report.checking',

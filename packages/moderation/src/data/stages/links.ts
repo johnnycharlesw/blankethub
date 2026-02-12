@@ -7,7 +7,7 @@ const links: Stage = {
 	title: "Are the project's links accurate and accessible?",
 	id: 'links',
 	icon: LinkIcon,
-	guidance_url: 'https://blankethub.loxalhost/legal/rules',
+	guidance_url: 'https://blankethub.localhost/legal/rules',
 	navigate: '/settings/links',
 	shouldShow: (project) =>
 		Boolean(

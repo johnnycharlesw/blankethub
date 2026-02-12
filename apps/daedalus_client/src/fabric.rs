@@ -59,7 +59,7 @@ async fn fetch(
     upload_files: &DashMap<String, UploadFile>,
     mirror_artifacts: &DashMap<String, MirrorArtifact>,
 ) -> Result<(), Error> {
-    let modrinth_manifest = fetch_json::<Manifest>(
+    let blankethub_manifest = fetch_json::<Manifest>(
         &format_url(&format!("{mod_loader}/v{format_version}/manifest.json",)),
         &semaphore,
     )
@@ -71,15 +71,15 @@ async fn fetch(
     )
     .await?;
 
-    // We check Modrinth's fabric version manifest and compare if the fabric version exists in Modrinth's database
+    // We check Blankethub's fabric version manifest and compare if the fabric version exists in Blankethub's database
     // We also check intermediary versions that are newly added to query
     let (fetch_fabric_versions, fetch_intermediary_versions) =
-        if let Some(modrinth_manifest) = modrinth_manifest {
+        if let Some(blankethub_manifest) = blankethub_manifest {
             let (mut fetch_versions, mut fetch_intermediary_versions) =
                 (Vec::new(), Vec::new());
 
             for version in &fabric_manifest.loader {
-                if !modrinth_manifest
+                if !blankethub_manifest
                     .game_versions
                     .iter()
                     .any(|x| x.loaders.iter().any(|x| x.id == version.version))
@@ -90,7 +90,7 @@ async fn fetch(
             }
 
             for version in &fabric_manifest.intermediary {
-                if !modrinth_manifest
+                if !blankethub_manifest
                     .game_versions
                     .iter()
                     .any(|x| x.id == version.version)

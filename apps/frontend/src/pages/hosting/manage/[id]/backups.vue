@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { injectModrinthServerContext, ServersManageBackupsPage } from '@modrinth/ui'
+import { injectBlankethubServerContext, ServersManageBackupsPage } from '@modrinth/ui';
 
-const { server, isServerRunning } = injectModrinthServerContext()
+const { server, isServerRunning } = injectBlankethubServerContext()
 const flags = useFeatureFlags()
 
 useHead({
-	title: `Backups - ${server.value?.name ?? 'Server'} - Modrinth`,
+	title: `Backups - ${server.value?.name ?? 'Server'} - Blankethub`,
 })
 </script>
 

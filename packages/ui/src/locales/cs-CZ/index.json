@@ -531,7 +531,7 @@
     "defaultMessage": "Moderátor"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Modrinth tým"
+    "defaultMessage": "Blankethub tým"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Čekající"
@@ -1203,7 +1203,7 @@
     "defaultMessage": "Kde byste chtěli umístit svůj server?"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "Region není uveden? <link>Dejte nám vědět, kde byste chtěli vidět další Modrinth servery!</link>"
+    "defaultMessage": "Region není uveden? <link>Dejte nám vědět, kde byste chtěli vidět další Blankethub servery!</link>"
   },
   "servers.region.southeast-asia": {
     "defaultMessage": "Jihovýchodní Asie"
@@ -1230,7 +1230,7 @@
     "defaultMessage": "Tmavý"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Vyberte si preferovaný barevný motiv pro Modrinth na tomto zařízení."
+    "defaultMessage": "Vyberte si preferovaný barevný motiv pro Blankethub na tomto zařízení."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Světlý"

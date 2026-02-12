@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { Button, Heading, Link as VLink, Text } from '@vue-email/components'
+import { Button, Heading, Text, Link as VLink } from '@vue-email/components';
 
-import StyledEmail from '../shared/StyledEmail.vue'
+import StyledEmail from '../shared/StyledEmail.vue';
 </script>
 
 <template>
 	<StyledEmail
-		title="Verify your Modrinth email"
+		title="Verify your Blankethub email"
 		:manual-links="[{ link: '{verifyemail.url}', label: 'Verification link' }]"
 	>
 		<Heading as="h1" class="mb-2 text-2xl font-bold"> Verify your email </Heading>

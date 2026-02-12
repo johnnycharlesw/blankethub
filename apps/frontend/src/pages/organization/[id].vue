@@ -423,14 +423,14 @@ const { currentMember } = organizationContext
 provideOrganizationContext(organizationContext)
 
 const title = `${organization.value.name} - Organization`
-const description = `${organization.value.description} - View the organization ${organization.value.name} on Modrinth`
+const description = `${organization.value.description} - View the organization ${organization.value.name} on Blankethub`
 
 useSeoMeta({
 	title,
 	description,
 	ogTitle: title,
 	ogDescription: organization.value.description,
-	ogImage: organization.value.icon_url ?? 'https://cdn.blankethub.loxalhost/placeholder.png',
+	ogImage: organization.value.icon_url ?? 'https://cdn.blankethub.localhost/placeholder.png',
 })
 
 const navLinks = computed(() => [

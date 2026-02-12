@@ -100,7 +100,7 @@
 						input-class="!bg-surface-3"
 					/>
 					<span>
-						To make up for it, we've added {{ days }} day{{ pluralize(days) }} to your Modrinth
+						To make up for it, we've added {{ days }} day{{ pluralize(days) }} to your Blankethub
 						Servers subscription.
 					</span>
 					<span>
@@ -131,13 +131,13 @@
 <script setup lang="ts">
 import { CheckIcon, PlusIcon, XIcon } from '@modrinth/assets'
 import {
-	ButtonStyled,
-	Combobox,
-	injectNotificationManager,
-	NewModal,
-	StyledInput,
-	TagItem,
-	Toggle,
+    ButtonStyled,
+    Combobox,
+    NewModal,
+    StyledInput,
+    TagItem,
+    Toggle,
+    injectNotificationManager,
 } from '@modrinth/ui'
 import { DEFAULT_CREDIT_EMAIL_MESSAGE } from '@modrinth/utils/utils.ts'
 import { computed, ref } from 'vue'

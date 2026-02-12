@@ -157,10 +157,10 @@
 						<span class="flex items-center gap-2 font-semibold text-contrast">
 							<!-- TODO(backend): provide proper metadata for midas (MR+) subscriptions -->
 							<template v-if="subscription.price_id === 'a6eRm92L'">
-								<ModrinthPlusIcon class="h-7 w-min" />
+								<BlankethubPlusIcon class="h-7 w-min" />
 							</template>
 							<template v-else-if="subscription.metadata?.type === 'pyro'">
-								<ModrinthServersIcon class="h-7 w-min" />
+								<BlankethubServersIcon class="h-7 w-min" />
 							</template>
 							<template v-else-if="subscription.metadata?.type === 'medal'">
 								<span>Medal Trial Server</span>
@@ -314,32 +314,32 @@
 </template>
 <script setup>
 import {
-	CheckIcon,
-	CurrencyIcon,
-	ExternalIcon,
-	ModrinthPlusIcon,
-	ServerIcon,
-	UserIcon,
-	XIcon,
+    BlankethubPlusIcon,
+    CheckIcon,
+    CurrencyIcon,
+    ExternalIcon,
+    ServerIcon,
+    UserIcon,
+    XIcon,
 } from '@modrinth/assets'
 import {
-	Avatar,
-	ButtonStyled,
-	CopyCode,
-	defineMessages,
-	DropdownSelect,
-	injectNotificationManager,
-	NewModal,
-	StyledInput,
-	Toggle,
-	useRelativeTime,
-	useVIntl,
+    Avatar,
+    ButtonStyled,
+    CopyCode,
+    DropdownSelect,
+    NewModal,
+    StyledInput,
+    Toggle,
+    defineMessages,
+    injectNotificationManager,
+    useRelativeTime,
+    useVIntl,
 } from '@modrinth/ui'
 import { capitalizeString, formatPrice } from '@modrinth/utils'
 import { DEFAULT_CREDIT_EMAIL_MESSAGE } from '@modrinth/utils/utils.ts'
 import dayjs from 'dayjs'
 
-import ModrinthServersIcon from '~/components/ui/servers/ModrinthServersIcon.vue'
+import BlankethubServersIcon from '~/components/ui/servers/BlankethubServersIcon.vue'
 
 const { addNotification } = injectNotificationManager()
 

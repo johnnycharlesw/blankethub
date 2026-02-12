@@ -332,7 +332,7 @@ pub async fn remove_all_related_files(
 
     // First, remove all modrinth projects by their version hashes
     // Remove all modrinth projects by their version hashes
-    // We need to do a fetch to get the project ids from Modrinth
+    // We need to do a fetch to get the project ids from Blankethub
     let state = State::get().await?;
     let all_hashes = pack
         .files
@@ -378,8 +378,8 @@ pub async fn remove_all_related_files(
         }
     }
 
-    // Iterate over all Modrinth project file paths in the json, and remove them
-    // (There should be few, but this removes any files the .mrpack intended as Modrinth projects but were unrecognized)
+    // Iterate over all Blankethub project file paths in the json, and remove them
+    // (There should be few, but this removes any files the .mrpack intended as Blankethub projects but were unrecognized)
     for file in pack.files {
         match io::remove_file(profile_full_path.join(file.path.as_str())).await
         {

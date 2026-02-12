@@ -1,4 +1,4 @@
-export class ModrinthServersMultiError extends Error {
+export class BlankethubServersMultiError extends Error {
 	public readonly errors: Map<string, Error> = new Map()
 	public readonly timestamp: number = Date.now()
 

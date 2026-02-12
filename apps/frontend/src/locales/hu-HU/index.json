@@ -30,7 +30,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "A Linux verziója a Modrinth Appnak <issues-link>problémái vannak</issues-link> bizonyos rendszereken és a konfigurációin. Ha a Modrinth App instabil a rendszereden akkor próbáld ki a <prism-link>Prism Launcher</prism-link>t, ahol nagyon könnyen lehet Modrinth tartalmat telepíteni."
+    "message": "A Linux verziója a Blankethub Appnak <issues-link>problémái vannak</issues-link> bizonyos rendszereken és a konfigurációin. Ha a Blankethub App instabil a rendszereden akkor próbáld ki a <prism-link>Prism Launcher</prism-link>t, ahol nagyon könnyen lehet Blankethub tartalmat telepíteni."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -39,10 +39,10 @@
     "message": "Letöltési opciók"
   },
   "app-marketing.download.terms": {
-    "message": "A Modrinth App letöltésével elfogadod <terms-link>feltételeket</terms-link> és a <privacy-link>biztonsági szabályzatot</privacy-link>."
+    "message": "A Blankethub App letöltésével elfogadod <terms-link>feltételeket</terms-link> és a <privacy-link>biztonsági szabályzatot</privacy-link>."
   },
   "app-marketing.download.title": {
-    "message": "Modrinth App etöltése (béta)"
+    "message": "Blankethub App etöltése (béta)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "Projektek követése"
   },
   "app-marketing.features.importing.description": {
-    "message": "Importálja az összes kedvenc profilját a korábban használt launcherből, és néhány másodperc alatt elindíthatja a Modrinth alkalmazást!"
+    "message": "Importálja az összes kedvenc profilját a korábban használt launcherből, és néhány másodperc alatt elindíthatja a Blankethub alkalmazást!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "{author} által"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "A Modrinth könnyűvé teszi az összes telepített modjaidnak a kezelését egy helyen. Telepíthetsz, eltávolíthatsz és frissíthetsz modokat egyetlen kattintással."
+    "message": "A Blankethub könnyűvé teszi az összes telepített modjaidnak a kezelését egy helyen. Telepíthetsz, eltávolíthatsz és frissíthetsz modokat egyetlen kattintással."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Telepített modok"
@@ -96,7 +96,7 @@
     "message": "Offline mód"
   },
   "app-marketing.features.open-source.description": {
-    "message": "A Modrinth inditóprogramja teljesen nyílt forráskódú. Ellenőrízheted a forráskódot a <github-link>GitHub</github-link> oldalunkon!"
+    "message": "A Blankethub inditóprogramja teljesen nyílt forráskódú. Ellenőrízheted a forráskódot a <github-link>GitHub</github-link> oldalunkon!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Nyílt forráskódú"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "A Modrinth App jobb teljesítményt nyújt, mint sok vezető mod menedzser, és csak 150 MB RAM-ot használ!"
+    "message": "A Blankethub App jobb teljesítményt nyújt, mint sok vezető mod menedzser, és csak 150 MB RAM-ot használ!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -129,7 +129,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 milliárd %"
@@ -153,7 +153,7 @@
     "message": "Játssz a kedvenc modjaiddal"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Készíts, ossz meg és játssz a Modrinthen fentartott több ezer modok és modpackek közül bármelyikkel."
+    "message": "Készíts, ossz meg és játssz a Blankethuben fentartott több ezer modok és modpackek közül bármelyikkel."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Modpack"
@@ -168,7 +168,7 @@
     "message": "Olyan Minecraft inditóprogram"
   },
   "app-marketing.features.website.description": {
-    "message": "A Modrinth alkalmazás teljes mértékben integrálva van a weboldallal, így az alkalmazásból elérheted az összes kedvenc projektedet!"
+    "message": "A Blankethub alkalmazás teljes mértékben integrálva van a weboldallal, így az alkalmazásból elérheted az összes kedvenc projektedet!"
   },
   "app-marketing.features.website.title": {
     "message": "Weboldal integráció"
@@ -177,19 +177,19 @@
     "message": "ami eltérő"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "A Modrinth alkalmazás képernyőképe, amelyen a Cobblemon profil a „Tartalom” oldalon van megnyitva."
+    "message": "A Blankethub alkalmazás képernyőképe, amelyen a Cobblemon profil a „Tartalom” oldalon van megnyitva."
   },
   "app-marketing.hero.description": {
-    "message": "A Modrinth App egy egyedülálló, nyílt forráskódú kliens, amely lehetővé teszi, hogy kedvenc modjaidat játssz, és naprakészen tartsd őket, mindezt egy kis, praktikus csomagban."
+    "message": "A Blankethub App egy egyedülálló, nyílt forráskódú kliens, amely lehetővé teszi, hogy kedvenc modjaidat játssz, és naprakészen tartsd őket, mindezt egy kis, praktikus csomagban."
   },
   "app-marketing.hero.download-button": {
-    "message": "Modrinth App letöltése"
+    "message": "Blankethub App letöltése"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Modrinth App letöltése"
+    "message": "Blankethub App letöltése"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "Modrinth App letöltése {os} re/ra"
+    "message": "Blankethub App letöltése {os} re/ra"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "A Cobblemon profil főmenüjének képernyőképe."
@@ -282,7 +282,7 @@
     "message": "Fiók létrehozása"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Fiók létrehozásával Ön elfogadja a Modrinth <terms-link>Felhasználási feltételeit</terms-link> és <privacy-policy-link>Adatvédelmi irányelveit</privacy-policy-link>."
+    "message": "Fiók létrehozásával Ön elfogadja a Blankethub <terms-link>Felhasználási feltételeit</terms-link> és <privacy-policy-link>Adatvédelmi irányelveit</privacy-policy-link>."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "A jelszavak nem jegyeznek!"
@@ -291,7 +291,7 @@
     "message": "Már van fiókod?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Iratkozzon fel a Modrinth frissítéseiről szóló értesítésekre"
+    "message": "Iratkozzon fel a Blankethub frissítéseiről szóló értesítésekre"
   },
   "auth.sign-up.title": {
     "message": "Regisztráció"
@@ -333,16 +333,16 @@
     "message": "Email-cím megerősítése"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Iratkozzon fel a Modrinth frissítéseiről szóló értesítésekre"
+    "message": "Iratkozzon fel a Blankethub frissítéseiről szóló értesítésekre"
   },
   "auth.welcome.description": {
     "message": "Most már része vagy annak a fantasztikus alkotók és felfedezők közösségének, akik már építenek, letöltenek és naprakészek maradnak a csodálatos modokkal kapcsolatban."
   },
   "auth.welcome.label.tos": {
-    "message": "Fiók létrehozásával Ön elfogadja a Modrinth <terms-link>Felhasználási feltételeit</terms-link> és <privacy-policy-link>Adatvédelmi irányelveit</privacy-policy-link>."
+    "message": "Fiók létrehozásával Ön elfogadja a Blankethub <terms-link>Felhasználási feltételeit</terms-link> és <privacy-policy-link>Adatvédelmi irányelveit</privacy-policy-link>."
   },
   "auth.welcome.long-title": {
-    "message": "Üdvözlünk a Modrinth-onl!"
+    "message": "Üdvözlünk a Blankethub-onl!"
   },
   "auth.welcome.title": {
     "message": "Üdvözlünk"
@@ -372,7 +372,7 @@
     "message": "Biztos vagy hogy törölni akarod ezt a gyűjteményt?"
   },
   "collection.description": {
-    "message": "{description}- Nézd meg a {name} nevű gyűjtemény {username} által Modrinth-on"
+    "message": "{description}- Nézd meg a {name} nevű gyűjtemény {username} által Blankethub-on"
   },
   "collection.description.following": {
     "message": "Az összes követett projekt automatikusan generált gyűjteménye."
@@ -591,7 +591,7 @@
     "message": "Adóűrlap"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "A Modrinth a Track1099 nevű harmadik fél szolgáltatót használja az adóűrlapjaid biztonságos begyűjtésére és tárolására. <security-link>További információk itt.</security-link>"
+    "message": "A Blankethub a Track1099 nevű harmadik fél szolgáltatót használja az adóűrlapjaid biztonságos begyűjtésére és tárolására. <security-link>További információk itt.</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "Biztonsági gyakorlatok"
@@ -756,7 +756,7 @@
     "message": "Ahhoz, hogy kivedd a teljes <b>{available}</b> rendelkezésre álló összeget, kérlek töltsd ki az űrlapot. Szükséges az adóbevalláshoz és csak egyszer kell megcsinálni."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
-    "message": "Ki kell töltened egy W-9 vagy egy W-8 adóbevallási űrlapot Modrinth adóügyi nyilvántartásaihoz, hogy az adóügyi előírásoknak eleget tegyünk."
+    "message": "Ki kell töltened egy W-9 vagy egy W-8 adóbevallási űrlapot Blankethub adóügyi nyilvántartásaihoz, hogy az adóügyi előírásoknak eleget tegyünk."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.header": {
     "message": "Adóbevallási űrlap szükséges"
@@ -786,7 +786,7 @@
     "message": "Megerősítettlen E-mail"
   },
   "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
-    "message": "A kiszállítási E-mail, amit megadtál nincs hozzákapcsolva a Modrinth fiókodhoz. A Modrinth nem tudja visszaállítani a jutalmakat, amik rossz E-mail címre lettek küldve."
+    "message": "A kiszállítási E-mail, amit megadtál nincs hozzákapcsolva a Blankethub fiókodhoz. A Blankethub nem tudja visszaállítani a jutalmakat, amik rossz E-mail címre lettek küldve."
   },
   "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
     "message": "Alacsonyabb díjak elérhetőek"
@@ -810,7 +810,7 @@
     "message": "A becsült bevételek a rendelkezésre bocsátásig változhatnak."
   },
   "dashboard.revenue.estimated-tooltip.msg2": {
-    "message": "Kattints ide, hogy elolvasd, hogyan kezeli a Modrinth a bevételeidet."
+    "message": "Kattints ide, hogy elolvasd, hogyan kezeli a Blankethub a bevételeidet."
   },
   "dashboard.revenue.estimated-with-date": {
     "message": "Becsült {date}"
@@ -828,7 +828,7 @@
     "message": "Tranzakciók"
   },
   "dashboard.revenue.tos": {
-    "message": "A projektek Modrinth-ra való feltöltésével és a számládról történő pénzfelvétellel elfogadod a <terms-link>Jutalomprogram feltételeit</terms-link>. Tudj meg többet a <info-link>Jutalomprogramról</info-link>."
+    "message": "A projektek Blankethub-ra való feltöltésével és a számládról történő pénzfelvétellel elfogadod a <terms-link>Jutalomprogram feltételeit</terms-link>. Tudj meg többet a <info-link>Jutalomprogramról</info-link>."
   },
   "dashboard.revenue.transactions.btn.download-csv": {
     "message": "Letöltés CSV formátumban"
@@ -909,7 +909,7 @@
     "message": "Ez a gyűjtemény lehet hogy privát."
   },
   "error.collection.404.list_item.3": {
-    "message": "Gyűjteményt a Modrinth moderációs csapata eltávolíthatta, mert megsértette a <tou-link>Felhasználási feltételeinket</tou-link>."
+    "message": "Gyűjteményt a Blankethub moderációs csapata eltávolíthatta, mert megsértette a <tou-link>Felhasználási feltételeinket</tou-link>."
   },
   "error.collection.404.list_title": {
     "message": "Miért?"
@@ -930,10 +930,10 @@
     "message": "Tartalom nem elérhető legális okok miatt"
   },
   "error.generic.default.list_item.1": {
-    "message": "Ellenőrizd, hogy a Modrinth elérhető-e a <status-link>Állapotoldalon</status-link>."
+    "message": "Ellenőrizd, hogy a Blankethub elérhető-e a <status-link>Állapotoldalon</status-link>."
   },
   "error.generic.default.list_item.2": {
-    "message": "Ha ez továbbra is történik, valószínűleg tudatni szeretnéd a Modrinth csapatával. Ezt úgy tehetet meg, hogy csatlakozol a <discord-link>Discord szerverünkre</discord-link>."
+    "message": "Ha ez továbbra is történik, valószínűleg tudatni szeretnéd a Blankethub csapatával. Ezt úgy tehetet meg, hogy csatlakozol a <discord-link>Discord szerverünkre</discord-link>."
   },
   "error.generic.default.list_title": {
     "message": "Kerjük próbáld újra pár perc múlva."
@@ -951,7 +951,7 @@
     "message": "A szervezet készítője megváltoztathatta, vagy törölhette az URL-t."
   },
   "error.organization.404.list_item.3": {
-    "message": "A szervezet törölve lehetett a Modrinth moderációs csapata által, amiért megsértette a <tou-link>Terms of Use</tou-link>-t."
+    "message": "A szervezet törölve lehetett a Blankethub moderációs csapata által, amiért megsértette a <tou-link>Terms of Use</tou-link>-t."
   },
   "error.organization.404.list_title": {
     "message": "Miért?"
@@ -966,7 +966,7 @@
     "message": "A projekt lészítője megváltoztathatta az URL címet, vagy a projektet privátta tette, esetleg ki is törölte."
   },
   "error.project.404.list_item.3": {
-    "message": "A projekt valószínűleg le lett törölve a Modrinth moderációs csapat által, amiért megsértette a <tou-link>Felhasználási feltételek</tou-link>et."
+    "message": "A projekt valószínűleg le lett törölve a Blankethub moderációs csapat által, amiért megsértette a <tou-link>Felhasználási feltételek</tou-link>et."
   },
   "error.project.404.list_title": {
     "message": "Miért?"
@@ -981,7 +981,7 @@
     "message": "A felhasználó megváltoztathatta a nevét, vagy törölhette fiókját."
   },
   "error.user.404.list_item.3": {
-    "message": "A felhasználó fiókja fel lehet függesztve, amiért megsértette a Modrinth <tou-link>Terms of Use</tou-link>-t."
+    "message": "A felhasználó fiókja fel lehet függesztve, amiért megsértette a Blankethub <tou-link>Terms of Use</tou-link>-t."
   },
   "error.user.404.list_title": {
     "message": "Miért?"
@@ -1011,7 +1011,7 @@
     "message": "Vissza a főoldalra"
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "Kapd meg a legjobb modolási élményt folyamatos frissítésekkel a Modrinth csapattól"
+    "message": "Kapd meg a legjobb modolási élményt folyamatos frissítésekkel a Blankethub csapattól"
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "Folyamatos Változás"
@@ -1026,13 +1026,13 @@
     "message": "Kövesd a projekteket, amiket szeretsz"
   },
   "landing.feature.launcher.description": {
-    "message": "A Modrinth nyílt forráskódú API-ja lehetővé teszi az indítók számára a Modrinthal való mély integrációt. A Modrinthot használhatod a <link>saját alkalmazásunkon</link> és néhány népszerű indítón kersztül, mint például az ATLauncher, a MultiMC és a Prism Launcher."
+    "message": "A Blankethub nyílt forráskódú API-ja lehetővé teszi az indítók számára a Blankethubal való mély integrációt. A Blankethubot használhatod a <link>saját alkalmazásunkon</link> és néhány népszerű indítón kersztül, mint például az ATLauncher, a MultiMC és a Prism Launcher."
   },
   "landing.feature.launcher.heading": {
     "message": "Játssz kedvenc indítóddal"
   },
   "landing.feature.search.description": {
-    "message": "A Modrinth villámgyors keresője és hatékony szűrői lehetővé teszik, hogy már a beírás közben megtaláld, amit keresel."
+    "message": "A Blankethub villámgyors keresője és hatékony szűrői lehetővé teszik, hogy már a beírás közben megtaláld, amit keresel."
   },
   "landing.feature.search.heading": {
     "message": "Találd meg gyorsan és egyszerűen, amit keresel"
@@ -1065,10 +1065,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "A Minecraft ablak egyszerűsített ábrázolása, a Mojang Studios logójával Modrinth-zöldben."
+    "message": "A Minecraft ablak egyszerűsített ábrázolása, a Mojang Studios logójával Blankethub-zöldben."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -1140,10 +1140,10 @@
     "message": "Nézd meg fiókbeállításaidat"
   },
   "layout.banner.add-email.description": {
-    "message": "Biztonsági okok miatt a Modrinthon kell egy e-mail cím a fiókodhoz."
+    "message": "Biztonsági okok miatt a Blankethubon kell egy e-mail cím a fiókodhoz."
   },
   "layout.banner.staging.title": {
-    "message": "A Modrinth színreviteli környezetét nézed"
+    "message": "A Blankethub színreviteli környezetét nézed"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "Számlázási információ frissítése"
@@ -1158,7 +1158,7 @@
     "message": "Ellenőrző e-mail újraküldése"
   },
   "layout.banner.verify-email.description": {
-    "message": "Biztonsági okokból a Modrinth megköveteli, hogy igazold a fiókodhoz tartozó e-mail címet."
+    "message": "Biztonsági okokból a Blankethub megköveteli, hogy igazold a fiókodhoz tartozó e-mail címet."
   },
   "layout.footer.about": {
     "message": "Rólunk"
@@ -1197,13 +1197,13 @@
     "message": "Felhasználási feltételek"
   },
   "layout.footer.open-source": {
-    "message": "A Modrinth <github-link>nyílt forráskódú</github-link>"
+    "message": "A Blankethub <github-link>nyílt forráskódú</github-link>"
   },
   "layout.footer.products": {
     "message": "Termékek"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
 
   "layout.footer.resources": {
@@ -1234,7 +1234,7 @@
     "message": "Menü ki-be"
   },
   "layout.meta.description": {
-    "message": "Tölts le Minecraft modokat, pluginokat, adatcsomagokat, shadereket, forráscsomagokat és modcsomagokat a Modrinthról. Fedezd fel és tedd közzé projektjeidet a Modrinthon egy modern, könnyen használható felületen és API-n keresztül."
+    "message": "Tölts le Minecraft modokat, pluginokat, adatcsomagokat, shadereket, forráscsomagokat és modcsomagokat a Blankethubról. Fedezd fel és tedd közzé projektjeidet a Blankethubon egy modern, könnyen használható felületen és API-n keresztül."
   },
   "layout.nav.discover": {
     "message": "Felfedezés"
@@ -1243,7 +1243,7 @@
     "message": "Tartalom felfedezése"
   },
   "layout.nav.get-modrinth-app": {
-    "message": "Szerezd meg a Modrinth Appot"
+    "message": "Szerezd meg a Blankethub Appot"
   },
   "layout.nav.home": {
     "message": "Kezdőlap"
@@ -1252,10 +1252,10 @@
     "message": "Hozz létre egy szervert"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "Modrinth kezdőlap"
+    "message": "Blankethub kezdőlap"
   },
   "layout.nav.my-servers": {
     "message": "Szervereim"
@@ -1351,10 +1351,10 @@
     "message": "Telefonszám"
   },
   "profile.bio.fallback.creator": {
-    "message": "Egy Modrinth alkotó."
+    "message": "Egy Blankethub alkotó."
   },
   "profile.bio.fallback.user": {
-    "message": "Egy Modrinth felhasználó."
+    "message": "Egy Blankethub felhasználó."
   },
   "profile.button.billing": {
     "message": "Felhasználói számlázás kezelése"
@@ -1420,10 +1420,10 @@
     "message": "Mentés..."
   },
   "profile.meta.description": {
-    "message": "Töltsd le {username} projektjeit a Modrinthon"
+    "message": "Töltsd le {username} projektjeit a Blankethubon"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - Töltsd le {username} projektjeit a Modrinthon"
+    "message": "{bio} - Töltsd le {username} projektjeit a Blankethubon"
   },
   "profile.stats.projects-followers": {
     "message": "{count, plural, one {<stat>{count}</stat> project follower} other {<stat>{count}</stat> project followers}}"
@@ -1624,7 +1624,7 @@
     "message": "Ha lehetséges és releváns, csatolj linkeket és képeket. Az üres vagy hiányos jelentéseket lezárjuk és figyelmen kívül hagyjuk."
   },
   "report.for.violation": {
-    "message": "A Modrinth <rules-link>Szabályzat</rules-link> vagy <terms-link>Felhasználási feltételek</terms-link> megsértése"
+    "message": "A Blankethub <rules-link>Szabályzat</rules-link> vagy <terms-link>Felhasználási feltételek</terms-link> megsértése"
   },
   "report.for.violation.description": {
     "message": "Példák: rosszindulatú, spam, sértő, megtévesztő, félrevezető és illegális tartalom."
@@ -1690,7 +1690,7 @@
     "message": "Előfizetések"
   },
   "settings.display.banner.developer-mode.description": {
-    "message": "A <strong>fejlesztői mód</strong> aktív. Ez lehetővé teszi, hogy megtekintsd a Modrinth különböző elemeinek belső azonosítóit, ami hasznos lehet, ha a Modrinth API-t használó fejlesztő vagy. Kattints ötször a lap alján található Modrinth logóra a fejlesztői mód bekapcsolásához."
+    "message": "A <strong>fejlesztői mód</strong> aktív. Ez lehetővé teszi, hogy megtekintsd a Blankethub különböző elemeinek belső azonosítóit, ami hasznos lehet, ha a Blankethub API-t használó fejlesztő vagy. Kattints ötször a lap alján található Blankethub logóra a fejlesztői mód bekapcsolásához."
   },
   "settings.display.flags.title": {
     "message": "Funkciók be-/kikapcsolása"
@@ -1732,19 +1732,19 @@
     "message": "Összetett renderelés"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "message": "A Modrinthon kívüli linkeket új lapon nyílnak meg. Ettől a beállítástól függetlenül az azonos domainen található linkek és a Markdown leírásokban szereplő linkek ugyanazon a lapon nyílnak meg, míg a hirdetésekben és a szerkesztési oldalakon található linkek új lapon nyílnak meg."
+    "message": "A Blankethubon kívüli linkeket új lapon nyílnak meg. Ettől a beállítástól függetlenül az azonos domainen található linkek és a Markdown leírásokban szereplő linkek ugyanazon a lapon nyílnak meg, míg a hirdetésekben és a szerkesztési oldalakon található linkek új lapon nyílnak meg."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "message": "Külső linkek megnyitása új lapon"
   },
   "settings.display.sidebar.hide-app-promos.description": {
-    "message": "Elrejti a „Szerezd meg a Modrinth Appot” gombokat az elsődleges navigációból. A Modrinth App oldal továbbra is megtalálható a nyitóoldalon vagy a láblécben."
+    "message": "Elrejti a „Szerezd meg a Blankethub Appot” gombokat az elsődleges navigációból. A Blankethub App oldal továbbra is megtalálható a nyitóoldalon vagy a láblécben."
   },
   "settings.display.sidebar.hide-app-promos.title": {
-    "message": "Modrinth App promóciók elrejtése"
+    "message": "Blankethub App promóciók elrejtése"
   },
   "settings.display.theme.description": {
-    "message": "Válaszd ki a Modrinth számára a kívánt színsémát ezen az eszközön."
+    "message": "Válaszd ki a Blankethub számára a kívánt színsémát ezen az eszközön."
   },
   "settings.pats.modal.create.name.label": {
     "message": "Név"
@@ -1759,7 +1759,7 @@
     "message": "Bemutatkozás"
   },
   "settings.profile.description": {
-    "message": "A rofiladataid nyilvánosan megtekinthetők a Modrinth oldalon és a <docs-link>Modrinth API</docs-link>-n keresztül."
+    "message": "A rofiladataid nyilvánosan megtekinthetők a Blankethub oldalon és a <docs-link>Blankethub API</docs-link>-n keresztül."
   },
   "settings.profile.profile-info": {
     "message": "Profilinformációk"
@@ -1774,10 +1774,10 @@
     "message": "Létrehozva {ago}"
   },
   "settings.sessions.description": {
-    "message": "Itt találhatók azok az eszközök, amelyek jelenleg be vannak jelentkezve a Modrinth fiókodba. Mindegyikről külön-külön kijelentkezhet.\n\nHa nem ismerős bejegyzést látsz, jelentkezz ki az adott eszközről, és azonnal változtasd meg Modrinth fiókod jelszavát."
+    "message": "Itt találhatók azok az eszközök, amelyek jelenleg be vannak jelentkezve a Blankethub fiókodba. Mindegyikről külön-külön kijelentkezhet.\n\nHa nem ismerős bejegyzést látsz, jelentkezz ki az adott eszközről, és azonnal változtasd meg Blankethub fiókod jelszavát."
   },
   "ui.latest-news-row.latest-news": {
-    "message": "A legújabb hírek a Modrinthról"
+    "message": "A legújabb hírek a Blankethubról"
   },
   "ui.latest-news-row.view-all": {
     "message": "Összes hír"

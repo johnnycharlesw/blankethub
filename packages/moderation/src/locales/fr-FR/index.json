@@ -12,7 +12,7 @@
     "defaultMessage": "Ajouter une icône"
   },
   "nags.add-links.description": {
-    "defaultMessage": "Ajoutez tous les liens pertinents pointant en dehors de Modrinth, tels que le code source, un système de suivi des problèmes ou une invitation Discord."
+    "defaultMessage": "Ajoutez tous les liens pertinents pointant en dehors de Blankethub, tels que le code source, un système de suivi des problèmes ou une invitation Discord."
   },
   "nags.add-links.title": {
     "defaultMessage": "Ajouter des liens externes"

@@ -12,7 +12,7 @@
     "defaultMessage": "Aggiungi un'icona"
   },
   "nags.add-links.description": {
-    "defaultMessage": "Aggiungi link rilevanti che portino fuori da Modrinth, come il codice sorgente, un issue tracker, o un invito a un server Discord."
+    "defaultMessage": "Aggiungi link rilevanti che portino fuori da Blankethub, come il codice sorgente, un issue tracker, o un invito a un server Discord."
   },
   "nags.add-links.title": {
     "defaultMessage": "Aggiungi link esterni"

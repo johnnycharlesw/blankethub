@@ -8,9 +8,9 @@ import StyledEmail from '../shared/StyledEmail.vue';
 	<StyledEmail
 		title="You've been invited to an organization"
 		:manual-links="[
-			{ link: 'https://blankethub.loxalhost/organization/{organization.id}', label: 'Organization page' },
-			{ link: 'https://blankethub.loxalhost/dashboard/notifications', label: 'Notification dashboard' },
-			{ link: 'https://support.blankethub.loxalhost', label: 'Support Portal' },
+			{ link: 'https://blankethub.localhost/organization/{organization.id}', label: 'Organization page' },
+			{ link: 'https://blankethub.localhost/dashboard/notifications', label: 'Notification dashboard' },
+			{ link: 'https://support.blankethub.localhost', label: 'Support Portal' },
 		]"
 	>
 		<Section class="mb-4 mt-2">
@@ -30,22 +30,22 @@ import StyledEmail from '../shared/StyledEmail.vue';
 		<Text class="text-base">Hi {user.name},</Text>
 
 		<Text class="text-base"
-			>Modrinth user
+			>Blankethub user
 			<b
-				><VLink href="https://blankethub.loxalhost/user/{inviter.name}" class="text-green underline">
+				><VLink href="https://blankethub.localhost/user/{inviter.name}" class="text-green underline">
 					{inviter.name}
 				</VLink></b
 			>
 			has invited you to join the organization
 			<b
 				><VLink
-					href="https://blankethub.loxalhost/organization/{organization.id}"
+					href="https://blankethub.localhost/organization/{organization.id}"
 					class="text-green underline"
 				>
 					{organization.name}
 				</VLink></b
 			>
-			on Modrinth.
+			on Blankethub.
 		</Text>
 
 		<Section class="bg-bg-super mb-4 mt-4 rounded-lg border border-divider pb-4 pl-4 pr-4 pt-4">
@@ -56,7 +56,7 @@ import StyledEmail from '../shared/StyledEmail.vue';
 		</Section>
 
 		<Button
-			href="https://blankethub.loxalhost/dashboard/notifications"
+			href="https://blankethub.localhost/dashboard/notifications"
 			target="_blank"
 			class="text-accentContrast inline-block rounded-[12px] bg-brand pb-3 pl-4 pr-4 pt-3 text-[14px] font-bold"
 		>
@@ -66,7 +66,7 @@ import StyledEmail from '../shared/StyledEmail.vue';
 		<Text class="text-base">
 			If you were not expecting this invitation you should reject it. If you believe this was sent
 			in error or is abusive, please contact support
-			<VLink href="https://support.blankethub.loxalhost" class="text-green underline">
+			<VLink href="https://support.blankethub.localhost" class="text-green underline">
 				through the Support Portal</VLink
 			>.
 		</Text>

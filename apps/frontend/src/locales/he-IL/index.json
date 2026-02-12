@@ -126,7 +126,7 @@
     "message": "פחות מ-150 מגה-בייט"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 מיליארד %"
@@ -144,7 +144,7 @@
     "message": "ביצועי"
   },
   "app-marketing.features.play.description": {
-    "message": "השתמש ב-Modrinth App כדי להוריד ולשחק עם המודים וחבילות המודים המועדפים עליך."
+    "message": "השתמש ב-Blankethub App כדי להוריד ולשחק עם המודים וחבילות המודים המועדפים עליך."
   },
   "app-marketing.features.play.title": {
     "message": "שחק עם המודים האהובים עליך"
@@ -180,13 +180,13 @@
     "message": "אפליקציית מודרינת' היא משגר (launcher) מיוחד, קוד פתוח, שמאפשר לכם לשחק עם המודים שאתם אוהבים, ושומר עליהם מעודכנים. הכל בחבילה אחת, קומפקטית ומסודרת."
   },
   "app-marketing.hero.download-button": {
-    "message": "הורד את Modrinth App"
+    "message": "הורד את Blankethub App"
   },
   "app-marketing.hero.download-modrinth-app": {
     "message": "הורד את אפליקציית מודרינת'"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "הורד את Modrinth App עבור {os}"
+    "message": "הורד את Blankethub App עבור {os}"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "תמונה ראשית מהפנורמה של המודפק cobblemon."
@@ -270,7 +270,7 @@
     "message": "ליצור חשבון"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "כליצור את החשבון, אתם מסכימים ל<terms-link>תנאים</terms-link> ו<privacy-policy-link>מדיניות פרטיות</privacy-policy-link> של Modrinth."
+    "message": "כליצור את החשבון, אתם מסכימים ל<terms-link>תנאים</terms-link> ו<privacy-policy-link>מדיניות פרטיות</privacy-policy-link> של Blankethub."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "סיסמאות לא תואמות!"
@@ -279,7 +279,7 @@
     "message": "כבר יש לכם חשבון?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "להרשם לעדכונים על Modrinth"
+    "message": "להרשם לעדכונים על Blankethub"
   },
   "auth.sign-up.title": {
     "message": "הרשם"
@@ -321,7 +321,7 @@
     "message": "אמת אימייל"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "הירשם לעדכונים על Modrinth"
+    "message": "הירשם לעדכונים על Blankethub"
   },
   "auth.welcome.description": {
     "message": "אתה עכשיו חלק מהקהילה המדהימה של יוצרים ומשתמשים שכבר בונים, מורידים ומתעדכנים עם מודים מגניבים."
@@ -330,7 +330,7 @@
     "message": "ע\"י יצירת חשבון, אתה הסכמת ל<terms-link>תנאים</terms-link> של מודרינפ ו<privacy-policy-link>מדיניות הפרטיות</privacy-policy-link>."
   },
   "auth.welcome.long-title": {
-    "message": "ברוכים הבאים ל-Modrinth!"
+    "message": "ברוכים הבאים ל-Blankethub!"
   },
   "auth.welcome.title": {
     "message": "ברוכים הבאים"
@@ -549,7 +549,7 @@
     "message": "קובץ מס"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "Modrinth משתמשים בגוף החיצוני Track1099 על מנת לאסוף ולשמור בבטיחות את קבצי המס שלך.\n<security-link>עוד מידע כאן.</security-link>"
+    "message": "Blankethub משתמשים בגוף החיצוני Track1099 על מנת לאסוף ולשמור בבטיחות את קבצי המס שלך.\n<security-link>עוד מידע כאן.</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "הליכים בטחונים"
@@ -591,7 +591,7 @@
     "message": "ייתכן שהאוסף פרטי."
   },
   "error.collection.404.list_item.3": {
-    "message": "יכול להיות שהקובץ שלך נסתר על ידי צוות Modrinth משום שפגע ב<tou-link>תנאי השימוש</tou-link>."
+    "message": "יכול להיות שהקובץ שלך נסתר על ידי צוות Blankethub משום שפגע ב<tou-link>תנאי השימוש</tou-link>."
   },
   "error.collection.404.list_title": {
     "message": "למה?"
@@ -612,10 +612,10 @@
     "message": "תוכן לא נגיש מסיבות משפטיות"
   },
   "error.generic.default.list_item.1": {
-    "message": "בדוק אם Modrinth אינו זמין ב<status-link>דף הסטטוס</status-link> שלנו."
+    "message": "בדוק אם Blankethub אינו זמין ב<status-link>דף הסטטוס</status-link> שלנו."
   },
   "error.generic.default.list_item.2": {
-    "message": "אם זה ממשיך לקרות, אנא ידע/י את צוות Modrinth דרך <discord-server>שרת הדיסקורד</discord-link>."
+    "message": "אם זה ממשיך לקרות, אנא ידע/י את צוות Blankethub דרך <discord-server>שרת הדיסקורד</discord-link>."
   },
   "error.generic.default.list_title": {
     "message": "נסו שוב בעוד מספר דקות."
@@ -633,7 +633,7 @@
     "message": "ייתכן שבעל הארגון שינה את כתובת ה-URL או מחק אותה."
   },
   "error.organization.404.list_item.3": {
-    "message": "ייתכן שצוות הפיקוח והבקרה של Modrinth הסיר את הארגון בשל הפרת <tou-link>תנאי השימוש</tou-link> שלנו."
+    "message": "ייתכן שצוות הפיקוח והבקרה של Blankethub הסיר את הארגון בשל הפרת <tou-link>תנאי השימוש</tou-link> שלנו."
   },
   "error.organization.404.list_title": {
     "message": "מדוע?"
@@ -648,7 +648,7 @@
     "message": "ייתכן שבעל הפרויקט שינה את כתובת ה-URL, הפך את הפרויקט לפרטי או מחק אותו."
   },
   "error.project.404.list_item.3": {
-    "message": "ייתכן שצוות הפיקוח והבקרה של Modrinth הסיר את הארגון בשל הפרת <tou-link>תנאי השימוש</tou-link> שלנו."
+    "message": "ייתכן שצוות הפיקוח והבקרה של Blankethub הסיר את הארגון בשל הפרת <tou-link>תנאי השימוש</tou-link> שלנו."
   },
   "error.project.404.list_title": {
     "message": "מדוע?"
@@ -663,7 +663,7 @@
     "message": "אולי משתמש זה שונה את השם המשתמש או מחק את החשבון."
   },
   "error.user.404.list_item.3": {
-    "message": "אולי חשבון של משתמש זה היה מושעה בגלל <tou-link>תנאי שימוש</tou-link> של Modrinth."
+    "message": "אולי חשבון של משתמש זה היה מושעה בגלל <tou-link>תנאי שימוש</tou-link> של Blankethub."
   },
   "error.user.404.list_title": {
     "message": "למה?"
@@ -687,7 +687,7 @@
     "message": "עבור ללוח הבקרה"
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "קבל את חוויית המודים הכי טובה שאפשר עם עדכונים שוטפים מצוות Modrinth"
+    "message": "קבל את חוויית המודים הכי טובה שאפשר עם עדכונים שוטפים מצוות Blankethub"
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "בפיתוח מתמיד"
@@ -732,13 +732,13 @@
     "message": "עקבו אחר פרויקטים שאתם אוהבים"
   },
   "landing.feature.launcher.description": {
-    "message": "ה-API הפתוח של Modrinth מאפשר למפעילים לשלב אינטגרציה עמוקה עם Modrinth. ניתן להשתמש ב-Modrinth דרך <link>האפליקציה שלנו</link>, וגם באמצעות כמה מהמפעילים הפופולריים ביותר, כמו ATLauncher, MultiMC ו-Prism Launcher."
+    "message": "ה-API הפתוח של Blankethub מאפשר למפעילים לשלב אינטגרציה עמוקה עם Blankethub. ניתן להשתמש ב-Blankethub דרך <link>האפליקציה שלנו</link>, וגם באמצעות כמה מהמפעילים הפופולריים ביותר, כמו ATLauncher, MultiMC ו-Prism Launcher."
   },
   "landing.feature.launcher.heading": {
     "message": "שחק עם המפעיל האהוב עליך"
   },
   "landing.feature.search.description": {
-    "message": "מערכת החיפוש הזריזה והפילטרים העוצמתיים של Modrinth מאפשרים למצוא את מה שמחפשים בזמן כתיבה."
+    "message": "מערכת החיפוש הזריזה והפילטרים העוצמתיים של Blankethub מאפשרים למצוא את מה שמחפשים בזמן כתיבה."
   },
   "landing.feature.search.heading": {
     "message": "מצא/י מה שתרצה/י, במהירות וקלות"
@@ -771,10 +771,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "הצגה של חלון מיינקראפט מופשט, עם לוגו Mojang בצבע ירוק Modrinth."
+    "message": "הצגה של חלון מיינקראפט מופשט, עם לוגו Mojang בצבע ירוק Blankethub."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -864,16 +864,16 @@
     "message": "תנאי שימוש"
   },
   "layout.footer.modrinth-information": {
-    "message": "מידע על Modrinth"
+    "message": "מידע על Blankethub"
   },
   "layout.footer.open-source": {
-    "message": "Modrinth הוא <github-link>קוד פתוח</github-link>."
+    "message": "Blankethub הוא <github-link>קוד פתוח</github-link>."
   },
   "layout.footer.products": {
     "message": "מוצרים"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
 
   "layout.footer.resources": {
@@ -907,7 +907,7 @@
     "message": "X"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "layout.nav.my-servers": {
     "message": "השרתים שלי"
@@ -1021,7 +1021,7 @@
     "message": "תיאור"
   },
   "project.download.install-with-app": {
-    "message": "התקן באמצעות Modrinth App"
+    "message": "התקן באמצעות Blankethub App"
   },
   "project.license.title": {
     "message": "רישיון"

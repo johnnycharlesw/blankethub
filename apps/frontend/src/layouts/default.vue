@@ -48,7 +48,7 @@
 			"
 		/>
 		<PreviewBanner v-if="config.public.buildEnv === 'production' && config.public.preview" />
-		<StagingBanner v-if="config.public.apiBaseUrl.startsWith('https://staging-api.blankethub.loxalhost')" />
+		<StagingBanner v-if="config.public.apiBaseUrl.startsWith('https://staging-api.blankethub.localhost')" />
 		<GeneratedStateErrorsBanner
 			:errors="generatedStateErrors"
 			:api-url="config.public.apiBaseUrl"
@@ -277,7 +277,7 @@
 						<nuxt-link to="/app">
 							<DownloadIcon aria-hidden="true" />
 							<span class="hidden md:contents">{{
-								formatMessage(navMenuMessages.getModrinthApp)
+								formatMessage(navMenuMessages.getBlankethubApp)
 							}}</span>
 							<span class="contents md:hidden">{{
 								formatMessage(navMenuMessages.modrinthApp)
@@ -354,7 +354,7 @@
 							},
 						]"
 					>
-						<ModrinthIcon aria-hidden="true" />
+						<BlankethubIcon aria-hidden="true" />
 						<DropdownIcon aria-hidden="true" class="h-5 w-5 text-secondary" />
 						<template #review-projects>
 							<ScaleIcon aria-hidden="true" /> {{ formatMessage(messages.reviewProjects) }}
@@ -448,7 +448,7 @@
 					</template>
 					<template #plus>
 						<ArrowBigUpDashIcon aria-hidden="true" />
-						{{ formatMessage(messages.upgradeToModrinthPlus) }}
+						{{ formatMessage(messages.upgradeToBlankethubPlus) }}
 					</template>
 					<template #settings>
 						<SettingsIcon aria-hidden="true" /> {{ formatMessage(commonMessages.settingsLabel) }}
@@ -667,7 +667,7 @@
 			<BatchCreditModal v-if="auth.user && isAdmin(auth.user)" ref="modal_batch_credit" />
 			<slot id="main" />
 		</main>
-		<ModrinthFooter />
+		<BlankethubFooter />
 	</div>
 </template>
 <script setup>
@@ -675,6 +675,7 @@ import {
 	AffiliateIcon,
 	ArrowBigUpDashIcon,
 	BellIcon,
+	BlankethubIcon,
 	BoxIcon,
 	BracesIcon,
 	ChartIcon,
@@ -691,7 +692,6 @@ import {
 	LibraryIcon,
 	LogInIcon,
 	LogOutIcon,
-	ModrinthIcon,
 	MoonIcon,
 	OrganizationIcon,
 	PackageOpenIcon,
@@ -713,16 +713,17 @@ import {
 import {
 	Avatar,
 	ButtonStyled,
+	OverflowMenu,
 	commonMessages,
 	commonProjectTypeCategoryMessages,
 	defineMessages,
-	OverflowMenu,
 	useVIntl,
 } from '@modrinth/ui'
-import { isAdmin, isStaff, UserBadge } from '@modrinth/utils'
+import { UserBadge, isAdmin, isStaff } from '@modrinth/utils'
 
 import { getTaxThreshold } from '@/providers/creator-withdraw.ts'
 import TextLogo from '~/components/brand/TextLogo.vue'
+import BlankethubFooter from '~/components/ui/BlankethubFooter.vue'
 import BatchCreditModal from '~/components/ui/admin/BatchCreditModal.vue'
 import GeneratedStateErrorsBanner from '~/components/ui/banner/GeneratedStateErrorsBanner.vue'
 import PreviewBanner from '~/components/ui/banner/PreviewBanner.vue'
@@ -735,7 +736,6 @@ import VerifyEmailBanner from '~/components/ui/banner/VerifyEmailBanner.vue'
 import CollectionCreateModal from '~/components/ui/create/CollectionCreateModal.vue'
 import OrganizationCreateModal from '~/components/ui/create/OrganizationCreateModal.vue'
 import ProjectCreateModal from '~/components/ui/create/ProjectCreateModal.vue'
-import ModrinthFooter from '~/components/ui/ModrinthFooter.vue'
 import TeleportOverflowMenu from '~/components/ui/servers/TeleportOverflowMenu.vue'
 import { errors as generatedStateErrors } from '~/generated/state.json'
 import { getProjectTypeMessage } from '~/utils/i18n-project-type.ts'
@@ -804,13 +804,13 @@ const navMenuMessages = defineMessages({
 		id: 'layout.nav.host-a-server',
 		defaultMessage: 'Host a server',
 	},
-	getModrinthApp: {
+	getBlankethubApp: {
 		id: 'layout.nav.get-modrinth-app',
-		defaultMessage: 'Get Modrinth App',
+		defaultMessage: 'Get Blankethub App',
 	},
 	modrinthApp: {
 		id: 'layout.nav.modrinth-app',
-		defaultMessage: 'Modrinth App',
+		defaultMessage: 'Blankethub App',
 	},
 })
 
@@ -829,7 +829,7 @@ const messages = defineMessages({
 	},
 	modrinthHomePage: {
 		id: 'layout.nav.modrinth-home-page',
-		defaultMessage: 'Modrinth home page',
+		defaultMessage: 'Blankethub home page',
 	},
 	createNew: {
 		id: 'layout.action.create-new',
@@ -926,28 +926,28 @@ useHead({
 	],
 })
 useSeoMeta({
-	title: 'Modrinth',
+	title: 'Blankethub',
 	description: () =>
 		formatMessage({
 			id: 'layout.meta.description',
 			defaultMessage:
-				'Download Minecraft mods, plugins, datapacks, shaders, resourcepacks, and modpacks on Modrinth. ' +
-				'Discover and publish projects on Modrinth with a modern, easy to use interface and API.',
+				'Download Minecraft mods, plugins, datapacks, shaders, resourcepacks, and modpacks on Blankethub. ' +
+				'Discover and publish projects on Blankethub with a modern, easy to use interface and API.',
 		}),
-	publisher: 'Modrinth',
+	publisher: 'Blankethub',
 	themeColor: '#1bd96a',
 	colorScheme: 'dark light',
 
 	// OpenGraph
-	ogTitle: 'Modrinth',
-	ogSiteName: 'Modrinth',
+	ogTitle: 'Blankethub',
+	ogSiteName: 'Blankethub',
 	ogDescription: () =>
 		formatMessage({
 			id: 'layout.meta.og-description',
 			defaultMessage: 'Discover and publish Minecraft content!',
 		}),
 	ogType: 'website',
-	ogImage: 'https://cdn.blankethub.loxalhost/modrinth-new.png',
+	ogImage: 'https://cdn.blankethub.localhost/modrinth-new.png',
 	ogUrl: link,
 
 	// Twitter

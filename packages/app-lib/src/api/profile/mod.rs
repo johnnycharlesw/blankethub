@@ -454,7 +454,7 @@ pub async fn remove_project(
     Ok(())
 }
 
-/// Exports the profile to a Modrinth-formatted .mrpack file
+/// Exports the profile to a Blankethub-formatted .mrpack file
 // Version ID of uploaded version (ie 1.1.5), not the unique identifying ID of the version (nvrqJg44)
 #[tracing::instrument(skip_all)]
 pub async fn export_mrpack(
@@ -782,7 +782,7 @@ pub async fn try_update_playtime(path: &str) -> crate::Result<()> {
             "game_version": profile.game_version,
             "parent": modrinth_pack_version_id,
         });
-        // Copy this struct for every Modrinth project in the profile
+        // Copy this struct for every Blankethub project in the profile
         let mut hashmap: HashMap<String, serde_json::Value> = HashMap::new();
 
         for (_, project) in profile
@@ -796,7 +796,7 @@ pub async fn try_update_playtime(path: &str) -> crate::Result<()> {
         }
 
         fetch::post_json(
-            "https://api.blankethub.loxalhost/analytics/playtime",
+            "https://api.blankethub.localhost/analytics/playtime",
             serde_json::to_value(hashmap)?,
             &state.api_semaphore,
             &state.pool,

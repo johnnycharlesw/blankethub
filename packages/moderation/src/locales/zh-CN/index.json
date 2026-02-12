@@ -12,7 +12,7 @@
     "defaultMessage": "添加图标"
   },
   "nags.add-links.description": {
-    "defaultMessage": "添加一些 Modrinth 站外的相关链接，例如源代码仓库、问题追踪器或 Discord 频道邀请。"
+    "defaultMessage": "添加一些 Blankethub 站外的相关链接，例如源代码仓库、问题追踪器或 Discord 频道邀请。"
   },
   "nags.add-links.title": {
     "defaultMessage": "添加外部链接"

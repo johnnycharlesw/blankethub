@@ -12,7 +12,7 @@
     "defaultMessage": "Lisää kuvake"
   },
   "nags.add-links.description": {
-    "defaultMessage": "Lisää mikä tahansa merkityksellinen linkki, joka ohjaa ulos Modrinthistä, kuten lähdekoodi, ongelmanseuranta tai Discord-kutsu."
+    "defaultMessage": "Lisää mikä tahansa merkityksellinen linkki, joka ohjaa ulos Blankethubistä, kuten lähdekoodi, ongelmanseuranta tai Discord-kutsu."
   },
   "nags.add-links.title": {
     "defaultMessage": "Lisää ulkoisia linkkejä"

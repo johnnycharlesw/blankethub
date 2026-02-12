@@ -62,15 +62,15 @@ useHead({
 
 const AD_PRESETS = {
 	medal: {
-		light: 'https://cdn-raw.blankethub.loxalhost/modrinth-hosting-medal-light.webp',
-		dark: 'https://cdn-raw.blankethub.loxalhost/modrinth-hosting-medal-dark.webp',
-		description: 'Host your next server with Modrinth Hosting',
+		light: 'https://cdn-raw.blankethub.localhost/modrinth-hosting-medal-light.webp',
+		dark: 'https://cdn-raw.blankethub.localhost/modrinth-hosting-medal-dark.webp',
+		description: 'Host your next server with Blankethub Hosting',
 		link: '/hosting?plan&ref=medal',
 	},
 	'modrinth-hosting': {
-		light: 'https://cdn-raw.blankethub.loxalhost/modrinth-hosting-light.webp',
-		dark: 'https://cdn-raw.blankethub.loxalhost/modrinth-hosting-dark.webp',
-		description: 'Host your next server with Modrinth Hosting',
+		light: 'https://cdn-raw.blankethub.localhost/modrinth-hosting-light.webp',
+		dark: 'https://cdn-raw.blankethub.localhost/modrinth-hosting-dark.webp',
+		description: 'Host your next server with Blankethub Hosting',
 		link: '/hosting',
 	},
 }

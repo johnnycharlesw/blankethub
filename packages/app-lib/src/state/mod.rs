@@ -71,7 +71,7 @@ pub struct State {
     /// Process manager
     pub process_manager: ProcessManager,
 
-    /// App identifier string (like com.modrinth.ModrinthApp)
+    /// App identifier string (like com.modrinth.BlankethubApp)
     pub app_identifier: String,
 
     /// Friends socket
@@ -93,7 +93,7 @@ impl State {
                 state.discord_rpc.clear_to_default(true),
                 Profile::refresh_all(),
                 Settings::migrate(&state.pool),
-                ModrinthCredentials::refresh_all(),
+                BlankethubCredentials::refresh_all(),
             );
 
             if let Err(e) = res {

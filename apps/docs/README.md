@@ -1,6 +1,6 @@
-# Modrinth Documentation
+# Blankethub Documentation
 
-Welcome to the Modrinth documentation!
+Welcome to the Blankethub documentation!
 
 ## Development
 

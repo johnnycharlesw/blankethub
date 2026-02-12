@@ -42,9 +42,9 @@ import { useMutation, useQueryClient } from '@tanstack/vue-query'
 import { ref } from 'vue'
 
 import {
-	injectModrinthClient,
-	injectModrinthServerContext,
-	injectNotificationManager,
+    injectBlankethubClient,
+    injectBlankethubServerContext,
+    injectNotificationManager,
 } from '../../../providers'
 import Admonition from '../../base/Admonition.vue'
 import ButtonStyled from '../../base/ButtonStyled.vue'
@@ -52,9 +52,9 @@ import NewModal from '../../modal/NewModal.vue'
 import BackupItem from './BackupItem.vue'
 
 const { addNotification } = injectNotificationManager()
-const client = injectModrinthClient()
+const client = injectBlankethubClient()
 const queryClient = useQueryClient()
-const ctx = injectModrinthServerContext()
+const ctx = injectBlankethubServerContext()
 
 const backupsQueryKey = ['backups', 'list', ctx.serverId]
 const restoreMutation = useMutation({

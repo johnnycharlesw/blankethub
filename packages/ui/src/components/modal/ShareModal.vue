@@ -1,12 +1,12 @@
 <script setup>
 import {
-	ClipboardCopyIcon,
-	GlobeIcon,
-	MailIcon,
-	MastodonIcon,
-	RedditIcon,
-	ShareIcon,
-	TwitterIcon,
+    ClipboardCopyIcon,
+    GlobeIcon,
+    MailIcon,
+    MastodonIcon,
+    RedditIcon,
+    ShareIcon,
+    TwitterIcon,
 } from '@modrinth/assets'
 import QrcodeVue from 'qrcode.vue'
 import { computed, nextTick, ref } from 'vue'
@@ -20,7 +20,7 @@ const props = defineProps({
 	},
 	shareTitle: {
 		type: String,
-		default: 'Modrinth',
+		default: 'Blankethub',
 	},
 	shareText: {
 		type: String,

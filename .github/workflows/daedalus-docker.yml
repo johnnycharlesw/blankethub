@@ -33,7 +33,7 @@ jobs:
         env:
           DOCKER_METADATA_ANNOTATIONS_LEVELS: manifest,index
         with:
-          images: ghcr.io/modrinth/daedalus
+          images: ghcr.io/blankethub/daedalus
           labels: |
             org.opencontainers.image.title=daedalus
             org.opencontainers.image.description=Blankethub game metadata query client
@@ -58,5 +58,5 @@ jobs:
           tags: ${{ steps.docker_meta.outputs.tags }}
           labels: ${{ steps.docker_meta.outputs.labels }}
           annotations: ${{ steps.docker_meta.outputs.annotations }}
-          cache-from: type=registry,ref=ghcr.io/modrinth/daedalus:main
+          cache-from: type=registry,ref=ghcr.io/blankethub/daedalus:main
           cache-to: type=inline

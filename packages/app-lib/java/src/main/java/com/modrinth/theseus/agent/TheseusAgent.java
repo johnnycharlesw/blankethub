@@ -1,7 +1,5 @@
 package com.modrinth.theseus.agent;
 
-import com.modrinth.theseus.agent.transformers.ClassTransformer;
-import com.modrinth.theseus.agent.transformers.MinecraftTransformer;
 import java.io.IOException;
 import java.io.UncheckedIOException;
 import java.lang.instrument.Instrumentation;
@@ -13,15 +11,19 @@ import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.HashMap;
 import java.util.Map;
+
 import org.objectweb.asm.ClassReader;
 import org.objectweb.asm.ClassWriter;
+
+import com.modrinth.theseus.agent.transformers.ClassTransformer;
+import com.modrinth.theseus.agent.transformers.MinecraftTransformer;
 
 @SuppressWarnings({"NullableProblems", "CallToPrintStackTrace"})
 public final class TheseusAgent {
     private static final boolean DEBUG_AGENT = Boolean.getBoolean("modrinth.debugAgent");
 
     public static void premain(String args, Instrumentation instrumentation) {
-        final Path debugPath = Paths.get("ModrinthDebugTransformed");
+        final Path debugPath = Paths.get("BlankethubDebugTransformed");
         if (DEBUG_AGENT) {
             System.out.println(
                     "===== Theseus agent debugging enabled. Dumping transformed classes to " + debugPath + " =====");

@@ -187,7 +187,7 @@ const messages = defineMessages({
 
 useHead({
 	title() {
-		return `${formatMessage(messages.signInTitle)} - Modrinth`
+		return `${formatMessage(messages.signInTitle)} - Blankethub`
 	},
 })
 
@@ -282,7 +282,7 @@ async function finishSignIn(token) {
 
 		const redirectUrl = `${getLauncherRedirectUrl(route)}/?code=${token}`
 
-		if (redirectUrl.startsWith('https://launcher-files.blankethub.loxalhost/')) {
+		if (redirectUrl.startsWith('https://launcher-files.blankethub.localhost/')) {
 			await navigateTo(redirectUrl, {
 				external: true,
 			})

@@ -168,7 +168,7 @@ import { CompassIcon, InfoIcon, SettingsIcon, TransferIcon, UploadIcon } from '@
 import { ButtonStyled, ProjectCard, useVIntl } from '@modrinth/ui'
 import type { Loaders } from '@modrinth/utils'
 
-import type { ModrinthServer } from '~/composables/servers/modrinth-servers.ts'
+import type { BlankethubServer } from '~/composables/servers/modrinth-servers.ts'
 import type { BackupInProgressReason } from '~/pages/hosting/manage/[id].vue'
 
 import LoaderSelector from './LoaderSelector.vue'
@@ -179,7 +179,7 @@ import PlatformVersionSelectModal from './PlatformVersionSelectModal.vue'
 const { formatMessage } = useVIntl()
 
 const props = defineProps<{
-	server: ModrinthServer
+	server: BlankethubServer
 	ignoreCurrentInstallation?: boolean
 	backupInProgress?: BackupInProgressReason
 }>()

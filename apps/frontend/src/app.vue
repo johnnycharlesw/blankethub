@@ -1,7 +1,7 @@
 <template>
 	<NuxtLayout>
 		<NuxtRouteAnnouncer />
-		<ModrinthLoadingIndicator />
+		<BlankethubLoadingIndicator />
 		<NotificationPanel />
 		<I18nDebugPanel />
 		<NuxtPage />
@@ -9,15 +9,15 @@
 </template>
 <script setup lang="ts">
 import {
-	I18nDebugPanel,
-	NotificationPanel,
-	provideModrinthClient,
-	provideNotificationManager,
-	providePageContext,
+    I18nDebugPanel,
+    NotificationPanel,
+    provideBlankethubClient,
+    provideNotificationManager,
+    providePageContext,
 } from '@modrinth/ui'
 
-import ModrinthLoadingIndicator from '~/components/ui/modrinth-loading-indicator.ts'
-import { createModrinthClient } from '~/helpers/api.ts'
+import BlankethubLoadingIndicator from '~/components/ui/modrinth-loading-indicator.ts'
+import { createBlankethubClient } from '~/helpers/api.ts'
 import { FrontendNotificationManager } from '~/providers/frontend-notifications.ts'
 
 const auth = await useAuth()
@@ -25,12 +25,12 @@ const config = useRuntimeConfig()
 
 provideNotificationManager(new FrontendNotificationManager())
 
-const client = createModrinthClient(auth, {
+const client = createBlankethubClient(auth, {
 	apiBaseUrl: config.public.apiBaseUrl.replace('/v2/', '/'),
 	archonBaseUrl: config.public.pyroBaseUrl.replace('/v2/', '/'),
 	rateLimitKey: config.rateLimitKey,
 })
-provideModrinthClient(client)
+provideBlankethubClient(client)
 providePageContext({
 	hierarchicalSidebarAvailable: ref(false),
 	showAds: ref(false),

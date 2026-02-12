@@ -2,7 +2,7 @@ import { useGeneratedState } from '~/composables/generated'
 import { projectQueryOptions } from '~/composables/queries/project'
 import { useAppQueryClient } from '~/composables/query-client'
 import { getProjectTypeForUrlShorthand } from '~/helpers/projects.js'
-import { useServerModrinthClient } from '~/server/utils/api-client'
+import { useServerBlankethubClient } from '~/server/utils/api-client'
 
 // All valid project type URL segments
 const PROJECT_TYPES = ['project', 'mod', 'plugin', 'datapack', 'shader', 'resourcepack', 'modpack']
@@ -15,7 +15,7 @@ export default defineNuxtRouteMiddleware(async (to) => {
 
 	const queryClient = useAppQueryClient()
 	const authToken = useCookie('auth-token')
-	const client = useServerModrinthClient({ authToken: authToken.value || undefined })
+	const client = useServerBlankethubClient({ authToken: authToken.value || undefined })
 	const tags = useGeneratedState()
 	const projectId = to.params.id as string
 

@@ -569,7 +569,7 @@ impl AuthProvider {
             AuthProvider::GitHub => {
                 let response = reqwest::Client::new()
                     .get("https://api.github.com/user")
-                    .header(reqwest::header::USER_AGENT, "Modrinth")
+                    .header(reqwest::header::USER_AGENT, "Blankethub")
                     .header(AUTHORIZATION, format!("token {token}"))
                     .send()
                     .await?;
@@ -620,7 +620,7 @@ impl AuthProvider {
 
                 let discord_user: DiscordUser = reqwest::Client::new()
                     .get("https://discord.com/api/v10/users/@me")
-                    .header(reqwest::header::USER_AGENT, "Modrinth")
+                    .header(reqwest::header::USER_AGENT, "Blankethub")
                     .header(AUTHORIZATION, format!("Bearer {token}"))
                     .send()
                     .await?
@@ -652,7 +652,7 @@ impl AuthProvider {
 
                 let microsoft_user: MicrosoftUser = reqwest::Client::new()
                     .get("https://graph.microsoft.com/v1.0/me?$select=id,displayName,mail,userPrincipalName")
-                    .header(reqwest::header::USER_AGENT, "Modrinth")
+                    .header(reqwest::header::USER_AGENT, "Blankethub")
                     .header(AUTHORIZATION, format!("Bearer {token}"))
                     .send()
                     .await?.json().await?;
@@ -684,7 +684,7 @@ impl AuthProvider {
 
                 let gitlab_user: GitLabUser = reqwest::Client::new()
                     .get("https://gitlab.com/api/v4/user")
-                    .header(reqwest::header::USER_AGENT, "Modrinth")
+                    .header(reqwest::header::USER_AGENT, "Blankethub")
                     .header(AUTHORIZATION, format!("Bearer {token}"))
                     .send()
                     .await?
@@ -710,7 +710,7 @@ impl AuthProvider {
 
                 let google_user: GoogleUser = reqwest::Client::new()
                     .get("https://www.googleapis.com/userinfo/v2/me")
-                    .header(reqwest::header::USER_AGENT, "Modrinth")
+                    .header(reqwest::header::USER_AGENT, "Blankethub")
                     .header(AUTHORIZATION, format!("Bearer {token}"))
                     .send()
                     .await?
@@ -803,7 +803,7 @@ impl AuthProvider {
                     .get(format!(
                         "{api_url}identity/openidconnect/userinfo?schema=openid"
                     ))
-                    .header(reqwest::header::USER_AGENT, "Modrinth")
+                    .header(reqwest::header::USER_AGENT, "Blankethub")
                     .header(AUTHORIZATION, format!("Bearer {token}"))
                     .send()
                     .await?
@@ -1061,7 +1061,7 @@ pub struct Authorization {
 }
 
 // Init link takes us to GitHub API and calls back to callback endpoint with a code and state
-// http://localhost:8000/auth/init?url=https://blankethub.loxalhost
+// http://localhost:8000/auth/init?url=https://blankethub.localhost
 #[get("init")]
 pub async fn init(
     req: HttpRequest,
@@ -1104,7 +1104,7 @@ pub async fn init(
         parse_strings_from_var("ALLOWED_CALLBACK_URLS").unwrap_or_default();
     let domain = url.host_str().ok_or(AuthenticationError::Url)?;
     if !allowed_callback_urls.iter().any(|x| domain.ends_with(x))
-        && domain != "blankethub.loxalhost"
+        && domain != "blankethub.localhost"
     {
         return Err(AuthenticationError::Url);
     }
@@ -1197,7 +1197,7 @@ pub async fn auth_callback(
             .wrap_err("failed to begin transaction")?;
 
         // PayPal isn't actually an SSO method; we allow users to link their PayPal
-        // account to their Modrinth account via this OAuth flow. However, we MUST
+        // account to their Blankethub account via this OAuth flow. However, we MUST
         // NOT actually create an account with their username.
         //
         // Instead, we check who they're already logged in as, and just update
@@ -1499,7 +1499,7 @@ pub async fn create_account_with_password(
     .is_empty()
     {
         return Err(ApiError::InvalidInput(
-            "Email is already registered on Modrinth! Try 'Forgot password' to access your account.".to_string(),
+            "Email is already registered on Blankethub! Try 'Forgot password' to access your account.".to_string(),
         ));
     }
 
@@ -2303,7 +2303,7 @@ pub async fn set_email(
     .is_empty()
     {
         return Err(ApiError::InvalidInput(
-            "Email is already registered on Modrinth! Try 'Forgot password' in incognito to access and delete your other account.".to_string(),
+            "Email is already registered on Blankethub! Try 'Forgot password' in incognito to access and delete your other account.".to_string(),
         ));
     }
 

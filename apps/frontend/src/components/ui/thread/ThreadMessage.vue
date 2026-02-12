@@ -31,9 +31,9 @@
 					{{ members[message.author_id].username }}
 				</AutoLink>
 				<ScaleIcon v-if="members[message.author_id].role === 'moderator'" v-tooltip="'Moderator'" />
-				<ModrinthIcon
+				<BlankethubIcon
 					v-else-if="members[message.author_id].role === 'admin'"
-					v-tooltip="'Modrinth Team'"
+					v-tooltip="'Blankethub Team'"
 				/>
 				<MicrophoneIcon
 					v-if="report && message.author_id === report.reporter_user?.id"
@@ -124,12 +124,12 @@
 
 <script setup>
 import {
-	LockIcon,
-	MicrophoneIcon,
-	ModrinthIcon,
-	MoreHorizontalIcon,
-	ScaleIcon,
-	TrashIcon,
+    BlankethubIcon,
+    LockIcon,
+    MicrophoneIcon,
+    MoreHorizontalIcon,
+    ScaleIcon,
+    TrashIcon,
 } from '@modrinth/assets'
 import { AutoLink, Avatar, Badge, OverflowMenu, useRelativeTime } from '@modrinth/ui'
 import { renderString } from '@modrinth/utils'

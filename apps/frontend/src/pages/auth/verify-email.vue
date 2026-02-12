@@ -65,11 +65,11 @@
 <script setup>
 import { RightArrowIcon, SettingsIcon } from '@modrinth/assets'
 import {
-	ButtonStyled,
-	commonMessages,
-	defineMessages,
-	injectNotificationManager,
-	useVIntl,
+    ButtonStyled,
+    commonMessages,
+    defineMessages,
+    injectNotificationManager,
+    useVIntl,
 } from '@modrinth/ui'
 
 const { addNotification } = injectNotificationManager()
@@ -130,7 +130,7 @@ const failedVerificationMessages = defineMessages({
 })
 
 useHead({
-	title: () => `${formatMessage(messages.title)} - Modrinth`,
+	title: () => `${formatMessage(messages.title)} - Blankethub`,
 })
 
 const auth = await useAuth()

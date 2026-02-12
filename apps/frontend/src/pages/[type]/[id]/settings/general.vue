@@ -163,7 +163,7 @@ const placeholder = computed(() => placeholders[placeholderIndex.value] ?? place
 			<div class="mt-4">
 				<SettingsLabel id="project-url" :title="messages.urlTitle" />
 				<div class="text-input-wrapper">
-					<div class="text-input-wrapper__before">https://blankethub.loxalhost/project/</div>
+					<div class="text-input-wrapper__before">https://blankethub.localhost/project/</div>
 					<StyledInput id="project-url" v-model="current.url" :maxlength="64" autocomplete="off" />
 				</div>
 			</div>

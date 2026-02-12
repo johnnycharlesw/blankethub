@@ -30,9 +30,9 @@
 </template>
 
 <script setup lang="ts">
-import { ButtonStyled } from '@modrinth/ui'
+import { ButtonStyled } from '@modrinth/ui';
 
-import type { ModrinthServer } from '~/composables/servers/modrinth-servers.ts'
+import type { BlankethubServer } from '~/composables/servers/modrinth-servers.ts';
 
 const props = defineProps<{
 	isUpdating: boolean
@@ -40,7 +40,7 @@ const props = defineProps<{
 	save: () => void
 	reset: () => void
 	isVisible: boolean
-	server: ModrinthServer
+	server: BlankethubServer
 }>()
 
 const saveAndRestart = async () => {

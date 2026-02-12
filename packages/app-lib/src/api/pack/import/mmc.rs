@@ -71,7 +71,7 @@ where
 #[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "lowercase")]
 pub enum MMCManagedPackType {
-    Modrinth,
+    Blankethub,
     Flame,
     ATLauncher,
     #[serde(other)]
@@ -226,13 +226,13 @@ pub async fn import_mmc(
     // Managed pack
     if instance_cfg.managed_pack.unwrap_or(false) {
         match instance_cfg.managed_pack_type {
-            Some(MMCManagedPackType::Modrinth) => {
+            Some(MMCManagedPackType::Blankethub) => {
                 description.project_id = instance_cfg.managed_pack_id;
                 description.version_id = instance_cfg.managed_pack_version_id;
 
-                // Modrinth Managed Pack
+                // Blankethub Managed Pack
                 // Kept separate as we may in the future want to add special handling for modrinth managed packs
-                import_mmc_unmanaged(profile_path, minecraft_folder, "Imported Modrinth Modpack".to_string(), description, mmc_pack).await?;
+                import_mmc_unmanaged(profile_path, minecraft_folder, "Imported Blankethub Modpack".to_string(), description, mmc_pack).await?;
             }
             Some(MMCManagedPackType::Flame | MMCManagedPackType::ATLauncher) => {
                 // For flame/atlauncher managed packs

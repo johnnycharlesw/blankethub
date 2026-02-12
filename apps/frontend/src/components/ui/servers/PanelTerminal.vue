@@ -305,7 +305,7 @@ import { useDebounceFn } from '@vueuse/core'
 import DOMPurify from 'dompurify'
 import { computed, nextTick, onMounted, onUnmounted, ref, watch } from 'vue'
 
-import { useModrinthServersConsole } from '~/store/console.ts'
+import { useBlankethubServersConsole } from '~/store/console.ts'
 
 import FullscreenIcon from './icons/FullscreenIcon.vue'
 import MinimizeIconVue from './icons/MinimizeIcon.vue.vue'
@@ -326,7 +326,7 @@ const SEPARATOR_HEIGHT = 32
 const SCROLL_END_DELAY = 150
 const progressiveBlurIterations = ref(8)
 
-const pyroConsole = useModrinthServersConsole()
+const pyroConsole = useBlankethubServersConsole()
 const consoleOutput = computed(() => (props.loading ? [] : pyroConsole.output.value))
 
 const scrollContainer = ref<HTMLElement | null>(null)

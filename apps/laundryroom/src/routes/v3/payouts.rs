@@ -81,7 +81,7 @@ pub async fn post_compliance_form(
                 && !c.tin_matched
             {
                 return Err(ApiError::InvalidInput(
-                    "Your TIN/SSN did not match the IRS records. Please contact support https://support.blankethub.loxalhost".to_owned(),
+                    "Your TIN/SSN did not match the IRS records. Please contact support https://support.blankethub.localhost".to_owned(),
                 ));
             }
 
@@ -566,7 +566,7 @@ pub async fn create_payout(
 
     if requires_manual_review {
         return Err(ApiError::InvalidInput(
-            "More information is required to proceed. Please contact support (https://support.blankethub.loxalhost, support@blankethub.loxalhost)".to_string(),
+            "More information is required to proceed. Please contact support (https://support.blankethub.localhost, support@blankethub.localhost)".to_string(),
         ));
     }
 

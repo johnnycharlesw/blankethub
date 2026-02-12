@@ -2,7 +2,7 @@ import type { Laundryroom, UploadProgress } from '@modrinth/api-client'
 import { SaveIcon, SpinnerIcon } from '@modrinth/assets'
 import {
     createContext,
-    injectModrinthClient,
+    injectBlankethubClient,
     injectNotificationManager,
     injectProjectPageContext,
     resolveCtxFn,
@@ -164,7 +164,7 @@ export function createManageVersionContext(
 	modal: ShallowRef<ComponentExposed<typeof MultiStageModal> | null>,
 	onSave?: () => void,
 ): ManageVersionContextValue {
-	const { labrinth } = injectModrinthClient()
+	const { labrinth } = injectBlankethubClient()
 	const { addNotification } = injectNotificationManager()
 	const { invalidate, projectV2 } = injectProjectPageContext()
 

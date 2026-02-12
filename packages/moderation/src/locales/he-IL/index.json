@@ -12,7 +12,7 @@
     "defaultMessage": "הוסף אייקון"
   },
   "nags.add-links.description": {
-    "defaultMessage": "הוסף קישורים רלוונטיים מחוץ ל-Modrinth, כגון קוד מקור, מעקב אחר בעיות או הזמנה לשרת דיסקורד."
+    "defaultMessage": "הוסף קישורים רלוונטיים מחוץ ל-Blankethub, כגון קוד מקור, מעקב אחר בעיות או הזמנה לשרת דיסקורד."
   },
   "nags.add-links.title": {
     "defaultMessage": "הוסף קישורים חיצוניים"

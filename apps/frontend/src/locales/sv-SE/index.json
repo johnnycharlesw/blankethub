@@ -30,7 +30,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "Linux-versionerna av Modrinth App <issues-link>kan ha problem</issues-link> på vissa system och konfigurationer. Om Modrinth App är instabilt på ditt system rekommenderar vi dig att testa andra appar som <prism-link>Prism Launcher</prism-link> för att enkelt installera innehåll från Modrinth."
+    "message": "Linux-versionerna av Blankethub App <issues-link>kan ha problem</issues-link> på vissa system och konfigurationer. Om Blankethub App är instabilt på ditt system rekommenderar vi dig att testa andra appar som <prism-link>Prism Launcher</prism-link> för att enkelt installera innehåll från Blankethub."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -39,10 +39,10 @@
     "message": "Nedladdningsalternativ"
   },
   "app-marketing.download.terms": {
-    "message": "När du laddar ner Modrinth App godkänner du våra <terms-link>Villkor</terms-link> och vår <privacy-link>Integritetspolicy</privacy-link>."
+    "message": "När du laddar ner Blankethub App godkänner du våra <terms-link>Villkor</terms-link> och vår <privacy-link>Integritetspolicy</privacy-link>."
   },
   "app-marketing.download.title": {
-    "message": "Ladda ner Modrinth App (Beta)"
+    "message": "Ladda ner Blankethub App (Beta)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "Följ projekt"
   },
   "app-marketing.features.importing.description": {
-    "message": "Importera alla dina favoritprofiler från din tidigare launcher och kom igång med Modrinth App på ett ögonblick!"
+    "message": "Importera alla dina favoritprofiler från din tidigare launcher och kom igång med Blankethub App på ett ögonblick!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "av {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth för det enkelt att hantera alla dina mods på ett och samma ställe. Du kan installera, avinstallera och uppdatera mods med ett enda klick."
+    "message": "Blankethub för det enkelt att hantera alla dina mods på ett och samma ställe. Du kan installera, avinstallera och uppdatera mods med ett enda klick."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Installerade mods"
@@ -96,7 +96,7 @@
     "message": "Offlineläge"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Modrinths launcher har helt öppen källkod. Du kan se källkoden på vår <github-link>GitHub</github-link>!"
+    "message": "Blankethubs launcher har helt öppen källkod. Du kan se källkoden på vår <github-link>GitHub</github-link>!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Öppen källkod"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Modrinth App presterar bättre än många av de ledande modhanterarna och använder bara 150mb RAM!"
+    "message": "Blankethub App presterar bättre än många av de ledande modhanterarna och använder bara 150mb RAM!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -129,7 +129,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 miljard %"
@@ -147,13 +147,13 @@
     "message": "Effektiv"
   },
   "app-marketing.features.play.description": {
-    "message": "Använd Modrinth App för att ladda ner och spela dina favoritmods och modpacks."
+    "message": "Använd Blankethub App för att ladda ner och spela dina favoritmods och modpacks."
   },
   "app-marketing.features.play.title": {
     "message": "Spela dina favoritmods"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Skapa, dela och spela modpacks från alla tusentals mods och modpacks som finns här på Modrinth."
+    "message": "Skapa, dela och spela modpacks från alla tusentals mods och modpacks som finns här på Blankethub."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Modpack"
@@ -168,7 +168,7 @@
     "message": "Inte som någon annan launcher"
   },
   "app-marketing.features.website.description": {
-    "message": "Modrinth-appen är helt integrerad med webbsidan, så att du kan använda alla dina favoritprojekt i appen!"
+    "message": "Blankethub-appen är helt integrerad med webbsidan, så att du kan använda alla dina favoritprojekt i appen!"
   },
   "app-marketing.features.website.title": {
     "message": "Webbsidaintegrering"
@@ -177,19 +177,19 @@
     "message": "du använt förut"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Skärmdump av Modrinth App med en Cobblemon-instans öppen på sidan ”Innehåll”."
+    "message": "Skärmdump av Blankethub App med en Cobblemon-instans öppen på sidan ”Innehåll”."
   },
   "app-marketing.hero.description": {
-    "message": "Modrinth App är en unik launcher med öppen källkod som låter dig spela dina favoritmods och hålla de uppdaterade, allt i ett smidigt litet paket."
+    "message": "Blankethub App är en unik launcher med öppen källkod som låter dig spela dina favoritmods och hålla de uppdaterade, allt i ett smidigt litet paket."
   },
   "app-marketing.hero.download-button": {
-    "message": "Ladda ner Modrinth App"
+    "message": "Ladda ner Blankethub App"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Ladda ner Modrinth App"
+    "message": "Ladda ner Blankethub App"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "Ladda ner Modrinth App för {os}"
+    "message": "Ladda ner Blankethub App för {os}"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "Skärmdump av huvudmenyn i Cobblemon-instansen."
@@ -282,7 +282,7 @@
     "message": "Skapa konto"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Genom att skapa ett konto godkänner du Modrinths <terms-link>villkor</terms-link> och <privacy-policy-link>sekretesspolicy</privacy-policy-link>."
+    "message": "Genom att skapa ett konto godkänner du Blankethubs <terms-link>villkor</terms-link> och <privacy-policy-link>sekretesspolicy</privacy-policy-link>."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "Lösenorden stämmer inte överens!"
@@ -291,7 +291,7 @@
     "message": "Har du redan ett konto?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Jag vill få uppdateringar om Modrinth"
+    "message": "Jag vill få uppdateringar om Blankethub"
   },
   "auth.sign-up.title": {
     "message": "Registrera dig"
@@ -333,16 +333,16 @@
     "message": "Verifiera e-post"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Prenumerera för uppdateringar om Modrinth"
+    "message": "Prenumerera för uppdateringar om Blankethub"
   },
   "auth.welcome.description": {
     "message": "Du är nu en del av ett grymt community av skapare och utforskare som redan bygger, laddar ner och håller sig uppdaterade med fantastiska mods."
   },
   "auth.welcome.label.tos": {
-    "message": "När du skapar ett konto godkänner du Modrinths <terms-link>villkor</terms-link> och <privacy-policy-link>sekretesspolicy</privacy-policy-link>."
+    "message": "När du skapar ett konto godkänner du Blankethubs <terms-link>villkor</terms-link> och <privacy-policy-link>sekretesspolicy</privacy-policy-link>."
   },
   "auth.welcome.long-title": {
-    "message": "Välkommen till Modrinth!"
+    "message": "Välkommen till Blankethub!"
   },
   "auth.welcome.title": {
     "message": "Välkommen"
@@ -372,7 +372,7 @@
     "message": "Är du säker på att du vill radera samlingen?"
   },
   "collection.description": {
-    "message": "{description} - Visa samlingen {name} av {username} på Modrinth"
+    "message": "{description} - Visa samlingen {name} av {username} på Blankethub"
   },
   "collection.description.following": {
     "message": "Auto-genererad samling av projekten du följer."
@@ -591,7 +591,7 @@
     "message": "Skatteformulär"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "Modrinth anväder tredjepartsleverantören Track1099 för att på ett säkert samla och lagra dina skattedeklarationer. <security-link>Läs mer här.</security-link>"
+    "message": "Blankethub anväder tredjepartsleverantören Track1099 för att på ett säkert samla och lagra dina skattedeklarationer. <security-link>Läs mer här.</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "Säkerhetsrutiner"
@@ -792,7 +792,7 @@
     "message": "Estimerad inkomst kan ändras tills att den är tillgänglig."
   },
   "dashboard.revenue.estimated-tooltip.msg2": {
-    "message": "Klicka för att läsa om hur Modrinth hanterar din inkomst."
+    "message": "Klicka för att läsa om hur Blankethub hanterar din inkomst."
   },
   "dashboard.revenue.estimated-with-date": {
     "message": "Estimerat {date}"
@@ -840,7 +840,7 @@
     "message": "Samlingen kan vara privat."
   },
   "error.collection.404.list_item.3": {
-    "message": "Samlingen kan ha tagits ner av Modrinths modereringsteam eftersom att den bryter mot våra <tou-link>användarvillkor</tou-link>."
+    "message": "Samlingen kan ha tagits ner av Blankethubs modereringsteam eftersom att den bryter mot våra <tou-link>användarvillkor</tou-link>."
   },
   "error.collection.404.list_title": {
     "message": "Varför?"
@@ -855,10 +855,10 @@
     "message": "Sidan hittades inte"
   },
   "error.generic.default.list_item.1": {
-    "message": "Se om Modrinth är nere på vår <status-link>statussida</status-link>."
+    "message": "Se om Blankethub är nere på vår <status-link>statussida</status-link>."
   },
   "error.generic.default.list_item.2": {
-    "message": "Om detta fortsätter hända borde du kontakta Modrinth-teamet via vår <discord-link>Discord server</discord-link>."
+    "message": "Om detta fortsätter hända borde du kontakta Blankethub-teamet via vår <discord-link>Discord server</discord-link>."
   },
   "error.generic.default.list_title": {
     "message": "Vänligen försök igenom om några minuter."
@@ -876,7 +876,7 @@
     "message": "Organisationens ägare kan ha ändrat webbadressen eller tagit bort den."
   },
   "error.organization.404.list_item.3": {
-    "message": "Organisationen kan ha tagits ner av Modrinths moderatorer då den bryter mot våra <tou-link>användarvillkor</tou-link>."
+    "message": "Organisationen kan ha tagits ner av Blankethubs moderatorer då den bryter mot våra <tou-link>användarvillkor</tou-link>."
   },
   "error.organization.404.list_title": {
     "message": "Varför?"
@@ -891,7 +891,7 @@
     "message": "Projektets ägare kan ha tagit bort webbadressen, gjort projektet privat eller tagit bort det."
   },
   "error.project.404.list_item.3": {
-    "message": "Projektet kan ha tagits ner av Modrinths moderatorer då den bryter mot våra <tou-link>användarvillkor</tou-link>."
+    "message": "Projektet kan ha tagits ner av Blankethubs moderatorer då den bryter mot våra <tou-link>användarvillkor</tou-link>."
   },
   "error.project.404.list_title": {
     "message": "Varför?"
@@ -906,7 +906,7 @@
     "message": "Användaren kan ha bytt användarnamn eller tagit bort deras konto."
   },
   "error.user.404.list_item.3": {
-    "message": "Användarens konto kan ha terminerats då den bryter mot Modrinths <tou-link>användarvillkor</tou-link>."
+    "message": "Användarens konto kan ha terminerats då den bryter mot Blankethubs <tou-link>användarvillkor</tou-link>."
   },
   "error.user.404.list_title": {
     "message": "Varför?"
@@ -939,10 +939,10 @@
     "message": "Hur fungerar CPU burst-trådar?"
   },
   "hosting-marketing.faq.cpu-kind": {
-    "message": "Vilka typer av CPU:er kör Modrinth Hostings servrar på?"
+    "message": "Vilka typer av CPU:er kör Blankethub Hostings servrar på?"
   },
   "hosting-marketing.faq.cpu-kind.answer": {
-    "message": "Modrinth Hostings servar använder AMD Ryzen 7900- och 7950X3D-motsvarande CPU:er vid 5+ GHZ, kombinerat med DDR5-arbetsminne."
+    "message": "Blankethub Hostings servar använder AMD Ryzen 7900- och 7950X3D-motsvarande CPU:er vid 5+ GHZ, kombinerat med DDR5-arbetsminne."
   },
   "hosting-marketing.faq.currency": {
     "message": "Vilken valuta är priserna i?"
@@ -951,25 +951,25 @@
     "message": "Alla priser är listade i United States dollar (USD)."
   },
   "hosting-marketing.faq.ddos-protection": {
-    "message": "Har Modrinth Hostings servrar DDoS-skydd?"
+    "message": "Har Blankethub Hostings servrar DDoS-skydd?"
   },
   "hosting-marketing.faq.ddos-protection.answer": {
-    "message": "Ja. Alla Modrinth Hostings servrar medföljer DDoS-skydd, med upp mot 17Tbps kapacitet på vissa platser."
+    "message": "Ja. Alla Blankethub Hostings servrar medföljer DDoS-skydd, med upp mot 17Tbps kapacitet på vissa platser."
   },
   "hosting-marketing.faq.heading": {
     "message": "Vanliga frågor"
   },
   "hosting-marketing.faq.how-fast": {
-    "message": "Hur snabba är Modrinth Hostings servrar?"
+    "message": "Hur snabba är Blankethub Hostings servrar?"
   },
   "hosting-marketing.faq.how-fast.answer.one": {
-    "message": "Modrinth Hostings servrar bygger på väldigt modern högpresterande hårdvara, men att säga exakt hur det kommer påverka hur din server kör är svårt, då det finns så många olika faktorer som påverkar det, som moddarna, datapaketen, pluginsen som du kör på din server och till och med beteendet av dina spelare."
+    "message": "Blankethub Hostings servrar bygger på väldigt modern högpresterande hårdvara, men att säga exakt hur det kommer påverka hur din server kör är svårt, då det finns så många olika faktorer som påverkar det, som moddarna, datapaketen, pluginsen som du kör på din server och till och med beteendet av dina spelare."
   },
   "hosting-marketing.faq.increase-storage": {
     "message": "Kan jag öka mängden lagring på min server?"
   },
   "hosting-marketing.faq.increase-storage.answer": {
-    "message": "Ja. Lagringen din server har tillgång till kan ökas utan några ytterligare kostnader. Om du vill ha mer lagringsutrymme, kontakta Modrinths support."
+    "message": "Ja. Lagringen din server har tillgång till kan ökas utan några ytterligare kostnader. Om du vill ha mer lagringsutrymme, kontakta Blankethubs support."
   },
   "landing.button.discover-mods": {
     "message": "Upptäck mods"
@@ -978,7 +978,7 @@
     "message": "Gå till dashboarden"
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "Få den bästa möjliga modupplevelsen med kontinuerliga uppdateringar från Modrinthteamet"
+    "message": "Få den bästa möjliga modupplevelsen med kontinuerliga uppdateringar från Blankethubteamet"
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "Konstant utvecklande"
@@ -1020,13 +1020,13 @@
     "message": "Följ projekt du älskar"
   },
   "landing.feature.launcher.description": {
-    "message": "Modrinths API med öppen källkod låter launchers lägga till djup integration med Modrinth. Du kan använda Modrinth genom <link>vår egna app</link> och dem flesta populära launchers som ATLauncher, MultiMC och Prism Launcher."
+    "message": "Blankethubs API med öppen källkod låter launchers lägga till djup integration med Blankethub. Du kan använda Blankethub genom <link>vår egna app</link> och dem flesta populära launchers som ATLauncher, MultiMC och Prism Launcher."
   },
   "landing.feature.launcher.heading": {
     "message": "Spela med din launcher"
   },
   "landing.feature.search.description": {
-    "message": "Modrinths blixtsnabba sökmotor och filter låter dig hitta vad du vill när du skriver."
+    "message": "Blankethubs blixtsnabba sökmotor och filter låter dig hitta vad du vill när du skriver."
   },
   "landing.feature.search.heading": {
     "message": "Hitta det du vill snabbt och enkelt"
@@ -1059,10 +1059,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "En förenklad representation av ett Minecraftfönster med Mojang Studios logga i Modrinths gröna färg."
+    "message": "En förenklad representation av ett Minecraftfönster med Mojang Studios logga i Blankethubs gröna färg."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -1131,19 +1131,19 @@
     "message": "Besök kontoinställningar"
   },
   "layout.banner.add-email.description": {
-    "message": "Modrinth kräver att du registrerar en e-postadress till ditt konto av säkerhetsskäl."
+    "message": "Blankethub kräver att du registrerar en e-postadress till ditt konto av säkerhetsskäl."
   },
   "layout.banner.build-fail.description": {
-    "message": "Denna distribution av Modrinths frontend kunde inte generera status från API:et. Detta kan bero på ett avbrott eller ett fel i konfigurationen. Bygg om när API:et är tillgängligt. Felkoder: {errors}; Nuvarande API-URL är: {url}"
+    "message": "Denna distribution av Blankethubs frontend kunde inte generera status från API:et. Detta kan bero på ett avbrott eller ett fel i konfigurationen. Bygg om när API:et är tillgängligt. Felkoder: {errors}; Nuvarande API-URL är: {url}"
   },
   "layout.banner.build-fail.title": {
     "message": "Fel inträffade vid generering av status från API vid kompilering."
   },
   "layout.banner.staging.description": {
-    "message": "Staging-miljön är helt separat från Modrinths databas. Detta används för test och felsökning och kan köra experimentella versioner av Modrinth som inte släppts än."
+    "message": "Staging-miljön är helt separat från Blankethubs databas. Detta används för test och felsökning och kan köra experimentella versioner av Blankethub som inte släppts än."
   },
   "layout.banner.staging.title": {
-    "message": "Du använder Modrinths staging-miljö"
+    "message": "Du använder Blankethubs staging-miljö"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "Uppdatera faktureringsinfo"
@@ -1164,7 +1164,7 @@
     "message": "Skicka nytt bekräftelsemejl"
   },
   "layout.banner.verify-email.description": {
-    "message": "Modrinth kräver att du verifierar din e-postadress associerat med ditt konto av säkerhetsskäl."
+    "message": "Blankethub kräver att du verifierar din e-postadress associerat med ditt konto av säkerhetsskäl."
   },
   "layout.footer.about": {
     "message": "Om"
@@ -1206,20 +1206,20 @@
     "message": "Användarvillkor"
   },
   "layout.footer.modrinth-information": {
-    "message": "Modrinth-information"
+    "message": "Blankethub-information"
   },
   "layout.footer.open-source": {
-    "message": "Modrinth har <github-link>öppen källkod</github-link>."
+    "message": "Blankethub har <github-link>öppen källkod</github-link>."
   },
   "layout.footer.products": {
     "message": "Produkter"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
 
   "layout.footer.products.servers": {
-    "message": "Modrinth Hosting"
+    "message": "Blankethub Hosting"
   },
   "layout.footer.resources": {
     "message": "Resurser"
@@ -1255,7 +1255,7 @@
     "message": "Växla meny"
   },
   "layout.meta.description": {
-    "message": "Ladda ned Minecraft moddar, plugins, datapaket, shaders, resurspaket och modpaket på Modrinth. Upptäck och lägg upp projekt på Modrinth med ett modernt, enkelt att använda gränssnitt och API."
+    "message": "Ladda ned Minecraft moddar, plugins, datapaket, shaders, resurspaket och modpaket på Blankethub. Upptäck och lägg upp projekt på Blankethub med ett modernt, enkelt att använda gränssnitt och API."
   },
   "layout.meta.og-description": {
     "message": "Utforska och lägg upp Minecraft-innehåll!"
@@ -1276,7 +1276,7 @@
     "message": "Funktionsflaggor"
   },
   "layout.nav.get-modrinth-app": {
-    "message": "Installera Modrinth appen"
+    "message": "Installera Blankethub appen"
   },
   "layout.nav.home": {
     "message": "Hem"
@@ -1285,10 +1285,10 @@
     "message": "Skaffa en server"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "Modrinth hem sida"
+    "message": "Blankethub hem sida"
   },
   "layout.nav.my-servers": {
     "message": "Mina servrar"
@@ -1444,10 +1444,10 @@
     "message": "Banköverföring (ZAR)"
   },
   "profile.bio.fallback.creator": {
-    "message": "En Modrinth kreatör."
+    "message": "En Blankethub kreatör."
   },
   "profile.bio.fallback.user": {
-    "message": "En Modrinth användare."
+    "message": "En Blankethub användare."
   },
   "profile.button.billing": {
     "message": "Hantera användarfakturering"
@@ -1519,10 +1519,10 @@
     "message": "Sparar..."
   },
   "profile.meta.description": {
-    "message": "Ladda ner {username}s projekt på Modrinth"
+    "message": "Ladda ner {username}s projekt på Blankethub"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - Ladda ned {username}s projekt på Modrinth"
+    "message": "{bio} - Ladda ned {username}s projekt på Blankethub"
   },
   "profile.stats.projects-followers": {
     "message": "{count, plural, one {<stat>{count}</stat> följare} other {<stat>{count}</stat> följare}}"
@@ -1684,10 +1684,10 @@
     "message": "{title} stöttar inte {gameVersion} för {platform}"
   },
   "project.download.install-with-app": {
-    "message": "Installera med Modrinth appen"
+    "message": "Installera med Blankethub appen"
   },
   "project.download.no-app": {
-    "message": "Har du inte Modrinth appen?"
+    "message": "Har du inte Blankethub appen?"
   },
   "project.download.no-versions-available": {
     "message": "Inga versioner finns tillgängliga för {gameVersion} och {platform}."
@@ -1723,7 +1723,7 @@
     "message": "Ladda ner {title}"
   },
   "project.environment.migration-no-permission.message": {
-    "message": "Vi har förbättrat miljösystemet på Modrinth och nya inställningar är tillgängliga. Du har inte behörighet att ändra dessa inställningar, men meddela en annan medlem i projektet att miljömetadatan måste verifieras."
+    "message": "Vi har förbättrat miljösystemet på Blankethub och nya inställningar är tillgängliga. Du har inte behörighet att ändra dessa inställningar, men meddela en annan medlem i projektet att miljömetadatan måste verifieras."
   },
   "project.environment.migration-no-permission.title": {
     "message": "Miljömetadata måste verifieras"
@@ -1813,7 +1813,7 @@
     "message": "Vänligen ge oss mer kontext om din rapport"
   },
   "report.for.violation": {
-    "message": "Detta bryter mot Modrinths <rules-link>regler</rules-link> eller våra <terms-link>användarvillkor</terms-link>"
+    "message": "Detta bryter mot Blankethubs <rules-link>regler</rules-link> eller våra <terms-link>användarvillkor</terms-link>"
   },
   "report.form-not-for": {
     "message": "Detta formulär är inte för:"
@@ -2086,7 +2086,7 @@
     "message": "Betalningsmetoder"
   },
   "settings.billing.subscription.description": {
-    "message": "Hantera dina Modrinth-prenumerationer."
+    "message": "Hantera dina Blankethub-prenumerationer."
   },
   "settings.billing.subscription.title": {
     "message": "Prenumerationer"
@@ -2116,7 +2116,7 @@
     "message": "Samling"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "message": "Får länkar som leder utanför Modrinth att öppna en ny flik. Oavsett vad denna inställning har ställts in på kommer länkar med samma domän och i Markdown-beskrivningar att öppnas i samma flik, och länkar på annonser och redigeringssidor öppnas i en ny flik."
+    "message": "Får länkar som leder utanför Blankethub att öppna en ny flik. Oavsett vad denna inställning har ställts in på kommer länkar med samma domän och i Markdown-beskrivningar att öppnas i samma flik, och länkar på annonser och redigeringssidor öppnas i en ny flik."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "message": "Öppna externa länkar i en ny flik"
@@ -2128,7 +2128,7 @@
     "message": "Skapa en PAT"
   },
   "settings.pats.description": {
-    "message": "PAT:s kan användas för att komma åt Modrinths API. Se <doc-link>Modrinths API dokumentation</doc-link> för mer information. De kan skapas och återkallas när som helst."
+    "message": "PAT:s kan användas för att komma åt Blankethubs API. Se <doc-link>Blankethubs API dokumentation</doc-link> för mer information. De kan skapas och återkallas när som helst."
   },
   "settings.pats.modal.create.action": {
     "message": "Skapa PAT"
@@ -2167,7 +2167,7 @@
     "message": "Om mig"
   },
   "settings.profile.description": {
-    "message": "Din profilinformation visas offentligt på Modrinth och genom <docs-link>Modrinth API:t</docs-link>."
+    "message": "Din profilinformation visas offentligt på Blankethub och genom <docs-link>Blankethub API:t</docs-link>."
   },
   "settings.profile.profile-info": {
     "message": "Profilinformation"
@@ -2197,7 +2197,7 @@
     "message": "Okänd plattform"
   },
   "ui.latest-news-row.latest-news": {
-    "message": "Senaste nytt från Modrinth"
+    "message": "Senaste nytt från Blankethub"
   },
   "ui.latest-news-row.view-all": {
     "message": "Visa alla nyheter"

@@ -23,7 +23,7 @@ VALUES
 		'email',
 		'subscription_credited',
 		'We’ve added time to your server',
-		'https://blankethub.loxalhost/_internal/templates/email/subscription-credited',
+		'https://blankethub.localhost/_internal/templates/email/subscription-credited',
 		CONCAT(
 			'Hi {user.name},',
 			CHR(10),
@@ -39,6 +39,6 @@ VALUES
 			CHR(10),
 			'Thank you for supporting us,',
 			CHR(10),
-			'The Modrinth Team'
+			'The Blankethub Team'
 		)
 	);

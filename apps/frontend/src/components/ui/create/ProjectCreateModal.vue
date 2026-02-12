@@ -27,7 +27,7 @@
 					</span>
 				</label>
 				<div class="text-input-wrapper">
-					<div class="text-input-wrapper__before">https://blankethub.loxalhost/project/</div>
+					<div class="text-input-wrapper__before">https://blankethub.localhost/project/</div>
 					<StyledInput
 						id="slug"
 						v-model="slug"

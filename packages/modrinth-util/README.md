@@ -1,1 +1,1 @@
-Modrinth services utilities.
+Blankethub services utilities.

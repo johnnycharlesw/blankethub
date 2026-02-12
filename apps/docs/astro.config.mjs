@@ -4,20 +4,13 @@ import starlightOpenAPI, { openAPISidebarGroups } from 'starlight-openapi'
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://docs.blankethub.loxalhost',
+	site: 'https://docs.blankethub.localhost',
 	integrations: [
 		starlight({
-			title: 'Modrinth Documentation',
+			title: 'Blankethub Documentation',
 			favicon: '/favicon.ico',
 			editLink: {
 				baseUrl: 'https://github.com/johnnycharlesw/blankethub/edit/main/apps/docs/',
-			},
-			social: {
-				github: 'https://github.com/johnnycharlesw/blankethub',
-				discord: 'https://discord.blankethub.loxalhost',
-				'x.com': 'https://x.com/modrinth',
-				mastodon: 'https://floss.social/@modrinth',
-				threads: 'https://threads.net/@modrinth',
 			},
 			logo: {
 				light: './src/assets/light-logo.svg',
@@ -25,23 +18,23 @@ export default defineConfig({
 				replacesTitle: true,
 			},
 			customCss: [
-				'@modrinth/assets/styles/variables.scss',
-				'@modrinth/assets/styles/inter.scss',
-				'./src/styles/modrinth.css',
+				'@blankethub/assets/styles/variables.scss',
+				'@blankethub/assets/styles/inter.scss',
+				'./src/styles/blankethub.css',
 			],
 			plugins: [
 				// Generate the OpenAPI documentation pages.
 				starlightOpenAPI([
 					{
 						base: 'api',
-						label: 'Modrinth API',
+						label: 'Blankethub API',
 						schema: './public/openapi.yaml',
 					},
 				]),
 			],
 			sidebar: [
 				{
-					label: 'Contributing to Modrinth',
+					label: 'Contributing to Blankethub',
 					autogenerate: { directory: 'contributing' },
 				},
 				{

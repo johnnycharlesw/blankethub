@@ -28,7 +28,7 @@ export const finalPermissionMessages: Record<
 	yes: undefined,
 	'with-attribution-and-source': undefined,
 	'with-attribution': `The following content has attribution requirements, meaning that you must link back to the page where you originally found this content in your Modpack's description or version changelog (e.g. linking a mod's CurseForge page if you got it from CurseForge):`,
-	no: 'The following content is not allowed in Modrinth modpacks due to licensing restrictions. Please contact the author(s) directly for permission or remove the content from your modpack:',
-	'permanent-no': `The following content is not allowed in Modrinth modpacks, regardless of permission obtained. This may be because it breaks Modrinth's content rules or because the authors, upon being contacted for permission, have declined. Please remove the content from your modpack:`,
+	no: 'The following content is not allowed in Blankethub modpacks due to licensing restrictions. Please contact the author(s) directly for permission or remove the content from your modpack:',
+	'permanent-no': `The following content is not allowed in Blankethub modpacks, regardless of permission obtained. This may be because it breaks Blankethub's content rules or because the authors, upon being contacted for permission, have declined. Please remove the content from your modpack:`,
 	unidentified: `The following content could not be identified. Please provide proof of its origin along with proof that you have permission to include it:`,
 }

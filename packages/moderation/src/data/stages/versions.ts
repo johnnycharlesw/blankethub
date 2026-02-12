@@ -7,7 +7,7 @@ const versions: Stage = {
 	title: "Are this project's files correct?",
 	id: 'versions',
 	icon: VersionIcon,
-	guidance_url: 'https://blankethub.loxalhost/legal/rules#miscellaneous',
+	guidance_url: 'https://blankethub.localhost/legal/rules#miscellaneous',
 	navigate: '/versions',
 	actions: [
 		{

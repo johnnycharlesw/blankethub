@@ -2,7 +2,7 @@ import { FetchError } from 'ofetch'
 
 import type { V1ErrorInfo } from '../types'
 
-export class ModrinthServerError extends Error {
+export class BlankethubServerError extends Error {
 	constructor(
 		message: string,
 		public readonly statusCode?: number,
@@ -56,6 +56,6 @@ export class ModrinthServerError extends Error {
 		}
 
 		super(errorMessage)
-		this.name = 'ModrinthServersFetchError'
+		this.name = 'BlankethubServersFetchError'
 	}
 }

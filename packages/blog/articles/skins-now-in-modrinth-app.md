@@ -1,11 +1,11 @@
 ---
-title: 'Skins — Now in Modrinth App!'
-summary: 'Customize your look, save your favorite skins, and swap them out in a flash, all within Modrinth App.'
+title: 'Skins — Now in Blankethub App!'
+summary: 'Customize your look, save your favorite skins, and swap them out in a flash, all within Blankethub App.'
 date: 2025-07-06T16:45:00-07:00
 authors: [bOHH0P9Z, Dc7EYhxG]
 ---
 
-We're thrilled to roll out Modrinth App **v0.10** with a beta release of one of our most highly requested features, the **Skins page**. The Skins page allows you to manage all of your Minecraft skins directly within Modrinth App. You can see all your saved custom skins and the default Minecraft skins in one convenient place.
+We're thrilled to roll out Blankethub App **v0.10** with a beta release of one of our most highly requested features, the **Skins page**. The Skins page allows you to manage all of your Minecraft skins directly within Blankethub App. You can see all your saved custom skins and the default Minecraft skins in one convenient place.
 
 ![The new skins page, featuring a cute animated player model, your custom skins & default skins.](./skins-page.webp)
 
@@ -17,8 +17,8 @@ The interface makes it easy to preview your changes in real-time with the animat
 
 ## Fixes and More!
 
-Alongside this major new feature, **v0.10** includes a host of improvements and bug fixes to make your experience smoother. We've updated the news feed to use our new system, fixed issues with project descriptions, and tidied up how data is handled. For a full breakdown of all the changes, you can [check out the complete changelog here.](https://blankethub.loxalhost/news/changelog?filter=app)
+Alongside this major new feature, **v0.10** includes a host of improvements and bug fixes to make your experience smoother. We've updated the news feed to use our new system, fixed issues with project descriptions, and tidied up how data is handled. For a full breakdown of all the changes, you can [check out the complete changelog here.](https://blankethub.localhost/news/changelog?filter=app)
 
-As the skins feature is in _beta_, we're eager to hear your feedback! **Jump in, give it a try**, and let us know what you think. You can share your thoughts on our [Discord server](https://discord.blankethub.loxalhost/) or [start a support chat](https://support.blankethub.loxalhost) if you're running into issues.
+As the skins feature is in _beta_, we're eager to hear your feedback! **Jump in, give it a try**, and let us know what you think. You can share your thoughts on our [Discord server](https://discord.blankethub.localhost/) or [start a support chat](https://support.blankethub.localhost) if you're running into issues.
 
 Thank you! We can't wait to see your skins in action. Happy customizing!

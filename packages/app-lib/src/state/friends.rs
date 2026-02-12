@@ -1,5 +1,5 @@
 use crate::ErrorKind;
-use crate::data::ModrinthCredentials;
+use crate::data::BlankethubCredentials;
 use crate::event::FriendPayload;
 use crate::event::emit::emit_friend;
 use crate::state::tunnel::InternalTunnelSocket;
@@ -72,7 +72,7 @@ impl FriendsSocket {
         process_manager: &ProcessManager,
     ) -> crate::Result<()> {
         let credentials =
-            ModrinthCredentials::get_and_refresh(exec, semaphore).await?;
+            BlankethubCredentials::get_and_refresh(exec, semaphore).await?;
 
         if let Some(credentials) = credentials {
             let mut request = format!(

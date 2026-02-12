@@ -5,17 +5,17 @@
 </template>
 
 <script setup lang="ts">
-import type { ModrinthServer } from '~/composables/servers/modrinth-servers.ts'
+import type { BlankethubServer } from '~/composables/servers/modrinth-servers.ts';
 
 const route = useNativeRoute()
 
 const props = defineProps<{
-	server: ModrinthServer
+	server: BlankethubServer
 }>()
 
 const data = computed(() => props.server.general)
 
 useHead({
-	title: `Content - ${data.value?.name ?? 'Server'} - Modrinth`,
+	title: `Content - ${data.value?.name ?? 'Server'} - Blankethub`,
 })
 </script>

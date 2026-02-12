@@ -402,7 +402,7 @@
     "defaultMessage": "Kiểm duyệt viên"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Đội Ngũ Modrinth"
+    "defaultMessage": "Đội Ngũ Blankethub"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Đang chờ"
@@ -966,7 +966,7 @@
     "defaultMessage": "Bạn muốn khu vực máy chủ của bạn được nằm ở đâu?"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "Khu vực không được liệt kê? <link>Hãy cho chúng tôi biết nơi mà bạn muốn Modrinth Hosting sẽ có trong tương lai!</link>"
+    "defaultMessage": "Khu vực không được liệt kê? <link>Hãy cho chúng tôi biết nơi mà bạn muốn Blankethub Hosting sẽ có trong tương lai!</link>"
   },
   "servers.region.southeast-asia": {
     "defaultMessage": "Đông Nam Á"
@@ -993,7 +993,7 @@
     "defaultMessage": "Tối"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Chọn màu nền ưa thích của bạn cho Modrinth trên thiết bị này."
+    "defaultMessage": "Chọn màu nền ưa thích của bạn cho Blankethub trên thiết bị này."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Sáng"

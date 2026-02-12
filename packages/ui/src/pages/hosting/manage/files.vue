@@ -256,14 +256,14 @@
 <script setup lang="ts">
 import type { Archon, Kyros } from '@modrinth/api-client'
 import {
-	CheckIcon,
-	FolderOpenIcon,
-	PackageOpenIcon,
-	RightArrowIcon,
-	SpinnerIcon,
-	TrashIcon,
-	UnknownIcon,
-	XIcon,
+    CheckIcon,
+    FolderOpenIcon,
+    PackageOpenIcon,
+    RightArrowIcon,
+    SpinnerIcon,
+    TrashIcon,
+    UnknownIcon,
+    XIcon,
 } from '@modrinth/assets'
 import { formatBytes } from '@modrinth/utils'
 import { useInfiniteQuery, useMutation, useQueryClient } from '@tanstack/vue-query'
@@ -274,29 +274,29 @@ import ButtonStyled from '../../../components/base/ButtonStyled.vue'
 import FloatingActionBar from '../../../components/base/FloatingActionBar.vue'
 import ProgressBar from '../../../components/base/ProgressBar.vue'
 import {
-	FileEditor,
-	FileLabelBar,
-	FileManagerError,
-	FileNavbar,
-	FileUploadDragAndDrop,
-	FileUploadDropdown,
-	FileVirtualList,
+    FileEditor,
+    FileLabelBar,
+    FileManagerError,
+    FileNavbar,
+    FileUploadDragAndDrop,
+    FileUploadDropdown,
+    FileVirtualList,
 } from '../../../components/servers/files'
 import {
-	FileCreateItemModal,
-	FileDeleteItemModal,
-	FileMoveItemModal,
-	FileRenameItemModal,
-	FileUploadConflictModal,
+    FileCreateItemModal,
+    FileDeleteItemModal,
+    FileMoveItemModal,
+    FileRenameItemModal,
+    FileUploadConflictModal,
 } from '../../../components/servers/files/modals'
 import {
-	injectModrinthClient,
-	injectModrinthServerContext,
-	injectNotificationManager,
+    injectBlankethubClient,
+    injectBlankethubServerContext,
+    injectNotificationManager,
 } from '../../../providers'
 import {
-	getFileExtension,
-	isEditableFile as isEditableFileCheck,
+    getFileExtension,
+    isEditableFile as isEditableFileCheck,
 } from '../../../utils/file-extensions'
 
 defineProps<{
@@ -305,8 +305,8 @@ defineProps<{
 
 const notifications = injectNotificationManager()
 const { addNotification } = notifications
-const client = injectModrinthClient()
-const serverContext = injectModrinthServerContext()
+const client = injectBlankethubClient()
+const serverContext = injectBlankethubServerContext()
 const { serverId, fsOps, fsQueuedOps } = serverContext
 const queryClient = useQueryClient()
 

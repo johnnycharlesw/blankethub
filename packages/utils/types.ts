@@ -1,7 +1,7 @@
 export const BASE62_CHARS = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
 export type Base62Char = (typeof BASE62_CHARS)[number]
 
-export type ModrinthId = string
+export type BlankethubId = string
 
 export type Environment = 'required' | 'optional' | 'unsupported' | 'unknown'
 
@@ -50,12 +50,12 @@ export interface GalleryImage {
 }
 
 export interface ProjectV3 {
-	id: ModrinthId
+	id: BlankethubId
 	slug?: string
 	project_types: string[]
 	games: string[]
-	team_id: ModrinthId
-	organization?: ModrinthId
+	team_id: BlankethubId
+	organization?: BlankethubId
 	name: string
 	summary: string
 	description: string
@@ -87,7 +87,7 @@ export interface ProjectV3 {
 	additional_categories: string[]
 	loaders: string[]
 
-	versions: ModrinthId[]
+	versions: BlankethubId[]
 	icon_url?: string
 
 	link_urls: Record<
@@ -110,7 +110,7 @@ export interface ProjectV3 {
 	}[]
 
 	color?: number
-	thread_id: ModrinthId
+	thread_id: BlankethubId
 	monetization_status: MonetizationStatus
 	side_types_migration_review_status: EnvironmentMigrationReviewStatus
 
@@ -118,7 +118,7 @@ export interface ProjectV3 {
 }
 
 export interface Project {
-	id: ModrinthId
+	id: BlankethubId
 	project_type: ProjectType
 	slug: string
 	title: string
@@ -140,10 +140,10 @@ export interface Project {
 	client_side: Environment
 	server_side: Environment
 
-	team?: ModrinthId
-	team_id: ModrinthId
-	thread_id: ModrinthId
-	organization: ModrinthId
+	team?: BlankethubId
+	team_id: BlankethubId
+	thread_id: BlankethubId
+	organization: BlankethubId
 
 	issues_url: string | null
 	source_url: string | null
@@ -160,7 +160,7 @@ export interface Project {
 	game_versions: GameVersion[]
 	loaders: Platform[]
 
-	versions: ModrinthId[]
+	versions: BlankethubId[]
 	gallery?: GalleryImage[]
 
 	license: {
@@ -191,7 +191,7 @@ export interface ProjectV3Partial {
 }
 
 export interface SearchResult {
-	id: ModrinthId
+	id: BlankethubId
 	project_type: ProjectType
 	slug: string
 	title: string
@@ -224,10 +224,10 @@ export interface SearchResult {
 }
 
 export type Organization = {
-	id: ModrinthId
+	id: BlankethubId
 	slug: string
 	name: string
-	team_id: ModrinthId
+	team_id: BlankethubId
 	description: string
 	icon_url: string
 	color: number
@@ -237,7 +237,7 @@ export type Organization = {
 export type OrganizationPermissions = number
 
 export type OrganizationMember = {
-	team_id: ModrinthId
+	team_id: BlankethubId
 	user: User
 	role: string
 	is_owner: boolean
@@ -249,7 +249,7 @@ export type OrganizationMember = {
 }
 
 export type Collection = {
-	id: ModrinthId
+	id: BlankethubId
 	user: User
 	name: string
 	description: string
@@ -258,7 +258,7 @@ export type Collection = {
 	status: CollectionStatus
 	created: string
 	updated: string
-	projects: ModrinthId[]
+	projects: BlankethubId[]
 }
 
 export type CollectionStatus = 'listed' | 'unlisted' | 'private' | 'unknown'
@@ -316,9 +316,9 @@ export interface Version {
 	loaders: Platform[]
 	featured: boolean
 	status: VersionStatus
-	id: ModrinthId
-	project_id: ModrinthId
-	author_id: ModrinthId
+	id: BlankethubId
+	project_id: BlankethubId
+	author_id: BlankethubId
 	date_published: string
 	downloads: number
 	files: VersionFile[]
@@ -351,7 +351,7 @@ export interface User {
 	email?: string
 	bio?: string
 	payout_data?: PayoutData
-	id: ModrinthId
+	id: BlankethubId
 	avatar_url: string
 	created: string
 	role: UserRole
@@ -378,7 +378,7 @@ export enum TeamMemberPermission {
 export type TeamMemberPermissions = number
 
 export interface TeamMember {
-	team_id: ModrinthId
+	team_id: BlankethubId
 	user: User
 	role: string
 	permissions: TeamMemberPermissions
@@ -389,12 +389,12 @@ export interface TeamMember {
 }
 
 export type Report = {
-	id: ModrinthId
-	item_id: ModrinthId
+	id: BlankethubId
+	item_id: BlankethubId
 	item_type: 'project' | 'version' | 'user'
 	report_type: string
-	reporter: ModrinthId
-	thread_id: ModrinthId
+	reporter: BlankethubId
+	thread_id: BlankethubId
 	closed: boolean
 	created: string
 	body: string

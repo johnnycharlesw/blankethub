@@ -28,15 +28,15 @@
 <script setup lang="ts">
 import { SpinnerIcon } from '@modrinth/assets'
 import {
-	getEditorLanguage,
-	getFileExtension,
-	injectModrinthClient,
-	injectModrinthServerContext,
-	injectNotificationManager,
-	isImageFile,
+    getEditorLanguage,
+    getFileExtension,
+    injectBlankethubClient,
+    injectBlankethubServerContext,
+    injectNotificationManager,
+    isImageFile,
 } from '@modrinth/ui'
 import { useQueryClient } from '@tanstack/vue-query'
-import { type Component, computed, inject, onMounted, onUnmounted, ref, watch } from 'vue'
+import { computed, inject, onMounted, onUnmounted, ref, watch, type Component } from 'vue'
 
 import FileImageViewer from './FileImageViewer.vue'
 
@@ -57,8 +57,8 @@ const emit = defineEmits<{
 
 const notifications = injectNotificationManager()
 const { addNotification } = notifications
-const client = injectModrinthClient()
-const serverContext = injectModrinthServerContext()
+const client = injectBlankethubClient()
+const serverContext = injectBlankethubServerContext()
 const { serverId } = serverContext
 const queryClient = useQueryClient()
 

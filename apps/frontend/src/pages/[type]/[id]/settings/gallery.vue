@@ -34,7 +34,7 @@
 								? previewImage
 								: project.gallery[editIndex] && project.gallery[editIndex].url
 									? project.gallery[editIndex].url
-									: 'https://cdn.blankethub.loxalhost/placeholder-banner.svg'
+									: 'https://cdn.blankethub.localhost/placeholder-banner.svg'
 						"
 						alt="gallery-preview"
 					/>
@@ -139,7 +139,7 @@
 					:src="
 						expandedGalleryItem.raw_url
 							? expandedGalleryItem.raw_url
-							: 'https://cdn.blankethub.loxalhost/placeholder-banner.svg'
+							: 'https://cdn.blankethub.localhost/placeholder-banner.svg'
 					"
 					:alt="expandedGalleryItem.title ? expandedGalleryItem.title : 'gallery-image'"
 					@click.stop
@@ -165,7 +165,7 @@
 								:href="
 									expandedGalleryItem.raw_url
 										? expandedGalleryItem.raw_url
-										: 'https://cdn.blankethub.loxalhost/placeholder-banner.svg'
+										: 'https://cdn.blankethub.localhost/placeholder-banner.svg'
 								"
 							>
 								<ExternalIcon aria-hidden="true" />
@@ -218,7 +218,7 @@
 			<div v-for="(item, index) in project.gallery" :key="index" class="card gallery-item">
 				<a class="gallery-thumbnail" @click="expandImage(item, index)">
 					<img
-						:src="item.url ? item.url : 'https://cdn.blankethub.loxalhost/placeholder-banner.svg'"
+						:src="item.url ? item.url : 'https://cdn.blankethub.localhost/placeholder-banner.svg'"
 						:alt="item.title ? item.title : 'gallery-image'"
 					/>
 				</a>
@@ -313,7 +313,7 @@ const {
 } = injectProjectPageContext()
 
 const title = `${project.value.title} - Gallery`
-const description = `View ${project.value.gallery?.length ?? 0} images of ${project.value.title} on Modrinth.`
+const description = `View ${project.value.gallery?.length ?? 0} images of ${project.value.title} on Blankethub.`
 
 useSeoMeta({
 	title,

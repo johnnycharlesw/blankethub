@@ -9,7 +9,7 @@ body:
       options:
         - label: I checked the [existing issues](https://github.com/johnnycharlesw/blankethub/issues?q=is%3Aissue) for duplicate problems
           required: true
-        - label: I have tried resolving the issue using the [support portal](https://support.blankethub.loxalhost)
+        - label: I have tried resolving the issue using the [support portal](https://support.blankethub.localhost)
           required: true
   - type: textarea
     attributes:

@@ -38,7 +38,7 @@
 import { RightArrowIcon } from '@modrinth/assets'
 import type { RouteLocationNormalized } from 'vue-router'
 
-import type { ModrinthServer } from '~/composables/servers/modrinth-servers.ts'
+import type { BlankethubServer } from '~/composables/servers/modrinth-servers.ts'
 import type { BackupInProgressReason } from '~/pages/hosting/manage/[id].vue'
 
 const emit = defineEmits(['reinstall'])
@@ -52,7 +52,7 @@ defineProps<{
 		shown?: boolean
 	}[]
 	route: RouteLocationNormalized
-	server: ModrinthServer
+	server: BlankethubServer
 	backupInProgress?: BackupInProgressReason
 }>()
 

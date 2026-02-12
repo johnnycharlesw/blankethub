@@ -48,7 +48,7 @@ export const WithTitleSuffix: Story = {
 				<template #title-suffix>
 					<span class="px-2 py-1 bg-brand-highlight text-brand rounded-full text-sm">Featured</span>
 				</template>
-				<template #summary>This project has been featured by the Modrinth team.</template>
+				<template #summary>This project has been featured by the Blankethub team.</template>
 				<template #actions>
 					<ButtonStyled color="brand">
 						<button>Download</button>

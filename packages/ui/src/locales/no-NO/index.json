@@ -393,7 +393,7 @@
     "defaultMessage": "Moderator"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Modrinth Team"
+    "defaultMessage": "Blankethub Team"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Venter"
@@ -663,7 +663,7 @@
     "defaultMessage": "Prosjektet ditt har flere miljøer"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Vi har nettopp oppdatert miljøsystemet på Modrinth, og nye valg er nå tilgjengelige. Pass på at riktig alternativ er valgt nedenfor, og klikk deretter «Verifiser» når du er ferdig."
+    "defaultMessage": "Vi har nettopp oppdatert miljøsystemet på Blankethub, og nye valg er nå tilgjengelige. Pass på at riktig alternativ er valgt nedenfor, og klikk deretter «Verifiser» når du er ferdig."
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "Gå gjennom valgene nedenfor"
@@ -954,7 +954,7 @@
     "defaultMessage": "Hvor vil du at serveren din skal være plassert?"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "Region ikke oppført? <link>Gi oss beskjed om hvor du ønsker å se Modrinth Hosting neste gang!</link>"
+    "defaultMessage": "Region ikke oppført? <link>Gi oss beskjed om hvor du ønsker å se Blankethub Hosting neste gang!</link>"
   },
   "servers.region.southeast-asia": {
     "defaultMessage": "Sørøst-Asia"
@@ -981,7 +981,7 @@
     "defaultMessage": "Mørk"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Velg ditt foretrukne fargetema for Modrinth på denne enheten."
+    "defaultMessage": "Velg ditt foretrukne fargetema for Blankethub på denne enheten."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Lys"

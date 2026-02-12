@@ -336,12 +336,12 @@ pub async fn send_slack_project_webhook(
                 "elements": [
                     {
                         "type": "image",
-                        "image_url": "https://cdn-raw.blankethub.loxalhost/modrinth-new.png",
+                        "image_url": "https://cdn-raw.blankethub.localhost/modrinth-new.png",
                         "alt_text": "Author"
                     },
                     {
                         "type": "mrkdwn",
-                        "text": format!("{} on Modrinth • <!date^{}^{{date_short_pretty}} at {{time}}|Unknown date>", metadata.display_project_type, Utc::now().timestamp())
+                        "text": format!("{} on Blankethub • <!date^{}^{{date_short_pretty}} at {{time}}|Unknown date>", metadata.display_project_type, Utc::now().timestamp())
                     }
                 ]
             })
@@ -472,9 +472,9 @@ pub async fn send_discord_webhook(
                 .gallery_image
                 .map(|x| DiscordEmbedImage { url: Some(x) }),
             footer: Some(DiscordEmbedFooter {
-                text: format!("{} on Modrinth", project.display_project_type),
+                text: format!("{} on Blankethub", project.display_project_type),
                 icon_url: Some(
-                    "https://cdn-raw.blankethub.loxalhost/modrinth-new.png".to_string(),
+                    "https://cdn-raw.blankethub.localhost/modrinth-new.png".to_string(),
                 ),
             }),
         };
@@ -485,10 +485,10 @@ pub async fn send_discord_webhook(
             .post(&webhook_url)
             .json(&DiscordWebhook {
                 avatar_url: Some(
-                    "https://cdn.blankethub.loxalhost/Modrinth_Dark_Logo.png"
+                    "https://cdn.blankethub.localhost/Blankethub_Dark_Logo.png"
                         .to_string(),
                 ),
-                username: Some("Modrinth Release".to_string()),
+                username: Some("Blankethub Release".to_string()),
                 embeds: vec![embed],
                 content: message,
             })

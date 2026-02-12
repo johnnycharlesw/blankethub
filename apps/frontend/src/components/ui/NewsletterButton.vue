@@ -49,7 +49,7 @@ async function subscribe() {
 		color="brand"
 		type="outlined"
 	>
-		<button v-tooltip="`Subscribe to the Modrinth newsletter`" @click="subscribe">
+		<button v-tooltip="`Subscribe to the Blankethub newsletter`" @click="subscribe">
 			<template v-if="!showSubscriptionConfirmation"> <MailIcon /> Subscribe </template>
 			<template v-else> <CheckIcon /> Subscribed! </template>
 		</button>

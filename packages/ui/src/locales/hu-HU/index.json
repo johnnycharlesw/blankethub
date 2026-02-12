@@ -492,7 +492,7 @@
     "defaultMessage": "Moderátor"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Modrinth Csapat"
+    "defaultMessage": "Blankethub Csapat"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Függőben"
@@ -1137,7 +1137,7 @@
     "defaultMessage": "Sötét"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Válassza ki a Modrinth számára a kívánt színsémát ezen az eszközön."
+    "defaultMessage": "Válassza ki a Blankethub számára a kívánt színsémát ezen az eszközön."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Világos"

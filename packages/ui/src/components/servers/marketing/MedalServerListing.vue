@@ -14,7 +14,7 @@
 			>
 				<Avatar
 					v-if="status !== 'suspended'"
-					src="https://cdn-raw.blankethub.loxalhost/medal_icon.webp"
+					src="https://cdn-raw.blankethub.localhost/medal_icon.webp"
 					size="64px"
 					class="z-10"
 				/>
@@ -109,7 +109,7 @@
 		>
 			<div class="flex flex-row gap-2">
 				<TriangleAlertIcon class="!size-5" /> Your server has been suspended:
-				{{ suspension_reason }}. Please update your billing information or contact Modrinth Support
+				{{ suspension_reason }}. Please update your billing information or contact Blankethub Support
 				for more information.
 			</div>
 			<CopyCode :text="`${props.server_id}`" class="ml-auto" />
@@ -120,7 +120,7 @@
 		>
 			<div class="flex flex-row gap-2">
 				<TriangleAlertIcon class="!size-5" /> Your server has been suspended. Please update your
-				billing information or contact Modrinth Support for more information.
+				billing information or contact Blankethub Support for more information.
 			</div>
 			<CopyCode :text="`${props.server_id}`" class="ml-auto" />
 		</div>
@@ -129,7 +129,7 @@
 
 <script setup lang="ts">
 import type { Archon } from '@modrinth/api-client'
-import { NuxtModrinthClient } from '@modrinth/api-client'
+import { NuxtBlankethubClient } from '@modrinth/api-client'
 import {
     ChevronRightIcon,
     LoaderCircleIcon,
@@ -143,7 +143,7 @@ import dayjs from 'dayjs'
 import dayjsDuration from 'dayjs/plugin/duration'
 import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
 
-import { injectModrinthClient } from '../../../providers/api-client'
+import { injectBlankethubClient } from '../../../providers/api-client'
 import AutoLink from '../../base/AutoLink.vue'
 import Avatar from '../../base/Avatar.vue'
 import ButtonStyled from '../../base/ButtonStyled.vue'
@@ -172,9 +172,9 @@ const props = defineProps<MedalServerListingProps>()
 
 const emit = defineEmits<{ (e: 'upgrade'): void }>()
 
-const client = injectModrinthClient()
+const client = injectBlankethubClient()
 
-const isNuxt = computed(() => client instanceof NuxtModrinthClient)
+const isNuxt = computed(() => client instanceof NuxtBlankethubClient)
 
 const showGameLabel = computed(() => !!props.game)
 const showLoaderLabel = computed(() => !!props.loader)

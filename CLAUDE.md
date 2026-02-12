@@ -8,9 +8,9 @@ There are two similar frontends in the Blankethub monorepo, the website (apps/fr
 
 Both use Tailwind v3, and their respective configs can be seen at `tailwind.config.ts` and `tailwind.config.js` respectively.
 
-Both utilize shared and common components from `@modrinth/ui` which can be found at `packages/ui`, and stylings from `@modrinth/assets` which can be found at `packages/assets`.
+Both utilize shared and common components from `@blankethub/ui` which can be found at `packages/ui`, and stylings from `@blankethub/assets` which can be found at `packages/assets`.
 
-Both can utilize icons from `@modrinth/assets`, which are automatically generated based on what's available within the `icons` folder of the `packages/assets` directory. You can see the generated icons list in `generated-icons.ts`.
+Both can utilize icons from `@blankethub/assets`, which are automatically generated based on what's available within the `icons` folder of the `packages/assets` directory. You can see the generated icons list in `generated-icons.ts`.
 
 Both have access to our dependency injection framework, examples as seen in `packages/ui/src/providers/`. Ideally any state which is shared between a page and it's subpages should be shared using this dependency injection framework.
 

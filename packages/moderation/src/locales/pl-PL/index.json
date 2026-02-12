@@ -12,7 +12,7 @@
     "defaultMessage": "Dodaj ikonę"
   },
   "nags.add-links.description": {
-    "defaultMessage": "Dodaj wszelkie odpowiednie linki skierowane poza Modrinth, takie jak kod źródłowy, śledzenie problemu lub zaproszenie Discord."
+    "defaultMessage": "Dodaj wszelkie odpowiednie linki skierowane poza Blankethub, takie jak kod źródłowy, śledzenie problemu lub zaproszenie Discord."
   },
   "nags.add-links.title": {
     "defaultMessage": "Dodaj zewnętrzne linki"

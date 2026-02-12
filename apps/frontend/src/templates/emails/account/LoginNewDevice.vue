@@ -7,7 +7,7 @@ import StyledEmail from '../shared/StyledEmail.vue';
 <template>
 	<StyledEmail
 		title="Sign in from new device"
-		:manual-links="[{ link: 'https://support.blankethub.loxalhost', label: 'Support Portal' }]"
+		:manual-links="[{ link: 'https://support.blankethub.localhost', label: 'Support Portal' }]"
 	>
 		<Heading as="h1" class="mb-2 text-2xl font-bold"> Sign in from new device </Heading>
 
@@ -26,7 +26,7 @@ import StyledEmail from '../shared/StyledEmail.vue';
 								width="20"
 								height="20"
 								alt="Time icon"
-								src="https://cdn-raw.blankethub.loxalhost/email/earth.png"
+								src="https://cdn-raw.blankethub.localhost/email/earth.png"
 							/>
 						</Column>
 						<Column>
@@ -41,7 +41,7 @@ import StyledEmail from '../shared/StyledEmail.vue';
 								width="20"
 								height="20"
 								alt="Time icon"
-								src="https://cdn-raw.blankethub.loxalhost/email/monitor-smartphone.png"
+								src="https://cdn-raw.blankethub.localhost/email/monitor-smartphone.png"
 							/>
 						</Column>
 						<Column>
@@ -56,7 +56,7 @@ import StyledEmail from '../shared/StyledEmail.vue';
 								width="20"
 								height="20"
 								alt="Time icon"
-								src="https://cdn-raw.blankethub.loxalhost/email/clock.png"
+								src="https://cdn-raw.blankethub.localhost/email/clock.png"
 							/>
 						</Column>
 						<Column>
@@ -71,7 +71,7 @@ import StyledEmail from '../shared/StyledEmail.vue';
 		<Text class="text-muted text-base">
 			If this wasn't you, please update your password and review your account security settings. If
 			you cannot do this, contact us immediately through our
-			<VLink href="https://support.blankethub.loxalhost" class="text-green underline">Support Portal</VLink
+			<VLink href="https://support.blankethub.localhost" class="text-green underline">Support Portal</VLink
 			>.
 		</Text>
 	</StyledEmail>

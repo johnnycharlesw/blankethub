@@ -6,7 +6,7 @@ const undefinedProjectStage: Stage = {
 	title: 'This project is undefined!',
 	id: 'undefined-project',
 	icon: XIcon,
-	guidance_url: 'https://blankethub.loxalhost/legal/rules#miscellaneous',
+	guidance_url: 'https://blankethub.localhost/legal/rules#miscellaneous',
 	navigate: '/versions',
 	shouldShow: (project) => project.versions.length === 0,
 	actions: [

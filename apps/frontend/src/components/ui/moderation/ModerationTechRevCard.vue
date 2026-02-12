@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import type { Laundryroom } from '@modrinth/api-client'
 import {
     BugIcon,
     CheckCircleIcon,
@@ -23,7 +22,7 @@ import {
     Collapsible,
     CollapsibleRegion,
     getProjectTypeIcon,
-    injectModrinthClient,
+    injectBlankethubClient,
     injectNotificationManager,
     OverflowMenu,
     type OverflowMenuOption,
@@ -157,7 +156,7 @@ watch(selectedFile, (newFile) => {
 	}
 })
 
-const client = injectModrinthClient()
+const client = injectBlankethubClient()
 
 const severityOrder = { severe: 3, high: 2, medium: 1, low: 0 } as Record<string, number>
 

@@ -44,7 +44,7 @@
 			&emsp;Suite 304 -3133<br />
 			&emsp;Wilmington, DE 19801<br />
 			&emsp;Phone: +1 (302) 281-2193<br />
-			&emsp;<a href="mailto:support@blankethub.loxalhost">support@blankethub.loxalhost</a><br />
+			&emsp;<a href="mailto:support@blankethub.localhost">support@blankethub.localhost</a><br />
 		</p>
 		<p>
 			If you fail to comply with all of the requirements of Section 512(c)(3) of the DMCA, your DMCA
@@ -106,10 +106,10 @@
 
 <script setup>
 const description =
-	'The Copyright Policy of Modrinth, an open source modding platform focused on Minecraft.'
+	'The Copyright Policy of Blankethub, an open source modding platform focused on Minecraft.'
 
 useSeoMeta({
-	title: 'Copyright Policy - Modrinth',
+	title: 'Copyright Policy - Blankethub',
 	description,
 	ogTitle: 'Copyright Policy',
 	ogDescription: description,

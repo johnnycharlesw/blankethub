@@ -209,18 +209,18 @@ async fn fetch(
     upload_files: &DashMap<String, UploadFile>,
     mirror_artifacts: &DashMap<String, MirrorArtifact>,
 ) -> Result<(), Error> {
-    let modrinth_manifest = fetch_json::<daedalus::modded::Manifest>(
+    let blankethub_manifest = fetch_json::<daedalus::modded::Manifest>(
         &format_url(&format!("{mod_loader}/v{format_version}/manifest.json",)),
         &semaphore,
     )
     .await
     .ok();
 
-    let fetch_versions = if let Some(modrinth_manifest) = modrinth_manifest {
+    let fetch_versions = if let Some(blankethub_manifest) = blankethub_manifest {
         let mut fetch_versions = Vec::new();
 
         for version in &forge_versions {
-            if !modrinth_manifest.game_versions.iter().any(|x| {
+            if !blankethub_manifest.game_versions.iter().any(|x| {
                 x.id == version.game_version
                     && x.loaders.iter().any(|x| x.id == version.loader_version)
             }) {
@@ -621,7 +621,7 @@ async fn fetch(
                             })?;
 
                         let path = format!(
-                            "com.modrinth.daedalus:{}-installer-extracts:{}:{}@{}",
+                            "com.blankethub.daedalus:{}-installer-extracts:{}:{}@{}",
                             mod_loader, version.raw, file_name, ext
                         );
 

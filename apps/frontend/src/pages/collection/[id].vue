@@ -406,7 +406,7 @@ import {
     commonProjectTypeSentenceMessages,
     defineMessage,
     defineMessages,
-    injectModrinthClient,
+    injectBlankethubClient,
     injectNotificationManager,
     normalizeChildren,
     useRelativeTime,
@@ -421,7 +421,7 @@ import NavTabs from '~/components/ui/NavTabs.vue'
 import { asEncodedJsonArray, fetchSegmented } from '~/utils/fetch-helpers.ts'
 
 const { handleError } = injectNotificationManager()
-const api = injectModrinthClient()
+const api = injectBlankethubClient()
 const { formatMessage } = useVIntl()
 const formatRelativeTime = useRelativeTime()
 const formatCompactNumber = useCompactNumber()
@@ -434,7 +434,7 @@ const cosmetics = useCosmetics()
 const messages = defineMessages({
 	collectionDescription: {
 		id: 'collection.description',
-		defaultMessage: '{description} - View the collection {name} by {username} on Modrinth',
+		defaultMessage: '{description} - View the collection {name} by {username} on Blankethub',
 	},
 	collectionTitle: {
 		id: 'collection.title',
@@ -535,7 +535,7 @@ try {
 	if (route.params.id === 'following') {
 		collection = ref({
 			id: 'following',
-			icon_url: 'https://cdn.blankethub.loxalhost/follow-collection.png',
+			icon_url: 'https://cdn.blankethub.localhost/follow-collection.png',
 			name: formatMessage(commonMessages.followedProjectsLabel),
 			description: formatMessage(messages.followingCollectionDescription),
 			status: 'private',
@@ -620,7 +620,7 @@ useSeoMeta({
 		}),
 	ogTitle: title,
 	ogDescription: collection.value.description,
-	ogImage: collection.value.icon_url ?? 'https://cdn.blankethub.loxalhost/placeholder.png',
+	ogImage: collection.value.icon_url ?? 'https://cdn.blankethub.localhost/placeholder.png',
 	robots: collection.value.status === 'listed' ? 'all' : 'noindex',
 })
 

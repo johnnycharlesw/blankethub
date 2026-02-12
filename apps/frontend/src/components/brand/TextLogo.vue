@@ -63,9 +63,9 @@ const api = computed(() => {
 	if (flags.value.demoMode) return 'prod'
 
 	const apiUrl = config.public.apiBaseUrl
-	if (apiUrl.startsWith('https://api.blankethub.loxalhost')) {
+	if (apiUrl.startsWith('https://api.blankethub.localhost')) {
 		return 'prod'
-	} else if (apiUrl.startsWith('https://staging-api.blankethub.loxalhost')) {
+	} else if (apiUrl.startsWith('https://staging-api.blankethub.localhost')) {
 		return 'staging'
 	} else if (apiUrl.startsWith('localhost') || apiUrl.startsWith('127.0.0.1')) {
 		return 'localhost'

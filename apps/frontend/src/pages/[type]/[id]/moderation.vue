@@ -12,18 +12,18 @@
 			</p>
 			<div v-else-if="isUnderReview(project)">
 				<p>
-					Modrinth's team of content moderators work hard to review all submitted projects.
+					Blankethub's team of content moderators work hard to review all submitted projects.
 					Typically, you can expect a new project to be reviewed within 24 to 48 hours. Please keep
 					in mind that larger projects, especially modpacks, may require more time to review.
 					Certain holidays or events may also lead to delays depending on moderator availability.
-					Modrinth's moderators will leave a message below if they have any questions or concerns
+					Blankethub's moderators will leave a message below if they have any questions or concerns
 					for you.
 				</p>
 				<p>
 					If your review has taken more than 48 hours, check our
 					<a
 						class="text-link"
-						href="https://support.blankethub.loxalhost/en/articles/8793355-modrinth-project-review-times"
+						href="https://support.blankethub.localhost/en/articles/8793355-modrinth-project-review-times"
 						target="_blank"
 					>
 						support article on review times
@@ -33,7 +33,7 @@
 			</div>
 			<template v-else-if="isRejected(project)">
 				<p>
-					Your project does not currently meet Modrinth's
+					Your project does not currently meet Blankethub's
 					<nuxt-link to="/legal/rules" class="text-link" target="_blank">content rules</nuxt-link>
 					and the moderators have requested you make changes before it can be approved. Read the
 					messages from the moderators below and address their comments before resubmitting.
@@ -74,11 +74,11 @@
 		<section id="messages" class="universal-card">
 			<h2>Messages</h2>
 			<p>
-				This is a private conversation thread with the Modrinth moderators. They may message you
+				This is a private conversation thread with the Blankethub moderators. They may message you
 				with issues concerning this project. This thread is only checked when you submit your
 				project for review. For additional inquiries, please go to the
-				<a class="text-link" href="https://support.blankethub.loxalhost" target="_blank">
-					Modrinth Help Center
+				<a class="text-link" href="https://support.blankethub.localhost" target="_blank">
+					Blankethub Help Center
 				</a>
 				and click the green bubble to contact support.
 			</p>

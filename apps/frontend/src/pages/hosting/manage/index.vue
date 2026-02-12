@@ -8,7 +8,7 @@ definePageMeta({
 })
 
 useHead({
-	title: 'Servers - Modrinth',
+	title: 'Servers - Blankethub',
 })
 
 const config = useRuntimeConfig()

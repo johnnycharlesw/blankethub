@@ -7,7 +7,7 @@ const categories: Stage = {
 	title: "Are the project's tags accurate?",
 	id: 'tags',
 	icon: TagsIcon,
-	guidance_url: 'https://blankethub.loxalhost/legal/rules#miscellaneous',
+	guidance_url: 'https://blankethub.localhost/legal/rules#miscellaneous',
 	navigate: '/settings/tags',
 	shouldShow: (project) =>
 		project.categories.length > 0 || project.additional_categories.length > 0,

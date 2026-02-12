@@ -17,7 +17,7 @@
 import type { Laundryroom } from '@modrinth/api-client'
 import {
     DropArea,
-    injectModrinthClient,
+    injectBlankethubClient,
     injectNotificationManager,
     injectProjectPageContext,
     MultiStageModal,
@@ -44,7 +44,7 @@ const { newDraftVersion, editingVersion, handleNewFiles } = ctx
 
 const { projectV2 } = injectProjectPageContext()
 const { addNotification } = injectNotificationManager()
-const { labrinth } = injectModrinthClient()
+const { labrinth } = injectBlankethubClient()
 
 async function openEditVersionModal(versionId: string, projectId: string, stageId?: string | null) {
 	try {

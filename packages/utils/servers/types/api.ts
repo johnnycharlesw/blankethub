@@ -1,4 +1,4 @@
-import type { ModrinthServerError } from '../errors'
+import type { BlankethubServerError } from '../errors'
 
 export interface V1ErrorInfo {
 	context?: string
@@ -12,7 +12,7 @@ export interface JWTAuth {
 }
 
 export interface ModuleError {
-	error: ModrinthServerError
+	error: BlankethubServerError
 	timestamp: number
 }
 

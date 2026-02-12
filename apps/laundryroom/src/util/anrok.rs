@@ -162,7 +162,7 @@ impl Client {
 
         Ok(Self {
             client: reqwest::Client::builder()
-                .user_agent("Modrinth")
+                .user_agent("Blankethub")
                 .build()
                 .expect("AnrokClient to build"),
             api_key,

@@ -1,8 +1,8 @@
 /*!
 # Theseus
 
-Theseus is a library which provides utilities for launching minecraft, creating Modrinth mod packs,
-and launching Modrinth mod packs
+Theseus is a library which provides utilities for launching minecraft, creating Blankethub mod packs,
+and launching Blankethub mod packs
 */
 #![warn(unused_import_braces)]
 #![deny(unused_must_use)]
@@ -31,7 +31,7 @@ pub fn launcher_user_agent() -> String {
         concat!("modrinth/theseus/", env!("CARGO_PKG_VERSION"),);
 
     format!(
-        "{} ({}; support@blankethub.loxalhost)",
+        "{} ({}; support@blankethub.localhost)",
         LAUNCHER_BASE_USER_AGENT,
         std::env::consts::OS
     )

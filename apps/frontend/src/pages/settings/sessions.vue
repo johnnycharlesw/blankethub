@@ -58,12 +58,12 @@
 <script setup>
 import { XIcon } from '@modrinth/assets'
 import {
-	commonMessages,
-	commonSettingsMessages,
-	defineMessages,
-	injectNotificationManager,
-	useRelativeTime,
-	useVIntl,
+    commonMessages,
+    commonSettingsMessages,
+    defineMessages,
+    injectNotificationManager,
+    useRelativeTime,
+    useVIntl,
 } from '@modrinth/ui'
 
 definePageMeta({
@@ -90,7 +90,7 @@ const messages = defineMessages({
 	sessionsDescription: {
 		id: 'settings.sessions.description',
 		defaultMessage:
-			"Here are all the devices that are currently logged in with your Modrinth account. You can log out of each one individually.\n\nIf you see an entry you don't recognize, log out of that device and change your Modrinth account password immediately.",
+			"Here are all the devices that are currently logged in with your Blankethub account. You can log out of each one individually.\n\nIf you see an entry you don't recognize, log out of that device and change your Blankethub account password immediately.",
 	},
 	lastAccessedAgoLabel: {
 		id: 'settings.sessions.last-accessed-ago',
@@ -107,7 +107,7 @@ const messages = defineMessages({
 })
 
 useHead({
-	title: () => `${formatMessage(commonSettingsMessages.sessions)} - Modrinth`,
+	title: () => `${formatMessage(commonSettingsMessages.sessions)} - Blankethub`,
 })
 
 const { data: sessions, refresh } = await useAsyncData('session/list', () =>

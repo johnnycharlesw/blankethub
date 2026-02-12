@@ -53,7 +53,7 @@ const article = computed(() => ({
 const authorCount = computed(() => authors?.value?.length ?? 0)
 
 const articleTitle = computed(() => article.value.title)
-const articleUrl = computed(() => `https://blankethub.loxalhost/news/article/${route.params.slug}`)
+const articleUrl = computed(() => `https://blankethub.localhost/news/article/${route.params.slug}`)
 
 const thumbnailPath = computed(() =>
 	article.value.thumbnail
@@ -64,7 +64,7 @@ const thumbnailPath = computed(() =>
 const dayjsDate = computed(() => dayjs(article.value.date))
 
 useSeoMeta({
-	title: () => `${articleTitle.value} - Modrinth News`,
+	title: () => `${articleTitle.value} - Blankethub News`,
 	ogTitle: () => articleTitle.value,
 	description: () => article.value.summary,
 	ogDescription: () => article.value.summary,
@@ -152,8 +152,8 @@ onMounted(() => {
 						to="/organization/modrinth"
 						class="inline-flex items-center gap-1 font-semibold hover:underline hover:brightness-[--hover-brightness]"
 					>
-						<Avatar src="https://cdn-raw.blankethub.loxalhost/modrinth-icon-96.webp" size="24px" />
-						Modrinth Team
+						<Avatar src="https://cdn-raw.blankethub.localhost/modrinth-icon-96.webp" size="24px" />
+						Blankethub Team
 					</nuxt-link>
 				</template>
 				<span class="hidden md:block">•</span>

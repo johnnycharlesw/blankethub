@@ -167,7 +167,7 @@
 		<p>
 			<IntlFormatted :message-id="messages.descriptionIntro">
 				<template #docs-link="{ children }">
-					<a class="text-link" href="https://docs.blankethub.loxalhost">
+					<a class="text-link" href="https://docs.blankethub.localhost">
 						<component :is="() => normalizeChildren(children)" />
 					</a>
 				</template>
@@ -278,7 +278,7 @@ definePageMeta({
 })
 
 useHead({
-	title: 'Applications - Modrinth',
+	title: 'Applications - Blankethub',
 })
 
 const messages = defineMessages({
@@ -370,7 +370,7 @@ const messages = defineMessages({
 	descriptionIntro: {
 		id: 'settings.applications.description.intro',
 		defaultMessage:
-			"Applications can be used to authenticate Modrinth's users with your products. For more information, see <docs-link>Modrinth's API documentation</docs-link>.",
+			"Applications can be used to authenticate Blankethub's users with your products. For more information, see <docs-link>Blankethub's API documentation</docs-link>.",
 	},
 	aboutLabel: {
 		id: 'settings.applications.about',

@@ -67,7 +67,7 @@
 		>
 			<div class="flex flex-row gap-2">
 				<TriangleAlertIcon class="!size-5" /> Your server has been cancelled. Please update your
-				billing information or contact Modrinth Support for more information.
+				billing information or contact Blankethub Support for more information.
 			</div>
 			<CopyCode :text="`${props.server_id}`" class="ml-auto" />
 		</div>
@@ -77,7 +77,7 @@
 		>
 			<div class="flex flex-row gap-2">
 				<TriangleAlertIcon class="!size-5" /> Your server has been suspended:
-				{{ suspension_reason }}. Please update your billing information or contact Modrinth Support
+				{{ suspension_reason }}. Please update your billing information or contact Blankethub Support
 				for more information.
 			</div>
 			<CopyCode :text="`${props.server_id}`" class="ml-auto" />
@@ -88,7 +88,7 @@
 		>
 			<div class="flex flex-row gap-2">
 				<TriangleAlertIcon class="!size-5" /> Your server has been suspended. Please update your
-				billing information or contact Modrinth Support for more information.
+				billing information or contact Blankethub Support for more information.
 			</div>
 			<CopyCode :text="`${props.server_id}`" class="ml-auto" />
 		</div>
@@ -106,7 +106,7 @@
 				:ram="Math.round((pendingChange.ramGb ?? 0) * 1024)"
 				:storage="Math.round((pendingChange.storageGb ?? 0) * 1024)"
 				:cpus="pendingChange.cpuBurst"
-				bursting-link="https://docs.blankethub.loxalhost/servers/bursting"
+				bursting-link="https://docs.blankethub.localhost/servers/bursting"
 			/>
 		</div>
 	</div>
@@ -125,7 +125,7 @@ import { useQuery } from '@tanstack/vue-query'
 import dayjs from 'dayjs'
 import { computed } from 'vue'
 
-import { injectModrinthClient } from '../../providers/api-client'
+import { injectBlankethubClient } from '../../providers/api-client'
 import Avatar from '../base/Avatar.vue'
 import CopyCode from '../base/CopyCode.vue'
 import ServersSpecs from '../billing/ServersSpecs.vue'
@@ -161,7 +161,7 @@ type ServerListingProps = {
 
 const props = defineProps<ServerListingProps>()
 
-const { archon, kyros, labrinth } = injectModrinthClient()
+const { archon, kyros, labrinth } = injectBlankethubClient()
 
 const showGameLabel = computed(() => !!props.game)
 const showLoaderLabel = computed(() => !!props.loader)

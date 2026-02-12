@@ -462,7 +462,7 @@
     "defaultMessage": "Moderator"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Echipa Modrinth"
+    "defaultMessage": "Echipa Blankethub"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "În așteptare"
@@ -1011,7 +1011,7 @@
     "defaultMessage": "Întunecat"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Selectați tema de culoare preferată pentru Modrinth pe acest dispozitiv."
+    "defaultMessage": "Selectați tema de culoare preferată pentru Blankethub pe acest dispozitiv."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Luminos"

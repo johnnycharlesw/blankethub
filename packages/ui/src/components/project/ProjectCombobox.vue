@@ -17,7 +17,7 @@
 import { useDebounceFn } from '@vueuse/core'
 import { defineAsyncComponent, h, ref, watch } from 'vue'
 
-import { injectModrinthClient, injectNotificationManager } from '../../providers'
+import { injectBlankethubClient, injectNotificationManager } from '../../providers'
 import type { ComboboxOption } from '../base/Combobox.vue'
 import Combobox from '../base/Combobox.vue'
 
@@ -73,7 +73,7 @@ const options = ref<ComboboxOption<string>[]>([])
 const selectedProject = ref<SearchHit | null>(null)
 const searchResultsCache = ref<Map<string, SearchHit>>(new Map())
 
-const { labrinth } = injectModrinthClient()
+const { labrinth } = injectBlankethubClient()
 
 // Watch for external changes to projectId to update selectedProject
 watch(

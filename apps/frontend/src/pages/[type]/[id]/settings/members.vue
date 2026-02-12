@@ -17,7 +17,7 @@
 			<span class="label">
 				<span class="label__title">Invite a member</span>
 				<span class="label__description">
-					Enter the Modrinth username of the person you'd like to invite to be a member of this
+					Enter the Blankethub username of the person you'd like to invite to be a member of this
 					project.
 				</span>
 			</span>
@@ -529,26 +529,26 @@
 
 <script setup>
 import {
-	CheckIcon,
-	CrownIcon,
-	DropdownIcon,
-	OrganizationIcon,
-	SaveIcon,
-	TransferIcon,
-	UserPlusIcon,
-	UsersIcon,
-	UserXIcon,
+    CheckIcon,
+    CrownIcon,
+    DropdownIcon,
+    OrganizationIcon,
+    SaveIcon,
+    TransferIcon,
+    UserPlusIcon,
+    UsersIcon,
+    UserXIcon,
 } from '@modrinth/assets'
 import {
-	Avatar,
-	Badge,
-	Card,
-	Checkbox,
-	ConfirmModal,
-	injectNotificationManager,
-	injectProjectPageContext,
-	StyledInput,
-	Toggle,
+    Avatar,
+    Badge,
+    Card,
+    Checkbox,
+    ConfirmModal,
+    injectNotificationManager,
+    injectProjectPageContext,
+    StyledInput,
+    Toggle,
 } from '@modrinth/ui'
 import { Multiselect } from 'vue-multiselect'
 

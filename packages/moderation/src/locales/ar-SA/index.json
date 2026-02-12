@@ -12,7 +12,7 @@
     "defaultMessage": "أضف أيقونة"
   },
   "nags.add-links.description": {
-    "defaultMessage": "أضف أي روابط ذات صلة تستهدف خارج Modrinth، مثل كود المصدر، أو متعقب المشكلات، أو دعوة Discord."
+    "defaultMessage": "أضف أي روابط ذات صلة تستهدف خارج Blankethub، مثل كود المصدر، أو متعقب المشكلات، أو دعوة Discord."
   },
   "nags.add-links.title": {
     "defaultMessage": "إضافة روابط خارجية"

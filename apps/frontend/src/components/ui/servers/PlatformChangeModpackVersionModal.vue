@@ -64,15 +64,15 @@
 
 <script setup lang="ts">
 import { DownloadIcon, XIcon } from '@modrinth/assets'
-import { ButtonStyled, Combobox, injectNotificationManager, NewModal, Toggle } from '@modrinth/ui'
-import { ModrinthServersFetchError } from '@modrinth/utils'
+import { ButtonStyled, Combobox, NewModal, Toggle, injectNotificationManager } from '@modrinth/ui'
+import { BlankethubServersFetchError } from '@modrinth/utils'
 
-import type { ModrinthServer } from '~/composables/servers/modrinth-servers.ts'
+import type { BlankethubServer } from '~/composables/servers/modrinth-servers.ts'
 
 const { addNotification } = injectNotificationManager()
 
 const props = defineProps<{
-	server: ModrinthServer
+	server: BlankethubServer
 	project: any
 	versions: any[]
 	currentVersion?: any
@@ -109,7 +109,7 @@ const handleReinstall = async () => {
 		emit('reinstall')
 		hide()
 	} catch (error) {
-		if (error instanceof ModrinthServersFetchError && error.statusCode === 429) {
+		if (error instanceof BlankethubServersFetchError && error.statusCode === 429) {
 			addNotification({
 				title: 'Cannot reinstall server',
 				text: 'You are being rate limited. Please try again later.',

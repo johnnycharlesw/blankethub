@@ -5,7 +5,7 @@
 				<div class="card flex flex-col gap-4">
 					<label for="server-name-field" class="flex flex-col gap-2">
 						<span class="text-lg font-bold text-contrast">Server name</span>
-						<span> This name is only visible on Modrinth.</span>
+						<span> This name is only visible on Blankethub.</span>
 					</label>
 					<div class="flex flex-col gap-2">
 						<StyledInput
@@ -63,7 +63,7 @@
 				<div v-if="!data.is_medal" class="card flex flex-col gap-4">
 					<label for="server-icon-field" class="flex flex-col gap-2">
 						<span class="text-lg font-bold text-contrast">Server icon</span>
-						<span> This icon will be visible on the Minecraft server list and on Modrinth. </span>
+						<span> This icon will be visible on the Minecraft server list and on Blankethub. </span>
 					</label>
 					<div class="flex gap-4">
 						<div
@@ -116,21 +116,21 @@
 <script setup lang="ts">
 import { EditIcon, TransferIcon } from '@modrinth/assets'
 import {
-	injectModrinthClient,
-	injectNotificationManager,
-	ServerIcon,
-	StyledInput,
+    ServerIcon,
+    StyledInput,
+    injectBlankethubClient,
+    injectNotificationManager,
 } from '@modrinth/ui'
 import ButtonStyled from '@modrinth/ui/src/components/base/ButtonStyled.vue'
 
 import SaveBanner from '~/components/ui/servers/SaveBanner.vue'
-import type { ModrinthServer } from '~/composables/servers/modrinth-servers.ts'
+import type { BlankethubServer } from '~/composables/servers/modrinth-servers.ts'
 
 const { addNotification } = injectNotificationManager()
-const client = injectModrinthClient()
+const client = injectBlankethubClient()
 
 const props = defineProps<{
-	server: ModrinthServer
+	server: BlankethubServer
 }>()
 
 const data = computed(() => props.server.general)

@@ -1,14 +1,14 @@
 <script setup lang="ts">
 import { BlueskyIcon, DiscordIcon, GithubIcon, MastodonIcon, TwitterIcon } from '@modrinth/assets'
 import {
-    AutoLink,
-    ButtonStyled,
-    IntlFormatted,
-    defineMessage,
-    defineMessages,
-    injectNotificationManager,
-    useVIntl,
-    type MessageDescriptor,
+	AutoLink,
+	ButtonStyled,
+	IntlFormatted,
+	defineMessage,
+	defineMessages,
+	injectNotificationManager,
+	useVIntl,
+	type MessageDescriptor,
 } from '@modrinth/ui'
 
 import TextLogo from '~/components/brand/TextLogo.vue'
@@ -21,11 +21,11 @@ const config = useRuntimeConfig()
 const messages = defineMessages({
 	modrinthInformation: {
 		id: 'layout.footer.modrinth-information',
-		defaultMessage: 'Modrinth information',
+		defaultMessage: 'Blankethub information',
 	},
 	openSource: {
 		id: 'layout.footer.open-source',
-		defaultMessage: 'Modrinth is <github-link>open source</github-link>.',
+		defaultMessage: 'Blankethub is <github-link>open source</github-link>.',
 	},
 	legalDisclaimer: {
 		id: 'layout.footer.legal-disclaimer',
@@ -42,12 +42,12 @@ const socialLinks: {
 }[] = [
 	{
 		label: defineMessage({ id: 'layout.footer.social.discord', defaultMessage: 'Discord' }),
-		href: 'https://discord.blankethub.loxalhost',
+		href: 'https://discord.blankethub.localhost',
 		icon: DiscordIcon,
 	},
 	{
 		label: defineMessage({ id: 'layout.footer.social.bluesky', defaultMessage: 'Bluesky' }),
-		href: 'https://bsky.app/profile/blankethub.loxalhost',
+		href: 'https://bsky.app/profile/blankethub.localhost',
 		icon: BlueskyIcon,
 	},
 	{
@@ -87,11 +87,11 @@ const footerLinks: {
 				label: defineMessage({ id: 'layout.footer.about.changelog', defaultMessage: 'Changelog' }),
 			},
 			{
-				href: 'https://status.blankethub.loxalhost',
+				href: 'https://status.blankethub.localhost',
 				label: defineMessage({ id: 'layout.footer.about.status', defaultMessage: 'Status' }),
 			},
 			{
-				href: 'https://careers.blankethub.loxalhost',
+				href: 'https://careers.blankethub.localhost',
 				label: defineMessage({ id: 'layout.footer.about.careers', defaultMessage: 'Careers' }),
 			},
 			{
@@ -108,17 +108,17 @@ const footerLinks: {
 		links: [
 			{
 				href: '/plus',
-				label: defineMessage({ id: 'layout.footer.products.plus', defaultMessage: 'Modrinth+' }),
+				label: defineMessage({ id: 'layout.footer.products.plus', defaultMessage: 'Blankethub+' }),
 			},
 			{
 				href: '/app',
-				label: defineMessage({ id: 'layout.footer.products.app', defaultMessage: 'Modrinth App' }),
+				label: defineMessage({ id: 'layout.footer.products.app', defaultMessage: 'Blankethub App' }),
 			},
 			{
 				href: '/hosting',
 				label: defineMessage({
 					id: 'layout.footer.products.servers',
-					defaultMessage: 'Modrinth Hosting',
+					defaultMessage: 'Blankethub Hosting',
 				}),
 			},
 		],
@@ -127,14 +127,14 @@ const footerLinks: {
 		label: defineMessage({ id: 'layout.footer.resources', defaultMessage: 'Resources' }),
 		links: [
 			{
-				href: 'https://support.blankethub.loxalhost',
+				href: 'https://support.blankethub.localhost',
 				label: defineMessage({
 					id: 'layout.footer.resources.help-center',
 					defaultMessage: 'Help Center',
 				}),
 			},
 			{
-				href: 'https://translate.blankethub.loxalhost',
+				href: 'https://translate.blankethub.localhost',
 				label: defineMessage({
 					id: 'layout.footer.resources.translate',
 					defaultMessage: 'Translate',
@@ -148,7 +148,7 @@ const footerLinks: {
 				}),
 			},
 			{
-				href: 'https://docs.blankethub.loxalhost/api/',
+				href: 'https://docs.blankethub.localhost/api/',
 				label: defineMessage({
 					id: 'layout.footer.resources.api-docs',
 					defaultMessage: 'API documentation',
@@ -273,7 +273,7 @@ function developerModeIncrement() {
 								</template>
 							</IntlFormatted>
 						</p>
-						<p class="m-0">© {{ state.buildYear ?? '2025' }} Rinth, Inc.</p>
+						<p class="m-0">© {{ state.buildYear ?? '2025' }} John Charles Woods</p>
 					</div>
 				</div>
 				<div class="mt-4 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:contents">

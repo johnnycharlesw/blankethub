@@ -75,12 +75,12 @@
 import { ListFilterIcon, SearchIcon, SortAscIcon, SortDescIcon } from '@modrinth/assets'
 import type { ExtendedReport } from '@modrinth/moderation'
 import {
-	Combobox,
-	type ComboboxOption,
-	commonMessages,
-	Pagination,
-	StyledInput,
-	useVIntl,
+    Combobox,
+    Pagination,
+    StyledInput,
+    commonMessages,
+    useVIntl,
+    type ComboboxOption,
 } from '@modrinth/ui'
 import type { Report } from '@modrinth/utils'
 import Fuse from 'fuse.js'
@@ -88,7 +88,7 @@ import Fuse from 'fuse.js'
 import ReportCard from '~/components/ui/moderation/ModerationReportCard.vue'
 import { enrichReportBatch } from '~/helpers/moderation.ts'
 
-useHead({ title: 'Reports queue - Modrinth' })
+useHead({ title: 'Reports queue - Blankethub' })
 
 const { formatMessage } = useVIntl()
 const route = useRoute()

@@ -67,7 +67,7 @@ impl GotenbergClient {
     /// Initialize the client from environment variables.
     pub fn from_env(redis: RedisPool) -> eyre::Result<Self> {
         let client = reqwest::Client::builder()
-            .user_agent("Modrinth")
+            .user_agent("Blankethub")
             .build()
             .wrap_err("failed to build reqwest client")?;
 
@@ -140,12 +140,12 @@ impl GotenbergClient {
             .header(
                 "Gotenberg-Webhook-Extra-Http-Headers",
                 serde_json::json!({
-					"Modrinth-Payment-Id": statement.payment_id,
-					"Modrinth-Generated-Pdf-Type": GeneratedPdfType::PaymentStatement.as_str(),
+					"Blankethub-Payment-Id": statement.payment_id,
+					"Blankethub-Generated-Pdf-Type": GeneratedPdfType::PaymentStatement.as_str(),
 				}).to_string(),
             )
             .header(
-                "Modrinth-Payment-Id",
+                "Blankethub-Payment-Id",
                 statement.payment_id.to_string(),
             )
             .header(

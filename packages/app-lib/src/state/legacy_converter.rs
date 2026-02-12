@@ -6,7 +6,7 @@ use crate::state::{
     CacheValue, CachedEntry, CachedFile, CachedFileHash, CachedFileUpdate,
     Credentials, DefaultPage, DependencyType, DeviceToken, DeviceTokenKey,
     DeviceTokenPair, FileType, Hooks, LauncherFeatureVersion, LinkedData,
-    MemorySettings, ModrinthCredentials, Profile, ProfileInstallStage,
+    MemorySettings, BlankethubCredentials, Profile, ProfileInstallStage,
     TeamMember, Theme, VersionFile, WindowSize,
 };
 use crate::util::fetch::{IoSemaphore, read_json};
@@ -93,13 +93,13 @@ where
 
         let modrinth_auth_path =
             old_launcher_root.join("caches/metadata/auth.json");
-        if let Ok(creds) = read_json::<LegacyModrinthCredentials>(
+        if let Ok(creds) = read_json::<LegacyBlankethubCredentials>(
             &modrinth_auth_path,
             &io_semaphore,
         )
         .await
         {
-            ModrinthCredentials {
+            BlankethubCredentials {
                 session: creds.session,
                 expires: creds.expires_at,
                 user_id: creds.user.id,
@@ -196,7 +196,7 @@ where
                     }
                     let sha512 = project.sha512;
 
-                    if let LegacyProjectMetadata::Modrinth {
+                    if let LegacyProjectMetadata::Blankethub {
                         version,
                         members,
                         update_version,
@@ -474,7 +474,7 @@ struct LegacyJavaVersion {
 }
 
 #[derive(Deserialize, Clone, Debug)]
-struct LegacyModrinthUser {
+struct LegacyBlankethubUser {
     pub id: String,
     pub username: String,
     // pub name: Option<String>,
@@ -485,10 +485,10 @@ struct LegacyModrinthUser {
 }
 
 #[derive(Deserialize, Clone, Debug)]
-struct LegacyModrinthCredentials {
+struct LegacyBlankethubCredentials {
     pub session: String,
     pub expires_at: DateTime<Utc>,
-    pub user: LegacyModrinthUser,
+    pub user: LegacyBlankethubUser,
 }
 
 #[derive(Deserialize, Debug)]
@@ -551,18 +551,18 @@ struct LegacyProject {
 #[derive(Deserialize, Clone, Debug)]
 #[serde(tag = "type", rename_all = "snake_case")]
 enum LegacyProjectMetadata {
-    Modrinth {
-        // project: Box<LegacyModrinthProject>,
-        version: Box<LegacyModrinthVersion>,
-        members: Vec<LegacyModrinthTeamMember>,
-        update_version: Option<Box<LegacyModrinthVersion>>,
+    Blankethub {
+        // project: Box<LegacyBlankethubProject>,
+        version: Box<LegacyBlankethubVersion>,
+        members: Vec<LegacyBlankethubTeamMember>,
+        update_version: Option<Box<LegacyBlankethubVersion>>,
     },
     Inferred,
     Unknown,
 }
 
 // #[derive(Deserialize, Clone, Debug)]
-// struct LegacyModrinthProject {
+// struct LegacyBlankethubProject {
 //     pub id: String,
 //     pub slug: Option<String>,
 //     pub project_type: String,
@@ -591,7 +591,7 @@ enum LegacyProjectMetadata {
 // }
 
 #[derive(Deserialize, Clone, Debug)]
-struct LegacyModrinthVersion {
+struct LegacyBlankethubVersion {
     pub id: String,
     pub project_id: String,
     pub author_id: String,
@@ -607,14 +607,14 @@ struct LegacyModrinthVersion {
     pub downloads: u32,
     pub version_type: String,
 
-    pub files: Vec<LegacyModrinthVersionFile>,
+    pub files: Vec<LegacyBlankethubVersionFile>,
     pub dependencies: Vec<LegacyDependency>,
     pub game_versions: Vec<String>,
     pub loaders: Vec<String>,
 }
 
-impl From<LegacyModrinthVersion> for Version {
-    fn from(value: LegacyModrinthVersion) -> Self {
+impl From<LegacyBlankethubVersion> for Version {
+    fn from(value: LegacyBlankethubVersion) -> Self {
         Version {
             id: value.id,
             project_id: value.project_id,
@@ -677,7 +677,7 @@ impl From<LegacyModrinthVersion> for Version {
 }
 
 #[derive(Deserialize, Clone, Debug)]
-struct LegacyModrinthVersionFile {
+struct LegacyBlankethubVersionFile {
     pub hashes: HashMap<String, String>,
     pub url: String,
     pub filename: String,
@@ -695,9 +695,9 @@ struct LegacyDependency {
 }
 
 #[derive(Deserialize, Clone, Debug)]
-struct LegacyModrinthTeamMember {
+struct LegacyBlankethubTeamMember {
     pub team_id: String,
-    pub user: LegacyModrinthUser,
+    pub user: LegacyBlankethubUser,
     pub role: String,
     pub ordering: i64,
 }

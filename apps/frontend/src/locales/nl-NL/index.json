@@ -27,7 +27,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "De Linux-versies zijn <issues-link>berucht wegens instabiliteiten</issues-link> op bepaalde systemen en configuraties. Als de Modrinth-app onstabiel functioneert op jou systeem, moedigen wij je aan om alternatieven zoals <prism-link>Prism Launcher</prism-link> te gebruiken, die direct van Modrinth kan downloaden."
+    "message": "De Linux-versies zijn <issues-link>berucht wegens instabiliteiten</issues-link> op bepaalde systemen en configuraties. Als de Blankethub-app onstabiel functioneert op jou systeem, moedigen wij je aan om alternatieven zoals <prism-link>Prism Launcher</prism-link> te gebruiken, die direct van Blankethub kan downloaden."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -36,10 +36,10 @@
     "message": "Download opties"
   },
   "app-marketing.download.terms": {
-    "message": "Door het downloaden van de Modrinth-app gaat uw akkoord met onze <terms-link>algemene voorwaarden</terms-link> en <privacy-link>privacyverklaring</privacy-link>."
+    "message": "Door het downloaden van de Blankethub-app gaat uw akkoord met onze <terms-link>algemene voorwaarden</terms-link> en <privacy-link>privacyverklaring</privacy-link>."
   },
   "app-marketing.download.title": {
-    "message": "Download de Modrinth-app (Bètaversie)"
+    "message": "Download de Blankethub-app (Bètaversie)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -51,7 +51,7 @@
     "message": "Volg projecten"
   },
   "app-marketing.features.importing.description": {
-    "message": "Importeer al je favorieten profielen van je vorige launcher, en begin binnen enkele seconden met de Modrinth-app!"
+    "message": "Importeer al je favorieten profielen van je vorige launcher, en begin binnen enkele seconden met de Blankethub-app!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -69,7 +69,7 @@
     "message": "door {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Met Modrinth kun je makkelijk al je mods op één plek beheren. Installeer, verwijder en update je mods in een handomdraai."
+    "message": "Met Blankethub kun je makkelijk al je mods op één plek beheren. Installeer, verwijder en update je mods in een handomdraai."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Geïnstalleerde mods"
@@ -93,7 +93,7 @@
     "message": "Offline-modus"
   },
   "app-marketing.features.open-source.description": {
-    "message": "De launcher van Modrinth is volledig Open Source. Je kan de broncode vinden op onze <github-link>GitHub</github-link>!"
+    "message": "De launcher van Blankethub is volledig Open Source. Je kan de broncode vinden op onze <github-link>GitHub</github-link>!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Open Source"
@@ -105,7 +105,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "De Modrinth-app presteert beter dan veel van de leidende concurrenten, met een geheugengebruik van maar liefst 150mb!"
+    "message": "De Blankethub-app presteert beter dan veel van de leidende concurrenten, met een geheugengebruik van maar liefst 150mb!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -126,7 +126,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth-app"
+    "message": "Blankethub-app"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 miljard %"
@@ -144,13 +144,13 @@
     "message": "Snelheid gericht"
   },
   "app-marketing.features.play.description": {
-    "message": "Download en speel met je favorieten mods en modpacks met de Modrinth-app."
+    "message": "Download en speel met je favorieten mods en modpacks met de Blankethub-app."
   },
   "app-marketing.features.play.title": {
     "message": "Speel met je favorieten mods"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Verzamel, speel en deel modpacks met de duizenden mods en modpacks verkrijgbaar hier op Modrinth."
+    "message": "Verzamel, speel en deel modpacks met de duizenden mods en modpacks verkrijgbaar hier op Blankethub."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Modpack"
@@ -165,7 +165,7 @@
     "message": "Onvergelijkbaar met de concurrentie "
   },
   "app-marketing.features.website.description": {
-    "message": "Modrinth App is volledig geïntegreerd met de website, zodat u vanuit de app toegang heeft tot al uw favoriete projecten!"
+    "message": "Blankethub App is volledig geïntegreerd met de website, zodat u vanuit de app toegang heeft tot al uw favoriete projecten!"
   },
   "app-marketing.features.website.title": {
     "message": "Website integratie "
@@ -174,19 +174,19 @@
     "message": "je hebt het al gezien"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Screenshot van de Modrinth App met een Cobblemon installatie geopend op de 'Content' pagina."
+    "message": "Screenshot van de Blankethub App met een Cobblemon installatie geopend op de 'Content' pagina."
   },
   "app-marketing.hero.description": {
-    "message": "De Modrinth App is een unieke, openbare launcher waarmee je je favoriete mods kunt spelen en up-to-date houden, allemaal in één handig app."
+    "message": "De Blankethub App is een unieke, openbare launcher waarmee je je favoriete mods kunt spelen en up-to-date houden, allemaal in één handig app."
   },
   "app-marketing.hero.download-button": {
-    "message": "Download de Modrinth App"
+    "message": "Download de Blankethub App"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Download de Modrinth App"
+    "message": "Download de Blankethub App"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "Download de Modrinth App voor {os}"
+    "message": "Download de Blankethub App voor {os}"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "Schermafbeelding van de Cobblemon instantie's hoofd menu scherm."
@@ -270,7 +270,7 @@
     "message": "Account aanmaken"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Door een account te creëren, ga je akkoord met de <terms-link>Voorwaarden</terms-link> en het </privacy-policy-link>Privacybeleid</privacy-policy-link> van Modrinth."
+    "message": "Door een account te creëren, ga je akkoord met de <terms-link>Voorwaarden</terms-link> en het </privacy-policy-link>Privacybeleid</privacy-policy-link> van Blankethub."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "Wachtwoorden komen niet overeen!"
@@ -279,7 +279,7 @@
     "message": "Heb je al een account?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Schrijf je in voor updates van Modrinth"
+    "message": "Schrijf je in voor updates van Blankethub"
   },
   "auth.sign-up.title": {
     "message": "Aanmelden"
@@ -321,16 +321,16 @@
     "message": "Verifieer e-mail"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Abonneer op updates over Modrinth"
+    "message": "Abonneer op updates over Blankethub"
   },
   "auth.welcome.description": {
     "message": "Je bent nu deel van de geweldige community van makers en ontdekkers die mods bouwen, downloaden en up-to-date blijven van geweldige mods."
   },
   "auth.welcome.label.tos": {
-    "message": "Door een account te hebben gemaakt, ben je akkoord gegaan met de <terms-link>Voorwaarden</terms-link> en het </privacy-policy-link>Privacybeleid</privacy-policy-link> van Modrinth."
+    "message": "Door een account te hebben gemaakt, ben je akkoord gegaan met de <terms-link>Voorwaarden</terms-link> en het </privacy-policy-link>Privacybeleid</privacy-policy-link> van Blankethub."
   },
   "auth.welcome.long-title": {
-    "message": "Welkom op Modrinth!"
+    "message": "Welkom op Blankethub!"
   },
   "auth.welcome.title": {
     "message": "Welkom"
@@ -360,7 +360,7 @@
     "message": "Weet u zeker dat u deze collectie wilt verwijderen?"
   },
   "collection.description": {
-    "message": "{description} - Bekijk de collectie {name} gemaakt door {username} op Modrinth"
+    "message": "{description} - Bekijk de collectie {name} gemaakt door {username} op Blankethub"
   },
   "collection.description.following": {
     "message": "Automatisch gegenereerde collectie van alle projecten die u volgt."
@@ -579,7 +579,7 @@
     "message": "Belastingformulier"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "Modrinth maakt gebruik van de externe leverancier Track1099 om je belastingformulieren veilig te verzamelen en op te slaan. <security-link>Leer hier meer.</security-link>"
+    "message": "Blankethub maakt gebruik van de externe leverancier Track1099 om je belastingformulieren veilig te verzamelen en op te slaan. <security-link>Leer hier meer.</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "Veiligheidsmaatregelen"
@@ -744,7 +744,7 @@
     "message": "Om uw volledige <b>{available}</b> beschikbare saldo op te nemen, vult u onderstaand formulier in. Dit is nodig voor de belastingaangifte en hoeft slechts eenmalig te worden gedaan."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
-    "message": "U dient een W-9- of W-8-formulier in te vullen voor de belastingadministratie van Modrinth, zodat wij aan de belastingwetgeving blijven voldoen."
+    "message": "U dient een W-9- of W-8-formulier in te vullen voor de belastingadministratie van Blankethub, zodat wij aan de belastingwetgeving blijven voldoen."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.header": {
     "message": "Belastingformulier vereist"
@@ -786,7 +786,7 @@
     "message": "Niet-geverifieerde e-mail"
   },
   "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
-    "message": "Het e-mailadres dat u hebt ingevoerd voor de bezorging is niet gekoppeld aan uw Modrinth-account. Modrinth kan beloningen die naar een onjuist e-mailadres zijn verzonden niet terugvorderen."
+    "message": "Het e-mailadres dat u hebt ingevoerd voor de bezorging is niet gekoppeld aan uw Blankethub-account. Blankethub kan beloningen die naar een onjuist e-mailadres zijn verzonden niet terugvorderen."
   },
   "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
     "message": "Lagere kosten beschikbaar"
@@ -813,7 +813,7 @@
     "message": "Geschatte winst kan worden gewijzigd totdat het beschikbaar wordt gesteld."
   },
   "dashboard.revenue.estimated-tooltip.msg2": {
-    "message": "Klik om te lezen over hoe Modrinth omgaat met jouw inkomsten."
+    "message": "Klik om te lezen over hoe Blankethub omgaat met jouw inkomsten."
   },
   "dashboard.revenue.estimated-with-date": {
     "message": "Geschatte {date}"
@@ -834,7 +834,7 @@
     "message": "Opgenomen"
   },
   "dashboard.revenue.tos": {
-    "message": "Door projecten te uploaden naar Modrinth en geld op te nemen van je account, ga je akkoord met onze <terms-link>voorwaarden van het belonings-programma</terms-link>. Leer meer over het <info-link>Beloningsprogramma</info-link>."
+    "message": "Door projecten te uploaden naar Blankethub en geld op te nemen van je account, ga je akkoord met onze <terms-link>voorwaarden van het belonings-programma</terms-link>. Leer meer over het <info-link>Beloningsprogramma</info-link>."
   },
   "dashboard.revenue.transactions.btn.download-csv": {
     "message": "Download als CSV"
@@ -966,7 +966,7 @@
     "message": "Deze collectie is mogelijk privé."
   },
   "error.collection.404.list_item.3": {
-    "message": "Dit collectie is mogelijk verwijderd door Modrinth's moderationteam wegens schending van onze <tou-link> Servicevoorwaarden </tou-link>."
+    "message": "Dit collectie is mogelijk verwijderd door Blankethub's moderationteam wegens schending van onze <tou-link> Servicevoorwaarden </tou-link>."
   },
   "error.collection.404.list_title": {
     "message": "Waarom?"
@@ -987,10 +987,10 @@
     "message": "Content niet beschikbaar om juridische redenen"
   },
   "error.generic.default.list_item.1": {
-    "message": "Controleer of Modrinth een storing heeft op onze <status-link>Status pagina</status-link>."
+    "message": "Controleer of Blankethub een storing heeft op onze <status-link>Status pagina</status-link>."
   },
   "error.generic.default.list_item.2": {
-    "message": "Als dit blijft gebeuren zou u waarschijnlijk de Modrinth team moeten inlichten via onze <discord-link>Discord Server</discord-link>."
+    "message": "Als dit blijft gebeuren zou u waarschijnlijk de Blankethub team moeten inlichten via onze <discord-link>Discord Server</discord-link>."
   },
   "error.generic.default.list_title": {
     "message": "Probeer alstublieft opnieuw in een paar minuten."
@@ -1008,7 +1008,7 @@
     "message": "De eigenaar van de organisatie heeft misschien de URL veranderd of verwijderd."
   },
   "error.organization.404.list_item.3": {
-    "message": "De organisatie is misschien verwijderd door Modrinth' moderatie team voor het breken van de <tou-link>Gebruikersvoorwaarden</tou-link>."
+    "message": "De organisatie is misschien verwijderd door Blankethub' moderatie team voor het breken van de <tou-link>Gebruikersvoorwaarden</tou-link>."
   },
   "error.organization.404.list_title": {
     "message": "Waarom?"
@@ -1023,7 +1023,7 @@
     "message": "De eigenaar van het project heeft misschien de URL veranderd, het project privé gemaakt of verwijderd."
   },
   "error.project.404.list_item.3": {
-    "message": "Het project is mogelijk verwijdert door het moderatie team van Modrinth door het overtreden van onze <tou-link>gebruikersvoorwaarden</tou-link>."
+    "message": "Het project is mogelijk verwijdert door het moderatie team van Blankethub door het overtreden van onze <tou-link>gebruikersvoorwaarden</tou-link>."
   },
   "error.project.404.list_title": {
     "message": "Waarom?"
@@ -1038,7 +1038,7 @@
     "message": "De gebruiker heeft mogelijk zijn gebruikersnaam aangepast of zijn account verwijderd."
   },
   "error.user.404.list_item.3": {
-    "message": "Het account van de gebruiker is mogelijk opgeheven wegens schendingen van Modrinth's <tou-link>Gebruikers Voorwaarden</tou-link>. "
+    "message": "Het account van de gebruiker is mogelijk opgeheven wegens schendingen van Blankethub's <tou-link>Gebruikers Voorwaarden</tou-link>. "
   },
   "error.user.404.list_title": {
     "message": "Waarom?"
@@ -1065,7 +1065,7 @@
     "message": "Naar dashboard "
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "Geniet van de beste Minecraft-modding ervaring met regelmatige updates van de Modrinth team."
+    "message": "Geniet van de beste Minecraft-modding ervaring met regelmatige updates van de Blankethub team."
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "Voortdurende Verbetering "
@@ -1110,13 +1110,13 @@
     "message": "Volg je favoriete projecten"
   },
   "landing.feature.launcher.description": {
-    "message": "Modrinth's open-source API biedt launchers diepe integratie met Modrinth. Je kan Modrinth gebruikern via onze <link>eigen app</link> en populaire launchers als ATLauncher, MultiMC, en Prism Launcher."
+    "message": "Blankethub's open-source API biedt launchers diepe integratie met Blankethub. Je kan Blankethub gebruikern via onze <link>eigen app</link> en populaire launchers als ATLauncher, MultiMC, en Prism Launcher."
   },
   "landing.feature.launcher.heading": {
     "message": "Speel via je favoriete launcher"
   },
   "landing.feature.search.description": {
-    "message": "Dankzij Modrinth's razendsnelle zoekfunctie en filters vindt je wat je zoekt terwijl je typt."
+    "message": "Dankzij Blankethub's razendsnelle zoekfunctie en filters vindt je wat je zoekt terwijl je typt."
   },
   "landing.feature.search.heading": {
     "message": "Vind wat je zoekt, snel en eenvoudig"
@@ -1149,10 +1149,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "Een vereenvoudigde weergave van een Minecraft venster, met het Mojang Studios logo in Modrinth groen."
+    "message": "Een vereenvoudigde weergave van een Minecraft venster, met het Mojang Studios logo in Blankethub groen."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -1236,25 +1236,25 @@
     "message": "Bekijk account instellingen"
   },
   "layout.banner.add-email.description": {
-    "message": "Om veiligheidsredenen is het bij Modrinth verplicht om een ​​e-mailadres aan je account te koppelen."
+    "message": "Om veiligheidsredenen is het bij Blankethub verplicht om een ​​e-mailadres aan je account te koppelen."
   },
   "layout.banner.build-fail.description": {
-    "message": "Deze implementatie van de Modrinth frontend is er niet in geslaagd om statusinformatie van de API te genereren. Dit kan te wijten zijn aan een storing of een configuratiefout. Voer een nieuwe build uit wanneer de API weer beschikbaar is. Foutcodes: {errors}; Huidige API URL: {url}"
+    "message": "Deze implementatie van de Blankethub frontend is er niet in geslaagd om statusinformatie van de API te genereren. Dit kan te wijten zijn aan een storing of een configuratiefout. Voer een nieuwe build uit wanneer de API weer beschikbaar is. Foutcodes: {errors}; Huidige API URL: {url}"
   },
   "layout.banner.build-fail.title": {
     "message": "Fout bij het genereren van de status vanuit de API tijdens het bouwen."
   },
   "layout.banner.preview.description": {
-    "message": "Als je de officiële Modrinth website wilde bezoeken, ga dan naar <link>https://blankethub.loxalhost</link>. Deze preview implementatie wordt door Modrinth medewerkers gebruikt voor testdoeleinden. Deze is gebouwd met <branch-link>{owner}/{branch}</branch-link> @ {commit}."
+    "message": "Als je de officiële Blankethub website wilde bezoeken, ga dan naar <link>https://blankethub.localhost</link>. Deze preview implementatie wordt door Blankethub medewerkers gebruikt voor testdoeleinden. Deze is gebouwd met <branch-link>{owner}/{branch}</branch-link> @ {commit}."
   },
   "layout.banner.preview.title": {
-    "message": "Dit is een preview-versie van de Modrinth website."
+    "message": "Dit is een preview-versie van de Blankethub website."
   },
   "layout.banner.staging.description": {
-    "message": "De staging omgeving is volledig gescheiden van de productieomgeving van de Modrinth database. Deze wordt gebruikt voor test- en debug doeleinden en kan ontwikkelingsversies van de Modrinth backend of frontend draaien die nieuwer zijn dan de productieomgeving."
+    "message": "De staging omgeving is volledig gescheiden van de productieomgeving van de Blankethub database. Deze wordt gebruikt voor test- en debug doeleinden en kan ontwikkelingsversies van de Blankethub backend of frontend draaien die nieuwer zijn dan de productieomgeving."
   },
   "layout.banner.staging.title": {
-    "message": "Je bekijkt de testomgeving van Modrinth."
+    "message": "Je bekijkt de testomgeving van Blankethub."
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "Werk factuurgegevens bij"
@@ -1269,7 +1269,7 @@
     "message": "Voltooi het belastingformulier"
   },
   "layout.banner.tax.description": {
-    "message": "Je hebt dit jaar al meer dan $600 van je Modrinth account opgenomen. Om aan de belastingregels te voldoen, moet je een belastingformulier invullen. Je opnames worden gepauzeerd totdat dit formulier is ingediend."
+    "message": "Je hebt dit jaar al meer dan $600 van je Blankethub account opgenomen. Om aan de belastingregels te voldoen, moet je een belastingformulier invullen. Je opnames worden gepauzeerd totdat dit formulier is ingediend."
   },
   "layout.banner.tax.title": {
     "message": "Belastingformulier vereist"
@@ -1287,7 +1287,7 @@
     "message": "Herverzend verificatie email"
   },
   "layout.banner.verify-email.description": {
-    "message": "Om veiligheidsredenen vraagt Modrinth je om het e-mailadres dat aan je account is gekoppeld te bevestigen."
+    "message": "Om veiligheidsredenen vraagt Blankethub je om het e-mailadres dat aan je account is gekoppeld te bevestigen."
   },
   "layout.footer.about": {
     "message": "Over"
@@ -1329,20 +1329,20 @@
     "message": "Gebruikersvoorwaarden"
   },
   "layout.footer.modrinth-information": {
-    "message": "Modrinth informatie"
+    "message": "Blankethub informatie"
   },
   "layout.footer.open-source": {
-    "message": "Modrinth is <github-link>open source</github-link>."
+    "message": "Blankethub is <github-link>open source</github-link>."
   },
   "layout.footer.products": {
     "message": "Producten"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
 
   "layout.footer.products.servers": {
-    "message": "Modrinth Hosting"
+    "message": "Blankethub Hosting"
   },
   "layout.footer.resources": {
     "message": "Benodigde middelen"
@@ -1378,7 +1378,7 @@
     "message": "Menu in-/uitschakelen"
   },
   "layout.meta.description": {
-    "message": "Download Minecraft-mods, plugins datapacks, shaders resourcepacks op Modrinth. Ontdek en publiceer projecten op Modrinth met een modern en makkelijk te gebruiken interface en API."
+    "message": "Download Minecraft-mods, plugins datapacks, shaders resourcepacks op Blankethub. Ontdek en publiceer projecten op Blankethub met een modern en makkelijk te gebruiken interface en API."
   },
   "layout.meta.og-description": {
     "message": "Ontdek en publiceer Minecraft content!"
@@ -1402,7 +1402,7 @@
     "message": "Functie vlaggen"
   },
   "layout.nav.get-modrinth-app": {
-    "message": "Download Modrinth App"
+    "message": "Download Blankethub App"
   },
   "layout.nav.home": {
     "message": "Thuispagina"
@@ -1411,10 +1411,10 @@
     "message": "Host een server"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "Modrinth startpagina"
+    "message": "Blankethub startpagina"
   },
   "layout.nav.my-servers": {
     "message": "Mijn servers"
@@ -1717,10 +1717,10 @@
     "message": "Controleer uw portemonnee adres nogmaals. Geld dat naar een onjuist adres is overgemaakt, kan niet worden teruggevonden."
   },
   "profile.bio.fallback.creator": {
-    "message": "Een Modrinth creator."
+    "message": "Een Blankethub creator."
   },
   "profile.bio.fallback.user": {
-    "message": "Een Modrinth gebruiker."
+    "message": "Een Blankethub gebruiker."
   },
   "profile.button.billing": {
     "message": "Gebruikers facturering beheren"
@@ -1804,10 +1804,10 @@
     "message": "Opslaan..."
   },
   "profile.meta.description": {
-    "message": "Download {username} z'n projecten via Modrinth"
+    "message": "Download {username} z'n projecten via Blankethub"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - Download {username}'s projecten op Modrinth"
+    "message": "{bio} - Download {username}'s projecten op Blankethub"
   },
   "profile.stats.projects-followers": {
     "message": "{count, plural, one {<stat>{count}</stat> project volger}other {<stat>{count}</stat> project volgers}}"
@@ -1846,7 +1846,7 @@
     "message": "Opnieuw voor beoordeling indienen"
   },
   "project-moderation-nags.resubmit-for-review-desc": {
-    "message": "Je project is door het personeel van Modrinth beoordeeld met de status {status, select, rejected {rejected} withheld {withheld} other {{status}}}. In de meeste gevallen kun je het project opnieuw ter beoordeling indienen nadat je op het bericht van het personeel hebt gereageerd."
+    "message": "Je project is door het personeel van Blankethub beoordeeld met de status {status, select, rejected {rejected} withheld {withheld} other {{status}}}. In de meeste gevallen kun je het project opnieuw ter beoordeling indienen nadat je op het bericht van het personeel hebt gereageerd."
   },
   "project-moderation-nags.submit-checklist-tooltip": {
     "message": "Je moet de vereiste stappen in de publicatie checklist voltooien!"
@@ -1948,7 +1948,7 @@
     "message": "Beoordeel project"
   },
   "project.actions.servers-promo.description": {
-    "message": "Modrinth Hosting is de makkelijkste manier om zonder gedoe met je vrienden te spelen!"
+    "message": "Blankethub Hosting is de makkelijkste manier om zonder gedoe met je vrienden te spelen!"
   },
   "project.actions.servers-promo.pricing": {
     "message": "Vanaf {price}<small> / maand</small>"
@@ -1981,10 +1981,10 @@
     "message": "{title} steunt niet {gameVersion} voor {platform}"
   },
   "project.download.install-with-app": {
-    "message": "Installeer met de Modrinth App"
+    "message": "Installeer met de Blankethub App"
   },
   "project.download.no-app": {
-    "message": "Heb je de Modrinth App niet?"
+    "message": "Heb je de Blankethub App niet?"
   },
   "project.download.no-versions-available": {
     "message": "Geen versies beschikbaar voor {gameVersion} en {platform}."
@@ -2020,7 +2020,7 @@
     "message": "Download {title}"
   },
   "project.environment.migration-no-permission.message": {
-    "message": "We hebben het omgeving systeem op Modrinth onlangs vernieuwd en er zijn nu nieuwe opties beschikbaar. Je hebt geen toestemming om deze instellingen te wijzigen, maar laat een ander projectlid weten dat de omgeving metadata geverifieerd moet worden."
+    "message": "We hebben het omgeving systeem op Blankethub onlangs vernieuwd en er zijn nu nieuwe opties beschikbaar. Je hebt geen toestemming om deze instellingen te wijzigen, maar laat een ander projectlid weten dat de omgeving metadata geverifieerd moet worden."
   },
   "project.environment.migration-no-permission.title": {
     "message": "De omgeving metadata moeten worden gecontroleerd."
@@ -2029,7 +2029,7 @@
     "message": "Lees meer over deze wijziging."
   },
   "project.environment.migration.message": {
-    "message": "We hebben het omgeving systeem op Modrinth onlangs vernieuwd en er zijn nu nieuwe opties beschikbaar. Controleer of de metadata correct is."
+    "message": "We hebben het omgeving systeem op Blankethub onlangs vernieuwd en er zijn nu nieuwe opties beschikbaar. Controleer of de metadata correct is."
   },
   "project.environment.migration.review-button": {
     "message": "Controleer de omgevingsinstellingen"
@@ -2140,7 +2140,7 @@
     "message": "Geef alstublieft aanvoegende context over uw rapportage"
   },
   "report.for.violation": {
-    "message": "Het schenden van Modrinth <rules-link> Regels</rules-link> of <terms-link>Termen</terms-link>"
+    "message": "Het schenden van Blankethub <rules-link> Regels</rules-link> of <terms-link>Termen</terms-link>"
   },
   "report.for.violation.description": {
     "message": "Exemplaren includeren onveilige, spam, offensieve, misleidende en illegale content."
@@ -2464,10 +2464,10 @@
     "message": "Betaalmethodes"
   },
   "settings.billing.pyro_subscription.description": {
-    "message": "Beheer jouw Modrinth Server abonnement."
+    "message": "Beheer jouw Blankethub Server abonnement."
   },
   "settings.billing.pyro_subscription.title": {
-    "message": "Modrinth Server Abonnementen"
+    "message": "Blankethub Server Abonnementen"
   },
   "settings.billing.subscription.description": {
     "message": ".."
@@ -2479,7 +2479,7 @@
     "message": "Ontwikkelaarsmodus deactiveren"
   },
   "settings.display.banner.developer-mode.description": {
-    "message": "<strong>Ontwikkelaarsmodus</strong> is actief. Dit geeft je de mogelijkheid om de interne ID's van verschillende dingen in Modrinth te bekijken die handig kunnen zijn als je een ontwikkelaar bent en gebruik maakt van de Modrinth API. Klik 5 keer op het Modrinth logo onderaan de pagina om ontwikkelaarsmodus in of uit te schakelen."
+    "message": "<strong>Ontwikkelaarsmodus</strong> is actief. Dit geeft je de mogelijkheid om de interne ID's van verschillende dingen in Blankethub te bekijken die handig kunnen zijn als je een ontwikkelaar bent en gebruik maakt van de Blankethub API. Klik 5 keer op het Blankethub logo onderaan de pagina om ontwikkelaarsmodus in of uit te schakelen."
   },
   "settings.display.flags.description": {
     "message": "Schakel bepaalde functies op dit apparaat in of uit."
@@ -2524,16 +2524,16 @@
     "message": "Geavanceerde weergave"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "message": "Maak links die buiten Modrinth gaan open in een nieuw tabblad. Ongeacht deze instelling, links op hetzelfde domein en in Markdown beschrijvingen zullen worden geopend in hetzelfde tabblad, en links naar advertenties en bewerken pagina's worden geopend in een nieuw tabblad."
+    "message": "Maak links die buiten Blankethub gaan open in een nieuw tabblad. Ongeacht deze instelling, links op hetzelfde domein en in Markdown beschrijvingen zullen worden geopend in hetzelfde tabblad, en links naar advertenties en bewerken pagina's worden geopend in een nieuw tabblad."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "message": "Externe links openen in nieuw tabblad"
   },
   "settings.display.sidebar.hide-app-promos.description": {
-    "message": "Verbergt de \"Download Modrinth App\" knoppen in de primaire navigatie. De Modrinth App pagina kan nog steeds worden gevonden op de landingspagina of in de voettekst."
+    "message": "Verbergt de \"Download Blankethub App\" knoppen in de primaire navigatie. De Blankethub App pagina kan nog steeds worden gevonden op de landingspagina of in de voettekst."
   },
   "settings.display.sidebar.hide-app-promos.title": {
-    "message": "Verberg Modrinth App promoties"
+    "message": "Verberg Blankethub App promoties"
   },
   "settings.display.sidebar.right-aligned-content-sidebar.description": {
     "message": "Lijn de project-details zijbalk uit naar de rechterkant van de paginainhoud."
@@ -2542,7 +2542,7 @@
     "message": "Lijn de zoekfilters zijbalk uit aan de rechterkant van de zoekresultaten."
   },
   "settings.display.theme.description": {
-    "message": "Selecteer je gewenste kleurschema voor Modrinth op dit apparaat."
+    "message": "Selecteer je gewenste kleurschema voor Blankethub op dit apparaat."
   },
   "settings.display.theme.title": {
     "message": "Kleurschema"
@@ -2551,7 +2551,7 @@
     "message": "Creëer een PAT"
   },
   "settings.pats.description": {
-    "message": "PAT's kunnen gebruikt worden om Modrinths API te gebruiken. Voor meer informatie, zie <doc-link> Modrinth's API-documentatie </doc-link>. Ze kunnen altijd gemaakt en teruggetrokken worden."
+    "message": "PAT's kunnen gebruikt worden om Blankethubs API te gebruiken. Voor meer informatie, zie <doc-link> Blankethub's API-documentatie </doc-link>. Ze kunnen altijd gemaakt en teruggetrokken worden."
   },
   "settings.pats.modal.create.action": {
     "message": "Creëer PAT"
@@ -2605,7 +2605,7 @@
     "message": "Bio"
   },
   "settings.profile.description": {
-    "message": "Je profielgegevens zijn openbaar op Modrinth en zichtbaar via de <docs-link>Modrinth API</docs-link>."
+    "message": "Je profielgegevens zijn openbaar op Blankethub en zichtbaar via de <docs-link>Blankethub API</docs-link>."
   },
   "settings.profile.profile-info": {
     "message": "Profielgegevens"
@@ -2626,7 +2626,7 @@
     "message": "Huidige sessie"
   },
   "settings.sessions.description": {
-    "message": "Hier zijn alle apparaten die momenteel zijn ingelogd met je Modrinth account. Je kunt elk afzonderlijk uitloggen.\n\nAls je een item ziet dat je niet herkent, log dan uit op dat apparaat en verander het wachtwoord van je Modrinth account."
+    "message": "Hier zijn alle apparaten die momenteel zijn ingelogd met je Blankethub account. Je kunt elk afzonderlijk uitloggen.\n\nAls je een item ziet dat je niet herkent, log dan uit op dat apparaat en verander het wachtwoord van je Blankethub account."
   },
   "settings.sessions.last-accessed-ago": {
     "message": "Laatst geopend {ago}"
@@ -2638,7 +2638,7 @@
     "message": "Onbekend platform"
   },
   "ui.latest-news-row.latest-news": {
-    "message": "Laatste nieuws van Modrinth"
+    "message": "Laatste nieuws van Blankethub"
   },
   "ui.latest-news-row.view-all": {
     "message": "Zie all het nieuws"

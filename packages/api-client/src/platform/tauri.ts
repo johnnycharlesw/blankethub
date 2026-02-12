@@ -1,4 +1,4 @@
-import type { ModrinthApiError } from '../core/errors'
+import type { BlankethubApiError } from '../core/errors'
 import type { ClientConfig } from '../types/client'
 import type { RequestOptions } from '../types/request'
 import { GenericWebSocketClient } from './websocket-generic'
@@ -28,8 +28,8 @@ interface HttpError extends Error {
  * import { getVersion } from '@tauri-apps/api/app'
  *
  * const version = await getVersion()
- * const client = new TauriModrinthClient({
- *   userAgent: `modrinth/theseus/${version} (support@blankethub.loxalhost)`,
+ * const client = new TauriBlankethubClient({
+ *   userAgent: `modrinth/theseus/${version} (support@blankethub.localhost)`,
  *   features: [
  *     new AuthFeature({ token: 'mrp_...' })
  *   ]
@@ -38,7 +38,7 @@ interface HttpError extends Error {
  * const project = await client.request('/project/sodium', { api: 'labrinth', version: 2 })
  * ```
  */
-export class TauriModrinthClient extends XHRUploadClient {
+export class TauriBlankethubClient extends XHRUploadClient {
 	declare protected config: TauriClientConfig
 
 	constructor(config: TauriClientConfig) {
@@ -102,7 +102,7 @@ export class TauriModrinthClient extends XHRUploadClient {
 		}
 	}
 
-	protected normalizeError(error: unknown): ModrinthApiError {
+	protected normalizeError(error: unknown): BlankethubApiError {
 		if (error instanceof Error) {
 			const httpError = error as HttpError
 			const statusCode = httpError.statusCode

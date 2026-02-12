@@ -1,5 +1,5 @@
 import { createGlobalState } from '@vueuse/core'
-import { type Ref, shallowRef } from 'vue'
+import { shallowRef, type Ref } from 'vue'
 
 /**
  * Maximum number of console output lines to store
@@ -18,7 +18,7 @@ const initialBatchSize = 256
  * @property {function(string): void} addConsoleOutput - Method to add a new console output line
  * @property {function(): void} clear - Method to clear all console output
  */
-export const useModrinthServersConsole = createGlobalState(() => {
+export const useBlankethubServersConsole = createGlobalState(() => {
 	/**
 	 * Reactive array storing console output lines
 	 * @type {Ref<string[]>}

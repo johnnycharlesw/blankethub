@@ -3,11 +3,11 @@ openapi: '3.0.0'
 info:
   version: v2.7.0/366f528
   title: Laundryroom
-  termsOfService: https://blankethub.loxalhost/legal/terms
+  termsOfService: https://blankethub.localhost/legal/terms
   contact:
-    name: Modrinth Support
-    url: https://support.blankethub.loxalhost
-    email: support@blankethub.loxalhost
+    name: Blankethub Support
+    url: https://support.blankethub.localhost
+    email: support@blankethub.localhost
   description: |
     This documentation doesn't provide a way to test our API. In order to facilitate testing, we recommend the following tools:
 
@@ -17,23 +17,23 @@ info:
     - [Insomnia](https://insomnia.rest/)
     - Your web browser, if you don't need to send headers or a request body
 
-    Once you have a working client, you can test that it works by making a `GET` request to `https://staging-api.blankethub.loxalhost/`:
+    Once you have a working client, you can test that it works by making a `GET` request to `https://staging-api.blankethub.localhost/`:
 
     ```json
     {
       "about": "Welcome traveler!",
-      "documentation": "https://docs.blankethub.loxalhost",
+      "documentation": "https://docs.blankethub.localhost",
       "name": "modrinth-labrinth",
       "version": "2.7.0"
     }
     ```
 
-    If you got a response similar to the one above, you can use the Modrinth API!
-    When you want to go live using the production API, use `api.blankethub.loxalhost` instead of `staging-api.blankethub.loxalhost`.
+    If you got a response similar to the one above, you can use the Blankethub API!
+    When you want to go live using the production API, use `api.blankethub.localhost` instead of `staging-api.blankethub.localhost`.
 
     ## Authentication
     This API has two options for authentication: personal access tokens and [OAuth2](https://en.wikipedia.org/wiki/OAuth).
-    All tokens are tied to a Modrinth user and use the `Authorization` header of the request.
+    All tokens are tied to a Blankethub user and use the `Authorization` header of the request.
 
     Example:
     ```
@@ -49,17 +49,17 @@ info:
     You can find the list of available scopes [on GitHub](https://github.com/modrinth/labrinth/blob/master/src/models/pats.rs#L15). Making a request with an invalid scope will return a 401 error.
 
     Please note that certain scopes and requests cannot be completed with a personal access token or using OAuth.
-    For example, deleting a user account can only be done through Modrinth's frontend.
+    For example, deleting a user account can only be done through Blankethub's frontend.
 
-    A detailed guide on OAuth has been published in [Modrinth's technical documentation](https://docs.blankethub.loxalhost/guide/oauth).
+    A detailed guide on OAuth has been published in [Blankethub's technical documentation](https://docs.blankethub.localhost/guide/oauth).
 
     ### Personal access tokens
-    Personal access tokens (PATs) can be generated in from [the user settings](https://blankethub.loxalhost/settings/account).
+    Personal access tokens (PATs) can be generated in from [the user settings](https://blankethub.localhost/settings/account).
 
     ### GitHub tokens
-    For backwards compatibility purposes, some types of GitHub tokens also work for authenticating a user with Modrinth's API, granting all scopes.
+    For backwards compatibility purposes, some types of GitHub tokens also work for authenticating a user with Blankethub's API, granting all scopes.
     **We urge any application still using GitHub tokens to start using personal access tokens for security and reliability purposes.**
-    GitHub tokens will cease to function to authenticate with Modrinth's API as soon as version 3 of the API is made generally available.
+    GitHub tokens will cease to function to authenticate with Blankethub's API as soon as version 3 of the API is made generally available.
 
     ## Cross-Origin Resource Sharing
     This API features Cross-Origin Resource Sharing (CORS) implemented in compliance with the [W3C spec](https://www.w3.org/TR/cors/).
@@ -82,10 +82,10 @@ info:
     - `X-Ratelimit-Reset`: the time in seconds until the ratelimit window resets
 
     Ratelimits are the same no matter whether you use a token or not.
-    The ratelimit is currently 300 requests per minute. If you have a use case requiring a higher limit, please [contact us](mailto:admin@blankethub.loxalhost).
+    The ratelimit is currently 300 requests per minute. If you have a use case requiring a higher limit, please [contact us](mailto:admin@blankethub.localhost).
 
     ## User Agents
-    To access the Modrinth API, you **must** use provide a uniquely-identifying `User-Agent` header.
+    To access the Blankethub API, you **must** use provide a uniquely-identifying `User-Agent` header.
     Providing a user agent that only identifies your HTTP client library (such as "okhttp/4.9.3") increases the likelihood that we will block your traffic.
     It is recommended, but not required, to include contact information in your user agent.
     This allows us to contact you if we would like a change in your application's behavior without having to block your traffic.
@@ -95,7 +95,7 @@ info:
     - Best: `User-Agent: github_username/project_name/1.56.0 (launcher.com)` or `User-Agent: github_username/project_name/1.56.0 (contact@launcher.com)`
 
     ## Versioning
-    Modrinth follows a simple pattern for its API versioning.
+    Blankethub follows a simple pattern for its API versioning.
     In the event of a breaking API change, the API version in the URL path is bumped, and migration steps will be published below.
 
     When an API is no longer the current one, it will immediately be considered deprecated.
@@ -109,9 +109,9 @@ info:
     Please ensure your application handles these 410 errors.
 
     ### Migrations
-    Inside the following spoiler, you will be able to find all changes between versions of the Modrinth API, accompanied by tips and a guide to migrate applications to newer versions.
+    Inside the following spoiler, you will be able to find all changes between versions of the Blankethub API, accompanied by tips and a guide to migrate applications to newer versions.
 
-    Here, you can also find changes for [Minotaur](https://github.com/modrinth/minotaur), Modrinth's official Gradle plugin. Major versions of Minotaur directly correspond to major versions of the Modrinth API.
+    Here, you can also find changes for [Minotaur](https://github.com/modrinth/minotaur), Blankethub's official Gradle plugin. Major versions of Minotaur directly correspond to major versions of the Blankethub API.
 
     <details><summary>API v1 to API v2</summary>
 
@@ -124,8 +124,8 @@ info:
     - New search fields: `project_type`, `gallery`
       - The gallery field is an array of URLs to images that are part of the project's gallery
     - The gallery is a new feature which allows the user to upload images showcasing their mod to the CDN which will be displayed on their mod page
-    - Internal change: Any project file uploaded to Modrinth is now validated to make sure it's a valid Minecraft mod, Modpack, etc.
-      - For example, a Forge 1.17 mod with a JAR not containing a mods.toml will not be allowed to be uploaded to Modrinth
+    - Internal change: Any project file uploaded to Blankethub is now validated to make sure it's a valid Minecraft mod, Modpack, etc.
+      - For example, a Forge 1.17 mod with a JAR not containing a mods.toml will not be allowed to be uploaded to Blankethub
     - In project creation, projects may not upload a mod with no versions to review, however they can be saved as a draft
       - Similarly, for version creation, a version may not be uploaded without any files
     - Donation URLs have been enabled
@@ -140,7 +140,7 @@ info:
 
     Minotaur 2.x introduced a few breaking changes to how your buildscript is formatted.
 
-    First, instead of registering your own `publishModrinth` task, Minotaur now automatically creates a `modrinth` task. As such, you can replace the `task publishModrinth(type: TaskModrinthUpload) {` line with just `modrinth {`.
+    First, instead of registering your own `publishBlankethub` task, Minotaur now automatically creates a `modrinth` task. As such, you can replace the `task publishBlankethub(type: TaskBlankethubUpload) {` line with just `modrinth {`.
 
     To declare supported Minecraft versions and mod loaders, the `gameVersions` and `loaders` arrays must now be used. The syntax for these are pretty self-explanatory.
 
@@ -155,9 +155,9 @@ info:
 # The above snippet about User Agents was adapted from https://crates.io/policies, copyright (c) 2014 The Rust Project Developers under MIT license
 
 servers:
-  - url: https://api.blankethub.loxalhost/v2
+  - url: https://api.blankethub.localhost/v2
     description: Production server
-  - url: https://staging-api.blankethub.loxalhost/v2
+  - url: https://staging-api.blankethub.localhost/v2
     description: Staging server
 
 components:
@@ -502,7 +502,7 @@ components:
           $ref: '#/components/schemas/VersionFileHashes'
         url:
           type: string
-          example: 'https://cdn.blankethub.loxalhost/data/AABBCCDD/versions/1.0.0/my_file.jar'
+          example: 'https://cdn.blankethub.localhost/data/AABBCCDD/versions/1.0.0/my_file.jar'
           description: A direct link to the file
         filename:
           type: string
@@ -645,7 +645,7 @@ components:
               description: The total number of downloads of the project
             icon_url:
               type: string
-              example: https://cdn.blankethub.loxalhost/data/AABBCCDD/b46513nd83hb4792a9a0e1fn28fgi6090c1842639.png
+              example: https://cdn.blankethub.localhost/data/AABBCCDD/b46513nd83hb4792a9a0e1fn28fgi6090c1842639.png
               description: The URL of the project's icon
               nullable: true
             color:
@@ -713,8 +713,8 @@ components:
               description: All gallery images attached to the project
               example:
                 [
-                  'https://cdn.blankethub.loxalhost/data/AABBCCDD/images/009b7d8d6e8bf04968a29421117c59b3efe2351a.png',
-                  'https://cdn.blankethub.loxalhost/data/AABBCCDD/images/c21776867afb6046fdc3c21dbcf5cc50ae27a236.png',
+                  'https://cdn.blankethub.localhost/data/AABBCCDD/images/009b7d8d6e8bf04968a29421117c59b3efe2351a.png',
+                  'https://cdn.blankethub.localhost/data/AABBCCDD/images/c21776867afb6046fdc3c21dbcf5cc50ae27a236.png',
                 ]
               items:
                 type: string
@@ -1023,7 +1023,7 @@ components:
         url:
           type: string
           description: The URL of the gallery image
-          example: https://cdn.blankethub.loxalhost/data/AABBCCDD/images/009b7d8d6e8bf04968a29421117c59b3efe2351a.png
+          example: https://cdn.blankethub.localhost/data/AABBCCDD/images/009b7d8d6e8bf04968a29421117c59b3efe2351a.png
         featured:
           type: boolean
           description: Whether the image is featured in the gallery
@@ -1243,7 +1243,7 @@ components:
         payout_address:
           type: string
           description: The user's payout address
-          example: support@blankethub.loxalhost
+          example: support@blankethub.localhost
     User:
       allOf:
         - $ref: '#/components/schemas/EditableUser'
@@ -1802,16 +1802,16 @@ components:
       properties:
         projects:
           type: integer
-          description: Number of projects on Modrinth
+          description: Number of projects on Blankethub
         versions:
           type: integer
-          description: Number of versions on Modrinth
+          description: Number of versions on Blankethub
         files:
           type: integer
-          description: Number of version files on Modrinth
+          description: Number of version files on Blankethub
         authors:
           type: integer
-          description: Number of authors (users with projects) on Modrinth
+          description: Number of authors (users with projects) on Blankethub
     ForgeUpdates:
       type: object
       description: Mod version information that can be consumed by Forge's update checker
@@ -1819,7 +1819,7 @@ components:
         homepage:
           type: string
           description: A link to the mod page
-          example: https://blankethub.loxalhost
+          example: https://blankethub.localhost
         promos:
           $ref: '#/components/schemas/ForgeUpdateCheckerPromos'
     ForgeUpdateCheckerPromos:
@@ -1841,7 +1841,7 @@ components:
 tags:
   - name: projects
     x-displayName: Projects
-    description: Projects are what Modrinth is centered around, be it mods, modpacks, resource packs, etc.
+    description: Projects are what Blankethub is centered around, be it mods, modpacks, resource packs, etc.
   - name: versions
     x-displayName: Versions
     description: Versions contain download links to files with additional metadata.
@@ -2261,7 +2261,7 @@ paths:
       - $ref: '#/components/parameters/ProjectIdentifier'
     post:
       summary: Add a gallery image
-      description: Modrinth allows you to upload files of up to 5MiB to a project's gallery.
+      description: Blankethub allows you to upload files of up to 5MiB to a project's gallery.
       operationId: addGalleryImage
       tags:
         - projects
@@ -3900,15 +3900,15 @@ paths:
           enum: [only, include]
           example: include
     servers:
-      - url: https://api.blankethub.loxalhost
+      - url: https://api.blankethub.localhost
         description: Production server
-      - url: https://staging-api.blankethub.loxalhost
+      - url: https://staging-api.blankethub.localhost
         description: Staging server
     get:
       summary: Forge Updates JSON file
       operationId: forgeUpdates
       description: |
-        If you're a Forge mod developer, your Modrinth mods have an automatically generated `updates.json` using the
+        If you're a Forge mod developer, your Blankethub mods have an automatically generated `updates.json` using the
         [Forge Update Checker](https://docs.minecraftforge.net/en/latest/misc/updatechecker/).
 
         The only setup is to insert the URL into the `[[mods]]` section of your `mods.toml` file as such:
@@ -3916,15 +3916,15 @@ paths:
         ```toml
         [[mods]]
         # the other stuff here - ID, version, display name, etc.
-        updateJSONURL = "https://api.blankethub.loxalhost/updates/{slug|ID}/forge_updates.json"
+        updateJSONURL = "https://api.blankethub.localhost/updates/{slug|ID}/forge_updates.json"
         ```
 
         Replace `{slug|id}` with the slug or ID of your project.
 
-        Modrinth will handle the rest! When you update your mod, Forge will notify your users that their copy of your mod is out of date.
+        Blankethub will handle the rest! When you update your mod, Forge will notify your users that their copy of your mod is out of date.
 
-        Make sure that the version format you use for your Modrinth releases is the same as the version format you use in your `mods.toml`.
-        If you use a format such as `1.2.3-forge` or `1.2.3+1.19` with your Modrinth releases but your `mods.toml` only has `1.2.3`,
+        Make sure that the version format you use for your Blankethub releases is the same as the version format you use in your `mods.toml`.
+        If you use a format such as `1.2.3-forge` or `1.2.3+1.19` with your Blankethub releases but your `mods.toml` only has `1.2.3`,
         the update checker may not function properly.
 
         If you're using NeoForge, NeoForge versions will, by default, not appear in the default URL.
@@ -3933,7 +3933,7 @@ paths:
         ```toml
         [[mods]]
         # the other stuff here - ID, version, display name, etc.
-        updateJSONURL = "https://api.blankethub.loxalhost/updates/{slug|ID}/forge_updates.json?neoforge=only"
+        updateJSONURL = "https://api.blankethub.localhost/updates/{slug|ID}/forge_updates.json?neoforge=only"
         ```
       tags:
         - misc
@@ -3952,7 +3952,7 @@ paths:
                 $ref: '#/components/schemas/InvalidInputError'
   /statistics:
     get:
-      summary: Various statistics about this Modrinth instance
+      summary: Various statistics about this Blankethub instance
       operationId: statistics
       tags:
         - misc

@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { XIcon } from '@modrinth/assets'
 import {
-	ButtonStyled,
-	commonMessages,
-	defineMessages,
-	PagewideBanner,
-	useVIntl,
+    ButtonStyled,
+    commonMessages,
+    defineMessages,
+    PagewideBanner,
+    useVIntl,
 } from '@modrinth/ui'
 
 const { formatMessage } = useVIntl()
@@ -14,12 +14,12 @@ const cosmetics = useCosmetics()
 const messages = defineMessages({
 	title: {
 		id: 'layout.banner.staging.title',
-		defaultMessage: 'You’re viewing Modrinth’s staging environment',
+		defaultMessage: 'You’re viewing Blankethub’s staging environment',
 	},
 	description: {
 		id: 'layout.banner.staging.description',
 		defaultMessage:
-			'The staging environment is completely separate from the production Modrinth database. This is used for testing and debugging purposes, and may be running in-development versions of the Modrinth backend or frontend newer than the production instance.',
+			'The staging environment is completely separate from the production Blankethub database. This is used for testing and debugging purposes, and may be running in-development versions of the Blankethub backend or frontend newer than the production instance.',
 	},
 })
 

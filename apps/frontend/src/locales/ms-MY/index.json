@@ -30,7 +30,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "Versi Linux Modrinth App <issues-link>diketahui mempunyai isu</issues-link> pada sistem dan konfigurasi tertentu. Jika Modrinth App tidak stabil pada sistem anda, kami menggalakkan anda mencuba aplikasi lain seperti <prism-link>Prism Launcher</prism-link> untuk memasang kandungan Modrinth dengan mudah."
+    "message": "Versi Linux Blankethub App <issues-link>diketahui mempunyai isu</issues-link> pada sistem dan konfigurasi tertentu. Jika Blankethub App tidak stabil pada sistem anda, kami menggalakkan anda mencuba aplikasi lain seperti <prism-link>Prism Launcher</prism-link> untuk memasang kandungan Blankethub dengan mudah."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -39,10 +39,10 @@
     "message": "Pilihan muat turun"
   },
   "app-marketing.download.terms": {
-    "message": "Dengan memuat turun Modrinth App, anda bersetuju dengan <terms-link>Terma</terms-link> dan <privacy-link>Dasar Privasi</privacy-link> kami."
+    "message": "Dengan memuat turun Blankethub App, anda bersetuju dengan <terms-link>Terma</terms-link> dan <privacy-link>Dasar Privasi</privacy-link> kami."
   },
   "app-marketing.download.title": {
-    "message": "Muat Turun Modrinth App (Beta)"
+    "message": "Muat Turun Blankethub App (Beta)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "Ikuti projek"
   },
   "app-marketing.features.importing.description": {
-    "message": "Import semua profil kegemaran anda daripada pelancar yang anda gunakan sebelum ini, dan mula gunakan Modrinth App dalam beberapa saat!"
+    "message": "Import semua profil kegemaran anda daripada pelancar yang anda gunakan sebelum ini, dan mula gunakan Blankethub App dalam beberapa saat!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "oleh {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth menjadikan pengurusan semua mod anda pada satu tempat mudah. Anda boleh memasang, menyahpasang dan mengemas kini mod dengan sekali klik."
+    "message": "Blankethub menjadikan pengurusan semua mod anda pada satu tempat mudah. Anda boleh memasang, menyahpasang dan mengemas kini mod dengan sekali klik."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Mod yang dipasang"
@@ -96,7 +96,7 @@
     "message": "Mod luar talian"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Pelancar Modrinth adalah sumber terbuka sepenuhnya. Anda boleh melihat kod sumber pada laman <github-link>GitHub</github-link> kami!"
+    "message": "Pelancar Blankethub adalah sumber terbuka sepenuhnya. Anda boleh melihat kod sumber pada laman <github-link>GitHub</github-link> kami!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Sumber terbuka"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Modrinth App berprestasi lebih baik daripada kebanyakan pengurus mod terkemuka, menggunakan hanya 150MB RAM!"
+    "message": "Blankethub App berprestasi lebih baik daripada kebanyakan pengurus mod terkemuka, menggunakan hanya 150MB RAM!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -129,7 +129,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 bilion %"
@@ -147,13 +147,13 @@
     "message": "Cekap"
   },
   "app-marketing.features.play.description": {
-    "message": "Gunakan Modrinth App untuk memuat turun dan memainkan mod dan pek mod kegemaran anda."
+    "message": "Gunakan Blankethub App untuk memuat turun dan memainkan mod dan pek mod kegemaran anda."
   },
   "app-marketing.features.play.title": {
     "message": "Mainkan mod kegemaran anda"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Bina, kongsi dan mainkan pek mod dengan mana-mana pilihan daripada beribu-ribu mod dan pek mod yang dihoskan di sini di Modrinth."
+    "message": "Bina, kongsi dan mainkan pek mod dengan mana-mana pilihan daripada beribu-ribu mod dan pek mod yang dihoskan di sini di Blankethub."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Pek Mod"
@@ -168,7 +168,7 @@
     "message": "Tidak seperti pelancar yang"
   },
   "app-marketing.features.website.description": {
-    "message": "Modrinth App disepadukan sepenuhnya dengan laman sesawang, jadi anda boleh mengakses semua projek kegemaran anda dari dalam aplikasi!"
+    "message": "Blankethub App disepadukan sepenuhnya dengan laman sesawang, jadi anda boleh mengakses semua projek kegemaran anda dari dalam aplikasi!"
   },
   "app-marketing.features.website.title": {
     "message": "Penyepaduan laman sesawang"
@@ -177,19 +177,19 @@
     "message": "anda gunakan sebelum ini"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Petikan skrin Modrinth App dengan pemasangan Cobblemon dibuka ke halaman 'Kandungan'."
+    "message": "Petikan skrin Blankethub App dengan pemasangan Cobblemon dibuka ke halaman 'Kandungan'."
   },
   "app-marketing.hero.description": {
-    "message": "Modrinth App ialah sebuah pelancar sumber terbuka unik yang membolehkan anda memainkan mod kegemaran anda dan memastikannya dikemas kini, semuanya dalam satu pakej kecil yang kemas."
+    "message": "Blankethub App ialah sebuah pelancar sumber terbuka unik yang membolehkan anda memainkan mod kegemaran anda dan memastikannya dikemas kini, semuanya dalam satu pakej kecil yang kemas."
   },
   "app-marketing.hero.download-button": {
-    "message": "Muat Turun Modrinth App"
+    "message": "Muat Turun Blankethub App"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Muat Turun Modrinth App"
+    "message": "Muat Turun Blankethub App"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "Muat Turun Modrinth App untuk {os}"
+    "message": "Muat Turun Blankethub App untuk {os}"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "Petikan skrin menu utama pemasangan Cobblemon."
@@ -282,7 +282,7 @@
     "message": "Cipta akaun"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Dengan mencipta akaun, anda bersetuju dengan <terms-link>Terma</terms-link> dan <privacy-policy-link>Dasar Privasi</privacy-policy-link> Modrinth."
+    "message": "Dengan mencipta akaun, anda bersetuju dengan <terms-link>Terma</terms-link> dan <privacy-policy-link>Dasar Privasi</privacy-policy-link> Blankethub."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "Kata laluan tidak sepadan!"
@@ -291,7 +291,7 @@
     "message": "Sudah mempunyai akaun?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Langgan kepada kemas kini tentang Modrinth"
+    "message": "Langgan kepada kemas kini tentang Blankethub"
   },
   "auth.sign-up.title": {
     "message": "Daftar"
@@ -333,16 +333,16 @@
     "message": "Sahkan E-mel"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Langgan kepada kemas kini tentang Modrinth"
+    "message": "Langgan kepada kemas kini tentang Blankethub"
   },
   "auth.welcome.description": {
     "message": "Anda kini sebahagian daripada komuniti hebat pencipta & peneroka yang sudah membina, memuat turun dan sentiasa mengikuti perkembangan terkini mengenai mod yang menakjubkan."
   },
   "auth.welcome.label.tos": {
-    "message": "Dengan mencipta akaun, anda telah bersetuju dengan <terms-link>Terma</terms-link> dan <privacy-policy-link>Dasar Privasi</privacy-policy-link> Modrinth."
+    "message": "Dengan mencipta akaun, anda telah bersetuju dengan <terms-link>Terma</terms-link> dan <privacy-policy-link>Dasar Privasi</privacy-policy-link> Blankethub."
   },
   "auth.welcome.long-title": {
-    "message": "Selamat Datang ke Modrinth!"
+    "message": "Selamat Datang ke Blankethub!"
   },
   "auth.welcome.title": {
     "message": "Selamat Datang"
@@ -372,7 +372,7 @@
     "message": "Adakah anda pasti mahu memadamkan koleksi ini?"
   },
   "collection.description": {
-    "message": "{description} - Lihat koleksi {name} oleh {username} di Modrinth"
+    "message": "{description} - Lihat koleksi {name} oleh {username} di Blankethub"
   },
   "collection.description.following": {
     "message": "Koleksi semua projek yang anda ikuti yang dijana secara automatik."
@@ -591,7 +591,7 @@
     "message": "Borang cukai"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "Modrinth menggunakan penyedia pihak ketiga Track1099 untuk mengumpul dan menyimpan borang cukai anda dengan selamat. <security-link>Ketahui lebih lanjut di sini.</security-link>"
+    "message": "Blankethub menggunakan penyedia pihak ketiga Track1099 untuk mengumpul dan menyimpan borang cukai anda dengan selamat. <security-link>Ketahui lebih lanjut di sini.</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "Amalan keselamatan"
@@ -756,7 +756,7 @@
     "message": "Untuk mengeluarkan baki penuh anda yang tersedia sebanyak <b>{available}</b>, sila lengkapkan borang di bawah. Ia diperlukan untuk pelaporan cukai dan hanya perlu dilakukan sekali sahaja."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
-    "message": "Anda mesti melengkapkan borang W-9 atau W-8 untuk rekod cukai Modrinth supaya kami kekal mematuhi peraturan cukai."
+    "message": "Anda mesti melengkapkan borang W-9 atau W-8 untuk rekod cukai Blankethub supaya kami kekal mematuhi peraturan cukai."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.header": {
     "message": "Borang cukai diperlukan"
@@ -798,7 +798,7 @@
     "message": "E-mel yang belum disahkan"
   },
   "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
-    "message": "E-mel penghantaran yang anda masukkan tidak dikaitkan dengan akaun Modrinth anda. Modrinth tidak dapat mendapatkan semula ganjaran yang dihantar ke alamat e-mel yang salah."
+    "message": "E-mel penghantaran yang anda masukkan tidak dikaitkan dengan akaun Blankethub anda. Blankethub tidak dapat mendapatkan semula ganjaran yang dihantar ke alamat e-mel yang salah."
   },
   "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
     "message": "Yuran lebih rendah tersedia"
@@ -825,7 +825,7 @@
     "message": "Anggaran hasil pendapatan mungkin tertakluk kepada perubahan sehingga ia tersedia."
   },
   "dashboard.revenue.estimated-tooltip.msg2": {
-    "message": "Klik untuk membaca tentang cara Modrinth mengendalikan pendapatan anda."
+    "message": "Klik untuk membaca tentang cara Blankethub mengendalikan pendapatan anda."
   },
   "dashboard.revenue.estimated-with-date": {
     "message": "Anggaran {date}"
@@ -846,7 +846,7 @@
     "message": "Dikeluarkan"
   },
   "dashboard.revenue.tos": {
-    "message": "Dengan memuat naik projek ke Modrinth dan mengeluarkan wang daripada akaun anda, anda bersetuju dengan <terms-link>Terma Program Ganjaran</terms-link> kami. Ketahui lebih lanjut tentang <info-link>Program Ganjaran</info-link> ini."
+    "message": "Dengan memuat naik projek ke Blankethub dan mengeluarkan wang daripada akaun anda, anda bersetuju dengan <terms-link>Terma Program Ganjaran</terms-link> kami. Ketahui lebih lanjut tentang <info-link>Program Ganjaran</info-link> ini."
   },
   "dashboard.revenue.transactions.btn.download-csv": {
     "message": "Muat turun sebagai CSV"
@@ -978,7 +978,7 @@
     "message": "Koleksi ini mungkin sebuah koleksi peribadi."
   },
   "error.collection.404.list_item.3": {
-    "message": "Koleksi itu mungkin telah dialih keluar oleh pasukan penyederhana Modrinth kerana melanggar <tou-link>Terma Penggunaan</tou-link> kami."
+    "message": "Koleksi itu mungkin telah dialih keluar oleh pasukan penyederhana Blankethub kerana melanggar <tou-link>Terma Penggunaan</tou-link> kami."
   },
   "error.collection.404.list_title": {
     "message": "Kenapa?"
@@ -999,10 +999,10 @@
     "message": "Kandungan tidak tersedia atas sebab undang-undang"
   },
   "error.generic.default.list_item.1": {
-    "message": "Semak sama ada Modrinth tidak berfungsi pada <status-link>halaman Status</status-link> kami."
+    "message": "Semak sama ada Blankethub tidak berfungsi pada <status-link>halaman Status</status-link> kami."
   },
   "error.generic.default.list_item.2": {
-    "message": "Jika ralat ini terus berlaku, anda mungkin ingin memberitahu Pasukan Modrinth dengan menyertai <discord-link>pelayan Discord</discord-link> kami."
+    "message": "Jika ralat ini terus berlaku, anda mungkin ingin memberitahu Pasukan Blankethub dengan menyertai <discord-link>pelayan Discord</discord-link> kami."
   },
   "error.generic.default.list_title": {
     "message": "Sila cuba lagi dalam beberapa minit."
@@ -1020,7 +1020,7 @@
     "message": "Pemilik organisasi mungkin telah menukar URL atau memadamkannya."
   },
   "error.organization.404.list_item.3": {
-    "message": "Organisasi itu mungkin telah dialih keluar oleh pasukan penyederhana Modrinth kerana melanggar <tou-link>Terma Penggunaan</tou-link> kami."
+    "message": "Organisasi itu mungkin telah dialih keluar oleh pasukan penyederhana Blankethub kerana melanggar <tou-link>Terma Penggunaan</tou-link> kami."
   },
   "error.organization.404.list_title": {
     "message": "Kenapa?"
@@ -1035,7 +1035,7 @@
     "message": "Pemilik projek mungkin telah menukar URL, memperibadikan projek atau memadamkannya."
   },
   "error.project.404.list_item.3": {
-    "message": "Projek itu mungkin telah dialih keluar oleh pasukan penyederhana Modrinth kerana melanggar <tou-link>Terma Penggunaan</tou-link> kami."
+    "message": "Projek itu mungkin telah dialih keluar oleh pasukan penyederhana Blankethub kerana melanggar <tou-link>Terma Penggunaan</tou-link> kami."
   },
   "error.project.404.list_title": {
     "message": "Kenapa?"
@@ -1092,10 +1092,10 @@
     "message": "Apabila pelayan anda berada di bawah beban yang berat, kami memberikannya akses kepada bebenang CPU tambahan buat sementara waktu untuk membantu mengurangkan lonjakan lag dan ketidakstabilan. Ini membantu mengelakkan TPS daripada menurun ke bawah 20, memastikan pengalaman yang paling lancar. Memandangkan bebenang CPU tambahan tersebut hanya tersedia sebentar semasa tempoh beban yang tinggi, ia mungkin tidak muncul dalam laporan Spark atau alat pemprofilan lain."
   },
   "hosting-marketing.faq.cpu-kind": {
-    "message": "Apakah jenis CPU yang digunakan oleh pelayan Modrinth Hosting?"
+    "message": "Apakah jenis CPU yang digunakan oleh pelayan Blankethub Hosting?"
   },
   "hosting-marketing.faq.cpu-kind.answer": {
-    "message": "Pelayan Modrinth Hosting dikuasakan oleh CPU setara AMD Ryzen 7900 dan 7950X3D pada 5+ GHz, digandingkan dengan ingatan DDR5."
+    "message": "Pelayan Blankethub Hosting dikuasakan oleh CPU setara AMD Ryzen 7900 dan 7950X3D pada 5+ GHz, digandingkan dengan ingatan DDR5."
   },
   "hosting-marketing.faq.currency": {
     "message": "Dalam mata wang apa harga-harga tersebut?"
@@ -1104,19 +1104,19 @@
     "message": "Semua harga disenaraikan dalam Dolar Amerika Syarikat (USD)."
   },
   "hosting-marketing.faq.ddos-protection": {
-    "message": "Adakah pelayan Modrinth Hosting mempunyai perlindungan DDoS?"
+    "message": "Adakah pelayan Blankethub Hosting mempunyai perlindungan DDoS?"
   },
   "hosting-marketing.faq.ddos-protection.answer": {
-    "message": "Ya. Semua pelayan Modrinth Hosting dilengkapi dengan perlindungan DDoS, dengan kapasiti sehingga 17 Tbps di beberapa lokasi."
+    "message": "Ya. Semua pelayan Blankethub Hosting dilengkapi dengan perlindungan DDoS, dengan kapasiti sehingga 17 Tbps di beberapa lokasi."
   },
   "hosting-marketing.faq.heading": {
     "message": "Soalan Lazim"
   },
   "hosting-marketing.faq.how-fast": {
-    "message": "Seberapa pantaskah pelayan Modrinth Hosting?"
+    "message": "Seberapa pantaskah pelayan Blankethub Hosting?"
   },
   "hosting-marketing.faq.how-fast.answer.one": {
-    "message": "Pelayan Modrinth Hosting dihoskan pada perkakasan berprestasi tinggi yang sangat moden, tetapi sukar untuk mengatakan bagaimana sebenarnya itu akan diterjemahkan kepada seberapa pantas pelayan anda akan berjalan kerana terdapat begitu banyak faktor yang mempengaruhinya, seperti mod, pek data atau pemalam yang anda jalankan pada pelayan anda, dan juga tingkah laku pengguna."
+    "message": "Pelayan Blankethub Hosting dihoskan pada perkakasan berprestasi tinggi yang sangat moden, tetapi sukar untuk mengatakan bagaimana sebenarnya itu akan diterjemahkan kepada seberapa pantas pelayan anda akan berjalan kerana terdapat begitu banyak faktor yang mempengaruhinya, seperti mod, pek data atau pemalam yang anda jalankan pada pelayan anda, dan juga tingkah laku pengguna."
   },
   "hosting-marketing.faq.how-fast.answer.two": {
     "message": "Kebanyakan masalah prestasi yang timbul cenderung disebabkan oleh pek mod, mod, pek data atau pemalam yang tidak dioptimumkan yang menyebabkan pelayan menjadi lag. Memandangkan pelayan kami sangat canggih, anda tidak sepatutnya menghadapi banyak masalah selagi anda memilih pelan yang sesuai untuk kandungan yang anda jalankan di pelayan."
@@ -1125,10 +1125,10 @@
     "message": "Bolehkah saya menambah penyimpanan pada pelayan saya?"
   },
   "hosting-marketing.faq.increase-storage.answer": {
-    "message": "Ya, penyimpanan boleh ditambah pada pelayan anda tanpa sebarang kos tambahan. Jika anda memerlukan lebih banyak storan, hubungi Sokongan Modrinth."
+    "message": "Ya, penyimpanan boleh ditambah pada pelayan anda tanpa sebarang kos tambahan. Jika anda memerlukan lebih banyak storan, hubungi Sokongan Blankethub."
   },
   "hosting-marketing.faq.location": {
-    "message": "Di manakah pelayan Modrinth Hosting terletak? Bolehkah saya memilih rantau?"
+    "message": "Di manakah pelayan Blankethub Hosting terletak? Bolehkah saya memilih rantau?"
   },
   "hosting-marketing.faq.location.answer": {
     "message": "Kami mempunyai pelayan yang tersedia di Amerika Utara, Eropah dan Asia Tenggara pada masa ini yang boleh anda pilih semasa pembelian. Lebih banyak rantau akan datang pada masa hadapan! Jika anda ingin menukar rantau anda, sila hubungi sokongan."
@@ -1137,7 +1137,7 @@
     "message": "Versi Minecraft dan pemuat apa yang boleh digunakan?"
   },
   "hosting-marketing.faq.versions-loaders.answer.one": {
-    "message": "Pelayan Modrinth Hosting boleh menjalankan sebarang versi Minecraft: Edisi Java sejak versi 1.2.5, termasuk versi-versi petikan (snapshot)."
+    "message": "Pelayan Blankethub Hosting boleh menjalankan sebarang versi Minecraft: Edisi Java sejak versi 1.2.5, termasuk versi-versi petikan (snapshot)."
   },
   "hosting-marketing.faq.versions-loaders.answer.two": {
     "message": "Kami juga menyokong pelbagai pemuat mod dan pemalam, termasuk Fabric, Quilt, Forge dan NeoForge untuk mod, serta Paper dan Purpur untuk pemalam. Ketersediaan bergantung pada sama ada pemuat mod atau pemalam menyokong versi Minecraft yang dipilih."
@@ -1155,10 +1155,10 @@
     "message": "Mulakan pelayan anda"
   },
   "hosting-marketing.hero.host-with-modrinth": {
-    "message": "Hoskan pelayan anda yang seterusnya dengan Modrinth Hosting"
+    "message": "Hoskan pelayan anda yang seterusnya dengan Blankethub Hosting"
   },
   "hosting-marketing.hero.hosting-description": {
-    "message": "Modrinth Hosting ialah cara paling mudah untuk mengehos pelayan Minecraft: Edisi Java anda sendiri. Pasang dan mainkan mod dan pek mod kegemaran anda dengan lancar, semuanya dalam platform Modrinth."
+    "message": "Blankethub Hosting ialah cara paling mudah untuk mengehos pelayan Minecraft: Edisi Java anda sendiri. Pasang dan mainkan mod dan pek mod kegemaran anda dengan lancar, semuanya dalam platform Blankethub."
   },
   "hosting-marketing.included.advanced-networking": {
     "message": "Pengurusan rangkaian lanjutan"
@@ -1179,7 +1179,7 @@
     "message": "Kongsi pelayan anda dengan URL <contrast>modrinth.gg</contrast> tersuai."
   },
   "hosting-marketing.included.description": {
-    "message": "Setiap pelayan disertakan dengan satu set ciri yang direka untuk menyediakan pengalaman pengehosan yang hanya boleh ditawarkan oleh Modrinth."
+    "message": "Setiap pelayan disertakan dengan satu set ciri yang direka untuk menyediakan pengalaman pengehosan yang hanya boleh ditawarkan oleh Blankethub."
   },
   "hosting-marketing.included.file-manager": {
     "message": "Pengurus fail yang mudah digunakan"
@@ -1194,19 +1194,19 @@
     "message": "Bantuan apabila anda memerlukannya"
   },
   "hosting-marketing.included.help.description": {
-    "message": "Hubungi pasukan Modrinth untuk mendapatkan bantuan dengan pelayan anda pada bila-bila masa."
+    "message": "Hubungi pasukan Blankethub untuk mendapatkan bantuan dengan pelayan anda pada bila-bila masa."
   },
   "hosting-marketing.included.powerful-console": {
     "message": "Konsol yang berkuasa, pengurus sifat pelayan dan banyak lagi"
   },
   "hosting-marketing.included.powerful-console.description": {
-    "message": "Modrinth Hosting dilengkapi dengan alat yang berkuasa untuk mengurus pelayan anda."
+    "message": "Blankethub Hosting dilengkapi dengan alat yang berkuasa untuk mengurus pelayan anda."
   },
   "hosting-marketing.included.sftp-access": {
     "message": "Akses SFTP"
   },
   "hosting-marketing.included.sftp-access.description": {
-    "message": "Akses fail pelayan anda secara langsung dengan SFTP yang terbina dalam Modrinth Hosting."
+    "message": "Akses fail pelayan anda secara langsung dengan SFTP yang terbina dalam Blankethub Hosting."
   },
   "hosting-marketing.included.with-your-server": {
     "message": "Disertakan dengan pelayan anda"
@@ -1230,19 +1230,19 @@
     "message": "Ada pelayan untuk semua orang"
   },
   "hosting-marketing.why.all-on-modrinth": {
-    "message": "Urus semuanya di Modrinth"
+    "message": "Urus semuanya di Blankethub"
   },
   "hosting-marketing.why.all-on-modrinth.description": {
-    "message": "Pelayan, mod, pemain dan banyak lagi semuanya ada di Modrinth. Tidak perlu bertukar antara platform."
+    "message": "Pelayan, mod, pemain dan banyak lagi semuanya ada di Blankethub. Tidak perlu bertukar antara platform."
   },
   "hosting-marketing.why.consistently-fast": {
     "message": "Sentiasa pantas"
   },
   "hosting-marketing.why.consistently-fast.description": {
-    "message": "Infrastruktur kami tidak pernah kelebihan beban, bermakna setiap pelayan yang dihoskan dengan Modrinth sentiasa berjalan pada prestasi penuhnya."
+    "message": "Infrastruktur kami tidak pernah kelebihan beban, bermakna setiap pelayan yang dihoskan dengan Blankethub sentiasa berjalan pada prestasi penuhnya."
   },
   "hosting-marketing.why.description": {
-    "message": "Pilih daripada beribu-ribu pek mod di Modrinth atau cipta pek mod anda sendiri. Jemput rakan anda apabila anda bersedia untuk bermain."
+    "message": "Pilih daripada beribu-ribu pek mod di Blankethub atau cipta pek mod anda sendiri. Jemput rakan anda apabila anda bersedia untuk bermain."
   },
   "hosting-marketing.why.heading": {
     "message": "Cari pek mod. Sekarang, sudah jadi pelayan."
@@ -1251,22 +1251,22 @@
     "message": "Alami pengehosan moden yang boleh dipercayai"
   },
   "hosting-marketing.why.modern-reliable-hosting.description": {
-    "message": "Pelayan Modrinth Hosting dihoskan pada <contrast>CPU AMD berprestasi tinggi dengan RAM DDR5</contrast>, yang berjalan pada perisian binaan khas untuk memastikan pelayan anda berfungsi dengan lancar."
+    "message": "Pelayan Blankethub Hosting dihoskan pada <contrast>CPU AMD berprestasi tinggi dengan RAM DDR5</contrast>, yang berjalan pada perisian binaan khas untuk memastikan pelayan anda berfungsi dengan lancar."
   },
   "hosting-marketing.why.where-mods-are": {
     "message": "Main di tempat mod anda berada"
   },
   "hosting-marketing.why.where-mods-are.description": {
-    "message": "Modrinth Hosting mengintegrasikan proses pemasangan mod dan pek mod dengan lancar ke dalam pelayan anda."
+    "message": "Blankethub Hosting mengintegrasikan proses pemasangan mod dan pek mod dengan lancar ke dalam pelayan anda."
   },
   "hosting-marketing.why.why-modrinth-hosting": {
-    "message": "Kenapa Modrinth Hosting?"
+    "message": "Kenapa Blankethub Hosting?"
   },
   "hosting-marketing.why.your-favorite-mods": {
     "message": "Semua mod kegemaran anda"
   },
   "hosting-marketing.why.your-favorite-mods.description": {
-    "message": "Pilih antara Vanila, Fabric, Forge, Quilt dan NeoForge. Jika ia berada di Modrinth, ia boleh dijalankan pada pelayan anda."
+    "message": "Pilih antara Vanila, Fabric, Forge, Quilt dan NeoForge. Jika ia berada di Blankethub, ia boleh dijalankan pada pelayan anda."
   },
   "hosting.plan.out-of-stock": {
     "message": "Kehabisan stok"
@@ -1281,7 +1281,7 @@
     "message": "Pergi ke papan pemuka"
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "Dapatkan pengalaman pengubahsuaian terbaik yang mungkin dengan kemas kini berterusan daripada pasukan Modrinth"
+    "message": "Dapatkan pengalaman pengubahsuaian terbaik yang mungkin dengan kemas kini berterusan daripada pasukan Blankethub"
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "Sentiasa Berkembang"
@@ -1326,13 +1326,13 @@
     "message": "Ikuti projek yang anda sukai"
   },
   "landing.feature.launcher.description": {
-    "message": "API sumber terbuka Modrinth membolehkan pelancar menambah penyepaduan yang mendalam dengan Modrinth. Anda boleh menggunakan Modrinth melalui <link>aplikasi kami sendiri</link> dan beberapa pelancar paling popular seperti ATLauncher, MultiMC dan Prism Launcher."
+    "message": "API sumber terbuka Blankethub membolehkan pelancar menambah penyepaduan yang mendalam dengan Blankethub. Anda boleh menggunakan Blankethub melalui <link>aplikasi kami sendiri</link> dan beberapa pelancar paling popular seperti ATLauncher, MultiMC dan Prism Launcher."
   },
   "landing.feature.launcher.heading": {
     "message": "Mainkan dengan pelancar kegemaran anda"
   },
   "landing.feature.search.description": {
-    "message": "Carian sepantas kilat dan penapis berkuasa oleh Modrinth membolehkan anda mencari perkara yang anda inginkan semasa anda menaip."
+    "message": "Carian sepantas kilat dan penapis berkuasa oleh Blankethub membolehkan anda mencari perkara yang anda inginkan semasa anda menaip."
   },
   "landing.feature.search.heading": {
     "message": "Cari apa yang anda mahu, dengan cepat dan mudah"
@@ -1365,10 +1365,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "Perwakilan ringkas tetingkap Minecraft, dengan logo Mojang Studios dalam warna hijau Modrinth."
+    "message": "Perwakilan ringkas tetingkap Minecraft, dengan logo Mojang Studios dalam warna hijau Blankethub."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -1452,25 +1452,25 @@
     "message": "Lawat tetapan akaun"
   },
   "layout.banner.add-email.description": {
-    "message": "Atas sebab keselamatan, Modrinth memerlukan anda mendaftarkan alamat e-mel ke akaun anda."
+    "message": "Atas sebab keselamatan, Blankethub memerlukan anda mendaftarkan alamat e-mel ke akaun anda."
   },
   "layout.banner.build-fail.description": {
-    "message": "Penggunaan bahagian hadapan Modrinth ini gagal menjana keadaan daripada API. Ini mungkin disebabkan oleh gangguan atau ralat dalam konfigurasi. Bina semula apabila API tersedia. Kod ralat: {errors}; URL API semasa ialah: {url}"
+    "message": "Penggunaan bahagian hadapan Blankethub ini gagal menjana keadaan daripada API. Ini mungkin disebabkan oleh gangguan atau ralat dalam konfigurasi. Bina semula apabila API tersedia. Kod ralat: {errors}; URL API semasa ialah: {url}"
   },
   "layout.banner.build-fail.title": {
     "message": "Ralat menjana keadaan daripada API semasa membina."
   },
   "layout.banner.preview.description": {
-    "message": "Jika anda bermaksud untuk mengakses laman sesawang rasmi Modrinth, lawati <link>https://blankethub.loxalhost</link>. Pralihat pelaksanaan ini digunakan oleh kakitangan Modrinth untuk tujuan pengujian. Ia dibina menggunakan <branch-link>{owner}/{branch}</branch-link> @ {commit}."
+    "message": "Jika anda bermaksud untuk mengakses laman sesawang rasmi Blankethub, lawati <link>https://blankethub.localhost</link>. Pralihat pelaksanaan ini digunakan oleh kakitangan Blankethub untuk tujuan pengujian. Ia dibina menggunakan <branch-link>{owner}/{branch}</branch-link> @ {commit}."
   },
   "layout.banner.preview.title": {
-    "message": "Ini ialah pengaturan pralihat laman sesawang Modrinth."
+    "message": "Ini ialah pengaturan pralihat laman sesawang Blankethub."
   },
   "layout.banner.staging.description": {
-    "message": "Persekitaran pementasan adalah berasingan daripada pangkalan data produksi Modrinth. Ini digunakan untuk tujuan ujian dan penyahpepijatan, dan mungkin menjalankan versi dalam pembangunan bahagian belakang atau hadapan Modrinth yang lebih baharu daripada persekitaran produksi."
+    "message": "Persekitaran pementasan adalah berasingan daripada pangkalan data produksi Blankethub. Ini digunakan untuk tujuan ujian dan penyahpepijatan, dan mungkin menjalankan versi dalam pembangunan bahagian belakang atau hadapan Blankethub yang lebih baharu daripada persekitaran produksi."
   },
   "layout.banner.staging.title": {
-    "message": "Anda sedang melihat persekitaran pementasan Modrinth"
+    "message": "Anda sedang melihat persekitaran pementasan Blankethub"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "Kemas kini maklumat pengebilan"
@@ -1485,7 +1485,7 @@
     "message": "Lengkapkan borang cukai"
   },
   "layout.banner.tax.description": {
-    "message": "Anda telah mengeluarkan lebih $600 daripada Modrinth tahun ini. Untuk mematuhi peraturan cukai, anda perlu melengkapkan borang cukai. Pengeluaran anda dijeda sehingga borang ini diserahkan."
+    "message": "Anda telah mengeluarkan lebih $600 daripada Blankethub tahun ini. Untuk mematuhi peraturan cukai, anda perlu melengkapkan borang cukai. Pengeluaran anda dijeda sehingga borang ini diserahkan."
   },
   "layout.banner.tax.title": {
     "message": "Borang cukai diperlukan"
@@ -1503,7 +1503,7 @@
     "message": "Hantar semula e-mel pengesahan"
   },
   "layout.banner.verify-email.description": {
-    "message": "Atas sebab keselamatan, Modrinth memerlukan anda mengesahkan alamat e-mel yang dikaitkan dengan akaun anda."
+    "message": "Atas sebab keselamatan, Blankethub memerlukan anda mengesahkan alamat e-mel yang dikaitkan dengan akaun anda."
   },
   "layout.footer.about": {
     "message": "Tentang"
@@ -1545,20 +1545,20 @@
     "message": "Terma Penggunaan"
   },
   "layout.footer.modrinth-information": {
-    "message": "Maklumat Modrinth"
+    "message": "Maklumat Blankethub"
   },
   "layout.footer.open-source": {
-    "message": "<github-link>Sumber Modrinth adalah terbuka</github-link>."
+    "message": "<github-link>Sumber Blankethub adalah terbuka</github-link>."
   },
   "layout.footer.products": {
     "message": "Produk"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
 
   "layout.footer.products.servers": {
-    "message": "Modrinth Hosting"
+    "message": "Blankethub Hosting"
   },
   "layout.footer.resources": {
     "message": "Sumber"
@@ -1594,7 +1594,7 @@
     "message": "Togol menu"
   },
   "layout.meta.description": {
-    "message": "Muat turun mod, pemalam, pek data, pek pembayang, pek sumber dan pek mod Minecraft di Modrinth. Temui dan terbitkan projek di Modrinth dengan antara muka dan API yang moden dan mudah digunakan."
+    "message": "Muat turun mod, pemalam, pek data, pek pembayang, pek sumber dan pek mod Minecraft di Blankethub. Temui dan terbitkan projek di Blankethub dengan antara muka dan API yang moden dan mudah digunakan."
   },
   "layout.meta.og-description": {
     "message": "Temui dan terbitkan kandungan Minecraft!"
@@ -1618,7 +1618,7 @@
     "message": "Penetapan ciri"
   },
   "layout.nav.get-modrinth-app": {
-    "message": "Dapatkan Modrinth App"
+    "message": "Dapatkan Blankethub App"
   },
   "layout.nav.home": {
     "message": "Laman Utama"
@@ -1627,10 +1627,10 @@
     "message": "Hos sebuah pelayan"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "Laman utama Modrinth"
+    "message": "Laman utama Blankethub"
   },
   "layout.nav.my-servers": {
     "message": "Pelayan saya"
@@ -1933,10 +1933,10 @@
     "message": "Semak semula alamat dompet anda. Dana yang dihantar ke alamat yang salah tidak boleh dipulihkan."
   },
   "profile.bio.fallback.creator": {
-    "message": "Seorang pencipta Modrinth."
+    "message": "Seorang pencipta Blankethub."
   },
   "profile.bio.fallback.user": {
-    "message": "Seorang pengguna Modrinth."
+    "message": "Seorang pengguna Blankethub."
   },
   "profile.button.billing": {
     "message": "Urus pengebilan pengguna"
@@ -2020,10 +2020,10 @@
     "message": "Sedang menyimpan..."
   },
   "profile.meta.description": {
-    "message": "Muat turun projek milik {username} di Modrinth"
+    "message": "Muat turun projek milik {username} di Blankethub"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - Muat turun projek milik {username} di Modrinth"
+    "message": "{bio} - Muat turun projek milik {username} di Blankethub"
   },
   "profile.stats.projects-followers": {
     "message": "{count, plural, other {<stat>{count}</stat> pengikut projek}}"
@@ -2062,7 +2062,7 @@
     "message": "Serah semula untuk penilaian"
   },
   "project-moderation-nags.resubmit-for-review-desc": {
-    "message": "Projek anda telah {status, select, rejected {ditolak} withheld {ditahan} other {{status}}} oleh staf Modrinth. Dalam kebanyakan kes, anda boleh menyerahkan semula untuk semakan selepas menangani masalah yang dikemukakan dalam mesej kakitangan."
+    "message": "Projek anda telah {status, select, rejected {ditolak} withheld {ditahan} other {{status}}} oleh staf Blankethub. Dalam kebanyakan kes, anda boleh menyerahkan semula untuk semakan selepas menangani masalah yang dikemukakan dalam mesej kakitangan."
   },
   "project-moderation-nags.submit-checklist-tooltip": {
     "message": "Anda mesti melengkapkan langkah-langkah yang diperlukan dalam senarai semak penerbitan!"
@@ -2164,7 +2164,7 @@
     "message": "Semak projek"
   },
   "project.actions.servers-promo.description": {
-    "message": "Modrinth Hosting ialah cara paling mudah untuk bermain dengan rakan anda tanpa perlu bersusah payah!"
+    "message": "Blankethub Hosting ialah cara paling mudah untuk bermain dengan rakan anda tanpa perlu bersusah payah!"
   },
   "project.actions.servers-promo.pricing": {
     "message": "Bermula pada harga {price}<small> / bulan</small>"
@@ -2197,10 +2197,10 @@
     "message": "{title} tidak menyokong {gameVersion} untuk {platform}"
   },
   "project.download.install-with-app": {
-    "message": "Pasang dengan Modrinth App"
+    "message": "Pasang dengan Blankethub App"
   },
   "project.download.no-app": {
-    "message": "Tidak ada Modrinth App?"
+    "message": "Tidak ada Blankethub App?"
   },
   "project.download.no-versions-available": {
     "message": "Tiada versi tersedia untuk {gameVersion} dan {platform}."
@@ -2236,7 +2236,7 @@
     "message": "Muat turun {title}"
   },
   "project.environment.migration-no-permission.message": {
-    "message": "Kami baru sahaja merombak sistem Persekitaran pada Modrinth dan pilihan baharu kini tersedia. Anda tidak mempunyai kebenaran untuk mengubah suai tetapan ini, tetapi sila maklumkan ahli projek yang lain bahawa metadata persekitaran perlu disahkan."
+    "message": "Kami baru sahaja merombak sistem Persekitaran pada Blankethub dan pilihan baharu kini tersedia. Anda tidak mempunyai kebenaran untuk mengubah suai tetapan ini, tetapi sila maklumkan ahli projek yang lain bahawa metadata persekitaran perlu disahkan."
   },
   "project.environment.migration-no-permission.title": {
     "message": "Metadata persekitaran perlu disemak"
@@ -2245,7 +2245,7 @@
     "message": "Ketahui lebih lanjut tentang perubahan ini"
   },
   "project.environment.migration.message": {
-    "message": "Kami baru sahaja merombak sistem Persekitaran pada Modrinth dan pilihan baharu kini tersedia. Sila sahkan bahawa metadata adalah betul."
+    "message": "Kami baru sahaja merombak sistem Persekitaran pada Blankethub dan pilihan baharu kini tersedia. Sila sahkan bahawa metadata adalah betul."
   },
   "project.environment.migration.review-button": {
     "message": "Semak tetapan persekitaran"
@@ -2377,7 +2377,7 @@
     "message": "Tidak dapat mencari {item, select, project {projek} version {versi} user {pengguna} other {kandungan}}"
   },
   "report.for.violation": {
-    "message": "Pelanggaran <rules-link>Peraturan</rules-link> atau <terms-link>Terma Penggunaan</terms-link> Modrinth"
+    "message": "Pelanggaran <rules-link>Peraturan</rules-link> atau <terms-link>Terma Penggunaan</terms-link> Blankethub"
   },
   "report.for.violation.description": {
     "message": "Contohnya termasuk kandungan berniat jahat, spam, menyinggung perasaan, memperdaya, mengelirukan dan menyalahi undang-undang."
@@ -2422,7 +2422,7 @@
     "message": "Apakah jenis kandungan yang anda hendak laporkan?"
   },
   "report.question.report-reason": {
-    "message": "Peraturan Modrinth manakah yang dilanggar oleh {item, select, project {projek} version {versi} user {pengguna} other {kandungan}} ini?"
+    "message": "Peraturan Blankethub manakah yang dilanggar oleh {item, select, project {projek} version {versi} user {pengguna} other {kandungan}} ini?"
   },
   "report.report-content": {
     "message": "Laporkan kandungan kepada penyederhana"
@@ -2821,7 +2821,7 @@
     "message": "Adakah anda pasti mahu memadamkan aplikasi ini?"
   },
   "settings.applications.description.intro": {
-    "message": "Aplikasi boleh digunakan untuk mengesahkan pengguna Modrinth dengan produk anda. Untuk maklumat lanjut, lihat <docs-link>Dokumentasi API Modrinth</docs-link>."
+    "message": "Aplikasi boleh digunakan untuk mengesahkan pengguna Blankethub dengan produk anda. Untuk maklumat lanjut, lihat <docs-link>Dokumentasi API Blankethub</docs-link>."
   },
   "settings.applications.field.description": {
     "message": "Keterangan"
@@ -2908,13 +2908,13 @@
     "message": "Kaedah pembayaran"
   },
   "settings.billing.pyro_subscription.description": {
-    "message": "Urus langganan Modrinth Servers anda."
+    "message": "Urus langganan Blankethub Servers anda."
   },
   "settings.billing.pyro_subscription.title": {
-    "message": "Langganan Modrinth Servers"
+    "message": "Langganan Blankethub Servers"
   },
   "settings.billing.subscription.description": {
-    "message": "Urus langganan Modrinth anda."
+    "message": "Urus langganan Blankethub anda."
   },
   "settings.billing.subscription.title": {
     "message": "Langganan"
@@ -2923,7 +2923,7 @@
     "message": "Nyahaktifkan mod pembangun"
   },
   "settings.display.banner.developer-mode.description": {
-    "message": "<strong>Mod pembangun</strong> kini aktif. Ini akan membolehkan anda melihat ID dalaman pelbagai perkara di seluruh Modrinth yang mungkin berguna jika anda seorang pembangun yang menggunakan API Modrinth. Klik pada logo Modrinth di bahagian bawah halaman sebanyak 5 kali untuk menogol mod pembangun."
+    "message": "<strong>Mod pembangun</strong> kini aktif. Ini akan membolehkan anda melihat ID dalaman pelbagai perkara di seluruh Blankethub yang mungkin berguna jika anda seorang pembangun yang menggunakan API Blankethub. Klik pada logo Blankethub di bahagian bawah halaman sebanyak 5 kali untuk menogol mod pembangun."
   },
   "settings.display.flags.description": {
     "message": "Dayakan atau nyahdayakan ciri tertentu pada peranti ini."
@@ -2968,16 +2968,16 @@
     "message": "Pemaparan lanjutan"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "message": "Buka pautan yang membawa anda ke luar Modrinth dalam tab baharu. Tidak kira tetapan ini, pautan pada domain yang sama dan dalam keterangan berformat Markdown akan dibuka dalam tab yang sama dan pautan pada iklan dan halaman sunting akan dibuka dalam tab baharu."
+    "message": "Buka pautan yang membawa anda ke luar Blankethub dalam tab baharu. Tidak kira tetapan ini, pautan pada domain yang sama dan dalam keterangan berformat Markdown akan dibuka dalam tab yang sama dan pautan pada iklan dan halaman sunting akan dibuka dalam tab baharu."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "message": "Buka pautan luaran dalam tab baharu"
   },
   "settings.display.sidebar.hide-app-promos.description": {
-    "message": "Menyembunyikan butang \"Dapatkan Modrinth App\" daripada navigasi utama. Halaman Modrinth App masih boleh dijumpai pada halaman pendaratan atau dalam pengaki."
+    "message": "Menyembunyikan butang \"Dapatkan Blankethub App\" daripada navigasi utama. Halaman Blankethub App masih boleh dijumpai pada halaman pendaratan atau dalam pengaki."
   },
   "settings.display.sidebar.hide-app-promos.title": {
-    "message": "Sembunyikan promosi Modrinth App"
+    "message": "Sembunyikan promosi Blankethub App"
   },
   "settings.display.sidebar.left-aligned-content-sidebar.title": {
     "message": "Bar sisi carian dijajar kiri pada halaman kandungan"
@@ -2992,7 +2992,7 @@
     "message": "Bar sisi penapis dijajar kanan pada halaman carian"
   },
   "settings.display.theme.description": {
-    "message": "Pilih tema warna pilihan anda untuk Modrinth pada peranti ini."
+    "message": "Pilih tema warna pilihan anda untuk Blankethub pada peranti ini."
   },
   "settings.display.theme.title": {
     "message": "Tema warna"
@@ -3001,7 +3001,7 @@
     "message": "Cipta PAT"
   },
   "settings.pats.description": {
-    "message": "PAT boleh digunakan untuk mengakses API Modrinth. Untuk mendapatkan maklumat lanjut, lihat <doc-link>Dokumentasi API Modrinth</doc-link>. Ia boleh dibuat dan dibatalkan pada bila-bila masa."
+    "message": "PAT boleh digunakan untuk mengakses API Blankethub. Untuk mendapatkan maklumat lanjut, lihat <doc-link>Dokumentasi API Blankethub</doc-link>. Ia boleh dibuat dan dibatalkan pada bila-bila masa."
   },
   "settings.pats.modal.create.action": {
     "message": "Cipta PAT"
@@ -3055,7 +3055,7 @@
     "message": "Bio"
   },
   "settings.profile.description": {
-    "message": "Maklumat profil anda boleh dilihat secara terbuka pada Modrinth dan melalui <docs-link>API Modrinth</docs-link>."
+    "message": "Maklumat profil anda boleh dilihat secara terbuka pada Blankethub dan melalui <docs-link>API Blankethub</docs-link>."
   },
   "settings.profile.profile-info": {
     "message": "Maklumat profil"
@@ -3076,7 +3076,7 @@
     "message": "Sesi semasa"
   },
   "settings.sessions.description": {
-    "message": "Berikut ialah semua peranti yang sedang dilog masuk dengan akaun Modrinth anda. Anda boleh log keluar daripada setiap satu peranti secara individu.\n\nJika anda melihat entri yang anda tidak kenali, log keluar daripada peranti itu dan tukar kata laluan akaun Modrinth anda dengan segera."
+    "message": "Berikut ialah semua peranti yang sedang dilog masuk dengan akaun Blankethub anda. Anda boleh log keluar daripada setiap satu peranti secara individu.\n\nJika anda melihat entri yang anda tidak kenali, log keluar daripada peranti itu dan tukar kata laluan akaun Blankethub anda dengan segera."
   },
   "settings.sessions.last-accessed-ago": {
     "message": "Kali terakhir diakses {ago}"
@@ -3088,7 +3088,7 @@
     "message": "Platform tidak diketahui"
   },
   "ui.latest-news-row.latest-news": {
-    "message": "Berita terkini dari Modrinth"
+    "message": "Berita terkini dari Blankethub"
   },
   "ui.latest-news-row.view-all": {
     "message": "Lihat semua berita"

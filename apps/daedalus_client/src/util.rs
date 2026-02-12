@@ -41,7 +41,7 @@ static BUCKET: LazyLock<Bucket> = LazyLock::new(|| {
 pub static REQWEST_CLIENT: LazyLock<reqwest::Client> = LazyLock::new(|| {
     let mut headers = reqwest::header::HeaderMap::new();
     if let Ok(header) = reqwest::header::HeaderValue::from_str(&format!(
-        "modrinth/daedalus/{} (support@blankethub.loxalhost)",
+        "blankethub/daedalus/{} (support@blankethub.localhost)",
         env!("CARGO_PKG_VERSION")
     )) {
         headers.insert(reqwest::header::USER_AGENT, header);

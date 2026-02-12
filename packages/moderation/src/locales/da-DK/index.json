@@ -12,7 +12,7 @@
     "defaultMessage": "Tilføj et ikon"
   },
   "nags.add-links.description": {
-    "defaultMessage": "Tilføj alle relevante links ude for Modrinth, så som kilde kode, en fejl liste, eller en Discord invitation."
+    "defaultMessage": "Tilføj alle relevante links ude for Blankethub, så som kilde kode, en fejl liste, eller en Discord invitation."
   },
   "nags.add-links.title": {
     "defaultMessage": "Tilføj eksterne links"

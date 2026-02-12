@@ -4,7 +4,7 @@
 		data-pyro
 		class="servers-hero relative isolate -mt-44 h-full min-h-screen pt-8"
 	>
-		<ModrinthServersPurchaseModal
+		<BlankethubServersPurchaseModal
 			v-if="customer"
 			:key="`purchase-modal-${customer.id}`"
 			ref="purchaseModal"
@@ -40,7 +40,7 @@
 						{{ formatMessage(commonMessages.betaRelease) }}
 					</div>
 					<h1 class="relative m-0 max-w-3xl text-3xl font-bold !leading-[110%] md:text-6xl">
-						{{ formatMessage(messages.hostWithModrinth) }}
+						{{ formatMessage(messages.hostWithBlankethub) }}
 					</h1>
 				</div>
 				<h2
@@ -75,7 +75,7 @@
 				class="absolute left-[55%] top-56 z-[5] hidden h-full max-h-[calc(100vh-10rem)] w-full rotate-1 xl:block"
 			>
 				<img
-					src="https://cdn.blankethub.loxalhost/servers/panel-right-dark.webp"
+					src="https://cdn.blankethub.localhost/servers/panel-right-dark.webp"
 					alt=""
 					aria-hidden="true"
 					class="pointer-events-none h-full w-fit select-none"
@@ -90,7 +90,7 @@
 					style="mask-image: linear-gradient(black, transparent 80%)"
 				>
 					<img
-						src="https://cdn.blankethub.loxalhost/servers/bigrinth.webp"
+						src="https://cdn.blankethub.localhost/servers/bigrinth.webp"
 						alt=""
 						aria-hidden="true"
 						class="pointer-events-none w-full animate-spin select-none p-4 opacity-50"
@@ -112,7 +112,7 @@
 				<div
 					class="relative w-fit rounded-full bg-highlight-green px-3 py-1 text-sm font-bold text-brand backdrop-blur-lg"
 				>
-					{{ formatMessage(messages.whyModrinthHosting) }}
+					{{ formatMessage(messages.whyBlankethubHosting) }}
 				</div>
 				<h1 class="relative m-0 max-w-2xl text-4xl leading-[120%] md:text-7xl">
 					{{ formatMessage(messages.whyHeading) }}
@@ -123,7 +123,7 @@
 					{{ formatMessage(messages.whyDescription) }}
 				</h2>
 				<img
-					src="https://cdn.blankethub.loxalhost/servers/excitement.webp"
+					src="https://cdn.blankethub.localhost/servers/excitement.webp"
 					alt=""
 					class="absolute right-14 top-0 hidden max-w-[360px] lg:block"
 				/>
@@ -163,7 +163,7 @@
 				</div>
 				<div class="relative">
 					<img
-						src="https://cdn.blankethub.loxalhost/servers/installation-dark.webp"
+						src="https://cdn.blankethub.localhost/servers/installation-dark.webp"
 						alt=""
 						class="hidden w-full rounded-2xl sm:block"
 					/>
@@ -187,9 +187,9 @@
 							<path d="M10 8h.01" />
 							<path d="M14 8h.01" />
 						</svg>
-						<h2 class="m-0 text-lg font-bold">{{ formatMessage(messages.allOnModrinth) }}</h2>
+						<h2 class="m-0 text-lg font-bold">{{ formatMessage(messages.allOnBlankethub) }}</h2>
 						<h3 class="m-0 text-base font-normal text-secondary">
-							{{ formatMessage(messages.allOnModrinthDescription) }}
+							{{ formatMessage(messages.allOnBlankethubDescription) }}
 						</h3>
 					</div>
 
@@ -251,7 +251,7 @@
 					{{ formatMessage(messages.includedDescription) }}
 				</h2>
 				<img
-					src="https://cdn.blankethub.loxalhost/servers/waving.webp"
+					src="https://cdn.blankethub.localhost/servers/waving.webp"
 					alt=""
 					class="absolute right-8 top-40 hidden max-w-[480px] lg:block"
 				/>
@@ -331,7 +331,7 @@
 						</h3>
 
 						<img
-							src="https://cdn.blankethub.loxalhost/servers/content-dark.webp"
+							src="https://cdn.blankethub.localhost/servers/content-dark.webp"
 							alt=""
 							class="absolute -bottom-12 -right-[15%] hidden max-w-2xl rounded-2xl bg-brand p-4 lg:block"
 						/>
@@ -638,9 +638,9 @@ import {
     VersionIcon,
 } from '@modrinth/assets'
 import {
+    BlankethubServersPurchaseModal,
     ButtonStyled,
     IntlFormatted,
-    ModrinthServersPurchaseModal,
     commonMessages,
     defineMessages,
     injectNotificationManager,
@@ -682,14 +682,14 @@ const { locale, formatMessage } = useVIntl()
 const flags = useFeatureFlags()
 
 const messages = defineMessages({
-	hostWithModrinth: {
+	hostWithBlankethub: {
 		id: 'hosting-marketing.hero.host-with-modrinth',
-		defaultMessage: 'Host your next server with Modrinth Hosting',
+		defaultMessage: 'Host your next server with Blankethub Hosting',
 	},
 	hostingDescription: {
 		id: 'hosting-marketing.hero.hosting-description',
 		defaultMessage:
-			'Modrinth Hosting is the easiest way to host your own Minecraft: Java Edition server. Seamlessly install and play your favorite mods and modpacks, all within the Modrinth platform.',
+			'Blankethub Hosting is the easiest way to host your own Minecraft: Java Edition server. Seamlessly install and play your favorite mods and modpacks, all within the Blankethub platform.',
 	},
 	startANewServer: {
 		id: 'hosting-marketing.hero.button.start-a-new-server',
@@ -703,9 +703,9 @@ const messages = defineMessages({
 		id: 'hosting-marketing.hero.button.manage-your-servers',
 		defaultMessage: 'Manage your servers',
 	},
-	whyModrinthHosting: {
+	whyBlankethubHosting: {
 		id: 'hosting-marketing.why.why-modrinth-hosting',
-		defaultMessage: 'Why Modrinth Hosting?',
+		defaultMessage: 'Why Blankethub Hosting?',
 	},
 	whyHeading: {
 		id: 'hosting-marketing.why.heading',
@@ -714,7 +714,7 @@ const messages = defineMessages({
 	whyDescription: {
 		id: 'hosting-marketing.why.description',
 		defaultMessage:
-			"Choose from the thousands of modpacks on Modrinth or create your own. Invite your friends when you're ready to play.",
+			"Choose from the thousands of modpacks on Blankethub or create your own. Invite your friends when you're ready to play.",
 	},
 	whereModsAre: {
 		id: 'hosting-marketing.why.where-mods-are',
@@ -723,7 +723,7 @@ const messages = defineMessages({
 	whereModsAreDescription: {
 		id: 'hosting-marketing.why.where-mods-are.description',
 		defaultMessage:
-			'Modrinth Hosting seamlessly integrates the mod and modpack installation process into your server.',
+			'Blankethub Hosting seamlessly integrates the mod and modpack installation process into your server.',
 	},
 	yourFavoriteMods: {
 		id: 'hosting-marketing.why.your-favorite-mods',
@@ -732,16 +732,16 @@ const messages = defineMessages({
 	yourFavoriteModsDescription: {
 		id: 'hosting-marketing.why.your-favorite-mods.description',
 		defaultMessage:
-			"Choose between Vanilla, Fabric, Forge, Quilt and NeoForge. If it's on Modrinth, it can run on your server.",
+			"Choose between Vanilla, Fabric, Forge, Quilt and NeoForge. If it's on Blankethub, it can run on your server.",
 	},
-	allOnModrinth: {
+	allOnBlankethub: {
 		id: 'hosting-marketing.why.all-on-modrinth',
-		defaultMessage: 'Manage it all on Modrinth',
+		defaultMessage: 'Manage it all on Blankethub',
 	},
-	allOnModrinthDescription: {
+	allOnBlankethubDescription: {
 		id: 'hosting-marketing.why.all-on-modrinth.description',
 		defaultMessage:
-			'Your server, mods, players, and more are all on Modrinth. No need to switch between platforms.',
+			'Your server, mods, players, and more are all on Blankethub. No need to switch between platforms.',
 	},
 	modernReliableHosting: {
 		id: 'hosting-marketing.why.modern-reliable-hosting',
@@ -750,7 +750,7 @@ const messages = defineMessages({
 	modernReliableHostingDescription: {
 		id: 'hosting-marketing.why.modern-reliable-hosting.description',
 		defaultMessage:
-			'Modrinth Hosting servers are hosted on <contrast>high-performance AMD CPUs with DDR5 RAM</contrast>, running on custom-built software to ensure your server performs smoothly.',
+			'Blankethub Hosting servers are hosted on <contrast>high-performance AMD CPUs with DDR5 RAM</contrast>, running on custom-built software to ensure your server performs smoothly.',
 	},
 	consistentlyFast: {
 		id: 'hosting-marketing.why.consistently-fast',
@@ -759,7 +759,7 @@ const messages = defineMessages({
 	consistentlyFastDescription: {
 		id: 'hosting-marketing.why.consistently-fast.description',
 		defaultMessage:
-			'Our infrastructure is never overloaded, meaning each server hosted with Modrinth always runs at its full performance.',
+			'Our infrastructure is never overloaded, meaning each server hosted with Blankethub always runs at its full performance.',
 	},
 	includedWithYourServer: {
 		id: 'hosting-marketing.included.with-your-server',
@@ -772,7 +772,7 @@ const messages = defineMessages({
 	includedDescription: {
 		id: 'hosting-marketing.included.description',
 		defaultMessage:
-			'Included with every server is a suite of features designed to provide a hosting experience that only Modrinth can offer.',
+			'Included with every server is a suite of features designed to provide a hosting experience that only Blankethub can offer.',
 	},
 	customUrl: {
 		id: 'hosting-marketing.included.custom-url',
@@ -804,7 +804,7 @@ const messages = defineMessages({
 	},
 	powerfulConsoleDescription: {
 		id: 'hosting-marketing.included.powerful-console.description',
-		defaultMessage: 'Modrinth Hosting comes with powerful tools to manage your server.',
+		defaultMessage: 'Blankethub Hosting comes with powerful tools to manage your server.',
 	},
 	help: {
 		id: 'hosting-marketing.included.help',
@@ -812,7 +812,7 @@ const messages = defineMessages({
 	},
 	helpDescription: {
 		id: 'hosting-marketing.included.help.description',
-		defaultMessage: 'Reach out to the Modrinth team for help with your server at any time.',
+		defaultMessage: 'Reach out to the Blankethub team for help with your server at any time.',
 	},
 	sftpAccess: {
 		id: 'hosting-marketing.included.sftp-access',
@@ -820,7 +820,7 @@ const messages = defineMessages({
 	},
 	sftpAccessDescription: {
 		id: 'hosting-marketing.included.sftp-access.description',
-		defaultMessage: "Access your server's files directly with SFTP built into Modrinth Hosting.",
+		defaultMessage: "Access your server's files directly with SFTP built into Blankethub Hosting.",
 	},
 	advancedNetworking: {
 		id: 'hosting-marketing.included.advanced-networking',
@@ -837,12 +837,12 @@ const messages = defineMessages({
 	},
 	faqCpuKind: {
 		id: 'hosting-marketing.faq.cpu-kind',
-		defaultMessage: 'What kind of CPUs do Modrinth Hosting servers run on?',
+		defaultMessage: 'What kind of CPUs do Blankethub Hosting servers run on?',
 	},
 	faqCpuKindAnswer: {
 		id: 'hosting-marketing.faq.cpu-kind.answer',
 		defaultMessage:
-			'Modrinth Hosting servers are powered by AMD Ryzen 7900 and 7950X3D equivalent CPUs at 5+ GHz, paired with DDR5 memory.',
+			'Blankethub Hosting servers are powered by AMD Ryzen 7900 and 7950X3D equivalent CPUs at 5+ GHz, paired with DDR5 memory.',
 	},
 	faqBurstThreads: {
 		id: 'hosting-marketing.faq.burst-threads',
@@ -855,16 +855,16 @@ const messages = defineMessages({
 	},
 	faqDDOSProtection: {
 		id: 'hosting-marketing.faq.ddos-protection',
-		defaultMessage: 'Do Modrinth Hosting servers have DDoS protection?',
+		defaultMessage: 'Do Blankethub Hosting servers have DDoS protection?',
 	},
 	faqDDOSProtectionAnswer: {
 		id: 'hosting-marketing.faq.ddos-protection.answer',
 		defaultMessage:
-			'Yes. All Modrinth Hosting servers come with DDoS protection, with up to 17Tbps capacity in some locations.',
+			'Yes. All Blankethub Hosting servers come with DDoS protection, with up to 17Tbps capacity in some locations.',
 	},
 	faqLocation: {
 		id: 'hosting-marketing.faq.location',
-		defaultMessage: 'Where are Modrinth Hosting servers located? Can I choose a region?',
+		defaultMessage: 'Where are Blankethub Hosting servers located? Can I choose a region?',
 	},
 	faqLocationAnswer: {
 		id: 'hosting-marketing.faq.location.answer',
@@ -878,16 +878,16 @@ const messages = defineMessages({
 	faqIncreaseStorageAnswer: {
 		id: 'hosting-marketing.faq.increase-storage.answer',
 		defaultMessage:
-			'Yes, storage can be increased on your server at no additional cost. If you need more storage, reach out to Modrinth Support.',
+			'Yes, storage can be increased on your server at no additional cost. If you need more storage, reach out to Blankethub Support.',
 	},
 	faqHowFast: {
 		id: 'hosting-marketing.faq.how-fast',
-		defaultMessage: 'How fast are Modrinth Hosting servers?',
+		defaultMessage: 'How fast are Blankethub Hosting servers?',
 	},
 	faqHowFastAnswer: {
 		id: 'hosting-marketing.faq.how-fast.answer.one',
 		defaultMessage:
-			"Modrinth Hosting servers are hosted on very modern high-performance hardware, but it's tough to say how exactly that will translate into how fast your server will run because there are so many factors that affect it, such as the mods, data packs, or plugins you're running on your server, and even user behavior.",
+			"Blankethub Hosting servers are hosted on very modern high-performance hardware, but it's tough to say how exactly that will translate into how fast your server will run because there are so many factors that affect it, such as the mods, data packs, or plugins you're running on your server, and even user behavior.",
 	},
 	faqHowFastAnswerTwo: {
 		id: 'hosting-marketing.faq.how-fast.answer.two',
@@ -909,7 +909,7 @@ const messages = defineMessages({
 	faqVersionsLoadersAnswer: {
 		id: 'hosting-marketing.faq.versions-loaders.answer.one',
 		defaultMessage:
-			'Modrinth Hosting servers can run any version of Minecraft: Java Edition going all the way back to version 1.2.5, including snapshot versions.',
+			'Blankethub Hosting servers can run any version of Minecraft: Java Edition going all the way back to version 1.2.5, including snapshot versions.',
 	},
 	faqVersionsLoadersAnswerTwo: {
 		id: 'hosting-marketing.faq.versions-loaders.answer.two',
@@ -975,9 +975,9 @@ const lowestPrice = computed(() => {
 	return amount ? amount / monthsInInterval[billingPeriod.value] : undefined
 })
 
-const title = 'Modrinth Hosting'
+const title = 'Blankethub Hosting'
 const description =
-	'Start your own Minecraft server directly on Modrinth. Play your favorite mods, plugins, and datapacks — without the hassle of setup.'
+	'Start your own Minecraft server directly on Blankethub. Play your favorite mods, plugins, and datapacks — without the hassle of setup.'
 
 useSeoMeta({
 	title,
@@ -1008,7 +1008,7 @@ const pauseTime = 2000
 const selectedCurrency = ref('USD')
 
 const loggedOut = computed(() => !auth.value.user)
-const outOfStockUrl = 'https://discord.blankethub.loxalhost'
+const outOfStockUrl = 'https://discord.blankethub.localhost'
 
 const { data: hasServers } = await useAsyncData('ServerListCountCheck', async () => {
 	try {

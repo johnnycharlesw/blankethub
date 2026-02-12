@@ -128,17 +128,17 @@
 										:href="`modrinth://mod/${project.slug}`"
 										@click="() => installWithApp()"
 									>
-										<ModrinthIcon aria-hidden="true" />
-										{{ formatMessage(messages.installWithModrinthApp) }}
+										<BlankethubIcon aria-hidden="true" />
+										{{ formatMessage(messages.installWithBlankethubApp) }}
 										<ExternalIcon aria-hidden="true" />
 									</a>
 								</ButtonStyled>
-								<Accordion ref="getModrinthAppAccordion">
+								<Accordion ref="getBlankethubAppAccordion">
 									<nuxt-link
 										class="mt-2 flex justify-center text-brand-blue hover:underline"
 										to="/app"
 									>
-										{{ formatMessage(messages.dontHaveModrinthApp) }}
+										{{ formatMessage(messages.dontHaveBlankethubApp) }}
 									</nuxt-link>
 								</Accordion>
 							</div>
@@ -934,6 +934,7 @@
 
 <script setup>
 import {
+    BlankethubIcon,
     BookmarkIcon,
     BookTextIcon,
     CalendarIcon,
@@ -947,7 +948,6 @@ import {
     HeartIcon,
     InfoIcon,
     ListIcon,
-    ModrinthIcon,
     MoreVerticalIcon,
     PlusIcon,
     ReportIcon,
@@ -968,7 +968,7 @@ import {
     commonMessages,
     defineMessages,
     getTagMessage,
-    injectModrinthClient,
+    injectBlankethubClient,
     injectNotificationManager,
     IntlFormatted,
     NewModal,
@@ -1115,13 +1115,13 @@ const showVersionsCheckbox = computed(() => {
 
 function installWithApp() {
 	setTimeout(() => {
-		getModrinthAppAccordion.value.open()
+		getBlankethubAppAccordion.value.open()
 	}, 1500)
 }
 
 const gameVersionAccordion = ref()
 const platformAccordion = ref()
-const getModrinthAppAccordion = ref()
+const getBlankethubAppAccordion = ref()
 
 const formatRelativeTime = useRelativeTime()
 
@@ -1178,9 +1178,9 @@ const messages = defineMessages({
 		id: 'project.description.title',
 		defaultMessage: 'Description',
 	},
-	dontHaveModrinthApp: {
+	dontHaveBlankethubApp: {
 		id: 'project.download.no-app',
-		defaultMessage: "Don't have Modrinth App?",
+		defaultMessage: "Don't have Blankethub App?",
 	},
 	dontShowAgain: {
 		id: 'project.actions.dont-show-again',
@@ -1201,7 +1201,7 @@ const messages = defineMessages({
 	environmentMigrationMessage: {
 		id: 'project.environment.migration.message',
 		defaultMessage:
-			"We've just overhauled the Environments system on Modrinth and new options are now available. Please verify that the metadata is correct.",
+			"We've just overhauled the Environments system on Blankethub and new options are now available. Please verify that the metadata is correct.",
 	},
 	environmentMigrationTitle: {
 		id: 'project.environment.migration.title',
@@ -1210,7 +1210,7 @@ const messages = defineMessages({
 	environmentMigrationNoPermissionMessage: {
 		id: 'project.environment.migration-no-permission.message',
 		defaultMessage:
-			"We've just overhauled the Environments system on Modrinth and new options are now available. You don't have permission to modify these settings, but please let another member of the project know that the environment metadata needs to be verified.",
+			"We've just overhauled the Environments system on Blankethub and new options are now available. You don't have permission to modify these settings, but please let another member of the project know that the environment metadata needs to be verified.",
 	},
 	environmentMigrationNoPermissionTitle: {
 		id: 'project.environment.migration-no-permission.title',
@@ -1244,9 +1244,9 @@ const messages = defineMessages({
 		id: 'project.download.game-version-unsupported-tooltip',
 		defaultMessage: '{title} does not support {gameVersion} for {platform}',
 	},
-	installWithModrinthApp: {
+	installWithBlankethubApp: {
 		id: 'project.download.install-with-app',
-		defaultMessage: 'Install with Modrinth App',
+		defaultMessage: 'Install with Blankethub App',
 	},
 	licenseErrorMessage: {
 		id: 'project.license.error',
@@ -1342,7 +1342,7 @@ const messages = defineMessages({
 	},
 	serversPromoDescription: {
 		id: 'project.actions.servers-promo.description',
-		defaultMessage: 'Modrinth Hosting is the easiest way to play with your friends without hassle!',
+		defaultMessage: 'Blankethub Hosting is the easiest way to play with your friends without hassle!',
 	},
 	serversPromoPricing: {
 		id: 'project.actions.servers-promo.pricing',
@@ -1468,7 +1468,7 @@ if (
 const routeProjectId = computed(() => route.params.id)
 
 // Use DI client for TanStack Query
-const client = injectModrinthClient()
+const client = injectBlankethubClient()
 const queryClient = useQueryClient()
 
 // V2 Project - hits middleware cache (uses route param for lookup)
@@ -1483,7 +1483,7 @@ watch(
 	projectV2Error,
 	(error) => {
 		if (error) {
-			// error.statusCode from ModrinthApiError, error.status as fallback
+			// error.statusCode from BlankethubApiError, error.status as fallback
 			const status = error.statusCode ?? error.status ?? 500
 			showError({
 				fatal: true,
@@ -2023,7 +2023,7 @@ const description = computed(() =>
 	project.value
 		? `${project.value.description} - Download the Minecraft ${projectTypeDisplay.value} ${
 				project.value.title
-			} by ${members.value.find((x) => x.is_owner)?.user?.username || 'a creator'} on Modrinth`
+			} by ${members.value.find((x) => x.is_owner)?.user?.username || 'a creator'} on Blankethub`
 		: '',
 )
 
@@ -2038,7 +2038,7 @@ if (!route.name.startsWith('type-id-settings')) {
 		description: () => description.value,
 		ogTitle: () => title.value,
 		ogDescription: () => project.value?.description ?? '',
-		ogImage: () => project.value?.icon_url ?? 'https://cdn.blankethub.loxalhost/placeholder.png',
+		ogImage: () => project.value?.icon_url ?? 'https://cdn.blankethub.localhost/placeholder.png',
 		robots: () =>
 			project.value?.status === 'approved' || project.value?.status === 'archived'
 				? 'all'

@@ -531,7 +531,7 @@
     "defaultMessage": "管理员"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Modrinth 团队"
+    "defaultMessage": "Blankethub 团队"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "待确认"
@@ -939,7 +939,7 @@
     "defaultMessage": "你的项目包含多个运行环境"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "我们最近升级了 Modrinth 的运行环境系统，引入了一些新选项。请确保在下方选择正确的选项，然后点击“验证”！"
+    "defaultMessage": "我们最近升级了 Blankethub 的运行环境系统，引入了一些新选项。请确保在下方选择正确的选项，然后点击“验证”！"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "请复核以下选项"
@@ -1245,7 +1245,7 @@
     "defaultMessage": "你希望服务器位于何处？"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "没有想要的地区？<link>推荐 Modrinth Hosting 的下一个服务区域！</link>"
+    "defaultMessage": "没有想要的地区？<link>推荐 Blankethub Hosting 的下一个服务区域！</link>"
   },
   "servers.region.southeast-asia": {
     "defaultMessage": "东南亚"

@@ -165,7 +165,7 @@ const VERSIONS: VersionEntry[] = [
 		version: '0.10.27',
 		body: `## Improvements
 - Fixed installing content from Discover refusing to create NeoForge instances.
-- Added circuit-breaker logic to prevent Modrinth App from spamming API requests during downtime.`,
+- Added circuit-breaker logic to prevent Blankethub App from spamming API requests during downtime.`,
 	},
 	{
 		date: `2026-01-23T12:25:00-08:00`,
@@ -177,7 +177,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2026-01-22T11:40:00-08:00`,
 		product: 'web',
 		body: `## Improvements
-- Updated Flathub to be the official recommended way to download Modrinth App on Linux.`,
+- Updated Flathub to be the official recommended way to download Blankethub App on Linux.`,
 	},
 	{
 		date: `2026-01-21T14:55:00-08:00`,
@@ -258,7 +258,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2026-01-05T12:35:00-08:00`,
 		product: 'web',
 		body: `## Improvements
-- Fixed an issue when upgrading a Modrinth Hosting server.`,
+- Fixed an issue when upgrading a Blankethub Hosting server.`,
 	},
 	{
 		date: `2026-01-01T17:25:00-08:00`,
@@ -355,7 +355,7 @@ const VERSIONS: VersionEntry[] = [
 		product: 'app',
 		version: '0.10.22',
 		body: `## Improvements
-- Updated Modrinth Servers branding to new Modrinth Hosting branding.
+- Updated Blankethub Servers branding to new Blankethub Hosting branding.
 - Fixed server pinging blocking the app from loading.
 - Fixed instance overrides for window and Java settings not being able to be disabled.`,
 	},
@@ -400,7 +400,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-12-03T14:45:00-08:00`,
 		product: 'web',
 		body: `## Changes
-- Updated Modrinth Servers branding to new Modrinth Hosting branding.`,
+- Updated Blankethub Servers branding to new Blankethub Hosting branding.`,
 	},
 	{
 		date: `2025-11-28T11:45:00-08:00`,
@@ -416,7 +416,7 @@ const VERSIONS: VersionEntry[] = [
 		version: '0.10.20',
 		body: `## Improvements
 - Improved contrast, visibility, and consistency of UI elements, especially in light mode.
-- Fixed ads showing up in the loading screen, even when you have Modrinth+.
+- Fixed ads showing up in the loading screen, even when you have Blankethub+.
 - Added a warning banner when Minecraft's authentication servers are detected to be down.
 - Fixed icon when creating an instance not being saved.`,
 	},
@@ -544,7 +544,7 @@ const VERSIONS: VersionEntry[] = [
 		version: '0.10.13',
 		body: `## Improvements
 - Revamped the app sidebar and friends UI to be more straightforward and easier to use.
-- Improved the UI of the Modrinth account button in the bottom left corner. It's now more visually consistent with the other navigation buttons and it has a link to your profile.
+- Improved the UI of the Blankethub account button in the bottom left corner. It's now more visually consistent with the other navigation buttons and it has a link to your profile.
 - Updated the ad fallback to be green again instead of blue.
 - Fixed 'Open folder' in the instance page context menu having the wrong icon.`,
 	},
@@ -592,31 +592,31 @@ const VERSIONS: VersionEntry[] = [
 		product: 'app',
 		version: '0.10.9',
 		body: `### Security fixes
-- Fixed a couple Modrinth Pack (\`.mrpack\`) importing security vulnerabilities.`,
+- Fixed a couple Blankethub Pack (\`.mrpack\`) importing security vulnerabilities.`,
 	},
 	{
 		date: `2025-10-01T19:05:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Added banner informing Russian users of our non-compliance with censorship laws that will lead to Modrinth being blocked in Russia. For more info, see [our news article on it](/news/article/standing-by-our-values).`,
+- Added banner informing Russian users of our non-compliance with censorship laws that will lead to Blankethub being blocked in Russia. For more info, see [our news article on it](/news/article/standing-by-our-values).`,
 	},
 	{
 		date: `2025-09-29T12:50:00-07:00`,
 		product: 'web',
 		body: `### Improvements
 - Re-enabled the creation of organizations.
-- Added limits for creating content on Modrinth
+- Added limits for creating content on Blankethub
 	- Up to 256 projects
 	- Up to 16 organizations
 	- Up to 64 collections
-	- If you need more, please contact [support](https://support.blankethub.loxalhost) and explain why, and we can increase your limits.`,
+	- If you need more, please contact [support](https://support.blankethub.localhost) and explain why, and we can increase your limits.`,
 	},
 	{
 		date: `2025-09-29T12:50:00-07:00`,
 		product: 'app',
 		version: '0.10.8',
 		body: `### Improvements
-- Overhauled Modrinth App updater to make it easier to stay up-to-date.
+- Overhauled Blankethub App updater to make it easier to stay up-to-date.
   - Updates will now be downloaded in the background to make a seamless updating experience.
   - When an update is downloaded, it will prompt you to reload the app.
   - If a metered internet connection is detected, it will ask you before downloading the update.
@@ -632,7 +632,7 @@ const VERSIONS: VersionEntry[] = [
 - Strings in Markdown descriptions that look like domain names or IP addresses will no longer automatically be converted to links, such as \`README.md\`.
 - When adding friends, unknown users will now show an error.
 - Pressing 'Enter' after typing in a friend's username will now send the friend request.
-- Improved error handling from Modrinth API.
+- Improved error handling from Blankethub API.
 - Fixed the white flash when the app is opened on certain systems. (Contributed by [aervxa](https://github.com/johnnycharlesw/blankethub/pull/4177))`,
 	},
 	{
@@ -658,15 +658,15 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-09-07T15:55:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Fixed Modrinth App sign in redirect when using SSO.`,
+- Fixed Blankethub App sign in redirect when using SSO.`,
 	},
 	{
 		date: `2025-09-03T15:40:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Fixed a number of bugs with the Modrinth App marketing page
-- Added clearer notices about Modrinth App's beta status on marketing page.
-- Added disclaimer about Modrinth App's issues on Linux to marketing page.
+- Fixed a number of bugs with the Blankethub App marketing page
+- Added clearer notices about Blankethub App's beta status on marketing page.
+- Added disclaimer about Blankethub App's issues on Linux to marketing page.
 - Fixed certain icons in settings shrinking size on mobile.
 - In project settings, the description page no longer refers to all projects as mods.
 - Fixed spelling error during sign up.`,
@@ -725,7 +725,7 @@ const VERSIONS: VersionEntry[] = [
 		product: 'web',
 		body: `### Improvements
 - Overhauled creator-facing project environment metadata
-	- This is part of a larger project to make environment data across Modrinth more reliable. Read [this blog post](/news/article/new-environments) for more information.
+	- This is part of a larger project to make environment data across Blankethub more reliable. Read [this blog post](/news/article/new-environments) for more information.
 - Improved performance of project pages.`,
 	},
 	{
@@ -747,8 +747,8 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-08-19T13:56:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Fixed Modrinth Servers marketing page requiring auth.
-- Fixed mobile responsiveness of Modrinth Servers Medal collaboration banner.`,
+- Fixed Blankethub Servers marketing page requiring auth.
+- Fixed mobile responsiveness of Blankethub Servers Medal collaboration banner.`,
 	},
 	{
 		date: `2025-08-19T11:10:00-07:00`,
@@ -760,7 +760,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-08-19T11:10:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Added Modrinth Servers free trial promotion in partnership with Medal.
+- Added Blankethub Servers free trial promotion in partnership with Medal.
 - Fixed typo in revenue page.`,
 	},
 	{
@@ -801,7 +801,7 @@ const VERSIONS: VersionEntry[] = [
 		version: '0.10.5',
 		body: `### Improvements
 - On Windows, the app will now install per-user rather than system-wide.
-	- This allows future versions of Modrinth App to update seamlessly if the user is not an administrator.
+	- This allows future versions of Blankethub App to update seamlessly if the user is not an administrator.
 	- When updating to this version, the app will prompt you for Admin elevation in order to remove the old system-wide installation.
 	- Desktop shortcuts should be migrated automatically to the new installation location.
 - Improvements to the Skins page.
@@ -812,8 +812,8 @@ const VERSIONS: VersionEntry[] = [
 	- Tweaked the rendering of the spotlight below the player model.
 - Allow offline servers to still be joined from Worlds tab.
 	- Some servers display as offline as a privacy measure, or only start up once a player attempts to join.
-- Improved Modrinth user account login to use your default web browser.
-- Updated the appearance and functionality of error notifications to match the Modrinth website.
+- Improved Blankethub user account login to use your default web browser.
+- Updated the appearance and functionality of error notifications to match the Blankethub website.
 - Fixed search not returning to first page when filters are changed.
 - Fixed modpacks showing up with the "Optimization" tag on Home page even when it's not a featured category on the project.
 - Improved pinging Minecraft servers for older versions in the Worlds tab to more closely match how the client would ping them.
@@ -827,7 +827,7 @@ const VERSIONS: VersionEntry[] = [
 - Fixed the back/forward buttons appearing with white icons in light mode.
 - Fixed 'Party Alex' skin not using slim character model.
 - Improved resilience of Minecraft launching on Java 8 under certain circumstances.
-- Added system for showing users surveys to provide feedback on their experience with Modrinth App.
+- Added system for showing users surveys to provide feedback on their experience with Blankethub App.
 
 **This update was originally launched as 0.10.4, but was pulled due to issues with many functions of the app.**`,
 	},
@@ -871,14 +871,14 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-07-15T13:55:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Updated language around DDoS protection of Modrinth Servers products.`,
+- Updated language around DDoS protection of Blankethub Servers products.`,
 	},
 	{
 		date: `2025-07-15T12:40:00-07:00`,
 		product: 'web',
 		body: `### Improvements
 - Added copyright policy and DMCA links to footer.
-- Updated Modrinth Servers FAQ to include the new UK location.`,
+- Updated Blankethub Servers FAQ to include the new UK location.`,
 	},
 	{
 		date: `2025-07-15T08:20:00-07:00`,
@@ -892,13 +892,13 @@ const VERSIONS: VersionEntry[] = [
 		body: `### Improvements
 - Fixed pasted links being unnecessarily wrapped in Markdown formatting in Markdown editor.
 - Added a security.txt file to the site.
-- Changed the Europe location for Modrinth Servers to show as Central Europe with the flag of Germany to reflect its location better.`,
+- Changed the Europe location for Blankethub Servers to show as Central Europe with the flag of Germany to reflect its location better.`,
 	},
 	{
 		date: `2025-07-08T14:00:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Fixed Modrinth Servers showing as out of stock when navigating to the page directly.`,
+- Fixed Blankethub Servers showing as out of stock when navigating to the page directly.`,
 	},
 	{
 		date: `2025-07-08T11:10:00-07:00`,
@@ -981,8 +981,8 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-07-04T12:00:00-07:00`,
 		product: 'web',
 		body: `### Changed
-- Changed fallback ad placeholder from promoting Modrinth+ to Modrinth Servers.
-- Fixed news section rendering incorrectly in light mode on landing page and Modrinth App page.`,
+- Changed fallback ad placeholder from promoting Blankethub+ to Blankethub Servers.
+- Fixed news section rendering incorrectly in light mode on landing page and Blankethub App page.`,
 	},
 	{
 		date: `2025-06-30T19:15:00-07:00`,
@@ -998,7 +998,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-06-30T19:15:00-07:00`,
 		product: 'hosting',
 		body: `### Improvements
-- Progress will now show when installing Modrinth Pack (.mrpack) files.
+- Progress will now show when installing Blankethub Pack (.mrpack) files.
 - Fixed storage stats not linking to Files page.
 - Fixed missing icons in some places.`,
 	},
@@ -1020,7 +1020,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-06-26T11:00:00-07:00`,
 		product: 'web',
 		body: `### Added
-- Added a dismissable Modrinth Servers promotion to project Download interface to inform users of the service's availability.
+- Added a dismissable Blankethub Servers promotion to project Download interface to inform users of the service's availability.
 
 ### Improvements
 - Added colors for the newly added legacy mod loaders
@@ -1075,7 +1075,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-06-03T14:35:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Overhauled Modrinth Servers purchase flow.
+- Overhauled Blankethub Servers purchase flow.
 - Added the ability to donate creator rewards to charity.`,
 	},
 	{
@@ -1084,7 +1084,7 @@ const VERSIONS: VersionEntry[] = [
 		body: `### Added
 - Added the ability to extract .zip files in the Files page.
 - Added the ability to extract a remote .zip file from a URL, or from a CurseForge modpack version URL.
-- Dependencies will now automatically be installed when installing a mod from Modrinth.`,
+- Dependencies will now automatically be installed when installing a mod from Blankethub.`,
 	},
 	{
 		date: `2025-05-08T09:00:00-07:00`,
@@ -1095,16 +1095,16 @@ const VERSIONS: VersionEntry[] = [
 - Fixed notifications not loading sometimes. (Contributed by [IMB11](https://github.com/johnnycharlesw/blankethub/pull/3624))
 - Fixed marking all notifications as read. (Contributed by [IMB11](https://github.com/johnnycharlesw/blankethub/pull/3624))
 - Fixed relative time sometimes having poor rounding, and sometimes showing future dates unexpectedly. (Contributed by [IMB11](https://github.com/johnnycharlesw/blankethub/pull/3612))
-- Fixed localized pricing not showing in some cases for Modrinth+. (Contributed by [IMB11](https://github.com/johnnycharlesw/blankethub/pull/3623))
-- Fixed Modrinth changelog page link back to the full changelog not being clickable sometimes. (Contributed by [ThatGravyBoat](https://github.com/johnnycharlesw/blankethub/pull/3593))
+- Fixed localized pricing not showing in some cases for Blankethub+. (Contributed by [IMB11](https://github.com/johnnycharlesw/blankethub/pull/3623))
+- Fixed Blankethub changelog page link back to the full changelog not being clickable sometimes. (Contributed by [ThatGravyBoat](https://github.com/johnnycharlesw/blankethub/pull/3593))
 - Fixed analytics 'Views' tab not having the updated display for 'Other' regions.`,
 	},
 	{
 		date: `2025-05-01T18:30:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Added a button to switch Modrinth+ billing between monthly and yearly.
-- Updated Modrinth App marketing page screenshots.`,
+- Added a button to switch Blankethub+ billing between monthly and yearly.
+- Updated Blankethub App marketing page screenshots.`,
 	},
 	{
 		date: `2025-05-01T18:10:00-07:00`,
@@ -1147,7 +1147,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-04-28T19:45:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Combined Apple Silicon and Intel download links for Modrinth App into one link.
+- Combined Apple Silicon and Intel download links for Blankethub App into one link.
 - Added an option to copy a permanent link (using IDs instead of changeable slugs) to projects, users, and organizations.
 - Fixed overflow issue with dev-mode Maven coordinates widget, and changed wording.`,
 	},
@@ -1177,14 +1177,14 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-04-25T19:45:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Added feedback survey upon Modrinth Servers cancellation.
-- Added FAQ question about the currency for Modrinth Servers subscription payments.`,
+- Added feedback survey upon Blankethub Servers cancellation.
+- Added FAQ question about the currency for Blankethub Servers subscription payments.`,
 	},
 	{
 		date: `2025-04-18T22:30:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Updated Modrinth Servers marketing page to be accurate to post-Pyro infrastructure.`,
+- Updated Blankethub Servers marketing page to be accurate to post-Pyro infrastructure.`,
 	},
 	{
 		date: `2025-04-17T02:25:00-07:00`,
@@ -1223,14 +1223,14 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-04-01T21:15:00-07:00`,
 		product: 'web',
 		body: `### Added
-- Reverted Modrinth Pizza due to issues in pizza processing leading to users being redirected to [this page](https://blankethub.loxalhost/pizza/error).
+- Reverted Blankethub Pizza due to issues in pizza processing leading to users being redirected to [this page](https://blankethub.localhost/pizza/error).
 - Fixed bug causing theme color to turn orange and corners turn sharp.`,
 	},
 	{
 		date: `2025-04-01T12:00:00`,
 		product: 'web',
 		body: `### Added
-- Added Modrinth Pizza.`,
+- Added Blankethub Pizza.`,
 	},
 	{
 		date: `2025-04-01T00:00:00`,
@@ -1262,13 +1262,13 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-03-24T22:30:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Improved error handling, especially when the Modrinth API is down.`,
+- Improved error handling, especially when the Blankethub API is down.`,
 	},
 	{
 		date: `2025-03-13T19:30:00-07:00`,
 		product: 'web',
 		body: `### Improvements
-- Updated Modrinth Servers marketing page, removing Pyro branding.`,
+- Updated Blankethub Servers marketing page, removing Pyro branding.`,
 	},
 	{
 		date: `2025-03-12T10:15:00-07:00`,
@@ -1277,7 +1277,7 @@ const VERSIONS: VersionEntry[] = [
 - Fixed low-res icons being pixelated.
 - Fixed mobile navbar hiding bottom of footer.
 - Updated CMP info page to correct some incorrect information.
-- Updated CCPA notice with updated information since Modrinth Servers and Modrinth+.
+- Updated CCPA notice with updated information since Blankethub Servers and Blankethub+.
 - Fixed review page failing under edge case.`,
 	},
 	{
@@ -1347,7 +1347,7 @@ const VERSIONS: VersionEntry[] = [
 - All-new site footer with more links, better organization, and a new aesthetic.
 
 ### Improvements
-- Added Dallas location to Modrinth Servers landing page.
+- Added Dallas location to Blankethub Servers landing page.
 - Updated staff moderation checklist to be more visually consistent and more dynamic.`,
 	},
 	{
@@ -1362,7 +1362,7 @@ const VERSIONS: VersionEntry[] = [
 - Fix a case where opening the platform modal, closing it, and reopening it would cause the loader version to be unselected.
 - Prevents an issue where, if crash log analysis fails, the Overview page would unrender.
 - Suspended server listings now have a copy ID button.
-- Fixed bugs from Modrinth Servers February Release.`,
+- Fixed bugs from Blankethub Servers February Release.`,
 	},
 	{
 		date: `2025-02-16T19:10:00-08:00`,
@@ -1380,7 +1380,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-02-12T19:10:00-08:00`,
 		product: 'web',
 		body: `### Improvements
-- Servers out of stock link now links to Modrinth Discord instead of support page.`,
+- Servers out of stock link now links to Blankethub Discord instead of support page.`,
 	},
 	{
 		date: `2025-02-12T19:10:00-08:00`,
@@ -1392,11 +1392,11 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-02-12T12:10:00-08:00`,
 		product: 'web',
 		body: `### Added
-- Added a 3D globe to visualize node locations to Modrinth Servers marketing page.
+- Added a 3D globe to visualize node locations to Blankethub Servers marketing page.
 - Added an indicator to show when certain server plans are running low on availability.
 
 ### Improvements
-- Improved out-of-stock notifications on Modrinth Servers page to be more accurate.`,
+- Improved out-of-stock notifications on Blankethub Servers page to be more accurate.`,
 	},
 	{
 		date: `2025-02-11T13:00:00-08:00`,
@@ -1411,7 +1411,7 @@ const VERSIONS: VersionEntry[] = [
 		date: `2025-02-11T09:00:00-08:00`,
 		product: 'web',
 		body: `### Added
-- Added a changelog page to view recent changes to Modrinth.`,
+- Added a changelog page to view recent changes to Blankethub.`,
 	},
 	{
 		date: `2025-02-10T14:00:00-08:00`,
@@ -1450,15 +1450,15 @@ const VERSIONS: VersionEntry[] = [
 - Fixed issue importing newer Prism instances.
 - Fixed issue where instances get stuck "Installing" forever when the app is closed during an install.
 - Minecraft profile is now updated every time the user's token is refreshed.
-- Improved ability for package managers to update Modrinth App by skipping the updater at runtime with an environment variable.`,
+- Improved ability for package managers to update Blankethub App by skipping the updater at runtime with an environment variable.`,
 	},
 	{
 		date: `2025-02-02T14:00:00-08:00`,
 		product: 'web',
 		body: `### Improvements
-- The report form has been updated to walk you through the report process better and clarify some things like that the form is for Modrinth rules and terms violations, not for bug reports or DMCA takedowns.
+- The report form has been updated to walk you through the report process better and clarify some things like that the form is for Blankethub rules and terms violations, not for bug reports or DMCA takedowns.
 
-![A screenshot of the new report form on Modrinth, using Iris Shaders as an example. The title says "Report Iris Shaders to moderators". Below that, it says "Please report violations of Modrinth Rules or Terms of Use. Examples include malicious, spam, offensive, deceptive, misleading, and illegal content. This form is not for bug reports or DMCA takedowns (See our Copyright Policy)." Then, there is a form that asks "Which of Modrinth's rules is this project violating?" with many options: Spam, Reuploaded work, Inappropriate, Malicious, Name-squatting, Poor description, Invalid metadata, Other. Reuploaded work is selected. Below that, is a note in an orange box with a warning icon: "Please note that you are *not* submitting a DMCA takedown request, but rather a report of reuploaded content. If you meant to file a DMCA takedown request (which is a legal action) instead, please see our Copyright Policy." Then, it asks you to provide additional context, including links and images, with a text editor and a submit button at the bottom.](https://cdn-raw.blankethub.loxalhost/changelog/web/2025-02-02/reports.jpg)`,
+![A screenshot of the new report form on Blankethub, using Iris Shaders as an example. The title says "Report Iris Shaders to moderators". Below that, it says "Please report violations of Blankethub Rules or Terms of Use. Examples include malicious, spam, offensive, deceptive, misleading, and illegal content. This form is not for bug reports or DMCA takedowns (See our Copyright Policy)." Then, there is a form that asks "Which of Blankethub's rules is this project violating?" with many options: Spam, Reuploaded work, Inappropriate, Malicious, Name-squatting, Poor description, Invalid metadata, Other. Reuploaded work is selected. Below that, is a note in an orange box with a warning icon: "Please note that you are *not* submitting a DMCA takedown request, but rather a report of reuploaded content. If you meant to file a DMCA takedown request (which is a legal action) instead, please see our Copyright Policy." Then, it asks you to provide additional context, including links and images, with a text editor and a submit button at the bottom.](https://cdn-raw.blankethub.localhost/changelog/web/2025-02-02/reports.jpg)`,
 	},
 	{
 		date: `2025-01-28T19:00:00-08:00`,
@@ -1498,7 +1498,7 @@ Contributed by [IMB11](https://github.com/johnnycharlesw/blankethub/pull/1301).`
 		product: 'web',
 		body: `### Improvements
 - Tags on project pages are now clickable to view other projects with that tag (Contributed by [Neddo](https://github.com/johnnycharlesw/blankethub/pull/3126))
-- You can now send someone a link to the download interface with a specific version and loader selected, like so: https://blankethub.loxalhost/mod/sodium?version=1.21.2&loader=quilt#download (Contributed by [AwakenedRedstone](https://github.com/johnnycharlesw/blankethub/pull/3138))`,
+- You can now send someone a link to the download interface with a specific version and loader selected, like so: https://blankethub.localhost/mod/sodium?version=1.21.2&loader=quilt#download (Contributed by [AwakenedRedstone](https://github.com/johnnycharlesw/blankethub/pull/3138))`,
 	},
 	{
 		date: `2024-12-26T22:05:00-08:00`,

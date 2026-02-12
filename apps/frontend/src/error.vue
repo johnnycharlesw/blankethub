@@ -1,13 +1,13 @@
 <template>
 	<NuxtLayout>
-		<ModrinthLoadingIndicator />
+		<BlankethubLoadingIndicator />
 		<NotificationPanel />
 		<div class="main experimental-styles-within">
 			<div v-if="is404" class="error-graphic">
-				<Logo404 />
+				<h1>404</h1>
 			</div>
 			<div class="error-box" :class="{ 'has-bot': !is404 }">
-				<img v-if="!is404" :src="SadRinthbot" alt="Sad Modrinth bot" class="error-box__sad-bot" />
+				<img v-if="!is404" :src="SadRinthbot" alt="Sad Blankethub bot" class="error-box__sad-bot" />
 				<div v-if="!is404" class="error-box__top-glow" />
 				<div class="error-box__body">
 					<h1 class="error-box__title">{{ formatMessage(errorMessages.title) }}</h1>
@@ -23,12 +23,12 @@
 						<li v-for="item in errorMessages.list_items" :key="item">
 							<IntlFormatted :message-id="item">
 								<template #status-link="{ children }">
-									<a href="https://status.blankethub.loxalhost" target="_blank" rel="noopener">
+									<a href="https://status.blankethub.localhost" target="_blank" rel="noopener">
 										<component :is="() => normalizeChildren(children)" />
 									</a>
 								</template>
 								<template #discord-link="{ children }">
-									<a href="https://discord.blankethub.loxalhost" target="_blank" rel="noopener">
+									<a href="https://discord.blankethub.localhost" target="_blank" rel="noopener">
 										<component :is="() => normalizeChildren(children)" />
 									</a>
 								</template>
@@ -53,20 +53,19 @@
 <script setup>
 import { SadRinthbot } from '@modrinth/assets'
 import {
-    defineMessage,
-    IntlFormatted,
-    normalizeChildren,
-    NotificationPanel,
-    provideModrinthClient,
-    provideNotificationManager,
-    providePageContext,
-    useVIntl,
+	defineMessage,
+	IntlFormatted,
+	normalizeChildren,
+	NotificationPanel,
+	provideBlankethubClient,
+	provideNotificationManager,
+	providePageContext,
+	useVIntl,
 } from '@modrinth/ui'
 
-import Logo404 from '~/assets/images/404.svg'
 
-import ModrinthLoadingIndicator from './components/ui/modrinth-loading-indicator.ts'
-import { createModrinthClient } from './helpers/api.ts'
+import BlankethubLoadingIndicator from './components/ui/modrinth-loading-indicator.ts'
+import { createBlankethubClient } from './helpers/api.ts'
 import { FrontendNotificationManager } from './providers/frontend-notifications.ts'
 
 const auth = await useAuth()
@@ -74,12 +73,12 @@ const config = useRuntimeConfig()
 
 provideNotificationManager(new FrontendNotificationManager())
 
-const client = createModrinthClient(auth.value, {
+const client = createBlankethubClient(auth.value, {
 	apiBaseUrl: config.public.apiBaseUrl.replace('/v2/', '/'),
 	archonBaseUrl: config.public.pyroBaseUrl.replace('/v2/', '/'),
 	rateLimitKey: config.rateLimitKey,
 })
-provideModrinthClient(client)
+provideBlankethubClient(client)
 providePageContext({
 	hierarchicalSidebarAvailable: ref(false),
 	showAds: ref(false),
@@ -151,12 +150,12 @@ const messages = {
 		list_items: [
 			defineMessage({
 				id: 'error.generic.default.list_item.1',
-				defaultMessage: 'Check if Modrinth is down on our <status-link>Status page</status-link>.',
+				defaultMessage: 'Check if Blankethub is down on our <status-link>Status page</status-link>.',
 			}),
 			defineMessage({
 				id: 'error.generic.default.list_item.2',
 				defaultMessage:
-					'If this keeps happening, you may want to let the Modrinth Team know by joining our <discord-link>Discord server</discord-link>.',
+					'If this keeps happening, you may want to let the Blankethub Team know by joining our <discord-link>Discord server</discord-link>.',
 			}),
 		],
 	},
@@ -198,7 +197,7 @@ const routeMessages = [
 					defineMessage({
 						id: 'error.project.404.list_item.3',
 						defaultMessage:
-							"The project may have been taken down by Modrinth's moderation team for violating our <tou-link>Terms of Use</tou-link>.",
+							"The project may have been taken down by Blankethub's moderation team for violating our <tou-link>Terms of Use</tou-link>.",
 					}),
 				],
 			},
@@ -228,7 +227,7 @@ const routeMessages = [
 					defineMessage({
 						id: 'error.user.404.list_item.3',
 						defaultMessage:
-							"The user's account may have been terminated for violating Modrinth's <tou-link>Terms of Use</tou-link>.",
+							"The user's account may have been terminated for violating Blankethub's <tou-link>Terms of Use</tou-link>.",
 					}),
 				],
 			},
@@ -258,7 +257,7 @@ const routeMessages = [
 					defineMessage({
 						id: 'error.organization.404.list_item.3',
 						defaultMessage:
-							"The organization may have been removed by Modrinth's moderation team for violating our <tou-link>Terms of Use</tou-link>.",
+							"The organization may have been removed by Blankethub's moderation team for violating our <tou-link>Terms of Use</tou-link>.",
 					}),
 				],
 			},
@@ -288,7 +287,7 @@ const routeMessages = [
 					defineMessage({
 						id: 'error.collection.404.list_item.3',
 						defaultMessage:
-							"The collection may have been taken down by Modrinth's moderation team for violating our <tou-link>Terms of Use</tou-link>.",
+							"The collection may have been taken down by Blankethub's moderation team for violating our <tou-link>Terms of Use</tou-link>.",
 					}),
 				],
 			},

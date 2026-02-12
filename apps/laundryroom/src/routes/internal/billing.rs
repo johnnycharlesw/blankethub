@@ -2339,15 +2339,15 @@ pub async fn stripe_webhook(
                                     .metadata
                                     .is_midas()
                                 {
-                                    "Modrinth+"
+                                    "Blankethub+"
                                 } else if metadata
                                     .product_item
                                     .metadata
                                     .is_pyro()
                                 {
-                                    "Modrinth Hosting"
+                                    "Blankethub Hosting"
                                 } else {
-                                    "a Modrinth product"
+                                    "a Blankethub product"
                                 }
                                 .to_owned(),
                             },

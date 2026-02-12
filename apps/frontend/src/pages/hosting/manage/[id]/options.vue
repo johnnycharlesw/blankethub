@@ -8,20 +8,20 @@
 </template>
 <script setup lang="ts">
 import {
-	CardIcon,
-	InfoIcon,
-	ListIcon,
-	ModrinthIcon,
-	SettingsIcon,
-	TextQuoteIcon,
-	UserIcon,
-	VersionIcon,
-	WrenchIcon,
+    BlankethubIcon,
+    CardIcon,
+    InfoIcon,
+    ListIcon,
+    SettingsIcon,
+    TextQuoteIcon,
+    UserIcon,
+    VersionIcon,
+    WrenchIcon,
 } from '@modrinth/assets'
 import { isAdmin as isUserAdmin, type User } from '@modrinth/utils'
 
 import ServerSidebar from '~/components/ui/servers/ServerSidebar.vue'
-import type { ModrinthServer } from '~/composables/servers/modrinth-servers.ts'
+import type { BlankethubServer } from '~/composables/servers/modrinth-servers.ts'
 import type { BackupInProgressReason } from '~/pages/hosting/manage/[id].vue'
 
 const route = useRoute()
@@ -29,12 +29,12 @@ const serverId = route.params.id as string
 const auth = await useAuth()
 
 const props = defineProps<{
-	server: ModrinthServer
+	server: BlankethubServer
 	backupInProgress?: BackupInProgressReason
 }>()
 
 useHead({
-	title: `Options - ${props.server.general?.name ?? 'Server'} - Modrinth`,
+	title: `Options - ${props.server.general?.name ?? 'Server'} - Blankethub`,
 })
 
 const ownerId = computed(() => props.server.general?.owner_id ?? 'Ghost')
@@ -60,7 +60,7 @@ const navLinks = computed(() => [
 		shown: isOwner.value,
 	},
 	{
-		icon: ModrinthIcon,
+		icon: BlankethubIcon,
 		label: 'Admin Billing',
 		href: `/admin/billing/${ownerId.value}`,
 		external: true,

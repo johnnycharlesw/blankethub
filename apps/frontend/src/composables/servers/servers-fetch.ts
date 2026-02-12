@@ -1,6 +1,6 @@
 import { PANEL_VERSION } from '@modrinth/api-client'
 import type { V1ErrorInfo } from '@modrinth/utils'
-import { ModrinthServerError, ModrinthServersFetchError } from '@modrinth/utils'
+import { BlankethubServerError, BlankethubServersFetchError } from '@modrinth/utils'
 import { $fetch, FetchError } from 'ofetch'
 
 export interface ServersFetchOptions {
@@ -27,11 +27,11 @@ export async function useServersFetch<T>(
 	const authToken = auth.value?.token
 
 	if (!authToken && !options.bypassAuth) {
-		const error = new ModrinthServersFetchError(
-			'[Modrinth Hosting] Cannot fetch without auth',
+		const error = new BlankethubServersFetchError(
+			'[Blankethub Hosting] Cannot fetch without auth',
 			10000,
 		)
-		throw new ModrinthServerError('Missing auth token', 401, error, module, undefined, undefined)
+		throw new BlankethubServerError('Missing auth token', 401, error, module, undefined, undefined)
 	}
 
 	const {
@@ -49,11 +49,11 @@ export async function useServersFetch<T>(
 
 	const now = Date.now()
 	if (failureCount.value >= 3 && now - lastFailureTime.value < 30000) {
-		const error = new ModrinthServersFetchError(
-			'[Modrinth Hosting] Circuit breaker open - too many recent failures',
+		const error = new BlankethubServersFetchError(
+			'[Blankethub Hosting] Circuit breaker open - too many recent failures',
 			503,
 		)
-		throw new ModrinthServerError(
+		throw new BlankethubServerError(
 			'Service temporarily unavailable',
 			503,
 			error,
@@ -73,11 +73,11 @@ export async function useServersFetch<T>(
 	)
 
 	if (!base) {
-		const error = new ModrinthServersFetchError(
-			'[Modrinth Hosting] Cannot fetch without base url. Make sure to set a PYRO_BASE_URL in environment variables',
+		const error = new BlankethubServersFetchError(
+			'[Blankethub Hosting] Cannot fetch without base url. Make sure to set a PYRO_BASE_URL in environment variables',
 			10001,
 		)
-		throw new ModrinthServerError(
+		throw new BlankethubServerError(
 			'Configuration error: Missing PYRO_BASE_URL',
 			500,
 			error,
@@ -102,7 +102,7 @@ export async function useServersFetch<T>(
 				: `${base}/v${version}/${path.replace(/^\//, '')}`
 
 	const headers: Record<string, string> = {
-		'User-Agent': 'Modrinth/1.0 (https://blankethub.loxalhost)',
+		'User-Agent': 'Blankethub/1.0 (https://blankethub.localhost)',
 		'X-Archon-Request': 'true',
 		'X-Panel-Version': String(PANEL_VERSION),
 		Vary: 'Accept, Origin',
@@ -184,13 +184,13 @@ export async function useServersFetch<T>(
 				if (!(isRetryable || is5xxRetryable) || attempts >= maxAttempts) {
 					console.error('Fetch error:', error)
 
-					const fetchError = new ModrinthServersFetchError(
-						`[Modrinth Hosting] ${error.message}`,
+					const fetchError = new BlankethubServersFetchError(
+						`[Blankethub Hosting] ${error.message}`,
 						statusCode,
 						error,
 					)
-					throw new ModrinthServerError(
-						`[Modrinth Hosting] ${message}`,
+					throw new BlankethubServerError(
+						`[Blankethub Hosting] ${message}`,
 						statusCode,
 						fetchError,
 						module,
@@ -207,12 +207,12 @@ export async function useServersFetch<T>(
 			}
 
 			console.error('Unexpected fetch error:', error)
-			const fetchError = new ModrinthServersFetchError(
-				'[Modrinth Hosting] An unexpected error occurred during the fetch operation.',
+			const fetchError = new BlankethubServersFetchError(
+				'[Blankethub Hosting] An unexpected error occurred during the fetch operation.',
 				undefined,
 				error as Error,
 			)
-			throw new ModrinthServerError(
+			throw new BlankethubServerError(
 				'Unexpected error during fetch operation',
 				undefined,
 				fetchError,
@@ -226,12 +226,12 @@ export async function useServersFetch<T>(
 	console.error('All retry attempts failed:', lastError)
 	if (lastError instanceof FetchError) {
 		const statusCode = lastError.response?.status
-		const pyroError = new ModrinthServersFetchError(
+		const pyroError = new BlankethubServersFetchError(
 			'Maximum retry attempts reached',
 			statusCode,
 			lastError,
 		)
-		throw new ModrinthServerError(
+		throw new BlankethubServerError(
 			'Maximum retry attempts reached',
 			statusCode,
 			pyroError,
@@ -241,12 +241,12 @@ export async function useServersFetch<T>(
 		)
 	}
 
-	const fetchError = new ModrinthServersFetchError(
+	const fetchError = new BlankethubServersFetchError(
 		'Maximum retry attempts reached',
 		undefined,
 		lastError || undefined,
 	)
-	throw new ModrinthServerError(
+	throw new BlankethubServerError(
 		'Maximum retry attempts reached',
 		undefined,
 		fetchError,

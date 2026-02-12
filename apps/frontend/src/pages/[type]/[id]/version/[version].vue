@@ -407,29 +407,29 @@
 </template>
 <script setup lang="ts">
 import {
-	BoxIcon,
-	DownloadIcon,
-	FileIcon,
-	InfoIcon,
-	PlusIcon,
-	ReportIcon,
-	RightArrowIcon,
-	SaveIcon,
-	StarIcon,
-	TrashIcon,
-	XIcon,
+    BoxIcon,
+    DownloadIcon,
+    FileIcon,
+    InfoIcon,
+    PlusIcon,
+    ReportIcon,
+    RightArrowIcon,
+    SaveIcon,
+    StarIcon,
+    TrashIcon,
+    XIcon,
 } from '@modrinth/assets'
 import {
-	Avatar,
-	Badge,
-	ButtonStyled,
-	Categories,
-	ConfirmModal,
-	CopyCode,
-	ENVIRONMENTS_COPY,
-	injectNotificationManager,
-	injectProjectPageContext,
-	StyledInput,
+    Avatar,
+    Badge,
+    ButtonStyled,
+    Categories,
+    ConfirmModal,
+    CopyCode,
+    ENVIRONMENTS_COPY,
+    injectNotificationManager,
+    injectProjectPageContext,
+    StyledInput,
 } from '@modrinth/ui'
 import { formatBytes, renderHighlightedString } from '@modrinth/utils'
 import { Multiselect } from 'vue-multiselect'
@@ -672,7 +672,7 @@ const description = computed(
 	() =>
 		`Download ${project.value.title} ${
 			version.value.version_number
-		} on Modrinth. Supports ${(data as any).$formatVersion(version.value.game_versions)} ${(
+		} on Blankethub. Supports ${(data as any).$formatVersion(version.value.game_versions)} ${(
 			version.value.loaders ?? []
 		)
 			.map((x: string) => x.charAt(0).toUpperCase() + x.slice(1))

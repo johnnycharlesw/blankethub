@@ -1,5 +1,5 @@
 ;(function () {
-	var host = 'blankethub.loxalhost'
+	var host = 'blankethub.localhost'
 	// var host = window.location.hostname;
 	var element = document.createElement('script')
 	var firstScript = document.getElementsByTagName('script')[0]

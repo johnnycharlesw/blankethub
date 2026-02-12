@@ -316,7 +316,7 @@ const messages = defineMessages({
 	},
 	estimatedTooltip2: {
 		id: 'dashboard.revenue.estimated-tooltip.msg2',
-		defaultMessage: 'Click to read about how Modrinth handles your revenue.',
+		defaultMessage: 'Click to read about how Blankethub handles your revenue.',
 	},
 	processing: { id: 'dashboard.revenue.processing', defaultMessage: 'Processing' },
 	processingTooltip: {
@@ -338,7 +338,7 @@ const messages = defineMessages({
 	tosLabel: {
 		id: 'dashboard.revenue.tos',
 		defaultMessage:
-			'By uploading projects to Modrinth and withdrawing money from your account, you agree to our <terms-link>Rewards Program Terms</terms-link>. Learn more about the <info-link>Reward Program</info-link>.',
+			'By uploading projects to Blankethub and withdrawing money from your account, you agree to our <terms-link>Rewards Program Terms</terms-link>. Learn more about the <info-link>Reward Program</info-link>.',
 	},
 	transactionsHeader: {
 		id: 'dashboard.revenue.transactions.header',

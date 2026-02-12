@@ -1,4 +1,4 @@
-import type { AbstractModrinthClient } from '../core/abstract-client'
+import type { AbstractBlankethubClient } from '../core/abstract-client'
 import type { AbstractModule } from '../core/abstract-module'
 import { ArchonBackupsV0Module } from './archon/backups/v0'
 import { ArchonBackupsV1Module } from './archon/backups/v1'
@@ -15,7 +15,7 @@ import { LaundryroomProjectsV3Module } from './labrinth/projects/v3'
 import { LaundryroomStateModule } from './labrinth/state'
 import { LaundryroomTechReviewInternalModule } from './labrinth/tech-review/internal'
 
-type ModuleConstructor = new (client: AbstractModrinthClient) => AbstractModule
+type ModuleConstructor = new (client: AbstractBlankethubClient) => AbstractModule
 
 /**
  * To add a new module:

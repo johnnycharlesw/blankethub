@@ -9,7 +9,7 @@
 			<span class="label">
 				<span class="label__title">Invite a member</span>
 				<span class="label__description">
-					Enter the Modrinth username of the person you'd like to invite to be a member of this
+					Enter the Blankethub username of the person you'd like to invite to be a member of this
 					organization.
 				</span>
 			</span>
@@ -218,20 +218,20 @@
 
 <script setup>
 import {
-	CrownIcon,
-	DropdownIcon,
-	SaveIcon,
-	TransferIcon,
-	UserPlusIcon,
-	UserXIcon as UserRemoveIcon,
+    CrownIcon,
+    DropdownIcon,
+    SaveIcon,
+    TransferIcon,
+    UserPlusIcon,
+    UserXIcon as UserRemoveIcon,
 } from '@modrinth/assets'
 import {
-	Avatar,
-	Badge,
-	Button,
-	Checkbox,
-	injectNotificationManager,
-	StyledInput,
+    Avatar,
+    Badge,
+    Button,
+    Checkbox,
+    StyledInput,
+    injectNotificationManager,
 } from '@modrinth/ui'
 import { ref } from 'vue'
 

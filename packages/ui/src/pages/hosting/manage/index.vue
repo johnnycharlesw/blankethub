@@ -30,7 +30,7 @@
 							on getting them back online.
 						</li>
 						<li>
-							If you recently purchased your Modrinth Hosting server, it is currently in a queue and
+							If you recently purchased your Blankethub Hosting server, it is currently in a queue and
 							will appear here as soon as it's ready. <br />
 							<span class="font-medium text-contrast"
 								>Do not attempt to purchase a new server.</span
@@ -38,13 +38,13 @@
 						</li>
 						<li>
 							If you require personalized support regarding the status of your server, please
-							contact Modrinth Support.
+							contact Blankethub Support.
 						</li>
 
 						<li v-if="fetchError" class="text-red">
 							<p>Error details:</p>
 							<CopyCode
-								:text="(fetchError as ModrinthServersFetchError).message || 'Unknown error'"
+								:text="(fetchError as BlankethubServersFetchError).message || 'Unknown error'"
 								:copyable="false"
 								:selectable="false"
 								:language="'json'"
@@ -53,8 +53,8 @@
 					</ul>
 				</div>
 				<ButtonStyled size="large" type="standard" color="brand">
-					<AutoLink class="mt-6 !w-full" to="https://support.blankethub.loxalhost"
-						>Contact Modrinth Support</AutoLink
+					<AutoLink class="mt-6 !w-full" to="https://support.blankethub.localhost"
+						>Contact Blankethub Support</AutoLink
 					>
 				</ButtonStyled>
 				<ButtonStyled size="large" @click="() => router.go(0)">
@@ -88,7 +88,7 @@
 				class="flex h-full flex-col items-center justify-center gap-8"
 			>
 				<img
-					src="https://cdn.blankethub.loxalhost/servers/excitement.webp"
+					src="https://cdn.blankethub.localhost/servers/excitement.webp"
 					alt=""
 					class="max-w-[360px]"
 					style="
@@ -96,7 +96,7 @@
 					"
 				/>
 				<h1 class="m-0 text-contrast">You don't have any servers yet!</h1>
-				<p class="m-0">Modrinth Hosting is a new way to play modded Minecraft with your friends.</p>
+				<p class="m-0">Blankethub Hosting is a new way to play modded Minecraft with your friends.</p>
 				<ButtonStyled size="large" type="standard" color="brand">
 					<AutoLink to="/servers#plan">Create a server</AutoLink>
 				</ButtonStyled>
@@ -169,10 +169,10 @@
 </template>
 
 <script setup lang="ts">
-import { NuxtModrinthClient, type Archon, type Laundryroom } from '@modrinth/api-client'
+import { NuxtBlankethubClient, type Archon, type Laundryroom } from '@modrinth/api-client'
 import { HammerIcon, LoaderCircleIcon, PlusIcon, SearchIcon } from '@modrinth/assets'
-import { AutoLink, ButtonStyled, CopyCode, injectModrinthClient, StyledInput } from '@modrinth/ui'
-import type { ModrinthServersFetchError } from '@modrinth/utils'
+import { AutoLink, ButtonStyled, CopyCode, injectBlankethubClient, StyledInput } from '@modrinth/ui'
+import type { BlankethubServersFetchError } from '@modrinth/utils'
 import { useQuery } from '@tanstack/vue-query'
 import dayjs from 'dayjs'
 import Fuse from 'fuse.js'
@@ -192,9 +192,9 @@ defineProps<{
 
 const router = useRouter()
 const route = useRoute()
-const client = injectModrinthClient()
+const client = injectBlankethubClient()
 
-const isNuxt = computed(() => client instanceof NuxtModrinthClient)
+const isNuxt = computed(() => client instanceof NuxtBlankethubClient)
 
 const hasError = ref(false)
 const isPollingForNewServers = ref(false)

@@ -9,7 +9,7 @@
 		/>
 		<h2 class="text-2xl">{{ formatMessage(commonSettingsMessages.authorizedApps) }}</h2>
 		<p>
-			When you authorize an application with your Modrinth account, you grant it access to your
+			When you authorize an application with your Blankethub account, you grant it access to your
 			account. You can manage and review access to your account here at any time.
 		</p>
 		<div v-if="appInfoLookup.length === 0" class="universal-card recessed">
@@ -91,12 +91,12 @@
 <script setup>
 import { CheckIcon, TrashIcon } from '@modrinth/assets'
 import {
-	Avatar,
-	Button,
-	commonSettingsMessages,
-	ConfirmModal,
-	injectNotificationManager,
-	useVIntl,
+    Avatar,
+    Button,
+    ConfirmModal,
+    commonSettingsMessages,
+    injectNotificationManager,
+    useVIntl,
 } from '@modrinth/ui'
 
 import { useScopes } from '~/composables/auth/scopes.ts'
@@ -113,7 +113,7 @@ definePageMeta({
 })
 
 useHead({
-	title: 'Authorizations - Modrinth',
+	title: 'Authorizations - Blankethub',
 })
 
 const { data: usersApps, refresh } = await useAsyncData('userAuthorizations', () =>

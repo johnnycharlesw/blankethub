@@ -1,5 +1,5 @@
 import { AbstractModule } from '../../../core/abstract-module'
-import { ModrinthApiError } from '../../../core/errors'
+import { BlankethubApiError } from '../../../core/errors'
 import type { Laundryroom } from '../types'
 
 export class LaundryroomProjectsV3Module extends AbstractModule {
@@ -83,7 +83,7 @@ export class LaundryroomProjectsV3Module extends AbstractModule {
 			)
 		} catch (error) {
 			// 404 means the project is not owned by an organization
-			if (error instanceof ModrinthApiError && error.statusCode === 404) {
+			if (error instanceof BlankethubApiError && error.statusCode === 404) {
 				return null
 			}
 			throw error

@@ -12,7 +12,7 @@
     "defaultMessage": "Adaugă o pictogramă"
   },
   "nags.add-links.description": {
-    "defaultMessage": "Adaugă orice link relevant către site-uri din afara Modrinth, cum ar fi codul sursă, un tracker de probleme sau o invitație de Discord."
+    "defaultMessage": "Adaugă orice link relevant către site-uri din afara Blankethub, cum ar fi codul sursă, un tracker de probleme sau o invitație de Discord."
   },
   "nags.add-links.title": {
     "defaultMessage": "Adaugă link-uri externe"

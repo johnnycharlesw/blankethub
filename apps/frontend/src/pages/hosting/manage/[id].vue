@@ -59,7 +59,7 @@
 	>
 		<ErrorInformationCard
 			title="An error occured."
-			description="Please contact Modrinth Support."
+			description="Please contact Blankethub Support."
 			:icon="TransferIcon"
 			icon-color="orange"
 			:error-details="generalErrorDetails"
@@ -80,7 +80,7 @@
 			<template #description>
 				<div class="text-md space-y-4">
 					<p class="leading-[170%] text-secondary">
-						Your server's node, where your Modrinth Server is physically hosted, is not accessible
+						Your server's node, where your Blankethub Server is physically hosted, is not accessible
 						at the moment. We are working to resolve the issue as quickly as possible.
 					</p>
 					<p class="leading-[170%] text-secondary">
@@ -88,7 +88,7 @@
 						the issue is resolved.
 					</p>
 					<p class="leading-[170%] text-secondary">
-						If reloading does not work initially, please contact Modrinth Support via the chat
+						If reloading does not work initially, please contact Blankethub Support via the chat
 						bubble in the bottom right corner and we'll be happy to help.
 					</p>
 				</div>
@@ -135,7 +135,7 @@
 			<div class="flex w-full min-w-0 select-none flex-col items-center gap-4 pt-4 sm:flex-row">
 				<ServerIcon
 					:image="
-						serverData.is_medal ? 'https://cdn-raw.blankethub.loxalhost/medal_icon.webp' : serverData.image
+						serverData.is_medal ? 'https://cdn-raw.blankethub.localhost/medal_icon.webp' : serverData.image
 					"
 					class="drop-shadow-lg sm:drop-shadow-none"
 				/>
@@ -201,7 +201,7 @@
 				</h2>
 
 				<ServerInstallation
-					:server="server as ModrinthServer"
+					:server="server as BlankethubServer"
 					:backup-in-progress="backupInProgress"
 					ignore-current-installation
 					@reinstall="onReinstall"
@@ -242,7 +242,7 @@
 									An invalid loader or Minecraft version was specified and could not be installed.
 									<ul class="m-0 mt-4 p-0 pl-4">
 										<li>
-											If this version of Minecraft was released recently, please check if Modrinth
+											If this version of Minecraft was released recently, please check if Blankethub
 											Hosting supports it.
 										</li>
 										<li>
@@ -254,7 +254,7 @@
 											You can change the loader by clicking the "Change Loader" button.
 										</li>
 										<li>
-											If you're stuck, please contact Modrinth Support with the information below:
+											If you're stuck, please contact Blankethub Support with the information below:
 										</li>
 									</ul>
 									<ButtonStyled>
@@ -267,16 +267,16 @@
 								</div>
 								<div v-if="errorMessage.toLocaleLowerCase() === 'internal error'">
 									An internal error occurred while installing your server. Don't fret — try
-									reinstalling your server, and if the problem persists, please contact Modrinth
+									reinstalling your server, and if the problem persists, please contact Blankethub
 									support with your server's debug information.
 								</div>
 								<div
 									v-if="errorMessage.toLocaleLowerCase() === 'this version is not yet supported'"
 								>
-									An error occurred while installing your server because Modrinth Hosting does not
+									An error occurred while installing your server because Blankethub Hosting does not
 									support the version of Minecraft or the loader you specified. Try reinstalling
 									your server with a different version or loader, and if the problem persists,
-									please contact Modrinth Support with your server's debug information.
+									please contact Blankethub Support with your server's debug information.
 								</div>
 
 								<div
@@ -395,9 +395,9 @@ import {
     ButtonStyled,
     defineMessage,
     ErrorInformationCard,
-    injectModrinthClient,
+    injectBlankethubClient,
     injectNotificationManager,
-    provideModrinthServerContext,
+    provideBlankethubServerContext,
     ServerIcon,
     ServerInfoLabels,
     ServerNotice,
@@ -415,13 +415,13 @@ import MedalServerCountdown from '~/components/ui/servers/marketing/MedalServerC
 import PanelServerActionButton from '~/components/ui/servers/PanelServerActionButton.vue'
 import PanelSpinner from '~/components/ui/servers/PanelSpinner.vue'
 import ServerInstallation from '~/components/ui/servers/ServerInstallation.vue'
-import type { ModrinthServer } from '~/composables/servers/modrinth-servers.ts'
-import { useModrinthServers } from '~/composables/servers/modrinth-servers.ts'
+import type { BlankethubServer } from '~/composables/servers/modrinth-servers.ts'
+import { useBlankethubServers } from '~/composables/servers/modrinth-servers.ts'
 import { useServersFetch } from '~/composables/servers/servers-fetch.ts'
-import { useModrinthServersConsole } from '~/store/console.ts'
+import { useBlankethubServersConsole } from '~/store/console.ts'
 
 const { addNotification } = injectNotificationManager()
-const client = injectModrinthClient()
+const client = injectBlankethubClient()
 
 const isReconnecting = ref(false)
 const isLoading = ref(true)
@@ -444,13 +444,13 @@ const route = useNativeRoute()
 const router = useRouter()
 const serverId = route.params.id as string
 
-// TODO: ditch useModrinthServers for this + ctx DI.
+// TODO: ditch useBlankethubServers for this + ctx DI.
 const { data: n_server } = useQuery({
 	queryKey: ['servers', 'detail', serverId],
 	queryFn: () => client.archon.servers_v0.get(serverId)!,
 })
 
-const server: Reactive<ModrinthServer> = await useModrinthServers(serverId, ['general', 'ws'])
+const server: Reactive<BlankethubServer> = await useBlankethubServers(serverId, ['general', 'ws'])
 
 const loadModulesPromise = Promise.resolve().then(() => {
 	if (server.general?.status === 'suspended') {
@@ -486,7 +486,7 @@ function safeStringify(obj: unknown, indent = ' '): string {
 const serverData = computed(() => server.general)
 const isConnected = ref(false)
 const isWSAuthIncorrect = ref(false)
-const modrinthServersConsole = useModrinthServersConsole()
+const modrinthServersConsole = useBlankethubServersConsole()
 const queryClient = useQueryClient()
 const cpuData = ref<number[]>([])
 const ramData = ref<number[]>([])
@@ -518,7 +518,7 @@ const refreshFsAuth = async () => {
 
 setNodeAuthState(() => fsAuth.value, refreshFsAuth)
 
-provideModrinthServerContext({
+provideBlankethubServerContext({
 	serverId,
 	server: n_server as Ref<Archon.Servers.v0.Server>,
 	isConnected,
@@ -538,7 +538,7 @@ const error = ref<Error | null>(null)
 
 const initialConsoleMessage = [
 	'   __________________________________________________',
-	' /  Welcome to your \x1B[32mModrinth Server\x1B[37m!                  \\',
+	' /  Welcome to your \x1B[32mBlankethub Server\x1B[37m!                  \\',
 	'|   Press the green start button to start your server! |',
 	' \\____________________________________________________/',
 	'\x1B[32m     _    _ \x1B[37m',
@@ -1077,12 +1077,12 @@ const nodeUnavailableDetails = computed(() => [
 
 const suspendedDescription = computed(() => {
 	if (serverData.value?.suspension_reason === 'cancelled') {
-		return 'Your subscription has been cancelled.\nContact Modrinth Support if you believe this is an error.'
+		return 'Your subscription has been cancelled.\nContact Blankethub Support if you believe this is an error.'
 	}
 	if (serverData.value?.suspension_reason) {
-		return `Your server has been suspended: ${serverData.value.suspension_reason}\nContact Modrinth Support if you believe this is an error.`
+		return `Your server has been suspended: ${serverData.value.suspension_reason}\nContact Blankethub Support if you believe this is an error.`
 	}
-	return 'Your server has been suspended.\nContact Modrinth Support if you believe this is an error.'
+	return 'Your server has been suspended.\nContact Blankethub Support if you believe this is an error.'
 })
 
 const generalErrorDetails = computed(() => [

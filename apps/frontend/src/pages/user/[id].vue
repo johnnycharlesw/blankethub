@@ -590,11 +590,11 @@ const messages = defineMessages({
 	},
 	bioFallbackUser: {
 		id: 'profile.bio.fallback.user',
-		defaultMessage: 'A Modrinth user.',
+		defaultMessage: 'A Blankethub user.',
 	},
 	bioFallbackCreator: {
 		id: 'profile.bio.fallback.creator',
-		defaultMessage: 'A Modrinth creator.',
+		defaultMessage: 'A Blankethub creator.',
 	},
 	collectionLabel: {
 		id: 'profile.label.collection',
@@ -623,11 +623,11 @@ const messages = defineMessages({
 	},
 	profileMetaDescription: {
 		id: 'profile.meta.description',
-		defaultMessage: "Download {username}'s projects on Modrinth",
+		defaultMessage: "Download {username}'s projects on Blankethub",
 	},
 	profileMetaDescriptionWithBio: {
 		id: 'profile.meta.description-with-bio',
-		defaultMessage: "{bio} - Download {username}'s projects on Modrinth",
+		defaultMessage: "{bio} - Download {username}'s projects on Blankethub",
 	},
 	profileNoProjectsLabel: {
 		id: 'profile.label.no-projects',
@@ -737,7 +737,7 @@ if (user.value.username !== route.params.id) {
 	await navigateTo(`/user/${user.value.username}`, { redirectCode: 301 })
 }
 
-const title = computed(() => `${user.value.username} - Modrinth`)
+const title = computed(() => `${user.value.username} - Blankethub`)
 const description = computed(() =>
 	user.value.bio
 		? formatMessage(messages.profileMetaDescriptionWithBio, {
@@ -752,7 +752,7 @@ useSeoMeta({
 	description: () => description.value,
 	ogTitle: () => title.value,
 	ogDescription: () => description.value,
-	ogImage: () => user.value.avatar_url ?? 'https://cdn.blankethub.loxalhost/placeholder.png',
+	ogImage: () => user.value.avatar_url ?? 'https://cdn.blankethub.localhost/placeholder.png',
 })
 
 const projectTypes = computed(() => {

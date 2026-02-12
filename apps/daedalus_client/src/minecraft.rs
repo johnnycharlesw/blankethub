@@ -18,7 +18,7 @@ pub async fn fetch(
     upload_files: &DashMap<String, UploadFile>,
     _mirror_artifacts: &DashMap<String, MirrorArtifact>,
 ) -> Result<(), Error> {
-    let modrinth_manifest = fetch_json::<VersionManifest>(
+    let blankethub_manifest = fetch_json::<VersionManifest>(
         &format_url(&format!(
             "minecraft/v{}/manifest.json",
             daedalus::minecraft::CURRENT_FORMAT_VERSION
@@ -33,28 +33,28 @@ pub async fn fetch(
     // TODO: experimental snapshots: https://github.com/PrismLauncher/meta/blob/main/meta/common/mojang-minecraft-experiments.json
     // TODO: old snapshots: https://github.com/PrismLauncher/meta/blob/main/meta/common/mojang-minecraft-old-snapshots.json
 
-    // We check Modrinth's version manifest and compare if the version 1) exists in Modrinth's database and 2) is unchanged
+    // We check Blankethub's version manifest and compare if the version 1) exists in Blankethub's database and 2) is unchanged
     // If they are not, we will fetch them
     let (fetch_versions, existing_versions) =
-        if let Some(mut modrinth_manifest) = modrinth_manifest {
+        if let Some(mut blankethub_manifest) = blankethub_manifest {
             let (mut fetch_versions, mut existing_versions) =
                 (Vec::new(), Vec::new());
 
             for version in mojang_manifest.versions {
-                if let Some(index) = modrinth_manifest
+                if let Some(index) = blankethub_manifest
                     .versions
                     .iter()
                     .position(|x| x.id == version.id)
                 {
-                    let modrinth_version =
-                        modrinth_manifest.versions.remove(index);
+                    let blankethub_version =
+                        blankethub_manifest.versions.remove(index);
 
-                    if modrinth_version
+                    if blankethub_version
                         .original_sha1
                         .as_ref()
                         .is_some_and(|x| x == &version.sha1)
                     {
-                        existing_versions.push(modrinth_version);
+                        existing_versions.push(blankethub_version);
                     } else {
                         fetch_versions.push(version);
                     }

@@ -27,7 +27,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "Modrinth Appin Linux versioilla <issues-link>tunnetaan olevan ongelmia</issues-link> tietyillä järjestelmillä ja asetuksilla. Jos Modrinth App on epävakaa järjestelmälläsi, kannustamme sinua kokeilemaan toisia sovelluksia kuten <prism-link>Prism Launcher</prism-link> asentaaksesi helposti Modrinth sisältöä."
+    "message": "Blankethub Appin Linux versioilla <issues-link>tunnetaan olevan ongelmia</issues-link> tietyillä järjestelmillä ja asetuksilla. Jos Blankethub App on epävakaa järjestelmälläsi, kannustamme sinua kokeilemaan toisia sovelluksia kuten <prism-link>Prism Launcher</prism-link> asentaaksesi helposti Blankethub sisältöä."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -36,10 +36,10 @@
     "message": "Lataus vaihtoehdot"
   },
   "app-marketing.download.terms": {
-    "message": "Lataamalla Modrinth Appin hyväksyt meidän <terms-link>Ehdot</terms-link> ja <privacy-link>Tietosuojaselosteen</privacy-link>."
+    "message": "Lataamalla Blankethub Appin hyväksyt meidän <terms-link>Ehdot</terms-link> ja <privacy-link>Tietosuojaselosteen</privacy-link>."
   },
   "app-marketing.download.title": {
-    "message": "Lataa Modrinth App (Beta)"
+    "message": "Lataa Blankethub App (Beta)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -51,7 +51,7 @@
     "message": "Seuraa projekteja"
   },
   "app-marketing.features.importing.description": {
-    "message": "Tuo kaikki lempi profiilisi launcherista jota käytit ennen, ja aloita Modrinth Appin käyttö sekunneissa!"
+    "message": "Tuo kaikki lempi profiilisi launcherista jota käytit ennen, ja aloita Blankethub Appin käyttö sekunneissa!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -69,7 +69,7 @@
     "message": "käyttäjältä {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth tekee helpoksi hallita kaikkia modejasi yhdessä paikassa. Voit asentaa, poistaa ja päivittää modeja yhdellä klikkauksella."
+    "message": "Blankethub tekee helpoksi hallita kaikkia modejasi yhdessä paikassa. Voit asentaa, poistaa ja päivittää modeja yhdellä klikkauksella."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Asennetut modit"
@@ -93,7 +93,7 @@
     "message": "Offline tila"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Modrinth launcherin lähdekoodi on täysin avointa. Voit lukea lähdekoodia meidän <github-link>Githubissa</github-link>!"
+    "message": "Blankethub launcherin lähdekoodi on täysin avointa. Voit lukea lähdekoodia meidän <github-link>Githubissa</github-link>!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Avoin lähdekoodi"
@@ -105,7 +105,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Modrinth App on tehokkaampi kuin moni johtavista modin hallitsijoista, käyttäen vain 150mt muistia!"
+    "message": "Blankethub App on tehokkaampi kuin moni johtavista modin hallitsijoista, käyttäen vain 150mt muistia!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -126,7 +126,7 @@
     "message": "< 150 MT"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 miljardi %"
@@ -165,13 +165,13 @@
     "message": "jota olet käyttänyt ennen"
   },
   "app-marketing.hero.download-button": {
-    "message": "Lataa Modrinth App"
+    "message": "Lataa Blankethub App"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Lataa Modrinth App"
+    "message": "Lataa Blankethub App"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "Lataa Modrinth App alustalle {os}"
+    "message": "Lataa Blankethub App alustalle {os}"
   },
   "app-marketing.hero.more-download-options": {
     "message": "Lisää lataus vaihtoehtoja"
@@ -252,7 +252,7 @@
     "message": "Luo tili"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Luomalla tilin, hyväksyt Modrinthin <terms-link>-käyttöoikeussopimuksen</terms-link> ja <privacy-policy-link>Tietosuojakäytännön</privacy-policy-link>."
+    "message": "Luomalla tilin, hyväksyt Blankethubin <terms-link>-käyttöoikeussopimuksen</terms-link> ja <privacy-policy-link>Tietosuojakäytännön</privacy-policy-link>."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "Salasanat eivät täsmää!"
@@ -261,7 +261,7 @@
     "message": "Onko sinulla jo käyttäjätili?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Tilaa päivityksiä Modrinthista"
+    "message": "Tilaa päivityksiä Blankethubista"
   },
   "auth.sign-up.title": {
     "message": "Rekisteröidy"
@@ -303,13 +303,13 @@
     "message": "Vahvista sähköposti"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Tilaa päivityksiä Modrinthista"
+    "message": "Tilaa päivityksiä Blankethubista"
   },
   "auth.welcome.label.tos": {
-    "message": "Luomalla tilin, olet hyväksynyt Modrinthin <terms-link>-käyttöoikeussopimuksen</terms-link> ja <privacy-policy-link>Tietosuojakäytännön</privacy-policy-link>."
+    "message": "Luomalla tilin, olet hyväksynyt Blankethubin <terms-link>-käyttöoikeussopimuksen</terms-link> ja <privacy-policy-link>Tietosuojakäytännön</privacy-policy-link>."
   },
   "auth.welcome.long-title": {
-    "message": "Tervetuloa Modrinthiin!"
+    "message": "Tervetuloa Blankethubiin!"
   },
   "auth.welcome.title": {
     "message": "Tervetuloa"
@@ -360,7 +360,7 @@
     "message": "Tämä kokelma saattaa olla yksityinen."
   },
   "error.collection.404.list_item.3": {
-    "message": "Tämä kokoelma on saatettu poistaa Modrinthin moderaatio tiimin toimesta koska se on <tou-link>Käyttöehtojamme</tou-link> vastaan."
+    "message": "Tämä kokoelma on saatettu poistaa Blankethubin moderaatio tiimin toimesta koska se on <tou-link>Käyttöehtojamme</tou-link> vastaan."
   },
   "error.collection.404.list_title": {
     "message": "Miksi?"
@@ -453,7 +453,7 @@
     "message": "ATLauncher"
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -510,7 +510,7 @@
     "message": "Tuotteet"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
 
   "layout.footer.resources": {
@@ -550,7 +550,7 @@
     "message": "Hostaa palvelin"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "layout.nav.organizations": {
     "message": "Organisaatiot"

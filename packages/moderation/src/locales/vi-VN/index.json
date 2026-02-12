@@ -12,7 +12,7 @@
     "defaultMessage": "Thêm một biểu tượng"
   },
   "nags.add-links.description": {
-    "defaultMessage": "Thêm bất kỳ liên kết nào có liên quan đến các trang web bên ngoài Modrinth, chẳng hạn như mã nguồn, trình theo dõi lỗi hoặc lời mời tham gia Discord."
+    "defaultMessage": "Thêm bất kỳ liên kết nào có liên quan đến các trang web bên ngoài Blankethub, chẳng hạn như mã nguồn, trình theo dõi lỗi hoặc lời mời tham gia Discord."
   },
   "nags.add-links.title": {
     "defaultMessage": "Thêm liên kết ngoài"

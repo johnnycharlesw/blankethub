@@ -30,7 +30,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "Linux용 Modrinth App은 일부 시스템 및 구성에서 <issues-link>문제가 있는 것으로 알려져</issues-link> 있습니다. Modrinth App이 불안정한 경우, <prism-link>Prism Launcher</prism-link> 등의 다른 앱을 사용하여 Modrinth 콘텐츠를 설치하는 것을 권장합니다."
+    "message": "Linux용 Blankethub App은 일부 시스템 및 구성에서 <issues-link>문제가 있는 것으로 알려져</issues-link> 있습니다. Blankethub App이 불안정한 경우, <prism-link>Prism Launcher</prism-link> 등의 다른 앱을 사용하여 Blankethub 콘텐츠를 설치하는 것을 권장합니다."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -39,10 +39,10 @@
     "message": "다운로드 옵션"
   },
   "app-marketing.download.terms": {
-    "message": "Modrinth App을 다운로드하면, <terms-link>이용 약관</terms-link> 및 <privacy-link>개인정보 처리방침</privacy-link>에 동의하는 것으로 간주됩니다."
+    "message": "Blankethub App을 다운로드하면, <terms-link>이용 약관</terms-link> 및 <privacy-link>개인정보 처리방침</privacy-link>에 동의하는 것으로 간주됩니다."
   },
   "app-marketing.download.title": {
-    "message": "Modrinth App (베타) 다운로드"
+    "message": "Blankethub App (베타) 다운로드"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "프로젝트 팔로우"
   },
   "app-marketing.features.importing.description": {
-    "message": "이전 런처에서 사용하던 모든 즐겨찾기 프로필을 가져오고, Modrinth App에서 바로 시작하세요!"
+    "message": "이전 런처에서 사용하던 모든 즐겨찾기 프로필을 가져오고, Blankethub App에서 바로 시작하세요!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "{author} 제공"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth를 사용하면 모든 모드를 한 곳에서 쉽게 관리할 수 있습니다. 한 번의 클릭으로 모드를 설치, 제거, 업데이트할 수 있습니다."
+    "message": "Blankethub를 사용하면 모든 모드를 한 곳에서 쉽게 관리할 수 있습니다. 한 번의 클릭으로 모드를 설치, 제거, 업데이트할 수 있습니다."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "설치된 모드"
@@ -96,7 +96,7 @@
     "message": "오프라인 모드"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Modrinth의 런처는 완전히 오픈 소스입니다. <github-link>Github</github-link>에서 소스 코드를 확인하세요!"
+    "message": "Blankethub의 런처는 완전히 오픈 소스입니다. <github-link>Github</github-link>에서 소스 코드를 확인하세요!"
   },
   "app-marketing.features.open-source.title": {
     "message": "오픈 소스"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Modrinth App은 단 150MB의 램을 사용하여 많은 주요 모드 관리자들보다 뛰어난 성능을 제공합니다!"
+    "message": "Blankethub App은 단 150MB의 램을 사용하여 많은 주요 모드 관리자들보다 뛰어난 성능을 제공합니다!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -129,7 +129,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "10억%"
@@ -147,13 +147,13 @@
     "message": "고성능"
   },
   "app-marketing.features.play.description": {
-    "message": "Modrinth App을 사용하여 좋아하는 모드와 모드팩을 다운로드하고 플레이하세요."
+    "message": "Blankethub App을 사용하여 좋아하는 모드와 모드팩을 다운로드하고 플레이하세요."
   },
   "app-marketing.features.play.title": {
     "message": "좋아하는 모드를 플레이하세요"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Modrinth에 있는 수천 개의 모드와 모드팩으로 모드팩을 만들고, 공유하고, 플레이하세요."
+    "message": "Blankethub에 있는 수천 개의 모드와 모드팩으로 모드팩을 만들고, 공유하고, 플레이하세요."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "모드팩"
@@ -168,7 +168,7 @@
     "message": "다른 런처와 달리"
   },
   "app-marketing.features.website.description": {
-    "message": "Modrinth App은 웹사이트와 완전히 통합되어 있어, 앱에서 좋아하는 프로젝트에 접근할 수 있습니다!"
+    "message": "Blankethub App은 웹사이트와 완전히 통합되어 있어, 앱에서 좋아하는 프로젝트에 접근할 수 있습니다!"
   },
   "app-marketing.features.website.title": {
     "message": "웹사이트 통합"
@@ -177,19 +177,19 @@
     "message": "당신이 이전에 사용했던"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Cobblemon 인스턴스가 ‘콘텐츠’ 페이지에 열려 있는 Modrinth App의 스크린샷"
+    "message": "Cobblemon 인스턴스가 ‘콘텐츠’ 페이지에 열려 있는 Blankethub App의 스크린샷"
   },
   "app-marketing.hero.description": {
-    "message": "Modrinth App은 독특한 오픈 소스 런처로, 좋아하는 모드를 플레이하고 최신 상태로 유지하는 모든 기능이 이 깔끔한 패키지 하나에 모두 담겨 있습니다."
+    "message": "Blankethub App은 독특한 오픈 소스 런처로, 좋아하는 모드를 플레이하고 최신 상태로 유지하는 모든 기능이 이 깔끔한 패키지 하나에 모두 담겨 있습니다."
   },
   "app-marketing.hero.download-button": {
-    "message": "Modrinth App 다운로드"
+    "message": "Blankethub App 다운로드"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Modrinth App 다운로드"
+    "message": "Blankethub App 다운로드"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "{os} 용 Modrinth App 다운로드"
+    "message": "{os} 용 Blankethub App 다운로드"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "Cobblemon 인스턴스의 메인 메뉴 스크린샷"
@@ -282,7 +282,7 @@
     "message": "계정 생성"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "계정을 생성함으로써, Modrinth의 <terms-link>이용 약관</terms-link> 및 <privacy-policy-link>개인정보 보호정책</privacy-policy-link>에 동의합니다."
+    "message": "계정을 생성함으로써, Blankethub의 <terms-link>이용 약관</terms-link> 및 <privacy-policy-link>개인정보 보호정책</privacy-policy-link>에 동의합니다."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "비밀번호가 일치하지 않습니다!"
@@ -291,7 +291,7 @@
     "message": "이미 계정이 있으신가요?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Modrinth의 업데이트 소식 전달받기"
+    "message": "Blankethub의 업데이트 소식 전달받기"
   },
   "auth.sign-up.title": {
     "message": "회원 가입"
@@ -333,16 +333,16 @@
     "message": "이메일 인증"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Modrinth의 업데이트 소식 전달받기"
+    "message": "Blankethub의 업데이트 소식 전달받기"
   },
   "auth.welcome.description": {
     "message": "이제 당신은 놀라운 모드를 만들고, 다운로드하고, 최신 상태로 유지하는 훌륭한 크리에이터 및 탐험가들의 모임의 일원이 되었습니다."
   },
   "auth.welcome.label.tos": {
-    "message": "계정을 생성함으로써, Modrinth의 <terms-link>이용 약관</terms-link> 및 <privacy-policy-link>개인정보 보호정책</privacy-policy-link>에 동의하게 됩니다."
+    "message": "계정을 생성함으로써, Blankethub의 <terms-link>이용 약관</terms-link> 및 <privacy-policy-link>개인정보 보호정책</privacy-policy-link>에 동의하게 됩니다."
   },
   "auth.welcome.long-title": {
-    "message": "Modrinth에 오신 걸 환영합니다!"
+    "message": "Blankethub에 오신 걸 환영합니다!"
   },
   "auth.welcome.title": {
     "message": "환영합니다"
@@ -372,7 +372,7 @@
     "message": "이 컬렉션을 삭제하시겠습니까?"
   },
   "collection.description": {
-    "message": "{description} - Modrinth에서 {username}이(가) 만든 컬렉션 {name} 보기"
+    "message": "{description} - Blankethub에서 {username}이(가) 만든 컬렉션 {name} 보기"
   },
   "collection.description.following": {
     "message": "팔로우하는 모든 프로젝트로 자동 생성된 컬렉션입니다."
@@ -591,7 +591,7 @@
     "message": "세금 신고서"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "Modrinth는 제3자 제공업체 Track1099를 통해 세금 신고서를 안전하게 수집하고 보관합니다. <security-link>자세히 알아보기</security-link>"
+    "message": "Blankethub는 제3자 제공업체 Track1099를 통해 세금 신고서를 안전하게 수집하고 보관합니다. <security-link>자세히 알아보기</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "보안 관행"
@@ -756,7 +756,7 @@
     "message": "사용 가능한 잔액 <b>{available}</b> 전액을 출금하려면 아래 양식을 작성해 주세요. 이는 세금 신고를 위해 필요하며, 한 번만 완료하면 됩니다."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
-    "message": "세금 규정을 준수하기 위해 Modrinth의 세무 기록용으로 이용하는 W-9 또는 W-8 양식을 작성해야 합니다."
+    "message": "세금 규정을 준수하기 위해 Blankethub의 세무 기록용으로 이용하는 W-9 또는 W-8 양식을 작성해야 합니다."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.header": {
     "message": "세금 신고서 필요"
@@ -798,7 +798,7 @@
     "message": "검증되지 않은 이메일"
   },
   "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
-    "message": "입력하신 배송 이메일은 귀하의 Modrinth 계정과 연결되어 있지 않습니다. Modrinth는 잘못된 이메일 주소로 발송된 보상을 복구할 수 없습니다."
+    "message": "입력하신 배송 이메일은 귀하의 Blankethub 계정과 연결되어 있지 않습니다. Blankethub는 잘못된 이메일 주소로 발송된 보상을 복구할 수 없습니다."
   },
   "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
     "message": "할인된 수수료 이용 가능"
@@ -825,7 +825,7 @@
     "message": "추정 수익은 제공될 때까지 변경될 수 있습니다."
   },
   "dashboard.revenue.estimated-tooltip.msg2": {
-    "message": "Modrinth가 수익을 처리하는 방법에 대해 알아보려면 클릭하세요."
+    "message": "Blankethub가 수익을 처리하는 방법에 대해 알아보려면 클릭하세요."
   },
   "dashboard.revenue.estimated-with-date": {
     "message": "예정일: {date}"
@@ -846,7 +846,7 @@
     "message": "출금 완료"
   },
   "dashboard.revenue.tos": {
-    "message": "Modrinth에 프로젝트를 업로드하고 계좌에서 자금을 출금함으로써 귀하는 당사의 <terms-link>리워드 프로그램 약관</terms-link>에 동의하는 것으로 간주됩니다. <info-link>리워드 프로그램</info-link>에 대해 자세히 알아보세요."
+    "message": "Blankethub에 프로젝트를 업로드하고 계좌에서 자금을 출금함으로써 귀하는 당사의 <terms-link>리워드 프로그램 약관</terms-link>에 동의하는 것으로 간주됩니다. <info-link>리워드 프로그램</info-link>에 대해 자세히 알아보세요."
   },
   "dashboard.revenue.transactions.btn.download-csv": {
     "message": "CSV로 다운로드"
@@ -978,7 +978,7 @@
     "message": "컬렉션이 비공개일 수 있습니다."
   },
   "error.collection.404.list_item.3": {
-    "message": "컬렉션이 <tou-link>이용약관</tou-link>을 위반하여 Modrinth 관리 팀에서 삭제했을 수 있습니다."
+    "message": "컬렉션이 <tou-link>이용약관</tou-link>을 위반하여 Blankethub 관리 팀에서 삭제했을 수 있습니다."
   },
   "error.collection.404.list_title": {
     "message": "다음 사항을 확인하십시오:"
@@ -999,10 +999,10 @@
     "message": "법적 사유로 인해 콘텐츠를 이용하실 수 없습니다"
   },
   "error.generic.default.list_item.1": {
-    "message": "<status-link>서버 상태</status-link>에서 Modrinth 서버가 다운되었는지 확인해 보세요."
+    "message": "<status-link>서버 상태</status-link>에서 Blankethub 서버가 다운되었는지 확인해 보세요."
   },
   "error.generic.default.list_item.2": {
-    "message": "계속해서 문제가 발생하는 경우, <discord-link>디스코드 서버</discord-link>에 접속해 Modrinth 팀과 연락할 수 있습니다."
+    "message": "계속해서 문제가 발생하는 경우, <discord-link>디스코드 서버</discord-link>에 접속해 Blankethub 팀과 연락할 수 있습니다."
   },
   "error.generic.default.list_title": {
     "message": "몇 분 뒤에 다시 시도해 보세요."
@@ -1020,7 +1020,7 @@
     "message": "조직 소유자가 URL을 변경했거나 삭제했을 수 있습니다."
   },
   "error.organization.404.list_item.3": {
-    "message": "조직이 <tou-link>이용약관</tou-link>을 위반하여 Modrinth 관리 팀에서 삭제했을 수 있습니다."
+    "message": "조직이 <tou-link>이용약관</tou-link>을 위반하여 Blankethub 관리 팀에서 삭제했을 수 있습니다."
   },
   "error.organization.404.list_title": {
     "message": "다음 사항을 확인하십시오:"
@@ -1035,7 +1035,7 @@
     "message": "프로젝트 소유자가 URL을 변경했거나, 비공개로 전환했거나, 삭제했을 수 있습니다."
   },
   "error.project.404.list_item.3": {
-    "message": "프로젝트가 <tou-link>이용약관</tou-link>을 위반하여 Modrinth 관리 팀에서 삭제했을 수 있습니다."
+    "message": "프로젝트가 <tou-link>이용약관</tou-link>을 위반하여 Blankethub 관리 팀에서 삭제했을 수 있습니다."
   },
   "error.project.404.list_title": {
     "message": "다음 사항을 확인하십시오:"
@@ -1050,7 +1050,7 @@
     "message": "해당 사용자가 이름을 변경했거나 계정을 삭제했을 수도 있습니다."
   },
   "error.user.404.list_item.3": {
-    "message": "해당 사용자의 계정이 Modrinth의 <tou-link>이용 약관</tou-link>을 위반하여 정지되었습니다."
+    "message": "해당 사용자의 계정이 Blankethub의 <tou-link>이용 약관</tou-link>을 위반하여 정지되었습니다."
   },
   "error.user.404.list_title": {
     "message": "다음 사항을 확인하십시오:"
@@ -1092,10 +1092,10 @@
     "message": "서버가 과부하 상태일 때, 일시적으로 추가 CPU 스레드를 제공하여 지연과 불안정성을 완화합니다. 이를 통해 TPS가 20 밑으로 떨어지지 않도록 하여 가능한 한 부드러운 환경을 유지할 수 있습니다. 단, 이러한 추가 CPU 스레드는 부하가 높은 순간에만 잠시 제공되므로 Spark 보고서나 다른 프로파일링 도구에는 나타나지 않을 수 있습니다."
   },
   "hosting-marketing.faq.cpu-kind": {
-    "message": "Modrinth Hosting 서버는 어떤 종류의 CPU를 사용하나요?"
+    "message": "Blankethub Hosting 서버는 어떤 종류의 CPU를 사용하나요?"
   },
   "hosting-marketing.faq.cpu-kind.answer": {
-    "message": "Modrinth Hosting 서버는 5GHz 이상의 AMD Ryzen 7900 및 7950X3D급 CPU와 DDR5 메모리로 구동됩니다."
+    "message": "Blankethub Hosting 서버는 5GHz 이상의 AMD Ryzen 7900 및 7950X3D급 CPU와 DDR5 메모리로 구동됩니다."
   },
   "hosting-marketing.faq.currency": {
     "message": "가격은 어떤 통화로 표시되나요?"
@@ -1104,31 +1104,31 @@
     "message": "모든 가격은 미국 달러(USD)로 표시됩니다."
   },
   "hosting-marketing.faq.ddos-protection": {
-    "message": "Modrinth Hosting 서버는 DDoS 공격 방어 기능을 갖추고 있나요?"
+    "message": "Blankethub Hosting 서버는 DDoS 공격 방어 기능을 갖추고 있나요?"
   },
   "hosting-marketing.faq.ddos-protection.answer": {
-    "message": "네. 모든 Modrinth Hosting 서버에는 DDoS 공격 방지 기능이 탑재되어 있으며, 일부 지역에서는 최대 17Tbps의 용량을 제공합니다."
+    "message": "네. 모든 Blankethub Hosting 서버에는 DDoS 공격 방지 기능이 탑재되어 있으며, 일부 지역에서는 최대 17Tbps의 용량을 제공합니다."
   },
   "hosting-marketing.faq.heading": {
     "message": "자주 묻는 질문"
   },
   "hosting-marketing.faq.how-fast": {
-    "message": "Modrinth Hosting 서버 속도는 얼마나 빠른가요?"
+    "message": "Blankethub Hosting 서버 속도는 얼마나 빠른가요?"
   },
   "hosting-marketing.faq.how-fast.answer.one": {
-    "message": "Modrinth Hosting 서버는 최신 고성능 하드웨어에서 호스팅되지만, 서버 속도가 정확히 얼마나 나올지는 장담하기 어렵습니다 사용 중인 모드, 데이터팩, 플러그인뿐 아니라 사용자 행동 등 다양한 요소가 속도에 영향을 미치기 때문입니다."
+    "message": "Blankethub Hosting 서버는 최신 고성능 하드웨어에서 호스팅되지만, 서버 속도가 정확히 얼마나 나올지는 장담하기 어렵습니다 사용 중인 모드, 데이터팩, 플러그인뿐 아니라 사용자 행동 등 다양한 요소가 속도에 영향을 미치기 때문입니다."
   },
   "hosting-marketing.faq.how-fast.answer.two": {
-    "message": "대부분의 성능 문제는 서버를 느리게 만드는 최적화되지 않은 모드팩, 모드, 데이터팩, 또는 플러그인 때문에 발생합니다. Modrinth 서버는 최고급 장비로 운영되므로, 서버에서 사용하는 콘텐츠에 맞는 요금제를 선택하면 큰 문제 없이 이용할 수 있을 것입니다."
+    "message": "대부분의 성능 문제는 서버를 느리게 만드는 최적화되지 않은 모드팩, 모드, 데이터팩, 또는 플러그인 때문에 발생합니다. Blankethub 서버는 최고급 장비로 운영되므로, 서버에서 사용하는 콘텐츠에 맞는 요금제를 선택하면 큰 문제 없이 이용할 수 있을 것입니다."
   },
   "hosting-marketing.faq.increase-storage": {
     "message": "서버 저장 용량을 늘릴 수 있나요?"
   },
   "hosting-marketing.faq.increase-storage.answer": {
-    "message": "네, 서버 저장 용량은 추가 비용 없이 늘릴 수 있습니다. 더 많은 저장 용량이 필요하시면 Modrinth 지원팀에 문의해 주세요."
+    "message": "네, 서버 저장 용량은 추가 비용 없이 늘릴 수 있습니다. 더 많은 저장 용량이 필요하시면 Blankethub 지원팀에 문의해 주세요."
   },
   "hosting-marketing.faq.location": {
-    "message": "Modrinth Hosting 서버는 어디에 위치해 있나요? 지역을 선택할 수 있나요?"
+    "message": "Blankethub Hosting 서버는 어디에 위치해 있나요? 지역을 선택할 수 있나요?"
   },
   "hosting-marketing.faq.location.answer": {
     "message": "현재 서버는 구매 시 북미, 유럽, 동남아 지역 중에서 선택할 수 있습니다. 향후 더 많은 지역에서 서비스를 제공할 예정입니다! 지역을 변경이 필요하면 지원팀에 문의해 주세요."
@@ -1137,7 +1137,7 @@
     "message": "어떤 마인크래프트 버전과 로더를 사용할 수 있나요?"
   },
   "hosting-marketing.faq.versions-loaders.answer.one": {
-    "message": "Modrinth Hosting 서버는 스냅샷 버전을 포함하여 버전 1.2.5부터 모든 버전의 Minecraft: Java Edition을 실행할 수 있습니다."
+    "message": "Blankethub Hosting 서버는 스냅샷 버전을 포함하여 버전 1.2.5부터 모든 버전의 Minecraft: Java Edition을 실행할 수 있습니다."
   },
   "hosting-marketing.faq.versions-loaders.answer.two": {
     "message": "저희는 패브릭, 퀼트, 포지, 네오포지 등의 모드 로더와 Paper, Purpur 등의 플러그인 로더를 포함한 다양한 모드 및 플러그인 로더를 지원합니다. 지원 여부는 해당 모드 또는 플러그인 로더가 선택한 마인크래프트 버전을 지원하는지에 따라 달라집니다."
@@ -1155,10 +1155,10 @@
     "message": "새 서버 시작하기"
   },
   "hosting-marketing.hero.host-with-modrinth": {
-    "message": "다음 서버는 Modrinth 호스팅으로 시작하세요"
+    "message": "다음 서버는 Blankethub 호스팅으로 시작하세요"
   },
   "hosting-marketing.hero.hosting-description": {
-    "message": "Modrinth Hosting은 Minecraft: Java Edition 서버를 운영하는 가장 쉬운 방법입니다. Modrinth 플랫폼 내에서 좋아하는 모드와 모드팩을 간편하게 설치하고 플레이하세요."
+    "message": "Blankethub Hosting은 Minecraft: Java Edition 서버를 운영하는 가장 쉬운 방법입니다. Blankethub 플랫폼 내에서 좋아하는 모드와 모드팩을 간편하게 설치하고 플레이하세요."
   },
   "hosting-marketing.included.advanced-networking": {
     "message": "고급 네트워킹 관리"
@@ -1179,7 +1179,7 @@
     "message": "사용자 지정 서버 <contrast>modrinth.gg</contrast> 링크를 공유하세요."
   },
   "hosting-marketing.included.description": {
-    "message": "모든 서버에는 Modrinth만이 제공할 수 있는 호스팅 경험을 제공하기 위해 설계된 기능이 포함되어 있습니다."
+    "message": "모든 서버에는 Blankethub만이 제공할 수 있는 호스팅 경험을 제공하기 위해 설계된 기능이 포함되어 있습니다."
   },
   "hosting-marketing.included.file-manager": {
     "message": "사용하기 쉬운 파일 메니저"
@@ -1194,19 +1194,19 @@
     "message": "필요할 때 도움 받기"
   },
   "hosting-marketing.included.help.description": {
-    "message": "서버 관련 문의 사항이 있으시면 언제든지 Modrinth 팀에 연락해 주세요."
+    "message": "서버 관련 문의 사항이 있으시면 언제든지 Blankethub 팀에 연락해 주세요."
   },
   "hosting-marketing.included.powerful-console": {
     "message": "강력한 콘솔, 서버 속성 관리자 등 다양한 기능을 제공합니다."
   },
   "hosting-marketing.included.powerful-console.description": {
-    "message": "Modrinth Hosting은 서버 관리를 위한 강력한 도구를 제공합니다."
+    "message": "Blankethub Hosting은 서버 관리를 위한 강력한 도구를 제공합니다."
   },
   "hosting-marketing.included.sftp-access": {
     "message": "SFTP 액세스"
   },
   "hosting-marketing.included.sftp-access.description": {
-    "message": "Modrinth Hosting에 내장된 SFTP를 사용하여 서버 파일에 직접 접근하세요."
+    "message": "Blankethub Hosting에 내장된 SFTP를 사용하여 서버 파일에 직접 접근하세요."
   },
   "hosting-marketing.included.with-your-server": {
     "message": "서버에 포함되어 있습니다."
@@ -1230,19 +1230,19 @@
     "message": "모두를 위한 서버가 있습니다"
   },
   "hosting-marketing.why.all-on-modrinth": {
-    "message": "Modrinth에서 모든 것을 관리하세요"
+    "message": "Blankethub에서 모든 것을 관리하세요"
   },
   "hosting-marketing.why.all-on-modrinth.description": {
-    "message": "서버, 모드, 플레이어 등 모든 것이 Modrinth에 있습니다. 플랫폼을 전환할 필요가 없습니다."
+    "message": "서버, 모드, 플레이어 등 모든 것이 Blankethub에 있습니다. 플랫폼을 전환할 필요가 없습니다."
   },
   "hosting-marketing.why.consistently-fast": {
     "message": "꾸준히 빠른 응답 속도"
   },
   "hosting-marketing.why.consistently-fast.description": {
-    "message": "저희 인프라는 절대 과부하되지 않으며, Modrinth에서 호스팅되는 모든 서버는 항상 최대 성능으로 작동합니다."
+    "message": "저희 인프라는 절대 과부하되지 않으며, Blankethub에서 호스팅되는 모든 서버는 항상 최대 성능으로 작동합니다."
   },
   "hosting-marketing.why.description": {
-    "message": "Modrinth에서 제공하는 수천 개의 모드팩 중에서 선택하거나 직접 만들어 보세요. 준비가 되면 친구들을 초대하여 함께 플레이하세요."
+    "message": "Blankethub에서 제공하는 수천 개의 모드팩 중에서 선택하거나 직접 만들어 보세요. 준비가 되면 친구들을 초대하여 함께 플레이하세요."
   },
   "hosting-marketing.why.heading": {
     "message": "모드팩을 찾으세요. 이제 서버가 완성됩니다."
@@ -1251,16 +1251,16 @@
     "message": "현대적이고 안정적인 호스팅을 경험해 보세요."
   },
   "hosting-marketing.why.modern-reliable-hosting.description": {
-    "message": "Modrinth 호스팅 서버는 <contrast>고성능 AMD CPU와 DDR5 RAM</contrast>으로 호스팅되어, 여러분의 서버가 원활하게 작동하도록 맞춤 제작된 소프트웨어에서 실행됩니다."
+    "message": "Blankethub 호스팅 서버는 <contrast>고성능 AMD CPU와 DDR5 RAM</contrast>으로 호스팅되어, 여러분의 서버가 원활하게 작동하도록 맞춤 제작된 소프트웨어에서 실행됩니다."
   },
   "hosting-marketing.why.where-mods-are": {
     "message": "모드가 있는 곳에서 플레이하세요"
   },
   "hosting-marketing.why.where-mods-are.description": {
-    "message": "Modrinth Hosting은 모드 및 모드팩 설치 과정을 서버에 완벽하게 통합합니다."
+    "message": "Blankethub Hosting은 모드 및 모드팩 설치 과정을 서버에 완벽하게 통합합니다."
   },
   "hosting-marketing.why.why-modrinth-hosting": {
-    "message": "Modrinth Hosting을 선택하는 이유는 무엇일까요?"
+    "message": "Blankethub Hosting을 선택하는 이유는 무엇일까요?"
   },
   "hosting-marketing.why.your-favorite-mods": {
     "message": "여러분이 좋아하는 모든 모드"
@@ -1281,7 +1281,7 @@
     "message": "대시보드로 가기"
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "Modrinth 팀의 지속적인 업데이트로 최고의 모딩 경험을 누리세요"
+    "message": "Blankethub 팀의 지속적인 업데이트로 최고의 모딩 경험을 누리세요"
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "지속적인 발전"
@@ -1326,7 +1326,7 @@
     "message": "좋아하는 프로젝트를 팔로우하세요"
   },
   "landing.feature.launcher.description": {
-    "message": "Modrinth의 오픈 소스 API를 통해 런처는 Modrinth와 깊게 통합될 수 있습니다. <link>자체 앱</link>과 ATLauncher, MultiMC, Prism Launcher 같은 인기 런처에서도 Modrinth를 이용할 수 있습니다."
+    "message": "Blankethub의 오픈 소스 API를 통해 런처는 Blankethub와 깊게 통합될 수 있습니다. <link>자체 앱</link>과 ATLauncher, MultiMC, Prism Launcher 같은 인기 런처에서도 Blankethub를 이용할 수 있습니다."
   },
   "landing.feature.launcher.heading": {
     "message": "원하는 런처로 플레이하세요"
@@ -1368,7 +1368,7 @@
     "message": "마인크래프트 창을 단순화한 표현으로, 모드린스 그린 색상의 모장 스튜디오 로고가 포함되어 있습니다."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -1452,25 +1452,25 @@
     "message": "계정 설정 방문"
   },
   "layout.banner.add-email.description": {
-    "message": "보안상의 이유로 Modrinth 계정에 이메일을 등록해야 합니다."
+    "message": "보안상의 이유로 Blankethub 계정에 이메일을 등록해야 합니다."
   },
   "layout.banner.build-fail.description": {
-    "message": "Modrinth 프론트엔드 배포가 API로부터 상태를 생성하지 못했습니다. 이는 서비스 중단 또는 구성 오류 때문일 수 있습니다. API가 사용 가능해지면 재빌드하십시오. 오류 코드: {errors}; 현재 API URL: {url}"
+    "message": "Blankethub 프론트엔드 배포가 API로부터 상태를 생성하지 못했습니다. 이는 서비스 중단 또는 구성 오류 때문일 수 있습니다. API가 사용 가능해지면 재빌드하십시오. 오류 코드: {errors}; 현재 API URL: {url}"
   },
   "layout.banner.build-fail.title": {
     "message": "빌드 중 API에서 상태 생성 오류가 발생했습니다."
   },
   "layout.banner.preview.description": {
-    "message": "공식 Modrinth 웹사이트에 접속하려는 경우, <link>https://blankethub.loxalhost</link>를 방문하세요. 이 미리보기 배포판은 Modrinth 직원이 테스트 목적으로 사용하며, 이는 <branch-link>{owner}/{branch}</branch-link> @ {commit}을 사용해 빌드되었습니다."
+    "message": "공식 Blankethub 웹사이트에 접속하려는 경우, <link>https://blankethub.localhost</link>를 방문하세요. 이 미리보기 배포판은 Blankethub 직원이 테스트 목적으로 사용하며, 이는 <branch-link>{owner}/{branch}</branch-link> @ {commit}을 사용해 빌드되었습니다."
   },
   "layout.banner.preview.title": {
-    "message": "이 웹사이트는 Modrinth의 미리보기입니다."
+    "message": "이 웹사이트는 Blankethub의 미리보기입니다."
   },
   "layout.banner.staging.description": {
-    "message": "스테이징 환경은 실제 Modrinth 프로덕션 데이터베이스와 완전히 분리되어 있으며, 테스트와 디버깅을 목적으로 사용됩니다. 이 환경에서는 프로덕션 인스턴스보다 최신 버전의 Modrinth 백엔드 또는 프론트엔드의 개발 버전이 실행되고 있을 수 있습니다."
+    "message": "스테이징 환경은 실제 Blankethub 프로덕션 데이터베이스와 완전히 분리되어 있으며, 테스트와 디버깅을 목적으로 사용됩니다. 이 환경에서는 프로덕션 인스턴스보다 최신 버전의 Blankethub 백엔드 또는 프론트엔드의 개발 버전이 실행되고 있을 수 있습니다."
   },
   "layout.banner.staging.title": {
-    "message": "현재 Modrinth의 스테이징 환경을 보고 있습니다"
+    "message": "현재 Blankethub의 스테이징 환경을 보고 있습니다"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "결제 정보 업데이트"
@@ -1485,7 +1485,7 @@
     "message": "세금 신고서를 작성 완료하세요"
   },
   "layout.banner.tax.description": {
-    "message": "올해 이미 Modrinth에서 600달러 이상을 출금하셨습니다. 세금 규정을 준수하기 위해 세금 신고서를 작성하셔야 합니다. 이 서류가 제출될 때까지 출금이 일시 중단됩니다."
+    "message": "올해 이미 Blankethub에서 600달러 이상을 출금하셨습니다. 세금 규정을 준수하기 위해 세금 신고서를 작성하셔야 합니다. 이 서류가 제출될 때까지 출금이 일시 중단됩니다."
   },
   "layout.banner.tax.title": {
     "message": "세금 신고서 필요"
@@ -1503,7 +1503,7 @@
     "message": "인증 이메일 재전송"
   },
   "layout.banner.verify-email.description": {
-    "message": "보안상의 이유로 Modrinth 계정에 연결된 이메일 주소를 인증해야 합니다."
+    "message": "보안상의 이유로 Blankethub 계정에 연결된 이메일 주소를 인증해야 합니다."
   },
   "layout.footer.about": {
     "message": "소개"
@@ -1545,20 +1545,20 @@
     "message": "이용 약관"
   },
   "layout.footer.modrinth-information": {
-    "message": "Modrinth 정보"
+    "message": "Blankethub 정보"
   },
   "layout.footer.open-source": {
-    "message": "Modrinth는 <github-link>오픈 소스</github-link>입니다."
+    "message": "Blankethub는 <github-link>오픈 소스</github-link>입니다."
   },
   "layout.footer.products": {
     "message": "상품"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
 
   "layout.footer.products.servers": {
-    "message": "Modrinth Hosting"
+    "message": "Blankethub Hosting"
   },
   "layout.footer.resources": {
     "message": "정보"
@@ -1594,7 +1594,7 @@
     "message": "메뉴 전환"
   },
   "layout.meta.description": {
-    "message": "Modrinth에서 Minecraft 모드, 플러그인, 데이터팩, 셰이더, 리소스팩, 모드팩을 다운로드하세요. 현대적이고 사용하기 쉬운 인터페이스와 API를 통해 Modrinth에서 프로젝트를 탐색하고 게시하세요."
+    "message": "Blankethub에서 Minecraft 모드, 플러그인, 데이터팩, 셰이더, 리소스팩, 모드팩을 다운로드하세요. 현대적이고 사용하기 쉬운 인터페이스와 API를 통해 Blankethub에서 프로젝트를 탐색하고 게시하세요."
   },
   "layout.meta.og-description": {
     "message": "Minecraft 콘텐츠를 탐색하고 게시하세요!"
@@ -1618,7 +1618,7 @@
     "message": "기능 플래그"
   },
   "layout.nav.get-modrinth-app": {
-    "message": "Modrinth App 받기"
+    "message": "Blankethub App 받기"
   },
   "layout.nav.home": {
     "message": "홈"
@@ -1627,10 +1627,10 @@
     "message": "서버 호스트하기"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "Modrinth 홈페이지"
+    "message": "Blankethub 홈페이지"
   },
   "layout.nav.my-servers": {
     "message": "내 서버"
@@ -1933,10 +1933,10 @@
     "message": "지갑 주소를 다시 확인하세요. 잘못된 주소로 송금된 자금은 복구할 수 없습니다."
   },
   "profile.bio.fallback.creator": {
-    "message": "Modrinth 창작자입니다."
+    "message": "Blankethub 창작자입니다."
   },
   "profile.bio.fallback.user": {
-    "message": "Modrinth 사용자입니다."
+    "message": "Blankethub 사용자입니다."
   },
   "profile.button.billing": {
     "message": "사용자 청구 관리"
@@ -2020,10 +2020,10 @@
     "message": "저장..."
   },
   "profile.meta.description": {
-    "message": "Modrinth에서 {username}의 프로젝트 다운로드"
+    "message": "Blankethub에서 {username}의 프로젝트 다운로드"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - Modrinth에서 {username}의 프로젝트 다운로드"
+    "message": "{bio} - Blankethub에서 {username}의 프로젝트 다운로드"
   },
   "profile.stats.projects-followers": {
     "message": "{count, plural, other {<stat>{count}</stat> 프로젝트 팔로워}}"
@@ -2062,7 +2062,7 @@
     "message": "검토를 위해 다시 제출"
   },
   "project-moderation-nags.resubmit-for-review-desc": {
-    "message": "귀하의 프로젝트는 Modrinth 직원들에 의해 {status, select, rejected {거부} withheld {보류} other {{status}}} 처리되었습니다. 대부분의 경우, 직원들의 메시지를 해결한 후 재검토를 위해 재제출할 수 있습니다."
+    "message": "귀하의 프로젝트는 Blankethub 직원들에 의해 {status, select, rejected {거부} withheld {보류} other {{status}}} 처리되었습니다. 대부분의 경우, 직원들의 메시지를 해결한 후 재검토를 위해 재제출할 수 있습니다."
   },
   "project-moderation-nags.submit-checklist-tooltip": {
     "message": "게시 체크리스트에 필요한 단계를 완료해야 합니다!"
@@ -2164,7 +2164,7 @@
     "message": "프로젝트 검토"
   },
   "project.actions.servers-promo.description": {
-    "message": "Modrinth Hosting은 친구들과 번거로움 없이 플레이할 수 있는 가장 쉬운 방법입니다!"
+    "message": "Blankethub Hosting은 친구들과 번거로움 없이 플레이할 수 있는 가장 쉬운 방법입니다!"
   },
   "project.actions.servers-promo.pricing": {
     "message": "{price}<small> / 월</small>부터 시작"
@@ -2197,10 +2197,10 @@
     "message": "{title}은(는) {platform}용 {gameVersion}을(를) 지원하지 않습니다"
   },
   "project.download.install-with-app": {
-    "message": "Modrinth App으로 설치"
+    "message": "Blankethub App으로 설치"
   },
   "project.download.no-app": {
-    "message": "Modrinth App을 설치하지 않으셨나요?"
+    "message": "Blankethub App을 설치하지 않으셨나요?"
   },
   "project.download.no-versions-available": {
     "message": "{gameVersion} 및 {platform}용 버전이 없습니다."
@@ -2236,7 +2236,7 @@
     "message": "{title} 다운로드"
   },
   "project.environment.migration-no-permission.message": {
-    "message": "Modrinth의 환경 시스템을 전면 개편하여 새로운 옵션이 추가되었습니다. 해당 설정 변경 권한은 없으나, 환경 메타데이터 검토가 필요함을 프로젝트 다른 구성원에게 알려주시기 바랍니다."
+    "message": "Blankethub의 환경 시스템을 전면 개편하여 새로운 옵션이 추가되었습니다. 해당 설정 변경 권한은 없으나, 환경 메타데이터 검토가 필요함을 프로젝트 다른 구성원에게 알려주시기 바랍니다."
   },
   "project.environment.migration-no-permission.title": {
     "message": "환경 메타데이터를 검토해야 합니다"
@@ -2245,7 +2245,7 @@
     "message": "변경 사항에 대해 자세히 알아보기"
   },
   "project.environment.migration.message": {
-    "message": "Modrinth의 환경 시스템을 대대적으로 개편하여 새로운 옵션이 추가되었습니다. 메타데이터가 올바른지 확인해 주시기 바랍니다."
+    "message": "Blankethub의 환경 시스템을 대대적으로 개편하여 새로운 옵션이 추가되었습니다. 메타데이터가 올바른지 확인해 주시기 바랍니다."
   },
   "project.environment.migration.review-button": {
     "message": "환경 설정 검토"
@@ -2377,7 +2377,7 @@
     "message": "{item, select, project {project} version {version} user {user} other {content}}를 찾을 수 없습니다."
   },
   "report.for.violation": {
-    "message": "Modrinth <rules-link>규칙</rules-link> 또는 <terms-link>이용 약관</terms-link>을 위반함"
+    "message": "Blankethub <rules-link>규칙</rules-link> 또는 <terms-link>이용 약관</terms-link>을 위반함"
   },
   "report.for.violation.description": {
     "message": "악성 코드, 스팸, 사기, 불법적 콘텐츠, 폭력적 또는 오해의 소지가 있습니다."
@@ -2422,7 +2422,7 @@
     "message": "신고하려는 콘텐츠의 유형이 무엇입니까?"
   },
   "report.question.report-reason": {
-    "message": "이 {item, select, project {project} version {version} user {user} other {content}}는 Modrinth의 어떤 규칙을 위반하고 있습니까?"
+    "message": "이 {item, select, project {project} version {version} user {user} other {content}}는 Blankethub의 어떤 규칙을 위반하고 있습니까?"
   },
   "report.report-content": {
     "message": "관리자에게 콘텐츠 신고"
@@ -2626,7 +2626,7 @@
     "message": "신고 쓰기"
   },
   "scopes.sessionAccess.description": {
-    "message": "Modrinth 발급 세션에 접근하기"
+    "message": "Blankethub 발급 세션에 접근하기"
   },
   "scopes.sessionAccess.label": {
     "message": "세션 접근"
@@ -2821,7 +2821,7 @@
     "message": "이 애플리케이션을 정말로 삭제하시겠습니까?"
   },
   "settings.applications.description.intro": {
-    "message": "애플리케이션을 사용하여 Modrinth 사용자를 귀사 제품으로 인증할 수 있습니다. 자세한 내용은 <docs-link>Modrinth API 문서</docs-link>를 참조하십시오."
+    "message": "애플리케이션을 사용하여 Blankethub 사용자를 귀사 제품으로 인증할 수 있습니다. 자세한 내용은 <docs-link>Blankethub API 문서</docs-link>를 참조하십시오."
   },
   "settings.applications.field.description": {
     "message": "설명"
@@ -2908,13 +2908,13 @@
     "message": "결제 수단"
   },
   "settings.billing.pyro_subscription.description": {
-    "message": "당신의 Modrinth Hosting 구독을 관리하세요."
+    "message": "당신의 Blankethub Hosting 구독을 관리하세요."
   },
   "settings.billing.pyro_subscription.title": {
-    "message": "Modrinth Hosting 구독"
+    "message": "Blankethub Hosting 구독"
   },
   "settings.billing.subscription.description": {
-    "message": "당신의 Modrinth 구독을 관리하세요."
+    "message": "당신의 Blankethub 구독을 관리하세요."
   },
   "settings.billing.subscription.title": {
     "message": "구독"
@@ -2923,7 +2923,7 @@
     "message": "개발자 모드 비활성화"
   },
   "settings.display.banner.developer-mode.description": {
-    "message": "<strong>개발자 모드</strong>가 활성화되어 있습니다. 이를 통해 Modrinth API를 사용하는 개발자인 경우 도움이 될 수 있는 Modrinth 전체의 여러 내부 ID를 확인할 수 있습니다. 페이지 하단의 Modrinth 로고를 5번 클릭하여 개발자 모드를 전환합니다."
+    "message": "<strong>개발자 모드</strong>가 활성화되어 있습니다. 이를 통해 Blankethub API를 사용하는 개발자인 경우 도움이 될 수 있는 Blankethub 전체의 여러 내부 ID를 확인할 수 있습니다. 페이지 하단의 Blankethub 로고를 5번 클릭하여 개발자 모드를 전환합니다."
   },
   "settings.display.flags.description": {
     "message": "이 장치에서 특정 기능을 사용하거나 사용하지 않도록 설정합니다."
@@ -2968,16 +2968,16 @@
     "message": "고급 렌더링"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "message": "Modrinth 외부로 나가는 링크를 새 탭에서 엽니다. 이 설정에 상관없이 동일한 도메인과 마크다운 설명의 링크가 같은 탭에서 열리고 광고 및 편집 페이지의 링크가 새 탭에서 열립니다."
+    "message": "Blankethub 외부로 나가는 링크를 새 탭에서 엽니다. 이 설정에 상관없이 동일한 도메인과 마크다운 설명의 링크가 같은 탭에서 열리고 광고 및 편집 페이지의 링크가 새 탭에서 열립니다."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "message": "새 탭에서 외부 링크 열기"
   },
   "settings.display.sidebar.hide-app-promos.description": {
-    "message": "기본 네비게이선에서 \"Modrinth App 받기\" 버튼을 숨깁니다. Modrinth App 페이지는 여전히 시작 페이지 또는 하단에서 찾을 수 있습니다."
+    "message": "기본 네비게이선에서 \"Blankethub App 받기\" 버튼을 숨깁니다. Blankethub App 페이지는 여전히 시작 페이지 또는 하단에서 찾을 수 있습니다."
   },
   "settings.display.sidebar.hide-app-promos.title": {
-    "message": "Modrinth App 프로모션 숨기기"
+    "message": "Blankethub App 프로모션 숨기기"
   },
   "settings.display.sidebar.left-aligned-content-sidebar.title": {
     "message": "콘텐츠 페이지에서 사이드바를 왼쪽으로 정렬"
@@ -2992,7 +2992,7 @@
     "message": "검색 페이지에서 필터 사이드바를 오른쪽으로 정렬"
   },
   "settings.display.theme.description": {
-    "message": "이 디바이스에서 선호하는 Modrinth의 색상 테마를 선택합니다."
+    "message": "이 디바이스에서 선호하는 Blankethub의 색상 테마를 선택합니다."
   },
   "settings.display.theme.title": {
     "message": "색상 테마"
@@ -3001,7 +3001,7 @@
     "message": "PAT 생성"
   },
   "settings.pats.description": {
-    "message": "PAT는 Modrinth API 접근에 사용됩니다. 자세한 내용 <doc-link>Modrinth API 문서</doc-link>를 확인하세요. 언제든지 생성 및 해지가 가능합니다."
+    "message": "PAT는 Blankethub API 접근에 사용됩니다. 자세한 내용 <doc-link>Blankethub API 문서</doc-link>를 확인하세요. 언제든지 생성 및 해지가 가능합니다."
   },
   "settings.pats.modal.create.action": {
     "message": "PAT 생성"
@@ -3055,7 +3055,7 @@
     "message": "자기소개"
   },
   "settings.profile.description": {
-    "message": "당신의 프로필 정보는 Modrinth나 <docs-link>Modrinth API</docs-link>를 통해 공개될 수 있습니다."
+    "message": "당신의 프로필 정보는 Blankethub나 <docs-link>Blankethub API</docs-link>를 통해 공개될 수 있습니다."
   },
   "settings.profile.profile-info": {
     "message": "프로필 정보"
@@ -3076,7 +3076,7 @@
     "message": "현재 세션"
   },
   "settings.sessions.description": {
-    "message": "현재 Modrinth 계정으로 로그인 중인 장치 목록입니다. 여기서 각 장치를 개별적으로 로그아웃시키실 수 있습니다.\n\n만약 확인되지 않는 장치가 있다면 장치를 로그아웃시키신 후 즉시 Modrinth 계정 비밀번호를 변경하세요."
+    "message": "현재 Blankethub 계정으로 로그인 중인 장치 목록입니다. 여기서 각 장치를 개별적으로 로그아웃시키실 수 있습니다.\n\n만약 확인되지 않는 장치가 있다면 장치를 로그아웃시키신 후 즉시 Blankethub 계정 비밀번호를 변경하세요."
   },
   "settings.sessions.last-accessed-ago": {
     "message": "{ago} 에 접근함"
@@ -3088,7 +3088,7 @@
     "message": "알 수 없는 플랫폼"
   },
   "ui.latest-news-row.latest-news": {
-    "message": "Modrinth의 최신 뉴스"
+    "message": "Blankethub의 최신 뉴스"
   },
   "ui.latest-news-row.view-all": {
     "message": "모든 뉴스 보기"

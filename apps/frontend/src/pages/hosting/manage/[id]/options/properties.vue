@@ -133,23 +133,23 @@
 <script setup lang="ts">
 import { EyeIcon, SearchIcon } from '@modrinth/assets'
 import {
-	Combobox,
-	injectModrinthClient,
-	injectNotificationManager,
-	StyledInput,
-	Toggle,
+    Combobox,
+    StyledInput,
+    Toggle,
+    injectBlankethubClient,
+    injectNotificationManager,
 } from '@modrinth/ui'
 import Fuse from 'fuse.js'
 import { computed, inject, ref, watch } from 'vue'
 
 import SaveBanner from '~/components/ui/servers/SaveBanner.vue'
-import type { ModrinthServer } from '~/composables/servers/modrinth-servers.ts'
+import type { BlankethubServer } from '~/composables/servers/modrinth-servers.ts'
 
 const { addNotification } = injectNotificationManager()
-const client = injectModrinthClient()
+const client = injectBlankethubClient()
 
 const props = defineProps<{
-	server: ModrinthServer
+	server: BlankethubServer
 }>()
 
 const tags = useGeneratedState()

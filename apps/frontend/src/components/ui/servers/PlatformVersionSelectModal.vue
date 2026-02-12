@@ -210,10 +210,10 @@ import {
     injectNotificationManager,
     useVIntl,
 } from '@modrinth/ui'
-import { ModrinthServersFetchError, type Loaders } from '@modrinth/utils'
+import { BlankethubServersFetchError, type Loaders } from '@modrinth/utils'
 import { $fetch } from 'ofetch'
 
-import type { ModrinthServer } from '~/composables/servers/modrinth-servers.ts'
+import type { BlankethubServer } from '~/composables/servers/modrinth-servers.ts'
 import type { BackupInProgressReason } from '~/pages/hosting/manage/[id].vue'
 
 import LoaderIcon from './icons/LoaderIcon.vue'
@@ -236,7 +236,7 @@ type VersionMap = Record<string, LoaderVersion[]>
 type VersionCache = Record<string, any>
 
 const props = defineProps<{
-	server: ModrinthServer
+	server: BlankethubServer
 	currentLoader: Loaders | undefined
 	backupInProgress?: BackupInProgressReason
 	initialSetup?: boolean
@@ -277,7 +277,7 @@ const isSnapshotSelected = computed(() => {
 
 const getLoaderVersions = async (loader: string) => {
 	return await $fetch(
-		`https://launcher-meta.blankethub.loxalhost/${loader?.toLowerCase()}/v0/manifest.json`,
+		`https://launcher-meta.blankethub.localhost/${loader?.toLowerCase()}/v0/manifest.json`,
 	)
 }
 
@@ -391,7 +391,7 @@ watch(
 
 const getLoaderVersion = async (loader: string, version: string) => {
 	return await $fetch(
-		`https://launcher-meta.blankethub.loxalhost/${loader?.toLowerCase()}/v0/versions/${version}.json`,
+		`https://launcher-meta.blankethub.localhost/${loader?.toLowerCase()}/v0/versions/${version}.json`,
 	)
 }
 
@@ -488,7 +488,7 @@ const handleReinstall = async () => {
 
 		hide()
 	} catch (error) {
-		if (error instanceof ModrinthServersFetchError && (error as any)?.statusCode === 429) {
+		if (error instanceof BlankethubServersFetchError && (error as any)?.statusCode === 429) {
 			addNotification({
 				title: 'Cannot reinstall server',
 				text: 'You are being rate limited. Please try again later.',

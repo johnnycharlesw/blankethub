@@ -30,7 +30,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "Modrinth App'in Linux sürümleri bazı sistemlerde <issues-link>sorunlu olabilir</issues-link>. Modrinth App sisteminizde stabil değilse, <prism-link>Prism Launcher</prism-link> gibi başka uygulamalarla Modrinth içeriklerini indirmenizi tavsiye ediyoruz."
+    "message": "Blankethub App'in Linux sürümleri bazı sistemlerde <issues-link>sorunlu olabilir</issues-link>. Blankethub App sisteminizde stabil değilse, <prism-link>Prism Launcher</prism-link> gibi başka uygulamalarla Blankethub içeriklerini indirmenizi tavsiye ediyoruz."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -39,10 +39,10 @@
     "message": "İndirme seçenekleri"
   },
   "app-marketing.download.terms": {
-    "message": "Modrinth App indirerek <terms-link>Koşullarımızı</terms-link> ve <privacy-link>Gizlilik İlkemizi</privacy-link> kabul etmiş olursunuz."
+    "message": "Blankethub App indirerek <terms-link>Koşullarımızı</terms-link> ve <privacy-link>Gizlilik İlkemizi</privacy-link> kabul etmiş olursunuz."
   },
   "app-marketing.download.title": {
-    "message": "Modrinth App'i İndir (Beta)"
+    "message": "Blankethub App'i İndir (Beta)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "Proje takibi"
   },
   "app-marketing.features.importing.description": {
-    "message": "Sevdiğin profilleri önceden kullandığın başlatıcıdan buraya aktar, saniyeler içinde Modrinth App'i kullanmaya başla!"
+    "message": "Sevdiğin profilleri önceden kullandığın başlatıcıdan buraya aktar, saniyeler içinde Blankethub App'i kullanmaya başla!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "{author} tarafından"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth tüm modlarınızı bir yerde toplayıp yönetmenizi kolaylaştırır. Tek tuşla mod kurabilir, silebilir ve güncelleyebilirsiniz."
+    "message": "Blankethub tüm modlarınızı bir yerde toplayıp yönetmenizi kolaylaştırır. Tek tuşla mod kurabilir, silebilir ve güncelleyebilirsiniz."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Yüklü modlar"
@@ -96,7 +96,7 @@
     "message": "Çevrim dışı mod"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Modrinth'in başlatıcısı tamamen açık kaynak kodludur. <github-link>GitHub</github-link> sayfamızda kaynak kodunu inceleyebilirsin!"
+    "message": "Blankethub'in başlatıcısı tamamen açık kaynak kodludur. <github-link>GitHub</github-link> sayfamızda kaynak kodunu inceleyebilirsin!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Açık kaynak"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Modrinth App, öne çıkan çoğu mod yöneticisinden daha hafiftir, sadece 150mb RAM kullanır!"
+    "message": "Blankethub App, öne çıkan çoğu mod yöneticisinden daha hafiftir, sadece 150mb RAM kullanır!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -129,7 +129,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "% 1 milyar"
@@ -147,13 +147,13 @@
     "message": "Verimli"
   },
   "app-marketing.features.play.description": {
-    "message": "Modrinth App ile favori mod ve mod paketlerinizi indirin ve oynayın."
+    "message": "Blankethub App ile favori mod ve mod paketlerinizi indirin ve oynayın."
   },
   "app-marketing.features.play.title": {
     "message": "Favori modlarınız ile oynayın"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Modrinth'teki herhangi binlerce mod ile mod paketi oluşturun, paylaşın ve oynayın."
+    "message": "Blankethub'teki herhangi binlerce mod ile mod paketi oluşturun, paylaşın ve oynayın."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Mod Paketi"
@@ -168,7 +168,7 @@
     "message": "Daha önce kullandığınız"
   },
   "app-marketing.features.website.description": {
-    "message": "Modrinth App, web sitesi ile tamamem bağlantılı, yani uygulamadan favori projelerinizin tamamına erişebilirsiniz!"
+    "message": "Blankethub App, web sitesi ile tamamem bağlantılı, yani uygulamadan favori projelerinizin tamamına erişebilirsiniz!"
   },
   "app-marketing.features.website.title": {
     "message": "Website entegrasyonu"
@@ -177,19 +177,19 @@
     "message": "hiç bir başlatıcıya benzemez"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Cobblemon kurulumunun ‘İçerik’ sayfasında olduğu Modrinth App ekran görüntüsü."
+    "message": "Cobblemon kurulumunun ‘İçerik’ sayfasında olduğu Blankethub App ekran görüntüsü."
   },
   "app-marketing.hero.description": {
-    "message": "Modrinth App, favori modlarınızı güncel şekilde oynayabileceğiniz özgün ve açık kaynaklı bir başlatıcı."
+    "message": "Blankethub App, favori modlarınızı güncel şekilde oynayabileceğiniz özgün ve açık kaynaklı bir başlatıcı."
   },
   "app-marketing.hero.download-button": {
-    "message": "Modrinth App İndir"
+    "message": "Blankethub App İndir"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Modrinth App İndir"
+    "message": "Blankethub App İndir"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "{os} için Modrinth App İndir"
+    "message": "{os} için Blankethub App İndir"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "Cobblemon kurulumunun ana menü ekranının ekran görüntüsü."
@@ -282,7 +282,7 @@
     "message": "Hesap oluştur"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Bir hesap oluşturarak, Modrinth'in <terms-link>Kurallar</terms-link> ve <privacy-policy-link>Gizlilik İlkeleri </privacy-policy-link>'ni kabul etmiş bulunursunuz."
+    "message": "Bir hesap oluşturarak, Blankethub'in <terms-link>Kurallar</terms-link> ve <privacy-policy-link>Gizlilik İlkeleri </privacy-policy-link>'ni kabul etmiş bulunursunuz."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "Parolalar uyuşmuyor!"
@@ -291,7 +291,7 @@
     "message": "Zaten bir hesabınız var mı?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Modrinth hakkında güncellemelere abone ol"
+    "message": "Blankethub hakkında güncellemelere abone ol"
   },
   "auth.sign-up.title": {
     "message": "Kaydol"
@@ -333,16 +333,16 @@
     "message": "E-postayı Doğrula"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Modrinth'le ilgili güncellemelere abone ol"
+    "message": "Blankethub'le ilgili güncellemelere abone ol"
   },
   "auth.welcome.description": {
     "message": "Artık çoktan kurulumu yapan, indiren ve inanılmaz modlarla güncelde kalan yaratıcıların ve kaşiflerin havalı topluluğunun bir parçasısın."
   },
   "auth.welcome.label.tos": {
-    "message": "Bir hesap oluşturarak, Modrinth'in <terms-link>Şartlar</terms-link>'ını ve <privacy-policy-link>Gizlilik İlkeleri</privacy-policy-link>'ni kabul etmiş sayılırsınız."
+    "message": "Bir hesap oluşturarak, Blankethub'in <terms-link>Şartlar</terms-link>'ını ve <privacy-policy-link>Gizlilik İlkeleri</privacy-policy-link>'ni kabul etmiş sayılırsınız."
   },
   "auth.welcome.long-title": {
-    "message": "Modrinth'e hoş geldiniz!"
+    "message": "Blankethub'e hoş geldiniz!"
   },
   "auth.welcome.title": {
     "message": "Hoş geldiniz"
@@ -372,7 +372,7 @@
     "message": "Bu koleksiyonu silmek istediğinizden emin misiniz?"
   },
   "collection.description": {
-    "message": "{description} - Modrinth'te {username} tarafından oluşturulan {name} koleksiyonunu göster"
+    "message": "{description} - Blankethub'te {username} tarafından oluşturulan {name} koleksiyonunu göster"
   },
   "collection.description.following": {
     "message": "Takip ettiğin projelerden oluşturulmuş otomatik koleksiyon."
@@ -591,7 +591,7 @@
     "message": "Vergi formu"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "Modrinth, vergi formlarınızı güvenli bir şekilde toplamak ve saklamak için üçüncü taraf sağlayıcı Track1099'u kullanır. <security-link>Buradan daha fazla bilgi edinebilirsiniz.</security-link>"
+    "message": "Blankethub, vergi formlarınızı güvenli bir şekilde toplamak ve saklamak için üçüncü taraf sağlayıcı Track1099'u kullanır. <security-link>Buradan daha fazla bilgi edinebilirsiniz.</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "Güvenlik uygulamaları"
@@ -756,7 +756,7 @@
     "message": "Mevcut <b>{available}</b> bakiyenizin tamamını çekmek için aşağıdaki formu doldurun. Bu vergi raporlaması için gereklidir ve sadece bir kez yapılması yeterlidir."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
-    "message": "Vergi düzenlemelerine uygun kalmamız için Modrinth'in vergi kayıtları için W-9 veya W-8 formunu doldurmanız gerekir."
+    "message": "Vergi düzenlemelerine uygun kalmamız için Blankethub'in vergi kayıtları için W-9 veya W-8 formunu doldurmanız gerekir."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.header": {
     "message": "Vergi formu gerekli"
@@ -798,7 +798,7 @@
     "message": "Doğrulanmamış E-posta"
   },
   "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
-    "message": "Girdiğiniz teslimat e-postası Modrinth hesabınızla ilişkili değil. Modrinth yanlış e-posta adresine gönderilen ödülleri kurtaramaz."
+    "message": "Girdiğiniz teslimat e-postası Blankethub hesabınızla ilişkili değil. Blankethub yanlış e-posta adresine gönderilen ödülleri kurtaramaz."
   },
   "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
     "message": "Daha düşük ücretler mevcut"
@@ -825,7 +825,7 @@
     "message": "Tahmini gelir, kullanılabilir hale gelene kadar değişikliğe tabi olabilir."
   },
   "dashboard.revenue.estimated-tooltip.msg2": {
-    "message": "Modrinth'in gelirinizi nasıl işlediği hakkında bilgi almak için tıklayın."
+    "message": "Blankethub'in gelirinizi nasıl işlediği hakkında bilgi almak için tıklayın."
   },
   "dashboard.revenue.estimated-with-date": {
     "message": "Tahminen {date}"
@@ -846,7 +846,7 @@
     "message": "Çekilen"
   },
   "dashboard.revenue.tos": {
-    "message": "Modrinth'e proje yükleyerek ve hesabınızdan para çekerek <terms-link>Ödül Programı Şartlarımızı</terms-link> kabul etmiş olursunuz. <info-link>Ödül Programı</info-link> hakkında daha fazla bilgi edinin."
+    "message": "Blankethub'e proje yükleyerek ve hesabınızdan para çekerek <terms-link>Ödül Programı Şartlarımızı</terms-link> kabul etmiş olursunuz. <info-link>Ödül Programı</info-link> hakkında daha fazla bilgi edinin."
   },
   "dashboard.revenue.transactions.btn.download-csv": {
     "message": "CSV olarak indir"
@@ -978,7 +978,7 @@
     "message": "Koleksiyon gizli olabilir."
   },
   "error.collection.404.list_item.3": {
-    "message": "Koleksiyon Modrinth'in moderasyon ekibi tarafından <tou-link>Kullanım Koşullarımızı</tou-link> ihlal ettiği için kaldırılmış olabilir."
+    "message": "Koleksiyon Blankethub'in moderasyon ekibi tarafından <tou-link>Kullanım Koşullarımızı</tou-link> ihlal ettiği için kaldırılmış olabilir."
   },
   "error.collection.404.list_title": {
     "message": "Neden?"
@@ -999,10 +999,10 @@
     "message": "Bu içerik, yasal nedenlerden dolayı erişilemez"
   },
   "error.generic.default.list_item.1": {
-    "message": "<status-link>Durum sayfamızdan</status-link> Modrinth'in çöküp çökmediğini kontrol edin."
+    "message": "<status-link>Durum sayfamızdan</status-link> Blankethub'in çöküp çökmediğini kontrol edin."
   },
   "error.generic.default.list_item.2": {
-    "message": "Bu yaşanmaya devam ederse Modrinth Ekibini <discord-link>Discord sunucumuza</discord-link> katılarak bilgilendirmek isteyebilirsin."
+    "message": "Bu yaşanmaya devam ederse Blankethub Ekibini <discord-link>Discord sunucumuza</discord-link> katılarak bilgilendirmek isteyebilirsin."
   },
   "error.generic.default.list_title": {
     "message": "Lütfen bir kaç dakika içinde tekrar dene."
@@ -1020,7 +1020,7 @@
     "message": "Organizasyonun sahibi URL'i değiştirmiş veya silmiş olabilir."
   },
   "error.organization.404.list_item.3": {
-    "message": "Organizasyon Modrinth'in moderasyon ekibi tarafından <tou-link>Kullanım Koşullarımızı</tou-link> ihlal ettiği için kaldırılmış olabilir."
+    "message": "Organizasyon Blankethub'in moderasyon ekibi tarafından <tou-link>Kullanım Koşullarımızı</tou-link> ihlal ettiği için kaldırılmış olabilir."
   },
   "error.organization.404.list_title": {
     "message": "Neden?"
@@ -1035,7 +1035,7 @@
     "message": "Projenin sahibi URL'i değiştirmiş, projeyi gizlemiş veya silmiş olabilir."
   },
   "error.project.404.list_item.3": {
-    "message": "Proje Modrinth'in moderasyon ekibi tarafından <tou-link>Kullanım Koşullarımızı</tou-link> ihlal ettiği için kaldırılmış olabilir."
+    "message": "Proje Blankethub'in moderasyon ekibi tarafından <tou-link>Kullanım Koşullarımızı</tou-link> ihlal ettiği için kaldırılmış olabilir."
   },
   "error.project.404.list_title": {
     "message": "Neden?"
@@ -1050,7 +1050,7 @@
     "message": "Kullanıcı, adını değiştirmiş veya hesabını silmiş olabilir."
   },
   "error.user.404.list_item.3": {
-    "message": "Kullanıcının hesabı Modrinth'in <tou-link>Kullanım Koşullarını</tou-link> ihlal ettiği için kaldırılmış olabilir."
+    "message": "Kullanıcının hesabı Blankethub'in <tou-link>Kullanım Koşullarını</tou-link> ihlal ettiği için kaldırılmış olabilir."
   },
   "error.user.404.list_title": {
     "message": "Neden?"
@@ -1092,10 +1092,10 @@
     "message": "Sunucunuz yoğun yük altında olduğunda, gecikme artışlarını ve kararsızlığı azaltmak için geçici olarak ek işlemci iş parçacığı erişimi sağlıyoruz. Bu, TPS'nin 20'nin altına düşmesini önleyerek mümkün olan en sorunsuz deneyimi sağlar. Bu ek işlemci iş parçacıkları yalnızca yüksek yük dönemlerinde kısa süreliğine kullanılabilir olduğundan, Spark raporlarında veya diğer profil oluşturma araçlarında görünmeyebilir."
   },
   "hosting-marketing.faq.cpu-kind": {
-    "message": "Modrinth Hosting sunucuları ne tür işlemcilerle çalışır?"
+    "message": "Blankethub Hosting sunucuları ne tür işlemcilerle çalışır?"
   },
   "hosting-marketing.faq.cpu-kind.answer": {
-    "message": "Modrinth Hosting sunucuları, 5+ GHz hızında AMD Ryzen 7900 ve 7950X3D eşdeğer işlemciler ve DDR5 bellek ile çalışır."
+    "message": "Blankethub Hosting sunucuları, 5+ GHz hızında AMD Ryzen 7900 ve 7950X3D eşdeğer işlemciler ve DDR5 bellek ile çalışır."
   },
   "hosting-marketing.faq.currency": {
     "message": "Fiyatlar hangi para birimindedir?"
@@ -1104,19 +1104,19 @@
     "message": "Tüm fiyatlar Dolar (USD) birimindedir."
   },
   "hosting-marketing.faq.ddos-protection": {
-    "message": "Modrinth Hosting sunucularında DDoS koruması var mı?"
+    "message": "Blankethub Hosting sunucularında DDoS koruması var mı?"
   },
   "hosting-marketing.faq.ddos-protection.answer": {
-    "message": "Evet. Tüm Modrinth Hosting sunucuları, bazı konumlarda 17 Tbps'ye kadar kapasiteye sahip DDoS koruması ile birlikte gelir."
+    "message": "Evet. Tüm Blankethub Hosting sunucuları, bazı konumlarda 17 Tbps'ye kadar kapasiteye sahip DDoS koruması ile birlikte gelir."
   },
   "hosting-marketing.faq.heading": {
     "message": "Sıkça Sorulan Sorular"
   },
   "hosting-marketing.faq.how-fast": {
-    "message": "Modrinth Hosting sunucuları ne kadar hızlı?"
+    "message": "Blankethub Hosting sunucuları ne kadar hızlı?"
   },
   "hosting-marketing.faq.how-fast.answer.one": {
-    "message": "Modrinth Hosting sunucuları çok modern ve yüksek performanslı donanımlar kullanmaktadır. Ancak bunun sunucunuzun çalışma hızına tam olarak nasıl yansıyacağını söylemek zordur, çünkü bunu etkileyen birçok faktör vardır, örneğin sunucunuzda çalıştırdığınız modlar, veri paketleri, eklentiler veya kullanıcı davranışları gibi."
+    "message": "Blankethub Hosting sunucuları çok modern ve yüksek performanslı donanımlar kullanmaktadır. Ancak bunun sunucunuzun çalışma hızına tam olarak nasıl yansıyacağını söylemek zordur, çünkü bunu etkileyen birçok faktör vardır, örneğin sunucunuzda çalıştırdığınız modlar, veri paketleri, eklentiler veya kullanıcı davranışları gibi."
   },
   "hosting-marketing.faq.how-fast.answer.two": {
     "message": "Ortaya çıkan performans sorunlarının çoğu, sunucunun gecikmesine neden olan optimize edilmemiş bir mod paketi, mod, veri paketi veya eklentinin hatasından kaynaklanmaktadır. Sunucularımız çok yüksek kaliteli olduğundan, sunucuda çalıştırdığınız içerik için uygun bir plan seçtiğiniz sürece çok fazla sorun yaşamazsınız."
@@ -1125,10 +1125,10 @@
     "message": "Sunucumun depolamasını arttırabilir miyim?"
   },
   "hosting-marketing.faq.increase-storage.answer": {
-    "message": "Evet, sunucunuzdaki depolama alanı ek ücret ödemeden artırılabilir. Daha fazla depolama alanına ihtiyacınız varsa Modrinth Destek ekibiyle iletişime geçin."
+    "message": "Evet, sunucunuzdaki depolama alanı ek ücret ödemeden artırılabilir. Daha fazla depolama alanına ihtiyacınız varsa Blankethub Destek ekibiyle iletişime geçin."
   },
   "hosting-marketing.faq.location": {
-    "message": "Modrinth Hosting sunucuları nerede bulunuyor? Bölge seçebilir miyim?"
+    "message": "Blankethub Hosting sunucuları nerede bulunuyor? Bölge seçebilir miyim?"
   },
   "hosting-marketing.faq.location.answer": {
     "message": "Şu anda Kuzey Amerika, Avrupa ve Güneydoğu Asya'da satın alabileceğiniz sunucularımız bulunmaktadır. Gelecekte daha fazla bölge eklenecektir! Bölgenizi değiştirmek isterseniz, lütfen destek ekibiyle iletişime geçin."
@@ -1137,7 +1137,7 @@
     "message": "Hangi Minecraft sürümleri ve yükleyiciler kullanılabilir?"
   },
   "hosting-marketing.faq.versions-loaders.answer.one": {
-    "message": "Modrinth Hosting sunucuları, snapshot sürümleri de dahil olmak üzere 1.2.5 sürümüne kadar geriye giden Minecraft: Java Edition'ın tüm sürümlerini çalıştırabilir."
+    "message": "Blankethub Hosting sunucuları, snapshot sürümleri de dahil olmak üzere 1.2.5 sürümüne kadar geriye giden Minecraft: Java Edition'ın tüm sürümlerini çalıştırabilir."
   },
   "hosting-marketing.faq.versions-loaders.answer.two": {
     "message": "Ayrıca, modlar için Fabric, Quilt, Forge ve NeoForge, eklentiler için Paper ve Purpur dahil olmak üzere birçok mod ve eklenti yükleyicilerini destekliyoruz. Kullanılabilirlik, mod veya eklenti yükleyicisinin seçilen Minecraft sürümünü destekleyip desteklemediğine bağlıdır."
@@ -1155,10 +1155,10 @@
     "message": "Sunucunuzu başlatın"
   },
   "hosting-marketing.hero.host-with-modrinth": {
-    "message": "Bir sonraki sunucunuzu Modrinth Hosting ile açın"
+    "message": "Bir sonraki sunucunuzu Blankethub Hosting ile açın"
   },
   "hosting-marketing.hero.hosting-description": {
-    "message": "Modrinth Hosting, kendi Minecraft: Java Edition sunucunuzu açmanın en kolay yoludur. Modrinth platformunda en sevdiğiniz modları ve mod paketlerini sorunsuz bir şekilde yükleyin ve oynayın."
+    "message": "Blankethub Hosting, kendi Minecraft: Java Edition sunucunuzu açmanın en kolay yoludur. Blankethub platformunda en sevdiğiniz modları ve mod paketlerini sorunsuz bir şekilde yükleyin ve oynayın."
   },
   "hosting-marketing.included.advanced-networking": {
     "message": "Gelişmiş ağ yönetimi"
@@ -1179,7 +1179,7 @@
     "message": "Sunucunuzu özel bir <contrast>modrinth.gg</contrast> URL'si ile paylaşın."
   },
   "hosting-marketing.included.description": {
-    "message": "Her sunucuya, yalnızca Modrinth'in sunabileceği bir deneyim sağlamak için tasarlanmış bir sürü özellik dahildir."
+    "message": "Her sunucuya, yalnızca Blankethub'in sunabileceği bir deneyim sağlamak için tasarlanmış bir sürü özellik dahildir."
   },
   "hosting-marketing.included.file-manager": {
     "message": "Kullanımı kolay dosya yöneticisi"
@@ -1194,19 +1194,19 @@
     "message": "İhtiyacınız olduğunda yardım"
   },
   "hosting-marketing.included.help.description": {
-    "message": "Sunucunuzla ilgili yardım için Modrinth ekibine istediğiniz zaman ulaşabilirsiniz."
+    "message": "Sunucunuzla ilgili yardım için Blankethub ekibine istediğiniz zaman ulaşabilirsiniz."
   },
   "hosting-marketing.included.powerful-console": {
     "message": "Güçlü bir konsol, sunucu özellikleri yöneticisi ve daha fazlası"
   },
   "hosting-marketing.included.powerful-console.description": {
-    "message": "Modrinth Hosting, sunucunuzu yönetmek için güçlü araçlar sunar."
+    "message": "Blankethub Hosting, sunucunuzu yönetmek için güçlü araçlar sunar."
   },
   "hosting-marketing.included.sftp-access": {
     "message": "Güvenli Dosya Aktarım Protokolü erişimi"
   },
   "hosting-marketing.included.sftp-access.description": {
-    "message": "Modrinth Hosting'de yerleşik Güvenli Dosya Aktarım Protokolü ile sunucunuzun dosyalarına doğrudan erişin."
+    "message": "Blankethub Hosting'de yerleşik Güvenli Dosya Aktarım Protokolü ile sunucunuzun dosyalarına doğrudan erişin."
   },
   "hosting-marketing.included.with-your-server": {
     "message": "Sunucunuza dahildir"
@@ -1230,19 +1230,19 @@
     "message": "Herkes için bir sunucu var"
   },
   "hosting-marketing.why.all-on-modrinth": {
-    "message": "Modrinth ile her şeyi yönetin"
+    "message": "Blankethub ile her şeyi yönetin"
   },
   "hosting-marketing.why.all-on-modrinth.description": {
-    "message": "Sunucunuz, modlarınız, oyuncular ve daha fazlası Modrinth'te. Platformlar arasında geçiş yapmanıza gerek yok."
+    "message": "Sunucunuz, modlarınız, oyuncular ve daha fazlası Blankethub'te. Platformlar arasında geçiş yapmanıza gerek yok."
   },
   "hosting-marketing.why.consistently-fast": {
     "message": "Tutarlı şekilde hızlı"
   },
   "hosting-marketing.why.consistently-fast.description": {
-    "message": "Altyapımız asla aşırı yüklenmez, yani Modrinth ile açılan her sunucu her zaman tam performansıyla çalışır."
+    "message": "Altyapımız asla aşırı yüklenmez, yani Blankethub ile açılan her sunucu her zaman tam performansıyla çalışır."
   },
   "hosting-marketing.why.description": {
-    "message": "Modrinth'teki binlerce mod paketinden seçin veya kendinizinkini kullanın. Oynamaya hazır olduğunuzda arkadaşlarınızı çağırın."
+    "message": "Blankethub'teki binlerce mod paketinden seçin veya kendinizinkini kullanın. Oynamaya hazır olduğunuzda arkadaşlarınızı çağırın."
   },
   "hosting-marketing.why.heading": {
     "message": "Mod paketi bulun sunucu olsun."
@@ -1251,22 +1251,22 @@
     "message": "Modern ve güvenilir hosting deneyimleyin"
   },
   "hosting-marketing.why.modern-reliable-hosting.description": {
-    "message": "Modrinth Hosting sunucuları, <contrast>DDR5 RAM ile yüksek-performans AMD İşlemcilerde</contrast> ve sunucunuzun düzgünce çalışmasını sağlamak için özel yapılmış yazılımda çalışır."
+    "message": "Blankethub Hosting sunucuları, <contrast>DDR5 RAM ile yüksek-performans AMD İşlemcilerde</contrast> ve sunucunuzun düzgünce çalışmasını sağlamak için özel yapılmış yazılımda çalışır."
   },
   "hosting-marketing.why.where-mods-are": {
     "message": "Modlarınızın olduğu yerde oynayın"
   },
   "hosting-marketing.why.where-mods-are.description": {
-    "message": "Modrinth Hosting, mod ve mod paketi kurulum sürecini kesintisiz hale getirir."
+    "message": "Blankethub Hosting, mod ve mod paketi kurulum sürecini kesintisiz hale getirir."
   },
   "hosting-marketing.why.why-modrinth-hosting": {
-    "message": "Niye Modrinth Hosting?"
+    "message": "Niye Blankethub Hosting?"
   },
   "hosting-marketing.why.your-favorite-mods": {
     "message": "Tüm favori modlarınız"
   },
   "hosting-marketing.why.your-favorite-mods.description": {
-    "message": "Vanilla, Fabric, Forge, Quilt ve NeoForge arasından seçin. Modrinth'de varsa sunucunuzda çalışır."
+    "message": "Vanilla, Fabric, Forge, Quilt ve NeoForge arasından seçin. Blankethub'de varsa sunucunuzda çalışır."
   },
   "hosting.plan.out-of-stock": {
     "message": "Stokta yok"
@@ -1281,7 +1281,7 @@
     "message": "Panele git"
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "Modrinth ekibinden sürekli güncellemelerle mümkün olan en iyi modlama deneyimini edinin."
+    "message": "Blankethub ekibinden sürekli güncellemelerle mümkün olan en iyi modlama deneyimini edinin."
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "Sürekli Gelişen"
@@ -1326,13 +1326,13 @@
     "message": "Sevdiğiniz projeleri takip edin"
   },
   "landing.feature.launcher.description": {
-    "message": "Modrinth'in açık-kaynak API'ı başlatıcıların Modrinth ile tam bağlantı kurmasını sağlar. Modrinth, <link>bizim kendi uygulamamızdan</link> veya ATLauncher, MultiMC ve Prism Launcher gibi öne çıkan başlatıcılardan kullanılbilir."
+    "message": "Blankethub'in açık-kaynak API'ı başlatıcıların Blankethub ile tam bağlantı kurmasını sağlar. Blankethub, <link>bizim kendi uygulamamızdan</link> veya ATLauncher, MultiMC ve Prism Launcher gibi öne çıkan başlatıcılardan kullanılbilir."
   },
   "landing.feature.launcher.heading": {
     "message": "Favori başlatıcınız ile oynayın"
   },
   "landing.feature.search.description": {
-    "message": "Modrinth'in ışık hızı araması ve güçlü filtreleriyle istediğinizi bulun."
+    "message": "Blankethub'in ışık hızı araması ve güçlü filtreleriyle istediğinizi bulun."
   },
   "landing.feature.search.heading": {
     "message": "Ne istediğinizi kolay ve hızlı şekilde bulun"
@@ -1365,10 +1365,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "Basitleştirilmiş bir Minecraft penceresinin temsili, Mojang Studios logosu Modrinth yeşilli."
+    "message": "Basitleştirilmiş bir Minecraft penceresinin temsili, Mojang Studios logosu Blankethub yeşilli."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -1452,25 +1452,25 @@
     "message": "Hesap ayarlarını ziyaret et"
   },
   "layout.banner.add-email.description": {
-    "message": "Güvenlik sebebiyle Modrinth hesabınıza bir e-posta adresi kaydetmeniz gerek."
+    "message": "Güvenlik sebebiyle Blankethub hesabınıza bir e-posta adresi kaydetmeniz gerek."
   },
   "layout.banner.build-fail.description": {
-    "message": "Modrinth'in önucunun bu dağıtımı API'den durum oluşturamadı. Bu bir kesintiden veya yapılandırmadaki bir hatadan kaynaklı olabilir. API mevcutken tekrar derleyin. Hata kodları: {errors}; şu anki API adresi: {url}"
+    "message": "Blankethub'in önucunun bu dağıtımı API'den durum oluşturamadı. Bu bir kesintiden veya yapılandırmadaki bir hatadan kaynaklı olabilir. API mevcutken tekrar derleyin. Hata kodları: {errors}; şu anki API adresi: {url}"
   },
   "layout.banner.build-fail.title": {
     "message": "Derleme esnasında API'den durum oluştururken hata."
   },
   "layout.banner.preview.description": {
-    "message": "Modrinth'in resmi web sitesine erişmek istediyseniz, <link>https://blankethub.loxalhost</link> adresini ziyaret edin. Bu önizleme dağıtımı, Modrinth yetkilileri tarafından test amaçlı kullanılmaktadır. <branch-link>{owner}/{branch}</branch-link> @ {commit} kullanılarak oluşturulmuştur."
+    "message": "Blankethub'in resmi web sitesine erişmek istediyseniz, <link>https://blankethub.localhost</link> adresini ziyaret edin. Bu önizleme dağıtımı, Blankethub yetkilileri tarafından test amaçlı kullanılmaktadır. <branch-link>{owner}/{branch}</branch-link> @ {commit} kullanılarak oluşturulmuştur."
   },
   "layout.banner.preview.title": {
-    "message": "Bu, Modrinth web sitesinin önizleme dağıtımıdır."
+    "message": "Bu, Blankethub web sitesinin önizleme dağıtımıdır."
   },
   "layout.banner.staging.description": {
-    "message": "Hazırlama ortamı, Modrinth yapım veritabanından tamamen ayrıdır. Bu test ve hata ayıklama amaçları için kullanılır ve yapım profilinden daha yeni olan Modrinth'in arka ucunun veya ön ucunun geliştirmekte olan sürümlerini çalıştırıyor olabilir. "
+    "message": "Hazırlama ortamı, Blankethub yapım veritabanından tamamen ayrıdır. Bu test ve hata ayıklama amaçları için kullanılır ve yapım profilinden daha yeni olan Blankethub'in arka ucunun veya ön ucunun geliştirmekte olan sürümlerini çalıştırıyor olabilir. "
   },
   "layout.banner.staging.title": {
-    "message": "Modrinth'in hazırlama ortamını görüntülüyorsunuz"
+    "message": "Blankethub'in hazırlama ortamını görüntülüyorsunuz"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "Fatura bilgisini güncelle"
@@ -1485,7 +1485,7 @@
     "message": "Vergi formunu doldurun"
   },
   "layout.banner.tax.description": {
-    "message": "Bu yıl Modrinth'ten $600'dan fazla para çektiniz. Vergi düzenlemelerine uymak için bir vergi formu doldurmanız gerekiyor. Bu form gönderilene kadar para çekme işlemleriniz durdurulmuştur."
+    "message": "Bu yıl Blankethub'ten $600'dan fazla para çektiniz. Vergi düzenlemelerine uymak için bir vergi formu doldurmanız gerekiyor. Bu form gönderilene kadar para çekme işlemleriniz durdurulmuştur."
   },
   "layout.banner.tax.title": {
     "message": "Vergi formu gereklidir"
@@ -1503,7 +1503,7 @@
     "message": "Doğrulama e-postasını yeniden gönder"
   },
   "layout.banner.verify-email.description": {
-    "message": "Güvenlik sebebiyle Modrinth hesabınızın e-posta adresini doğrulamanız gerek."
+    "message": "Güvenlik sebebiyle Blankethub hesabınızın e-posta adresini doğrulamanız gerek."
   },
   "layout.footer.about": {
     "message": "Hakkında"
@@ -1545,20 +1545,20 @@
     "message": "Kullanım Koşulları"
   },
   "layout.footer.modrinth-information": {
-    "message": "Modrinth bilgileri"
+    "message": "Blankethub bilgileri"
   },
   "layout.footer.open-source": {
-    "message": "Modrinth <github-link>açık kaynaklıdır</github-link>."
+    "message": "Blankethub <github-link>açık kaynaklıdır</github-link>."
   },
   "layout.footer.products": {
     "message": "Ürünler"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
 
   "layout.footer.products.servers": {
-    "message": "Modrinth Hosting"
+    "message": "Blankethub Hosting"
   },
   "layout.footer.resources": {
     "message": "Kaynaklar"
@@ -1594,7 +1594,7 @@
     "message": "Menü aç/kapa"
   },
   "layout.meta.description": {
-    "message": "Modrinth üzerinden Minecraft modları, pluginleri, veri paketleri, shaderları, kaynak paketleri ve mod paketleri indir. Modern ve kullanımı kolay bir arayüz ve API ile Modrinth üzerinden projeler keşfet ve yayınla."
+    "message": "Blankethub üzerinden Minecraft modları, pluginleri, veri paketleri, shaderları, kaynak paketleri ve mod paketleri indir. Modern ve kullanımı kolay bir arayüz ve API ile Blankethub üzerinden projeler keşfet ve yayınla."
   },
   "layout.meta.og-description": {
     "message": "Minecraft içeriği keşfet ve yayınla!"
@@ -1618,7 +1618,7 @@
     "message": "Özellik bayrakları"
   },
   "layout.nav.get-modrinth-app": {
-    "message": "Modrinth App Edin"
+    "message": "Blankethub App Edin"
   },
   "layout.nav.home": {
     "message": "Anasayfa"
@@ -1627,10 +1627,10 @@
     "message": "Sunucu kur"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "Modrinth ana sayfası"
+    "message": "Blankethub ana sayfası"
   },
   "layout.nav.my-servers": {
     "message": "Sunucularım"
@@ -1933,10 +1933,10 @@
     "message": "Cüzdan adresinizi iki kez kontrol edin. Yanlış adrese gönderilen fonlar kurtarılamaz."
   },
   "profile.bio.fallback.creator": {
-    "message": "Bir Modrinth içerik üreticisi."
+    "message": "Bir Blankethub içerik üreticisi."
   },
   "profile.bio.fallback.user": {
-    "message": "Bir Modrinth kullanıcısı."
+    "message": "Bir Blankethub kullanıcısı."
   },
   "profile.button.billing": {
     "message": "Kullanıcı faturasını yönet"
@@ -2020,10 +2020,10 @@
     "message": "Kaydediliyor..."
   },
   "profile.meta.description": {
-    "message": "{username} kullanıcısının Modrinth'teki projelerini indir"
+    "message": "{username} kullanıcısının Blankethub'teki projelerini indir"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - {username} kullanıcısının Modrinth'teki projelerini indir"
+    "message": "{bio} - {username} kullanıcısının Blankethub'teki projelerini indir"
   },
   "profile.stats.projects-followers": {
     "message": "{count, plural, one {<stat>{count}</stat> proje takipçisi} other {<stat>{count}</stat> proje takipçisi}}"
@@ -2062,7 +2062,7 @@
     "message": "İncelemeye yeniden gönder"
   },
   "project-moderation-nags.resubmit-for-review-desc": {
-    "message": "Projeniz Modrinth personeli tarafından {status, select, rejected {reddedildi} withheld {alıkonuldu} other {{status}}}. Çoğu durumda, personelin mesajında belirtilen konuları ele aldıktan sonra inceleme için yeniden gönderebilirsiniz."
+    "message": "Projeniz Blankethub personeli tarafından {status, select, rejected {reddedildi} withheld {alıkonuldu} other {{status}}}. Çoğu durumda, personelin mesajında belirtilen konuları ele aldıktan sonra inceleme için yeniden gönderebilirsiniz."
   },
   "project-moderation-nags.submit-checklist-tooltip": {
     "message": "Yayımlama kontrol listesindeki gerekli adımları tamamlamalısınız!"
@@ -2164,7 +2164,7 @@
     "message": "Projeyi incele"
   },
   "project.actions.servers-promo.description": {
-    "message": "Modrinth Hosting arkadaşlarınla uğraşsız oynamanın en kolay yolu!"
+    "message": "Blankethub Hosting arkadaşlarınla uğraşsız oynamanın en kolay yolu!"
   },
   "project.actions.servers-promo.pricing": {
     "message": "{price}<small> / ay</small>'dan başlayan fiyatlarla"
@@ -2197,10 +2197,10 @@
     "message": "{title}, {platform} için {gameVersion} sürümünü desteklemiyor"
   },
   "project.download.install-with-app": {
-    "message": "Modrinth App ile yükle"
+    "message": "Blankethub App ile yükle"
   },
   "project.download.no-app": {
-    "message": "Modrinth App Yok Mu?"
+    "message": "Blankethub App Yok Mu?"
   },
   "project.download.no-versions-available": {
     "message": "{gameVersion} ve {platform} için sürüm mevcut değil."
@@ -2236,7 +2236,7 @@
     "message": "{title} Projesini Yükle"
   },
   "project.environment.migration-no-permission.message": {
-    "message": "Daha yeni Modrinth'in Çevre sistemini yeniledik ve yeni seçenekler mevcut. Bu ayarları değiştirmek için yetkiniz yok ama projenin başka bir üyesine çevre meta verisinin doğrulanması gerektiği haberini verebilirsiniz."
+    "message": "Daha yeni Blankethub'in Çevre sistemini yeniledik ve yeni seçenekler mevcut. Bu ayarları değiştirmek için yetkiniz yok ama projenin başka bir üyesine çevre meta verisinin doğrulanması gerektiği haberini verebilirsiniz."
   },
   "project.environment.migration-no-permission.title": {
     "message": "Çevre meta verisi gözden geçirilmesi gerekiyor"
@@ -2245,7 +2245,7 @@
     "message": "Bu değişiklik hakkında daha fazla öğren"
   },
   "project.environment.migration.message": {
-    "message": "Modrinth’te Ortamlar sistemini baştan sona yeniledik ve artık yeni seçenekler mevcut. Lütfen meta verilerin doğru olduğunu doğrulayın."
+    "message": "Blankethub’te Ortamlar sistemini baştan sona yeniledik ve artık yeni seçenekler mevcut. Lütfen meta verilerin doğru olduğunu doğrulayın."
   },
   "project.environment.migration.review-button": {
     "message": "Ortam ayarlarını incele"
@@ -2365,7 +2365,7 @@
     "message": "Lütfen raporunuzla ilgili ekstra bağlam sağlayın"
   },
   "report.for.violation": {
-    "message": "Modrinth <rules-link>Kuralları</rules-link> veya <terms-link>Kullanım Koşulları</terms-link> İhlali"
+    "message": "Blankethub <rules-link>Kuralları</rules-link> veya <terms-link>Kullanım Koşulları</terms-link> İhlali"
   },
   "report.for.violation.description": {
     "message": "Örnekler kötü niyetli, spam, saldırgan, aldatıcı, yanıltıcı ve yasak içerikleri barındırır."
@@ -2608,7 +2608,7 @@
     "message": "Bildiri yaz"
   },
   "scopes.sessionAccess.description": {
-    "message": "Modrinth tarafından verilen oturumlara eriş"
+    "message": "Blankethub tarafından verilen oturumlara eriş"
   },
   "scopes.sessionAccess.label": {
     "message": "Oturumlara eriş"
@@ -2869,13 +2869,13 @@
     "message": "Ödeme yöntemleri"
   },
   "settings.billing.pyro_subscription.description": {
-    "message": "Modrinth Sunucu aboneliklerini yönet."
+    "message": "Blankethub Sunucu aboneliklerini yönet."
   },
   "settings.billing.pyro_subscription.title": {
-    "message": "Modrinth Sunucu Abonelikleri"
+    "message": "Blankethub Sunucu Abonelikleri"
   },
   "settings.billing.subscription.description": {
-    "message": "Modrinth aboneliklerinizi yönetin."
+    "message": "Blankethub aboneliklerinizi yönetin."
   },
   "settings.billing.subscription.title": {
     "message": "Abonelikler"
@@ -2884,7 +2884,7 @@
     "message": "Geliştiri modunu devre dışı bırak"
   },
   "settings.display.banner.developer-mode.description": {
-    "message": "<strong>Geliştirme modu</strong> aktif. Modrinth'te bulunan çeşitli şeylerin dahilî kimliklerini gösterir, Modrinth API kullanan bir geliştiriciyseniz kullanışlı olabilir. Sayfanın en altındaki Modrinth logosuna 5 kere tıklayarak açılır ve kapanır."
+    "message": "<strong>Geliştirme modu</strong> aktif. Blankethub'te bulunan çeşitli şeylerin dahilî kimliklerini gösterir, Blankethub API kullanan bir geliştiriciyseniz kullanışlı olabilir. Sayfanın en altındaki Blankethub logosuna 5 kere tıklayarak açılır ve kapanır."
   },
   "settings.display.flags.description": {
     "message": "Bu cihazdaki belli özellikleri etkinlestir veya devre dışı bırak."
@@ -2929,16 +2929,16 @@
     "message": "Gelişmiş işleme"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "message": "Modrinth'in dışına giden bağlantıların yeni bir sekmede açılmasını sağla. Bu ayara bakılmaksızın, aynı alan adındaki ve Markdown açıklamalarındaki bağlantılar aynı sekmede açılacak ve reklamlardaki, düzenleme sayfalarındaki bağlantılar yeni bir sekmede açılacak."
+    "message": "Blankethub'in dışına giden bağlantıların yeni bir sekmede açılmasını sağla. Bu ayara bakılmaksızın, aynı alan adındaki ve Markdown açıklamalarındaki bağlantılar aynı sekmede açılacak ve reklamlardaki, düzenleme sayfalarındaki bağlantılar yeni bir sekmede açılacak."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "message": "Dış bağlantıları yeni sekmede aç"
   },
   "settings.display.sidebar.hide-app-promos.description": {
-    "message": "\"Modrinth App Edin\" tuşlarını ana navigasyondan gizler. Modrinth App sayfası hala açılış sayfasında veya alt bilgide bulunabilir."
+    "message": "\"Blankethub App Edin\" tuşlarını ana navigasyondan gizler. Blankethub App sayfası hala açılış sayfasında veya alt bilgide bulunabilir."
   },
   "settings.display.sidebar.hide-app-promos.title": {
-    "message": "Modrinth App tanıtımlarını gizle"
+    "message": "Blankethub App tanıtımlarını gizle"
   },
   "settings.display.sidebar.left-aligned-content-sidebar.title": {
     "message": "İçerik sayfalarında sola hizalı kenar çubuğu"
@@ -2953,7 +2953,7 @@
     "message": "Arama sayfalarında kenar çubuğunu sağa hizalar"
   },
   "settings.display.theme.description": {
-    "message": "Bu cihazda Modrinth için tercih ettiğiniz renk temasını seçin."
+    "message": "Bu cihazda Blankethub için tercih ettiğiniz renk temasını seçin."
   },
   "settings.display.theme.title": {
     "message": "Renk teması"
@@ -2962,7 +2962,7 @@
     "message": "Bir PAT yarat"
   },
   "settings.pats.description": {
-    "message": "PAT'lar Modrinth'in API'sine erişmekte kullanılabilir. Daha fazla bilgi için, <doc-link>Modrinth API dokümantasyonununa</doc-link>na bakın. Bunlar her zaman oluşturulabilir veya iptal edilebilir."
+    "message": "PAT'lar Blankethub'in API'sine erişmekte kullanılabilir. Daha fazla bilgi için, <doc-link>Blankethub API dokümantasyonununa</doc-link>na bakın. Bunlar her zaman oluşturulabilir veya iptal edilebilir."
   },
   "settings.pats.modal.create.action": {
     "message": "PAT oluştur"
@@ -3016,7 +3016,7 @@
     "message": "Hakkında"
   },
   "settings.profile.description": {
-    "message": "Profil bilgin Modrinth'te ve <docs-link>Modrinth API</docs-link> herkese açık görüntülenebilir."
+    "message": "Profil bilgin Blankethub'te ve <docs-link>Blankethub API</docs-link> herkese açık görüntülenebilir."
   },
   "settings.profile.profile-info": {
     "message": "Profil bilgisi"
@@ -3037,7 +3037,7 @@
     "message": "Mevcut oturum"
   },
   "settings.sessions.description": {
-    "message": "Şu an Modrinth hesabınızla giriş yapılmış tüm cihazlar burada. Her birinden teker teker çıkış yapabilirsiniz.\n\nEğer tanımadığınız bir girdi varsa, o cihazdan çıkış yapın ve Modrinth hesabınızın parolasını derhal değiştirin."
+    "message": "Şu an Blankethub hesabınızla giriş yapılmış tüm cihazlar burada. Her birinden teker teker çıkış yapabilirsiniz.\n\nEğer tanımadığınız bir girdi varsa, o cihazdan çıkış yapın ve Blankethub hesabınızın parolasını derhal değiştirin."
   },
   "settings.sessions.last-accessed-ago": {
     "message": "En son {ago} erişildi"
@@ -3049,7 +3049,7 @@
     "message": "Bilinmeyen platform"
   },
   "ui.latest-news-row.latest-news": {
-    "message": "Modrinth'ten en yeni haberler"
+    "message": "Blankethub'ten en yeni haberler"
   },
   "ui.latest-news-row.view-all": {
     "message": "Bütün haberleri gör"

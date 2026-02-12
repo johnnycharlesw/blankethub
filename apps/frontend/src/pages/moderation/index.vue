@@ -97,15 +97,15 @@
 <script setup lang="ts">
 import { ListFilterIcon, ScaleIcon, SearchIcon, SortAscIcon, SortDescIcon } from '@modrinth/assets'
 import {
-	ButtonStyled,
-	Combobox,
-	type ComboboxOption,
-	commonMessages,
-	defineMessages,
-	injectNotificationManager,
-	Pagination,
-	StyledInput,
-	useVIntl,
+    ButtonStyled,
+    Combobox,
+    commonMessages,
+    defineMessages,
+    injectNotificationManager,
+    Pagination,
+    StyledInput,
+    useVIntl,
+    type ComboboxOption,
 } from '@modrinth/ui'
 import Fuse from 'fuse.js'
 import ConfettiExplosion from 'vue-confetti-explosion'
@@ -114,7 +114,7 @@ import ModerationQueueCard from '~/components/ui/moderation/ModerationQueueCard.
 import { enrichProjectBatch, type ModerationProject } from '~/helpers/moderation.ts'
 import { useModerationStore } from '~/store/moderation.ts'
 
-useHead({ title: 'Projects queue - Modrinth' })
+useHead({ title: 'Projects queue - Blankethub' })
 
 const { formatMessage } = useVIntl()
 const { addNotification } = injectNotificationManager()

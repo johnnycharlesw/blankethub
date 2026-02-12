@@ -32,7 +32,7 @@ const messages = defineMessages({
 		<template #actions>
 			<div class="flex w-fit flex-row">
 				<ButtonStyled color="red">
-					<nuxt-link to="https://support.blankethub.loxalhost" target="_blank" rel="noopener">
+					<nuxt-link to="https://support.blankethub.localhost" target="_blank" rel="noopener">
 						<MessageIcon />
 						{{ formatMessage(messages.action) }}
 					</nuxt-link>

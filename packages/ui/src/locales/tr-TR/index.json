@@ -531,7 +531,7 @@
     "defaultMessage": "Moderatör"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Modrinth Ekibi"
+    "defaultMessage": "Blankethub Ekibi"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Beklemede"
@@ -921,7 +921,7 @@
     "defaultMessage": "Projenizin birden fazla ortamı var"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Daha yeni Modrinth'in Ortam sistemini tamamen yeniledik ve yeni ayarlar var. Lütfen aşağıda doğru ayarın şeçili olduğundan emin olun ve 'Doğrula' tuşuna basın!"
+    "defaultMessage": "Daha yeni Blankethub'in Ortam sistemini tamamen yeniledik ve yeni ayarlar var. Lütfen aşağıda doğru ayarın şeçili olduğundan emin olun ve 'Doğrula' tuşuna basın!"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "Lütfen aşağıdaki ayarları inceleyin"
@@ -1227,7 +1227,7 @@
     "defaultMessage": "Sunucunun nerede bulunmasını istersin?"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "Bölgen listede yok mu? <link>Modrinth Hosting'i gelecekte nerede görmek istediğini bize söyle!</link>"
+    "defaultMessage": "Bölgen listede yok mu? <link>Blankethub Hosting'i gelecekte nerede görmek istediğini bize söyle!</link>"
   },
   "servers.region.southeast-asia": {
     "defaultMessage": "Güneydoğu Asya"
@@ -1254,7 +1254,7 @@
     "defaultMessage": "Karanlık"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Modrinth için bu cihazda tercih ettiğiniz renk temasını seçin."
+    "defaultMessage": "Blankethub için bu cihazda tercih ettiğiniz renk temasını seçin."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Aydınlık"

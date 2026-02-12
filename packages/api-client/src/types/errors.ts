@@ -24,10 +24,10 @@ export type ApiErrorData = {
 }
 
 /**
- * Modrinth V1 error response format
+ * Blankethub V1 error response format
  * Used by kyros + archon APIs
  */
-export type ModrinthErrorResponse = {
+export type BlankethubErrorResponse = {
 	/**
 	 * Error code/identifier
 	 */
@@ -45,9 +45,9 @@ export type ModrinthErrorResponse = {
 }
 
 /**
- * Type guard to check if an object is a ModrinthErrorResponse
+ * Type guard to check if an object is a BlankethubErrorResponse
  */
-export function isModrinthErrorResponse(obj: unknown): obj is ModrinthErrorResponse {
+export function isBlankethubErrorResponse(obj: unknown): obj is BlankethubErrorResponse {
 	if (typeof obj !== 'object' || obj === null) {
 		return false
 	}

@@ -1,6 +1,6 @@
 import { FetchError } from 'ofetch'
 
-import { ModrinthApiError } from '../core/errors'
+import { BlankethubApiError } from '../core/errors'
 import type { CircuitBreakerState, CircuitBreakerStorage } from '../features/circuit-breaker'
 import type { ClientConfig } from '../types/client'
 import type { RequestOptions } from '../types/request'
@@ -63,7 +63,7 @@ export interface NuxtClientConfig extends ClientConfig {
  * const config = useRuntimeConfig()
  * const auth = await useAuth()
  *
- * const client = new NuxtModrinthClient({
+ * const client = new NuxtBlankethubClient({
  *   userAgent: 'my-nuxt-app/1.0.0',
  *   rateLimitKey: import.meta.server ? config.rateLimitKey : undefined,
  *   features: [
@@ -74,7 +74,7 @@ export interface NuxtClientConfig extends ClientConfig {
  * const project = await client.request('/project/sodium', { api: 'labrinth', version: 2 })
  * ```
  */
-export class NuxtModrinthClient extends XHRUploadClient {
+export class NuxtBlankethubClient extends XHRUploadClient {
 	declare protected config: NuxtClientConfig
 	private rateLimitKeyResolved: string | undefined
 	private rateLimitKeyPromise: Promise<string | undefined> | undefined
@@ -133,7 +133,7 @@ export class NuxtModrinthClient extends XHRUploadClient {
 	upload<T = void>(path: string, options: UploadRequestOptions): UploadHandle<T> {
 		// @ts-expect-error - import.meta is provided by Nuxt
 		if (import.meta.server) {
-			throw new ModrinthApiError('upload() is not supported during SSR')
+			throw new BlankethubApiError('upload() is not supported during SSR')
 		}
 		return super.upload(path, options)
 	}
@@ -158,7 +158,7 @@ export class NuxtModrinthClient extends XHRUploadClient {
 		}
 	}
 
-	protected normalizeError(error: unknown): ModrinthApiError {
+	protected normalizeError(error: unknown): BlankethubApiError {
 		if (error instanceof FetchError) {
 			return this.createNormalizedError(error, error.response?.status, error.data)
 		}

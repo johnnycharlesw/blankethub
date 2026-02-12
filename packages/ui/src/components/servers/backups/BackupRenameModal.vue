@@ -50,18 +50,18 @@ import { useMutation, useQueryClient } from '@tanstack/vue-query'
 import { computed, nextTick, ref } from 'vue'
 
 import {
-	injectModrinthClient,
-	injectModrinthServerContext,
-	injectNotificationManager,
+    injectBlankethubClient,
+    injectBlankethubServerContext,
+    injectNotificationManager,
 } from '../../../providers'
 import ButtonStyled from '../../base/ButtonStyled.vue'
 import StyledInput from '../../base/StyledInput.vue'
 import NewModal from '../../modal/NewModal.vue'
 
 const { addNotification } = injectNotificationManager()
-const client = injectModrinthClient()
+const client = injectBlankethubClient()
 const queryClient = useQueryClient()
-const ctx = injectModrinthServerContext()
+const ctx = injectBlankethubServerContext()
 
 const props = defineProps<{
 	backups?: Archon.Backups.v1.Backup[]

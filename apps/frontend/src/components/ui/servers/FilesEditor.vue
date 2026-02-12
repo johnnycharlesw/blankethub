@@ -44,12 +44,12 @@
 <script setup lang="ts">
 import { SpinnerIcon } from '@modrinth/assets'
 import {
-	getEditorLanguage,
-	getFileExtension,
-	injectModrinthClient,
-	injectModrinthServerContext,
-	injectNotificationManager,
-	isImageFile,
+    getEditorLanguage,
+    getFileExtension,
+    injectBlankethubClient,
+    injectBlankethubServerContext,
+    injectNotificationManager,
+    isImageFile,
 } from '@modrinth/ui'
 import { useQueryClient } from '@tanstack/vue-query'
 import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
@@ -71,8 +71,8 @@ const emit = defineEmits<{
 
 const notifications = injectNotificationManager()
 const { addNotification } = notifications
-const client = injectModrinthClient()
-const serverContext = injectModrinthServerContext()
+const client = injectBlankethubClient()
+const serverContext = injectBlankethubServerContext()
 const { serverId } = serverContext
 const queryClient = useQueryClient()
 

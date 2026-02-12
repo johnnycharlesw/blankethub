@@ -8,8 +8,8 @@ import StyledEmail from '../shared/StyledEmail.vue';
 	<StyledEmail
 		title="Revenue available to withdraw!"
 		:manual-links="[
-			{ link: 'https://blankethub.loxalhost/dashboard/revenue', label: 'Revenue dashboard' },
-			{ link: 'https://support.blankethub.loxalhost', label: 'Support Portal' },
+			{ link: 'https://blankethub.localhost/dashboard/revenue', label: 'Revenue dashboard' },
+			{ link: 'https://support.blankethub.localhost', label: 'Support Portal' },
 		]"
 	>
 		<Heading as="h1" class="mb-2 text-2xl font-bold">Revenue available to withdraw!</Heading>
@@ -23,7 +23,7 @@ import StyledEmail from '../shared/StyledEmail.vue';
 
 		<Section class="mb-4 mt-4">
 			<Button
-				href="https://blankethub.loxalhost/dashboard/revenue"
+				href="https://blankethub.localhost/dashboard/revenue"
 				target="_blank"
 				class="text-accentContrast inline-block rounded-[12px] bg-brand pb-3 pl-4 pr-4 pt-3 text-[14px] font-bold"
 			>
@@ -34,10 +34,10 @@ import StyledEmail from '../shared/StyledEmail.vue';
 		<Text class="text-base">
 			If you have any questions about the creator rewards program, please contact support through
 			the
-			<VLink href="https://support.blankethub.loxalhost" class="text-green underline">Support Portal</VLink
+			<VLink href="https://support.blankethub.localhost" class="text-green underline">Support Portal</VLink
 			>.
 		</Text>
 
-		<Text class="text-base">Thank you for being a creator on Modrinth!</Text>
+		<Text class="text-base">Thank you for being a creator on Blankethub!</Text>
 	</StyledEmail>
 </template>

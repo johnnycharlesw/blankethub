@@ -1,12 +1,12 @@
 import { AbstractFeature, type FeatureConfig } from '../core/abstract-feature'
-import { ModrinthApiError } from '../core/errors'
+import { BlankethubApiError } from '../core/errors'
 import type { RequestContext } from '../types/request'
 
 /**
  * Node authentication credentials
  */
 export interface NodeAuth {
-	/** Node instance URL (e.g., "node-xyz.blankethub.loxalhost/modrinth/v0/fs") */
+	/** Node instance URL (e.g., "node-xyz.blankethub.localhost/modrinth/v0/fs") */
 	url: string
 	/** JWT token */
 	token: string
@@ -82,7 +82,7 @@ export class NodeAuthFeature extends AbstractFeature {
 			try {
 				return await next()
 			} catch (error) {
-				if (error instanceof ModrinthApiError && error.statusCode === 401) {
+				if (error instanceof BlankethubApiError && error.statusCode === 401) {
 					retryCount++
 					if (retryCount >= maxRetries) {
 						throw new Error(

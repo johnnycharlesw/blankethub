@@ -47,7 +47,7 @@ impl Api for ApiV2 {
         let req = actix_web::test::TestRequest::post()
             .uri("/v2/admin/_force_reindex")
             .append_header((
-                "Modrinth-Admin",
+                "Blankethub-Admin",
                 dotenvy::var("LABRINTH_ADMIN_KEY").unwrap(),
             ))
             .to_request();

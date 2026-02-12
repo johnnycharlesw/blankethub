@@ -399,7 +399,7 @@
     "defaultMessage": "モデレーター"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Modrinth チーム"
+    "defaultMessage": "Blankethub チーム"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "保留中"
@@ -744,7 +744,7 @@
     "defaultMessage": "プロジェクトに複数の環境があります。"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Modrinthの環境システムを刷新し、新しいオプションがご利用いただけるようになりました。以下のオプションが正しく選択されていることを確認し「確認」ボタンを押してください！"
+    "defaultMessage": "Blankethubの環境システムを刷新し、新しいオプションがご利用いただけるようになりました。以下のオプションが正しく選択されていることを確認し「確認」ボタンを押してください！"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "以下のオプションを確認してください"
@@ -1050,7 +1050,7 @@
     "defaultMessage": "サーバーをどこに設置しますか？"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "ご希望の地域が見つかりませんか？ <link>Modrinth Hostingを利用したい場所をお知らせください！</link>"
+    "defaultMessage": "ご希望の地域が見つかりませんか？ <link>Blankethub Hostingを利用したい場所をお知らせください！</link>"
   },
   "servers.region.southeast-asia": {
     "defaultMessage": "東南アジア"

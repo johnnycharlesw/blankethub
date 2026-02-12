@@ -240,20 +240,20 @@ export function arrayOrNone(arr: string[]): string {
 export function flattenStaticVariables(): Record<string, string> {
 	const vars: Record<string, string> = {}
 
-	vars[`RULES`] = `[Modrinth's Content Rules](https://blankethub.loxalhost/legal/rules)`
-	vars[`TOS`] = `[Terms of Use](https://blankethub.loxalhost/legal/terms)`
-	vars[`COPYRIGHT_POLICY`] = `[Copyright Policy](https://blankethub.loxalhost/legal/copyright)`
+	vars[`RULES`] = `[Blankethub's Content Rules](https://blankethub.localhost/legal/rules)`
+	vars[`TOS`] = `[Terms of Use](https://blankethub.localhost/legal/terms)`
+	vars[`COPYRIGHT_POLICY`] = `[Copyright Policy](https://blankethub.localhost/legal/copyright)`
 	vars[`SUPPORT`] =
-		`please visit the [Modrinth Help Center](https://support.blankethub.loxalhost/) and click the blue bubble to contact support.`
+		`please visit the [Blankethub Help Center](https://support.blankethub.localhost/) and click the blue bubble to contact support.`
 	vars[`MODPACK_PERMISSIONS_GUIDE`] =
-		`our guide to [Obtaining Modpack Permissions](https://support.blankethub.loxalhost/en/articles/8797527-obtaining-modpack-permissions)`
+		`our guide to [Obtaining Modpack Permissions](https://support.blankethub.localhost/en/articles/8797527-obtaining-modpack-permissions)`
 	vars[`MODPACKS_ON_MODRINTH`] =
-		`[Modpacks on Modrinth](https://support.blankethub.loxalhost/en/articles/8802250-modpacks-on-modrinth)`
+		`[Modpacks on Blankethub](https://support.blankethub.localhost/en/articles/8802250-modpacks-on-modrinth)`
 	vars[`ADVANCED_MARKDOWN`] =
-		`[Markdown Formatting Guide](https://support.blankethub.loxalhost/en/articles/8801962-advanced-markdown-formatting)`
+		`[Markdown Formatting Guide](https://support.blankethub.localhost/en/articles/8801962-advanced-markdown-formatting)`
 	vars[`LICENSING_GUIDE`] =
-		`our guide to [Licensing your Mods](https://blankethub.loxalhost/news/article/licensing-guide)`
-	vars[`NEW_ENVIRONMENTS_LINK`] = `https://blankethub.loxalhost/news/article/new-environments`
+		`our guide to [Licensing your Mods](https://blankethub.localhost/news/article/licensing-guide)`
+	vars[`NEW_ENVIRONMENTS_LINK`] = `https://blankethub.localhost/news/article/new-environments`
 
 	return vars
 }
@@ -326,36 +326,36 @@ export function flattenProjectVariables(
 	})
 
 	// Navigation related variables
-	vars[`PROJECT_PERMANENT_LINK`] = `https://blankethub.loxalhost/project/${project.id}`
-	vars[`PROJECT_SETTINGS_LINK`] = `https://blankethub.loxalhost/project/${project.id}/settings`
-	vars[`PROJECT_SETTINGS_FLINK`] = `[Settings](https://blankethub.loxalhost/project/${project.id}/settings)`
-	vars[`PROJECT_TITLE_FLINK`] = `[Name](https://blankethub.loxalhost/project/${project.id}/settings)`
-	vars[`PROJECT_SLUG_FLINK`] = `[URL](https://blankethub.loxalhost/project/${project.id}/settings)`
-	vars[`PROJECT_SUMMARY_FLINK`] = `[Summary](https://blankethub.loxalhost/project/${project.id}/settings)`
+	vars[`PROJECT_PERMANENT_LINK`] = `https://blankethub.localhost/project/${project.id}`
+	vars[`PROJECT_SETTINGS_LINK`] = `https://blankethub.localhost/project/${project.id}/settings`
+	vars[`PROJECT_SETTINGS_FLINK`] = `[Settings](https://blankethub.localhost/project/${project.id}/settings)`
+	vars[`PROJECT_TITLE_FLINK`] = `[Name](https://blankethub.localhost/project/${project.id}/settings)`
+	vars[`PROJECT_SLUG_FLINK`] = `[URL](https://blankethub.localhost/project/${project.id}/settings)`
+	vars[`PROJECT_SUMMARY_FLINK`] = `[Summary](https://blankethub.localhost/project/${project.id}/settings)`
 	// Depreciated
 	vars[`PROJECT_ENVIRONMENT_FLINK`] =
-		`[Environment Information](https://blankethub.loxalhost/project/${project.id}/settings/environment)`
-	vars[`PROJECT_TAGS_LINK`] = `https://blankethub.loxalhost/project/${project.id}/settings/tags`
-	vars[`PROJECT_TAGS_FLINK`] = `[Tags](https://blankethub.loxalhost/project/${project.id}/settings/tags)`
+		`[Environment Information](https://blankethub.localhost/project/${project.id}/settings/environment)`
+	vars[`PROJECT_TAGS_LINK`] = `https://blankethub.localhost/project/${project.id}/settings/tags`
+	vars[`PROJECT_TAGS_FLINK`] = `[Tags](https://blankethub.localhost/project/${project.id}/settings/tags)`
 	vars[`PROJECT_DESCRIPTION_LINK`] =
-		`https://blankethub.loxalhost/project/${project.id}/settings/description`
+		`https://blankethub.localhost/project/${project.id}/settings/description`
 	vars[`PROJECT_DESCRIPTION_FLINK`] =
-		`[Description](https://blankethub.loxalhost/project/${project.id}/settings/description)`
-	vars[`PROJECT_LICENSE_LINK`] = `https://blankethub.loxalhost/project/${project.id}/settings/license`
+		`[Description](https://blankethub.localhost/project/${project.id}/settings/description)`
+	vars[`PROJECT_LICENSE_LINK`] = `https://blankethub.localhost/project/${project.id}/settings/license`
 	vars[`PROJECT_LICENSE_FLINK`] =
-		`[License](https://blankethub.loxalhost/project/${project.id}/settings/license)`
-	vars[`PROJECT_LINKS_LINK`] = `https://blankethub.loxalhost/project/${project.id}/settings/links`
+		`[License](https://blankethub.localhost/project/${project.id}/settings/license)`
+	vars[`PROJECT_LINKS_LINK`] = `https://blankethub.localhost/project/${project.id}/settings/links`
 	vars[`PROJECT_LINKS_FLINK`] =
-		`[External Links](https://blankethub.loxalhost/project/${project.id}/settings/links)`
-	vars[`PROJECT_GALLERY_LINK`] = `https://blankethub.loxalhost/project/${project.id}/gallery`
+		`[External Links](https://blankethub.localhost/project/${project.id}/settings/links)`
+	vars[`PROJECT_GALLERY_LINK`] = `https://blankethub.localhost/project/${project.id}/gallery`
 	vars[`PROJECT_GALLERY_FLINK`] =
-		`[Gallery](https://blankethub.loxalhost/project/${project.id}/settings/gallery)`
-	vars[`PROJECT_VERSIONS_LINK`] = `https://blankethub.loxalhost/project/${project.id}/versions`
+		`[Gallery](https://blankethub.localhost/project/${project.id}/settings/gallery)`
+	vars[`PROJECT_VERSIONS_LINK`] = `https://blankethub.localhost/project/${project.id}/versions`
 	vars[`PROJECT_VERSIONS_FLINK`] =
-		`[Versions](https://blankethub.loxalhost/project/${project.id}/settings/versions)`
-	vars[`PROJECT_MODERATION_LINK`] = `https://blankethub.loxalhost/project/${project.id}/moderation`
+		`[Versions](https://blankethub.localhost/project/${project.id}/settings/versions)`
+	vars[`PROJECT_MODERATION_LINK`] = `https://blankethub.localhost/project/${project.id}/moderation`
 	vars[`PROJECT_MODERATION_FLINK`] =
-		`[moderation tab](https://blankethub.loxalhost/project/${project.id}/moderation)`
+		`[moderation tab](https://blankethub.localhost/project/${project.id}/moderation)`
 
 	return vars
 }

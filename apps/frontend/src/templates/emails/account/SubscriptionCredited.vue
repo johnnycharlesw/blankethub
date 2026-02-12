@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { Heading, Text } from '@vue-email/components'
+import { Heading, Text } from '@vue-email/components';
 
-import StyledEmail from '../shared/StyledEmail.vue'
+import StyledEmail from '../shared/StyledEmail.vue';
 </script>
 
 <template>
@@ -20,6 +20,6 @@ import StyledEmail from '../shared/StyledEmail.vue'
 		</Text>
 
 		<Text class="text-muted text-base">Thank you for supporting us,</Text>
-		<Text class="text-muted text-base">The Modrinth Team</Text>
+		<Text class="text-muted text-base">The Blankethub Team</Text>
 	</StyledEmail>
 </template>

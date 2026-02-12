@@ -21,7 +21,6 @@ import {
 } from '@modrinth/ui'
 
 import ATLauncher from '~/assets/images/external/atlauncher.svg?component'
-import CurseForge from '~/assets/images/external/curseforge.svg?component'
 import PrismIcon from '~/assets/images/external/prism.svg?component'
 import LogoAnimated from '~/components/brand/LogoAnimated.vue'
 import LatestNewsRow from '~/components/ui/news/LatestNewsRow.vue'
@@ -50,7 +49,7 @@ const linuxLinks = reactive({
 	appImage: null as string | null,
 	deb: null as string | null,
 	rpm: null as string | null,
-	thirdParty: 'https://support.blankethub.loxalhost/en/articles/9298760',
+	thirdParty: 'https://support.blankethub.localhost/en/articles/9298760',
 })
 
 const macLinks = reactive({
@@ -68,7 +67,7 @@ const rows = [
 ]
 
 const { data: launcherUpdates } = await useFetch<LauncherUpdates>(
-	'https://launcher-files.blankethub.loxalhost/updates.json?new',
+	'https://launcher-files.blankethub.localhost/updates.json?new',
 	{
 		server: false,
 		getCachedData(key, nuxtApp) {
@@ -132,28 +131,28 @@ const modManagementData = [
 		name: 'Fabric API',
 		author: 'modmuss50',
 		version: '0.86.1+1.20.1',
-		iconUrl: 'https://cdn.blankethub.loxalhost/data/P7dR8mSH/icon.png',
+		iconUrl: 'https://cdn.blankethub.localhost/data/P7dR8mSH/icon.png',
 	},
 	{
 		id: 'AANobbMI',
 		name: 'Sodium',
 		author: 'jellysquid3',
 		version: 'mc1.20.1-0.5.0',
-		iconUrl: 'https://cdn.blankethub.loxalhost/data/AANobbMI/icon.png',
+		iconUrl: 'https://cdn.blankethub.localhost/data/AANobbMI/icon.png',
 	},
 	{
 		id: 'YL57xq9U',
 		name: 'Iris Shaders',
 		author: 'coderbot',
 		version: '1.6.5+1.20.1',
-		iconUrl: 'https://cdn.blankethub.loxalhost/data/YL57xq9U/dc558eece920db435f9823ce86de0c4cde89800b.png',
+		iconUrl: 'https://cdn.blankethub.localhost/data/YL57xq9U/dc558eece920db435f9823ce86de0c4cde89800b.png',
 	},
 	{
 		id: 'gvQqBUqZ',
 		name: 'Lithium',
 		author: 'jellysquid3',
 		version: 'mc1.20.1-0.11.2',
-		iconUrl: 'https://cdn.blankethub.loxalhost/data/gvQqBUqZ/icon.png',
+		iconUrl: 'https://cdn.blankethub.localhost/data/gvQqBUqZ/icon.png',
 	},
 	{
 		id: 'mOgUt4GM',
@@ -161,28 +160,28 @@ const modManagementData = [
 		author: 'Prospector',
 		version: '7.2.1',
 		iconUrl:
-			'https://cdn.blankethub.loxalhost/data/mOgUt4GM/1bfe2006b38340e9d064700e41adf84a8abb1bd4_96.webp',
+			'https://cdn.blankethub.localhost/data/mOgUt4GM/1bfe2006b38340e9d064700e41adf84a8abb1bd4_96.webp',
 	},
 	{
 		id: '9s6osm5g',
 		name: 'Cloth Config API',
 		author: 'shedaniel',
 		version: '11.1.106+fabric',
-		iconUrl: 'https://cdn.blankethub.loxalhost/data/9s6osm5g/icon.png',
+		iconUrl: 'https://cdn.blankethub.localhost/data/9s6osm5g/icon.png',
 	},
 	{
 		id: 'lhGA9TYQ',
 		name: 'Architectury API',
 		author: 'shedaniel',
 		version: '9.1.12+fabric',
-		iconUrl: 'https://cdn.blankethub.loxalhost/data/lhGA9TYQ/icon.png',
+		iconUrl: 'https://cdn.blankethub.localhost/data/lhGA9TYQ/icon.png',
 	},
 	{
 		id: 'nrJ2NpD0',
 		name: 'Craftify',
 		author: 'ThatGravyBoat',
 		version: '8.5.2023',
-		iconUrl: 'https://cdn.blankethub.loxalhost/data/nrJ2NpD0/4f21214db060ed4542b1f3983c4113d293480a1b.webp',
+		iconUrl: 'https://cdn.blankethub.localhost/data/nrJ2NpD0/4f21214db060ed4542b1f3983c4113d293480a1b.webp',
 	},
 ]
 
@@ -234,22 +233,22 @@ const scrollToSection = () => {
 const { formatMessage } = useVIntl()
 
 const messages = defineMessages({
-	downloadModrinthApp: {
+	downloadBlankethubApp: {
 		id: 'app-marketing.hero.download-modrinth-app',
-		defaultMessage: 'Download Modrinth App',
+		defaultMessage: 'Download Blankethub App',
 	},
-	downloadModrinthAppForOs: {
+	downloadBlankethubAppForOs: {
 		id: 'app-marketing.hero.download-modrinth-app-for-os',
-		defaultMessage: 'Download Modrinth App for {os}',
+		defaultMessage: 'Download Blankethub App for {os}',
 	},
 	description: {
 		id: 'app-marketing.hero.description',
 		defaultMessage:
-			'Modrinth App is a unique, open source launcher that allows you to play your favorite mods, and keep them up to date, all in one neat little package.',
+			'Blankethub App is a unique, open source launcher that allows you to play your favorite mods, and keep them up to date, all in one neat little package.',
 	},
-	downloadModrinthAppButton: {
+	downloadBlankethubAppButton: {
 		id: 'app-marketing.hero.download-button',
-		defaultMessage: 'Download Modrinth App',
+		defaultMessage: 'Download Blankethub App',
 	},
 	moreDownloadOptions: {
 		id: 'app-marketing.hero.more-download-options',
@@ -294,7 +293,7 @@ const messages = defineMessages({
 	modManagementDescription: {
 		id: 'app-marketing.features.mod-management.description',
 		defaultMessage:
-			'Modrinth makes it easy to manage all your mods in one place. You can install, uninstall, and update mods with a single click.',
+			'Blankethub makes it easy to manage all your mods in one place. You can install, uninstall, and update mods with a single click.',
 	},
 	playWithFavoriteMods: {
 		id: 'app-marketing.features.play.title',
@@ -302,7 +301,7 @@ const messages = defineMessages({
 	},
 	playWithFavoriteModsDescription: {
 		id: 'app-marketing.features.play.description',
-		defaultMessage: 'Use Modrinth App to download and play with your favorite mods and modpacks.',
+		defaultMessage: 'Use Blankethub App to download and play with your favorite mods and modpacks.',
 	},
 	shareModpacks: {
 		id: 'app-marketing.features.sharing.title',
@@ -311,7 +310,7 @@ const messages = defineMessages({
 	shareModpacksDescription: {
 		id: 'app-marketing.features.sharing.description',
 		defaultMessage:
-			'Build, share, and play modpacks with any of the thousands of mods and modpacks hosted here on Modrinth.',
+			'Build, share, and play modpacks with any of the thousands of mods and modpacks hosted here on Blankethub.',
 	},
 	share: {
 		id: 'app-marketing.features.sharing.share-button',
@@ -343,7 +342,7 @@ const messages = defineMessages({
 	},
 	modrinthApp: {
 		id: 'app-marketing.features.performance.modrinth-app',
-		defaultMessage: 'Modrinth App',
+		defaultMessage: 'Blankethub App',
 	},
 	small: {
 		id: 'app-marketing.features.performance.small',
@@ -380,7 +379,7 @@ const messages = defineMessages({
 	performantDescription: {
 		id: 'app-marketing.features.performance.description',
 		defaultMessage:
-			'Modrinth App performs better than many of the leading mod managers, using just 150mb of RAM!',
+			'Blankethub App performs better than many of the leading mod managers, using just 150mb of RAM!',
 	},
 	websiteIntegration: {
 		id: 'app-marketing.features.website.title',
@@ -389,7 +388,7 @@ const messages = defineMessages({
 	websiteIntegrationDescription: {
 		id: 'app-marketing.features.website.description',
 		defaultMessage:
-			'Modrinth App is fully integrated with the website, so you can access all your favorite projects from the app!',
+			'Blankethub App is fully integrated with the website, so you can access all your favorite projects from the app!',
 	},
 	profileImporting: {
 		id: 'app-marketing.features.importing.title',
@@ -398,7 +397,7 @@ const messages = defineMessages({
 	profileImportingDescription: {
 		id: 'app-marketing.features.importing.description',
 		defaultMessage:
-			'Import all your favorite profiles from the launcher you were using before, and get started with Modrinth App in seconds!',
+			'Import all your favorite profiles from the launcher you were using before, and get started with Blankethub App in seconds!',
 	},
 	openSource: {
 		id: 'app-marketing.features.open-source.title',
@@ -407,7 +406,7 @@ const messages = defineMessages({
 	openSourceDescription: {
 		id: 'app-marketing.features.open-source.description',
 		defaultMessage:
-			"Modrinth's launcher is fully open source. You can view the source code on our <github-link>GitHub</github-link>!",
+			"Blankethub's launcher is fully open source. You can view the source code on our <github-link>GitHub</github-link>!",
 	},
 	offlineMode: {
 		id: 'app-marketing.features.offline.title',
@@ -429,9 +428,9 @@ const messages = defineMessages({
 		id: 'app-marketing.download.options-title',
 		defaultMessage: 'Download options',
 	},
-	downloadModrinthAppBeta: {
+	downloadBlankethubAppBeta: {
 		id: 'app-marketing.download.title',
-		defaultMessage: 'Download Modrinth App (Beta)',
+		defaultMessage: 'Download Blankethub App (Beta)',
 	},
 	downloadDescription: {
 		id: 'app-marketing.download.description',
@@ -485,16 +484,16 @@ const messages = defineMessages({
 	downloadTerms: {
 		id: 'app-marketing.download.terms',
 		defaultMessage:
-			'By downloading Modrinth App you agree to our <terms-link>Terms</terms-link> and <privacy-link>Privacy Policy</privacy-link>.',
+			'By downloading Blankethub App you agree to our <terms-link>Terms</terms-link> and <privacy-link>Privacy Policy</privacy-link>.',
 	},
 	linuxDisclaimer: {
 		id: 'app-marketing.download.linux-disclaimer',
 		defaultMessage:
-			'The Linux versions of Modrinth App are <issues-link>known to have issues</issues-link> on certain systems and configurations. If Modrinth App is unstable on your system, we encourage you to try other apps like <prism-link>Prism Launcher</prism-link> to easily install Modrinth content.',
+			'The Linux versions of Blankethub App are <issues-link>known to have issues</issues-link> on certain systems and configurations. If Blankethub App is unstable on your system, we encourage you to try other apps like <prism-link>Prism Launcher</prism-link> to easily install Blankethub content.',
 	},
 	appScreenshotAlt: {
 		id: 'app-marketing.hero.app-screenshot-alt',
-		defaultMessage: `Screenshot of Modrinth App with a Cobblemon instance opened to the 'Content' page.`,
+		defaultMessage: `Screenshot of Blankethub App with a Cobblemon instance opened to the 'Content' page.`,
 	},
 	minecraftScreenshotAlt: {
 		id: 'app-marketing.hero.minecraft-screenshot-alt',
@@ -510,9 +509,9 @@ const messages = defineMessages({
 	},
 })
 
-const title = 'Download Modrinth App!'
+const title = 'Download Blankethub App!'
 const description =
-	'Modrinth App is a unique, open source launcher that allows you to play your favorite mods, and keep them up to date, all in one neat little package.'
+	'Blankethub App is a unique, open source launcher that allows you to play your favorite mods, and keep them up to date, all in one neat little package.'
 
 useSeoMeta({
 	title,
@@ -533,8 +532,8 @@ useSeoMeta({
 			<h1 class="main-header max-w-[60rem]">
 				{{
 					os
-						? formatMessage(messages.downloadModrinthAppForOs, { os: osName })
-						: formatMessage(messages.downloadModrinthApp)
+						? formatMessage(messages.downloadBlankethubAppForOs, { os: osName })
+						: formatMessage(messages.downloadBlankethubApp)
 				}}
 			</h1>
 			<h2 class="main-subheader">
@@ -597,13 +596,13 @@ useSeoMeta({
 							fill="currentColor"
 						/>
 					</svg>
-					{{ formatMessage(messages.downloadModrinthAppButton) }}
+					{{ formatMessage(messages.downloadBlankethubAppButton) }}
 				</button>
 				<button class="iconified-button outline-button btn btn-large" @click="scrollToSection">
 					{{ formatMessage(messages.moreDownloadOptions) }}
 				</button>
 			</div>
-			<img src="https://cdn-raw.blankethub.loxalhost/app-landing/app-screenshot.webp" alt="" />
+			<img src="https://cdn-raw.blankethub.localhost/app-landing/app-screenshot.webp" alt="" />
 			<div class="bottom-transition" />
 		</div>
 		<div class="features">
@@ -661,12 +660,12 @@ useSeoMeta({
 						<p>{{ formatMessage(messages.playWithFavoriteModsDescription) }}</p>
 					</div>
 					<img
-						src="https://cdn-raw.blankethub.loxalhost/app-landing/cobblemon-launcher.webp"
+						src="https://cdn-raw.blankethub.localhost/app-landing/cobblemon-launcher.webp"
 						:alt="formatMessage(messages.appScreenshotAlt)"
 						class="launcher"
 					/>
 					<img
-						src="https://cdn-raw.blankethub.loxalhost/app-landing/cobblemon.webp"
+						src="https://cdn-raw.blankethub.localhost/app-landing/cobblemon.webp"
 						:alt="formatMessage(messages.minecraftScreenshotAlt)"
 						class="minecraft"
 					/>
@@ -678,7 +677,7 @@ useSeoMeta({
 							<div class="cell">
 								<Avatar
 									size="sm"
-									src="https://cdn.blankethub.loxalhost/data/3ufwT9JF/2a15f23b7ffa2d50fc6ae1c42029a728ce3e2847.jpeg"
+									src="https://cdn.blankethub.localhost/data/3ufwT9JF/2a15f23b7ffa2d50fc6ae1c42029a728ce3e2847.jpeg"
 								/>
 							</div>
 							<div class="cell">Ad Astra</div>
@@ -690,7 +689,7 @@ useSeoMeta({
 							<div class="cell">
 								<Avatar
 									size="sm"
-									src="https://cdn.blankethub.loxalhost/data/b1LdOZlE/465598dc5d89f67fb8f8de6def21240fa35e3a54.png"
+									src="https://cdn.blankethub.localhost/data/b1LdOZlE/465598dc5d89f67fb8f8de6def21240fa35e3a54.png"
 								/>
 							</div>
 							<div class="cell">Spirit</div>
@@ -704,7 +703,7 @@ useSeoMeta({
 							<div class="cell">
 								<Avatar
 									size="sm"
-									src="https://cdn.blankethub.loxalhost/data/MI1LWe93/d42fb7a69f1e7a86584fa1ed43520af98acec065.png"
+									src="https://cdn.blankethub.localhost/data/MI1LWe93/d42fb7a69f1e7a86584fa1ed43520af98acec065.png"
 								/>
 							</div>
 							<div class="cell">Creeper Overhaul</div>
@@ -717,7 +716,7 @@ useSeoMeta({
 					</p>
 					<div class="export-card">
 						<Avatar
-							src="https://cdn.blankethub.loxalhost/data/mY0lOQFc/81c6eff2b86220e12e62a4ad0d2f364a605c42c4.png"
+							src="https://cdn.blankethub.localhost/data/mY0lOQFc/81c6eff2b86220e12e62a4ad0d2f364a605c42c4.png"
 						/>
 						<div class="info">
 							<div class="exporting">
@@ -844,7 +843,7 @@ useSeoMeta({
 							<ATLauncher />
 						</div>
 						<div class="launcher-badge bottom-middle">
-							<CurseForge />
+							<GDLauncher />
 						</div>
 						<div class="first-circle" />
 						<div class="second-circle" />
@@ -1090,7 +1089,7 @@ useSeoMeta({
 			<div class="section-badge">{{ formatMessage(messages.downloadOptions) }}</div>
 			<div class="section-subheader">
 				<div class="section-subheader-title">
-					{{ formatMessage(messages.downloadModrinthAppBeta) }}
+					{{ formatMessage(messages.downloadBlankethubAppBeta) }}
 				</div>
 				<div class="section-subheader-description">
 					{{ formatMessage(messages.downloadDescription) }}
@@ -1170,7 +1169,7 @@ useSeoMeta({
 						</div>
 					</div>
 					<div class="description apple">
-						<a href="https://flathub.org/en/apps/com.modrinth.ModrinthApp" target="_blank">
+						<a href="https://flathub.org/en/apps/com.modrinth.BlankethubApp" target="_blank">
 							<FlathubIcon />
 							<span>{{ formatMessage(messages.getItOnFlathub) }}</span>
 						</a>
@@ -1247,7 +1246,7 @@ useSeoMeta({
 <style scoped lang="scss">
 .landing-hero {
 	position: relative;
-	background: #0f1121 url('https://cdn-raw.blankethub.loxalhost/app-landing/cube-black.png') no-repeat
+	background: #0f1121 url('https://cdn-raw.blankethub.localhost/app-landing/cube-black.png') no-repeat
 		center 4rem;
 	background-size: cover;
 	padding: 6rem 1rem 12rem 1rem;
@@ -2436,7 +2435,7 @@ useSeoMeta({
 	}
 
 	.landing-hero {
-		background: url('https://cdn-raw.blankethub.loxalhost/app-landing/cube-light.png') no-repeat center 4rem;
+		background: url('https://cdn-raw.blankethub.localhost/app-landing/cube-light.png') no-repeat center 4rem;
 		background-size: cover;
 	}
 

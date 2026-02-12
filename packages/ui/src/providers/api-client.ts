@@ -1,8 +1,8 @@
-import type { AbstractModrinthClient } from '@modrinth/api-client'
+import type { AbstractBlankethubClient } from '@modrinth/api-client'
 
 import { createContext } from './index'
 
-export const [injectModrinthClient, provideModrinthClient] = createContext<AbstractModrinthClient>(
+export const [injectBlankethubClient, provideBlankethubClient] = createContext<AbstractBlankethubClient>(
 	'root',
 	'modrinthClient',
 )

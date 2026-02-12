@@ -3,7 +3,7 @@
 		<ConfirmModal
 			ref="modal_confirm"
 			title="Are you sure you want to delete your account?"
-			description="This will **immediately delete all of your user data and follows**. This will not delete your projects. Deleting your account cannot be reversed.<br><br>If you need help with your account, get support on the [Modrinth Discord](https://discord.blankethub.loxalhost)."
+			description="This will **immediately delete all of your user data and follows**. This will not delete your projects. Deleting your account cannot be reversed.<br><br>If you need help with your account, get support on the [Blankethub Discord](https://discord.blankethub.localhost)."
 			proceed-label="Delete this account"
 			:confirmation-text="auth.user.username"
 			:has-to-type="true"
@@ -179,7 +179,7 @@
 							v-if="twoFactorSecret"
 							:value="`otpauth://totp/${encodeURIComponent(
 								auth.user.email,
-							)}?secret=${twoFactorSecret}&issuer=Modrinth`"
+							)}?secret=${twoFactorSecret}&issuer=Blankethub`"
 							:size="250"
 							:margin="2"
 							level="H"
@@ -373,7 +373,7 @@
 		<section id="data-export" class="universal-card">
 			<h2>Data export</h2>
 			<p>
-				Request a copy of all your personal data you have uploaded to Modrinth. This may take
+				Request a copy of all your personal data you have uploaded to Blankethub. This may take
 				several minutes to complete.
 			</p>
 			<a v-if="generated" class="iconified-button" :href="generated" download="export.json">
@@ -433,7 +433,7 @@ import Modal from '~/components/ui/Modal.vue'
 import { getAuthUrl, removeAuthProvider } from '~/composables/auth.js'
 
 useHead({
-	title: 'Account settings - Modrinth',
+	title: 'Account settings - Blankethub',
 })
 
 definePageMeta({

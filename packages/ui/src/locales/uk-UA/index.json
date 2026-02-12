@@ -531,7 +531,7 @@
     "defaultMessage": "Модератор"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Команда Modrinth"
+    "defaultMessage": "Команда Blankethub"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "На розгляді"
@@ -939,7 +939,7 @@
     "defaultMessage": "Ваш проєкт має кілька середовищ"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Нещодавно ми оновили систему середовищ у Modrinth і вам тепер доступні нові налаштування. Будь ласка, переконайтесь, що обрано правильні налаштування та натисніть «Підтвердити» коли закінчите!"
+    "defaultMessage": "Нещодавно ми оновили систему середовищ у Blankethub і вам тепер доступні нові налаштування. Будь ласка, переконайтесь, що обрано правильні налаштування та натисніть «Підтвердити» коли закінчите!"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "Будь ласка, перегляньте налаштування нижче"
@@ -1245,7 +1245,7 @@
     "defaultMessage": "Де б ви хотіли розмістити свій сервер?"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "Регіону немає в списку? <link>Повідомте нам, де ви ще хотіли б побачити Modrinth Hosting!</link>"
+    "defaultMessage": "Регіону немає в списку? <link>Повідомте нам, де ви ще хотіли б побачити Blankethub Hosting!</link>"
   },
   "servers.region.southeast-asia": {
     "defaultMessage": "Південно-східна Азія"
@@ -1272,7 +1272,7 @@
     "defaultMessage": "Темна"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Виберіть бажану тему для Modrinth для цього пристрою."
+    "defaultMessage": "Виберіть бажану тему для Blankethub для цього пристрою."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Світла"

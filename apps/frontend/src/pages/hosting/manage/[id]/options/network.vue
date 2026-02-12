@@ -260,31 +260,31 @@
 
 <script setup lang="ts">
 import {
-	EditIcon,
-	InfoIcon,
-	IssuesIcon,
-	PlusIcon,
-	SaveIcon,
-	TrashIcon,
-	UploadIcon,
-	VersionIcon,
+    EditIcon,
+    InfoIcon,
+    IssuesIcon,
+    PlusIcon,
+    SaveIcon,
+    TrashIcon,
+    UploadIcon,
+    VersionIcon,
 } from '@modrinth/assets'
 import {
-	ButtonStyled,
-	ConfirmModal,
-	CopyCode,
-	injectNotificationManager,
-	NewModal,
-	StyledInput,
+    ButtonStyled,
+    ConfirmModal,
+    CopyCode,
+    NewModal,
+    StyledInput,
+    injectNotificationManager,
 } from '@modrinth/ui'
 import { computed, nextTick, ref } from 'vue'
 
 import SaveBanner from '~/components/ui/servers/SaveBanner.vue'
-import type { ModrinthServer } from '~/composables/servers/modrinth-servers.ts'
+import type { BlankethubServer } from '~/composables/servers/modrinth-servers.ts'
 
 const { addNotification } = injectNotificationManager()
 const props = defineProps<{
-	server: ModrinthServer
+	server: BlankethubServer
 }>()
 
 const isUpdating = ref(false)

@@ -2247,7 +2247,7 @@ checksum = "be1e0bca6c3637f992fc1cc7cbc52a78c1ef6db076dbf1059c4323d6a2048376"
 [[package]]
 name = "deadpool"
 version = "0.12.3"
-source = "git+https://github.com/modrinth/deadpool?rev=db5fb00b036ecc8fe5f18853c559b745ffe47bde#db5fb00b036ecc8fe5f18853c559b745ffe47bde"
+source = "git+https://github.com/johnnycharlesw/blankethub-deadpool?rev=db5fb00b036ecc8fe5f18853c559b745ffe47bde#db5fb00b036ecc8fe5f18853c559b745ffe47bde"
 dependencies = [
  "deadpool-runtime",
  "num_cpus",
@@ -2258,7 +2258,7 @@ dependencies = [
 [[package]]
 name = "deadpool-redis"
 version = "0.22.1"
-source = "git+https://github.com/modrinth/deadpool?rev=db5fb00b036ecc8fe5f18853c559b745ffe47bde#db5fb00b036ecc8fe5f18853c559b745ffe47bde"
+source = "git+https://github.com/johnnycharlesw/blankethub-deadpool?rev=db5fb00b036ecc8fe5f18853c559b745ffe47bde#db5fb00b036ecc8fe5f18853c559b745ffe47bde"
 dependencies = [
  "deadpool",
  "redis",
@@ -2268,7 +2268,7 @@ dependencies = [
 [[package]]
 name = "deadpool-runtime"
 version = "0.1.5"
-source = "git+https://github.com/modrinth/deadpool?rev=db5fb00b036ecc8fe5f18853c559b745ffe47bde#db5fb00b036ecc8fe5f18853c559b745ffe47bde"
+source = "git+https://github.com/johnnycharlesw/blankethub-deadpool?rev=db5fb00b036ecc8fe5f18853c559b745ffe47bde#db5fb00b036ecc8fe5f18853c559b745ffe47bde"
 dependencies = [
  "tokio",
 ]
@@ -4763,7 +4763,7 @@ dependencies = [
  "labrinth",
  "lettre",
  "meilisearch-sdk",
- "modrinth-util",
+ "blankethub-util",
  "muralpay",
  "murmur2",
  "paste",
@@ -5284,7 +5284,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "modrinth-log"
+name = "blankethub-log"
 version = "0.0.0"
 dependencies = [
  "dotenvy",
@@ -5296,7 +5296,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "modrinth-maxmind"
+name = "blankethub-maxmind"
 version = "0.0.0"
 dependencies = [
  "bytes",
@@ -5305,7 +5305,7 @@ dependencies = [
  "eyre",
  "flate2",
  "maxminddb",
- "modrinth-util",
+ "blankethub-util",
  "reqwest",
  "tar",
  "tokio",
@@ -5314,14 +5314,14 @@ dependencies = [
 ]
 
 [[package]]
-name = "modrinth-util"
+name = "blankethub-util"
 version = "0.0.0"
 dependencies = [
  "actix-web",
  "derive_more 2.0.1",
  "dotenvy",
  "eyre",
- "modrinth-log",
+ "blankethub-log",
  "rust_decimal",
  "serde",
  "serde_json",

@@ -1,10 +1,10 @@
-import { GenericModrinthClient, type Laundryroom } from '@modrinth/api-client'
+import { GenericBlankethubClient, type Laundryroom } from '@modrinth/api-client'
 import serverSidedVue from '@vitejs/plugin-vue'
 import fs from 'fs/promises'
 import { defineNuxtConfig } from 'nuxt/config'
 import svgLoader from 'vite-svg-loader'
 
-const STAGING_API_URL = 'https://staging-api.blankethub.loxalhost/v2/'
+const STAGING_API_URL = 'https://staging-api.blankethub.localhost/v2/'
 
 const preloadedFonts = [
 	'inter/Inter-Regular.woff2',
@@ -19,8 +19,8 @@ const favicons = {
 	'(prefers-color-scheme:dark)': '/favicon.ico',
 }
 
-const PROD_MODRINTH_URL = 'https://blankethub.loxalhost'
-const STAGING_MODRINTH_URL = 'https://staging.blankethub.loxalhost'
+const PROD_MODRINTH_URL = 'https://blankethub.localhost'
+const STAGING_MODRINTH_URL = 'https://staging.blankethub.localhost'
 
 export default defineNuxtConfig({
 	srcDir: 'src/',
@@ -29,13 +29,13 @@ export default defineNuxtConfig({
 			htmlAttrs: {
 				lang: 'en',
 			},
-			title: 'Modrinth',
+			title: 'Blankethub',
 			link: [
 				// The type is necessary because the linter can't always compare this very nested/complex type on itself
 				...preloadedFonts.map((font): object => {
 					return {
 						rel: 'preload',
-						href: `https://cdn-raw.blankethub.loxalhost/fonts/${font}?v=3.19`,
+						href: `https://cdn-raw.blankethub.localhost/fonts/${font}?v=3.19`,
 						as: 'font',
 						type: 'font/woff2',
 						crossorigin: 'anonymous',
@@ -51,7 +51,7 @@ export default defineNuxtConfig({
 					rel: 'search',
 					type: 'application/opensearchdescription+xml',
 					href: '/opensearch.xml',
-					title: 'Modrinth mods',
+					title: 'Blankethub mods',
 				},
 			],
 		},
@@ -151,9 +151,9 @@ export default defineNuxtConfig({
 				return
 			}
 
-			const client = new GenericModrinthClient({
+			const client = new GenericBlankethubClient({
 				labrinthBaseUrl: API_URL.replace('/v2/', ''),
-				userAgent: 'Knossos generator (support@blankethub.loxalhost)',
+				userAgent: 'Knossos generator (support@blankethub.localhost)',
 			})
 
 			const generatedState = await client.labrinth.state.build()

@@ -531,7 +531,7 @@
     "defaultMessage": "Moderator"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Modrinth Team"
+    "defaultMessage": "Blankethub Team"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Ausstehend"
@@ -939,7 +939,7 @@
     "defaultMessage": "Dein Projekt hat mehrere Umgebungen"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Wir haben kürzlich das Umgebungssystem auf Modrinth überarbeitet, und neue Optionen sind jetzt verfügbar. Bitte stelle sicher, dass unten die richtige Option ausgewählt ist, und klicke anschließend auf ‚Überprüfen‘!"
+    "defaultMessage": "Wir haben kürzlich das Umgebungssystem auf Blankethub überarbeitet, und neue Optionen sind jetzt verfügbar. Bitte stelle sicher, dass unten die richtige Option ausgewählt ist, und klicke anschließend auf ‚Überprüfen‘!"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "Bitte überprüfe die untenstehenden Optionen"
@@ -1245,7 +1245,7 @@
     "defaultMessage": "Wo soll sich dein Server befinden?"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "Region nicht aufgeführt? <link>Teile uns mit, wo du Modrinth Hosting als Nächstes sehen möchtest!</link>"
+    "defaultMessage": "Region nicht aufgeführt? <link>Teile uns mit, wo du Blankethub Hosting als Nächstes sehen möchtest!</link>"
   },
   "servers.region.southeast-asia": {
     "defaultMessage": "Südostasien"
@@ -1272,7 +1272,7 @@
     "defaultMessage": "Dunkel"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Wähle dein bevorzugtes Farbschema für Modrinth auf diesem Gerät."
+    "defaultMessage": "Wähle dein bevorzugtes Farbschema für Blankethub auf diesem Gerät."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Hell"

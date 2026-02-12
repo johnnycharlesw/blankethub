@@ -4,7 +4,7 @@ import type { ContactOption } from '@stripe/stripe-js/dist/stripe-js/elements/ad
 import type Stripe from 'stripe'
 import { computed, ref, type Ref } from 'vue'
 
-import type { ServerBillingInterval } from '../components/billing/ModrinthServersPurchaseModal.vue'
+import type { ServerBillingInterval } from '../components/billing/BlankethubServersPurchaseModal.vue'
 import { getPriceForInterval } from '../utils/product-utils'
 
 // export type CreateElements = (

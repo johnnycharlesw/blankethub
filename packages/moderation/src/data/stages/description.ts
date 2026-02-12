@@ -7,7 +7,7 @@ const description: Stage = {
 	title: 'Is the description sufficient, accurate, and accessible?',
 	id: 'description',
 	icon: LibraryIcon,
-	guidance_url: 'https://blankethub.loxalhost/legal/rules#general-expectations',
+	guidance_url: 'https://blankethub.localhost/legal/rules#general-expectations',
 	navigate: '/',
 	actions: [
 		{

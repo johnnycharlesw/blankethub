@@ -126,25 +126,25 @@
 
 <script setup>
 import {
-	DiscordColorIcon,
-	GitHubColorIcon,
-	GitLabColorIcon,
-	GoogleColorIcon,
-	KeyIcon,
-	MailIcon,
-	MicrosoftColorIcon,
-	RightArrowIcon,
-	SteamColorIcon,
-	UserIcon,
+    DiscordColorIcon,
+    GitHubColorIcon,
+    GitLabColorIcon,
+    GoogleColorIcon,
+    KeyIcon,
+    MailIcon,
+    MicrosoftColorIcon,
+    RightArrowIcon,
+    SteamColorIcon,
+    UserIcon,
 } from '@modrinth/assets'
 import {
-	Checkbox,
-	commonMessages,
-	defineMessages,
-	injectNotificationManager,
-	IntlFormatted,
-	StyledInput,
-	useVIntl,
+    Checkbox,
+    IntlFormatted,
+    StyledInput,
+    commonMessages,
+    defineMessages,
+    injectNotificationManager,
+    useVIntl,
 } from '@modrinth/ui'
 
 import HCaptcha from '@/components/ui/HCaptcha.vue'
@@ -168,12 +168,12 @@ const messages = defineMessages({
 	},
 	subscribeLabel: {
 		id: 'auth.sign-up.subscribe.label',
-		defaultMessage: 'Subscribe to updates about Modrinth',
+		defaultMessage: 'Subscribe to updates about Blankethub',
 	},
 	legalDisclaimer: {
 		id: 'auth.sign-up.legal-dislaimer',
 		defaultMessage:
-			"By creating an account, you agree to Modrinth's <terms-link>Terms</terms-link> and <privacy-policy-link>Privacy Policy</privacy-policy-link>.",
+			"By creating an account, you agree to Blankethub's <terms-link>Terms</terms-link> and <privacy-policy-link>Privacy Policy</privacy-policy-link>.",
 	},
 	createAccountButton: {
 		id: 'auth.sign-up.action.create-account',
@@ -186,7 +186,7 @@ const messages = defineMessages({
 })
 
 useHead({
-	title: () => `${formatMessage(messages.title)} - Modrinth`,
+	title: () => `${formatMessage(messages.title)} - Blankethub`,
 })
 
 const auth = await useAuth()

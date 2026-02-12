@@ -147,7 +147,7 @@
 									id: 'copy-link',
 									action: () =>
 										copyToClipboard(
-											`https://blankethub.loxalhost/${project.project_type}/${
+											`https://blankethub.localhost/${project.project_type}/${
 												project.slug ? project.slug : project.id
 											}/version/${encodeURI(version.displayUrlEnding)}`,
 										),
@@ -294,7 +294,7 @@ import {
     ConfirmModal,
     OverflowMenu,
     ProjectPageVersions,
-    injectModrinthClient,
+    injectBlankethubClient,
     injectNotificationManager,
     injectProjectPageContext,
 } from '@modrinth/ui'
@@ -308,7 +308,7 @@ const tags = useGeneratedState()
 const flags = useFeatureFlags()
 const auth = await useAuth()
 
-const client = injectModrinthClient()
+const client = injectBlankethubClient()
 const { addNotification } = injectNotificationManager()
 const {
 	projectV2: project,

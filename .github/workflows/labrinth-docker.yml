@@ -39,7 +39,7 @@ jobs:
           # https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry#adding-a-description-to-multi-arch-images
           DOCKER_METADATA_ANNOTATIONS_LEVELS: manifest,index
         with:
-          images: ghcr.io/modrinth/labrinth
+          images: ghcr.io/blankethub/labrinth
           labels: |
             org.opencontainers.image.title=labrinth
             org.opencontainers.image.description=Blankethub API
@@ -66,5 +66,5 @@ jobs:
           annotations: ${{ steps.docker_meta.outputs.annotations }}
           build-args: |
             GIT_HASH=${{ fromJSON(steps.docker_meta.outputs.json).labels['org.opencontainers.image.revision'] }}
-          cache-from: type=registry,ref=ghcr.io/modrinth/labrinth:main
+          cache-from: type=registry,ref=ghcr.io/blankethub/labrinth:main
           cache-to: type=inline

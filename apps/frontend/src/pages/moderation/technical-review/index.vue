@@ -15,7 +15,7 @@ import {
     StyledInput,
     Toggle,
     commonMessages,
-    injectModrinthClient,
+    injectBlankethubClient,
     useVIntl,
     type ComboboxOption,
 } from '@modrinth/ui'
@@ -28,9 +28,9 @@ import MaliciousSummaryModal, {
 } from '~/components/ui/moderation/MaliciousSummaryModal.vue'
 import ModerationTechRevCard from '~/components/ui/moderation/ModerationTechRevCard.vue'
 
-useHead({ title: 'Tech review queue - Modrinth' })
+useHead({ title: 'Tech review queue - Blankethub' })
 
-const client = injectModrinthClient()
+const client = injectBlankethubClient()
 const queryClient = useQueryClient()
 
 const currentPage = ref(1)

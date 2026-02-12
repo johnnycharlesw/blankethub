@@ -143,7 +143,7 @@ fn team_request(
     Ok((
         client
             .request(method, format!("{url}/v1/{team}{route}"))
-            .header(reqwest::header::USER_AGENT, "Modrinth")
+            .header(reqwest::header::USER_AGENT, "Blankethub")
             .bearer_auth(&key),
         company,
     ))

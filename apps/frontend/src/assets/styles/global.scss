@@ -90,8 +90,8 @@ html {
 	--color-table-border: #dfe2e5;
 	--color-table-alternate-row: #f0f1f2;
 
-	--landing-maze-bg: url('https://cdn.blankethub.loxalhost/landing-new/landing-light.webp');
-	--landing-maze-gradient-bg: url('https://cdn.blankethub.loxalhost/landing-new/landing-lower-light.webp');
+	--landing-maze-bg: url('https://cdn.blankethub.localhost/landing-new/landing-light.webp');
+	--landing-maze-gradient-bg: url('https://cdn.blankethub.localhost/landing-new/landing-lower-light.webp');
 	--landing-maze-outer-bg: linear-gradient(180deg, #f0f0f0 0%, #ffffff 100%);
 
 	--landing-color-heading: #000;
@@ -201,10 +201,10 @@ html {
 	--color-table-border: #4f5864;
 	--color-table-alternate-row: #202228;
 
-	--landing-maze-bg: url('https://cdn.blankethub.loxalhost/landing-new/landing.webp');
+	--landing-maze-bg: url('https://cdn.blankethub.localhost/landing-new/landing.webp');
 	--landing-maze-gradient-bg:
 		linear-gradient(0deg, #31375f 0%, rgba(8, 14, 55, 0) 100%),
-		url('https://cdn.blankethub.loxalhost/landing-new/landing-lower.webp');
+		url('https://cdn.blankethub.localhost/landing-new/landing-lower.webp');
 	--landing-maze-outer-bg: linear-gradient(180deg, #06060d 0%, #000000 100%);
 
 	--landing-color-heading: #fff;

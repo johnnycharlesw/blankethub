@@ -111,19 +111,19 @@
 <script setup lang="ts">
 import { IssuesIcon, UpdatedIcon } from '@modrinth/assets'
 import {
-	ButtonStyled,
-	Combobox,
-	injectNotificationManager,
-	StyledInput,
-	Toggle,
+    ButtonStyled,
+    Combobox,
+    StyledInput,
+    Toggle,
+    injectNotificationManager,
 } from '@modrinth/ui'
 
 import SaveBanner from '~/components/ui/servers/SaveBanner.vue'
-import type { ModrinthServer } from '~/composables/servers/modrinth-servers.ts'
+import type { BlankethubServer } from '~/composables/servers/modrinth-servers.ts'
 
 const { addNotification } = injectNotificationManager()
 const props = defineProps<{
-	server: ModrinthServer
+	server: BlankethubServer
 }>()
 
 await props.server.startup.fetch()

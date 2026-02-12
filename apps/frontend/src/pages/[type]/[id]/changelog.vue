@@ -86,7 +86,7 @@
 </template>
 <script setup>
 import { DownloadIcon, SpinnerIcon } from '@modrinth/assets'
-import { injectModrinthClient, injectProjectPageContext, Pagination } from '@modrinth/ui'
+import { Pagination, injectBlankethubClient, injectProjectPageContext } from '@modrinth/ui'
 import VersionFilterControl from '@modrinth/ui/src/components/version/VersionFilterControl.vue'
 import { renderHighlightedString } from '@modrinth/utils'
 import { useQuery } from '@tanstack/vue-query'
@@ -136,7 +136,7 @@ const filteredVersions = computed(() => {
 	)
 })
 
-const { labrinth } = injectModrinthClient()
+const { labrinth } = injectBlankethubClient()
 
 const paginatedVersionIds = computed(() => {
 	const page = currentPage.value

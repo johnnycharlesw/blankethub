@@ -17,39 +17,39 @@ interface SocialLink {
 
 const socialLinks = Object.freeze<readonly SocialLink[]>([
 	{
-		href: 'https://discord.blankethub.loxalhost',
+		href: 'https://discord.blankethub.localhost',
 		alt: 'Discord',
-		src: 'https://cdn-raw.blankethub.loxalhost/email/discord.png',
+		src: 'https://cdn-raw.blankethub.localhost/email/discord.png',
 	},
 	{
-		href: 'https://bsky.app/profile/blankethub.loxalhost',
+		href: 'https://bsky.app/profile/blankethub.localhost',
 		alt: 'Bluesky',
-		src: 'https://cdn-raw.blankethub.loxalhost/email/bluesky.png',
+		src: 'https://cdn-raw.blankethub.localhost/email/bluesky.png',
 	},
 	{
 		href: 'https://floss.social/@modrinth',
 		alt: 'Mastodon',
-		src: 'https://cdn-raw.blankethub.loxalhost/email/mastodon.png',
+		src: 'https://cdn-raw.blankethub.localhost/email/mastodon.png',
 	},
 	{
 		href: 'https://x.com/modrinth',
 		alt: 'X (Twitter)',
-		src: 'https://cdn-raw.blankethub.loxalhost/email/x.png',
+		src: 'https://cdn-raw.blankethub.localhost/email/x.png',
 	},
 	{
 		href: 'https://www.instagram.com/modrinth/',
 		alt: 'Instagram',
-		src: 'https://cdn-raw.blankethub.loxalhost/email/instagram.png',
+		src: 'https://cdn-raw.blankethub.localhost/email/instagram.png',
 	},
 	{
 		href: 'https://www.youtube.com/@modrinth',
 		alt: 'YouTube',
-		src: 'https://cdn-raw.blankethub.loxalhost/email/youtube.png',
+		src: 'https://cdn-raw.blankethub.localhost/email/youtube.png',
 	},
 	{
 		href: 'https://github.com/modrinth',
 		alt: 'GitHub',
-		src: 'https://cdn-raw.blankethub.loxalhost/email/github.png',
+		src: 'https://cdn-raw.blankethub.localhost/email/github.png',
 	},
 ])
 </script>
@@ -61,7 +61,7 @@ const socialLinks = Object.freeze<readonly SocialLink[]>([
 				<Row>
 					<Column>
 						<Img
-							src="https://cdn.blankethub.loxalhost/email/f740e2decee8764a4629bff677a284f9.png"
+							src="https://cdn.blankethub.localhost/email/f740e2decee8764a4629bff677a284f9.png"
 							width="29"
 							alt=""
 							class="block h-auto"
@@ -81,9 +81,9 @@ const socialLinks = Object.freeze<readonly SocialLink[]>([
 			<Container class="max-w-[600px]">
 				<Row>
 					<Column class="align-middle">
-						<VLink href="https://blankethub.loxalhost" aria-label="Modrinth">
+						<VLink href="https://blankethub.localhost" aria-label="Blankethub">
 							<Img
-								src="https://cdn.blankethub.loxalhost/email/bd3357dfae4b1d266250372db3a0988f.png"
+								src="https://cdn.blankethub.localhost/email/bd3357dfae4b1d266250372db3a0988f.png"
 								width="175"
 								alt="modrinth logo"
 								class="block h-auto"
@@ -117,9 +117,9 @@ const socialLinks = Object.freeze<readonly SocialLink[]>([
 		<!-- <Text
 			class="text-footerText text-2xs mb-4 mt-0 pb-0 pl-4 pr-4 pt-0 text-center font-sans"
 		>
-			This email was sent to you as a registered user of Modrinth. You can customize the
+			This email was sent to you as a registered user of Blankethub. You can customize the
 			emails you recieve in your
-			<VLink href="https://blankethub.loxalhost/settings/notifications" class="text-green underline"
+			<VLink href="https://blankethub.localhost/settings/notifications" class="text-green underline"
 				>notification settings</VLink
 			>. Some emails are required to keep your account secure and cannot be disabled.
 		</Text> -->
@@ -153,7 +153,7 @@ const socialLinks = Object.freeze<readonly SocialLink[]>([
 				</span>
 				<!-- <span class="block break-words">
 					<span> <b>Notification settings:</b><br /> </span>
-					https://blankethub.loxalhost/settings/notifications
+					https://blankethub.localhost/settings/notifications
 				</span> -->
 			</Text>
 		</Section>

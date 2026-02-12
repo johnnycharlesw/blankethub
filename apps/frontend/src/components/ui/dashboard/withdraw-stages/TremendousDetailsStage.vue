@@ -337,20 +337,20 @@
 <script setup lang="ts">
 import { SearchIcon } from '@modrinth/assets'
 import {
-	Admonition,
-	Checkbox,
-	Chips,
-	Combobox,
-	defineMessages,
-	financialMessages,
-	formFieldLabels,
-	formFieldPlaceholders,
-	IntlFormatted,
-	normalizeChildren,
-	paymentMethodMessages,
-	StyledInput,
-	useDebugLogger,
-	useVIntl,
+    Admonition,
+    Checkbox,
+    Chips,
+    Combobox,
+    defineMessages,
+    financialMessages,
+    formFieldLabels,
+    formFieldPlaceholders,
+    IntlFormatted,
+    normalizeChildren,
+    paymentMethodMessages,
+    StyledInput,
+    useDebugLogger,
+    useVIntl,
 } from '@modrinth/ui'
 import { formatMoney } from '@modrinth/utils'
 import { useDebounceFn } from '@vueuse/core'
@@ -1077,7 +1077,7 @@ const messages = defineMessages({
 	unverifiedEmailMessage: {
 		id: 'dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message',
 		defaultMessage:
-			'The delivery email you have entered is not associated with your Modrinth account. Modrinth cannot recover rewards sent to an incorrect email address.',
+			'The delivery email you have entered is not associated with your Blankethub account. Blankethub cannot recover rewards sent to an incorrect email address.',
 	},
 	paymentMethod: {
 		id: 'dashboard.creator-withdraw-modal.tremendous-details.payment-method',

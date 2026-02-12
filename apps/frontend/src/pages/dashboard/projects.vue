@@ -315,28 +315,28 @@
 
 <script setup>
 import {
-	EditIcon,
-	IssuesIcon,
-	PlusIcon,
-	SaveIcon,
-	SettingsIcon,
-	SortAscIcon,
-	SortDescIcon,
-	TrashIcon,
-	TriangleAlertIcon,
-	XIcon,
+    EditIcon,
+    IssuesIcon,
+    PlusIcon,
+    SaveIcon,
+    SettingsIcon,
+    SortAscIcon,
+    SortDescIcon,
+    TrashIcon,
+    TriangleAlertIcon,
+    XIcon,
 } from '@modrinth/assets'
 import {
-	Avatar,
-	ButtonStyled,
-	Checkbox,
-	commonMessages,
-	CopyCode,
-	injectNotificationManager,
-	NewModal,
-	ProjectStatusBadge,
-	StyledInput,
-	useVIntl,
+    Avatar,
+    ButtonStyled,
+    Checkbox,
+    CopyCode,
+    NewModal,
+    ProjectStatusBadge,
+    StyledInput,
+    commonMessages,
+    injectNotificationManager,
+    useVIntl,
 } from '@modrinth/ui'
 import { formatProjectType } from '@modrinth/utils'
 import { Multiselect } from 'vue-multiselect'
@@ -344,7 +344,7 @@ import { Multiselect } from 'vue-multiselect'
 import ModalCreation from '~/components/ui/create/ProjectCreateModal.vue'
 import { getProjectTypeForUrl } from '~/helpers/projects.js'
 
-useHead({ title: 'Projects - Modrinth' })
+useHead({ title: 'Projects - Blankethub' })
 
 // const UPLOAD_VERSION = 1 << 0
 // const DELETE_VERSION = 1 << 1

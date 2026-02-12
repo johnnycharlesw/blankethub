@@ -12,13 +12,13 @@ import type {
 } from '../../components/instances/types'
 import NewModal from '../../components/modal/NewModal.vue'
 
-// Real project data from Modrinth API
+// Real project data from Blankethub API
 const fabulouslyOptimizedProject: ContentModpackCardProject = {
 	id: '1KVo5zza',
 	slug: 'fabulously-optimized',
 	title: 'Fabulously Optimized',
 	icon_url:
-		'https://cdn.blankethub.loxalhost/data/1KVo5zza/9f1ded4949c2a9db5ca382d3bcc912c7245486b4_96.webp',
+		'https://cdn.blankethub.localhost/data/1KVo5zza/9f1ded4949c2a9db5ca382d3bcc912c7245486b4_96.webp',
 	description:
 		'Beautiful graphics, speedy performance and familiar features in a simple package. 1.21.11 beta!',
 	downloads: 8708191,
@@ -29,7 +29,7 @@ const cobblemonProject: ContentModpackCardProject = {
 	id: '5FFgwNNP',
 	slug: 'cobblemon-fabric',
 	title: 'Cobblemon Official Modpack [Fabric]',
-	icon_url: 'https://cdn.blankethub.loxalhost/data/5FFgwNNP/e7f9ee2e9d361623847853fe2ddce42f519ee64f.png',
+	icon_url: 'https://cdn.blankethub.localhost/data/5FFgwNNP/e7f9ee2e9d361623847853fe2ddce42f519ee64f.png',
 	description: 'The official modpack of the Cobblemon mod, for Fabric!',
 	downloads: 4940845,
 	followers: 2051,
@@ -39,14 +39,14 @@ const simplyOptimizedProject: ContentModpackCardProject = {
 	id: 'BYfVnHa7',
 	slug: 'sop',
 	title: 'Simply Optimized',
-	icon_url: 'https://cdn.blankethub.loxalhost/data/BYfVnHa7/845e93223da7e8d1ed1a33364b5bdb4c316ac518.png',
+	icon_url: 'https://cdn.blankethub.localhost/data/BYfVnHa7/845e93223da7e8d1ed1a33364b5bdb4c316ac518.png',
 	description:
 		'The leading, well-researched optimization modpack with a focus on pure performance.',
 	downloads: 2903242,
 	followers: 1387,
 }
 
-// Version data from Modrinth API
+// Version data from Blankethub API
 const fabulouslyOptimizedVersion: ContentModpackCardVersion = {
 	id: 'YEEXo8mO',
 	version_number: '1.12.1',
@@ -59,11 +59,11 @@ const cobblemonVersion: ContentModpackCardVersion = {
 	date_published: '2024-05-27T07:12:36.043005Z',
 }
 
-// Owner data from Modrinth API
+// Owner data from Blankethub API
 const userOwner: ContentOwner = {
 	id: '2avTeeAE',
 	name: 'robotkoer',
-	avatar_url: 'https://cdn.blankethub.loxalhost/user/2avTeeAE/icon.png',
+	avatar_url: 'https://cdn.blankethub.localhost/user/2avTeeAE/icon.png',
 	type: 'user',
 }
 
@@ -71,7 +71,7 @@ const cobblemonOwner: ContentOwner = {
 	id: 'AEFONbAM',
 	name: 'Reisen',
 	avatar_url:
-		'https://cdn.blankethub.loxalhost/user/AEFONbAM/9e97453507a8245981d5cd825280f23be44f15ac.jpeg',
+		'https://cdn.blankethub.localhost/user/AEFONbAM/9e97453507a8245981d5cd825280f23be44f15ac.jpeg',
 	type: 'user',
 }
 
@@ -441,7 +441,7 @@ export const WithOverflowMenu: Story = {
 		},
 		template: /*html*/ `
 			<ContentModpackCard v-bind="args">
-				<template #view>View on Modrinth</template>
+				<template #view>View on Blankethub</template>
 				<template #settings>Settings</template>
 				<template #remove>Remove modpack</template>
 			</ContentModpackCard>
@@ -480,7 +480,7 @@ export const WithContentModal: Story = {
 						slug: 'sodium',
 						title: 'Sodium',
 						icon_url:
-							'https://cdn.blankethub.loxalhost/data/AANobbMI/295862f4724dc3f78df3447ad6072b2dcd3ef0c9_96.webp',
+							'https://cdn.blankethub.localhost/data/AANobbMI/295862f4724dc3f78df3447ad6072b2dcd3ef0c9_96.webp',
 					},
 					version: { id: 'v1', version_number: '0.8.2', file_name: 'sodium-fabric-0.8.2.jar' },
 				},
@@ -490,7 +490,7 @@ export const WithContentModal: Story = {
 						slug: 'modmenu',
 						title: 'Mod Menu',
 						icon_url:
-							'https://cdn.blankethub.loxalhost/data/mOgUt4GM/5a20ed1450a0e1e79a1fe04e61bb4e5878bf1d20.png',
+							'https://cdn.blankethub.localhost/data/mOgUt4GM/5a20ed1450a0e1e79a1fe04e61bb4e5878bf1d20.png',
 					},
 					version: { id: 'v2', version_number: '16.0.0', file_name: 'modmenu-16.0.0.jar' },
 				},
@@ -499,7 +499,7 @@ export const WithContentModal: Story = {
 						id: '3',
 						slug: 'fabric-api',
 						title: 'Fabric API',
-						icon_url: 'https://cdn.blankethub.loxalhost/data/P7dR8mSH/icon.png',
+						icon_url: 'https://cdn.blankethub.localhost/data/P7dR8mSH/icon.png',
 					},
 					version: { id: 'v3', version_number: '0.141.3', file_name: 'fabric-api-0.141.3.jar' },
 				},

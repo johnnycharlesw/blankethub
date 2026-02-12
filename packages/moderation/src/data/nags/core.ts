@@ -191,7 +191,7 @@ export const coreNags: Nag[] = [
 		description: defineMessage({
 			id: 'nags.add-links.description',
 			defaultMessage:
-				'Add any relevant links targeted outside of Modrinth, such as source code, an issue tracker, or a Discord invite.',
+				'Add any relevant links targeted outside of Blankethub, such as source code, an issue tracker, or a Discord invite.',
 		}),
 		status: 'suggestion',
 		shouldShow: (context: NagContext) =>

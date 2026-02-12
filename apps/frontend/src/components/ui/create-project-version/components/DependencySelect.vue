@@ -13,7 +13,7 @@
 
 <script lang="ts" setup>
 import type { ComboboxOption } from '@modrinth/ui'
-import { Combobox, injectModrinthClient, injectNotificationManager } from '@modrinth/ui'
+import { Combobox, injectBlankethubClient, injectNotificationManager } from '@modrinth/ui'
 import { useDebounceFn } from '@vueuse/core'
 import { defineAsyncComponent, h } from 'vue'
 
@@ -23,7 +23,7 @@ const projectId = defineModel<string>()
 const searchLoading = ref(false)
 const options = ref<ComboboxOption<string>[]>([])
 
-const { labrinth } = injectModrinthClient()
+const { labrinth } = injectBlankethubClient()
 
 const search = async (query: string) => {
 	query = query.trim()

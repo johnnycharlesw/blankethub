@@ -3,7 +3,7 @@
 	"version": "0.0.0",
 	"type": "module",
 	"private": true,
-	"description": "Unified tooling configuration for Modrinth monorepo",
+	"description": "Unified tooling configuration for Blankethub monorepo",
 	"main": "./index.js",
 	"scripts": {
 		"lint": "prettier --check .",

@@ -1,11 +1,11 @@
-![Modrinth Monorepo Cover](/.github/assets/monorepo_cover.png)
+![Blankethub Monorepo Cover](/.github/assets/monorepo_cover.png)
 
 # @modrinth/api-client
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-c78aff?style=for-the-badge)](https://www.typescriptlang.org/)
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-c78aff?style=for-the-badge)](LICENSE)
 
-A flexible, type-safe API client for Modrinth's APIs (Laundryroom, Kyros & Archon). Works across Node.js, browsers, Nuxt, and Tauri with a feature system for authentication, retries, circuit breaking and other custom processing of requests and responses.
+A flexible, type-safe API client for Blankethub's APIs (Laundryroom, Kyros & Archon). Works across Node.js, browsers, Nuxt, and Tauri with a feature system for authentication, retries, circuit breaking and other custom processing of requests and responses.
 
 ## Installation
 
@@ -22,9 +22,9 @@ yarn add @modrinth/api-client
 ### Plain JavaScript/Node.js
 
 ```typescript
-import { GenericModrinthClient, AuthFeature, ProjectV2 } from '@modrinth/api-client'
+import { GenericBlankethubClient, AuthFeature, ProjectV2 } from '@modrinth/api-client'
 
-const client = new GenericModrinthClient({
+const client = new GenericBlankethubClient({
 	userAgent: 'my-app/1.0.0',
 	features: [new AuthFeature({ token: 'mrp_...' })],
 })
@@ -32,7 +32,7 @@ const client = new GenericModrinthClient({
 // Explicitly make a request using client.request
 const project: any = await client.request('/project/sodium', { api: 'labrinth', version: 2 })
 
-// Example for archon (Modrinth Hosting)
+// Example for archon (Blankethub Hosting)
 const servers = await client.request('/servers?limit=10', { api: 'archon', version: 0 })
 
 // Or use the provided wrappers for better type support.
@@ -42,16 +42,16 @@ const project: ProjectV2 = await client.projects_v2.get('sodium')
 ### Nuxt
 
 ```typescript
-import { NuxtModrinthClient, AuthFeature, NuxtCircuitBreakerStorage } from '@modrinth/api-client'
+import { NuxtBlankethubClient, AuthFeature, NuxtCircuitBreakerStorage } from '@modrinth/api-client'
 
 // Alternatively you can create a singleton of the client and provide it via DI.
-export const useModrinthClient = () => {
+export const useBlankethubClient = () => {
 	const config = useRuntimeConfig()
 
 	// example using the useAuth composable from our frontend, replace this with whatever you're using to store auth token
 	const auth = await useAuth()
 
-	return new NuxtModrinthClient({
+	return new NuxtBlankethubClient({
 		userAgent: 'my-nuxt-app/1.0.0', // leave blank to use default user agent from fetch function
 		rateLimitKey: import.meta.server ? config.rateLimitKey : undefined,
 		features: [
@@ -65,19 +65,19 @@ export const useModrinthClient = () => {
 	})
 }
 
-const client = useModrinthClient()
+const client = useBlankethubClient()
 const project = await client.request('/project/sodium', { api: 'labrinth', version: 2 })
 ```
 
 ### Tauri
 
 ```typescript
-import { TauriModrinthClient, AuthFeature } from '@modrinth/api-client'
+import { TauriBlankethubClient, AuthFeature } from '@modrinth/api-client'
 import { getVersion } from '@tauri-apps/api/app'
 
 const version = await getVersion()
-const client = new TauriModrinthClient({
-	userAgent: `modrinth/theseus/${version} (support@blankethub.loxalhost)`,
+const client = new TauriBlankethubClient({
+	userAgent: `modrinth/theseus/${version} (support@blankethub.localhost)`,
 	features: [new AuthFeature({ token: 'mrp_...' })],
 })
 
@@ -88,22 +88,22 @@ const project = await client.request('/project/sodium', { api: 'labrinth', versi
 
 By default, the client uses the production base URLs:
 
-- `labrinthBaseUrl`: `https://api.blankethub.loxalhost/` (Laundryroom API)
-- `archonBaseUrl`: `https://archon.blankethub.loxalhost/` (Archon/Servers API)
+- `labrinthBaseUrl`: `https://api.blankethub.localhost/` (Laundryroom API)
+- `archonBaseUrl`: `https://archon.blankethub.localhost/` (Archon/Servers API)
 
 You can override these for staging environments or custom instances:
 
 ```typescript
-const client = new GenericModrinthClient({
+const client = new GenericBlankethubClient({
 	userAgent: 'my-app/1.0.0',
-	labrinthBaseUrl: 'https://staging-api.blankethub.loxalhost/',
-	archonBaseUrl: 'https://staging-archon.blankethub.loxalhost/',
+	labrinthBaseUrl: 'https://staging-api.blankethub.localhost/',
+	archonBaseUrl: 'https://staging-archon.blankethub.localhost/',
 	features: [new AuthFeature({ token: 'mrp_...' })],
 })
 
 // Now requests will use the staging URLs
 await client.request('/project/sodium', { api: 'labrinth', version: 2 })
-// -> https://staging-api.blankethub.loxalhost/v2/project/sodium
+// -> https://staging-api.blankethub.localhost/v2/project/sodium
 ```
 
 You can also use custom URLs directly in requests:
@@ -111,7 +111,7 @@ You can also use custom URLs directly in requests:
 ```typescript
 // One-off custom URL (useful for Kyros nodes or dynamic endpoints)
 await client.request('/some-endpoint', {
-	api: 'https://eu-lim16.nodes.blankethub.loxalhost/',
+	api: 'https://eu-lim16.nodes.blankethub.localhost/',
 	version: 0,
 })
 ```
@@ -162,7 +162,7 @@ new CircuitBreakerFeature({
 
 This package is **self-documenting** through TypeScript types and JSDoc comments. Use your IDE's IntelliSense to explore available methods, classes, and configuration options.
 
-For Modrinth API endpoints and routes, refer to the [Modrinth API Documentation](https://docs.blankethub.loxalhost).
+For Blankethub API endpoints and routes, refer to the [Blankethub API Documentation](https://docs.blankethub.localhost).
 
 ## Contributing
 

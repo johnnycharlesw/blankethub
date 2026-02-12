@@ -5,7 +5,7 @@
 				<div class="flex flex-col justify-between gap-4 sm:flex-row">
 					<label class="flex flex-col gap-2">
 						<span class="text-lg font-bold text-contrast">SFTP</span>
-						<span> SFTP allows you to access your server's files from outside of Modrinth. </span>
+						<span> SFTP allows you to access your server's files from outside of Blankethub. </span>
 					</label>
 					<ButtonStyled>
 						<button
@@ -117,14 +117,14 @@
 </template>
 
 <script setup lang="ts">
-import { CopyIcon, ExternalIcon, EyeIcon, EyeOffIcon } from '@modrinth/assets'
-import { ButtonStyled, CopyCode, injectNotificationManager } from '@modrinth/ui'
+import { CopyIcon, ExternalIcon, EyeIcon, EyeOffIcon } from '@modrinth/assets';
+import { ButtonStyled, CopyCode, injectNotificationManager } from '@modrinth/ui';
 
-import type { ModrinthServer } from '~/composables/servers/modrinth-servers.ts'
+import type { BlankethubServer } from '~/composables/servers/modrinth-servers.ts';
 
 const { addNotification } = injectNotificationManager()
 const props = defineProps<{
-	server: ModrinthServer
+	server: BlankethubServer
 }>()
 
 const data = computed(() => props.server.general)

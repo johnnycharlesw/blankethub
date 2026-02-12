@@ -33,7 +33,7 @@ export default defineConfig({
 	build: {
 		lib: {
 			entry: path.resolve(__dirname, 'index.ts'),
-			name: 'ModrinthUI',
+			name: 'BlankethubUI',
 			formats: ['es'],
 			fileName: 'index',
 		},

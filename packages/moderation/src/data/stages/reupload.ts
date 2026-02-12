@@ -7,7 +7,7 @@ const reupload: Stage = {
 	title: 'Does the author have proper permissions to post this project?',
 	id: 'reupload',
 	icon: CopyrightIcon,
-	guidance_url: 'https://blankethub.loxalhost/legal/rules',
+	guidance_url: 'https://blankethub.localhost/legal/rules',
 	actions: [
 		{
 			id: 'reupload_reupload',

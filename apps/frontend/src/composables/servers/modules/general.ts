@@ -41,7 +41,7 @@ export class GeneralModule extends ServerModule implements ServerGeneral {
 
 		if (data.upstream?.project_id) {
 			const project = await $fetch(
-				`https://api.blankethub.loxalhost/v2/project/${data.upstream.project_id}`,
+				`https://api.blankethub.localhost/v2/project/${data.upstream.project_id}`,
 			)
 			data.project = project as Project
 		}
@@ -194,7 +194,7 @@ export class GeneralModule extends ServerModule implements ServerGeneral {
 			}
 		} catch {
 			console.error(
-				'[Modrinth Hosting] [General] Failed to set MOTD due to lack of server properties file.',
+				'[Blankethub Hosting] [General] Failed to set MOTD due to lack of server properties file.',
 			)
 		}
 	}

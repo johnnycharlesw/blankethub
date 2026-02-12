@@ -519,7 +519,7 @@
     "defaultMessage": "Moderator"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Modrinth Team"
+    "defaultMessage": "Blankethub Team"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Afventer"
@@ -894,7 +894,7 @@
     "defaultMessage": "Dit projekt har flere miløjer"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Vi har ændret miljø systemet på Modrinth og nye muligheder er nu tilgængelige. Venligst sikre den korrekte mulighed er valgt nedenunder og så klik \"Bekræft\" og så du færdig!"
+    "defaultMessage": "Vi har ændret miljø systemet på Blankethub og nye muligheder er nu tilgængelige. Venligst sikre den korrekte mulighed er valgt nedenunder og så klik \"Bekræft\" og så du færdig!"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "Venligst gennemse mulighederne nedenunder"
@@ -1176,7 +1176,7 @@
     "defaultMessage": "Mørk"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Vælg dit foretrukne farvetema til Modrinth på denne enhed."
+    "defaultMessage": "Vælg dit foretrukne farvetema til Blankethub på denne enhed."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Lys"

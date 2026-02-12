@@ -23,11 +23,11 @@
 	/>
 	<div class="main-hero">
 		<div class="flex max-w-screen-lg flex-col items-center gap-4 text-center">
-			<ModrinthPlusIcon class="h-8 w-max text-contrast" />
+			<BlankethubPlusIcon class="h-8 w-max text-contrast" />
 			<h1 class="m-0 text-[4rem]">Support creators and go ad-free</h1>
 			<p class="m-0 mb-4 text-[18px] leading-relaxed">
-				Subscribe to Modrinth Plus to go ad-free, support Modrinth's development, and get an
-				exclusive profile badge! Half your subscription goes directly to Modrinth creators. Cancel
+				Subscribe to Blankethub Plus to go ad-free, support Blankethub's development, and get an
+				exclusive profile badge! Half your subscription goes directly to Blankethub creators. Cancel
 				anytime.
 			</p>
 			<p class="m-0 text-[2rem] font-bold text-purple">
@@ -59,20 +59,20 @@
 		</div>
 	</div>
 	<div class="perks-hero">
-		<h2>What you get with Modrinth Plus!</h2>
+		<h2>What you get with Blankethub Plus!</h2>
 		<div class="mt-8 grid max-w-screen-lg gap-8 lg:grid-cols-3">
 			<div class="flex flex-col gap-4 rounded-xl bg-bg-raised p-4">
 				<HeartIcon class="h-8 w-8 text-purple" />
-				<span class="text-lg font-bold">Support Modrinth creators</span>
+				<span class="text-lg font-bold">Support Blankethub creators</span>
 				<span class="leading-5 text-secondary">
-					50% of your subscription goes directly to Modrinth creators.
+					50% of your subscription goes directly to Blankethub creators.
 				</span>
 			</div>
 			<div class="flex flex-col gap-4 rounded-xl bg-bg-raised p-4">
 				<SparklesIcon class="h-8 w-8 text-purple" />
 				<span class="text-lg font-bold">Remove all ads</span>
 				<span class="leading-5 text-secondary">
-					Never see an advertisement again on the Modrinth app.
+					Never see an advertisement again on the Blankethub app.
 				</span>
 			</div>
 			<div class="flex flex-col gap-4 rounded-xl bg-bg-raised p-4">
@@ -85,8 +85,8 @@
 	</div>
 </template>
 <script setup>
-import { HeartIcon, ModrinthPlusIcon, SettingsIcon, SparklesIcon, StarIcon } from '@modrinth/assets'
-import { injectNotificationManager, PurchaseModal, useVIntl } from '@modrinth/ui'
+import { BlankethubPlusIcon, HeartIcon, SettingsIcon, SparklesIcon, StarIcon } from '@modrinth/assets'
+import { PurchaseModal, injectNotificationManager, useVIntl } from '@modrinth/ui'
 import { calculateSavings, formatPrice, getCurrency } from '@modrinth/utils'
 
 import { useBaseFetch } from '@/composables/fetch.js'
@@ -95,9 +95,9 @@ import { products } from '~/generated/state.json'
 
 const { addNotification } = injectNotificationManager()
 
-const title = 'Subscribe to Modrinth Plus!'
+const title = 'Subscribe to Blankethub Plus!'
 const description =
-	"Subscribe to Modrinth Plus to go ad-free, support Modrinth's development, and get an exclusive profile badge! Half your subscription goes directly to Modrinth creators."
+	"Subscribe to Blankethub Plus to go ad-free, support Blankethub's development, and get an exclusive profile badge! Half your subscription goes directly to Blankethub creators."
 
 useSeoMeta({
 	title,

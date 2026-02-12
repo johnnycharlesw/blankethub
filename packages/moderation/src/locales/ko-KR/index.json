@@ -12,7 +12,7 @@
     "defaultMessage": "아이콘 추가"
   },
   "nags.add-links.description": {
-    "defaultMessage": "소스 코드, 이슈 트래커, Discord 초대 링크 등 Modrinth 외부로 연결되는 관련 링크를 추가하세요."
+    "defaultMessage": "소스 코드, 이슈 트래커, Discord 초대 링크 등 Blankethub 외부로 연결되는 관련 링크를 추가하세요."
   },
   "nags.add-links.title": {
     "defaultMessage": "외부 링크 추가"

@@ -64,9 +64,9 @@ impl TestFile {
               "user"
             ],
             "contact": {
-              "homepage": "https://www.blankethub.loxalhost",
-              "sources": "https://www.blankethub.loxalhost",
-              "issues": "https://www.blankethub.loxalhost"
+              "homepage": "https://www.blankethub.localhost",
+              "sources": "https://www.blankethub.localhost",
+              "issues": "https://www.blankethub.localhost"
             },
 
             "license": "MIT",
@@ -75,7 +75,7 @@ impl TestFile {
             "environment": "client",
             "entrypoints": {
               "main": [
-                "io.github.modrinth.Modrinth"
+                "io.github.modrinth.Blankethub"
               ]
             },
             "depends": {
@@ -133,7 +133,7 @@ impl TestFile {
                         "server": "required"
                     },
                     "downloads": [
-                        "https://cdn.blankethub.loxalhost/data/PRN43VSY/versions/uNgEPb10/animatica-0.6%2B1.20.jar"
+                        "https://cdn.blankethub.localhost/data/PRN43VSY/versions/uNgEPb10/animatica-0.6%2B1.20.jar"
                     ],
                     "fileSize": 69810
                 }

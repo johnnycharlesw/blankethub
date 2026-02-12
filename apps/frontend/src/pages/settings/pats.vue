@@ -103,7 +103,7 @@
 		<p>
 			<IntlFormatted :message-id="messages.description">
 				<template #doc-link="{ children }">
-					<a class="text-link" href="https://docs.blankethub.loxalhost">
+					<a class="text-link" href="https://docs.blankethub.localhost">
 						<component :is="() => children" />
 					</a>
 				</template>
@@ -287,7 +287,7 @@ const messages = defineMessages({
 	description: {
 		id: 'settings.pats.description',
 		defaultMessage:
-			"PATs can be used to access Modrinth's API. For more information, see <doc-link>Modrinth's API documentation</doc-link>. They can be created and revoked at any time.",
+			"PATs can be used to access Blankethub's API. For more information, see <doc-link>Blankethub's API documentation</doc-link>. They can be created and revoked at any time.",
 	},
 	create: {
 		id: 'settings.pats.action.create',
@@ -327,7 +327,7 @@ definePageMeta({
 })
 
 useHead({
-	title: `${formatMessage(commonSettingsMessages.pats)} - Modrinth`,
+	title: `${formatMessage(commonSettingsMessages.pats)} - Blankethub`,
 })
 
 const data = useNuxtApp()

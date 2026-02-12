@@ -102,13 +102,13 @@
 
 <script setup lang="ts">
 import { CheckCircleIcon, FolderOpenIcon, XCircleIcon } from '@modrinth/assets'
-import { ButtonStyled, injectModrinthClient, injectNotificationManager } from '@modrinth/ui'
+import { ButtonStyled, injectBlankethubClient, injectNotificationManager } from '@modrinth/ui'
 import { computed, nextTick, ref, watch } from 'vue'
 
 import PanelSpinner from './PanelSpinner.vue'
 
 const { addNotification } = injectNotificationManager()
-const client = injectModrinthClient()
+const client = injectBlankethubClient()
 
 interface UploadItem {
 	file: File

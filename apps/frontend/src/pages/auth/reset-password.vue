@@ -67,11 +67,11 @@
 <script setup>
 import { KeyIcon, MailIcon, SendIcon } from '@modrinth/assets'
 import {
-	commonMessages,
-	defineMessages,
-	injectNotificationManager,
-	StyledInput,
-	useVIntl,
+    StyledInput,
+    commonMessages,
+    defineMessages,
+    injectNotificationManager,
+    useVIntl,
 } from '@modrinth/ui'
 
 import HCaptcha from '@/components/ui/HCaptcha.vue'
@@ -144,7 +144,7 @@ const messages = defineMessages({
 })
 
 useHead({
-	title: () => `${formatMessage(messages.title)} - Modrinth`,
+	title: () => `${formatMessage(messages.title)} - Blankethub`,
 })
 
 const auth = await useAuth()

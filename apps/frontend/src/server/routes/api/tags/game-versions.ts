@@ -1,12 +1,12 @@
 import type { Laundryroom } from '@modrinth/api-client'
 
-import { useServerModrinthClient } from '~/server/utils/api-client'
+import { useServerBlankethubClient } from '~/server/utils/api-client'
 
 const CACHE_MAX_AGE = 60 * 10 // 10 minutes
 
 export default defineCachedEventHandler(
 	async (event) => {
-		const client = useServerModrinthClient({ event })
+		const client = useServerBlankethubClient({ event })
 
 		const response = await client.request<Laundryroom.Tags.v2.GameVersion[]>('/tag/game_version', {
 			api: 'labrinth',

@@ -42,7 +42,7 @@ VALUES
 		'email',
 		'payout_available',
 		'Revenue available to withdraw!',
-		'https://blankethub.loxalhost/email/payout-available',
+		'https://blankethub.localhost/email/payout-available',
 		CONCAT(
 			'Hi {user.name},',
 			CHR(10),
@@ -50,13 +50,13 @@ VALUES
 			'The ${payout.amount} earned during {payout.period} has been processed and is now available to withdraw from your account.',
 			CHR(10),
 			CHR(10),
-			'View your revenue dashboard: https://blankethub.loxalhost/dashboard/revenue',
+			'View your revenue dashboard: https://blankethub.localhost/dashboard/revenue',
 			CHR(10),
 			CHR(10),
-			'If you have any questions about the creator rewards program, please contact support through the Support Portal at https://support.blankethub.loxalhost/ or by replying to this email.',
+			'If you have any questions about the creator rewards program, please contact support through the Support Portal at https://support.blankethub.localhost/ or by replying to this email.',
 			CHR(10),
 			CHR(10),
-			'Thank you for being a creator on Modrinth!'
+			'Thank you for being a creator on Blankethub!'
 		)
 	);
 
@@ -67,7 +67,7 @@ VALUES
 		'email',
 		'pat_created',
 		'A new personal access token has been created',
-		'https://blankethub.loxalhost/email/personal-access-token-created',
+		'https://blankethub.localhost/email/personal-access-token-created',
 		CONCAT(
 			'Hi {user.name},',
 			CHR(10),
@@ -78,7 +78,7 @@ VALUES
 			'If you did not create this token, please contact us immediately by replying to this email or through our Support Portal.',
 			CHR(10),
 			CHR(10),
-			'Support Portal: https://support.blankethub.loxalhost/'
+			'Support Portal: https://support.blankethub.localhost/'
 		)
 	);
 
@@ -89,20 +89,20 @@ VALUES
 		'email',
 		'moderation_message_received',
 		'New message from moderators on your project',
-		'https://blankethub.loxalhost/email/moderation-thread-message-received',
+		'https://blankethub.localhost/email/moderation-thread-message-received',
 		CONCAT(
 			'Hi {user.name},',
 			CHR(10),
 			CHR(10),
-			'Modrinth''s moderation team has left a message on your project, {project.name}.',
+			'Blankethub''s moderation team has left a message on your project, {project.name}.',
 			CHR(10),
 			CHR(10),
 			'Please sign in to view the message and reply if requested. It''s important to address feedback from the moderation team promptly.',
 			CHR(10),
-			'Your project''s moderation thread: https://blankethub.loxalhost/project/{project.id}/moderation',
+			'Your project''s moderation thread: https://blankethub.localhost/project/{project.id}/moderation',
 			CHR(10),
 			CHR(10),
-			'Thank you for publishing on Modrinth!'
+			'Thank you for publishing on Blankethub!'
 		)
 	);
 
@@ -113,20 +113,20 @@ VALUES
 		'email',
 		'moderation_message_received',
 		'New message from moderators on your project',
-		'https://blankethub.loxalhost/email/moderation-thread-message-received',
+		'https://blankethub.localhost/email/moderation-thread-message-received',
 		CONCAT(
 			'Hi {user.name},',
 			CHR(10),
 			CHR(10),
-			'Modrinth''s moderation team has left a message on your project, {project.name}.',
+			'Blankethub''s moderation team has left a message on your project, {project.name}.',
 			CHR(10),
 			CHR(10),
 			'Please sign in to view the message and reply if requested. It''s important to address feedback from the moderation team promptly.',
 			CHR(10),
-			'Your project''s moderation thread: https://blankethub.loxalhost/project/{project.id}/moderation',
+			'Your project''s moderation thread: https://blankethub.localhost/project/{project.id}/moderation',
 			CHR(10),
 			CHR(10),
-			'Thank you for publishing on Modrinth!'
+			'Thank you for publishing on Blankethub!'
 		)
 	);
 
@@ -137,7 +137,7 @@ VALUES
 		'email',
 		'report_status_updated',
 		'Your report has been updated',
-		'https://blankethub.loxalhost/email/report-updated',
+		'https://blankethub.localhost/email/report-updated',
 		CONCAT(
 			'Hi {user.name},',
 			CHR(10),
@@ -148,7 +148,7 @@ VALUES
 			'You can view the full report thread to see the update. If you have more information to add, please reply in the report thread for our moderators to review.',
 			CHR(10),
 			CHR(10),
-			'Thank you for helping keep Modrinth safe and welcoming for everyone.'
+			'Thank you for helping keep Blankethub safe and welcoming for everyone.'
 		)
 	);
 
@@ -159,7 +159,7 @@ VALUES
 		'email',
 		'report_submitted',
 		'Your report has been submitted',
-		'https://blankethub.loxalhost/email/report-submitted',
+		'https://blankethub.localhost/email/report-submitted',
 		CONCAT(
 			'Hi {user.name},',
 			CHR(10),
@@ -170,10 +170,10 @@ VALUES
 			'Our team takes all reports seriously and will investigate according to our Content Rules, Terms of Service and Copyright Policy. You''ll receive an email update once we''ve completed our review.',
 			CHR(10),
 			CHR(10),
-			'If you have any additional information about this report, you can view it here: https://blankethub.loxalhost/dashboard/report/{newreport.id}',
+			'If you have any additional information about this report, you can view it here: https://blankethub.localhost/dashboard/report/{newreport.id}',
 			CHR(10),
 			CHR(10),
-			'Thank you for helping keep Modrinth safe and welcoming for everyone.'
+			'Thank you for helping keep Blankethub safe and welcoming for everyone.'
 		)
 	);
 
@@ -184,7 +184,7 @@ VALUES
 		'email',
 		'project_status_approved',
 		'Your project, {project.name}, has been approved 🎉',
-		'https://blankethub.loxalhost/email/project-approved',
+		'https://blankethub.localhost/email/project-approved',
 		CONCAT(
 			'Congratulations {user.name},',
 			CHR(10),
@@ -192,13 +192,13 @@ VALUES
 			'Your project {project.name} has been approved by the moderation team!',
 			CHR(10),
 			CHR(10),
-			'View your project here: https://blankethub.loxalhost/project/{project.id}',
+			'View your project here: https://blankethub.localhost/project/{project.id}',
 			CHR(10),
 			CHR(10),
 			'If you have questions or believe something isn''t correct, you can reply to this email or reach out via the Support Portal.',
 			CHR(10),
 			CHR(10),
-			'Thank you for sharing your work with the Modrinth community!'
+			'Thank you for sharing your work with the Blankethub community!'
 		)
 	);
 
@@ -209,7 +209,7 @@ VALUES
 		'email',
 		'project_status_neutral',
 		'Your project''s status has been updated',
-		'https://blankethub.loxalhost/email/project-status-updated-neutral',
+		'https://blankethub.localhost/email/project-status-updated-neutral',
 		CONCAT(
 			'Hi {user.name},',
 			CHR(10),
@@ -217,13 +217,13 @@ VALUES
 			'Your project''s status has been changed from {project.oldstatus} to {project.newstatus} by the moderation team. Please review any messages left in the moderation thread which might be relevant to why the status was changed.',
 			CHR(10),
 			CHR(10),
-			'View your project here: https://blankethub.loxalhost/project/{project.id}/moderation',
+			'View your project here: https://blankethub.localhost/project/{project.id}/moderation',
 			CHR(10),
 			CHR(10),
 			'If you believe this status was applied in error, you can reply in the moderation thread or contact support through our Support Portal or by replying to this email.',
 			CHR(10),
 			CHR(10),
-			'Thank you for publishing on Modrinth!'
+			'Thank you for publishing on Blankethub!'
 		)
 	);
 
@@ -234,15 +234,15 @@ VALUES
 		'email',
 		'project_transferred',
 		'Project ownership transferred',
-		'https://blankethub.loxalhost/email/project-ownership-transferred',
+		'https://blankethub.localhost/email/project-ownership-transferred',
 		CONCAT(
 			'Hi {user.name},',
 			CHR(10),
 			CHR(10),
-			'The ownership of {project.name} has been successfully transferred to the Modrinth {new_owner.type_capitalized} {new_owner.name}.',
+			'The ownership of {project.name} has been successfully transferred to the Blankethub {new_owner.type_capitalized} {new_owner.name}.',
 			CHR(10),
 			CHR(10),
-			'View the project here: https://blankethub.loxalhost/project/{project.id}',
+			'View the project here: https://blankethub.localhost/project/{project.id}',
 			CHR(10),
 			CHR(10),
 			'If you did not initiate this transfer, please contact support immediately through the Support Portal or by replying to this email.'

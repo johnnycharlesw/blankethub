@@ -8,7 +8,7 @@ const environment: Stage = {
 	id: 'environment',
 	navigate: '/settings/environment',
 	icon: GlobeIcon,
-	guidance_url: 'https://blankethub.loxalhost/legal/rules#miscellaneous',
+	guidance_url: 'https://blankethub.localhost/legal/rules#miscellaneous',
 	text: async () =>
 		(await import('../../messages/checklist-text/environment/environment.md?raw')).default,
 	shouldShow: (project, projectV3) => (projectV3?.environment?.length ?? 0) === 1,

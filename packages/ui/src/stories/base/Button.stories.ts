@@ -77,7 +77,7 @@ export const Disabled: Story = {
 
 export const AsLink: Story = {
 	args: {
-		link: 'https://blankethub.loxalhost',
+		link: 'https://blankethub.localhost',
 		external: true,
 	},
 }

@@ -29,7 +29,7 @@ import {
 	StyledInput,
 	Toggle,
 	defineMessages,
-	injectModrinthClient,
+	injectBlankethubClient,
 	injectNotificationManager,
 	useSearch,
 	useVIntl,
@@ -43,8 +43,8 @@ import { computed, watch, type Reactive } from 'vue'
 import LogoAnimated from '~/components/brand/LogoAnimated.vue'
 import AdPlaceholder from '~/components/ui/AdPlaceholder.vue'
 import { projectQueryOptions } from '~/composables/queries/project'
-import type { ModrinthServer } from '~/composables/servers/modrinth-servers.ts'
-import { useModrinthServers } from '~/composables/servers/modrinth-servers.ts'
+import type { BlankethubServer } from '~/composables/servers/modrinth-servers.ts'
+import { useBlankethubServers } from '~/composables/servers/modrinth-servers.ts'
 import type { DisplayLocation, DisplayMode } from '~/plugins/cosmetics.ts'
 
 const { formatMessage } = useVIntl()
@@ -60,7 +60,7 @@ const flags = useFeatureFlags()
 const auth = await useAuth()
 
 const { handleError } = injectNotificationManager()
-const modrinthClient = injectModrinthClient()
+const modrinthClient = injectBlankethubClient()
 const queryClient = useQueryClient()
 
 let prefetchTimeout: ReturnType<typeof useTimeoutFn> | null = null
@@ -96,7 +96,7 @@ const resultsDisplayMode = computed<DisplayMode>(() =>
 		: 'list',
 )
 
-const server = ref<Reactive<ModrinthServer>>()
+const server = ref<Reactive<BlankethubServer>>()
 const serverHideInstalled = ref(false)
 const eraseDataOnInstall = ref(false)
 
@@ -117,7 +117,7 @@ async function updateServerContext() {
 		}
 
 		if (!server.value || server.value.serverId !== serverId) {
-			server.value = await useModrinthServers(serverId, ['general', 'content'])
+			server.value = await useBlankethubServers(serverId, ['general', 'content'])
 		}
 
 		if (route.query.shi && projectType.value?.id !== 'modpack' && server.value) {
@@ -436,7 +436,7 @@ const ogTitle = computed(
 )
 const description = computed(
 	() =>
-		`Search and browse thousands of Minecraft ${projectType.value?.display ?? 'project'}s on Modrinth with instant, accurate search results. Our filters help you quickly find the best Minecraft ${projectType.value?.display ?? 'project'}s.`,
+		`Search and browse thousands of Minecraft ${projectType.value?.display ?? 'project'}s on Blankethub with instant, accurate search results. Our filters help you quickly find the best Minecraft ${projectType.value?.display ?? 'project'}s.`,
 )
 
 useSeoMeta({
@@ -462,7 +462,7 @@ useSeoMeta({
 					<Avatar
 						:src="
 							server.general.is_medal
-								? 'https://cdn-raw.blankethub.loxalhost/medal_icon.webp'
+								? 'https://cdn-raw.blankethub.localhost/medal_icon.webp'
 								: server.general.image
 						"
 						size="48px"

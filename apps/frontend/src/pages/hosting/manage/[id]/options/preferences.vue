@@ -45,14 +45,14 @@ import { injectNotificationManager, Toggle } from '@modrinth/ui'
 import { useStorage } from '@vueuse/core'
 
 import SaveBanner from '~/components/ui/servers/SaveBanner.vue'
-import type { ModrinthServer } from '~/composables/servers/modrinth-servers.ts'
+import type { BlankethubServer } from '~/composables/servers/modrinth-servers.ts'
 
 const { addNotification } = injectNotificationManager()
 const route = useNativeRoute()
 const serverId = route.params.id as string
 
 const props = defineProps<{
-	server: ModrinthServer
+	server: BlankethubServer
 }>()
 
 const preferences = {

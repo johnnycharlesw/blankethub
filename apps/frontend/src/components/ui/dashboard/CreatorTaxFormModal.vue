@@ -124,7 +124,7 @@
 						<IntlFormatted :message-id="messages.confirmationSupportText">
 							<template #support-link="{ children }">
 								<nuxt-link
-									to="https://support.blankethub.loxalhost"
+									to="https://support.blankethub.localhost"
 									class="text-link"
 									target="_blank"
 									rel="noopener noreferrer"
@@ -226,7 +226,7 @@ const messages = defineMessages({
 	securityDescription: {
 		id: 'dashboard.creator-tax-form-modal.security.description',
 		defaultMessage:
-			'Modrinth uses third-party provider Track1099 to securely collect and store your tax forms. <security-link>Learn more here.</security-link>',
+			'Blankethub uses third-party provider Track1099 to securely collect and store your tax forms. <security-link>Learn more here.</security-link>',
 	},
 	usCitizenQuestion: {
 		id: 'dashboard.creator-tax-form-modal.us-citizen.question',

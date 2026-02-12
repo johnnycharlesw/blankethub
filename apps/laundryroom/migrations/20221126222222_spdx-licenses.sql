@@ -19,7 +19,7 @@ UPDATE mods SET license_new = 'GPL-2.0-only' WHERE license_new = 'gpl-2';
 UPDATE mods SET license_new = 'GPL-3.0-only' WHERE license_new = 'gpl-3';
 UPDATE mods SET license_new = 'AGPL-3.0-only' WHERE license_new = 'agpl';
 
-UPDATE mods SET license_url = NULL WHERE license_url LIKE 'https://cdn.blankethub.loxalhost/licenses/%';
+UPDATE mods SET license_url = NULL WHERE license_url LIKE 'https://cdn.blankethub.localhost/licenses/%';
 
 ALTER TABLE mods DROP COLUMN license;
 ALTER TABLE mods RENAME COLUMN license_new TO license;

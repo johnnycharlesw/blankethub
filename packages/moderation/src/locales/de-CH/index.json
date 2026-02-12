@@ -12,7 +12,7 @@
     "defaultMessage": "Icon hinzufügen"
   },
   "nags.add-links.description": {
-    "defaultMessage": "Füge relevante links, welche ausserhalb von Modrinth liegen, hinzu, wie z. B. Quellcode, einen Issue-Tracker oder eine Discord Einladung."
+    "defaultMessage": "Füge relevante links, welche ausserhalb von Blankethub liegen, hinzu, wie z. B. Quellcode, einen Issue-Tracker oder eine Discord Einladung."
   },
   "nags.add-links.title": {
     "defaultMessage": "Externe Links hinzufügen"

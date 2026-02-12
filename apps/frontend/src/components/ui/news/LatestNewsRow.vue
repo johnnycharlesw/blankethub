@@ -54,7 +54,7 @@ const articles = ref(
 const messages = defineMessages({
 	latestNews: {
 		id: 'ui.latest-news-row.latest-news',
-		defaultMessage: 'Latest news from Modrinth',
+		defaultMessage: 'Latest news from Blankethub',
 	},
 	viewAll: {
 		id: 'ui.latest-news-row.view-all',

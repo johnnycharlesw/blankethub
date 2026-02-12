@@ -2,7 +2,7 @@ import '@modrinth/assets/omorphia.scss'
 import 'floating-vue/dist/style.css'
 import '../src/styles/tailwind.css'
 
-import { GenericModrinthClient } from '@modrinth/api-client'
+import { GenericBlankethubClient } from '@modrinth/api-client'
 import { withThemeByClassName } from '@storybook/addon-themes'
 import type { Preview } from '@storybook/vue3-vite'
 import { setup } from '@storybook/vue3-vite'
@@ -12,18 +12,18 @@ import { createI18n } from 'vue-i18n'
 
 import NotificationPanel from '../src/components/nav/NotificationPanel.vue'
 import {
-	buildLocaleMessages,
-	createMessageCompiler,
-	type CrowdinMessages,
+    buildLocaleMessages,
+    createMessageCompiler,
+    type CrowdinMessages,
 } from '../src/composables/i18n'
 import {
-	AbstractWebNotificationManager,
-	I18N_INJECTION_KEY,
-	type I18nContext,
-	type NotificationPanelLocation,
-	provideModrinthClient,
-	provideNotificationManager,
-	type WebNotification,
+    AbstractWebNotificationManager,
+    I18N_INJECTION_KEY,
+    provideBlankethubClient,
+    provideNotificationManager,
+    type I18nContext,
+    type NotificationPanelLocation,
+    type WebNotification,
 } from '../src/providers'
 
 // Load locale messages from the UI package's locales
@@ -119,10 +119,10 @@ const StorybookProvider = defineComponent({
 	setup(_, { slots }) {
 		provideNotificationManager(new StorybookNotificationManager())
 
-		const modrinthClient = new GenericModrinthClient({
+		const modrinthClient = new GenericBlankethubClient({
 			userAgent: 'modrinth-storybook/1.0.0',
 		})
-		provideModrinthClient(modrinthClient)
+		provideBlankethubClient(modrinthClient)
 
 		return () => slots.default?.()
 	},

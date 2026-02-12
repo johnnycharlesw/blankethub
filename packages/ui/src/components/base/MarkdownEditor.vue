@@ -228,7 +228,7 @@
 					>This editor supports
 					<a
 						class="markdown-resource-link"
-						href="https://support.blankethub.loxalhost/en/articles/8801962-advanced-markdown-formatting"
+						href="https://support.blankethub.localhost/en/articles/8801962-advanced-markdown-formatting"
 						target="_blank"
 						>Markdown formatting</a
 					>.</span

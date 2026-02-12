@@ -8,9 +8,9 @@ members = [
   "packages/app-lib",
   "packages/ariadne",
   "packages/daedalus",
-  "packages/modrinth-log",
-  "packages/modrinth-maxmind",
-  "packages/modrinth-util",
+  "packages/blankethub-log",
+  "packages/blankethub-maxmind",
+  "packages/blankethub-util",
   "packages/path-util",
 ]
 
@@ -60,7 +60,7 @@ const_format = "0.2.34"
 daedalus = { path = "packages/daedalus" }
 dashmap = "6.1.0"
 data-url = "0.3.2"
-deadpool-redis = { git = "https://github.com/modrinth/deadpool", rev = "db5fb00b036ecc8fe5f18853c559b745ffe47bde", version = "0.22.1" }
+deadpool-redis = { git = "https://github.com/johnnycharlesw/blankethub-deadpool", rev = "db5fb00b036ecc8fe5f18853c559b745ffe47bde", version = "0.22.1" }
 derive_more = "2.0.1"
 directories = "6.0.0"
 dirs = "6.0.0"
@@ -108,8 +108,8 @@ lettre = { version = "0.11.19", default-features = false, features = [
 ] }
 maxminddb = "0.26.0"
 meilisearch-sdk = { version = "0.30.0", default-features = false }
-modrinth-log = { path = "packages/modrinth-log" }
-modrinth-util = { path = "packages/modrinth-util" }
+blankethub-log = { path = "packages/blankethub-log" }
+blankethub-util = { path = "packages/blankethub-util" }
 muralpay = { path = "packages/muralpay" }
 murmur2 = "0.1.0"
 native-dialog = "0.9.2"

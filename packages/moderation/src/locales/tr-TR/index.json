@@ -12,7 +12,7 @@
     "defaultMessage": "Simge ekle"
   },
   "nags.add-links.description": {
-    "defaultMessage": "Modrinth'in dışına gönderen herhangi ilgili bağlantı ekle. Mesela kaynak kodu, hata takipçisi veya Discord daveti."
+    "defaultMessage": "Blankethub'in dışına gönderen herhangi ilgili bağlantı ekle. Mesela kaynak kodu, hata takipçisi veya Discord daveti."
   },
   "nags.add-links.title": {
     "defaultMessage": "Dış bağlantı ekle"

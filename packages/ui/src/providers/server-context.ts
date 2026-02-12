@@ -21,7 +21,7 @@ export interface FilesystemAuth {
 	token: string
 }
 
-export interface ModrinthServerContext {
+export interface BlankethubServerContext {
 	readonly serverId: string
 	readonly server: Ref<Archon.Servers.v0.Server>
 
@@ -39,5 +39,5 @@ export interface ModrinthServerContext {
 	refreshFsAuth: () => Promise<void>
 }
 
-export const [injectModrinthServerContext, provideModrinthServerContext] =
-	createContext<ModrinthServerContext>('[id].vue', 'modrinthServerContext')
+export const [injectBlankethubServerContext, provideBlankethubServerContext] =
+	createContext<BlankethubServerContext>('[id].vue', 'modrinthServerContext')

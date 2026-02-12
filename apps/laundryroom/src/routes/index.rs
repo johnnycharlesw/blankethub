@@ -6,7 +6,7 @@ pub async fn index_get() -> HttpResponse {
     let data = json!({
         "name": "modrinth-labrinth",
         "version": env!("CARGO_PKG_VERSION"),
-        "documentation": "https://docs.blankethub.loxalhost",
+        "documentation": "https://docs.blankethub.localhost",
         "about": "Welcome traveler!",
 
         "build_info": {

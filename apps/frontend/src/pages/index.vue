@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div class="landing-hero">
-			<ModrinthIcon class="modrinth-icon text-brand" />
+			<BlankethubIcon class="modrinth-icon text-brand" />
 			<h1 class="main-header">
 				<IntlFormatted :message-id="messages.thePlaceForMinecraft">
 					<template #~content>
@@ -216,13 +216,13 @@
 						<div class="launcher-view">
 							<img
 								v-if="$theme.active === 'light'"
-								src="https://cdn.blankethub.loxalhost/landing-new/launcher-light.webp"
+								src="https://cdn.blankethub.localhost/landing-new/launcher-light.webp"
 								:alt="formatMessage(messages.launcherGraphicAlt)"
 								class="minecraft-screen"
 							/>
 							<img
 								v-else
-								src="https://cdn.blankethub.loxalhost/landing-new/launcher.webp"
+								src="https://cdn.blankethub.localhost/landing-new/launcher.webp"
 								:alt="formatMessage(messages.launcherGraphicAlt)"
 								class="minecraft-screen"
 							/>
@@ -241,7 +241,7 @@
 									class="graphic gradient-border text-brand"
 									:aria-label="formatMessage(messages.modrinthAppLabel)"
 								>
-									<ModrinthIcon aria-hidden="true" />
+									<BlankethubIcon aria-hidden="true" />
 								</nuxt-link>
 								<a
 									rel="noopener"
@@ -432,11 +432,11 @@
 </template>
 <script setup>
 import {
+    BlankethubIcon,
     CalendarIcon,
     CompassIcon,
     DashboardIcon,
     LogInIcon,
-    ModrinthIcon,
     SearchIcon,
 } from '@modrinth/assets'
 import {
@@ -549,7 +549,7 @@ const messages = defineMessages({
 	findWhatYouWantDescription: {
 		id: 'landing.feature.search.description',
 		defaultMessage:
-			"Modrinth's lightning-fast search and powerful filters let you find what you want as you type.",
+			"Blankethub's lightning-fast search and powerful filters let you find what you want as you type.",
 	},
 	followProjectsHeading: {
 		id: 'landing.feature.follow.heading',
@@ -566,7 +566,7 @@ const messages = defineMessages({
 	playWithLauncherDescription: {
 		id: 'landing.feature.launcher.description',
 		defaultMessage:
-			"Modrinth's open-source API lets launchers add deep integration with Modrinth. You can use Modrinth through <link>our own app</link> and some of the most popular launchers like ATLauncher, MultiMC, and Prism Launcher.",
+			"Blankethub's open-source API lets launchers add deep integration with Blankethub. You can use Blankethub through <link>our own app</link> and some of the most popular launchers like ATLauncher, MultiMC, and Prism Launcher.",
 	},
 	notificationsHeading: {
 		id: 'landing.notifications.heading',
@@ -587,7 +587,7 @@ const messages = defineMessages({
 	launcherGraphicAlt: {
 		id: 'landing.launcher.graphic-alt',
 		defaultMessage:
-			'A simplified representation of a Minecraft window, with the Mojang Studios logo in Modrinth green.',
+			'A simplified representation of a Minecraft window, with the Mojang Studios logo in Blankethub green.',
 	},
 	prismLauncherLabel: {
 		id: 'landing.launcher.prism-launcher-label',
@@ -595,7 +595,7 @@ const messages = defineMessages({
 	},
 	modrinthAppLabel: {
 		id: 'landing.launcher.modrinth-app-label',
-		defaultMessage: 'Modrinth App',
+		defaultMessage: 'Blankethub App',
 	},
 	atlauncherLabel: {
 		id: 'landing.launcher.atlauncher-label',
@@ -685,7 +685,7 @@ const creatorFeatureMessages = defineMessages({
 	constantlyEvolvingDescription: {
 		id: 'landing.creator.feature.constantly-evolving.description',
 		defaultMessage:
-			'Get the best modding experience possible with constant updates from the Modrinth team',
+			'Get the best modding experience possible with constant updates from the Blankethub team',
 	},
 })
 </script>

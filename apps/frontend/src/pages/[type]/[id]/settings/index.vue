@@ -61,7 +61,7 @@
 			</label>
 			<div class="text-input-wrapper">
 				<div class="text-input-wrapper__before">
-					<span class="hidden sm:inline">https://blankethub.loxalhost</span>/{{
+					<span class="hidden sm:inline">https://blankethub.localhost</span>/{{
 						$getProjectTypeForUrl(project.project_type, project.loaders)
 					}}/
 				</div>
@@ -222,7 +222,7 @@
 				</h3>
 			</div>
 			<p>
-				Removes your project from Modrinth's servers and search. Clicking on this will delete your
+				Removes your project from Blankethub's servers and search. Clicking on this will delete your
 				project, so be extra careful!
 			</p>
 			<button

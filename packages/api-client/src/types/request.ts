@@ -9,8 +9,8 @@ export type HttpMethod = 'GET' | 'POST' | 'PUT' | 'PATCH' | 'DELETE'
 export type RequestOptions = {
 	/**
 	 * API to use for this request
-	 * - 'labrinth': Main Modrinth API (resolves to labrinthBaseUrl)
-	 * - 'archon': Modrinth Hosting API (resolves to archonBaseUrl)
+	 * - 'labrinth': Main Blankethub API (resolves to labrinthBaseUrl)
+	 * - 'archon': Blankethub Hosting API (resolves to archonBaseUrl)
 	 * - string: Custom base URL (e.g., 'https://custom-api.com')
 	 */
 	api: 'labrinth' | 'archon' | string

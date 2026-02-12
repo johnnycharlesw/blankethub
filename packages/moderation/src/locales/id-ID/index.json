@@ -12,7 +12,7 @@
     "defaultMessage": "Tambah ikon"
   },
   "nags.add-links.description": {
-    "defaultMessage": "Tambahkan tautan relevan yang disasarkan di luar Modrinth, seperti kode sumber, pelacak masalah, atau undangan Discord."
+    "defaultMessage": "Tambahkan tautan relevan yang disasarkan di luar Blankethub, seperti kode sumber, pelacak masalah, atau undangan Discord."
   },
   "nags.add-links.title": {
     "defaultMessage": "Tambah tautan eksternal"

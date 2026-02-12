@@ -43,8 +43,8 @@
 				</span>
 				<span>
 					If you need to get in contact with the moderation team, please use the
-					<a class="text-link" href="https://support.blankethub.loxalhost" target="_blank">
-						Modrinth Help Center
+					<a class="text-link" href="https://support.blankethub.localhost" target="_blank">
+						Blankethub Help Center
 					</a>
 					and click the green bubble to contact support.
 				</span>

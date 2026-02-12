@@ -1,4 +1,4 @@
-use crate::state::ModrinthCredentials;
+use crate::state::BlankethubCredentials;
 
 #[tracing::instrument]
 pub fn authenticate_begin_flow() -> &'static str {
@@ -8,7 +8,7 @@ pub fn authenticate_begin_flow() -> &'static str {
 #[tracing::instrument]
 pub async fn authenticate_finish_flow(
     code: &str,
-) -> crate::Result<ModrinthCredentials> {
+) -> crate::Result<BlankethubCredentials> {
     let state = crate::State::get().await?;
 
     let creds = crate::state::finish_login_flow(
@@ -30,10 +30,10 @@ pub async fn authenticate_finish_flow(
 #[tracing::instrument]
 pub async fn logout() -> crate::Result<()> {
     let state = crate::State::get().await?;
-    let current = ModrinthCredentials::get_active(&state.pool).await?;
+    let current = BlankethubCredentials::get_active(&state.pool).await?;
 
     if let Some(current) = current {
-        ModrinthCredentials::remove(&current.user_id, &state.pool).await?;
+        BlankethubCredentials::remove(&current.user_id, &state.pool).await?;
         state.friends_socket.disconnect().await?;
     }
 
@@ -41,10 +41,10 @@ pub async fn logout() -> crate::Result<()> {
 }
 
 #[tracing::instrument]
-pub async fn get_credentials() -> crate::Result<Option<ModrinthCredentials>> {
+pub async fn get_credentials() -> crate::Result<Option<BlankethubCredentials>> {
     let state = crate::State::get().await?;
     let current =
-        ModrinthCredentials::get_and_refresh(&state.pool, &state.api_semaphore)
+        BlankethubCredentials::get_and_refresh(&state.pool, &state.api_semaphore)
             .await?;
 
     Ok(current)

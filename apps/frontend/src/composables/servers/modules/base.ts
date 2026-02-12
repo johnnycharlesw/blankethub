@@ -1,9 +1,9 @@
-import type { ModrinthServer } from '../modrinth-servers.ts'
+import type { BlankethubServer } from '../modrinth-servers.ts'
 
 export abstract class ServerModule {
-	protected server: ModrinthServer
+	protected server: BlankethubServer
 
-	constructor(server: ModrinthServer) {
+	constructor(server: BlankethubServer) {
 		this.server = server
 	}
 

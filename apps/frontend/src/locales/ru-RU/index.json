@@ -30,7 +30,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "Версии Modrinth App для Linux <issues-link>могут работать нестабильно</issues-link> на некоторых системах и конфигурациях. При возникновении проблем с приложением рекомендуется использовать альтернативы наподобие <prism-link>Prism Launcher</prism-link> для удобной установки контента с Modrinth."
+    "message": "Версии Blankethub App для Linux <issues-link>могут работать нестабильно</issues-link> на некоторых системах и конфигурациях. При возникновении проблем с приложением рекомендуется использовать альтернативы наподобие <prism-link>Prism Launcher</prism-link> для удобной установки контента с Blankethub."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -39,10 +39,10 @@
     "message": "Варианты установки"
   },
   "app-marketing.download.terms": {
-    "message": "Скачивая Modrinth App, вы принимаете наши <terms-link>условия</terms-link> и <privacy-link>политику конфиденци­аль­ности</privacy-link>."
+    "message": "Скачивая Blankethub App, вы принимаете наши <terms-link>условия</terms-link> и <privacy-link>политику конфиденци­аль­ности</privacy-link>."
   },
   "app-marketing.download.title": {
-    "message": "Скачать Modrinth App (бета-версия)"
+    "message": "Скачать Blankethub App (бета-версия)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "Отслеживайте проекты"
   },
   "app-marketing.features.importing.description": {
-    "message": "Перенесите любимые профили из старого лаунчера и начните пользоваться Modrinth App за считанные секунды!"
+    "message": "Перенесите любимые профили из старого лаунчера и начните пользоваться Blankethub App за считанные секунды!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "от {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth хранит все моды в одном месте. Скачивайте, удаляйте и обновляйте моды в один клик."
+    "message": "Blankethub хранит все моды в одном месте. Скачивайте, удаляйте и обновляйте моды в один клик."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Установленные моды"
@@ -96,7 +96,7 @@
     "message": "Офлайн-режим"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Modrinth App имеет полностью открытый исходный код, доступный на <github-link>GitHub</github-link>!"
+    "message": "Blankethub App имеет полностью открытый исходный код, доступный на <github-link>GitHub</github-link>!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Открытый код"
@@ -108,7 +108,7 @@
     "message": "% ЦП"
   },
   "app-marketing.features.performance.description": {
-    "message": "Modrinth App работает лучше многих популярных лаунчеров, используя лишь 150 МБ ОЗУ!"
+    "message": "Blankethub App работает лучше многих популярных лаунчеров, используя лишь 150 МБ ОЗУ!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -129,7 +129,7 @@
     "message": "< 150 МБ"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 млрд %"
@@ -147,13 +147,13 @@
     "message": "Быстродействие"
   },
   "app-marketing.features.play.description": {
-    "message": "Скачивайте и играйте в любимые сборки и моды, используя Modrinth App."
+    "message": "Скачивайте и играйте в любимые сборки и моды, используя Blankethub App."
   },
   "app-marketing.features.play.title": {
     "message": "Играйте с любимыми модами"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Создавайте, делитесь и играйте в сборки, используя любые из тысяч модов и сборок, размещённых на Modrinth."
+    "message": "Создавайте, делитесь и играйте в сборки, используя любые из тысяч модов и сборок, размещённых на Blankethub."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Сборка"
@@ -168,7 +168,7 @@
     "message": "Непохоже ни на один лаунчер,"
   },
   "app-marketing.features.website.description": {
-    "message": "Приложение полностью интегрировано с сайтом — открывайте любимые проекты прямо в Modrinth App!"
+    "message": "Приложение полностью интегрировано с сайтом — открывайте любимые проекты прямо в Blankethub App!"
   },
   "app-marketing.features.website.title": {
     "message": "Интеграция с сайтом"
@@ -177,19 +177,19 @@
     "message": "что вы использовали раньше"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Скриншот Modrinth App со страницей содержимого сборки Cobblemon."
+    "message": "Скриншот Blankethub App со страницей содержимого сборки Cobblemon."
   },
   "app-marketing.hero.description": {
-    "message": "Modrinth App — уникальный лаунчер с открытым кодом, возможностью играть в любимые моды и быстро обновлять их, — всё в одной аккуратной упаковке."
+    "message": "Blankethub App — уникальный лаунчер с открытым кодом, возможностью играть в любимые моды и быстро обновлять их, — всё в одной аккуратной упаковке."
   },
   "app-marketing.hero.download-button": {
-    "message": "Скачать Modrinth App"
+    "message": "Скачать Blankethub App"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Скачать Modrinth App"
+    "message": "Скачать Blankethub App"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "Скачать Modrinth App для {os}"
+    "message": "Скачать Blankethub App для {os}"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "Скриншот сборки Cobblemon на главном меню."
@@ -291,7 +291,7 @@
     "message": "Уже есть аккаунт?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Получать новости о Modrinth"
+    "message": "Получать новости о Blankethub"
   },
   "auth.sign-up.title": {
     "message": "Регистрация"
@@ -333,7 +333,7 @@
     "message": "Подтверждение почты"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Получать новости о Modrinth"
+    "message": "Получать новости о Blankethub"
   },
   "auth.welcome.description": {
     "message": "Теперь вы часть потрясающего сообщества авторов и игроков, которые вместе создают, находят и следят за любимыми модами."
@@ -372,7 +372,7 @@
     "message": "Вы действительно хотите удалить эту коллекцию?"
   },
   "collection.description": {
-    "message": "{description} — Посмотреть коллекцию {name} от {username} на Modrinth"
+    "message": "{description} — Посмотреть коллекцию {name} от {username} на Blankethub"
   },
   "collection.description.following": {
     "message": "Создана автоматически на основе всех отслеживаемых проектов."
@@ -591,7 +591,7 @@
     "message": "Налоговая форма"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "Modrinth использует сторонний сервис Track1099 для безопасного сбора и хранения налоговых форм. <security-link>Подробнее...</security-link>"
+    "message": "Blankethub использует сторонний сервис Track1099 для безопасного сбора и хранения налоговых форм. <security-link>Подробнее...</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "Меры безопасности"
@@ -756,7 +756,7 @@
     "message": "Чтобы вывести все <b>{available}</b> средства, пожалуйста, заполните форму ниже. Это необходимо для налоговой отчётности и нужно сделать только один раз."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
-    "message": "Для отчётности Modrinth и соблюдения налогового законодательства нужно заполнить форму W‑9 или W‑8."
+    "message": "Для отчётности Blankethub и соблюдения налогового законодательства нужно заполнить форму W‑9 или W‑8."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.header": {
     "message": "Требуется налоговая форма"
@@ -798,7 +798,7 @@
     "message": "Непроверенная почта"
   },
   "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
-    "message": "Указанная почта не привязана к аккаунту Modrinth. Вознаграждения, отправленные на неверный адрес, невозможно вернуть."
+    "message": "Указанная почта не привязана к аккаунту Blankethub. Вознаграждения, отправленные на неверный адрес, невозможно вернуть."
   },
   "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
     "message": "Можно снизить сборы"
@@ -825,7 +825,7 @@
     "message": "Сумма может измениться, прежде чем станет доступна."
   },
   "dashboard.revenue.estimated-tooltip.msg2": {
-    "message": "Нажмите, чтобы узнать, как Modrinth рассчитывает доход."
+    "message": "Нажмите, чтобы узнать, как Blankethub рассчитывает доход."
   },
   "dashboard.revenue.estimated-with-date": {
     "message": "Ожидается {date}"
@@ -846,7 +846,7 @@
     "message": "Выведено"
   },
   "dashboard.revenue.tos": {
-    "message": "Загружая проекты на Modrinth и выводя деньги со своего счёта, вы соглашаетесь с нашими <terms-link>Условиями программы вознаграждений</terms-link>. Узнайте больше о <info-link>программе вознаграждений</info-link>."
+    "message": "Загружая проекты на Blankethub и выводя деньги со своего счёта, вы соглашаетесь с нашими <terms-link>Условиями программы вознаграждений</terms-link>. Узнайте больше о <info-link>программе вознаграждений</info-link>."
   },
   "dashboard.revenue.transactions.btn.download-csv": {
     "message": "Скачать в формате CSV"
@@ -978,7 +978,7 @@
     "message": "Коллекция может быть приватной."
   },
   "error.collection.404.list_item.3": {
-    "message": "Коллекция могла быть удалена модерацией Modrinth за нарушение <tou-link>условий использования</tou-link>."
+    "message": "Коллекция могла быть удалена модерацией Blankethub за нарушение <tou-link>условий использования</tou-link>."
   },
   "error.collection.404.list_title": {
     "message": "Почему?"
@@ -999,10 +999,10 @@
     "message": "Контент недоступен по юридичес­ким причинам"
   },
   "error.generic.default.list_item.1": {
-    "message": "Проверьте, работает ли Modrinth, на нашей <status-link>странице статуса</status-link>."
+    "message": "Проверьте, работает ли Blankethub, на нашей <status-link>странице статуса</status-link>."
   },
   "error.generic.default.list_item.2": {
-    "message": "Если ошибка не исчезнет, вы можете уведомить о ней Modrinth Team в нашем <discord-link>сервере Discord</discord-link>."
+    "message": "Если ошибка не исчезнет, вы можете уведомить о ней Blankethub Team в нашем <discord-link>сервере Discord</discord-link>."
   },
   "error.generic.default.list_title": {
     "message": "Повторите попытку через несколько минут."
@@ -1020,7 +1020,7 @@
     "message": "Владелец организации мог изменить адрес или удалить её."
   },
   "error.organization.404.list_item.3": {
-    "message": "Организация могла быть удалена модерацией Modrinth за нарушение <tou-link>условий использования</tou-link>."
+    "message": "Организация могла быть удалена модерацией Blankethub за нарушение <tou-link>условий использования</tou-link>."
   },
   "error.organization.404.list_title": {
     "message": "Почему?"
@@ -1035,7 +1035,7 @@
     "message": "Владелец проекта мог изменить адрес, сделать проект приватным или удалить его."
   },
   "error.project.404.list_item.3": {
-    "message": "Проект мог быть удалён модерацией Modrinth за нарушение <tou-link>условий использования</tou-link>."
+    "message": "Проект мог быть удалён модерацией Blankethub за нарушение <tou-link>условий использования</tou-link>."
   },
   "error.project.404.list_title": {
     "message": "Почему?"
@@ -1092,10 +1092,10 @@
     "message": "Когда сервер испытывает высокую нагрузку, ему временно выделяются дополнительные потоки CPU. Это помогает показателю TPS не упасть ниже 20 и обеспечивает максимально плавный игровой процесс. Из‑за своей кратковременности такие потоки могут не отображаться в отчётах Spark и других инструментах профилирования."
   },
   "hosting-marketing.faq.cpu-kind": {
-    "message": "Какие процессоры используются на серверах Modrinth Hosting?"
+    "message": "Какие процессоры используются на серверах Blankethub Hosting?"
   },
   "hosting-marketing.faq.cpu-kind.answer": {
-    "message": "Серверы Modrinth Hosting оснащены процессорами уровня AMD Ryzen 7900 и 7950X3D с частотой более 5 ГГц и памятью DDR5."
+    "message": "Серверы Blankethub Hosting оснащены процессорами уровня AMD Ryzen 7900 и 7950X3D с частотой более 5 ГГц и памятью DDR5."
   },
   "hosting-marketing.faq.currency": {
     "message": "В какой валюте указаны цены?"
@@ -1104,19 +1104,19 @@
     "message": "Все цены указаны в долларах США (USD)."
   },
   "hosting-marketing.faq.ddos-protection": {
-    "message": "Защищены ли серверы Modrinth Hosting от DDoS‑атак?"
+    "message": "Защищены ли серверы Blankethub Hosting от DDoS‑атак?"
   },
   "hosting-marketing.faq.ddos-protection.answer": {
-    "message": "Да. Все серверы Modrinth Hosting защищены от DDoS‑атак и в некоторых регионах выдерживают атаки до 17 Тбит/⁠с."
+    "message": "Да. Все серверы Blankethub Hosting защищены от DDoS‑атак и в некоторых регионах выдерживают атаки до 17 Тбит/⁠с."
   },
   "hosting-marketing.faq.heading": {
     "message": "Вопросы и ответы"
   },
   "hosting-marketing.faq.how-fast": {
-    "message": "Насколько быстро работают серверы Modrinth Hosting?"
+    "message": "Насколько быстро работают серверы Blankethub Hosting?"
   },
   "hosting-marketing.faq.how-fast.answer.one": {
-    "message": "Серверы Modrinth Hosting используют современное и мощное оборудование, однако сложно точно сказать, насколько быстро будет работать конкретный сервер. На производи­тель­ность влияет множество факторов: используемые моды, плагины, наборы данных и даже поведение игроков."
+    "message": "Серверы Blankethub Hosting используют современное и мощное оборудование, однако сложно точно сказать, насколько быстро будет работать конкретный сервер. На производи­тель­ность влияет множество факторов: используемые моды, плагины, наборы данных и даже поведение игроков."
   },
   "hosting-marketing.faq.how-fast.answer.two": {
     "message": "Чаще всего проблемы с производи­тель­ностью вызваны плохой оптимизацией сборок, модов, плагинов и наборов данных. Наши серверы рассчитаны на высокие нагрузки, поэтому при выборе подходящего плана серьёзных проблем возникнуть не должно."
@@ -1125,10 +1125,10 @@
     "message": "Можно ли увеличить объём хранилища на сервере?"
   },
   "hosting-marketing.faq.increase-storage.answer": {
-    "message": "Да. Объём хранилища на сервере можно бесплатно увеличить: достаточно обратиться в поддержку Modrinth."
+    "message": "Да. Объём хранилища на сервере можно бесплатно увеличить: достаточно обратиться в поддержку Blankethub."
   },
   "hosting-marketing.faq.location": {
-    "message": "Где расположены серверы Modrinth Hosting? Можно ли выбрать регион?"
+    "message": "Где расположены серверы Blankethub Hosting? Можно ли выбрать регион?"
   },
   "hosting-marketing.faq.location.answer": {
     "message": "При покупке можно выбрать сервер в Северной Америке, Европе или Юго‑Восточной Азии. В будущем появятся и другие регионы! Чтобы сменить регион, обратитесь в поддержку."
@@ -1137,7 +1137,7 @@
     "message": "Какие загрузчики и версии Minecraft можно использовать?"
   },
   "hosting-marketing.faq.versions-loaders.answer.one": {
-    "message": "Серверы Modrinth Hosting поддерживают все версии Minecraft: Java Edition, начиная с 1.2.5, в том числе снапшоты."
+    "message": "Серверы Blankethub Hosting поддерживают все версии Minecraft: Java Edition, начиная с 1.2.5, в том числе снапшоты."
   },
   "hosting-marketing.faq.versions-loaders.answer.two": {
     "message": "Также доступен большой выбор загрузчиков модов и плагинов, в том числе Fabric, Quilt, Forge, NeoForge, Paper и Purpur. Поддержка каждого загрузчика зависит от выбранной версии Minecraft."
@@ -1155,10 +1155,10 @@
     "message": "Создать свой сервер"
   },
   "hosting-marketing.hero.host-with-modrinth": {
-    "message": "Создайте свой сервер с Modrinth Hosting"
+    "message": "Создайте свой сервер с Blankethub Hosting"
   },
   "hosting-marketing.hero.hosting-description": {
-    "message": "Modrinth Hosting — самый простой способ создать свой сервер Minecraft: Java Edition. Устанавливайте и играйте в любимые моды и сборки без хлопот — всё это внутри платформы Modrinth."
+    "message": "Blankethub Hosting — самый простой способ создать свой сервер Minecraft: Java Edition. Устанавливайте и играйте в любимые моды и сборки без хлопот — всё это внутри платформы Blankethub."
   },
   "hosting-marketing.included.advanced-networking": {
     "message": "Гибкое управление сетью"
@@ -1179,7 +1179,7 @@
     "message": "Делитесь сервером, используя собственный адрес <contrast>modrinth.gg</contrast>."
   },
   "hosting-marketing.included.description": {
-    "message": "Каждый сервер предлагает возможности для хостинга, доступные только на Modrinth."
+    "message": "Каждый сервер предлагает возможности для хостинга, доступные только на Blankethub."
   },
   "hosting-marketing.included.file-manager": {
     "message": "Удобный файловый менеджер"
@@ -1194,19 +1194,19 @@
     "message": "Поддержка в нужный момент"
   },
   "hosting-marketing.included.help.description": {
-    "message": "Команда Modrinth готова помочь с сервером в любое время."
+    "message": "Команда Blankethub готова помочь с сервером в любое время."
   },
   "hosting-marketing.included.powerful-console": {
     "message": "Мощная консоль, удобная настройка и многое другое"
   },
   "hosting-marketing.included.powerful-console.description": {
-    "message": "С Modrinth Hosting управление сервером становится проще."
+    "message": "С Blankethub Hosting управление сервером становится проще."
   },
   "hosting-marketing.included.sftp-access": {
     "message": "Доступ по SFTP"
   },
   "hosting-marketing.included.sftp-access.description": {
-    "message": "Работайте с файлами сервера напрямую по SFTP внутри Modrinth Hosting."
+    "message": "Работайте с файлами сервера напрямую по SFTP внутри Blankethub Hosting."
   },
   "hosting-marketing.included.with-your-server": {
     "message": "Возможности сервера"
@@ -1230,10 +1230,10 @@
     "message": "Сервер найдётся для каждого"
   },
   "hosting-marketing.why.all-on-modrinth": {
-    "message": "Управляйте всем на Modrinth"
+    "message": "Управляйте всем на Blankethub"
   },
   "hosting-marketing.why.all-on-modrinth.description": {
-    "message": "Сервер, моды, игроки — всё уже есть на Modrinth. Не нужно переключаться между платформами."
+    "message": "Сервер, моды, игроки — всё уже есть на Blankethub. Не нужно переключаться между платформами."
   },
   "hosting-marketing.why.consistently-fast": {
     "message": "Всегда высокая скорость"
@@ -1242,7 +1242,7 @@
     "message": "Из‑за отсутствия перегрузок в инфраструктуре каждый сервер работает на полной мощности."
   },
   "hosting-marketing.why.description": {
-    "message": "Выберите любую из тысяч сборок на Modrinth или создайте свою, пригласите друзей и начинайте игру."
+    "message": "Выберите любую из тысяч сборок на Blankethub или создайте свою, пригласите друзей и начинайте игру."
   },
   "hosting-marketing.why.heading": {
     "message": "Найдите сборку. Сервер готов."
@@ -1251,22 +1251,22 @@
     "message": "Новейший и надёжный хостинг"
   },
   "hosting-marketing.why.modern-reliable-hosting.description": {
-    "message": "<contrast>Современные процессоры AMD с памятью DDR5</contrast> и собственное ПО обеспечивают быструю и стабильную работу серверов Modrinth Hosting."
+    "message": "<contrast>Современные процессоры AMD с памятью DDR5</contrast> и собственное ПО обеспечивают быструю и стабильную работу серверов Blankethub Hosting."
   },
   "hosting-marketing.why.where-mods-are": {
     "message": "Играйте сразу с модами"
   },
   "hosting-marketing.why.where-mods-are.description": {
-    "message": "Установка модов и сборок встроена в Modrinth Hosting и работает прямо на сервере."
+    "message": "Установка модов и сборок встроена в Blankethub Hosting и работает прямо на сервере."
   },
   "hosting-marketing.why.why-modrinth-hosting": {
-    "message": "Преимущества Modrinth Hosting?"
+    "message": "Преимущества Blankethub Hosting?"
   },
   "hosting-marketing.why.your-favorite-mods": {
     "message": "Все самые любимые моды"
   },
   "hosting-marketing.why.your-favorite-mods.description": {
-    "message": "Выбирайте Fabric, Forge, Quilt, NeoForge или сервер без модов. Всё, что есть на Modrinth, работает на сервере."
+    "message": "Выбирайте Fabric, Forge, Quilt, NeoForge или сервер без модов. Всё, что есть на Blankethub, работает на сервере."
   },
   "hosting.plan.out-of-stock": {
     "message": "Нет в наличии"
@@ -1281,7 +1281,7 @@
     "message": "Перейти в панель управления"
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "Получайте лучший опыт моддинга с постоянными обновлениями от команды Modrinth"
+    "message": "Получайте лучший опыт моддинга с постоянными обновлениями от команды Blankethub"
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "Постоянное развитие"
@@ -1326,13 +1326,13 @@
     "message": "Следите за тем, что нравится"
   },
   "landing.feature.launcher.description": {
-    "message": "Наш открытый API позволяет глубже интегрироваться с Modrinth — используйте <link>наше приложение</link> или сторонние лаунчеры наподобие ATLauncher, MultiMC и Prism Launcher."
+    "message": "Наш открытый API позволяет глубже интегрироваться с Blankethub — используйте <link>наше приложение</link> или сторонние лаунчеры наподобие ATLauncher, MultiMC и Prism Launcher."
   },
   "landing.feature.launcher.heading": {
     "message": "Играйте через свой лаунчер"
   },
   "landing.feature.search.description": {
-    "message": "Мгновенный поиск и мощные фильтры Modrinth позволяют находить контент уже во время ввода."
+    "message": "Мгновенный поиск и мощные фильтры Blankethub позволяют находить контент уже во время ввода."
   },
   "landing.feature.search.heading": {
     "message": "Ищите нужное быстро и легко"
@@ -1365,10 +1365,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "Упрощённое изображение окна Minecraft с логотипом Mojang Studios в зелёном цвете Modrinth."
+    "message": "Упрощённое изображение окна Minecraft с логотипом Mojang Studios в зелёном цвете Blankethub."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -1452,25 +1452,25 @@
     "message": "Открыть настройки безопасности"
   },
   "layout.banner.add-email.description": {
-    "message": "В целях безопасности Modrinth просит вас привязать электронный адрес к учётной записи."
+    "message": "В целях безопасности Blankethub просит вас привязать электронный адрес к учётной записи."
   },
   "layout.banner.build-fail.description": {
-    "message": "При развёртывании Modrinth не удалось сгенерировать состояние от API. Причиной может быть временный сбой или неверная настройка. Повторите сборку, когда API будет доступен. Коды ошибок: {errors}; Текущий URL-адрес API: {url}"
+    "message": "При развёртывании Blankethub не удалось сгенерировать состояние от API. Причиной может быть временный сбой или неверная настройка. Повторите сборку, когда API будет доступен. Коды ошибок: {errors}; Текущий URL-адрес API: {url}"
   },
   "layout.banner.build-fail.title": {
     "message": "Ошибка генерации состояния от API во время сборки."
   },
   "layout.banner.preview.description": {
-    "message": "Официальный сайт Modrinth доступен по адресу <link>https://blankethub.loxalhost</link>. Текущая предварительная версия предназначена для тестирования командой Modrinth и собрана из <branch-link>{owner}/{branch}</branch-link> @ {commit}."
+    "message": "Официальный сайт Blankethub доступен по адресу <link>https://blankethub.localhost</link>. Текущая предварительная версия предназначена для тестирования командой Blankethub и собрана из <branch-link>{owner}/{branch}</branch-link> @ {commit}."
   },
   "layout.banner.preview.title": {
-    "message": "Это предварительная версия сайта Modrinth."
+    "message": "Это предварительная версия сайта Blankethub."
   },
   "layout.banner.staging.description": {
-    "message": "Тестовая среда полностью отделена от основной базы данных Modrinth и нужна для тестирования и отладки. Протеид и бекхенд здесь могут быть новее, чем на основном сайте."
+    "message": "Тестовая среда полностью отделена от основной базы данных Blankethub и нужна для тестирования и отладки. Протеид и бекхенд здесь могут быть новее, чем на основном сайте."
   },
   "layout.banner.staging.title": {
-    "message": "Вы находитесь в тестовой среде Modrinth"
+    "message": "Вы находитесь в тестовой среде Blankethub"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "Обновить платёжные данные"
@@ -1485,7 +1485,7 @@
     "message": "Заполнить налоговую форму"
   },
   "layout.banner.tax.description": {
-    "message": "В этом году вы вывели уже более $600 из Modrinth. В соответствии с налоговым законодательством необходимо заполнить налоговую форму. Вывод средств приостановлен, пока форма не будет заполнена."
+    "message": "В этом году вы вывели уже более $600 из Blankethub. В соответствии с налоговым законодательством необходимо заполнить налоговую форму. Вывод средств приостановлен, пока форма не будет заполнена."
   },
   "layout.banner.tax.title": {
     "message": "Требуется налоговая форма"
@@ -1503,7 +1503,7 @@
     "message": "Повторно отправить письмо"
   },
   "layout.banner.verify-email.description": {
-    "message": "В целях безопасности Modrinth просит вас подтвердить электронный адрес, привязанный к учётной записи."
+    "message": "В целях безопасности Blankethub просит вас подтвердить электронный адрес, привязанный к учётной записи."
   },
   "layout.footer.about": {
     "message": "О проекте"
@@ -1545,20 +1545,20 @@
     "message": "Условия использования"
   },
   "layout.footer.modrinth-information": {
-    "message": "Информация о Modrinth"
+    "message": "Информация о Blankethub"
   },
   "layout.footer.open-source": {
-    "message": "Modrinth — <github-link>открытый проект</github-link>."
+    "message": "Blankethub — <github-link>открытый проект</github-link>."
   },
   "layout.footer.products": {
     "message": "Продукты"
   },
   "layout.footer.products.app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
 
   "layout.footer.products.servers": {
-    "message": "Modrinth Hosting"
+    "message": "Blankethub Hosting"
   },
   "layout.footer.resources": {
     "message": "Ресурсы"
@@ -1594,7 +1594,7 @@
     "message": "Меню"
   },
   "layout.meta.description": {
-    "message": "Скачивайте моды, плагины, наборы данных, шейдеры, наборы ресурсов и сборки для Minecraft на Modrinth. Ищите и публикуйте проекты на Modrinth, используя удобный современный интерфейс и API."
+    "message": "Скачивайте моды, плагины, наборы данных, шейдеры, наборы ресурсов и сборки для Minecraft на Blankethub. Ищите и публикуйте проекты на Blankethub, используя удобный современный интерфейс и API."
   },
   "layout.meta.og-description": {
     "message": "Ищите и публикуйте проекты для Minecraft!"
@@ -1618,7 +1618,7 @@
     "message": "Флаги функций"
   },
   "layout.nav.get-modrinth-app": {
-    "message": "Скачать Modrinth App"
+    "message": "Скачать Blankethub App"
   },
   "layout.nav.home": {
     "message": "Главная"
@@ -1627,10 +1627,10 @@
     "message": "Создать сервер"
   },
   "layout.nav.modrinth-app": {
-    "message": "Modrinth App"
+    "message": "Blankethub App"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "Главная страница Modrinth"
+    "message": "Главная страница Blankethub"
   },
   "layout.nav.my-servers": {
     "message": "Мои серверы"
@@ -1933,10 +1933,10 @@
     "message": "Перепроверьте адрес кошелька. Средства, отправленные на неверный адрес, невозможно вернуть."
   },
   "profile.bio.fallback.creator": {
-    "message": "Автор на Modrinth."
+    "message": "Автор на Blankethub."
   },
   "profile.bio.fallback.user": {
-    "message": "Пользователь Modrinth."
+    "message": "Пользователь Blankethub."
   },
   "profile.button.billing": {
     "message": "Управление платежами"
@@ -2020,10 +2020,10 @@
     "message": "Сохранение..."
   },
   "profile.meta.description": {
-    "message": "Скачать проекты {username} на Modrinth"
+    "message": "Скачать проекты {username} на Blankethub"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} — Скачать проекты {username} на Modrinth"
+    "message": "{bio} — Скачать проекты {username} на Blankethub"
   },
   "profile.stats.projects-followers": {
     "message": "{count, plural, one {<stat>{count}</stat> подписчик} few {<stat>{count}</stat> подписчика} other {<stat>{count}</stat> подписчиков}} у проектов"
@@ -2062,7 +2062,7 @@
     "message": "Запросите перепроверку"
   },
   "project-moderation-nags.resubmit-for-review-desc": {
-    "message": "Проект {status, select, rejected {отклонён} withheld {на удержании} other {{status}}} командой Modrinth. Обычно после решения указанных модератором проблем можно снова запросить проверку."
+    "message": "Проект {status, select, rejected {отклонён} withheld {на удержании} other {{status}}} командой Blankethub. Обычно после решения указанных модератором проблем можно снова запросить проверку."
   },
   "project-moderation-nags.submit-checklist-tooltip": {
     "message": "Необходимо выполнить обязательные действия в контрольном списке!"
@@ -2164,7 +2164,7 @@
     "message": "Проверить проект"
   },
   "project.actions.servers-promo.description": {
-    "message": "Modrinth Hosting — самый простой способ играть с друзьями без лишних хлопот!"
+    "message": "Blankethub Hosting — самый простой способ играть с друзьями без лишних хлопот!"
   },
   "project.actions.servers-promo.pricing": {
     "message": "От {price}<small> / месяц</small>"
@@ -2197,10 +2197,10 @@
     "message": "{title} не поддерживает {gameVersion} для {platform}"
   },
   "project.download.install-with-app": {
-    "message": "Скачать в Modrinth App"
+    "message": "Скачать в Blankethub App"
   },
   "project.download.no-app": {
-    "message": "У вас нет Modrinth App?"
+    "message": "У вас нет Blankethub App?"
   },
   "project.download.no-versions-available": {
     "message": "Нет версий, доступных для {gameVersion} и {platform}."
@@ -2236,7 +2236,7 @@
     "message": "Скачивание {title}"
   },
   "project.environment.migration-no-permission.message": {
-    "message": "Недавно мы переработали систему сред на Modrinth — теперь доступны новые варианты. У вас нет разрешения на изменение этих настроек — сообщите другому участнику проекта, что необходимо проверить метаданные среды."
+    "message": "Недавно мы переработали систему сред на Blankethub — теперь доступны новые варианты. У вас нет разрешения на изменение этих настроек — сообщите другому участнику проекта, что необходимо проверить метаданные среды."
   },
   "project.environment.migration-no-permission.title": {
     "message": "Необходимо проверить метаданные среды"
@@ -2245,7 +2245,7 @@
     "message": "Узнайте больше об этом изменении"
   },
   "project.environment.migration.message": {
-    "message": "Мы переработали систему сред на Modrinth, и теперь доступны новые варианты. Убедитесь, что метаданные указаны верно."
+    "message": "Мы переработали систему сред на Blankethub, и теперь доступны новые варианты. Убедитесь, что метаданные указаны верно."
   },
   "project.environment.migration.review-button": {
     "message": "Проверить настройки среды"
@@ -2422,7 +2422,7 @@
     "message": "На какой тип контента вы жалуетесь?"
   },
   "report.question.report-reason": {
-    "message": "Какое правило Modrinth нарушено {item, select, project {этим проектом} version {этой версией} user {этим пользователем} other {этим контентом}}?"
+    "message": "Какое правило Blankethub нарушено {item, select, project {этим проектом} version {этой версией} user {этим пользователем} other {этим контентом}}?"
   },
   "report.report-content": {
     "message": "Жалоба модерато­рам на контент"
@@ -2626,7 +2626,7 @@
     "message": "Изменение жалоб"
   },
   "scopes.sessionAccess.description": {
-    "message": "Пользоваться сеансами Modrinth"
+    "message": "Пользоваться сеансами Blankethub"
   },
   "scopes.sessionAccess.label": {
     "message": "Использование сеансов"
@@ -2821,7 +2821,7 @@
     "message": "Вы действительно хотите удалить это приложение?"
   },
   "settings.applications.description.intro": {
-    "message": "Через приложения пользователи Modrinth могут входить в ваши сервисы. Подробнее — в <docs-link>документации</docs-link>."
+    "message": "Через приложения пользователи Blankethub могут входить в ваши сервисы. Подробнее — в <docs-link>документации</docs-link>."
   },
   "settings.applications.field.description": {
     "message": "Описание"
@@ -2908,13 +2908,13 @@
     "message": "Способы оплаты"
   },
   "settings.billing.pyro_subscription.description": {
-    "message": "Управляйте своими подписками на Modrinth Servers."
+    "message": "Управляйте своими подписками на Blankethub Servers."
   },
   "settings.billing.pyro_subscription.title": {
-    "message": "Подписки на Modrinth Servers"
+    "message": "Подписки на Blankethub Servers"
   },
   "settings.billing.subscription.description": {
-    "message": "Управляйте своими подписками на Modrinth."
+    "message": "Управляйте своими подписками на Blankethub."
   },
   "settings.billing.subscription.title": {
     "message": "Подписки"
@@ -2923,7 +2923,7 @@
     "message": "Отключить режим разработчика"
   },
   "settings.display.banner.developer-mode.description": {
-    "message": "<strong>Режим разработчика</strong> включён. Отображаются внутренние идентификаторы различных частей Modrinth, что может пригодиться при работе с API. Чтобы включить или отключить режим разработчика, нажмите на логотип Modrinth внизу страницы 5 раз."
+    "message": "<strong>Режим разработчика</strong> включён. Отображаются внутренние идентификаторы различных частей Blankethub, что может пригодиться при работе с API. Чтобы включить или отключить режим разработчика, нажмите на логотип Blankethub внизу страницы 5 раз."
   },
   "settings.display.flags.description": {
     "message": "Включите или отключите определённые функции на этом устройстве."
@@ -2968,16 +2968,16 @@
     "message": "Особые эффекты"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "message": "Ссылки, ведущие за пределы Modrinth, будут открываться в новой вкладке. Независимо от этой настройки, ссылки на тот же домен и в описаниях Markdown будут открываться в той же вкладке, а ссылки на рекламные объявления и редактирование страниц — в новой вкладке."
+    "message": "Ссылки, ведущие за пределы Blankethub, будут открываться в новой вкладке. Независимо от этой настройки, ссылки на тот же домен и в описаниях Markdown будут открываться в той же вкладке, а ссылки на рекламные объявления и редактирование страниц — в новой вкладке."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "message": "Открывать внешние ссылки в новой вкладке"
   },
   "settings.display.sidebar.hide-app-promos.description": {
-    "message": "Убирает кнопку «Скачать Modrinth App» с поисковых страниц. Ссылку на раздел с Modrinth App всё ещё можно найти на главной странице или в нижней части интерфейса."
+    "message": "Убирает кнопку «Скачать Blankethub App» с поисковых страниц. Ссылку на раздел с Blankethub App всё ещё можно найти на главной странице или в нижней части интерфейса."
   },
   "settings.display.sidebar.hide-app-promos.title": {
-    "message": "Скрывать кнопку скачивания Modrinth App"
+    "message": "Скрывать кнопку скачивания Blankethub App"
   },
   "settings.display.sidebar.left-aligned-content-sidebar.title": {
     "message": "Отображать боковую панель страниц контента слева"
@@ -2992,7 +2992,7 @@
     "message": "Отображать боковую панель фильтров поиска справа"
   },
   "settings.display.theme.description": {
-    "message": "Выберите тему для Modrinth на этом устройстве."
+    "message": "Выберите тему для Blankethub на этом устройстве."
   },
   "settings.display.theme.title": {
     "message": "Тема"
@@ -3001,7 +3001,7 @@
     "message": "Создать токен доступа"
   },
   "settings.pats.description": {
-    "message": "Токены доступа используются для обращения к API Modrinth. Подробнее — в <doc-link>документации</doc-link>. Их можно создавать и отзывать в любое время."
+    "message": "Токены доступа используются для обращения к API Blankethub. Подробнее — в <doc-link>документации</doc-link>. Их можно создавать и отзывать в любое время."
   },
   "settings.pats.modal.create.action": {
     "message": "Создать токен доступа"
@@ -3055,7 +3055,7 @@
     "message": "О себе"
   },
   "settings.profile.description": {
-    "message": "Информация в вашем профиле доступна публично на Modrinth и через <docs-link>API Modrinth</docs-link>."
+    "message": "Информация в вашем профиле доступна публично на Blankethub и через <docs-link>API Blankethub</docs-link>."
   },
   "settings.profile.profile-info": {
     "message": "Информация в профиле"
@@ -3076,7 +3076,7 @@
     "message": "Текущий сеанс"
   },
   "settings.sessions.description": {
-    "message": "Ниже представлены все устройства, с которых осуществлён вход в вашу учётную запись Modrinth. Вы можете управлять сеансом каждого из них по отдельности.\n\nЕсли среди них присутствует незнакомое устройство, незамедлительно завершите его сеанс и смените пароль своей учётной записи."
+    "message": "Ниже представлены все устройства, с которых осуществлён вход в вашу учётную запись Blankethub. Вы можете управлять сеансом каждого из них по отдельности.\n\nЕсли среди них присутствует незнакомое устройство, незамедлительно завершите его сеанс и смените пароль своей учётной записи."
   },
   "settings.sessions.last-accessed-ago": {
     "message": "Активность: {ago}"
@@ -3088,7 +3088,7 @@
     "message": "Неизвестная платформа"
   },
   "ui.latest-news-row.latest-news": {
-    "message": "Последние новости от Modrinth"
+    "message": "Последние новости от Blankethub"
   },
   "ui.latest-news-row.view-all": {
     "message": "Посмотреть все новости"

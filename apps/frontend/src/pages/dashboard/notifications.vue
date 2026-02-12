@@ -63,13 +63,13 @@ import { formatProjectType } from '@modrinth/utils'
 import Breadcrumbs from '~/components/ui/Breadcrumbs.vue'
 import NotificationItem from '~/components/ui/NotificationItem.vue'
 import {
-	fetchExtraNotificationData,
-	groupNotifications,
-	markAsRead,
+    fetchExtraNotificationData,
+    groupNotifications,
+    markAsRead,
 } from '~/helpers/platform-notifications.ts'
 
 useHead({
-	title: 'Notifications - Modrinth',
+	title: 'Notifications - Blankethub',
 })
 
 const auth = await useAuth()

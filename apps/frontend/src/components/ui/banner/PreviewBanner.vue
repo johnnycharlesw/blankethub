@@ -17,11 +17,11 @@ const config = useRuntimeConfig()
 const messages = defineMessages({
 	title: {
 		id: 'layout.banner.preview.title',
-		defaultMessage: `This is a preview deploy of the Modrinth website.`,
+		defaultMessage: `This is a preview deploy of the Blankethub website.`,
 	},
 	description: {
 		id: 'layout.banner.preview.description',
-		defaultMessage: `If you meant to access the official Modrinth website, visit <link>https://blankethub.loxalhost</link>. This preview deploy is used by Modrinth staff for testing purposes. It was built using <branch-link>{owner}/{branch}</branch-link> @ {commit}.`,
+		defaultMessage: `If you meant to access the official Blankethub website, visit <link>https://blankethub.localhost</link>. This preview deploy is used by Blankethub staff for testing purposes. It was built using <branch-link>{owner}/{branch}</branch-link> @ {commit}.`,
 	},
 })
 
@@ -46,7 +46,7 @@ function hidePreviewBanner() {
 					}"
 				>
 					<template #link="{ children }">
-						<a href="https://blankethub.loxalhost" target="_blank" rel="noopener" class="text-link">
+						<a href="https://blankethub.localhost" target="_blank" rel="noopener" class="text-link">
 							<component :is="() => normalizeChildren(children)" />
 						</a>
 					</template>

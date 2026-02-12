@@ -5,7 +5,7 @@
 			<p class="mb-4">
 				<IntlFormatted :message-id="messages.description">
 					<template #docs-link="{ children }">
-						<a href="https://docs.blankethub.loxalhost/" target="_blank" class="text-link">
+						<a href="https://docs.blankethub.localhost/" target="_blank" class="text-link">
 							<component :is="() => children" />
 						</a>
 					</template>
@@ -100,7 +100,7 @@ const { addNotification } = injectNotificationManager()
 const { formatMessage } = useVIntl()
 
 useHead({
-	title: 'Profile settings - Modrinth',
+	title: 'Profile settings - Blankethub',
 })
 
 definePageMeta({
@@ -115,7 +115,7 @@ const messages = defineMessages({
 	description: {
 		id: 'settings.profile.description',
 		defaultMessage:
-			'Your profile information is publicly viewable on Modrinth and through the <docs-link>Modrinth API</docs-link>.',
+			'Your profile information is publicly viewable on Blankethub and through the <docs-link>Blankethub API</docs-link>.',
 	},
 	profilePicture: {
 		id: 'settings.profile.profile-picture.title',
@@ -185,7 +185,7 @@ function showPreviewImage(files) {
 
 function removePreviewImage() {
 	pendingAvatarDeletion.value = true
-	previewImage.value = 'https://cdn.blankethub.loxalhost/placeholder.png'
+	previewImage.value = 'https://cdn.blankethub.localhost/placeholder.png'
 }
 
 async function save() {

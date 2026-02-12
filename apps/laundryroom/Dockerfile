@@ -21,7 +21,7 @@ FROM debian:trixie-slim
 
 LABEL org.opencontainers.image.source=https://github.com/johnnycharlesw/blankethub
 LABEL org.opencontainers.image.title=labrinth
-LABEL org.opencontainers.image.description="Modrinth API"
+LABEL org.opencontainers.image.description="Blankethub API"
 LABEL org.opencontainers.image.licenses=AGPL-3.0-only
 
 RUN apt-get update \

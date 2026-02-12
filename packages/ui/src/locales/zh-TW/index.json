@@ -531,7 +531,7 @@
     "defaultMessage": "審查員"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Modrinth 團隊"
+    "defaultMessage": "Blankethub 團隊"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "待處理"
@@ -939,7 +939,7 @@
     "defaultMessage": "你的專案有多種環境"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "我們剛剛對 Modrinth 的執行環境系統進行了全面更新，並提供了新的選項。請確定已選擇正確的選項，然後按一下「驗證」！"
+    "defaultMessage": "我們剛剛對 Blankethub 的執行環境系統進行了全面更新，並提供了新的選項。請確定已選擇正確的選項，然後按一下「驗證」！"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "請審核以下選項"
@@ -1245,7 +1245,7 @@
     "defaultMessage": "你希望伺服器部署在何處？"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "沒有想要的地區？<link>請告訴我們，你希望 Modrinth Hosting 接下來在哪裡提供服務！</link>"
+    "defaultMessage": "沒有想要的地區？<link>請告訴我們，你希望 Blankethub Hosting 接下來在哪裡提供服務！</link>"
   },
   "servers.region.southeast-asia": {
     "defaultMessage": "東南亞"
@@ -1272,7 +1272,7 @@
     "defaultMessage": "深色"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "依照偏好，設定這部裝置的 Modrinth 主題顏色。"
+    "defaultMessage": "依照偏好，設定這部裝置的 Blankethub 主題顏色。"
   },
   "settings.display.theme.light": {
     "defaultMessage": "淺色"

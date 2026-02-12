@@ -1120,7 +1120,7 @@ pub async fn process_payout(
         })
         .sum();
 
-    // Modrinth's share of ad revenue
+    // Blankethub's share of ad revenue
     let modrinth_cut = Decimal::from(1) / Decimal::from(4);
     // Clean.io fee (ad antimalware). Per 1000 impressions. 0.008 CPM
     let clean_io_fee = Decimal::from(8) / Decimal::from(1000);

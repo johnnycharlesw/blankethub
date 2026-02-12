@@ -1,7 +1,7 @@
 <template>
 	<div class="page experimental-styles-within">
 		<h1 class="m-0 text-3xl font-extrabold">Changelog</h1>
-		<p class="my-3">Keep up-to-date on what's new with Modrinth.</p>
+		<p class="my-3">Keep up-to-date on what's new with Blankethub.</p>
 		<NuxtPage />
 	</div>
 </template>
@@ -10,10 +10,10 @@
 const config = useRuntimeConfig()
 
 useSeoMeta({
-	title: 'Modrinth Changelog',
-	ogTitle: 'Modrinth Changelog',
-	description: "Keep up-to-date on what's new with Modrinth.",
-	ogDescription: "Keep up-to-date on what's new with Modrinth.",
+	title: 'Blankethub Changelog',
+	ogTitle: 'Blankethub Changelog',
+	description: "Keep up-to-date on what's new with Blankethub.",
+	ogDescription: "Keep up-to-date on what's new with Blankethub.",
 	ogType: 'website',
 	ogImage: () => `${config.public.siteUrl}/news/changelog.webp`,
 	twitterCard: 'summary_large_image',

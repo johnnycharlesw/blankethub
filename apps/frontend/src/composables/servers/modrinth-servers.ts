@@ -1,12 +1,12 @@
 import type { AbstractWebNotificationManager } from '@modrinth/ui'
 import type { JWTAuth, ModuleError, ModuleName } from '@modrinth/utils'
-import { ModrinthServerError } from '@modrinth/utils'
+import { BlankethubServerError } from '@modrinth/utils'
 
 import { ContentModule, GeneralModule, NetworkModule, StartupModule } from './modules/index.ts'
 import { useServersFetch } from './servers-fetch.ts'
 
 export function handleServersError(err: any, notifications: AbstractWebNotificationManager) {
-	if (err instanceof ModrinthServerError && err.v1Error) {
+	if (err instanceof BlankethubServerError && err.v1Error) {
 		notifications.addNotification({
 			title: err.v1Error?.context ?? `An error occurred`,
 			type: 'error',
@@ -22,7 +22,7 @@ export function handleServersError(err: any, notifications: AbstractWebNotificat
 	}
 }
 
-export class ModrinthServer {
+export class BlankethubServer {
 	readonly serverId: string
 	private errors: Partial<Record<ModuleName, ModuleError>> = {}
 
@@ -94,7 +94,7 @@ export class ModrinthServer {
 					return dataURL
 				}
 			} catch (error) {
-				if (error instanceof ModrinthServerError) {
+				if (error instanceof BlankethubServerError) {
 					if (error.statusCode && error.statusCode >= 500) {
 						console.debug('Service unavailable, skipping icon processing')
 						sharedImage.value = undefined
@@ -249,7 +249,7 @@ export class ModrinthServer {
 						break
 				}
 			} catch (error) {
-				if (error instanceof ModrinthServerError) {
+				if (error instanceof BlankethubServerError) {
 					if (error.statusCode === 404 && module === 'content') {
 						console.debug(`Optional ${module} resource not found:`, error.message)
 						continue
@@ -263,9 +263,9 @@ export class ModrinthServer {
 
 				this.errors[module] = {
 					error:
-						error instanceof ModrinthServerError
+						error instanceof BlankethubServerError
 							? error
-							: new ModrinthServerError('Unknown error', undefined, error as Error),
+							: new BlankethubServerError('Unknown error', undefined, error as Error),
 					timestamp: Date.now(),
 				}
 			}
@@ -277,11 +277,11 @@ export class ModrinthServer {
 	}
 }
 
-export const useModrinthServers = async (
+export const useBlankethubServers = async (
 	serverId: string,
 	includedModules: ModuleName[] = ['general'],
 ) => {
-	const server = new ModrinthServer(serverId)
+	const server = new BlankethubServer(serverId)
 	await server.refresh(includedModules)
 	return reactive(server)
 }

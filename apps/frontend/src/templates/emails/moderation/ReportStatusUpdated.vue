@@ -8,12 +8,12 @@ import StyledEmail from '../shared/StyledEmail.vue';
 	<StyledEmail
 		title="Report of '{report.title}' has been updated"
 		:manual-links="[
-			{ link: 'https://blankethub.loxalhost/legal/rules', label: 'Community Guidelines' },
+			{ link: 'https://blankethub.localhost/legal/rules', label: 'Community Guidelines' },
 			{
-				link: 'https://blankethub.loxalhost/dashboard/report/{report.id}',
+				link: 'https://blankethub.localhost/dashboard/report/{report.id}',
 				label: 'View report in dashboard',
 			},
-			{ link: 'https://support.blankethub.loxalhost', label: 'Support Portal' },
+			{ link: 'https://support.blankethub.localhost', label: 'Support Portal' },
 		]"
 	>
 		<Heading as="h1" class="mb-2 text-2xl font-bold"
@@ -29,7 +29,7 @@ import StyledEmail from '../shared/StyledEmail.vue';
 
 		<Text class="text-base">
 			You can
-			<VLink href="https://blankethub.loxalhost/dashboard/report/{report.id}" class="text-green underline"
+			<VLink href="https://blankethub.localhost/dashboard/report/{report.id}" class="text-green underline"
 				>view the full report thread</VLink
 			>
 			to see the update. If you have more information to add, please reply in the report thread for
@@ -37,7 +37,7 @@ import StyledEmail from '../shared/StyledEmail.vue';
 		</Text>
 
 		<Text class="text-base"
-			>Thank you for helping keep Modrinth safe and welcoming for everyone.</Text
+			>Thank you for helping keep Blankethub safe and welcoming for everyone.</Text
 		>
 	</StyledEmail>
 </template>

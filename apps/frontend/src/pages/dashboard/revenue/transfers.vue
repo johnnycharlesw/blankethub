@@ -84,11 +84,11 @@
 </template>
 <script setup>
 import {
-	ArrowDownLeftIcon,
-	ArrowUpRightIcon,
-	DownloadIcon,
-	GenericListIcon,
-	SpinnerIcon,
+    ArrowDownLeftIcon,
+    ArrowUpRightIcon,
+    DownloadIcon,
+    GenericListIcon,
+    SpinnerIcon,
 } from '@modrinth/assets'
 import { ButtonStyled, Combobox, defineMessages, useVIntl } from '@modrinth/ui'
 import { formatMoney } from '@modrinth/utils'
@@ -102,7 +102,7 @@ const { formatMessage } = useVIntl()
 const generatedState = useGeneratedState()
 
 useHead({
-	title: 'Transaction history - Modrinth',
+	title: 'Transaction history - Blankethub',
 })
 
 const { data: transactions, refresh } = await useAsyncData(`payout-history`, () =>

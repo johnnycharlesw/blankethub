@@ -25,7 +25,7 @@ const titleSlug: Stage = {
 		return text
 	},
 	icon: BookOpenIcon,
-	guidance_url: 'https://blankethub.loxalhost/legal/rules#miscellaneous',
+	guidance_url: 'https://blankethub.localhost/legal/rules#miscellaneous',
 	actions: [
 		{
 			id: 'title_useless_info',

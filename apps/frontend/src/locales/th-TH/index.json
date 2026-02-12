@@ -30,7 +30,7 @@
     "message": "Mac"
   },
   "app-marketing.download.title": {
-    "message": "ดาวน์โหลดแอปพลิเคชัน Modrinth (Beta)"
+    "message": "ดาวน์โหลดแอปพลิเคชัน Blankethub (Beta)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -87,7 +87,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "แอป Modrinth"
+    "message": "แอป Blankethub"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 พันล้าน %"
@@ -114,13 +114,13 @@
     "message": "คุณใช้มันมาก่อน"
   },
   "app-marketing.hero.download-button": {
-    "message": "ดาวน์โหลดแอป Modrinth"
+    "message": "ดาวน์โหลดแอป Blankethub"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "ดาวน์โหลดแอป Modrinth"
+    "message": "ดาวน์โหลดแอป Blankethub"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "ดาวน์โหลดแอป Modrinth สำหรับ {os}"
+    "message": "ดาวน์โหลดแอป Blankethub สำหรับ {os}"
   },
   "auth.reset-password.notification.email-sent.title": {
     "message": "อีเมล์ส่งแล้ว"

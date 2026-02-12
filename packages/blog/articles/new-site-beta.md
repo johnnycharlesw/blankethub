@@ -1,7 +1,7 @@
 ---
-title: '(April Fools 2023) Powering up your experience: Modrinth Technologies™️ beta launch!'
-short_title: '(April Fools 2023) Modrinth Technologies™️ beta launch!'
-summary: Welcome to the new era of Modrinth. We can't wait to hear your feedback.
+title: '(April Fools 2023) Powering up your experience: Blankethub Technologies™️ beta launch!'
+short_title: '(April Fools 2023) Blankethub Technologies™️ beta launch!'
+summary: Welcome to the new era of Blankethub. We can't wait to hear your feedback.
 short_summary: Power up your experience.
 date: 2023-04-01T00:00:00-08:00
 ---

@@ -8,12 +8,12 @@ import StyledEmail from '../shared/StyledEmail.vue';
 	<StyledEmail
 		title="Report of {report.title} has been submitted"
 		:manual-links="[
-			{ link: 'https://blankethub.loxalhost/legal/rules', label: 'Community Guidelines' },
+			{ link: 'https://blankethub.localhost/legal/rules', label: 'Community Guidelines' },
 			{
-				link: 'https://blankethub.loxalhost/dashboard/report/{newreport.id}',
+				link: 'https://blankethub.localhost/dashboard/report/{newreport.id}',
 				label: 'View report in dashboard',
 			},
-			{ link: 'https://support.blankethub.loxalhost', label: 'Support Portal' },
+			{ link: 'https://support.blankethub.localhost', label: 'Support Portal' },
 		]"
 	>
 		<Heading as="h1" class="mb-2 text-2xl font-bold"
@@ -28,24 +28,24 @@ import StyledEmail from '../shared/StyledEmail.vue';
 
 		<Text class="text-base">
 			Our team takes all reports seriously and will investigate according to our
-			<VLink href="https://blankethub.loxalhost/legal/rules" class="text-green underline"
+			<VLink href="https://blankethub.localhost/legal/rules" class="text-green underline"
 				>Content Rules</VLink
-			>, <VLink href="https://blankethub.loxalhost/legal/terms">Terms of Service</VLink> and
-			<VLink href="https://blankethub.loxalhost/legal/copyright">Copyright Policy</VLink>. You'll receive an
+			>, <VLink href="https://blankethub.localhost/legal/terms">Terms of Service</VLink> and
+			<VLink href="https://blankethub.localhost/legal/copyright">Copyright Policy</VLink>. You'll receive an
 			email update once we've completed our review.
 		</Text>
 
 		<Text class="text-base">
 			If you have any additional information about this report, you can
 			<VLink
-				href="https://blankethub.loxalhost/dashboard/report/{newreport.id}"
+				href="https://blankethub.localhost/dashboard/report/{newreport.id}"
 				class="text-green underline"
 				>view it here</VLink
 			>.
 		</Text>
 
 		<Text class="text-base">
-			Thank you for helping keep Modrinth safe and welcoming for everyone.
+			Thank you for helping keep Blankethub safe and welcoming for everyone.
 		</Text>
 	</StyledEmail>
 </template>

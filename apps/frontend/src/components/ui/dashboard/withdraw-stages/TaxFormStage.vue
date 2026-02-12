@@ -75,12 +75,12 @@
 <script setup lang="ts">
 import { FileTextIcon } from '@modrinth/assets'
 import {
-	Admonition,
-	ButtonStyled,
-	defineMessages,
-	IntlFormatted,
-	normalizeChildren,
-	useVIntl,
+    Admonition,
+    ButtonStyled,
+    defineMessages,
+    IntlFormatted,
+    normalizeChildren,
+    useVIntl,
 } from '@modrinth/ui'
 import { formatMoney } from '@modrinth/utils'
 import { computed } from 'vue'
@@ -135,7 +135,7 @@ const messages = defineMessages({
 	taxFormRequiredBodyWithLimit: {
 		id: 'dashboard.creator-withdraw-modal.tax-form-required.body-with-limit',
 		defaultMessage:
-			"You must complete a W-9 or W-8 form for Modrinth's tax records so we remain compliant with tax regulations.",
+			"You must complete a W-9 or W-8 form for Blankethub's tax records so we remain compliant with tax regulations.",
 	},
 	completeTaxForm: {
 		id: 'dashboard.creator-withdraw-modal.complete-tax-form',

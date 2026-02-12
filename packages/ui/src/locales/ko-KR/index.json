@@ -531,7 +531,7 @@
     "defaultMessage": "관리자"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Modrinth 팀"
+    "defaultMessage": "Blankethub 팀"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "대기중"
@@ -939,7 +939,7 @@
     "defaultMessage": "프로젝트가 여러 실행 환경에 있습니다"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Modrinth의 실행 환경 시스템이 개편되어 새로운 옵션을 사용할 수 있습니다. 아래에서 올바른 옵션이 선택되어 있는지 확인한 후, 완료되면 ‘확인’을 클릭해 주세요!"
+    "defaultMessage": "Blankethub의 실행 환경 시스템이 개편되어 새로운 옵션을 사용할 수 있습니다. 아래에서 올바른 옵션이 선택되어 있는지 확인한 후, 완료되면 ‘확인’을 클릭해 주세요!"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "아래 옵션을 검토해주세요"
@@ -1245,7 +1245,7 @@
     "defaultMessage": "서버가 어디에 위치했으면 좋겠나요?"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "원하는 지역이 목록에 없나요? <link>Modrinth Hosting을 어디에서 만나고 싶은지 알려주세요!</link>"
+    "defaultMessage": "원하는 지역이 목록에 없나요? <link>Blankethub Hosting을 어디에서 만나고 싶은지 알려주세요!</link>"
   },
   "servers.region.southeast-asia": {
     "defaultMessage": "동남아시아"
@@ -1272,7 +1272,7 @@
     "defaultMessage": "어둡게"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "이 디바이스에서 선호하는 Modrinth의 색상 테마를 선택합니다."
+    "defaultMessage": "이 디바이스에서 선호하는 Blankethub의 색상 테마를 선택합니다."
   },
   "settings.display.theme.light": {
     "defaultMessage": "밝게"

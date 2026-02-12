@@ -39,7 +39,7 @@
 						<div class="font-normal">
 							<template v-if="props.powerStateDetails?.oom_killed">
 								The server stopped because it ran out of memory. There may be a memory leak caused
-								by a mod or plugin, or you may need to upgrade your Modrinth Server.
+								by a mod or plugin, or you may need to upgrade your Blankethub Server.
 							</template>
 							<template v-else-if="props.powerStateDetails?.exit_code !== undefined">
 								We could not automatically determine the specific cause of the crash, but your
@@ -182,13 +182,13 @@
 
 <script setup lang="ts">
 import { IssuesIcon, TerminalSquareIcon, XIcon } from '@modrinth/assets'
-import { ButtonStyled, injectModrinthClient } from '@modrinth/ui'
+import { ButtonStyled, injectBlankethubClient } from '@modrinth/ui'
 import type { ServerState, Stats } from '@modrinth/utils'
 
 import PanelServerStatus from '~/components/ui/servers/PanelServerStatus.vue'
 import PanelTerminal from '~/components/ui/servers/PanelTerminal.vue'
 import ServerStats from '~/components/ui/servers/ServerStats.vue'
-import type { ModrinthServer } from '~/composables/servers/modrinth-servers.ts'
+import type { BlankethubServer } from '~/composables/servers/modrinth-servers.ts'
 
 type ServerProps = {
 	isConnected: boolean
@@ -200,12 +200,12 @@ type ServerProps = {
 		exit_code?: number
 	}
 	isServerRunning: boolean
-	server: ModrinthServer
+	server: BlankethubServer
 }
 
 const props = defineProps<ServerProps>()
 
-const client = injectModrinthClient()
+const client = injectBlankethubClient()
 const serverId = props.server.serverId
 
 interface ErrorData {
@@ -589,7 +589,7 @@ const serverData = computed(() => props.server.general)
 const suggestionsList = ref<HTMLUListElement | null>(null)
 
 useHead({
-	title: `Overview - ${serverData.value?.name ?? 'Server'} - Modrinth`,
+	title: `Overview - ${serverData.value?.name ?? 'Server'} - Blankethub`,
 })
 
 const bestSuggestion = computed(() => {

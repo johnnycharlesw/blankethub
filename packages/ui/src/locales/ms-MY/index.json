@@ -531,7 +531,7 @@
     "defaultMessage": "Penyederhana"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Pasukan Modrinth"
+    "defaultMessage": "Pasukan Blankethub"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Menunggu"
@@ -939,7 +939,7 @@
     "defaultMessage": "Projek anda mempunyai berbilang persekitaran"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Kami baru sahaja merombak sistem Persekitaran pada Modrinth dan pilihan baharu kini tersedia. Sila pastikan pilihan yang betul dipilih di bawah dan kemudian klik 'Sahkan' apabila anda selesai!"
+    "defaultMessage": "Kami baru sahaja merombak sistem Persekitaran pada Blankethub dan pilihan baharu kini tersedia. Sila pastikan pilihan yang betul dipilih di bawah dan kemudian klik 'Sahkan' apabila anda selesai!"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "Sila semak pilihan di bawah"
@@ -1245,7 +1245,7 @@
     "defaultMessage": "Di manakah anda mahu pelayan anda ditempatkan?"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "Rantau tidak disenaraikan? <link>Beritahu kami di mana anda ingin melihat Modrinth Hosting tersedia!</link>"
+    "defaultMessage": "Rantau tidak disenaraikan? <link>Beritahu kami di mana anda ingin melihat Blankethub Hosting tersedia!</link>"
   },
   "servers.region.southeast-asia": {
     "defaultMessage": "Asia Tenggara"
@@ -1272,7 +1272,7 @@
     "defaultMessage": "Gelap"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Pilih tema warna pilihan anda untuk Modrinth pada peranti ini."
+    "defaultMessage": "Pilih tema warna pilihan anda untuk Blankethub pada peranti ini."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Cerah"

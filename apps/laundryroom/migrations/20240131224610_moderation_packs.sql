@@ -16,4 +16,4 @@ CREATE TABLE moderation_external_files (
 ALTER TABLE files ADD COLUMN metadata jsonb NULL;
 
 INSERT INTO users (id, username, name, email, avatar_url, bio, role, badges, balance)
-VALUES (0, 'AutoMod', 'AutoMod', 'support@blankethub.loxalhost', 'https://cdn.blankethub.loxalhost/user/2REoufqX/6aabaf2d1fca2935662eca4ce451cd9775054c22.png', 'An automated account performing moderation utilities for Modrinth.', 'moderator', 0, 0)
+VALUES (0, 'AutoMod', 'AutoMod', 'support@blankethub.localhost', 'https://cdn.blankethub.localhost/user/2REoufqX/6aabaf2d1fca2935662eca4ce451cd9775054c22.png', 'An automated account performing moderation utilities for Blankethub.', 'moderator', 0, 0)

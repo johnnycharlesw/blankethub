@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { Laundryroom } from '@modrinth/api-client'
 import { ArrowLeftIcon, LoaderCircleIcon } from '@modrinth/assets'
-import { ButtonStyled, injectModrinthClient } from '@modrinth/ui'
+import { ButtonStyled, injectBlankethubClient } from '@modrinth/ui'
 import { useQuery, useQueryClient } from '@tanstack/vue-query'
 
 import MaliciousSummaryModal, {
@@ -10,12 +10,12 @@ import MaliciousSummaryModal, {
 import ModerationTechRevCard from '~/components/ui/moderation/ModerationTechRevCard.vue'
 
 const route = useRoute()
-const client = injectModrinthClient()
+const client = injectBlankethubClient()
 const queryClient = useQueryClient()
 
 const projectId = computed(() => route.params.id as string)
 
-useHead({ title: () => `Tech review - ${projectId.value} - Modrinth` })
+useHead({ title: () => `Tech review - ${projectId.value} - Blankethub` })
 
 const CACHE_TTL = 24 * 60 * 60 * 1000
 const CACHE_KEY_PREFIX = 'tech_review_source_'

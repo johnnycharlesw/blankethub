@@ -111,24 +111,24 @@
 
 <script setup lang="ts">
 import {
-	ArrowBigRightDashIcon,
-	RightArrowIcon,
-	ServerIcon,
-	UploadIcon,
-	XIcon,
+    ArrowBigRightDashIcon,
+    RightArrowIcon,
+    ServerIcon,
+    UploadIcon,
+    XIcon,
 } from '@modrinth/assets'
 import {
-	AppearingProgressBar,
-	BackupWarning,
-	ButtonStyled,
-	injectNotificationManager,
-	NewModal,
-	Toggle,
+    AppearingProgressBar,
+    BackupWarning,
+    ButtonStyled,
+    NewModal,
+    Toggle,
+    injectNotificationManager,
 } from '@modrinth/ui'
-import { ModrinthServersFetchError } from '@modrinth/utils'
+import { BlankethubServersFetchError } from '@modrinth/utils'
 import { onMounted, onUnmounted } from 'vue'
 
-import type { ModrinthServer } from '~/composables/servers/modrinth-servers'
+import type { BlankethubServer } from '~/composables/servers/modrinth-servers'
 import type { BackupInProgressReason } from '~/pages/hosting/manage/[id].vue'
 
 const { addNotification } = injectNotificationManager()
@@ -149,7 +149,7 @@ onUnmounted(() => {
 })
 
 const props = defineProps<{
-	server: ModrinthServer
+	server: BlankethubServer
 	backupInProgress?: BackupInProgressReason
 }>()
 
@@ -219,7 +219,7 @@ const handleReinstall = async () => {
 		window.scrollTo(0, 0)
 		hide()
 	} catch (error) {
-		if (error instanceof ModrinthServersFetchError && error.statusCode === 429) {
+		if (error instanceof BlankethubServersFetchError && error.statusCode === 429) {
 			addNotification({
 				title: 'Cannot upload and install modpack to server',
 				text: 'You are being rate limited. Please try again later.',

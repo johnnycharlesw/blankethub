@@ -1,12 +1,12 @@
 ---
 title: Docs
-description: Guide for contributing to Modrinth's developer documentation
+description: Guide for contributing to Blankethub's developer documentation
 ---
 
 This project is part of our [monorepo](https://github.com/johnnycharlesw/blankethub). You can find it in the `apps/docs` directory.
 
 [Docs] are the very site you are looking at right now.
-They are here to help developers and contributors work with Modrinth's codebase and API.
+They are here to help developers and contributors work with Blankethub's codebase and API.
 
 To set up a development environment, you will need to install [pnpm] and run the following commands:
 

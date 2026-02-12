@@ -72,7 +72,7 @@ import type { Laundryroom } from '@modrinth/api-client'
 import {
     ButtonStyled,
     Combobox,
-    injectModrinthClient,
+    injectBlankethubClient,
     injectNotificationManager,
 } from '@modrinth/ui'
 import type { ComboboxOption } from '@modrinth/ui/src/components/base/Combobox.vue'
@@ -84,7 +84,7 @@ import DependenciesList from '../components/DependenciesList.vue'
 import SuggestedDependencies from '../components/SuggestedDependencies/SuggestedDependencies.vue'
 
 const { addNotification } = injectNotificationManager()
-const { labrinth } = injectModrinthClient()
+const { labrinth } = injectBlankethubClient()
 
 const {
 	draftVersion,

@@ -1,20 +1,20 @@
-import { AbstractModrinthClient } from '../core/abstract-client'
-import { ModrinthApiError } from '../core/errors'
+import { AbstractBlankethubClient } from '../core/abstract-client'
+import { BlankethubApiError } from '../core/errors'
 import type { RequestContext } from '../types/request'
 import type {
-	UploadHandle,
-	UploadMetadata,
-	UploadProgress,
-	UploadRequestOptions,
+    UploadHandle,
+    UploadMetadata,
+    UploadProgress,
+    UploadRequestOptions,
 } from '../types/upload'
 
 /**
  * Abstract client with XHR-based upload implementation
  *
- * Platform-specific clients should extend this instead of AbstractModrinthClient
+ * Platform-specific clients should extend this instead of AbstractBlankethubClient
  * to inherit the XHR upload implementation.
  */
-export abstract class XHRUploadClient extends AbstractModrinthClient {
+export abstract class XHRUploadClient extends AbstractBlankethubClient {
 	upload<T = void>(path: string, options: UploadRequestOptions): UploadHandle<T> {
 		let baseUrl: string
 		if (options.api === 'labrinth') {
@@ -112,8 +112,8 @@ export abstract class XHRUploadClient extends AbstractModrinthClient {
 				}
 			})
 
-			xhr.addEventListener('error', () => reject(new ModrinthApiError('Upload failed')))
-			xhr.addEventListener('abort', () => reject(new ModrinthApiError('Upload cancelled')))
+			xhr.addEventListener('error', () => reject(new BlankethubApiError('Upload failed')))
+			xhr.addEventListener('abort', () => reject(new BlankethubApiError('Upload cancelled')))
 
 			// build URL with params (unlike $fetch, XHR doesn't handle params automatically)
 			let url = context.url
@@ -138,7 +138,7 @@ export abstract class XHRUploadClient extends AbstractModrinthClient {
 		})
 	}
 
-	protected createUploadError(xhr: XMLHttpRequest): ModrinthApiError {
+	protected createUploadError(xhr: XMLHttpRequest): BlankethubApiError {
 		let responseData: unknown
 		try {
 			responseData = xhr.response ? JSON.parse(xhr.response) : undefined

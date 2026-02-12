@@ -1,6 +1,6 @@
 <template>
 	<div class="welcome-box has-bot">
-		<img :src="WavingRinthbot" alt="Waving Modrinth Bot" class="welcome-box__waving-bot" />
+		<img :src="WavingRinthbot" alt="Waving Blankethub Bot" class="welcome-box__waving-bot" />
 		<div class="welcome-box__top-glow" />
 		<div class="welcome-box__body">
 			<h1 class="welcome-box__title">
@@ -50,12 +50,12 @@
 <script setup>
 import { RightArrowIcon, WavingRinthbot } from '@modrinth/assets'
 import {
-	Checkbox,
-	commonMessages,
-	defineMessages,
-	IntlFormatted,
-	normalizeChildren,
-	useVIntl,
+    Checkbox,
+    IntlFormatted,
+    commonMessages,
+    defineMessages,
+    normalizeChildren,
+    useVIntl,
 } from '@modrinth/ui'
 import { useQueryClient } from '@tanstack/vue-query'
 
@@ -67,12 +67,12 @@ const { formatMessage } = useVIntl()
 const messages = defineMessages({
 	subscribeCheckbox: {
 		id: 'auth.welcome.checkbox.subscribe',
-		defaultMessage: 'Subscribe to updates about Modrinth',
+		defaultMessage: 'Subscribe to updates about Blankethub',
 	},
 	tosLabel: {
 		id: 'auth.welcome.label.tos',
 		defaultMessage:
-			"By creating an account, you have agreed to Modrinth's <terms-link>Terms</terms-link> and <privacy-policy-link>Privacy Policy</privacy-policy-link>.",
+			"By creating an account, you have agreed to Blankethub's <terms-link>Terms</terms-link> and <privacy-policy-link>Privacy Policy</privacy-policy-link>.",
 	},
 	welcomeDescription: {
 		id: 'auth.welcome.description',
@@ -81,7 +81,7 @@ const messages = defineMessages({
 	},
 	welcomeLongTitle: {
 		id: 'auth.welcome.long-title',
-		defaultMessage: 'Welcome to Modrinth!',
+		defaultMessage: 'Welcome to Blankethub!',
 	},
 	welcomeTitle: {
 		id: 'auth.welcome.title',
@@ -90,7 +90,7 @@ const messages = defineMessages({
 })
 
 useHead({
-	title: () => `${formatMessage(messages.welcomeTitle)} - Modrinth`,
+	title: () => `${formatMessage(messages.welcomeTitle)} - Blankethub`,
 })
 
 const subscribe = ref(true)

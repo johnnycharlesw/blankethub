@@ -8,7 +8,7 @@ const summary: Stage = {
 	text: async () => (await import('../messages/checklist-text/summary/summary.md?raw')).default,
 	id: 'summary',
 	icon: AlignLeftIcon,
-	guidance_url: 'https://blankethub.loxalhost/legal/rules#miscellaneous',
+	guidance_url: 'https://blankethub.localhost/legal/rules#miscellaneous',
 	actions: [
 		{
 			id: 'summary_insufficient',

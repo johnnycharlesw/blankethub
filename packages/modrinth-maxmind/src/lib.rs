@@ -87,7 +87,7 @@ pub async fn init_reader() -> Result<maxminddb::Reader<Bytes>> {
 
         let dirs = directories::ProjectDirs::from(
             "com.modrinth",
-            "Modrinth",
+            "Blankethub",
             "modrinth-backend",
         )
         .wrap_err("failed to get cache directory")?;

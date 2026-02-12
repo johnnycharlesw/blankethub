@@ -30,7 +30,7 @@
     "message": "Linux"
   },
   "app-marketing.download.linux-disclaimer": {
-    "message": "Các phiên bản Linux của Modrinth App được <issues-link>biết là có vấn đề</issues-link> trên một số hệ thống và cấu hình nhất định. Nếu Modrinth App không ổn định trên hệ thống của bạn, chúng tôi khuyến khích bạn thử các ứng dụng khác như <prism-link>Prism Launcher</prism-link> để dễ dàng cài đặt nội dung của Modrinth."
+    "message": "Các phiên bản Linux của Blankethub App được <issues-link>biết là có vấn đề</issues-link> trên một số hệ thống và cấu hình nhất định. Nếu Blankethub App không ổn định trên hệ thống của bạn, chúng tôi khuyến khích bạn thử các ứng dụng khác như <prism-link>Prism Launcher</prism-link> để dễ dàng cài đặt nội dung của Blankethub."
   },
   "app-marketing.download.mac": {
     "message": "Mac"
@@ -39,10 +39,10 @@
     "message": "Tuỳ chọn tải về"
   },
   "app-marketing.download.terms": {
-    "message": "Bằng cách tải xuống Modrinth App, bạn đồng ý với <terms-link>Điều khoản</terms-link> và <privacy-link>Chính sách quyền riêng tư</privacy-link> của chúng tôi."
+    "message": "Bằng cách tải xuống Blankethub App, bạn đồng ý với <terms-link>Điều khoản</terms-link> và <privacy-link>Chính sách quyền riêng tư</privacy-link> của chúng tôi."
   },
   "app-marketing.download.title": {
-    "message": "Tải xuống Modrinth App (Beta)"
+    "message": "Tải xuống Blankethub App (Beta)"
   },
   "app-marketing.download.windows": {
     "message": "Windows"
@@ -54,7 +54,7 @@
     "message": "Theo dõi các dự án"
   },
   "app-marketing.features.importing.description": {
-    "message": "Nhập tất cả các hồ sơ yêu thích của bạn từ trình khởi chạy bạn đã sử dụng trước đó và bắt đầu với Modrinth App chỉ trong vài giây!"
+    "message": "Nhập tất cả các hồ sơ yêu thích của bạn từ trình khởi chạy bạn đã sử dụng trước đó và bắt đầu với Blankethub App chỉ trong vài giây!"
   },
   "app-marketing.features.importing.gdlauncher-alt": {
     "message": "GDLauncher"
@@ -72,7 +72,7 @@
     "message": "bởi {author}"
   },
   "app-marketing.features.mod-management.description": {
-    "message": "Modrinth giúp bạn dễ dàng quản lý tất cả các mod ở một nơi. Bạn có thể cài đặt, gỡ cài đặt và cập nhật các mod chỉ bằng một cú nhấp chuột."
+    "message": "Blankethub giúp bạn dễ dàng quản lý tất cả các mod ở một nơi. Bạn có thể cài đặt, gỡ cài đặt và cập nhật các mod chỉ bằng một cú nhấp chuột."
   },
   "app-marketing.features.mod-management.installed-mods": {
     "message": "Các mod đã cài đặt"
@@ -96,7 +96,7 @@
     "message": "Chế độ ngoại tuyến"
   },
   "app-marketing.features.open-source.description": {
-    "message": "Trình khởi chạy của Modrinth là mã nguồn mở hoàn toàn. Bạn có thể xem mã nguồn trên <github-link>GitHub</github-link> của chúng tôi!"
+    "message": "Trình khởi chạy của Blankethub là mã nguồn mở hoàn toàn. Bạn có thể xem mã nguồn trên <github-link>GitHub</github-link> của chúng tôi!"
   },
   "app-marketing.features.open-source.title": {
     "message": "Mã nguồn mở"
@@ -108,7 +108,7 @@
     "message": "% CPU"
   },
   "app-marketing.features.performance.description": {
-    "message": "Modrinth App hoạt động tốt hơn nhiều trình quản lý mod hàng đầu, chỉ sử dụng 150MB RAM!"
+    "message": "Blankethub App hoạt động tốt hơn nhiều trình quản lý mod hàng đầu, chỉ sử dụng 150MB RAM!"
   },
   "app-marketing.features.performance.discord": {
     "message": "Discord"
@@ -129,7 +129,7 @@
     "message": "< 150 MB"
   },
   "app-marketing.features.performance.modrinth-app": {
-    "message": "App Modrinth"
+    "message": "App Blankethub"
   },
   "app-marketing.features.performance.one-billion-percent": {
     "message": "1 tỉ %"
@@ -147,13 +147,13 @@
     "message": "Hiệu năng"
   },
   "app-marketing.features.play.description": {
-    "message": "Sử dụng Modrinth App để tải xuống và chơi với các mod và modpack yêu thích của bạn."
+    "message": "Sử dụng Blankethub App để tải xuống và chơi với các mod và modpack yêu thích của bạn."
   },
   "app-marketing.features.play.title": {
     "message": "Chơi với các mod yêu thích của bạn"
   },
   "app-marketing.features.sharing.description": {
-    "message": "Xây dựng, chia sẻ và chơi các modpack với bất kỳ mod và modpack nào trong hàng nghìn mod và modpack được lưu trữ tại Modrinth."
+    "message": "Xây dựng, chia sẻ và chơi các modpack với bất kỳ mod và modpack nào trong hàng nghìn mod và modpack được lưu trữ tại Blankethub."
   },
   "app-marketing.features.sharing.modpack": {
     "message": "Gói mod"
@@ -168,7 +168,7 @@
     "message": "Khác biệt so với bất kỳ launcher nào"
   },
   "app-marketing.features.website.description": {
-    "message": "Modrinth App được tích hợp hoàn toàn với trang web, vì vậy bạn có thể truy cập tất cả các dự án yêu thích của mình ngay từ ứng dụng!"
+    "message": "Blankethub App được tích hợp hoàn toàn với trang web, vì vậy bạn có thể truy cập tất cả các dự án yêu thích của mình ngay từ ứng dụng!"
   },
   "app-marketing.features.website.title": {
     "message": "Tích hợp với trang web"
@@ -177,19 +177,19 @@
     "message": "bạn đã từng sử dụng trước đây"
   },
   "app-marketing.hero.app-screenshot-alt": {
-    "message": "Ảnh chụp màn hình Modrinth App với một instance Cobblemon được mở ở trang \"Nội dung\"."
+    "message": "Ảnh chụp màn hình Blankethub App với một instance Cobblemon được mở ở trang \"Nội dung\"."
   },
   "app-marketing.hero.description": {
-    "message": "Modrinth App là một launcher mã nguồn mở độc đáo, cho phép bạn chơi các mod yêu thích và giữ chúng luôn được cập nhật, tất cả gói gọn trong một ứng dụng nhỏ gọn."
+    "message": "Blankethub App là một launcher mã nguồn mở độc đáo, cho phép bạn chơi các mod yêu thích và giữ chúng luôn được cập nhật, tất cả gói gọn trong một ứng dụng nhỏ gọn."
   },
   "app-marketing.hero.download-button": {
-    "message": "Tải App Modrinth"
+    "message": "Tải App Blankethub"
   },
   "app-marketing.hero.download-modrinth-app": {
-    "message": "Tải App Modrinth"
+    "message": "Tải App Blankethub"
   },
   "app-marketing.hero.download-modrinth-app-for-os": {
-    "message": "Tải xuống Modrinth App cho {os}"
+    "message": "Tải xuống Blankethub App cho {os}"
   },
   "app-marketing.hero.minecraft-screenshot-alt": {
     "message": "Ảnh chụp màn hình menu chính của instance Cobblemon."
@@ -282,7 +282,7 @@
     "message": "Tạo tài khoản"
   },
   "auth.sign-up.legal-dislaimer": {
-    "message": "Khi bạn tạo tài khoản, bạn đồng ý với <terms-link>Điều khoản sử dụng</terms-link> và <privacy-policy-link>Chính sách quyền riêng tư</privacy-policy-link> của Modrinth."
+    "message": "Khi bạn tạo tài khoản, bạn đồng ý với <terms-link>Điều khoản sử dụng</terms-link> và <privacy-policy-link>Chính sách quyền riêng tư</privacy-policy-link> của Blankethub."
   },
   "auth.sign-up.notification.password-mismatch.text": {
     "message": "Mật khẩu không khớp!"
@@ -291,7 +291,7 @@
     "message": "Đã có tài khoản rồi à?"
   },
   "auth.sign-up.subscribe.label": {
-    "message": "Đăng kí để nhận cập nhật về Modrinth"
+    "message": "Đăng kí để nhận cập nhật về Blankethub"
   },
   "auth.sign-up.title": {
     "message": "Đăng ký"
@@ -333,16 +333,16 @@
     "message": "Xác nhận email"
   },
   "auth.welcome.checkbox.subscribe": {
-    "message": "Đăng kí để nhận cập nhật về Modrinth"
+    "message": "Đăng kí để nhận cập nhật về Blankethub"
   },
   "auth.welcome.description": {
     "message": "Bạn hiện đã là một phần của cộng đồng tuyệt vời gồm những người sáng tạo và khám phá, những người đang xây dựng, tải xuống và luôn cập nhật với các mod tuyệt vời."
   },
   "auth.welcome.label.tos": {
-    "message": "Khi bạn tạo tài khoản, bạn đồng ý với <terms-link>Điều khoản sử dụng</terms-link> và <privacy-policy-link>Chính sách quyền riêng tư</privacy-policy-link> của Modrinth."
+    "message": "Khi bạn tạo tài khoản, bạn đồng ý với <terms-link>Điều khoản sử dụng</terms-link> và <privacy-policy-link>Chính sách quyền riêng tư</privacy-policy-link> của Blankethub."
   },
   "auth.welcome.long-title": {
-    "message": "Chào mừng đến với Modrinth!"
+    "message": "Chào mừng đến với Blankethub!"
   },
   "auth.welcome.title": {
     "message": "Chào mừng"
@@ -372,7 +372,7 @@
     "message": "Bạn có chắc chắn muốn xóa bộ sưu tập này không?"
   },
   "collection.description": {
-    "message": "{description} - Xem bộ sưu tập {name} của {username} trên Modrinth"
+    "message": "{description} - Xem bộ sưu tập {name} của {username} trên Blankethub"
   },
   "collection.description.following": {
     "message": "Bộ sưu tập được tạo tự động từ tất cả các dự án bạn đang theo dõi."
@@ -591,7 +591,7 @@
     "message": "Biểu mẫu thuế"
   },
   "dashboard.creator-tax-form-modal.security.description": {
-    "message": "Modrinth sử dụng nhà cung cấp bên thứ ba Track1099 để thu thập và lưu trữ an toàn các biểu mẫu thuế của bạn. <security-link>Tìm hiểu thêm tại đây.</security-link>"
+    "message": "Blankethub sử dụng nhà cung cấp bên thứ ba Track1099 để thu thập và lưu trữ an toàn các biểu mẫu thuế của bạn. <security-link>Tìm hiểu thêm tại đây.</security-link>"
   },
   "dashboard.creator-tax-form-modal.security.header": {
     "message": "Thực hành bảo mật"
@@ -756,7 +756,7 @@
     "message": "Để rút toàn bộ số dư khả dụng <b>{available}</b>, vui lòng hoàn tất biểu mẫu bên dưới. Biểu mẫu này là bắt buộc cho việc khai báo thuế và chỉ cần thực hiện một lần."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
-    "message": "Bạn phải hoàn thành biểu mẫu W-9 hoặc W-8 cho hồ sơ thuế của Modrinth để chúng tôi tuân thủ các quy định về thuế."
+    "message": "Bạn phải hoàn thành biểu mẫu W-9 hoặc W-8 cho hồ sơ thuế của Blankethub để chúng tôi tuân thủ các quy định về thuế."
   },
   "dashboard.creator-withdraw-modal.tax-form-required.header": {
     "message": "Yêu cầu biểu mẫu thuế"
@@ -798,7 +798,7 @@
     "message": "Email chưa được xác minh"
   },
   "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
-    "message": "Email nhận thưởng bạn đã nhập không được liên kết với tài khoản Modrinth của bạn. Modrinth không thể khôi phục các phần thưởng được gửi đến địa chỉ email không chính xác."
+    "message": "Email nhận thưởng bạn đã nhập không được liên kết với tài khoản Blankethub của bạn. Blankethub không thể khôi phục các phần thưởng được gửi đến địa chỉ email không chính xác."
   },
   "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
     "message": "Có tùy chọn phí thấp hơn"
@@ -825,7 +825,7 @@
     "message": "Doanh thu ước tính có thể thay đổi cho đến khi được chuyển sang trạng thái khả dụng."
   },
   "dashboard.revenue.estimated-tooltip.msg2": {
-    "message": "Nhấp để tìm hiểu cách Modrinth xử lý doanh thu của bạn."
+    "message": "Nhấp để tìm hiểu cách Blankethub xử lý doanh thu của bạn."
   },
   "dashboard.revenue.estimated-with-date": {
     "message": "Ước tính {date}"
@@ -846,7 +846,7 @@
     "message": "Đã rút"
   },
   "dashboard.revenue.tos": {
-    "message": "Bằng việc tải dự án lên Modrinth và rút tiền từ tài khoản của bạn, bạn đồng ý với <terms-link>Điều Khoản Chương Trình Phần Thưởng</terms-link>. Tìm hiểu thêm về <info-link>Chương Trình Phần Thưởng</info-link>."
+    "message": "Bằng việc tải dự án lên Blankethub và rút tiền từ tài khoản của bạn, bạn đồng ý với <terms-link>Điều Khoản Chương Trình Phần Thưởng</terms-link>. Tìm hiểu thêm về <info-link>Chương Trình Phần Thưởng</info-link>."
   },
   "dashboard.revenue.transactions.btn.download-csv": {
     "message": "Tải xuống dưới dạng CSV"
@@ -978,7 +978,7 @@
     "message": "Bộ sưu tập có thể là riêng tư."
   },
   "error.collection.404.list_item.3": {
-    "message": "Bộ sưu tập có thể đã bị gỡ xuống bởi đội ngũ kiểm duyệt của Modrinth do vi phạm <tou-link>Điều khoản Sử dụng</tou-link> của chúng tôi."
+    "message": "Bộ sưu tập có thể đã bị gỡ xuống bởi đội ngũ kiểm duyệt của Blankethub do vi phạm <tou-link>Điều khoản Sử dụng</tou-link> của chúng tôi."
   },
   "error.collection.404.list_title": {
     "message": "Tại sao?"
@@ -999,10 +999,10 @@
     "message": "Nội dung không khả dụng vì lý do pháp lý"
   },
   "error.generic.default.list_item.1": {
-    "message": "Kiểm tra xem Modrinth có đang gặp sự cố không trên <status-link>Trang trạng thái</status-link> của chúng tôi."
+    "message": "Kiểm tra xem Blankethub có đang gặp sự cố không trên <status-link>Trang trạng thái</status-link> của chúng tôi."
   },
   "error.generic.default.list_item.2": {
-    "message": "Nếu điều này tiếp tục xảy ra, bạn có thể thông báo cho Đội ngũ Modrinth bằng cách tham gia <discord-link>máy chủ Discord</discord-link> của chúng tôi."
+    "message": "Nếu điều này tiếp tục xảy ra, bạn có thể thông báo cho Đội ngũ Blankethub bằng cách tham gia <discord-link>máy chủ Discord</discord-link> của chúng tôi."
   },
   "error.generic.default.list_title": {
     "message": "Vui lòng thử lại sau vài phút."
@@ -1020,7 +1020,7 @@
     "message": "Chủ dự án có thể đã thay đổi URL, hoặc đã xóa nó."
   },
   "error.organization.404.list_item.3": {
-    "message": "Tổ chức có thể đã bị gỡ xuống bởi đội ngũ kiểm duyệt của Modrinth do vi phạm <tou-link>Điều khoản Sử dụng</tou-link> của chúng tôi."
+    "message": "Tổ chức có thể đã bị gỡ xuống bởi đội ngũ kiểm duyệt của Blankethub do vi phạm <tou-link>Điều khoản Sử dụng</tou-link> của chúng tôi."
   },
   "error.organization.404.list_title": {
     "message": "Tại sao?"
@@ -1035,7 +1035,7 @@
     "message": "Chủ sở hữu dự án có thể đã thay đổi URL, đặt dự án ở chế độ riêng tư hoặc đã xóa dự án."
   },
   "error.project.404.list_item.3": {
-    "message": "Dự án có thể đã bị gỡ xuống bởi đội ngũ kiểm duyệt của Modrinth do vi phạm <tou-link>Điều khoản Sử dụng</tou-link> của chúng tôi."
+    "message": "Dự án có thể đã bị gỡ xuống bởi đội ngũ kiểm duyệt của Blankethub do vi phạm <tou-link>Điều khoản Sử dụng</tou-link> của chúng tôi."
   },
   "error.project.404.list_title": {
     "message": "Tại sao?"
@@ -1050,7 +1050,7 @@
     "message": "Người dùng có thể đã thay đổi tên người dùng hoặc xóa tài khoản của họ."
   },
   "error.user.404.list_item.3": {
-    "message": "Tài khoản của người dùng có thể đã bị chấm dứt do vi phạm <tou-link>Điều khoản Sử dụng</tou-link> của Modrinth."
+    "message": "Tài khoản của người dùng có thể đã bị chấm dứt do vi phạm <tou-link>Điều khoản Sử dụng</tou-link> của Blankethub."
   },
   "error.user.404.list_title": {
     "message": "Tại sao?"
@@ -1086,10 +1086,10 @@
     "message": "\n\n"
   },
   "hosting-marketing.faq.cpu-kind": {
-    "message": "Những loại CPU nào được sử dụng trên Modrinth?"
+    "message": "Những loại CPU nào được sử dụng trên Blankethub?"
   },
   "hosting-marketing.faq.cpu-kind.answer": {
-    "message": "Máy chủ Modrinth được vận hành bởi dòng CPU tương đương với AMD Ryzen 7900 và 7950X3D với nhịp xung 5+ GHz, cùng với bộ nhớ DDR5."
+    "message": "Máy chủ Blankethub được vận hành bởi dòng CPU tương đương với AMD Ryzen 7900 và 7950X3D với nhịp xung 5+ GHz, cùng với bộ nhớ DDR5."
   },
   "hosting-marketing.faq.currency": {
     "message": "Tiền tệ nào được sử dụng để liệt kê giá?"
@@ -1098,28 +1098,28 @@
     "message": "Tất cả giá được liệt kê dưới tiền tệ Đô-la Mỹ (USD)"
   },
   "hosting-marketing.faq.ddos-protection": {
-    "message": "Modrinth Hosting có hỗ trợ bảo vệ DDoS không?"
+    "message": "Blankethub Hosting có hỗ trợ bảo vệ DDoS không?"
   },
   "hosting-marketing.faq.ddos-protection.answer": {
-    "message": "Có. Tất cả máy chủ Modrinth Hosting được trang bị bảo vệ DDoS, với trọng tải bảo vệ lên đến 17Tbps ở một số khu vực."
+    "message": "Có. Tất cả máy chủ Blankethub Hosting được trang bị bảo vệ DDoS, với trọng tải bảo vệ lên đến 17Tbps ở một số khu vực."
   },
   "hosting-marketing.faq.heading": {
     "message": "Câu hỏi thường gặp"
   },
   "hosting-marketing.faq.how-fast": {
-    "message": "Máy chủ Modrinth nhanh cỡ nào?"
+    "message": "Máy chủ Blankethub nhanh cỡ nào?"
   },
   "hosting-marketing.faq.increase-storage": {
     "message": "Tôi có thể tăng dung lượng lưu trữ trên máy chủ của tôi được không?"
   },
   "hosting-marketing.faq.location": {
-    "message": "Những máy chủ Modrinth Hosting được nằm ở đâu? Tôi có thể chọn khu vực không?"
+    "message": "Những máy chủ Blankethub Hosting được nằm ở đâu? Tôi có thể chọn khu vực không?"
   },
   "hosting-marketing.faq.versions-loaders": {
     "message": "Những phiên bản Minecraft và modloader nào có thể được sử dụng?"
   },
   "hosting-marketing.faq.versions-loaders.answer.one": {
-    "message": "Các máy chủ Modrinth Hosting có thể chạy bất kỳ phiên bản Minecraft: Java Edition xuống đến phiên bản 1.2.5, bao gồm cả những phiên bản thử nghiệm (snapshot)."
+    "message": "Các máy chủ Blankethub Hosting có thể chạy bất kỳ phiên bản Minecraft: Java Edition xuống đến phiên bản 1.2.5, bao gồm cả những phiên bản thử nghiệm (snapshot)."
   },
   "hosting-marketing.faq.versions-loaders.answer.two": {
     "message": "Chúng tôi cũng có hỗ trợ trình tải mod và plugin, một số bao gồm Fabric, Quilt, Forge và NeoForge cho mod, cũng như Purpur và Paper dành cho các plug-in. Tính khả dụng tùy thuộc vào việc trình tải mod hoặc plug-in đó hỗ trợ cho phiên bản Minecraft được chọn."
@@ -1149,7 +1149,7 @@
     "message": "Truy cập SFTP"
   },
   "hosting-marketing.included.sftp-access.description": {
-    "message": "Truy cập trực tiếp với các tệp tin trên máy chủ của bạn thông qua phương thức SFTP được cài đặt sẵn vào Modrinth Hosting"
+    "message": "Truy cập trực tiếp với các tệp tin trên máy chủ của bạn thông qua phương thức SFTP được cài đặt sẵn vào Blankethub Hosting"
   },
   "hosting-marketing.included.with-your-server": {
     "message": "Được bao gồm trong máy chủ của bạn"
@@ -1167,22 +1167,22 @@
     "message": "Có một máy chủ cho tất cả mọi người"
   },
   "hosting-marketing.why.all-on-modrinth": {
-    "message": "Quản lý tất cả trên Modrinth"
+    "message": "Quản lý tất cả trên Blankethub"
   },
   "hosting-marketing.why.consistently-fast": {
     "message": "Luôn nhanh"
   },
   "hosting-marketing.why.consistently-fast.description": {
-    "message": "Hạ tầng của chúng tôi chưa bao giờ quá tải, đó có nghĩa là mỗi máy chủ được chạy bởi Modrinth luôn luôn được chạy ở hiệu suất tối đa."
+    "message": "Hạ tầng của chúng tôi chưa bao giờ quá tải, đó có nghĩa là mỗi máy chủ được chạy bởi Blankethub luôn luôn được chạy ở hiệu suất tối đa."
   },
   "hosting-marketing.why.why-modrinth-hosting": {
-    "message": "Tại sao lại chọn Modrinth Hosting?"
+    "message": "Tại sao lại chọn Blankethub Hosting?"
   },
   "hosting-marketing.why.your-favorite-mods": {
     "message": "Tất cả các mod yêu thích của bạn"
   },
   "hosting-marketing.why.your-favorite-mods.description": {
-    "message": "Chọn giữa phiên bản gốc (Vanilla), Fabric, Forge, Quilt và NeoForge. Nếu chúng có trên Modrinth, chúng sẽ hoạt động trên máy chủ của bạn."
+    "message": "Chọn giữa phiên bản gốc (Vanilla), Fabric, Forge, Quilt và NeoForge. Nếu chúng có trên Blankethub, chúng sẽ hoạt động trên máy chủ của bạn."
   },
   "hosting.plan.out-of-stock": {
     "message": "Hết hàng"
@@ -1197,7 +1197,7 @@
     "message": "Đi tới bảng điều khiển"
   },
   "landing.creator.feature.constantly-evolving.description": {
-    "message": "Tận hưởng trải nghiệm modding tốt nhất với các bản cập nhật liên tục từ đội ngũ Modrinth"
+    "message": "Tận hưởng trải nghiệm modding tốt nhất với các bản cập nhật liên tục từ đội ngũ Blankethub"
   },
   "landing.creator.feature.constantly-evolving.title": {
     "message": "Không ngừng phát triển"
@@ -1242,13 +1242,13 @@
     "message": "Theo dõi những dự án yêu thích"
   },
   "landing.feature.launcher.description": {
-    "message": "API mã nguồn mở của Modrinth cho phép các launcher tích hợp sâu với nền tảng này. Bạn có thể sử dụng Modrinth thông qua <link>ứng dụng riêng của chúng tôi</link> hoặc các launcher phổ biến như ATLauncher, MultiMC và Prism Launcher."
+    "message": "API mã nguồn mở của Blankethub cho phép các launcher tích hợp sâu với nền tảng này. Bạn có thể sử dụng Blankethub thông qua <link>ứng dụng riêng của chúng tôi</link> hoặc các launcher phổ biến như ATLauncher, MultiMC và Prism Launcher."
   },
   "landing.feature.launcher.heading": {
     "message": "Chơi bằng launcher yêu thích của bạn"
   },
   "landing.feature.search.description": {
-    "message": "Tìm kiếm siêu nhanh cùng các bộ lọc mạnh mẽ của Modrinth giúp bạn tìm đúng thứ mình cần ngay khi đang gõ."
+    "message": "Tìm kiếm siêu nhanh cùng các bộ lọc mạnh mẽ của Blankethub giúp bạn tìm đúng thứ mình cần ngay khi đang gõ."
   },
   "landing.feature.search.heading": {
     "message": "Tìm thứ bạn muốn, nhanh và dễ dàng"
@@ -1281,10 +1281,10 @@
     "message": "ATLauncher"
   },
   "landing.launcher.graphic-alt": {
-    "message": "Hình minh hoạ đơn giản của một cửa sổ Minecraft, với logo Mojang Studios màu xanh Modrinth."
+    "message": "Hình minh hoạ đơn giản của một cửa sổ Minecraft, với logo Mojang Studios màu xanh Blankethub."
   },
   "landing.launcher.modrinth-app-label": {
-    "message": "Ứng dụng Modrinth"
+    "message": "Ứng dụng Blankethub"
   },
   "landing.launcher.prism-launcher-label": {
     "message": "Prism Launcher"
@@ -1368,22 +1368,22 @@
     "message": "Truy cập cài đặt tài khoản"
   },
   "layout.banner.add-email.description": {
-    "message": "Vì lý do bảo mật, Modrinth yêu cầu bạn đăng ký một địa chỉ email cho tài khoản của mình."
+    "message": "Vì lý do bảo mật, Blankethub yêu cầu bạn đăng ký một địa chỉ email cho tài khoản của mình."
   },
   "layout.banner.build-fail.description": {
-    "message": "Lần triển khai frontend của Modrinth này không thể tạo trạng thái từ API. Nguyên nhân có thể do sự cố hệ thống hoặc lỗi cấu hình. Hãy build lại khi API khả dụng. Mã lỗi: {errors}; URL API hiện tại: {url}"
+    "message": "Lần triển khai frontend của Blankethub này không thể tạo trạng thái từ API. Nguyên nhân có thể do sự cố hệ thống hoặc lỗi cấu hình. Hãy build lại khi API khả dụng. Mã lỗi: {errors}; URL API hiện tại: {url}"
   },
   "layout.banner.build-fail.title": {
     "message": "Lỗi tạo trạng thái từ API trong quá trình build."
   },
   "layout.banner.preview.title": {
-    "message": "Đây là bản mẫu của trang web Modrinth."
+    "message": "Đây là bản mẫu của trang web Blankethub."
   },
   "layout.banner.staging.description": {
-    "message": "Môi trường staging hoàn toàn tách biệt với cơ sở dữ liệu Modrinth đang vận hành chính thức. Môi trường này được dùng cho mục đích thử nghiệm và gỡ lỗi, và có thể đang chạy các phiên bản backend hoặc frontend Modrinth đang phát triển, mới hơn bản production."
+    "message": "Môi trường staging hoàn toàn tách biệt với cơ sở dữ liệu Blankethub đang vận hành chính thức. Môi trường này được dùng cho mục đích thử nghiệm và gỡ lỗi, và có thể đang chạy các phiên bản backend hoặc frontend Blankethub đang phát triển, mới hơn bản production."
   },
   "layout.banner.staging.title": {
-    "message": "Bạn đang xem môi trường staging của Modrinth"
+    "message": "Bạn đang xem môi trường staging của Blankethub"
   },
   "layout.banner.subscription-payment-failed.button": {
     "message": "Cập nhật thông tin thanh toán"
@@ -1398,7 +1398,7 @@
     "message": "Hoàn thành biểu mẫu thuế"
   },
   "layout.banner.tax.description": {
-    "message": "Bạn đã rút hơn 600 Usd từ Modrinth trong năm nay. Để tuân thủ quy định thuế, bạn cần hoàn tất biểu mẫu thuế. Việc rút tiền sẽ tạm dừng cho đến khi biểu mẫu này được gửi."
+    "message": "Bạn đã rút hơn 600 Usd từ Blankethub trong năm nay. Để tuân thủ quy định thuế, bạn cần hoàn tất biểu mẫu thuế. Việc rút tiền sẽ tạm dừng cho đến khi biểu mẫu này được gửi."
   },
   "layout.banner.tax.title": {
     "message": "Yêu cầu biểu mẫu thuế"
@@ -1416,7 +1416,7 @@
     "message": "Gửi lại email xác minh"
   },
   "layout.banner.verify-email.description": {
-    "message": "Vì lý do bảo mật, Modrinth yêu cầu bạn xác minh địa chỉ email được liên kết với tài khoản của mình."
+    "message": "Vì lý do bảo mật, Blankethub yêu cầu bạn xác minh địa chỉ email được liên kết với tài khoản của mình."
   },
   "layout.footer.about": {
     "message": "Giới thiệu"
@@ -1458,20 +1458,20 @@
     "message": "Điều khoản sử dụng"
   },
   "layout.footer.modrinth-information": {
-    "message": "Thông tin Modrinth"
+    "message": "Thông tin Blankethub"
   },
   "layout.footer.open-source": {
-    "message": "Modrinth là <github-link>mã nguồn mở</github-link>."
+    "message": "Blankethub là <github-link>mã nguồn mở</github-link>."
   },
   "layout.footer.products": {
     "message": "Sản phẩm"
   },
   "layout.footer.products.app": {
-    "message": "Ứng dụng Modrinth"
+    "message": "Ứng dụng Blankethub"
   },
 
   "layout.footer.products.servers": {
-    "message": "Modrinth Hosting"
+    "message": "Blankethub Hosting"
   },
   "layout.footer.resources": {
     "message": "Tài nguyên"
@@ -1507,7 +1507,7 @@
     "message": "Chuyển đổi menu"
   },
   "layout.meta.description": {
-    "message": "Tải xuống các mod Minecraft, plugin, datapack, shader, gói tài nguyên và modpack trên Modrinth. Khám phá và xuất bản các dự án trên Modrinth với giao diện và API hiện đại, dễ sử dụng."
+    "message": "Tải xuống các mod Minecraft, plugin, datapack, shader, gói tài nguyên và modpack trên Blankethub. Khám phá và xuất bản các dự án trên Blankethub với giao diện và API hiện đại, dễ sử dụng."
   },
   "layout.meta.og-description": {
     "message": "Khám phá và xuất bản nội dung Minecraft!"
@@ -1531,7 +1531,7 @@
     "message": "Cờ tính năng"
   },
   "layout.nav.get-modrinth-app": {
-    "message": "Tải ứng dụng Modrinth"
+    "message": "Tải ứng dụng Blankethub"
   },
   "layout.nav.home": {
     "message": "Trang chủ"
@@ -1540,10 +1540,10 @@
     "message": "Tạo máy chủ"
   },
   "layout.nav.modrinth-app": {
-    "message": "Ứng dụng Modrinth"
+    "message": "Ứng dụng Blankethub"
   },
   "layout.nav.modrinth-home-page": {
-    "message": "Trang chủ Modrinth"
+    "message": "Trang chủ Blankethub"
   },
   "layout.nav.my-servers": {
     "message": "Máy chủ của tôi"
@@ -1846,10 +1846,10 @@
     "message": "Hãy kiểm tra kỹ địa chỉ ví. Số tiền gửi đến địa chỉ không chính xác sẽ không thể khôi phục."
   },
   "profile.bio.fallback.creator": {
-    "message": "Một nhà sáng tạo trên Modrinth."
+    "message": "Một nhà sáng tạo trên Blankethub."
   },
   "profile.bio.fallback.user": {
-    "message": "Một người dùng Modrinth."
+    "message": "Một người dùng Blankethub."
   },
   "profile.button.billing": {
     "message": "Quản lý thanh toán người dùng"
@@ -1933,10 +1933,10 @@
     "message": "Đang lưu..."
   },
   "profile.meta.description": {
-    "message": "Tải xuống các dự án của {username} trên Modrinth"
+    "message": "Tải xuống các dự án của {username} trên Blankethub"
   },
   "profile.meta.description-with-bio": {
-    "message": "{bio} - Tải xuống các dự án của {username} trên Modrinth"
+    "message": "{bio} - Tải xuống các dự án của {username} trên Blankethub"
   },
   "profile.stats.projects-followers": {
     "message": "{count, plural, other {<stat>{count}</stat> người theo dõi dự án}}"
@@ -1975,7 +1975,7 @@
     "message": "Gửi lại để xét duyệt"
   },
   "project-moderation-nags.resubmit-for-review-desc": {
-    "message": "Dự án của bạn đã bị đội ngũ Modrinth {status, select, rejected {từ chối} withheld {tạm giữ} other {{status}}}.\nTrong hầu hết các trường hợp, bạn có thể gửi lại để xét duyệt sau khi xử lý phản hồi từ đội ngũ."
+    "message": "Dự án của bạn đã bị đội ngũ Blankethub {status, select, rejected {từ chối} withheld {tạm giữ} other {{status}}}.\nTrong hầu hết các trường hợp, bạn có thể gửi lại để xét duyệt sau khi xử lý phản hồi từ đội ngũ."
   },
   "project-moderation-nags.submit-checklist-tooltip": {
     "message": "Bạn phải hoàn thành các bước bắt buộc trong danh sách kiểm tra xuất bản!"
@@ -2077,7 +2077,7 @@
     "message": "Xem xét dự án"
   },
   "project.actions.servers-promo.description": {
-    "message": "Modrinth Hosting là cách đơn giản nhất để chơi cùng bạn bè mà không gặp rắc rối!"
+    "message": "Blankethub Hosting là cách đơn giản nhất để chơi cùng bạn bè mà không gặp rắc rối!"
   },
   "project.actions.servers-promo.pricing": {
     "message": "Bắt đầu từ {price}<small> / tháng</small>"
@@ -2110,10 +2110,10 @@
     "message": "{title} không hỗ trợ {gameVersion} cho {platform}"
   },
   "project.download.install-with-app": {
-    "message": "Cài đặt bằng Ứng dụng Modrinth"
+    "message": "Cài đặt bằng Ứng dụng Blankethub"
   },
   "project.download.no-app": {
-    "message": "Chưa có Ứng dụng Modrinth?"
+    "message": "Chưa có Ứng dụng Blankethub?"
   },
   "project.download.no-versions-available": {
     "message": "Không có phiên bản khả dụng cho {gameVersion} và {platform}."
@@ -2149,7 +2149,7 @@
     "message": "Tải xuống {title}"
   },
   "project.environment.migration-no-permission.message": {
-    "message": "Chúng tôi vừa nâng cấp toàn bộ hệ thống Môi trường trên Modrinth và hiện đã có các tùy chọn mới. Bạn không có quyền chỉnh sửa các cài đặt này, nhưng vui lòng thông báo cho một thành viên khác của dự án rằng metadata môi trường cần được xác minh."
+    "message": "Chúng tôi vừa nâng cấp toàn bộ hệ thống Môi trường trên Blankethub và hiện đã có các tùy chọn mới. Bạn không có quyền chỉnh sửa các cài đặt này, nhưng vui lòng thông báo cho một thành viên khác của dự án rằng metadata môi trường cần được xác minh."
   },
   "project.environment.migration-no-permission.title": {
     "message": "Metadata môi trường cần được xem xét"
@@ -2158,7 +2158,7 @@
     "message": "Tìm hiểu thêm về thay đổi này"
   },
   "project.environment.migration.message": {
-    "message": "Chúng tôi vừa nâng cấp toàn bộ hệ thống Môi trường trên Modrinth và hiện đã có các tùy chọn mới. Vui lòng xác minh rằng metadata là chính xác."
+    "message": "Chúng tôi vừa nâng cấp toàn bộ hệ thống Môi trường trên Blankethub và hiện đã có các tùy chọn mới. Vui lòng xác minh rằng metadata là chính xác."
   },
   "project.environment.migration.review-button": {
     "message": "Xem lại cài đặt môi trường"
@@ -2278,7 +2278,7 @@
     "message": "Vui lòng cung cấp thêm ngữ cảnh cho báo cáo của bạn"
   },
   "report.for.violation": {
-    "message": "Vi phạm <rules-link>Quy định</rules-link> hoặc <terms-link>Điều khoản sử dụng</terms-link> của Modrinth"
+    "message": "Vi phạm <rules-link>Quy định</rules-link> hoặc <terms-link>Điều khoản sử dụng</terms-link> của Blankethub"
   },
   "report.for.violation.description": {
     "message": "Ví dụ bao gồm nội dung độc hại, spam, phản cảm, lừa đảo, gây hiểu nhầm hoặc trái pháp luật."
@@ -2485,7 +2485,7 @@
     "message": "Viết báo cáo"
   },
   "scopes.sessionAccess.description": {
-    "message": "Truy cập các phiên do Modrinth cấp"
+    "message": "Truy cập các phiên do Blankethub cấp"
   },
   "scopes.sessionAccess.label": {
     "message": "Truy cập phiên"
@@ -2668,13 +2668,13 @@
     "message": "Phương thức thanh toán"
   },
   "settings.billing.pyro_subscription.description": {
-    "message": "Quản lý các gói đăng ký máy chủ Modrinth của bạn."
+    "message": "Quản lý các gói đăng ký máy chủ Blankethub của bạn."
   },
   "settings.billing.pyro_subscription.title": {
-    "message": "Gói đăng ký máy chủ Modrinth"
+    "message": "Gói đăng ký máy chủ Blankethub"
   },
   "settings.billing.subscription.description": {
-    "message": "Quản lý các gói đăng ký Modrinth của bạn."
+    "message": "Quản lý các gói đăng ký Blankethub của bạn."
   },
   "settings.billing.subscription.title": {
     "message": "Gói đăng ký"
@@ -2683,7 +2683,7 @@
     "message": "Tắt chế độ nhà phát triển"
   },
   "settings.display.banner.developer-mode.description": {
-    "message": "<strong>Chế độ nhà phát triển</strong> đang được bật. Chế độ này cho phép bạn xem các ID nội bộ của nhiều thành phần trên Modrinth, hữu ích nếu bạn là nhà phát triển sử dụng API của Modrinth. Nhấp vào logo Modrinth ở cuối trang 5 lần để bật hoặc tắt chế độ nhà phát triển."
+    "message": "<strong>Chế độ nhà phát triển</strong> đang được bật. Chế độ này cho phép bạn xem các ID nội bộ của nhiều thành phần trên Blankethub, hữu ích nếu bạn là nhà phát triển sử dụng API của Blankethub. Nhấp vào logo Blankethub ở cuối trang 5 lần để bật hoặc tắt chế độ nhà phát triển."
   },
   "settings.display.flags.description": {
     "message": "Bật hoặc tắt một số tính năng trên thiết bị này."
@@ -2728,16 +2728,16 @@
     "message": "Kết xuất nâng cao"
   },
   "settings.display.sidebar.external-links-new-tab.description": {
-    "message": "Mở các liên kết dẫn ra ngoài Modrinth trong tab mới. Bất kể cài đặt này, các liên kết cùng tên miền và trong mô tả Markdown sẽ mở trong cùng tab, còn các liên kết trong quảng cáo và trang chỉnh sửa sẽ mở trong tab mới."
+    "message": "Mở các liên kết dẫn ra ngoài Blankethub trong tab mới. Bất kể cài đặt này, các liên kết cùng tên miền và trong mô tả Markdown sẽ mở trong cùng tab, còn các liên kết trong quảng cáo và trang chỉnh sửa sẽ mở trong tab mới."
   },
   "settings.display.sidebar.external-links-new-tab.title": {
     "message": "Mở liên kết bên ngoài trong tab mới"
   },
   "settings.display.sidebar.hide-app-promos.description": {
-    "message": "Ẩn các nút “Tải ứng dụng Modrinth” khỏi thanh điều hướng chính. Trang ứng dụng Modrinth vẫn có thể được tìm thấy ở trang chủ hoặc phần chân trang."
+    "message": "Ẩn các nút “Tải ứng dụng Blankethub” khỏi thanh điều hướng chính. Trang ứng dụng Blankethub vẫn có thể được tìm thấy ở trang chủ hoặc phần chân trang."
   },
   "settings.display.sidebar.hide-app-promos.title": {
-    "message": "Ẩn quảng bá ứng dụng Modrinth"
+    "message": "Ẩn quảng bá ứng dụng Blankethub"
   },
   "settings.display.sidebar.left-aligned-content-sidebar.title": {
     "message": "Thanh bên căn trái trên các trang nội dung"
@@ -2752,7 +2752,7 @@
     "message": "Thanh bên bộ lọc căn phải trên các trang tìm kiếm"
   },
   "settings.display.theme.description": {
-    "message": "Chọn chủ đề màu bạn ưa thích cho Modrinth trên thiết bị này."
+    "message": "Chọn chủ đề màu bạn ưa thích cho Blankethub trên thiết bị này."
   },
   "settings.display.theme.title": {
     "message": "Chủ đề màu"
@@ -2761,7 +2761,7 @@
     "message": "Tạo PAT"
   },
   "settings.pats.description": {
-    "message": "PAT có thể được dùng để truy cập API của Modrinth. Để biết thêm thông tin, hãy xem <doc-link>tài liệu API của Modrinth</doc-link>. Bạn có thể tạo hoặc thu hồi PAT bất kỳ lúc nào."
+    "message": "PAT có thể được dùng để truy cập API của Blankethub. Để biết thêm thông tin, hãy xem <doc-link>tài liệu API của Blankethub</doc-link>. Bạn có thể tạo hoặc thu hồi PAT bất kỳ lúc nào."
   },
   "settings.pats.modal.create.action": {
     "message": "Tạo PAT"
@@ -2815,7 +2815,7 @@
     "message": "Tiểu sử"
   },
   "settings.profile.description": {
-    "message": "Thông tin hồ sơ của bạn được hiển thị công khai trên Modrinth và thông qua <docs-link>API Modrinth</docs-link>."
+    "message": "Thông tin hồ sơ của bạn được hiển thị công khai trên Blankethub và thông qua <docs-link>API Blankethub</docs-link>."
   },
   "settings.profile.profile-info": {
     "message": "Thông tin hồ sơ"
@@ -2836,7 +2836,7 @@
     "message": "Phiên hiện tại"
   },
   "settings.sessions.description": {
-    "message": "Dưới đây là tất cả các thiết bị hiện đang đăng nhập bằng tài khoản Modrinth của bạn. Bạn có thể đăng xuất từng thiết bị riêng lẻ.\n\nNếu bạn thấy một thiết bị không quen thuộc, hãy đăng xuất khỏi thiết bị đó và đổi mật khẩu tài khoản Modrinth ngay lập tức."
+    "message": "Dưới đây là tất cả các thiết bị hiện đang đăng nhập bằng tài khoản Blankethub của bạn. Bạn có thể đăng xuất từng thiết bị riêng lẻ.\n\nNếu bạn thấy một thiết bị không quen thuộc, hãy đăng xuất khỏi thiết bị đó và đổi mật khẩu tài khoản Blankethub ngay lập tức."
   },
   "settings.sessions.last-accessed-ago": {
     "message": "Truy cập lần cuối {ago}"
@@ -2848,7 +2848,7 @@
     "message": "Nền tảng không xác định"
   },
   "ui.latest-news-row.latest-news": {
-    "message": "Tin tức mới nhất từ Modrinth"
+    "message": "Tin tức mới nhất từ Blankethub"
   },
   "ui.latest-news-row.view-all": {
     "message": "Xem tất cả tin tức"

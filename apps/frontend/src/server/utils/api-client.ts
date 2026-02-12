@@ -1,9 +1,9 @@
 import {
-	type AuthConfig,
-	AuthFeature,
-	type FeatureConfig,
-	type NuxtClientConfig,
-	NuxtModrinthClient,
+    AuthFeature,
+    NuxtBlankethubClient,
+    type AuthConfig,
+    type FeatureConfig,
+    type NuxtClientConfig,
 } from '@modrinth/api-client'
 import type { H3Event } from 'h3'
 
@@ -17,12 +17,12 @@ async function getRateLimitKeyFromSecretsStore(): Promise<string | undefined> {
 	}
 }
 
-export interface ServerModrinthClientOptions {
+export interface ServerBlankethubClientOptions {
 	event?: H3Event
 	authToken?: string
 }
 
-export function useServerModrinthClient(options?: ServerModrinthClientOptions): NuxtModrinthClient {
+export function useServerBlankethubClient(options?: ServerBlankethubClientOptions): NuxtBlankethubClient {
 	const config = useRuntimeConfig(options?.event)
 	const apiBaseUrl = (config.apiBaseUrl || config.public.apiBaseUrl).replace('/v2/', '/')
 
@@ -43,5 +43,5 @@ export function useServerModrinthClient(options?: ServerModrinthClientOptions): 
 		features,
 	}
 
-	return new NuxtModrinthClient(clientConfig)
+	return new NuxtBlankethubClient(clientConfig)
 }

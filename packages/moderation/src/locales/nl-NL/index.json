@@ -12,7 +12,7 @@
     "defaultMessage": "Voeg een icoon toe"
   },
   "nags.add-links.description": {
-    "defaultMessage": "Voeg relevante links buiten Modrinth toe, zoals code, een probleemtracker of een Discord uitnodiging."
+    "defaultMessage": "Voeg relevante links buiten Blankethub toe, zoals code, een probleemtracker of een Discord uitnodiging."
   },
   "nags.add-links.title": {
     "defaultMessage": "Voeg externe links toe"

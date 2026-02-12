@@ -9,9 +9,9 @@
 
 ## Blankethub Monorepo
 
-Welcome to the Blankethub Monorepo, the primary codebase for the Blankethub web interface and app. It contains ![Lines](https://img.shields.io/endpoint?url=https://ghloc.vercel.app/api/modrinth/olympus/badge?logoColor=white&color=black&label=) lines of code and has ![Contributors](https://img.shields.io/github/contributors/johnnnycharlesw/blankethub?color=black&label=) contributors!
+Welcome to the Blankethub Monorepo, the primary codebase for the Blankethub web interface and app.
 
-If you're not a developer and you've stumbled upon this repository, you can access the web interface on the [Blankethub website](https://blankethub.loxalhost) and download the latest release of the app [here](https://blankethub.loxalhost/app).
+If you're not a developer and you've stumbled upon this repository, you can access the web interface on the [Blankethub website](https://blankethub.localhost) and download the latest release of the app [here](https://blankethub.localhost/app).
 
 ## Development
 
@@ -22,17 +22,17 @@ This repository contains two primary packages. For detailed development informat
 
 ## Contributing
 
-We welcome contributions! Before submitting any contributions, please read our [contributing guidelines](https://docs.blankethub.loxalhost/contributing/getting-started/).
+We welcome contributions! Before submitting any contributions, please read our [contributing guidelines](https://docs.blankethub.localhost/contributing/getting-started/).
 
 If you plan to fork this repository for your own purposes, please review our [copying guidelines](COPYING.md).
 
 ## Security
 
-If you discover a security vulnerability within our codebase, please follow our [responsible disclosure guidelines](https://blankethub.loxalhost/legal/security).
+If you discover a security vulnerability within our codebase, please follow our [responsible disclosure guidelines](https://blankethub.localhost/legal/security).
 
 ## Support
 
-If you need help with the Blankethub web interface or app, please visit our [support page](https://support.blankethub.loxalhost). For general inquiries, you can also join our [Discord server](https://discord.blankethub.loxalhost).
+If you need help with the Blankethub web interface or app, please visit our [support page](https://support.blankethub.localhost). For general inquiries, you can also join our [Discord server](https://discord.blankethub.localhost).
 
 ## License
 

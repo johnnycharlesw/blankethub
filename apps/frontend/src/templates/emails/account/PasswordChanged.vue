@@ -7,7 +7,7 @@ import StyledEmail from '../shared/StyledEmail.vue';
 <template>
 	<StyledEmail
 		title="Your password has been changed"
-		:manual-links="[{ link: 'https://support.blankethub.loxalhost', label: 'Support Portal' }]"
+		:manual-links="[{ link: 'https://support.blankethub.localhost', label: 'Support Portal' }]"
 	>
 		<Heading as="h1" class="mb-2 text-2xl font-bold"> Your password has been changed </Heading>
 
@@ -15,7 +15,7 @@ import StyledEmail from '../shared/StyledEmail.vue';
 		<Text class="text-muted text-base"> Your password has been changed on your account. </Text>
 		<Text class="text-muted text-base">
 			If you did not make this change, please contact us immediately through our
-			<VLink href="https://support.blankethub.loxalhost" class="text-green underline">Support Portal</VLink
+			<VLink href="https://support.blankethub.localhost" class="text-green underline">Support Portal</VLink
 			>.
 		</Text>
 	</StyledEmail>

@@ -7,14 +7,14 @@ use reqwest::Method;
 use serde::{Deserialize, Serialize};
 
 #[derive(Serialize, Deserialize, Clone, Debug)]
-pub struct ModrinthCredentials {
+pub struct BlankethubCredentials {
     pub session: String,
     pub expires: DateTime<Utc>,
     pub user_id: String,
     pub active: bool,
 }
 
-impl ModrinthCredentials {
+impl BlankethubCredentials {
     pub async fn get_and_refresh(
         exec: impl sqlx::Executor<'_, Database = sqlx::Sqlite> + Copy,
         semaphore: &FetchSemaphore,
@@ -197,7 +197,7 @@ pub async fn finish_login_flow(
     code: &str,
     semaphore: &FetchSemaphore,
     exec: impl sqlx::Executor<'_, Database = sqlx::Sqlite>,
-) -> crate::Result<ModrinthCredentials> {
+) -> crate::Result<BlankethubCredentials> {
     // The authorization code actually is the access token, since labrinth doesn't
     // issue separate authorization codes. Therefore, this is equivalent to an
     // implicit OAuth grant flow, and no additional exchanging or finalization is
@@ -206,7 +206,7 @@ pub async fn finish_login_flow(
 
     let info = fetch_info(code, semaphore, exec).await?;
 
-    Ok(ModrinthCredentials {
+    Ok(BlankethubCredentials {
         session: code.to_string(),
         expires: Utc::now() + Duration::weeks(2),
         user_id: info.id,

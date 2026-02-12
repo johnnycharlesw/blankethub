@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { ModrinthIcon, RightArrowIcon, XIcon } from '@modrinth/assets'
+import { BlankethubIcon, RightArrowIcon, XIcon } from '@modrinth/assets';
 
-import AutoLink from '../base/AutoLink.vue'
-import ButtonStyled from '../base/ButtonStyled.vue'
+import AutoLink from '../base/AutoLink.vue';
+import ButtonStyled from '../base/ButtonStyled.vue';
 
 const emit = defineEmits<{
 	(e: 'close'): void
@@ -22,7 +22,7 @@ withDefaults(
 	<div
 		class="brand-gradient-bg card-shadow bg-bg relative p-4 border-[1px] border-solid border-brand rounded-2xl grid grid-cols-[1fr_auto] overflow-hidden"
 	>
-		<ModrinthIcon
+		<BlankethubIcon
 			class="absolute -top-12 -right-12 size-48 text-brand-highlight opacity-25"
 			fill="none"
 			stroke="var(--color-brand)"
@@ -33,7 +33,7 @@ withDefaults(
 				>Want to play with <br />
 				<span class="text-brand">your friends?</span></span
 			>
-			<span class="text-sm font-medium">Create a server with Modrinth in just a few clicks.</span>
+			<span class="text-sm font-medium">Create a server with Blankethub in just a few clicks.</span>
 		</div>
 		<div class="flex flex-col items-end justify-end z-10">
 			<ButtonStyled color="brand">

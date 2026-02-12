@@ -393,7 +393,7 @@
     "defaultMessage": "Moderador"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Equipa do Modrinth"
+    "defaultMessage": "Equipa do Blankethub"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Pendente"
@@ -885,7 +885,7 @@
     "defaultMessage": "Onde queres que o teu servidor esteja localizado?"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "Região não listada? <link>Deixa-nos saber onde gostarias de ver a Modrinth Hosting a seguir!</link>"
+    "defaultMessage": "Região não listada? <link>Deixa-nos saber onde gostarias de ver a Blankethub Hosting a seguir!</link>"
   },
   "servers.region.southeast-asia": {
     "defaultMessage": "Sudeste Asiático"
@@ -912,7 +912,7 @@
     "defaultMessage": "Escuro"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Seleciona o teu tema de cores preferido para o Modrinth neste dispositivo."
+    "defaultMessage": "Seleciona o teu tema de cores preferido para o Blankethub neste dispositivo."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Claro"

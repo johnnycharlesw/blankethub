@@ -24,7 +24,7 @@ const licenseStage: Stage = {
 	text: async () => (await import('../messages/checklist-text/licensing.md?raw')).default,
 	id: 'license',
 	icon: BookTextIcon,
-	guidance_url: 'https://blankethub.loxalhost/legal/rules#miscellaneous',
+	guidance_url: 'https://blankethub.localhost/legal/rules#miscellaneous',
 	navigate: '/settings/license',
 	actions: [
 		{

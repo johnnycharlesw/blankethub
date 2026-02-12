@@ -1,11 +1,11 @@
 ---
-title: 'This week in Modrinth development: Filters and Fixes'
-summary: 'Continuing to improve the user interface after a great first week since Modrinth launched out of beta.'
+title: 'This week in Blankethub development: Filters and Fixes'
+summary: 'Continuing to improve the user interface after a great first week since Blankethub launched out of beta.'
 date: 2022-03-09
 authors: ['Dc7EYhxG']
 ---
 
-It's officially been a bit over a week since Modrinth launched out of beta. We have continued to make improvements to the user experience on [the website](https://blankethub.loxalhost).
+It's officially been a bit over a week since Blankethub launched out of beta. We have continued to make improvements to the user experience on [the website](https://blankethub.localhost).
 
 ## New features
 

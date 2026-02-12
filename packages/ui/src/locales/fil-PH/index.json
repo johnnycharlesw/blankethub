@@ -531,7 +531,7 @@
     "defaultMessage": "Moderator"
   },
   "omorphia.component.badge.label.modrinth-team": {
-    "defaultMessage": "Koponan ng Modrinth"
+    "defaultMessage": "Koponan ng Blankethub"
   },
   "omorphia.component.badge.label.pending": {
     "defaultMessage": "Nakabinbin"
@@ -930,7 +930,7 @@
     "defaultMessage": "Nasa magkakaibang environment ang proyekto mo"
   },
   "project.settings.environment.notice.review-options.description": {
-    "defaultMessage": "Kakaunlad lang ng aming sistema sa Mga Environment sa Modrinth at magagamit na ngayon ang mga bagong pagpipilian. Mangyaring suriin na tama ang napili sa ibaba at pindutin ang 'Patunayan' kapag tapos ka na!"
+    "defaultMessage": "Kakaunlad lang ng aming sistema sa Mga Environment sa Blankethub at magagamit na ngayon ang mga bagong pagpipilian. Mangyaring suriin na tama ang napili sa ibaba at pindutin ang 'Patunayan' kapag tapos ka na!"
   },
   "project.settings.environment.notice.review-options.title": {
     "defaultMessage": "Mangyaring suriin ang iyong mga opsiyon sa ibaba"
@@ -1236,7 +1236,7 @@
     "defaultMessage": "Saan mo nais malagay ang server mo?"
   },
   "servers.region.region-unsupported": {
-    "defaultMessage": "Hindi nakalista na rehiyon? <link>Ipaalam sa amin kung saan mo pa nais sunod makita ang Modrinth Hosting!</link>"
+    "defaultMessage": "Hindi nakalista na rehiyon? <link>Ipaalam sa amin kung saan mo pa nais sunod makita ang Blankethub Hosting!</link>"
   },
   "servers.region.southeast-asia": {
     "defaultMessage": "Timog-silangang Asya"
@@ -1263,7 +1263,7 @@
     "defaultMessage": "madilim"
   },
   "settings.display.theme.description": {
-    "defaultMessage": "Pumili ng iyong gugustohing paksang kulay para sa Modrinth ng nitong device."
+    "defaultMessage": "Pumili ng iyong gugustohing paksang kulay para sa Blankethub ng nitong device."
   },
   "settings.display.theme.light": {
     "defaultMessage": "Liwanag"

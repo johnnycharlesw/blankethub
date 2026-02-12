@@ -6,7 +6,7 @@ import { ref } from 'vue'
 import ButtonStyled from '../../components/base/ButtonStyled.vue'
 import ContentUpdaterModal from '../../components/instances/modals/ContentUpdaterModal.vue'
 
-// Real version data from Modrinth API - Sodium (mod)
+// Real version data from Blankethub API - Sodium (mod)
 const sodiumVersions: Laundryroom.Versions.v2.Version[] = [
 	{
 		id: '59wygFUQ',
@@ -117,7 +117,7 @@ const sodiumVersions: Laundryroom.Versions.v2.Version[] = [
 	},
 ]
 
-// Real version data from Modrinth API - Cobblemon modpack
+// Real version data from Blankethub API - Cobblemon modpack
 const cobblemonVersions: Laundryroom.Versions.v2.Version[] = [
 	{
 		id: 'DbQNxSJ0',

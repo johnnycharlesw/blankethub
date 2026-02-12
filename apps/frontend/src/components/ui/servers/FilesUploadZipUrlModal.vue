@@ -73,22 +73,22 @@
 <script setup lang="ts">
 import { DownloadIcon, ExternalIcon, SpinnerIcon, XIcon } from '@modrinth/assets'
 import {
-	BackupWarning,
-	ButtonStyled,
-	injectModrinthClient,
-	injectModrinthServerContext,
-	injectNotificationManager,
-	NewModal,
-	StyledInput,
+    BackupWarning,
+    ButtonStyled,
+    NewModal,
+    StyledInput,
+    injectBlankethubClient,
+    injectBlankethubServerContext,
+    injectNotificationManager,
 } from '@modrinth/ui'
-import { ModrinthServersFetchError } from '@modrinth/utils'
+import { BlankethubServersFetchError } from '@modrinth/utils'
 import { computed, nextTick, ref } from 'vue'
 
 import { handleServersError } from '~/composables/servers/modrinth-servers.ts'
 
 const notifications = injectNotificationManager()
-const client = injectModrinthClient()
-const { serverId } = injectModrinthServerContext()
+const client = injectBlankethubClient()
+const { serverId } = injectBlankethubServerContext()
 
 const cf = ref(false)
 
@@ -126,7 +126,7 @@ const handleSubmit = async () => {
 			} else {
 				submitted.value = false
 				handleServersError(
-					new ModrinthServersFetchError(
+					new BlankethubServersFetchError(
 						'Could not find CurseForge modpack at that URL.',
 						404,
 						new Error(`No modpack found at ${url.value}`),

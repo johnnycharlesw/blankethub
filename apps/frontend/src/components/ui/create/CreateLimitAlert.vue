@@ -14,7 +14,7 @@
 				{{ formatMessage(messages.limitReachedDescription, { type: typeName.singular, max }) }}
 				<div class="w-min">
 					<ButtonStyled color="red">
-						<NuxtLink to="https://support.blankethub.loxalhost" target="_blank">
+						<NuxtLink to="https://support.blankethub.localhost" target="_blank">
 							<MessageIcon />{{ formatMessage(messages.contactSupport) }}</NuxtLink
 						>
 					</ButtonStyled>
@@ -30,7 +30,7 @@
 				}}
 				<div class="w-min">
 					<ButtonStyled color="orange">
-						<NuxtLink to="https://support.blankethub.loxalhost" target="_blank">
+						<NuxtLink to="https://support.blankethub.localhost" target="_blank">
 							<MessageIcon />{{ formatMessage(messages.contactSupport) }}</NuxtLink
 						>
 					</ButtonStyled>

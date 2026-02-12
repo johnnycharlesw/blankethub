@@ -139,8 +139,8 @@ pub(super) async fn execute(
     let payout_req = json!({
         "sender_batch_header": {
             "sender_batch_id": format!("{}-payouts", Utc::now().to_rfc3339()),
-            "email_subject": "You have received a payment from Modrinth!",
-            "email_message": "Thank you for creating projects on Modrinth. Please claim this payment within 30 days.",
+            "email_subject": "You have received a payment from Blankethub!",
+            "email_message": "Thank you for creating projects on Blankethub. Please claim this payment within 30 days.",
         },
         "items": [{
             "amount": {
@@ -148,7 +148,7 @@ pub(super) async fn execute(
                 "value": net_usd.to_string()
             },
             "receiver": address,
-            "note": "Payment from Modrinth creator monetization program",
+            "note": "Payment from Blankethub creator monetization program",
             "recipient_type": wallet_type,
             "recipient_wallet": wallet,
             "sender_item_id": crate::models::ids::PayoutId::from(payout_id),

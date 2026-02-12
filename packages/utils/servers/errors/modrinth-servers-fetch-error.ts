@@ -1,10 +1,10 @@
-export class ModrinthServersFetchError extends Error {
+export class BlankethubServersFetchError extends Error {
 	constructor(
 		message: string,
 		public statusCode?: number,
 		public originalError?: Error,
 	) {
 		super(message)
-		this.name = 'ModrinthFetchError'
+		this.name = 'BlankethubFetchError'
 	}
 }
